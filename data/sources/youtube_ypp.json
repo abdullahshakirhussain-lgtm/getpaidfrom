@@ -1,0 +1,848 @@
+{
+ "source": "youtube_ypp",
+ "route": "youtube",
+ "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+ "retrieved_at": "2026-10-17T04:59:40+00:00",
+ "sha256": "8e99f845a4727f7be350fa08f19fc4b3bdfd5b61432c656a5ad0bf54ac796509",
+ "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+ "evidence": "official",
+ "lists": {
+  "signup_areas": {
+   "meaning": "ypp_signup_available",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts.",
+   "count": 138,
+   "entries": [
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AS",
+     "raw": "American Samoa",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AI",
+     "raw": "Anguilla",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AW",
+     "raw": "Aruba",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BM",
+     "raw": "Bermuda",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia and Herzegovina",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IO",
+     "raw": "British Indian Ocean Territory",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "VG",
+     "raw": "British Virgin Islands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "KY",
+     "raw": "Cayman Islands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "FK",
+     "raw": "Falkland Islands (Malvinas)",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "FO",
+     "raw": "Faroe Islands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GF",
+     "raw": "French Guiana",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PF",
+     "raw": "French Polynesia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GL",
+     "raw": "Greenland",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GP",
+     "raw": "Guadeloupe",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GU",
+     "raw": "Guam",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IQ",
+     "raw": "Iraq",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LA",
+     "raw": "Laos",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LB",
+     "raw": "Lebanon",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LY",
+     "raw": "Libya",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MK",
+     "raw": "Macedonia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MQ",
+     "raw": "Martinique",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "YT",
+     "raw": "Mayotte",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "ME",
+     "raw": "Montenegro",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MS",
+     "raw": "Montserrat",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NP",
+     "raw": "Nepal",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NC",
+     "raw": "New Caledonia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NF",
+     "raw": "Norfolk Island",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "MP",
+     "raw": "Northern Mariana Islands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PG",
+     "raw": "Papua New Guinea",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PR",
+     "raw": "Puerto Rico",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "IE",
+     "raw": "Republic of Ireland",
+     "label": null,
+     "meaning": "ypp_signup_available",
+     "mapping_note": "YouTube lists 'Republic of Ireland' and 'United Kingdom' as separate entries; the only UN members with 'Ireland' in their UN name are Ireland (IE) and the United Kingdom of Great Britain and Northern Ireland (GB), so this entry is IE. Checked 2026-10-17."
+    },
+    {
+     "code": "RE",
+     "raw": "Reunion",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SH",
+     "raw": "Saint Helena",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "PM",
+     "raw": "Saint Pierre and Miquelon",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "KR",
+     "raw": "South Korea",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SJ",
+     "raw": "Svalbard and Jan Mayen",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "TR",
+     "raw": "Turkey",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "TC",
+     "raw": "Turks and Caicos Islands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "VI",
+     "raw": "U.S. Virgin Islands",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "WF",
+     "raw": "Wallis and Futuna",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "EH",
+     "raw": "Western Sahara",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": null,
+     "meaning": "ypp_signup_available"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

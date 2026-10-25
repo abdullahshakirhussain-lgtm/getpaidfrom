@@ -1,0 +1,626 @@
+{
+ "code": "AT",
+ "un_name": "Austria",
+ "m49_name": "Austria",
+ "iso3": "AUT",
+ "m49": "040",
+ "region": "Europe",
+ "sub_region": "Western Europe",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "14-12-1955",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency EUR",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. As an EU member state, Austria applies Article 63 TFEU, which prohibits restrictions on capital movements and payments between EU countries and with non-EU countries. Banks still apply AML/KYC checks and may ask for the source of funds.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "Article 63 TFEU prohibits all restrictions on the movement of capital and payments between EU countries, as well as between EU and non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Very likely yes: Article 63 TFEU removes capital-movement restrictions, and EU banks and e-money institutions commonly offer foreign-currency or multi-currency accounts. No Austria-specific source on account rules was captured.",
+   "status": "unverified",
+   "note": "Only the general EU capital-movement source captured; no national bank/regulator source on FCY accounts (2026-10-23).",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "ensuring that payments in relation to those capital movements can be executed without restrictions, so that individuals and businesses can use, invest and/or save their money or financial assets anywhere within the EU as well as in non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Austria (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Austria is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Austria is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Austria is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Austria is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Austria IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Austria appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Trades register online through GISA or the Unternehmensserviceportal (USP), and the trade registration itself is free. 'New self-employed' (Neue Selbständige) in non-trade activities need no trade licence but register with the tax office and SVS (not captured). A NeuFöG confirmation from the WKO founder service saves fees in the first 12 months.",
+   "status": "unverified",
+   "note": "Single secondary source (Everbill) on 2026-10-23.",
+   "sources": [
+    {
+     "url": "https://www.everbill.com/kleingewerbe-anmelden",
+     "publisher": "Everbill",
+     "title": "Kleingewerbe anmelden 2026",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-d2a353ffc0f9.html.gz",
+     "quote": "Die Anmeldung ist seit 2026 komplett online möglich — über GISA oder das Unternehmensserviceportal (USP) ."
+    },
+    {
+     "url": "https://www.everbill.com/kleingewerbe-anmelden",
+     "publisher": "Everbill",
+     "title": "Kleingewerbe anmelden 2026",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-d2a353ffc0f9.html.gz",
+     "quote": "Die Gewerbeanmeldung selbst ist kostenlos ."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Austria to the OECD: \"Austria issues TINs which are not reported on official documents of identification. The Local Tax Offices issue TINs to the taxpayers having their residence in the area of competence of these Offices, when they ask the local office for a service. This means that a TIN can change when a taxpayer changes residence.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/austria-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Austria's tax administration)",
+     "title": "Austria — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-9aa2daa774b6.pdf.gz",
+     "quote": "Austria issues TINs which are not reported on official documents of identification. The Local Tax Offices issue TINs to the taxpayers having their residence in the area of competence of these Offices, when they ask the local office for a service. This means that a TIN can change when a taxpayer changes residence.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Tax residents of Austria are taxed on worldwide income (see quoted rules for exceptions such as remittance-basis regimes). Progressive rates from 0% (up to EUR 13,539) to 55% (above EUR 1 million). Inference (general source principle, not quoted): work performed while living in Austria for foreign clients is normally taxable in Austria.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/austria/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Austria - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d1f2ef3eeb15.html.gz",
+     "quote": "All individuals resident in Austria are subject to Austrian income tax on their worldwide income, including income from trade or business, profession, employment, investments, and property."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/austria/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Austria - Individual - Residence",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-76192c34b0be.html.gz",
+     "quote": "A person is generally regarded as resident with the establishment of an abode or, in any event, after a six-month stay in Austria."
+    },
+    {
+     "url": "https://taxatlas.io/country/austria/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Austria Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-ae72fe787a85.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The standard VAT rate is 20%. Under the EU SME scheme, small businesses can be exempt on domestic sales. Austria's small-business threshold is EUR 55,000 of annual turnover since 1 January 2025; if you exceed it by no more than 10%, the exemption still applies until year-end (USP, the official business service portal; Deloitte 2026). Where services are taxed (EU-wide rules, illustrated by Irish Revenue guidance): (1) B2B, meaning services to business customers in other EU countries or outside the EU, are taxed where the customer is established, so no Austria VAT is charged; EU business customers self-account under the reverse charge. (2) B2C services to private individuals are, as a rule, taxed where the supplier is established, so Austria VAT applies once you are VAT-registered. (3) Exception: consultancy, legal, accounting, engineering, data-processing, advertising, licensing and electronically supplied services to private customers outside the EU are outside EU VAT, subject to 'use and enjoyment' rules. Electronically supplied services to private customers in other EU countries follow special OSS rules (not captured here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/austria/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Austria - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4624799465fb.html.gz",
+     "quote": "As entrepreneurs, they have to charge the supply of goods or services provided to their customers with Austrian VAT at a rate of 20%."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/vat-exemptions/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "VAT exemptions for SMEs in cross-border and domestic sales (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-348d2dc786c3.html.gz",
+     "quote": "Domestic VAT Rules If your SME has an annual turnover under EUR 85 000 or lower if set by the EU country , you can apply for a VAT exemption on domestic sales ."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/cross-border-vat/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Cross-border VAT (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-31a2fc91eb48.html.gz",
+     "quote": "Selling services to businesses based in another EU country If you sell services to businesses based in another EU country you don't usually need to charge your customers VAT."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "Supply of services to a business (B2B) For supplies of business to business services (B2B), the place of supply is the place where the business receiving the services is established."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "This applies whether the business customer is in the European Union (EU) or not."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "For supplies of business to consumer services (B2C), the place of supply is the place where the supplier: has established their business"
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "If the following services are provided to non-business customers established outside the European Union (EU), the place of supply is outside the EU."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "This includes the provision of other services directly linked thereto telecommunications services radio and television broadcasting services and electronically supplied services."
+    },
+    {
+     "url": "https://www.usp.gv.at/themen/steuern-finanzen/umsatzsteuer-ueberblick/weitere-informationen-zur-umsatzsteuer/weitere-steuertatbestaende-und-befreiungen/kleinunternehmen.html",
+     "publisher": "Unternehmensserviceportal (USP, Austrian government)",
+     "title": "Kleinunternehmen (Regelung seit 1. Jänner 2025)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-54cefeb6a052.html.gz",
+     "quote": "Die Kleinunternehmergrenze in Höhe von 55.000 Euro"
+    },
+    {
+     "url": "https://www.usp.gv.at/themen/steuern-finanzen/umsatzsteuer-ueberblick/weitere-informationen-zur-umsatzsteuer/weitere-steuertatbestaende-und-befreiungen/kleinunternehmen.html",
+     "publisher": "Unternehmensserviceportal (USP, Austrian government)",
+     "title": "Kleinunternehmen (Regelung seit 1. Jänner 2025)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-54cefeb6a052.html.gz",
+     "quote": "Im Kalenderjahr des Überschreitens kann die Kleinunternehmergrenze noch bis Ende des Jahres angewandt werden, wenn die Grenze um nicht mehr als 10 Prozent überschritten wird."
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-austriahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Austria Highlights 2026",
+     "retrieved": "2026-10-25",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-99a25beb4c8d.pdf.gz",
+     "quote": "Registration: Austrian entrepreneurs whose annual turnover (reduced by certain VAT-exempt transactions) exceeds EUR 55,000 must register for VAT purposes."
+    }
+   ],
+   "notes": "National SME threshold not captured unless stated."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The EU General Data Protection Regulation (GDPR) applies directly in Austria, supervised by the national data protection authority. It covers EU businesses and non-EU businesses offering goods or services to people in the EU.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+     "publisher": "European Commission",
+     "title": "Data protection (European Commission)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-67745d447c93.html.gz",
+     "quote": "EU data protection legislation is comprised of the General Data Protection Regulation (GDPR), the Law Enforcement Directive (LED), and the Data Protection Regulation for EU institutions, bodies, offices and agencies (EUDPR)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Data protection and online privacy (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5529929a174.html.gz",
+     "quote": "These rules apply to both companies and organisations (public and private) in the EU and those based outside the EU who offer goods or services in the EU , such as Facebook or Amazon, whenever these companies request or re-use the personal data of individuals in the EU."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "EU consumer law gives a 14-day withdrawal right for online and distance purchases without justification: 14 days from delivery for goods, and from conclusion of the contract for services. Exceptions include personalised goods, perishables and date-specific services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "This means you can cancel the contract within 14 days without providing any justification (the \"cooling-off period\")."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "For goods this means 14 days from the date of delivery, for services 14 days after the day the contract was agreed."
+    }
+   ],
+   "notes": "National implementations may add detail."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Kleinunternehmerregelung: from 2025, businesses with annual turnover up to EUR 55,000 (raised from the earlier limit) are VAT-exempt (no VAT charged, no input VAT recovery), with a 10% tolerance for one-time breaches. Sources differ on whether the limit is gross or net.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.everbill.com/kleingewerbe-anmelden",
+     "publisher": "Everbill",
+     "title": "Kleingewerbe anmelden 2026",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-d2a353ffc0f9.html.gz",
+     "quote": "1 Z 27 UStG) Steuerliche Befreiung — bis 55.000 EUR brutto/Jahr keine USt Gewerbe anmelden Gewerbeanmeldung (GISA) Behördlicher Schritt — freies oder reglementiertes Gewerbe Wichtig: Einzelunternehmen (Rechtsform), Gewerbeanmeldung (behördlicher Schritt) und Kleinunternehmerregelung (Steuerstatus) sind drei verschiedene Dinge , die unabhängig voneinander gelten."
+    },
+    {
+     "url": "https://invoicedataextraction.com/blog/austria-kleinunternehmerregelung-invoice-requirements",
+     "publisher": "Invoice Data Extraction",
+     "title": "Austria Kleinunternehmerregelung invoice requirements",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-4e63ac74bc21.html.gz",
+     "quote": "Austria raised the Kleinunternehmerregelung threshold from EUR 35,000 to EUR 55,000 in net annual turnover, introduced a 10% tolerance buffer for one-time threshold breaches, and expanded simplified invoicing rules for smaller transactions."
+    }
+   ],
+   "notes": "Gross vs net conflict."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Austria accepts: Fremdenpässe (Alien's Passport) Führerschein (Driver's license) - scans of front and back are required Personalausweis Republik Österreich (Identity card) - scans of front and back are required Identitätskarte für Fremde (Identity card for foreigners) - scans of front and back are required Reisepass (Passport) Konventionsreisepass (Passport for asylum seekers) Aufenthaltstitel (Residence permit) Duldungskarte …. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=AT",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Austria",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-9f3f6df3489f.html.gz",
+     "quote": "Acceptable forms of identification: Fremdenpässe (Alien's Passport) Führerschein (Driver's license) - scans of front and back are required Personalausweis Republik Österreich (Identity card) - scans of front and back are required Identitätskarte für Fremde (Identity card for foreigners) - scans of front and back are required Reisepass (Passport) Konventionsreisepass (Passport for asylum seekers) Aufenthaltstitel (Residence permit) Duldungskarte (Temporary residence permit)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Austria: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

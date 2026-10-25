@@ -1,0 +1,510 @@
+{
+ "code": "SC",
+ "un_name": "Seychelles",
+ "m49_name": "Seychelles",
+ "iso3": "SYC",
+ "m49": "690",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": false,
+ "lldc": false,
+ "sids": true,
+ "un_admitted": "21-09-1976",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Likely yes. The Foreign Exchange Act 2009 (in force September 2009) reportedly eliminated currency controls for residents and non-residents, subject to anti-money-laundering law, with dealing limited to banks and bureaux de change. This was not confirmed from the Act or a current Central Bank of Seychelles statement.",
+   "status": "unverified",
+   "note": "Captured source only confirms the Act's entry into force; the 'no controls' summary comes from a third-party consolidated copy (regalert.today, HTTP 429) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://seychelles.hu/blog/2020/09/17/new-foreign-exchange-law-now-in-force-says-cbs",
+     "publisher": "Consulate of the Republic of Seychelles in Hungary (reposting CBS notice)",
+     "title": "New foreign exchange law now in force, says CBS (03.09.2009)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f2a57b57fa06.html.gz",
+     "quote": "The Central Bank of Seychelles (CBS) this week issued a notice to the public advising that the Foreign Exchange Act 2009 is now in force."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Likely yes. Residents may reportedly hold foreign currency freely under the Foreign Exchange Act 2009, but this was not confirmed in a captured source.",
+   "status": "unverified",
+   "note": "No captured source on resident FX accounts on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Seychelles (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Seychelles is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Seychelles is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Seychelles is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Seychelles is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Seychelles is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Seychelles.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole trader registers with the Registrar of Businesses under the Business Registration Act 2013, and needs a business licence from the Seychelles Licensing Authority. The licence requires a National Identity Number (NIN), so in practice this is for citizens and legal residents. New businesses must also register with the Seychelles Revenue Commission (SRC), with a national ID card or passport and the relevant licence.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.expanship.com/sc/blog/sole-proprietorship-in-seychelles",
+     "publisher": "Expanship",
+     "title": "Sole Proprietorship in Seychelles (17 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-04c919fd6862.html.gz",
+     "quote": "Legal Basis and Governing Law Copy link to section Registration of a sole trader is governed by the Business Registration Act 2013, with the file handled by the Registrar of Businesses and oversight from the Financial Intelligence Unit (FIU)."
+    },
+    {
+     "url": "https://www.expanship.com/sc/blog/sole-proprietorship-in-seychelles",
+     "publisher": "Expanship",
+     "title": "Sole Proprietorship in Seychelles (17 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-04c919fd6862.html.gz",
+     "quote": "A sole-trader business licence from the Seychelles Licensing Authority requires a valid National Identity Number (NIN), which is issued to Seychellois citizens and persons holding legal residency."
+    },
+    {
+     "url": "https://src.gov.sc/faq/",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Frequently Asked Questions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-890a00cd0a24.html.gz",
+     "quote": "National identification card or passport.‎ Copy of license issued by respective authorities (e.g."
+    }
+   ],
+   "notes": "Registration fees (SCR 100-200 per a guide) not confirmed."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Businesses register with the Seychelles Revenue Commission, presenting a national ID card or passport and a copy of their licence; a TIN is issued. The registration deadline after starting to trade was not captured. Official TIN description (OECD sheet): \"In accordance with Section 35 of the Revenue Administration Act, 2009 any person liable for revenue has to apply for a TIN. The term \"Person\" includes— (a) an individual, partnership, entity or trust; or (b) Government body; The Seychelles do not levy any tax on individuals apart for those who falls under the category of business.\"",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://src.gov.sc/faq/",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Frequently Asked Questions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-890a00cd0a24.html.gz",
+     "quote": "National identification card or passport.‎ Copy of license issued by respective authorities (e.g."
+    },
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/seychelles-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Seychelles's tax administration)",
+     "title": "Seychelles — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-9b83432793c2.pdf.gz",
+     "quote": "In accordance with Section 35 of the Revenue Administration Act, 2009 any person liable for revenue has to apply for a TIN. The term \"Person\" includes— (a) an individual, partnership, entity or trust; or (b) Government body; The Seychelles do not levy any tax on individuals apart for those who falls under the category of business.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Small businesses with annual turnover below SCR 1 million pay presumptive tax: a flat 1.5% of turnover, with no expenses deductible, filed by 31 March (Business Tax Act 2009, Tenth Schedule, since 2013). Above that, business tax applies to taxable income. Sole traders are taxed on a source basis: Seychelles-source income is taxable, and foreign-source income is generally outside scope.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://src.gov.sc/wp-content/uploads/2022/12/Completing-the-Presumptive-Tax-Return-Brochure.pdf",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Completing the Presumptive Tax Return (brochure)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-16f8cac47e0c.pdf.gz",
+     "quote": "The tax due is 1.5% of the annual business turnover."
+    },
+    {
+     "url": "https://src.gov.sc/wp-content/uploads/2022/12/Completing-the-Presumptive-Tax-Return-Brochure.pdf",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Completing the Presumptive Tax Return (brochure)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-16f8cac47e0c.pdf.gz",
+     "quote": "It applies to small businesses with an annual turnover below SR 1 million."
+    },
+    {
+     "url": "https://src.gov.sc/?p=640",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Tax System",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-61e3e2c24582.html.gz",
+     "quote": "The Business Tax Act covers three main regimes:‎ Presumptive Tax ‎ Applicability Introduced in January 2013 under the Tenth Schedule of the Business Tax Act, ‎‎2009 as amended, for small businesses with an annual turnover below SCR 1 million."
+    },
+    {
+     "url": "https://www.expanship.com/sc/blog/sole-proprietorship-in-seychelles",
+     "publisher": "Expanship",
+     "title": "Sole Proprietorship in Seychelles (17 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-04c919fd6862.html.gz",
+     "quote": "Sole traders are taxed under the Business Tax Act on a source basis, meaning Seychelles-sourced income is taxable while foreign-sourced income is generally outside scope."
+    }
+   ],
+   "notes": "Source rule for remote services performed in Seychelles for foreign clients not established (where the work is done may make it Seychelles-source)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Compulsory VAT registration threshold SCR 2,000,000; voluntary registration from SCR 100,000 (S.I. 97 of 2024, in force 1 Jan 2025). The rate is 15% (per SRC's import-VAT example). Treatment of exported services was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://src.gov.sc/wp-content/uploads/2024/12/SI-97-2024-Value-Added-Tax-Amendment-of-Fourth-Schedule-Regulations-2024.pdf",
+     "publisher": "Seychelles Revenue Commission / Government Gazette",
+     "title": "Seychelles — S.I. 97 of 2024, VAT (Amendment of Fourth Schedule) Regulations 2024",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-54b07e8e2a4b.pdf.gz",
+     "quote": "The Fourth Schedule of the Value Added Tax Act is repealed and substituted with the following — “ (a) The registration threshold for the purposes of section 7 is SCR2,000,000."
+    },
+    {
+     "url": "https://src.gov.sc/wp-content/uploads/2024/12/SI-97-2024-Value-Added-Tax-Amendment-of-Fourth-Schedule-Regulations-2024.pdf",
+     "publisher": "Seychelles Revenue Commission / Government Gazette",
+     "title": "Seychelles — S.I. 97 of 2024, VAT (Amendment of Fourth Schedule) Regulations 2024",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-54b07e8e2a4b.pdf.gz",
+     "quote": "(b) The registration threshold for the purposes of section 9 of the Value Added Tax Act is SCR100,000.”."
+    },
+    {
+     "url": "https://src.gov.sc/faq/",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Frequently Asked Questions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-890a00cd0a24.html.gz",
+     "quote": "Customs value + Customs Duties and other applicable taxes x 15% = SCR 390"
+    }
+   ],
+   "notes": "Section 9 = voluntary registration per SRC notice (search summary)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Data Protection Act 2023 (Act 24 of 2023) has been in force since 22 Dec 2023, repealing the never-implemented 2003 Act. The Information Commission enforces it, with audit and penalty powers. Controllers had 18 months (to about June 2025) to comply. Data breaches must be reported promptly, and a privacy policy must be published. No controller-registration duty was identified.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "publisher": "Seychelles Gazette",
+     "title": "Data Protection Act 2023 (Act 24 of 2023), Seychelles Gazette",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-22-851fe6121dcd.pdf.gz",
+     "quote": "PART II - INFORMATION COMMISSION Information Commission 5.(1) The Information Commission is the competent authority to enforce and implement this Act."
+    },
+    {
+     "url": "https://applebyglobal.com/publications/data-protection-law-now-in-force-in-seychelles",
+     "publisher": "Appleby",
+     "title": "Data Protection Law now in force in Seychelles",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2c0ccaadb3bd.html.gz",
+     "quote": "Transitional Provisions All data controller or data processors have been provided with a transitional period of 18 months (from 22 December 2023) to ensure that their activities conform to the DPA."
+    },
+    {
+     "url": "https://www.gazette.sc/sites/default/files/2023-12/Act%2024%20-%202023%20-%20Data%20Protection%20Act%202023.pdf",
+     "publisher": "Seychelles Gazette",
+     "title": "Data Protection Act 2023 (Act 24 of 2023), Seychelles Gazette",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-22-851fe6121dcd.pdf.gz",
+     "quote": "Transparency 34.(1) A data controller and data processor shall make publicly and persistently available, in a clear and readily accessible manner , all the information in their custody, and shall develop a privacy policy that provides a detailed and accurate representation of the entity's data processing and data transfer activities."
+    },
+    {
+     "url": "https://applebyglobal.com/publications/data-protection-law-now-in-force-in-seychelles",
+     "publisher": "Appleby",
+     "title": "Data Protection Law now in force in Seychelles",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2c0ccaadb3bd.html.gz",
+     "quote": "The DPA also mandates prompt reporting of data breaches to the Information Commission and affected individuals."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Seychelles. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "690,Seychelles,Legislation,Legislation,Legislation,Legislation,No Legislation,1,0,0,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. The 1.5% presumptive tax below SCR 1m (L3) is the main simplification.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "A National Identity Number (NIN) / national ID card is needed for a sole-trader licence. A national ID card or passport is accepted for SRC tax registration. Bank KYC requirements were not sourced.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.expanship.com/sc/blog/sole-proprietorship-in-seychelles",
+     "publisher": "Expanship",
+     "title": "Sole Proprietorship in Seychelles (17 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-04c919fd6862.html.gz",
+     "quote": "A non-resident does not hold a NIN."
+    },
+    {
+     "url": "https://src.gov.sc/faq/",
+     "publisher": "Seychelles Revenue Commission",
+     "title": "Frequently Asked Questions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-890a00cd0a24.html.gz",
+     "quote": "National identification card or passport.‎ Copy of license issued by respective authorities (e.g."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Seychelles: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Seychelles: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Seychelles: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Seychelles: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

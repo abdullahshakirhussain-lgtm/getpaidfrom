@@ -1,0 +1,634 @@
+{
+ "code": "FR",
+ "un_name": "France",
+ "m49_name": "France",
+ "iso3": "FRA",
+ "m49": "250",
+ "region": "Europe",
+ "sub_region": "Western Europe",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "24-10-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency EUR",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. As an EU member state, France applies Article 63 TFEU, which prohibits restrictions on capital movements and payments between EU countries and with non-EU countries. Banks still apply AML/KYC checks and may ask for the source of funds.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "Article 63 TFEU prohibits all restrictions on the movement of capital and payments between EU countries, as well as between EU and non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Very likely yes. Most banks let you open a dollar account; traditional French banks named as offering them include BNP Paribas, Société Générale, HSBC, Crédit Mutuel and Crédit Agricole (WorldRemit, 2022). EU law (art. 63 TFEU) bars restrictions on capital movements. Fintech multi-currency accounts are the common low-cost alternative (see P5).",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "ensuring that payments in relation to those capital movements can be executed without restrictions, so that individuals and businesses can use, invest and/or save their money or financial assets anywhere within the EU as well as in non-EU countries.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://www.worldremit.com/fr/blog/finance/ouvrir-un-compte-en-dollars-en-france",
+     "publisher": "WorldRemit",
+     "title": "Comment ouvrir un compte en dollars en France ?",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-443f9d23affb.html.gz",
+     "quote": "La plupart des banques permettent d'ouvrir des comptes en dollars.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Country-specific evidence is a single secondary domain (WorldRemit, 2022); no French bank product page was captured."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for France (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "France is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; France is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. France is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "France is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: France IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "France appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A micro-entrepreneur (auto-entrepreneur) registers online through the INPI guichet unique, which since January 2023 handles all business formalities. The formality is free, except for certain regulated activities. The micro-social and micro-fiscal regimes and the VAT franchise (franchise en base) thresholds were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.legalplace.fr/guides/inpi-creation-micro-entreprise/",
+     "publisher": "LegalPlace",
+     "title": "Création de micro-entreprise sur l'INPI",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-ddf468849c18.html.gz",
+     "quote": "tion de création d’une micro-entreprise via l’INPI est gratuite ."
+    },
+    {
+     "url": "https://copeps.fr/actualites/inscription-micro-entreprise-inpi/",
+     "publisher": "Copep's",
+     "title": "Inscription d'une Micro-Entreprise via l'INPI",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-9d749ad6d9fa.html.gz",
+     "quote": "Sur l'INPI, les démarches de création d’une micro-entreprise sont assez simples et s’effectuent à partir du Guichet unique en ligne."
+    }
+   ],
+   "notes": "Secondary sources only; confirm on the national authority site."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by France to the OECD: \"For individuals: The French tax authorities issue a tax identification number to all individuals with a tax obligation in France. This TIN is given at the time of the registration of the individual in the databases of the French tax administration. This number is unique, r eliable and fixed for ever. The French name of the TIN is known as the numéro fiscal de référence or numéro SPI.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/france-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by France's tax administration)",
+     "title": "France — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-998630198153.pdf.gz",
+     "quote": "For individuals: The French tax authorities issue a tax identification number to all individuals with a tax obligation in France. This TIN is given at the time of the registration of the individual in the databases of the French tax administration. This number is unique, r eliable and fixed for ever. The French name of the TIN is known as the numéro fiscal de référence or numéro SPI.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Tax residents of France are taxed on worldwide income (see quoted rules for exceptions such as remittance-basis regimes). Progressive rates with family-quotient splitting (rates not captured). Inference (general source principle, not quoted): work performed while living in France for foreign clients is normally taxable in France.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/france/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "France - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a3cb3caf16f1.html.gz",
+     "quote": "Individuals, whether French or foreign nationals, who have their tax domicile in France are generally subject to personal income tax (PIT) on worldwide income unless excluded by a tax treaty."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/france/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "France - Individual - Residence",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f0980b8ed6ec.html.gz",
+     "quote": "The habitual abode of the person or family is in France or France is the principal place of stay."
+    },
+    {
+     "url": "https://taxatlas.io/country/france/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "France Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-c8820b52bbd6.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "Micro-entrepreneur regime (franchise en base de TVA) not researched."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "National threshold (franchise en base, art. 293 B CGI): in 2026 services stay at EUR 37,500 (base) and EUR 41,250 (higher limit); sales of goods and accommodation at EUR 85,000 and EUR 93,500. The proposed single EUR 25,000 threshold was rejected for 2026 (PLF 2026). Exceeding the higher limit makes VAT due immediately; exceeding only the base limit applies VAT from 1 January of the following year (search summary). The standard VAT rate is 20%. Under the EU SME scheme, small businesses below a national threshold (at most EUR 85,000) can be exempt on domestic sales. Where services are taxed (EU-wide rules, illustrated by Irish Revenue guidance): (1) B2B, meaning services to business customers in other EU countries or outside the EU, are taxed where the customer is established, so no France VAT is charged; EU business customers self-account under the reverse charge. (2) B2C services to private individuals are, as a rule, taxed where the supplier is established, so France VAT applies once you are VAT-registered. (3) Exception: consultancy, legal, accounting, engineering, data-processing, advertising, licensing and electronically supplied services to private customers outside the EU are outside EU VAT, subject to 'use and enjoyment' rules. Electronically supplied services to private customers in other EU countries follow special OSS rules (not captured here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4436-nouveaux-seuils-micro-entreprises-annee-2026.html",
+     "publisher": "Legifiscal",
+     "title": "Nouveaux seuils micro-entreprises année 2026 (Legifiscal)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-a740bc4329bd.html.gz",
+     "quote": "En 2026, ces seuils de franchise en base demeurent fixés : à 85 000 € (seuil de base) et 93 500 € (seuil majoré) pour les activités de vente de marchandises et d’hébergement, et à 37 500 € (seuil de base) et 41 250 € (seuil majoré) pour les prestations de services."
+    },
+    {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4436-nouveaux-seuils-micro-entreprises-annee-2026.html",
+     "publisher": "Legifiscal",
+     "title": "Nouveaux seuils micro-entreprises année 2026 (Legifiscal)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-a740bc4329bd.html.gz",
+     "quote": "PLF 2026 : rejet par les députés de la hausse du seuil de franchise en base de TVA"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/france/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "France - Corporate - Other taxes",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-712f93d1ed59.html.gz",
+     "quote": "The standard VAT rate is 20%."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/vat-exemptions/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "VAT exemptions for SMEs in cross-border and domestic sales (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-348d2dc786c3.html.gz",
+     "quote": "Domestic VAT Rules If your SME has an annual turnover under EUR 85 000 or lower if set by the EU country , you can apply for a VAT exemption on domestic sales ."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/cross-border-vat/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Cross-border VAT (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-31a2fc91eb48.html.gz",
+     "quote": "Selling services to businesses based in another EU country If you sell services to businesses based in another EU country you don't usually need to charge your customers VAT."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "Supply of services to a business (B2B) For supplies of business to business services (B2B), the place of supply is the place where the business receiving the services is established."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "This applies whether the business customer is in the European Union (EU) or not."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "For supplies of business to consumer services (B2C), the place of supply is the place where the supplier: has established their business"
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "If the following services are provided to non-business customers established outside the European Union (EU), the place of supply is outside the EU."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "This includes the provision of other services directly linked thereto telecommunications services radio and television broadcasting services and electronically supplied services."
+    }
+   ],
+   "notes": "National SME threshold not captured unless stated. French thresholds from one captured domain (Legifiscal); several other guides agree per search summary. economie.gouv.fr returned 403, portail-autoentrepreneur timed out."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The EU General Data Protection Regulation (GDPR) applies directly in France, supervised by the national data protection authority. It covers EU businesses and non-EU businesses offering goods or services to people in the EU.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+     "publisher": "European Commission",
+     "title": "Data protection (European Commission)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-67745d447c93.html.gz",
+     "quote": "EU data protection legislation is comprised of the General Data Protection Regulation (GDPR), the Law Enforcement Directive (LED), and the Data Protection Regulation for EU institutions, bodies, offices and agencies (EUDPR)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Data protection and online privacy (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5529929a174.html.gz",
+     "quote": "These rules apply to both companies and organisations (public and private) in the EU and those based outside the EU who offer goods or services in the EU , such as Facebook or Amazon, whenever these companies request or re-use the personal data of individuals in the EU."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "EU consumer law gives a 14-day withdrawal right for online and distance purchases without justification: 14 days from delivery for goods, and from conclusion of the contract for services. Exceptions include personalised goods, perishables and date-specific services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "This means you can cancel the contract within 14 days without providing any justification (the \"cooling-off period\")."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "For goods this means 14 days from the date of delivery, for services 14 days after the day the contract was agreed."
+    }
+   ],
+   "notes": "National implementations may add detail."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Micro-entreprise regime: simplified tax and social contributions on turnover. 2026–2028 turnover ceilings are EUR 83,600 for services and liberal professions (up from EUR 77,700) and EUR 203,100 for sales of goods and accommodation. You stay in the regime unless the ceiling is exceeded in two consecutive calendar years, which triggers a real regime by law; a single-year overshoot does not end it immediately. Combine with the VAT franchise (see L4), which has lower thresholds. Service-Public.fr confirms the 2026–2028 ceilings (EUR 203,100 for goods and accommodation; EUR 83,600 for services, up from EUR 77,700).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4436-nouveaux-seuils-micro-entreprises-annee-2026.html",
+     "publisher": "Legifiscal",
+     "title": "Nouveaux seuils micro-entreprises année 2026 (Legifiscal)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-a740bc4329bd.html.gz",
+     "quote": "Prestations de services / professions libérales 77 700 € 83 600 €"
+    },
+    {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4436-nouveaux-seuils-micro-entreprises-annee-2026.html",
+     "publisher": "Legifiscal",
+     "title": "Nouveaux seuils micro-entreprises année 2026 (Legifiscal)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-a740bc4329bd.html.gz",
+     "quote": "Le maintien au régime micro en 2026 suppose de ne pas avoir dépassé ces plafonds sur les deux années civiles précédentes, le dépassement répété conduisant à l’application de plein droit d’un régime réel."
+    },
+    {
+     "url": "https://entreprendre.service-public.gouv.fr/actualites/A18813?lang=fr&profil=tout",
+     "publisher": "Service-Public.fr (Entreprendre)",
+     "title": "Micro-entreprise : nouveaux seuils de chiffre d'affaires",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-215c1e970bca.html.gz",
+     "quote": "Ainsi, pour les années 2026, 2027 et 2028, les seuils du régime de la micro-entreprise sont les suivants",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "TRAP: the micro-entreprise ceiling (EUR 83,600) is far above the VAT franchise (EUR 37,500 for services), so many micro-entrepreneurs must charge VAT. Social contribution rates and the versement libératoire option were not captured."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for France accepts: Permis de conduire (Driver's license) - scans of front and back are required Carte d'identité d'élu local (Elected official identity card) Carte d'identité (Identity card) - scans of front and back are required Carte d'identité avec photographie délivrée par les autorités militaires (Military identity card) Carte d'identité de parlementaire (Parliamentary identity card) Passeport (Passport) Carte de résident …. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=FR",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — France",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-17177ac364b1.html.gz",
+     "quote": "Acceptable forms of identification: Permis de conduire (Driver's license) - scans of front and back are required Carte d'identité d'élu local (Elected official identity card) Carte d'identité (Identity card) - scans of front and back are required Carte d'identité avec photographie délivrée par les autorités militaires (Military identity card) Carte d'identité de parlementaire (Parliamentary identity card) Passeport (Passport) Carte de",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "France: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "France: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "France: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "France: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "France: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "France: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "France: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "France: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "France: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "France: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

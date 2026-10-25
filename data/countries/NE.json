@@ -1,0 +1,514 @@
+{
+ "code": "NE",
+ "un_name": "Niger",
+ "m49_name": "Niger",
+ "iso3": "NER",
+ "m49": "562",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. Niger left ECOWAS in 2025 but, per secondary reports, remains in the UEMOA/BCEAO CFA-franc union. Under Regulation 06/2024/CM/UEMOA, residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), and repatriate all export proceeds for goods and services (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "AES states' continued UEMOA membership rests on secondary reports; re-check."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation from the Minister of Finance after a binding BCEAO opinion (UEMOA Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Niger (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Niger is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Niger is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established from sources."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Niger is a listed PayPal market but not on the Payouts list.",
+   "status": "unverified",
+   "note": "No Niger-specific PayPal receiving/withdrawal source found on 2026-10-20; only Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Niger is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Niger is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Niger."
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the OHADA entreprenant / individual enterprise, registered at the Maison de l'Entreprise one-stop shop in Niamey, which delivers the RCCM and NIF. A commercial guide estimates FCFA 30,000–60,000 and about 72 hours.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA portant sur le droit commercial général (FAOLEX copy)",
+     "title": "AUDCG, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "Art.30.- L’entreprenant est un entrepreneur indi viduel, personne physique qui, sur simple déclaration prévue dans le présent Acte unifo rme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole."
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-niger-cfe-niamey-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au Niger (2026)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a0ef10501f26.html.gz",
+     "quote": "Le guichet unique nigérien La Maison de l'Entreprise centralise les formalités pour éviter aux entrepreneurs de courir entre administrations."
+    }
+   ],
+   "notes": "Official fee schedule not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIF (numéro d'identification fiscale), delivered with RCCM registration at the Maison de l'Entreprise per a commercial guide. No official source was captured.",
+   "status": "unverified",
+   "note": "Searched 2026-10-20: 'Niger création entreprise individuelle Maison de l'Entreprise guichet unique NIF délai coût'. Only commercial guides (Kolonell, Africarrieres, Deel); DGI Niger procedure not found.",
+   "sources": [
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-niger-cfe-niamey-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au Niger (2026) — NIF",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a0ef10501f26.html.gz",
+     "quote": "Élément Détail 2026 (ordre de grandeur) Guichet unique Maison de l'Entreprise, Niamey Cadre régional OHADA / UEMOA Délai création 72 h à 1 semaine Capital minimum SARL Libre Documents RCCM, NIF, CNSS"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "The impôt synthétique applies to individuals in activities subject to the profits tax (ISB) with turnover incl. tax under FCFA 50m. Since Finance Law 2025, the 2-year exemption for newly registered synthetic-regime businesses is repealed, so no exemption applies on creation. Rates and the treatment of foreign-source income were not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cciniger.org/wp-content/uploads/2025/01/Commentaires-sur-les-nouvelles-dispositions-de-la-Loi-de-Finances-pour-2025.pdf",
+     "publisher": "Chambre de Commerce et d'Industrie du Niger",
+     "title": "Commentaires sur les nouvelles dispositions de la Loi de Finances pour 2025",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a630ad967e58.pdf.gz",
+     "quote": "Il convient de rappeler que l’impôt synthétique s’applique aux personnes physiques qui exercent une activité soumise à l’ISB et qui réalise un chiffre d’affaires TTC inférieur à 50 millions FCFA."
+    },
+    {
+     "url": "https://cciniger.org/wp-content/uploads/2025/01/Commentaires-sur-les-nouvelles-dispositions-de-la-Loi-de-Finances-pour-2025.pdf",
+     "publisher": "Chambre de Commerce et d'Industrie du Niger",
+     "title": "LF 2025 — exemption repealed",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a630ad967e58.pdf.gz",
+     "quote": "Ainsi donc, aucune exonération de l’impôt synthétique n’est accordée à la création de l’entreprise."
+    },
+    {
+     "url": "https://www.agenceecofin.com/actualites/0601-124663-niger-de-nouvelles-mesures-fiscales-pour-relancer-leconomie",
+     "publisher": "Agence Ecofin",
+     "title": "Niger : de nouvelles mesures fiscales pour relancer l'économie",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d2c976a40d8b.html.gz",
+     "quote": "la suppression de l'exonération de deux (2) ans accordée aux nouvelles entreprises immatriculées sous le régime de l'impôt synthétique », indique le communiqué ."
+    }
+   ],
+   "notes": "TRAP: a DGI Niger post (Jan 2024, search result) promised synthetic-tax exemption through 2025 for new businesses; LF 2025 repealed it. CGI text not read; synthetic rates not captured."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 19% (single rate per a 2011 official overview; a 5% reduced rate exists for some staples per other sources). Since Finance Law 2025, sales and services made in Niger through foreign or local e-commerce platforms, and platform commissions, are subject to VAT. The treatment of exported services and the registration threshold were not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.un.org/esa/ffd/wp-content/uploads/2011/04/20110426_Niger_French.pdf",
+     "publisher": "République du Niger — overview of the tax system in force (2011), hosted by UN FfD",
+     "title": "Système fiscal en vigueur 2011",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-84e6c0a8dba5.pdf.gz",
+     "quote": "Le taux de la TVA, actuellement en vigueur, est de 19%."
+    },
+    {
+     "url": "https://cciniger.org/wp-content/uploads/2025/01/Commentaires-sur-les-nouvelles-dispositions-de-la-Loi-de-Finances-pour-2025.pdf",
+     "publisher": "Chambre de Commerce et d'Industrie du Niger",
+     "title": "LF 2025 — VAT on e-commerce platforms",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a630ad967e58.pdf.gz",
+     "quote": "La loi de finances pour 2025 a élargi les opérations imposables à la TVA aux ventes de biens et les prest ations de services effectuées au Niger à travers les plateformes de commerce électronique étrangères ou locales ainsi que les commissions que ces opérateurs des plateformes auront perçues."
+    }
+   ],
+   "notes": "The 19% figure comes from a 2011 document; not re-confirmed against the current CGI."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2022-59 of 16 Dec 2022 (amended by Law 2023-31 and 2024 ordinances) replaced Law 2017-28. The HAPDP is the independent authority, attached to the Presidency. Processing personal data requires prior notification to the HAPDP, which is not required if a data protection officer is appointed, except for cross-border transfers. Controllers also file an annual report (art. 64).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dataguidance.com/sites/default/files/loi_ndeg_2023-31_modifiant_la_loi_ndeg_2022-59.pdf",
+     "publisher": "République du Niger — Loi n° 2023-31 (copy hosted by DataGuidance)",
+     "title": "Loi n° 2023-31 modifiant la loi n° 2022-59",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-434b0b3b3797.pdf.gz",
+     "quote": "La HAPDP est une autorité administrative indépendante chargée de veiller à la conformité des traitements des données à caractère personnel aux dispositions des textes en vigueur et des conventions internationales auxquelles le Niger est partie."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=NE&t=law",
+     "publisher": "DLA Piper Data Protection",
+     "title": "Data Protection in Niger",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-c3e84f9d5ad9.html.gz",
+     "quote": "The processing of personal data is subject to prior notification to the HAPD. If a data controller appoints a data protection officer, notification is unnecessary unless personal data is being transferred across national borders."
+    }
+   ],
+   "notes": "TRAP: several compliance sites still cite Law 2017-28 as current. hapdp.ne returned a TLS hostname mismatch (blocked, not bypassed)."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 2019-03 of 30 April 2019 on electronic transactions governs e-commerce. Its consumer withdrawal and disclosure provisions were not read.",
+   "status": "unverified",
+   "note": "Searched 2026-10-20: 'Niger loi transactions électroniques 2019 droit de rétractation consommateur'. Found only a Council of Europe webinar slide naming Law 2019-03; the law text was not located.",
+   "sources": [],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No current small-business tax holiday: the 2-year synthetic-tax exemption for new businesses was repealed by Finance Law 2025. The synthetic regime (turnover under FCFA 50m) remains the simplified option (L3).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cciniger.org/wp-content/uploads/2025/01/Commentaires-sur-les-nouvelles-dispositions-de-la-Loi-de-Finances-pour-2025.pdf",
+     "publisher": "Chambre de Commerce et d'Industrie du Niger",
+     "title": "LF 2025 — IS exemption repeal",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a630ad967e58.pdf.gz",
+     "quote": "- IMPOT SYNTHETIQUE - IS : SUPPRESSION DE L’EXONERATION DE 2 PREMIERS EXERCICES Les second et 3ème alinéas de l’article 197 du CGI qui prévoient l’exonération pendant les deux premiers exercices des entreprises nouvelles immatriculées sous le régime de l’impôt synthétique ont été abrogés."
+    },
+    {
+     "url": "https://www.agenceecofin.com/actualites/0601-124663-niger-de-nouvelles-mesures-fiscales-pour-relancer-leconomie",
+     "publisher": "Agence Ecofin",
+     "title": "Niger : nouvelles mesures fiscales (LF 2025)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d2c976a40d8b.html.gz",
+     "quote": "« La soumission à la taxe sur la valeur ajoutée des opérations de vente en ligne […] ;"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card. Niger launched enrolment for the AES biometric national identity card in Niamey on 27 March 2026 (pilot phase, then progressive national rollout). Fingerprints, facial photo and electronic signature are captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/le-niger-lance-officiellement-la-carte-d-identite-biometrique-de-l-aes",
+     "publisher": "We Are Tech Africa",
+     "title": "Le Niger lance officiellement la carte d’identité biométrique de l’AES",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-7ee8546e0703.html.gz",
+     "quote": "Le président du Niger, Abdourahamane Tiani, a officiellement lancé, vendredi 27 mars à Niamey, le processus d’établissement de la carte nationale d’identité biométrique de l’Alliance des États du Sahel (AES)."
+    },
+    {
+     "url": "https://fr.apanews.net/news/niger-tiani-lance-la-carte-didentite-biometrique-de-laes/",
+     "publisher": "APAnews",
+     "title": "Niger : Tiani lance la carte d’identité biométrique de l’AES",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-094dd1ddb757.html.gz",
+     "quote": "Un comité de suivi a été institué pour accompagner la production des cartes biométriques et des passeports électroniques, dont la phase de finalisation est en cours."
+    }
+   ],
+   "notes": "Validity of older national ID cards during the transition not established."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Niger: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

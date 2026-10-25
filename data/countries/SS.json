@@ -1,0 +1,440 @@
+{
+ "code": "SS",
+ "un_name": "South Sudan",
+ "m49_name": "South Sudan",
+ "iso3": "SSD",
+ "m49": "728",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "14-07-2011",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "buyers_blocked",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "seller_unsupported",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "not_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Partly established. The Bank of South Sudan's Circular No. 02/2025 requires written declaration of cash above USD 10,000 at borders and central-bank approval for institutions moving more than USD 50,000. Press reports describe restrictions on domestic US-dollar use. Rules for residents receiving foreign service income were not found.",
+   "status": "unverified",
+   "note": "Single press source captured; Bank of South Sudan circulars not captured on 2026-10-22; The EastAfrican (403).",
+   "sources": [
+    {
+     "url": "https://radioyei.org/news/business/banking-and-finance/boss-travellers-must-declare-cash-above-10000-at-borders/",
+     "publisher": "Radio Yei",
+     "title": "BoSS: travellers must declare cash above $10,000 at borders",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-1694f2755314.html.gz",
+     "quote": "Financial institutions moving amounts exceeding 50,000 US dollars, equal to about 230 million SSP, must obtain prior approval from the central bank."
+    }
+   ],
+   "notes": "FX situation volatile; high-risk jurisdiction."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established. Press reports indicate restrictions on US-dollar transactions and pressure to use SSP accounts.",
+   "status": "unverified",
+   "note": "No captured official source on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for South Sudan (automated collector snapshots, Oct 2026). Available: Google Play (developer registration). Not listed: Stripe (merchant sign-up); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country; Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "South Sudan is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; South Sudan is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. South Sudan is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "South Sudan is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: South Sudan is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include South Sudan.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Business registration is handled by the Ministry of Justice, which runs an online Business Registration Services (BRS) platform. Sole-proprietorship requirements and fees were not confirmed.",
+   "status": "unverified",
+   "note": "Official portal confirms the platform only; procedure/fees not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://brs.eservices.gov.ss/",
+     "publisher": "Ministry of Justice (South Sudan) — Business Registration Services",
+     "title": "Business Registration Online Services",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-d87ee8830243.html.gz",
+     "quote": "This is a platform introduced by the Ministry of Justice to automate manual processes, increase accessibility to its services and improve the ease of doing business in South Sudan."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established. Taxes are administered by the South Sudan Revenue Authority (SSRA).",
+   "status": "unverified",
+   "note": "No TIN procedure source captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "South Sudanese nationals are taxed on worldwide income, including income from entrepreneurial activities (Deloitte 2026). Individual rates for residents and non-residents run from 0% (up to SSP 20,000) to 20% (over SSP 90,000), and the rate for your bracket applies to the WHOLE taxable income, not just the excess (Deloitte 2026). The Financial Act 2024/2025 (assented 25 November 2024) changed business profit tax and other rates (KPMG). Rules for non-nationals' foreign income were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://kpmg.com/ke/en/insights/2025/01/enactment-of-the-south-sudan-financial-act-2024-2025.html",
+     "publisher": "KPMG East Africa",
+     "title": "Enactment of the South Sudan Financial Act 2024/2025",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d80a85cb2f02.html.gz",
+     "quote": "The enactment of the 2024/2025 Financial Act, brought forth changes to Business Profit Tax (BPT), Withholding Tax (WHT), Excise Tax, Customs Duties, and other rates applicable to various sectors.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-southsudanhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "South Sudan Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-182d9a01f7ef.pdf.gz",
+     "quote": "Basis: South Sudanese nationals are subject to tax on their worldwide income (including income from entrepreneurial activities, rental income, and personal income).",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-southsudanhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "South Sudan Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-182d9a01f7ef.pdf.gz",
+     "quote": "Rates: Generally, the individual income tax rates for residents and nonresidents are progressive from 0% to 20%.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-southsudanhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "South Sudan Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-182d9a01f7ef.pdf.gz",
+     "quote": "the whole of the taxable income is subjected to the tax rate applicable to that particular bracket",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Rates and basis are single-source (Deloitte 2026); KPMG covers only the Financial Act changes."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "There is no VAT in force yet. The revenue authority said VAT will be rolled out alongside the existing sales tax, with electronic invoicing (Eye Radio). Sales tax applies to manufacturers, importers and providers of specified services (such as hotel, restaurant, bar and telecommunication services) at rates from 1% to 20%. Registration is required for anyone who imports goods, produces goods or supplies specified services in South Sudan (Deloitte 2026). Freelance or professional services are not named among the specified services in Deloitte's summary.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.eyeradio.org/?p=157109",
+     "publisher": "Eye Radio",
+     "title": "SSRA calls on businesses to clear withholding taxes ahead of VAT rollout",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-eed85bb20c7e.html.gz",
+     "quote": "“South Sudan is set to roll out VAT alongside the consumption tax,” Akuei explained.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://www.eyeradio.org/govt-imf-discuss-new-value-added-tax-law-to-increase-revenue/",
+     "publisher": "Eye Radio",
+     "title": "Govt, IMF discuss new Value-Added Tax law to increase revenue",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d9014fb77473.html.gz",
+     "quote": "The Government and the International Monetary Fund have discussed draft legislation on Value Added Tax, commonly known as VAT, and ways to improve sales tax performance in South Sudan.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-southsudanhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "South Sudan Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-182d9a01f7ef.pdf.gz",
+     "quote": "Sales tax applies to manufacturers, importers, and service providers in South Sudan.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-southsudanhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "South Sudan Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-182d9a01f7ef.pdf.gz",
+     "quote": "The rate charged ranges from 1% to 20%.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-southsudanhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "South Sudan Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-182d9a01f7ef.pdf.gz",
+     "quote": "Registration: A person that imports goods into South Sudan, produces goods in South Sudan, or supplies specified services in South Sudan must register for sales tax purposes.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No data-protection law yet. The government said in December 2025 it would introduce its first Data Protection Bill in 2026. A Cybercrime and Abuse of Computer Bill 2025 had passed parliament and was awaiting assent.",
+   "status": "unverified",
+   "note": "Single press source captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.radiotamazuj.org/en/news/article/south-sudan-to-get-data-protection-bill-in-2026-says-minister",
+     "publisher": "Radio Tamazuj",
+     "title": "South Sudan to get data protection bill in 2026, says minister (11 Dec 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ab36e2f205bc.html.gz",
+     "quote": "December 11, 2025 JUBA South Sudan’s government has said it will introduce its first-ever Data Protection Bill in 2026, as the country seeks to address the legal challenges of its growing digital economy."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in South Sudan. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "728,South Sudan,No Legislation,No Legislation,No Legislation,Legislation,No Legislation,1,0,0,1,0,1,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: National ID (Wikipedia, compulsory-ID list). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "South Sudan National ID",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (2) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "South Sudan: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "South Sudan: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

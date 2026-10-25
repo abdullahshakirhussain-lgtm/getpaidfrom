@@ -1,0 +1,524 @@
+{
+ "code": "GM",
+ "un_name": "Gambia (Republic of The)",
+ "m49_name": "Gambia",
+ "iso3": "GMB",
+ "m49": "270",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "21-09-1965",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established in detail. Foreign currency can be received into foreign currency deposit (FCD) accounts at banks. The dalasi remains legal tender and domestic transactions should be quoted in dalasi (CBG, 2022). No surrender or repatriation rule for individuals' service income was found.",
+   "status": "unverified",
+   "note": "Only 2022 press on CBG FCD rules captured; no current CBG rule on export proceeds captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://thepoint.gm/africa/gambia/national-news/cbg-rescinds-restrictions-on-fcd-shipment-of-foreign-exchange",
+     "publisher": "The Point (Gambia)",
+     "title": "CBG rescinds restrictions on FCD, shipment of foreign exchange (1 Sep 2022)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-16dcae84f136.html.gz",
+     "quote": "He said the Dalasi remains the country’s legal tender and that transactions should be quoted accordingly, and that normal shipment of currency resumes with immediate effect subject to the usual clearance process."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Foreign currency deposit (FCD) accounts exist; after temporary 2022 restrictions on cash withdrawals, the Central Bank of The Gambia confirmed in August 2022 that customers can deposit to and withdraw from FCD accounts in approved currencies.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://thepoint.gm/africa/gambia/national-news/cbg-rescinds-restrictions-on-fcd-shipment-of-foreign-exchange",
+     "publisher": "The Point (Gambia)",
+     "title": "CBG rescinds restrictions on FCD, shipment of foreign exchange (1 Sep 2022)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-16dcae84f136.html.gz",
+     "quote": "Governor revealed that customers can now deposit and withdraw from their FCD accounts in the approved currencies."
+    },
+    {
+     "url": "https://gambiana.com/central-bank-lifts-restriction-on-foreign-currency-deposit/",
+     "publisher": "Gambiana",
+     "title": "Central Bank lifts restriction on foreign currency deposit (2022)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-19ad0926bdc8.html.gz",
+     "quote": "“Customers can now deposit and withdraw from their FCD accounts in the approved currencies."
+    }
+   ],
+   "notes": "Rules may have changed since 2022."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Gambia (Republic of The) (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Gambia (Republic of The) is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Gambia (Republic of The) is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Gambia is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Gambia is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Gambia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Gambia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship is registered at the Companies Division of the Ministry of Justice (Single Window), using form SWR 3 with a copy of the owner's TIN card. The registration fee is D500, and it can be completed within a day in Banjul or at the KMC branch.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.moj.gm/companies-division",
+     "publisher": "Ministry of Justice (The Gambia)",
+     "title": "Ministry of Justice of The Gambia — Companies Division (Single Window Business Registration)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-492805cadc5f.html.gz",
+     "quote": "Registration requirements To register for a sole proprietorship, individuals should complete form SWR 3 (Application form), accompanied by;"
+    },
+    {
+     "url": "https://www.moj.gm/companies-division",
+     "publisher": "Ministry of Justice (The Gambia)",
+     "title": "Ministry of Justice of The Gambia — Companies Division (Single Window Business Registration)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-492805cadc5f.html.gz",
+     "quote": "and A copy of the TIN Card of the Proprietor / Owner Fees Registration Fee D500 Partnership Business Registration"
+    },
+    {
+     "url": "https://www.moj.gm/companies-division",
+     "publisher": "Ministry of Justice (The Gambia)",
+     "title": "Ministry of Justice of The Gambia — Companies Division (Single Window Business Registration)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-492805cadc5f.html.gz",
+     "quote": "All these processes can be completed within a day at our main office in Banjul or at our branch office in KMC."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A TIN from the Gambia Revenue Authority. Everyone engaged in income-generating activity in The Gambia must register and pay personal income tax, and the TIN card is required for sole-proprietorship registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gra.gm/faqs",
+     "publisher": "Gambia Revenue Authority",
+     "title": "GRA FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-38f52d00c4d7.html.gz",
+     "quote": "All individuals engaged in economic or income generating activities in The Gambia are required to be registered and pay Personal income tax."
+    },
+    {
+     "url": "https://www.moj.gm/companies-division",
+     "publisher": "Ministry of Justice (The Gambia)",
+     "title": "Ministry of Justice of The Gambia — Companies Division (Single Window Business Registration)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-492805cadc5f.html.gz",
+     "quote": "and A copy of the TIN Card of the Proprietor / Owner Fees Registration Fee D500 Partnership Business Registration"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Businesses with turnover under D500,000 a year pay 3% of turnover. Otherwise personal income tax is the higher of the schedule rates or a minimum of 1% of turnover (audited accounts) or 2% (otherwise). The residence basis (worldwide vs source) was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gra.gm/domestic-faqs",
+     "publisher": "Gambia Revenue Authority",
+     "title": "Domestic Taxes FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-38f52d00c4d7.html.gz",
+     "quote": "However, if business turnover is under D500, 000 per annum, then the tax liability is 3% of turnover."
+    },
+    {
+     "url": "https://www.gra.gm/domestic-faqs",
+     "publisher": "Gambia Revenue Authority",
+     "title": "Domestic Taxes FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-38f52d00c4d7.html.gz",
+     "quote": "The rate of the PIT is the higher of the applicable tax rates in the 1st schedule or 1% of turnover for audited accounts or (2% of turnover in any other case)."
+    }
+   ],
+   "notes": "PIT schedule (0-25% 'as at 2018' per GRA brochure vs 35% per Trading Economics) not resolved."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 15%. Compulsory registration applies at annual taxable supplies of D2 million; voluntary registration from D1 million. Returns are monthly, due 15 days after month end. A guide applies 0% to exports of goods or services with retained evidence (not confirmed in law). E-invoicing was proposed in the 2026 Budget.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gra.gm/faqs",
+     "publisher": "Gambia Revenue Authority",
+     "title": "GRA FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-38f52d00c4d7.html.gz",
+     "quote": "The standard VAT rate is 15 percent."
+    },
+    {
+     "url": "https://afrotools.com/blog/gambia-vat-filing-guide-2026/",
+     "publisher": "Afrotools",
+     "title": "Gambia VAT Filing Guide 2026 (verified 25 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c9929705db99.html.gz",
+     "quote": "GRA's website currently states a 15% standard rate, a D2 million compulsory registration threshold, a D1 million voluntary registration threshold, and monthly returns due 15 days after month end."
+    },
+    {
+     "url": "https://afrotools.com/blog/gambia-vat-filing-guide-2026/",
+     "publisher": "Afrotools",
+     "title": "Gambia VAT Filing Guide 2026 (verified 25 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c9929705db99.html.gz",
+     "quote": "It uses the published 15% standard rate and allows 0% only after the user confirms an export of goods or services with retained evidence."
+    }
+   ],
+   "notes": "Threshold single-domain (Afrotools citing GRA)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Data Protection and Privacy Act 2025 has been enacted; the National Assembly passed it in September 2025 and community sensitisation on the 'newly enacted' Act ran in October 2025. It is overseen by a Commission (the Information Commission ran the sensitisation). Breaches must be notified to the Commission within 72 hours. International transfers rely on adequacy or appropriate safeguards.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://thepoint.gm/africa/gambia/headlines/info-ministry-enlightens-communities-on-pdpp-act",
+     "publisher": "The Point (Gambia) — Information Commission press release",
+     "title": "Info Ministry enlightens communities on PDPP Act (17 Nov 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-baa6f3c28fee.html.gz",
+     "quote": "The Information Commission, in collaboration with the Ministry of Information, Media and Broadcasting Services and the Department of Information Services, recently conducted community sensitization sessions on the newly enacted Personal Data Protection and Privacy Act, 2025."
+    },
+    {
+     "url": "https://www.techhiveadvisory.africa/insights/review-of-gambias-personal-data-protection-and-privacy-act-2025",
+     "publisher": "Techhive Advisory",
+     "title": "Review of Gambia's Personal Data Protection and Privacy Act 2025",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-de9dad0fa767.html.gz",
+     "quote": "Controllers must notify the Commission within 72 hours of becoming aware of a breach and must also notify affected data subjects without undue delay if there is a high risk to their rights."
+    },
+    {
+     "url": "https://www.techhiveadvisory.africa/insights/review-of-gambias-personal-data-protection-and-privacy-act-2025",
+     "publisher": "Techhive Advisory",
+     "title": "Review of Gambia's Personal Data Protection and Privacy Act 2025",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-de9dad0fa767.html.gz",
+     "quote": "The primary mechanism for transfer is adequacy, where the receiving country or international organisation has a law that provides an appropriate level of protection."
+    }
+   ],
+   "notes": "Assent date and registration duties not read in the Act."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Gambia (Republic of The). Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "270,Gambia,Legislation,Legislation,Legislation,Legislation,No Legislation,1,0,0,1,0,1,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. The 3%-of-turnover rule below D500,000 (L3) is the main simplification.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "For business registration, a national identity card, passport or driving licence is accepted (Ministry of Justice, partnership requirements). Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Ministry text lists ID documents for partners, not explicitly for sole proprietors; no bank KYC source on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.moj.gm/companies-division",
+     "publisher": "Ministry of Justice (The Gambia)",
+     "title": "Ministry of Justice of The Gambia — Companies Division (Single Window Business Registration)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-492805cadc5f.html.gz",
+     "quote": "Photocopy of National Identity Card, Passport or Driving Licence of partners"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Gambia (Republic of The): listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

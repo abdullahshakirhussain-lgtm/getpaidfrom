@@ -1,0 +1,441 @@
+{
+ "code": "LR",
+ "un_name": "Liberia",
+ "m49_name": "Liberia",
+ "iso3": "LBR",
+ "m49": "430",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "02-11-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "not_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Generally free. Both Liberian and US dollars are legal tender under a managed float, and there are no restrictions on converting or transferring investment-related funds (trade.gov). Rules for individuals' service income were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/liberia-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Liberia Country Commercial Guide — Trade Financing",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-064623d31bfb.html.gz",
+     "quote": "Liberia has a managed floating exchange rate system, with Liberian and U.S. dollars being legal tender.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established in a captured source (USD accounts are common in practice).",
+   "status": "unverified",
+   "note": "No CBL/bank source captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Liberia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Whop (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Liberia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Liberia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Liberia is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Liberia is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json; the list runs Lesotho -> Liechtenstein) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Liberia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Liberia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Businesses register at the Liberia Business Registry (LBR) in Monrovia and obtain a TIN. Registrations are valid for 12 months and must be renewed annually; trading without valid registration risks fines. A government fee schedule reportedly lists US$700 for a sole proprietorship, conflicting with other figures (not confirmed).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://revenue.lra.gov.lr/?p=290",
+     "publisher": "Liberia Revenue Authority",
+     "title": "Business Tax Kinds",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-5fcc00d544d7.html.gz",
+     "quote": "Registration of businesses can be done at the Liberia Business Registry (LBR) on Ashmun & King Sao Baso Street (old French cable)."
+    },
+    {
+     "url": "https://revenue.lra.gov.lr/?p=290",
+     "publisher": "Liberia Revenue Authority",
+     "title": "Business Tax Kinds",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-5fcc00d544d7.html.gz",
+     "quote": "Validity of registration Business registrations are valid for a period of 12 months."
+    },
+    {
+     "url": "https://revenue.lra.gov.lr/?p=290",
+     "publisher": "Liberia Revenue Authority",
+     "title": "Business Tax Kinds",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-5fcc00d544d7.html.gz",
+     "quote": "Business registration certificate is required to be renewed on an annual basis at the LBR and no business should have more than one TIN."
+    }
+   ],
+   "notes": "Fee (US$700 per MFDP fee schedule vs LRD 4,000 per a provider) unresolved."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A TIN is obtained when registering the business (LRA); a business should hold only one TIN.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://revenue.lra.gov.lr/?p=290",
+     "publisher": "Liberia Revenue Authority",
+     "title": "Business Tax Kinds",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-5fcc00d544d7.html.gz",
+     "quote": "Registration: You register your business and obtain a Taxpayer Identification Number (TIN)."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "A resident's gross income includes all income from whatever source derived (worldwide). Resident rates: nil up to LRD 70,000, then 5%, 15% and 25% above LRD 800,000. A presumptive regime for small taxpayers was not captured.",
+   "status": "unverified",
+   "note": "Single secondary domain (PwC) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-liberia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Liberia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-9a9fa4309f83.html.gz",
+     "quote": "Gross income of a resident natural person includes all income from whatever source derived, such as wages, business profits, rents, dividends, and interest, unless specifically excluded by the Revenue Code."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "GST on services is 13% (raised from 12%), with telecoms at 15% (LRA notice, 2026). Liberia is replacing GST with a full VAT: registration opened 1 July 2026 and VAT takes effect 1 January 2027. Registration threshold and VAT rate were not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://revenue.lra.gov.lr/important-revenue-noticeadjustment-to-goods-and-services-tax-gst-rates/",
+     "publisher": "Liberia Revenue Authority",
+     "title": "Important Revenue Notice: Adjustment to Goods and Services Tax (GST) Rates",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1967bd268d8a.html.gz",
+     "quote": "The updated framework introduces a 13 percent GST on services while maintaining the rate on telecommunications services at 15 percent."
+    },
+    {
+     "url": "https://revenue.lra.gov.lr/important-revenue-noticeadjustment-to-goods-and-services-tax-gst-rates/",
+     "publisher": "Liberia Revenue Authority",
+     "title": "Important Revenue Notice: Adjustment to GST Rates",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1967bd268d8a.html.gz",
+     "quote": "The new GST rate represents a modest adjustment from the previous 12 percent rate, reflecting a gradual and balanced approach to strengthening domestic revenue while maintaining affordability for consumers and businesses."
+    },
+    {
+     "url": "https://beancount.io/fr/blog/2026/07/22/liberia-gst-to-vat-transition-2026-registration-guide",
+     "publisher": "Beancount",
+     "title": "Transition de la GST à la TVA au Libéria (22 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4bf9224ba6d0.html.gz",
+     "quote": "Le Libéria remplace sa Taxe sur les biens et services (GST) par un régime complet de Taxe sur la valeur ajoutée (TVA), avec une ouverture des enregistrements le 1er juillet 2026 et la mise en œuvre du nouveau système le 1er janvier 2027."
+    }
+   ],
+   "notes": "TRAP: older pages give 10% GST and LRD 5m threshold. VAT rate (projected 18%) unconfirmed."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No general data-protection law and no national data-protection authority. A data protection bill was before the Legislature (2025); enactment was not confirmed.",
+   "status": "unverified",
+   "note": "Single secondary domain (DLA Piper) captured on 2026-10-22; bill status from search summaries.",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=LR&t=law",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Liberia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-43ea2db6d90d.html.gz",
+     "quote": "However, Liberia has not yet established such authority."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "No online cancellation source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: National identification card (Wikipedia, compulsory-ID list). New biometric national identity card have been rolled out in the late 2017. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Liberia National identification card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Liberia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Liberia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Liberia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Liberia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Liberia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

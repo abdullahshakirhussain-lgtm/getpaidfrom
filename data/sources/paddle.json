@@ -1,0 +1,187 @@
+{
+ "source": "paddle",
+ "route": "paddle",
+ "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+ "retrieved_at": "2026-10-16T18:21:26+00:00",
+ "sha256": "0631b5ce8fb9dffbbbdfc9fe175e7bac87e30e95784fef36cc62028903da3a2d",
+ "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+ "evidence": "official",
+ "lists": {
+  "unsupported": {
+   "meaning": "seller_unsupported",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled.",
+   "count": 28,
+   "entries": [
+    {
+     "code": "AF",
+     "raw": "Afghanistan",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "AQ",
+     "raw": "Antarctica",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "BY",
+     "raw": "Belarus",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "MM",
+     "raw": "Burma (Myanmar)",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "CF",
+     "raw": "Central African Republic",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "CU",
+     "raw": "Cuba",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "XC-CRIMEA",
+     "raw": "Crimea (Region of Ukraine)",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "CD",
+     "raw": "Democratic Republic of Congo",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "XC-DONETSK",
+     "raw": "Donetsk (Region of Ukraine)",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "HT",
+     "raw": "Haiti",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "IR",
+     "raw": "Iran",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "IQ",
+     "raw": "Iraq",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "XC-KHERSON",
+     "raw": "Kherson (Region of Ukraine)",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "LY",
+     "raw": "Libya",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "XC-LUHANSK",
+     "raw": "Luhansk (Region of Ukraine)",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "AN",
+     "raw": "Netherlands Antilles",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "KP",
+     "raw": "North Korea",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "RU",
+     "raw": "Russia",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "SO",
+     "raw": "Somalia",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "SS",
+     "raw": "South Sudan",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "SD",
+     "raw": "Sudan",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "SY",
+     "raw": "Syria",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "XC-ZAPORIZHZHIA",
+     "raw": "Zaporizhzhia (Region of Ukraine)",
+     "label": null,
+     "meaning": "seller_unsupported"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": null,
+     "meaning": "seller_unsupported"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

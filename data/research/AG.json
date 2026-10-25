@@ -1,0 +1,373 @@
+{
+ "code": "AG",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "No captured FX source on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Antigua and Barbuda (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Antigua and Barbuda is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Antigua and Barbuda is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Antigua and Barbuda is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Antigua and Barbuda is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Antigua and Barbuda is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Antigua and Barbuda.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Antigua and Barbuda (updated June 10, 2026), registration is handled by: Antigua and Barbuda Intellectual Property & Commerce Office (ABIPCO). Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-antigua-and-barbuda/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Sole Trader) in Antigua and Barbuda Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-900574004c84.html.gz",
+     "quote": "Registration body Antigua and Barbuda Intellectual Property & Commerce Office (ABIPCO)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Antigua and Barbuda to the OECD: \"At the Inland Revenue Department, Antigua and Barbuda, taxpayers that are required to file tax returns are registered and provided with a TIN once the registration process is completed.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/antigua-and-barbuda-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Antigua and Barbuda's tax administration)",
+     "title": "Antigua and Barbuda — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-4e578d79a0c0.pdf.gz",
+     "quote": "At the Inland Revenue Department, Antigua and Barbuda, taxpayers that are required to file tax returns are registered and provided with a TIN once the registration process is completed.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "There is no income tax on individuals. TRAP for freelancers: resident individuals pay unincorporated business tax (UBT) on a sliding scale of 0% to 25% on worldwide self-employment, partnership or unincorporated-business income; non-residents pay it only on income from Antigua and Barbuda (Deloitte 2026). Deel and Greenback also describe the UBT on self-employment income. The exact bands are reported differently (0/8/25% per Greenback; Deel's page gives both 0%–25% and a flat 25%), so confirm the current schedule with the Inland Revenue Department.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxatlas.io/country/antigua-and-barbuda/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Antigua And Barbuda Personal Income Tax Rates (2026)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-f7e936988b15.html.gz",
+     "quote": "Filing Deadline Not applicable — no personal income tax",
+     "retrieved": "2026-10-23"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-antiguaandbarbudahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Antigua and Barbuda Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e10310e44353.pdf.gz",
+     "quote": "Individual taxation Antigua and Barbuda does not impose income tax on individuals, but the unincorporated business tax may apply",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-antiguaandbarbudahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Antigua and Barbuda Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e10310e44353.pdf.gz",
+     "quote": "Resident individuals are subject to unincorporated business tax on a sliding scale of 0% to 25% on worldwide self-employment income, partnership income, or income from an unincorporated business.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-antigua-and-barbuda/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Antigua and Barbuda",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-900574004c84.html.gz",
+     "quote": "Tax structure Progressive rate 0%–25% Unincorporated Business Tax (UBT) on net business profits",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.greenbacktaxservices.com/country-guide/expat-taxes-for-antigua-and-barbuda",
+     "publisher": "Greenback Tax Services",
+     "title": "Antigua and Barbuda Taxes for US Expats",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-afc1679f487d.html.gz",
+     "quote": "If you earn self-employment income in Antigua and Barbuda, you could owe 0%, 8%, or 25% in self-employment taxes.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "Earlier answer ('no personal income tax', TaxAtlas) was misleading for the self-employed; corrected 2026-10-25."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Antigua and Barbuda Sales Tax (ABST) has a standard rate of 17%, with 14% for hotels. The registration threshold is total supplies of at least XCD 300,000, and voluntary registration below it is not allowed. TRAP for freelancers: registration is mandatory for ALL professional service providers (except physicians), with no threshold (Deloitte 2026). In practice a professional freelancer must register and charge ABST from the start; whether services exported to foreign clients are zero-rated was not captured. Tour operators must collect the full 17% from 1 September 2026 (IRD via ABS).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-antiguaandbarbudahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Antigua and Barbuda Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e10310e44353.pdf.gz",
+     "quote": "Antigua and Barbuda Highlights 2026 Page 4 of 5 Rates: The standard rate is 17%, with a reduced rate of 14% applying to hotels.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-antiguaandbarbudahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Antigua and Barbuda Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e10310e44353.pdf.gz",
+     "quote": "Registration: The registration threshold for sales tax purposes is the total value of supplies equal to or greater than XCD 300,000.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-antiguaandbarbudahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Antigua and Barbuda Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e10310e44353.pdf.gz",
+     "quote": "Registration is mandatory for all professional service providers (except for physicians), with no registration threshold.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://abstvradio.com/?p=53955",
+     "publisher": "ABS TV Radio (Antigua and Barbuda Broadcasting Service)",
+     "title": "Tour operators to begin collecting full ABST as of September (28 Aug 2026)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-c373ef25cc64.html.gz",
+     "quote": "Tour operators will now be required to collect the full 17 per cent Antigua and Barbuda Sales Tax (ABST) on bookings, as of September 1, 2026.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://abstvradio.com/?p=53955",
+     "publisher": "ABS TV Radio (Antigua and Barbuda Broadcasting Service)",
+     "title": "Tour operators to begin collecting full ABST as of September (28 Aug 2026)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-c373ef25cc64.html.gz",
+     "quote": "The Inland Revenue Department says operators providing tours whose annual gross revenue exceeds $300,000, are required to register and collect the tax.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "The professional-services no-threshold rule is from Deloitte only; confirm with the Inland Revenue Department."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Antigua and Barbuda. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "028,Antigua and Barbuda,Legislation,Legislation,Legislation,Legislation,No Legislation,0,1,0,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Antigua and Barbuda. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "028,Antigua and Barbuda,Legislation,Legislation,Legislation,Legislation,No Legislation,0,1,0,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Electoral National Identification card (Wikipedia, compulsory-ID list). The Antiguan and Barbudan national identity card is compulsory for voting as well as for different government transactions. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Antigua and Barbuda Electoral National Identification card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Antigua and Barbuda: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN for freelancers.",
+  "Services-export VAT treatment; second sources.",
+  "Data protection; consumer law."
+ ]
+}

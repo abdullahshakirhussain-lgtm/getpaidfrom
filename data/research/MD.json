@@ -1,0 +1,403 @@
+{
+ "code": "MD",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No restrictive exchange controls on receiving foreign income (see quoted source); banks apply normal AML/KYC checks.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/moldova-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Moldova Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-6ec942052ddb.html.gz",
+     "quote": "Foreign Exchange Controls Moldova accepted Article VIII of the IMF Charter in 1995, which required liberalization of current foreign exchange operations."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Republic of Moldova (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Moldova is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Republic of Moldova is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Moldova is on PayPal's Payouts list as 'Send, receive, and withdraw' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Moldova is listed on PayPal's Payouts country list as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Moldova is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Moldova.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Republic of Moldova (updated June 10, 2026), registration is handled by: Public Services Agency (ASP) —one-stop online business registry. Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-moldova/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Întreprindere Individuală) in Moldova Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-74825ece0e56.html.gz",
+     "quote": "Registration body Public Services Agency (ASP) —one-stop online business registry",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Republic of Moldova to the OECD: \"In the Republic of Moldova, the identification number of the natural person is specified according to the international usages as an abbreviation of the phrase \"Identification Number of Person\" IDNP, and the state identification number of the legal entity is specified according to international usages as an abbreviation of the phrase \"Identification Number of Organization\" IDNO.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/moldova-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Republic of Moldova's tax administration)",
+     "title": "Republic of Moldova — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-d8d948d6ab95.pdf.gz",
+     "quote": "In the Republic of Moldova, the identification number of the natural person is specified according to the international usages as an abbreviation of the phrase \"Identification Number of Person\" IDNP, and the state identification number of the legal entity is specified according to international usages as an abbreviation of the phrase \"Identification Number of Organization\" IDNO.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Flat 12% personal income tax (KPMG; Deloitte 2026). Residents are domiciled in Moldova or present at least 183 days in the tax year. On scope, PwC (2026) and Deloitte 2026 both say residents are taxed on income related to activities performed in Moldova (PwC adds Moldovan-source income), while the older KPMG guide (2023) says worldwide. PRACTICAL ANSWER: either way, a freelancer living and working in Moldova is taxed there on income from foreign clients. For the IT Park single tax (companies), see L7.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/moldova/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Moldova - Individual - Taxes on personal income",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-2bf019ecb73e.html.gz",
+     "quote": "Moldovan residents (both Moldovan citizens and foreigners) are subject to taxation for their income received during the fiscal period from any sources within the Republic of Moldova, as well as from sources outside the country for their work activity effectively performed in the Republic of Moldova (except income that is expressly tax exempt under the Moldovan law).",
+     "retrieved": "2026-10-23"
+    },
+    {
+     "url": "https://assets.kpmg.com/content/dam/kpmg/xx/pdf/2023/01/TIES-Moldova.pdf",
+     "publisher": "KPMG",
+     "title": "Taxation of International Executives — Moldova",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-b24b67388225.pdf.gz",
+     "quote": "Moldovan tax residents are liable to Moldovan tax on their worldwide income, whereas non-Moldovan tax residents are liable to Moldovan tax on their Moldovan-source income.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://assets.kpmg.com/content/dam/kpmg/xx/pdf/2023/01/TIES-Moldova.pdf",
+     "publisher": "KPMG",
+     "title": "Taxation of International Executives — Moldova",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-b24b67388225.pdf.gz",
+     "quote": "Residents Income tax is calculated by applying a 12 % flat tax rate.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-moldovahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Republic of Moldova Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-264625301666.pdf.gz",
+     "quote": "Basis: Residents are taxed on their income related to activities performed in Moldova.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-moldovahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Republic of Moldova Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-264625301666.pdf.gz",
+     "quote": "Rates: The individual income tax rate is 12%.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "Scope wording differs (KPMG 2023: worldwide) but the freelancer outcome is the same; the two 2026 sources agree."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT is 20%, with reduced 8% and 0% bands. From March 2026, a resident business must register for VAT once turnover in the last 12 consecutive months reaches MDL 1.7 million. The threshold was raised from MDL 1.2 million, via an interim MDL 1.5 million from 1 January 2026, to MDL 1.7 million on 1 March 2026. Voluntary registration is possible. Foreign B2C digital services are taxed at 20%, with simplified registration for non-residents.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/moldova/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Moldova - Corporate - Other taxes",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-bbdec7a727a5.html.gz",
+     "quote": "Starting March 2026, a company is required to register for VAT purposes if the total turnover within the last 12 consecutive months reached the threshold of MDL 1.7 million.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/moldova/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Moldova - Corporate - Other taxes",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-bbdec7a727a5.html.gz",
+     "quote": "The standard VAT rate in Moldova is currently 20%.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/moldova.md",
+     "publisher": "Kintsugi",
+     "title": "Moldova VAT Guide for 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-57cff55bb12d.html.gz",
+     "quote": "A resident business registers for VAT once turnover exceeds 1.7 million lei, a threshold raised on 1 March 2026 (from 1.2 million lei, via an interim 1.5 million lei on 1 January 2026) [1].",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Republic of Moldova. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "498,Republic of Moldova,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,1,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Republic of Moldova. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "498,Republic of Moldova,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,1,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Moldova IT Park (Law 77/2016): a resident IT company pays a single 7% tax on turnover in place of six separate taxes, state-guaranteed to 2035. Residency depends on the 70% rule (share of revenue from qualifying IT activities). It is a company regime, so an individual freelancer would need a company to use it.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://incorpore.md/en/moldova-it-park/",
+     "publisher": "Incorpore",
+     "title": "Moldova IT Park: the 7% Company Regime and How to Join (Incorpore)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-d811f80d9e2e.html.gz",
+     "quote": "The Moldova IT Park lets a resident IT company pay a single tax of 7% of turnover in place of six separate taxes."
+    },
+    {
+     "url": "https://incorpore.md/en/moldova-it-park/",
+     "publisher": "Incorpore",
+     "title": "Moldova IT Park: the 7% Company Regime and How to Join (Incorpore)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-d811f80d9e2e.html.gz",
+     "quote": "The regime is state-guaranteed to 2035."
+    }
+   ],
+   "notes": "Freelancer regime (activitate independentă) and the per-employee minimum not captured.",
+   "note": "Single secondary domain (Incorpore) captured on 2026-10-24."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Buletin de identitate (Identity card) (Wikipedia, compulsory-ID list). Compulsory at 16. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Moldova Buletin de identitate (Identity card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Republic of Moldova: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN; self-employed regimes.",
+  "Second sources for tax/VAT; services export VAT.",
+  "Data protection and consumer law.",
+  "FX/FCY specifics where unverified."
+ ]
+}

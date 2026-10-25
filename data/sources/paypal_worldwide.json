@@ -1,0 +1,1213 @@
+{
+ "source": "paypal_worldwide",
+ "route": "paypal",
+ "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+ "retrieved_at": "2026-10-17T03:52:32+00:00",
+ "sha256": "6fbfc3c633283d8683a5a584d1decd19ef240a344c979af413dd9c6f7ee95b2c",
+ "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+ "evidence": "official",
+ "lists": {
+  "markets": {
+   "meaning": "paypal_market_listed",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money.",
+   "count": 199,
+   "entries": [
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AO",
+     "raw": "Angola",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BF",
+     "raw": "Burkina Faso",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BI",
+     "raw": "Burundi",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CM",
+     "raw": "Cameroon",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CV",
+     "raw": "Cape Verde",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TD",
+     "raw": "Chad",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KM",
+     "raw": "Comoros",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CG",
+     "raw": "Congo - Brazzaville",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CD",
+     "raw": "Congo - Kinshasa",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CI",
+     "raw": "Côte d’Ivoire",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "DJ",
+     "raw": "Djibouti",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ER",
+     "raw": "Eritrea",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SZ",
+     "raw": "Eswatini",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ET",
+     "raw": "Ethiopia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GA",
+     "raw": "Gabon",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GN",
+     "raw": "Guinea",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea-Bissau",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LS",
+     "raw": "Lesotho",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MG",
+     "raw": "Madagascar",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MW",
+     "raw": "Malawi",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MR",
+     "raw": "Mauritania",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "YT",
+     "raw": "Mayotte",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "RE",
+     "raw": "Réunion",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "RW",
+     "raw": "Rwanda",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ST",
+     "raw": "São Tomé & Príncipe",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SC",
+     "raw": "Seychelles",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SL",
+     "raw": "Sierra Leone",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SO",
+     "raw": "Somalia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SH",
+     "raw": "St. Helena",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TG",
+     "raw": "Togo",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ZM",
+     "raw": "Zambia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong SAR China",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KG",
+     "raw": "Kyrgyzstan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LA",
+     "raw": "Laos",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MV",
+     "raw": "Maldives",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NP",
+     "raw": "Nepal",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KR",
+     "raw": "South Korea",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TJ",
+     "raw": "Tajikistan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TM",
+     "raw": "Turkmenistan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AI",
+     "raw": "Anguilla",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua & Barbuda",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AW",
+     "raw": "Aruba",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BB",
+     "raw": "Barbados",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BM",
+     "raw": "Bermuda",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KY",
+     "raw": "Cayman Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "DM",
+     "raw": "Dominica",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GD",
+     "raw": "Grenada",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GP",
+     "raw": "Guadeloupe",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MQ",
+     "raw": "Martinique",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MS",
+     "raw": "Montserrat",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AN",
+     "raw": "Netherlands Antilles",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KN",
+     "raw": "St. Kitts & Nevis",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LC",
+     "raw": "St. Lucia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "VC",
+     "raw": "St. Vincent & Grenadines",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad & Tobago",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TC",
+     "raw": "Turks & Caicos Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BZ",
+     "raw": "Belize",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AD",
+     "raw": "Andorra",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BY",
+     "raw": "Belarus",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia & Herzegovina",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "VG",
+     "raw": "British Virgin Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czechia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "FO",
+     "raw": "Faroe Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GL",
+     "raw": "Greenland",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ME",
+     "raw": "Montenegro",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SJ",
+     "raw": "Svalbard & Jan Mayen",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "VA",
+     "raw": "Vatican City",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PM",
+     "raw": "St. Pierre & Miquelon",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CK",
+     "raw": "Cook Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "FJ",
+     "raw": "Fiji",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PF",
+     "raw": "French Polynesia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "KI",
+     "raw": "Kiribati",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "MH",
+     "raw": "Marshall Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "FM",
+     "raw": "Micronesia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NR",
+     "raw": "Nauru",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NC",
+     "raw": "New Caledonia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NU",
+     "raw": "Niue",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "NF",
+     "raw": "Norfolk Island",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PW",
+     "raw": "Palau",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PG",
+     "raw": "Papua New Guinea",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PN",
+     "raw": "Pitcairn Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "WS",
+     "raw": "Samoa",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SB",
+     "raw": "Solomon Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TO",
+     "raw": "Tonga",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "TV",
+     "raw": "Tuvalu",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "VU",
+     "raw": "Vanuatu",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "WF",
+     "raw": "Wallis & Futuna",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "FK",
+     "raw": "Falkland Islands",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GF",
+     "raw": "French Guiana",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "SR",
+     "raw": "Suriname",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela",
+     "label": null,
+     "meaning": "paypal_market_listed"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

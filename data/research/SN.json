@@ -1,0 +1,456 @@
+{
+ "code": "SN",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. Under UEMOA Regulation 06/2024 on external financial relations (20 Dec 2024, applying across the 8 WAEMU states), resident economic operators must collect and repatriate all export proceeds for goods AND services through an approved intermediary (art. 11). Residents must also surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), meaning conversion to CFA francs. Banks in turn cede the currency to the BCEAO. Exact deadlines are in Annex II (not read).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA relatif aux relations financières extérieures, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    },
+    {
+     "url": "https://www.agenceecofin.com/actualites/0701-124681-uemoa-devises-ide-negoce-international-la-nouvelle-reglementation-en-detail",
+     "publisher": "Agence Ecofin",
+     "title": "UEMOA : devises, IDE, négoce international… la nouvelle réglementation en détail",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-1249f149fdf9.html.gz",
+     "quote": "D’abord encaissées par un intermédiaire agréé (une banque locale, par exemple), puis cédées à la BCEAO."
+    }
+   ],
+   "notes": "Annex II (deadlines, thresholds, possible exemptions for small amounts) was not in the captured PDF. Applies identically in Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal and Togo."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation. Residents opening domestic foreign-currency accounts, or accounts abroad, need prior authorisation from the Minister of Finance after a binding opinion from the BCEAO (Reg. 06/2024 art. 7). Such accounts may only be credited in the account's currency.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    },
+    {
+     "url": "https://www.financialafrik.com/2026/03/24/reglement-06-2024-uemoa-ce-qui-change-vraiment-pour-les-banques-et-les-entreprises/",
+     "publisher": "Financial Afrik",
+     "title": "Règlement 06/2024/UEMOA : ce qui change vraiment pour les banques et les entreprises (24 Mar 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-97f310b1c48f.html.gz",
+     "quote": "Approvisionnement des comptes en devises : ces comptes ne peuvent être crédités que dans la devise de tenue du compte."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Senegal (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Senegal is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Senegal is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "PayDunya, Dakar-based and operating in several WAEMU countries, provides online collection via mobile money (Orange Money, Wave, etc.) and bank cards. Its onboarding requirements for individuals were not confirmed. Both sources are dated (2015/2022); PayDunya's own site and KYC requirements not read. Wave/Orange Money merchant onboarding not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Officially yes. Senegal is on PayPal's Payouts list with 'Send, receive, and withdraw'. In practice a 2026 guide calls PayPal 'accessible but expensive': local-bank withdrawals are limited and historically unreliable, and fees are high. Receipts remain subject to the UEMOA surrender and repatriation rules (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal is listed in PayPal's Payouts country table with the capability label 'Send, receive, and withdraw' (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://kolonell.com/en/blog/receive-international-payments-freelance-senegal-payoneer-wise-2026",
+     "publisher": "Kolonell",
+     "title": "Receive international payments as a freelancer in Senegal (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-7d2a4f44aca2.html.gz",
+     "quote": "PayPal works in Senegal but with restrictions: withdrawals to local banks are limited depending on regional agreements, and fees are among the highest on the market."
+    }
+   ],
+   "notes": "Another Kolonell article (French search snippet) says PayPal is 'send-only' from Dakar in 2026, which contradicts both PayPal's table and Kolonell's English guide. Not relied on."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. Freelancers withdraw to Senegalese banks (SGBS, Ecobank, BDK, etc.) in CFA francs, reportedly for 1.5% + USD 3 minimum. Withdrawals do not go directly to Wave. Wise: Senegal is NOT on Wise's list of countries whose residents can hold money, although a 2026 guide describes Wise IBANs for Senegalese freelancers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://kolonell.com/fr/blog/payoneer-senegal-guide-complet-freelance-retrait-2026",
+     "publisher": "Kolonell",
+     "title": "Payoneer au Sénégal : guide complet 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-f091d467587a.html.gz",
+     "quote": "Retrait vers banque sénégalaise (SGBS, BDK, Ecobank...) 1,5 % + minimum 3 USD"
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Senegal."
+    }
+   ],
+   "notes": "TRAP: Kolonell describes 'Receiving EUR on a Wise IBAN' for Senegalese freelancers; Wise's residency list excludes Senegal. Payoneer is single-source (commercial blog)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the OHADA 'entreprenant' status. An individual exercising a civil, commercial, craft or agricultural professional activity makes a simple declaration of activity at the RCCM instead of full registration. The status holds while turnover stays within the 'système minimal de trésorerie' thresholds for two successive years. Every business also needs a NINEA identifier from the tax administration before starting.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA portant sur le droit commercial général (Droit-Afrique copy via FAOLEX)",
+     "title": "AUDCG, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "Art.30.- L’entreprenant est un entrepreneur indi viduel, personne physique qui, sur simple déclaration prévue dans le présent Acte unifo rme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole."
+    },
+    {
+     "url": "https://www.infoproff.com/en/open-data/senegal/199/business-register-in-senegal",
+     "publisher": "Infoproff",
+     "title": "Business register in Senegal",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6f5c83a88ff7.html.gz",
+     "quote": "The entreprenant , a lighter status for very small operators, is exempt from registration and instead files a declaration of activity in the same register, receiving a declaration number."
+    }
+   ],
+   "notes": "APIX's own procedure and fees not captured; a commercial blog cites ~FCFA 10,000."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NINEA (Numéro d'Identification National des Entreprises et Associations), issued by the tax administration and required before activity begins. It is used for tax, customs, banking and public procurement. Investment and small-business agencies (APIX) forward requests on the applicant's behalf.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.infoproff.com/en/open-data/senegal/199/business-register-in-senegal",
+     "publisher": "Infoproff",
+     "title": "Business register in Senegal — NINEA",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6f5c83a88ff7.html.gz",
+     "quote": "NINEA — the national identification number for enterprises and associations, issued by the tax administration and used for tax, customs, banking and public procurement purposes."
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/statut-juridique-freelance-auto-entrepreneur-senegal-2026",
+     "publisher": "Kolonell",
+     "title": "Statut juridique freelance au Sénégal (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6b9f143a74a6.html.gz",
+     "quote": "En 2026 il vise une banque comme client : impossible sans NINEA."
+    }
+   ],
+   "notes": "DGID/APIX official procedure not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Individuals with their tax domicile in Senegal are taxed on worldwide income (CGI). The progressive IR scale runs from 0% to FCFA 630,000, then 20%, 30%, 35%, 37%, 40%, and 43% above FCFA 50m. The Contribution Globale Unique (CGU) simplified regime covers individuals with turnover up to FCFA 50m in goods or services, but it does NOT apply to activities taxed as non-commercial profits (BNC), which can cover many freelance intellectual services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://coinrh.sn/wp-content/uploads/2026/07/cgi-annote-octobre-2025_compress.pdf",
+     "publisher": "Code général des impôts du Sénégal, annoté octobre 2025 (copy hosted by coinrh.sn)",
+     "title": "CGI — territorial scope of IR",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-cce5787330e3.pdf.gz",
+     "quote": "Les personnes physiques qui ont au Sénégal leur domicile fiscal sont, quelle que soit leur nationalité, soumises à l'impôt sur le revenu, sur l'ensemble de leurs revenus, de source sénégalaise comme de source étrangère."
+    },
+    {
+     "url": "https://coinrh.sn/wp-content/uploads/2026/07/cgi-annote-octobre-2025_compress.pdf",
+     "publisher": "CGI Sénégal annoté octobre 2025",
+     "title": "CGI art. 173 — barème IR",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-cce5787330e3.pdf.gz",
+     "quote": "Tranche Taux 0 - 630 000 0% 630 001 - 1 500 000 20% 1 500 001 - 4 000 000 30% 4 000 001 - 8 000 000 35% 8 000 001 - 13 500 000 37% 13 500 001 - 50 000 000 40% + 50 000 000 43%"
+    },
+    {
+     "url": "https://coinrh.sn/wp-content/uploads/2026/07/cgi-annote-octobre-2025_compress.pdf",
+     "publisher": "CGI Sénégal annoté octobre 2025",
+     "title": "CGI art. 135–136 — CGU scope",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-cce5787330e3.pdf.gz",
+     "quote": "Sont assujetties à la contribution globale unique, les personnes physiques dont le chiffre d’affaires annuel, tous droits et taxes compris, n’excède pas cinquante (50) millions de francs lorsqu’elles effectuent des opérations de livraison de biens ou des opérations de prestation de services."
+    },
+    {
+     "url": "https://coinrh.sn/wp-content/uploads/2026/07/cgi-annote-octobre-2025_compress.pdf",
+     "publisher": "CGI Sénégal annoté octobre 2025",
+     "title": "CGI art. 136 — exclusions",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-cce5787330e3.pdf.gz",
+     "quote": "La contribution globale unique ne s’applique pas : - aux personnes physiques dont l’activité relève de la catégorie des bénéfices non commerciaux;"
+    }
+   ],
+   "notes": "TRAP: commercial guides tell freelancers to use the CGU; the CGI excludes BNC activities, so whether a given digital service is BIC or BNC decides eligibility. CGU rates not extracted."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 18%. Services whose place of taxation is outside Senegal are not taxable there, and services rendered abroad by a VAT-identified taxpayer still give the right to deduct input VAT (CGI). CGU taxpayers do not charge VAT. A VAT threshold for real-regime service providers was not extracted.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://coinrh.sn/wp-content/uploads/2026/07/cgi-annote-octobre-2025_compress.pdf",
+     "publisher": "CGI Sénégal annoté octobre 2025",
+     "title": "CGI — right to deduct on services rendered abroad",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-cce5787330e3.pdf.gz",
+     "quote": "les prestations de services rendues à l'étranger par un assujetti identifié à la taxe sur la valeur ajoutée et non imposables au Sénégal qui ouvriraient droit à déduction si leur lieu d'imposition était au Sénégal"
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/statut-juridique-freelance-auto-entrepreneur-senegal-2026",
+     "publisher": "Kolonell",
+     "title": "Statut juridique freelance au Sénégal — TVA",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6b9f143a74a6.html.gz",
+     "quote": "Rappel : la TVA sénégalaise est de 18 %"
+    }
+   ],
+   "notes": "The 18% rate is from a secondary source plus the 2001 law cited in search results; the CGI rate article was not extracted. Place-of-supply articles 356–359 not read in full."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2008-12 on personal data, overseen by the CDP. Depending on the processing, a declaration or prior authorisation must be filed with the Commission. A business keeping customer or staff files may need to declare, while biometric or health data, interconnections and some international transfers need authorisation. A replacement law has been discussed but not confirmed as enacted.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://osiris.sn/cdp-qui-a-reellement-le-droit-d-utiliser-nos-donnees-au-senegal.html",
+     "publisher": "OSIRIS",
+     "title": "CDP : qui a réellement le droit d’utiliser nos données au Sénégal ?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a478f864a1f5.html.gz",
+     "quote": "Une entreprise qui constitue un fichier de clients ou de salariés peut être soumise à une déclaration auprès de la Commission, tandis que certains traitements nécessitent une autorisation préalable."
+    },
+    {
+     "url": "https://paradigmhq.org/wp-content/uploads/2022/07/Senegal-French-Report-lr.pdf",
+     "publisher": "Paradigm Initiative",
+     "title": "Rapport Sénégal (2022)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a0346cf61c4f.pdf.gz",
+     "quote": "Son rôle est de s'assurer que tout traitement de données personnelles est conforme à la loi."
+    }
+   ],
+   "notes": "Law 2008-12 text (cdp.sn) not read."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 2008-08 on electronic transactions (with Decree 2008-718) sets information duties for online suppliers and rules for electronic contracts, including identification information from online service publishers. Mandatory Senegalese consumer protections cannot be excluded by choice-of-law clauses. A statutory cooling-off period for online purchases was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.vie-publique.sn/documents/7877/loi-n-2008-08-du-25-janvier-2008-sur-les-transactions-electroniques",
+     "publisher": "Vie-Publique.sn (Gouvernement du Sénégal)",
+     "title": "Loi n°2008-08 du 25 janvier 2008 sur les transactions électroniques",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-68c41b943249.html.gz",
+     "quote": "Obligation pour les éditeurs de services en ligne de fournir des informations d'identification."
+    },
+    {
+     "url": "https://www.mondaq.com/contracts-and-commercial-law/693592/the-protection-of-senegalese-consumer-in-electronic-commerce",
+     "publisher": "Mondaq",
+     "title": "The Protection Of Senegalese Consumer In Electronic Commerce",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8845b32fdbeb.html.gz",
+     "quote": "The definition of electronic transactions 2 is to be found in the wording of article 8 of law 2008-08 of 25 January 2008 as 'economic activity by which a person offers or fulfills, remotely and by electronic means, the supply of goods and services'."
+    }
+   ],
+   "notes": "A 7-day withdrawal figure appeared only in a non-Senegalese document; not claimed."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) The entreprenant status, with a simple declaration instead of RCCM registration (L1). (2) CGU simplified tax up to FCFA 50m for non-BNC activities (L3). (3) VAT deduction rights preserved on services rendered abroad (L4). No freelancer-specific tax holiday was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA (FAOLEX copy)",
+     "title": "AUDCG — entreprenant status retention",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "L’entreprenant conserve son statut si le chi ffre d’affaires annuel généré par son activité pen- dant deux exercices successifs n’excède pas les se uils fixés dans l’Acte uniforme portant or- ganisation et harmonisation des comptabilités de s entreprises au titre du système minimal de trésorerie."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The ECOWAS biometric identity card (carte d'identité biométrique CEDEAO, Law 2016-09), a multi-application chip card that replaced the old national ID card.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.icnl.org/wp-content/uploads/Senegal_biometric.pdf",
+     "publisher": "Journal Officiel du Sénégal (copy hosted by ICNL)",
+     "title": "Décret d'application — carte d’identité biométrique CEDEAO",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-986a7d74ce8f.pdf.gz",
+     "quote": "La carte d’identité biométrique CEDEAO est une carte à puce électronique qui peut servir en même temps à plusieurs applications."
+    }
+   ],
+   "notes": "Bank KYC document lists not consulted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Senegal: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "UEMOA Regulation 06/2024 Annex II (repatriation deadlines, surrender thresholds, any small-amount exemptions for individuals) not read.",
+  "Whether a given freelance digital service is BIC (CGU-eligible) or BNC (excluded from CGU); CGU rates.",
+  "VAT registration threshold for real-regime service providers; CGI rate article and place-of-supply arts. 356-359 not read in full.",
+  "Statutory cooling-off for online purchases in Senegal not established (Law 2008-08 / Decree 2008-718 text not read).",
+  "PayPal practical withdrawal reliability (official Payouts table says send/receive/withdraw; guides say unreliable).",
+  "Payoneer and PayDunya sources are commercial/dated; APIX/DGID official procedures for entreprenant + NINEA not captured.",
+  "Law 2008-12 text and any replacement data-protection law."
+ ]
+}

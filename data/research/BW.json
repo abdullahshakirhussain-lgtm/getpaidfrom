@@ -1,0 +1,393 @@
+{
+ "code": "BW",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, freely. Botswana removed all exchange controls on current-account transactions (IMF Article VIII) and abolished its remaining exchange controls, including capital-account controls, by 1999. No surrender or repatriation rule applies.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bankofbotswana.bw/node/10955",
+     "publisher": "Bank of Botswana",
+     "title": "Bank of Botswana history/timeline",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-e53d516a61b1.html.gz",
+     "quote": "November 17 – Botswana acceded to IMF Article VIII status, removing all exchange controls on current account transactions, and controls on capital account further liberalised."
+    },
+    {
+     "url": "https://dailynews.gov.bw/news-detail/66377",
+     "publisher": "Botswana Daily News (Government)",
+     "title": "Exchange controls abolition article",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-39b73a595047.html.gz",
+     "quote": "Ms Serame indicated that the first controls to be lifted were on payments for imports of goods and services including current account controls in November 1995 while the last exchange controls to be removed were on the transfer and acquisition of foreign assets by Botswana residents including capital account controls."
+    }
+   ],
+   "notes": "Abolition date 9 Feb 1999 per search summary of the Daily News article (not in the captured quote). AML/KYC rules still apply at banks."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Very likely yes, since all exchange controls have been abolished, but no specific source on residents' foreign-currency accounts was captured.",
+   "status": "unverified",
+   "note": "No bank or Bank of Botswana page on resident FCA accounts captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Botswana (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Botswana is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Botswana is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Botswana is on PayPal's Payouts list with 'Send, receive, and withdraw'.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Botswana is listed on PayPal's Payouts country list with the capability 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Botswana is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Botswana.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Botswana (updated June 10, 2026), registration is handled by: Companies and Intellectual Property Authority (CIPA). Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-botswana/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Business Name) in Botswana Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-5cea95376ae3.html.gz",
+     "quote": "Registration body Companies and Intellectual Property Authority (CIPA)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established. Tax registration is with BURS (Botswana Unified Revenue Service); TIN procedure not sourced.",
+   "status": "unverified",
+   "note": "No BURS page captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Botswana taxes on a source basis: a resident is taxable on all income from a Botswana source, at progressive rates up to 25% (0% up to BWP 48,000). Whether fees for remote work done in Botswana for foreign clients are Botswana-source (likely, as the work is done there) was not confirmed. Deloitte 2026 confirms the source-based system and the 0% band up to BWP 48,000, rising to 25%.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/botswana/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Botswana - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-21dfcbc195f7.html.gz",
+     "quote": "A resident is taxable on all income from a Botswana source in accordance with the PIT rates."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/botswana/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Botswana - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-21dfcbc195f7.html.gz",
+     "quote": "Personal income tax rates Resident individual taxpayers Taxable income (BWP) Tax on column 1 (BWP) Tax on excess (%) Over Not over 0 48,000 0 0 48,000 84,000 0 5 84,000 120,000 1,800 12.5 120,000 156,000 6,300 18.75 156,000 13,050 25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-botswanahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Botswana Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-a5d799e5d5fc.pdf.gz",
+     "quote": "Basis: Botswana operates a source-based system of taxation.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-botswanahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Botswana Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-a5d799e5d5fc.pdf.gz",
+     "quote": "Rates: Rates for resident individuals are progressive up to 25%, as shown in the table above.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 14% (raised from 12% in 2021); registration threshold BWP 1 million (PwC; Deloitte 2026), with voluntary registration from BWP 500,000. Treatment of exported services was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/botswana/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Botswana - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-83f1a1ae95f9.html.gz",
+     "quote": "The standard VAT rate of 14% applies to all supplies that do not qualify for an exemption or are not zero-rated."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/botswana/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Botswana - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-83f1a1ae95f9.html.gz",
+     "quote": "The VAT registration threshold is BWP 1 million."
+    },
+    {
+     "url": "https://tradingeconomics.com/botswana/sales-tax-rate",
+     "publisher": "Trading Economics",
+     "title": "Botswana Sales Tax Rate - VAT",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-6656ce1b715e.html.gz",
+     "quote": "Sales Tax Rate in Botswana averaged 12.00 percent from 2006 until 2026, reaching an all time high of 14.00 percent in 2021 and a record low of 10.00 percent in 2007."
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-botswanahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Botswana Highlights 2026",
+     "retrieved": "2026-10-25",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-a5d799e5d5fc.pdf.gz",
+     "quote": "Registration: Taxpayers with annual turnover of at least BWP 1 million must register for VAT purposes."
+    }
+   ],
+   "notes": "Threshold single-domain (PwC). 2021 rise inferred from Trading Economics ('all time high of 14.00 percent in 2021')."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Data Protection Act No. 18 of 2024 came into effect on 29 Oct 2024, replacing the never-commenced 2018 Act. The Information and Data Protection Commission keeps a public register of data controllers. Controllers must notify the Commissioner before automated processing, including any proposed transfers to third countries.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=BW&t=law",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Botswana",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b78dde4674b8.html.gz",
+     "quote": "18 of 2024, (“ the DPA ”) is an Act which was assented to by Parliament on the 19th August 2024 and came into effect on the 29th October 2024."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=BW&t=law",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Botswana",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b78dde4674b8.html.gz",
+     "quote": "In terms of the DPA, data controllers are required to notify the Commissioner of the Commission (“ the Commissioner ”) before carrying out any wholly or partially automated processing operation or set of such operations which are intended to serve a single purpose or serve several related purposes."
+    },
+    {
+     "url": "https://cipit.strathmore.edu/understanding-botswanas-2018-and-2024-data-protection-acts/",
+     "publisher": "CIPIT (Strathmore University)",
+     "title": "Understanding Botswana’s 2018 and 2024 Data Protection Acts",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-bddec8a5a0b9.html.gz",
+     "quote": "It creates specialised divisions in the Information and Data Protection Commission like the Data Protection Division and the Access to Information Division, which were absent in the previous Act."
+    }
+   ],
+   "notes": "Act text not read; registration fees and small-business exemptions unknown."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Botswana. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "072,Botswana,Legislation,Legislation,Legislation,Legislation,No Legislation,1,0,0,1,0,0,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Omang (National Identity Card) (Wikipedia, compulsory-ID list). It is compulsory for all citizens at age 16, and there are penalties for not obtaining it within one month of turning 16 or obtaining citizenship, whichever comes last. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Botswana Omang (National Identity Card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Botswana: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Resident FCA accounts (no source captured though controls abolished).",
+  "CIPA business-name registration and BURS TIN procedure/fees.",
+  "Source rule for remote services; VAT on exported services; VAT threshold second source.",
+  "Botswana ECTA 2014 consumer cooling-off text (country of ICT Policy Africa copy unconfirmed); DPA registration fees.",
+  "Local gateways, Payoneer, KYC ID."
+ ]
+}

@@ -1,0 +1,621 @@
+{
+ "code": "NP",
+ "un_name": "Nepal",
+ "m49_name": "Nepal",
+ "iso3": "NPL",
+ "m49": "524",
+ "region": "Asia",
+ "sub_region": "Southern Asia",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "14-12-1955",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, through NRB-licensed channels. Under NRB's Unified Foreign Exchange Circular 2082, foreign currency that card users earn online from service exports can be credited to their card (a prepaid foreign-currency card issued by a licensed bank). On request it can go to the person's own local-currency or foreign-currency bank account. The October 2026 amendment raised the threshold: card balances above USD 10,000 must be deposited into the cardholder's local or foreign-currency bank account (previous threshold not captured). Service exporters may spend from cards their foreign earnings plus USD 500 a year, capped at USD 10,000.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nrb.org.np/fxm/%e0%a5%a7%e0%a5%a7-%e0%a5%a8%e0%a5%a6%e0%a5%ae%e0%a5%a8-%e0%a5%ae%e0%a5%a9-%e0%a4%8f%e0%a4%95%e0%a5%80%e0%a4%95%e0%a5%83%e0%a4%a4-%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%aa%e0%a4%a4%e0%a5%8d/",
+     "publisher": "Nepal Rastra Bank (Foreign Exchange Management Dept.)",
+     "title": "विदेशी विनिमय कारोबार गर्ने सम्बन्धमा जारी एकीकृत परिपत्र–२०८२ (circular 11/2082-83), p.179 cond. 6 (rendered page 185)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-a8d7e1a775a4.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "६. कार्ड प्रयोगकर्ताले विदेशमा अनलाइनमार्फत् सेवा निर्यात गरेबापत आर्जन गरेको विदेशी मुद्रा समेत कार्डमा जम्मा हुने व्यवस्था मिलाउनु पर्नेछ। यसरी विदेशी मुद्रा प्राप्त रकम कार्ड प्रयोगकर्ताको अनुरोधमा निजको स्वदेशी वा विदेशी मुद्रा खातामा जम्मा हुन सक्ने व्यवस्था समेत गर्नु पर्नेछ।"
+    },
+    {
+     "url": "https://ictframe.com/nrb-eases-foreign-exchange-policy/",
+     "publisher": "ICT Frame",
+     "title": "NRB Eases Foreign Exchange Policy (6 Oct 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6aaa3c58245d.html.gz",
+     "quote": "Balances exceeding USD 10,000 must be mandatorily deposited into the cardholder’s local or foreign currency bank account."
+    },
+    {
+     "url": "https://farsightnepal.com/news/nrb-eases-foreign-exchange-rules-raises-key-dollar-limits/",
+     "publisher": "The Farsight Nepal",
+     "title": "NRB eases foreign exchange rules, raises key dollar limits (7 Oct 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0766d1d9a0f6.html.gz",
+     "quote": "Service exporters can spend abroad an amount equivalent to their foreign currency earnings plus an additional $500, subject to an annual ceiling of $10,000."
+    }
+   ],
+   "notes": "The NRB circular PDF uses the legacy Preeti font (extracted text is gibberish), so it was read from rendered page images. The April-2026 base text says USD 5,000; the 5 Oct 2026 amendment (2/2083-84, not opened) raised it to USD 10,000 per two news outlets. A blog's '30-day conversion' rule was not found in the circular and is not claimed."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, for qualifying FX earners. The circular provides for convertible foreign-currency accounts opened in the name of Nepali citizens, with specified permitted uses. For example, online FX earners may pay up to USD 25,000 a year for IT services related to their work through banking channels. Card balances from online service exports can be moved to the person's own foreign-currency account (P1). Note: some blogs claim individuals cannot hold FX accounts; the circular contradicts this for FX earners.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nrb.org.np/fxm/%e0%a5%a7%e0%a5%a7-%e0%a5%a8%e0%a5%a6%e0%a5%ae%e0%a5%a8-%e0%a5%ae%e0%a5%a9-%e0%a4%8f%e0%a4%95%e0%a5%80%e0%a4%95%e0%a5%83%e0%a4%a4-%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%aa%e0%a4%a4%e0%a5%8d/",
+     "publisher": "Nepal Rastra Bank (Foreign Exchange Management Dept.)",
+     "title": "एकीकृत परिपत्र–२०८२, p.188 para (६)(घ) (rendered page 194)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-a8d7e1a775a4.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "(६) नेपाली नागरिकहरूको नाममा खोलिएको कुनै पनि किसिमको परिवर्त्य विदेशी मुद्रा खाताबाट सम्बन्धित खातावाला र निजको परिवारका सदस्यहरूलाई देहाय बमोजिम आवश्यक पर्ने परिवर्त्य विदेशी मुद्रा खर्च गर्न सकिनेछ ... अनलाइनमार्फत विदेशी मुद्रा आय आर्जन गर्ने नेपाली नागरिकले यस्तो कार्यसँग सम्बन्धित सूचना प्रविधि सेवा खरिद गर्ने प्रयोजनको लागि वार्षिक अधिकतम अमेरिकी डलर २५,००० वा सो बराबरको अन्य विदेशी मुद्रा सम्म बैंकिङ्ग उपकरण मार्फत भुक्तानी गर्न सक्नेछन्।"
+    }
+   ],
+   "notes": "Single official source read from rendered page; conditions for opening an FX account as an individual freelancer (documents, bank practice) not detailed."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Nepal (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Nepal is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Nepal is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Domestic wallets/gateways (Khalti, eSewa) onboard registered businesses. Khalti requires, for a sole or partnership firm, a Banjiya/Udhyog registration certificate, a PAN/VAT certificate, the latest tax clearance and proprietor ID, so an unregistered individual cannot become a Khalti merchant. eSewa merchant requirements not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. A PayPal account can be created in Nepal (Nepal is a listed PayPal market), but Nepal is not on PayPal's receiving/Payouts list: no receiving of freelance payments and no withdrawal to Nepali banks. NRB has been exploring a PayPal tie-up via Fonepay since 2024–25, but no launch was announced as of 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Nepal is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    },
+    {
+     "url": "https://www.merokalam.com/paypal-account-in-nepal/",
+     "publisher": "Merokalam",
+     "title": "PayPal Account in Nepal 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-5b5d29a79028.html.gz",
+     "quote": "Receive freelance payments No Nepal not on PayPal receiving list Withdraw to Nepali bank No No withdrawal path exists"
+    },
+    {
+     "url": "https://nepalitelecom.com/paypal-in-nepal",
+     "publisher": "NepaliTelecom",
+     "title": "PayPal launching soon in Nepal! NRB, Fonepay make initiation (20 Feb 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-61f2381226af.html.gz",
+     "quote": "The world’s leading online payment gateway PayPal could soon enter Nepal ."
+    }
+   ],
+   "notes": "Launch status re-check needed."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Nepal is NOT on Wise's list of countries whose residents can hold money. Payoneer: CONFLICTING. Nepali guides describe receiving into Payoneer and withdrawing to Nepali bank accounts, but an independent 2026 guide reports that Nepal support cannot be verified on any Payoneer-owned page and that withdrawal details trace to unofficial sources.",
+   "status": "conflicting",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Nepal."
+    },
+    {
+     "url": "https://merokalam.com/blog/payoneer-card-in-nepal/",
+     "publisher": "Merokalam",
+     "title": "Payoneer in Nepal 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-4a8473de95b2.html.gz",
+     "quote": "The money lands in your Payoneer USD balance, and then you withdraw to your Nepali bank account on your own schedule."
+    },
+    {
+     "url": "https://digitalsolutionnepal.com/receive-international-payment-nepal/",
+     "publisher": "Digital Solution Nepal",
+     "title": "Receive International Payment in Nepal (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a98b63ab950d.html.gz",
+     "quote": "Payoneer: we could not verify Nepal support from any Payoneer-owned page."
+    }
+   ],
+   "notes": "Treat Payoneer as unconfirmed until a Payoneer or NRB page confirms. NRB's prepaid FX card for service exporters (P1) is the officially regulated route."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Freelancers not engaged in a business can work on a Personal PAN: the special 5% tax applies to resident individuals 'not engaged in business' (L3). Running a business needs firm registration (sole proprietorship 'Banjiya/Udhyog' registration) and a Business PAN. Separately, the E-Commerce Act 2081 (2025) requires anyone selling goods or services online, including via social media, to register on the Department of Commerce, Supplies and Consumer Protection (DoCSCP) portal. The penalty is up to Rs 200,000 per the Department; one firm cites up to NPR 500,000.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://kathmandupost.com/money/2025/07/08/nepal-s-online-sellers-must-register-or-pay-up-to-rs200-000-fine",
+     "publisher": "The Kathmandu Post",
+     "title": "Nepal’s online sellers must register or pay up to Rs200,000 fine (8 Jul 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e53dc2f936f8.html.gz",
+     "quote": "According to the Department of Commerce, Supplies and Consumer Protection, e-commerce entrepreneurs must register with the government by July 18 or face a penalty of up to Rs200,000."
+    },
+    {
+     "url": "https://kathmandupost.com/money/2025/07/08/nepal-s-online-sellers-must-register-or-pay-up-to-rs200-000-fine",
+     "publisher": "The Kathmandu Post",
+     "title": "Nepal’s online sellers must register — social media",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e53dc2f936f8.html.gz",
+     "quote": "This applies even to sellers using social media platforms.”"
+    },
+    {
+     "url": "https://pioneerlaw.com/resource/e-commerce-act-2025/",
+     "publisher": "Pioneer Law Associates",
+     "title": "E-commerce Act, 2025",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-3d61926fd643.html.gz",
+     "quote": "Listing Requirement The business shall be required to list its e-commerce platform in the portal created by the Department of Commerce, Supplies and Consumer Protection (hereinafter referred to as the “Department”)."
+    },
+    {
+     "url": "https://ird.gov.np/faq/",
+     "publisher": "Inland Revenue Department (IRD)",
+     "title": "FAQ — Business PAN",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c07927a94e0b.html.gz",
+     "quote": "व्यावसायिक स्थायी लेखा नम्बर (Business PAN) को लागि व्यवसाय दर्ता प्रमाणपत्र समेत पेश गर्नुपर्दछ ।"
+    }
+   ],
+   "notes": "Whether the E-Commerce Act listing applies to freelancers selling services only to FOREIGN clients was not established. The Act targets e-commerce with consumers; Pioneer notes a micro/cottage-entrepreneur exception from the own-platform requirement. Act text and Gazette not read."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The PAN (Permanent Account Number) from the Inland Revenue Department. There is no fee. For a Personal PAN an individual provides name, permanent address, father's name, date of birth and citizenship/ID number, with a copy of the citizenship certificate, a professional certificate copy and two photos. Converting to a Business PAN requires business registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ird.gov.np/faq/",
+     "publisher": "Inland Revenue Department (IRD)",
+     "title": "FAQ — PAN",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c07927a94e0b.html.gz",
+     "quote": "PAN लिनका लागि कुनैपनि किसिमको दस्तुर बुझाउनु पर्दैन ।"
+    },
+    {
+     "url": "https://ird.gov.np/faq/",
+     "publisher": "Inland Revenue Department (IRD)",
+     "title": "FAQ — Personal PAN documents",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c07927a94e0b.html.gz",
+     "quote": "Personal PAN लिन प्राकृतिक व्यक्तिले आफ्नो नाम, थर, स्थायी ठेगाना, पिताको नाम, जन्म मिति, नागरिकता/परिचयपत्र नम्बर बारे जानकारी गराउनु पर्दछ ।"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (normal abode in Nepal, or 183+ days in any 365-day period) are taxed on income from any source. Special regime: a resident individual NOT engaged in business who receives foreign-currency payment for software or similar electronic services provided outside Nepal (s.95क(6ख)), personal consulting services outside Nepal (6ग), or audiovisual content uploaded to social media (6घ) has 5% advance tax collected by the paying bank or money-transfer firm. Schedule 1 taxes such income at 5%. The rate was raised from 1% to 5% by Finance Act 2080.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%86%E0%A4%AF%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AE%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_7h85rod.pdf",
+     "publisher": "Inland Revenue Department (IRD) — Income Tax Act 2058 as amended by Finance Act 2082",
+     "title": "Income Tax Act 2058, s.95क(6ख)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a1ca760b1a0.pdf.gz",
+     "quote": "व्यवसाय सञ् चालनमा संलग्न नरहेको कुनै बामसन्दा प्राकृ मतक व्यशिले नेपाल बावहर सफ्टवेयर वा यस्तै प्रकृ मतको अन्य ववद्युतीय सेवा उपलब्ध गराए बापत ववदेिी मुरामा भुिानी प्राप् त गरेको भए सम्बशन्धत बैङ्क, ववत्तीय संस्था तथा मुरा हस्तान्तरण (ममन ट्रान्सफर) गने संस्थाले त्यस्तो भुिानी प्रदान गदाि प्राप् त रकमको 347पााँच प्रमतितका दरले अमिम कर असुल गनुि पनेछ।"
+    },
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%86%E0%A4%AF%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AE%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_7h85rod.pdf",
+     "publisher": "Inland Revenue Department (IRD) — Income Tax Act 2058 as amended",
+     "title": "Income Tax Act 2058, Schedule 1",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a1ca760b1a0.pdf.gz",
+     "quote": "बामसन्दा प्राकृ मतक व्यशिको दफा 95क. को उपदफा (6ख), (६ग), (६घ) बमो शजमको आयमा 435पााँच प्रमतितले कर लाग्नेछ।"
+    },
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%86%E0%A4%AF%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AE%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_7h85rod.pdf",
+     "publisher": "Inland Revenue Department (IRD) — Income Tax Act 2058 as amended",
+     "title": "Income Tax Act 2058, s.2 (resident) and s.6 (source)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a1ca760b1a0.pdf.gz",
+     "quote": "बामसन्दा व्यशिको आयको स्रोत जहााँसुकै भए पमन त्यस्तो व्यशिको रोजगारी, व्यवसाय, लगानी वा आकशस्मक लाभबाट भएको आय"
+    },
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%86%E0%A4%AF%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AE%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_7h85rod.pdf",
+     "publisher": "Inland Revenue Department (IRD) — Income Tax Act 2058 as amended",
+     "title": "Income Tax Act 2058 — footnote 347 (rate history)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a1ca760b1a0.pdf.gz",
+     "quote": "347 आमथिक ऐन, २०८० द्बारा संिोधन। साववकमा “एक” भन् ने िब्द रहेको।"
+    }
+   ],
+   "notes": "The IRD consolidated PDF's Unicode is glyph-scrambled (e.g. 'ववदेिी मुरा' for 'विदेशी मुद्रा'); quotes are copied as extracted. s.95क(6ख) is not in the s.92 final-withholding list, but Schedule 1 fixes 5% as the tax on that income. Secondary sources call it a '5% final tax'; some still cite the old 1%."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is a single 13% rate (VAT Act 2052, s.7). Schedule 2 zero-rates services supplied to persons outside Nepal with no business presence in Nepal. Mandatory registration thresholds (set in the rules/Finance Acts) are about NPR 50 lakh annual turnover for goods and NPR 30 lakh for services or mixed businesses (secondary sources). Some professions must register regardless of turnover.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%AE%E0%A5%82%E0%A4%B2%E0%A5%8D%E0%A4%AF%20%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B5%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%20%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%A8%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_ty8cysa.pdf",
+     "publisher": "Inland Revenue Department (IRD) — VAT Act 2052 as amended by Finance Act 2082",
+     "title": "VAT Act 2052, s.7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-69c2015d797d.pdf.gz",
+     "quote": "७. करको दराः 28(१) यस ऐन बमोशजम लाग्ने करको दर तेह्र प्रभतितको एकल दर हुनेछ।"
+    },
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%AE%E0%A5%82%E0%A4%B2%E0%A5%8D%E0%A4%AF%20%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B5%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%20%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%A8%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_ty8cysa.pdf",
+     "publisher": "Inland Revenue Department (IRD) — VAT Act 2052 as amended",
+     "title": "VAT Act 2052, Schedule 2 item 2",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-69c2015d797d.pdf.gz",
+     "quote": "२. नेपाल बाद्धहरको व्यशक्तलाई आपूभति हुने सेवा: (क) नेपालभिर बसोबास िएको व्यशक्तले नेपालमा कुनै व्यावसाद्धयक कारोबार, व्यावसाद्धयक प्रभतभनभधत्व वा कानूनी रूपमा मान्य प्रभतभनभध निएको नेपाल बाद्धहरका व्यशक्तलाई आपूभति गरेको सेवा"
+    },
+    {
+     "url": "https://lawalpine.com/blog/vat-in-nepal-rates-and-thresholds-2082-83",
+     "publisher": "Law Alpine",
+     "title": "VAT in Nepal: rates and thresholds 2082/83",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-4bb823648fb2.html.gz",
+     "quote": "Services-only and mixed businesses generally face the NPR 30 lakh threshold."
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/apac/nepal",
+     "publisher": "Kintsugi",
+     "title": "Nepal VAT Guide 2026 (updated 19 Jul 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a745ce61a7d2.html.gz",
+     "quote": "A business registers once annual turnover exceeds NPR 5 million for goods or NPR 3 million for services"
+    }
+   ],
+   "notes": "Finance Act 2083 (Asar 2083) added VAT changes, e.g. ride-sharing; the 2082-consolidated text may lag. Freelancers under the s.95क regime (not in business) may not be VAT-registrable: not established."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Individual Privacy Act 2075 (2018), supplemented by the Individual Privacy Regulation 2077 (2020). For corporate bodies and public authorities, collecting personal information requires competent-authority approval, the data subject's consent and notice to the data subject. Use or disclosure without consent is restricted except in listed cases. There is no dedicated data-protection authority.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://pioneerlaw.com/individual-privacy-act-2018-2075",
+     "publisher": "Pioneer Law Associates",
+     "title": "Individual Privacy Act, 2018 (2075)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-43d608a7ce61.html.gz",
+     "quote": "Collection of Personal Information The Act requires fulfillment of the following criteria to collect personal information of natural persons: (a) approval of the “Competent Authority”, (b) consent of the data subject, and (c) information to the data subject."
+    },
+    {
+     "url": "https://monolith.law/cross-border/nepal-data-privacy-law",
+     "publisher": "Monolith Law Office",
+     "title": "ネパールのデータプライバシー法",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6d8e270c7df6.html.gz",
+     "quote": "Privacy Actの下位法令として、2020年に「個人情報保護規則」（Individual Privacy Regulation, 2020 (2077)、「Privacy Regulation」）が制定され、Privacy Actの施行を補完しています。"
+    }
+   ],
+   "notes": "Official Act text (lawcommission.gov.np) not captured. Pioneer's scope note: the Act regulates data processed by public authorities or corporate entities incorporated under Nepali law; its application to individual sole traders is unclear."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The E-Commerce Act 2081 (2025) requires e-commerce businesses to disclose name, address, contact, registration details, PAN/VAT and a grievance mechanism, and to list on the DoCSCP portal. Sellers must accept returns, cancellations or refunds for delayed, defective or misrepresented goods or services. No general no-reason cooling-off period was confirmed. The Consumer Protection Act 2075 also applies.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://pioneerlaw.com/resource/e-commerce-act-2025/",
+     "publisher": "Pioneer Law Associates",
+     "title": "E-commerce Act, 2025",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-3d61926fd643.html.gz",
+     "quote": "The Act requires E-commerce businesses, with the exception to micro-entrepreneurs and similar cottage entrepreneurs, to establish their own electronic platform, and clearly disclose business details (such as, name, address, contact details, and registration/regulatory approval-related information of the business, PAN/VAT number, grievance mechanism etc.)"
+    },
+    {
+     "url": "https://lawbhandari.com/publication/e-commerce-law-in-nepal",
+     "publisher": "Law Bhandari & Associates",
+     "title": "E-Commerce Law in Nepal",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-cacb0e54dcfe.html.gz",
+     "quote": "Accept returns, cancellations, or refunds for delayed, defective, or misrepresented goods/services."
+    }
+   ],
+   "notes": "A '7-day' return window appears only in a sample store policy (Blanxer), not the Act; not claimed."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) 5% tax on foreign-currency income from software or electronic services, consulting, and social-media content for resident individuals not in business (L3). (2) A 50% reduction in income tax, until FY 2084/85, on foreign-currency income of persons exporting IT-based services such as BPO, software programming and cloud computing (Income Tax Act s.11). (3) Exported services are zero-rated for VAT (L4). (4) NRB card and FX-account facilities for online service exporters (P1/P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%86%E0%A4%AF%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AE%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_7h85rod.pdf",
+     "publisher": "Inland Revenue Department (IRD) — Income Tax Act 2058 as amended",
+     "title": "Income Tax Act 2058, s.11 (IT service export concession)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a1ca760b1a0.pdf.gz",
+     "quote": "मबशजनेस प्रोसेस आउटसोमसिङ्ग, सफ्टवेयर प्रोिाममङ्ग, क्लाउड कम्प्युवटङ्ग लगायतका सूचना प्रववमधमा आधाररत सेवा मनयाित गरी सो बापत ववदेिी मुरा आजिन गरेमा त्यस्तो व्यशिलाई आमथिक वर्ि २०84/85 सम्म ववदेिी मुरामा प्राप् त गरेको आयको हदसम्म लाग्ने करमा पचास प्रमतित।"
+    },
+    {
+     "url": "https://giwmscdnone.gov.np/media/pdf_upload/%E0%A4%86%E0%A4%AF%E0%A4%95%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AE%20(%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95%20%E0%A4%90%E0%A4%A8%2C%E0%A5%A8%E0%A5%A6%E0%A5%AE%E0%A5%A8%20%E0%A4%B2%E0%A5%87%20%E0%A4%97%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%B8%E0%A4%B9%E0%A4%BF%E0%A4%A4)_7h85rod.pdf",
+     "publisher": "Inland Revenue Department (IRD) — Income Tax Act 2058 as amended",
+     "title": "Income Tax Act 2058, Schedule 1",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a1ca760b1a0.pdf.gz",
+     "quote": "बामसन्दा प्राकृ मतक व्यशिको दफा 95क. को उपदफा (6ख), (६ग), (६घ) बमो शजमको आयमा 435पााँच प्रमतितले कर लाग्नेछ।"
+    }
+   ],
+   "notes": "The s.11 concession appears to apply to business taxpayers exporting IT services; the interplay with the 5% individual regime was not established."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The citizenship certificate (नागरिकता प्रमाणपत्र), required (in copy) for Personal PAN. The National ID card is increasingly used; its role in KYC was not verified here.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ird.gov.np/faq/",
+     "publisher": "Inland Revenue Department (IRD)",
+     "title": "FAQ — Personal PAN documents",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c07927a94e0b.html.gz",
+     "quote": "सो साथ नागरिकताको प्रमाणपत्रको प्रतिलिपी, विदेशीको हकमा राहदानी वा सम्बन्धित कुटनैतिक नियोगद्वारा जारी गरिएको परिचयपत्र, पेशागत प्रमाणपत्रको प्रतिलिपी र दुई प्रति फोटो पेश गर्नु पर्दछ ।"
+    }
+   ],
+   "notes": "Department of National ID and Civil Registration not consulted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (5) Local official channel: Nepal Rastra Bank lets online service exporters receive earnings on a licensed bank's prepaid foreign-currency card, and on request move them to their own local or foreign-currency account (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Nepal: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Nepal: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Nepal: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Nepal: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Nepal: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://www.nrb.org.np/fxm/%e0%a5%a7%e0%a5%a7-%e0%a5%a8%e0%a5%a6%e0%a5%ae%e0%a5%a8-%e0%a5%ae%e0%a5%a9-%e0%a4%8f%e0%a4%95%e0%a5%80%e0%a4%95%e0%a5%83%e0%a4%a4-%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%aa%e0%a4%a4%e0%a5%8d/",
+     "publisher": "Nepal Rastra Bank (Foreign Exchange Management Dept.)",
+     "title": "विदेशी विनिमय कारोबार गर्ने सम्बन्धमा जारी एकीकृत परिपत्र–२०८२ (circular 11/2082-83), p.179 cond. 6 (rendered page 185)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-a8d7e1a775a4.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "६. कार्ड प्रयोगकर्ताले विदेशमा अनलाइनमार्फत् सेवा निर्यात गरेबापत आर्जन गरेको विदेशी मुद्रा समेत कार्डमा जम्मा हुने व्यवस्था मिलाउनु पर्नेछ। यसरी विदेशी मुद्रा प्राप्त रकम कार्ड प्रयोगकर्ताको अनुरोधमा निजको स्वदेशी वा विदेशी मुद्रा खातामा जम्मा हुन सक्ने व्यवस्था समेत गर्नु पर्नेछ।"
+    },
+    {
+     "url": "https://www.nrb.org.np/fxm/%e0%a5%a7%e0%a5%a7-%e0%a5%a8%e0%a5%a6%e0%a5%ae%e0%a5%a8-%e0%a5%ae%e0%a5%a9-%e0%a4%8f%e0%a4%95%e0%a5%80%e0%a4%95%e0%a5%83%e0%a4%a4-%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%aa%e0%a4%a4%e0%a5%8d/",
+     "publisher": "Nepal Rastra Bank (Foreign Exchange Management Dept.)",
+     "title": "एकीकृत परिपत्र–२०८२, p.188 para (६)(घ) (rendered page 194)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-a8d7e1a775a4.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "(६) नेपाली नागरिकहरूको नाममा खोलिएको कुनै पनि किसिमको परिवर्त्य विदेशी मुद्रा खाताबाट सम्बन्धित खातावाला र निजको परिवारका सदस्यहरूलाई देहाय बमोजिम आवश्यक पर्ने परिवर्त्य विदेशी मुद्रा खर्च गर्न सकिनेछ ... अनलाइनमार्फत विदेशी मुद्रा आय आर्जन गर्ने नेपाली नागरिकले यस्तो कार्यसँग सम्बन्धित सूचना प्रविधि सेवा खरिद गर्ने प्रयोजनको लागि वार्षिक अधिकतम अमेरिकी डलर २५,००० वा सो बराबरको अन्य विदेशी मुद्रा सम्म बैंकिङ्ग उपकरण मार्फत भुक्तानी गर्न सक्नेछन्।"
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

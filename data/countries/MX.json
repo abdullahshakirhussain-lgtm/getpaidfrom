@@ -1,0 +1,695 @@
+{
+ "code": "MX",
+ "un_name": "Mexico",
+ "m49_name": "Mexico",
+ "iso3": "MEX",
+ "m49": "484",
+ "region": "Americas",
+ "sub_region": "Latin America and the Caribbean",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "07-11-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency MXN",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_receive_only",
+   "label": "Receive and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, freely. Mexico has no foreign-exchange controls: no controls on transferring US dollars into or out of Mexico, the peso is freely convertible and repatriation is unrestricted. There is no surrender or repatriation requirement on export income. Anti-money-laundering rules cap CASH dollar deposits at banks (e.g. USD 4,000/month for account holders) but do not affect electronic transfers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/mexico-trade-financing",
+     "publisher": "U.S. International Trade Administration (trade.gov)",
+     "title": "Mexico Country Commercial Guide — Trade Financing (Foreign Exchange Controls)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-02340a858f60.html.gz",
+     "quote": "Foreign Exchange Controls There are no controls on the transfer of U.S."
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/mexico-trade-financing",
+     "publisher": "U.S. International Trade Administration (trade.gov)",
+     "title": "Mexico CCG — cash limits",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-02340a858f60.html.gz",
+     "quote": "According to the regulation, banks must observe the following limits: Account holders can deposit no more than USD 4,000 per month."
+    },
+    {
+     "url": "https://clearstream.com/clearstream-en/res-library/market-coverage/investment-regulation-mexico-1281838",
+     "publisher": "Clearstream",
+     "title": "Investment regulation — Mexico",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d98982aa4555.html.gz",
+     "quote": "The Mexican peso (MXN) is freely convertible and repatriation is not restricted."
+    }
+   ],
+   "notes": "trade.gov is a foreign (US) government source, counted as secondary for Mexico. Banxico has no 'no exchange controls' statement page that was found; Banxico's Circular 3/2012 governs FX deposit accounts (P2)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Restricted. Under Banxico Circular 3/2012 art. 46, Mexican banks may take US-dollar demand deposits only from (a) individuals domiciled within 20 km of the US border or in Baja California or Baja California Sur, (b) companies domiciled in Mexico, and (c) foreign official missions, which must document their eligibility. Most individuals elsewhere receive foreign payments converted into an MXN account (CLABE), or keep balances in a platform (PayPal, Payoneer), or form a company to hold a USD account.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.banxico.org.mx/regulations-and-supervision/normative-issued-by-banco-de-mexico/circular-3-2012/%7BA17C1493-C03C-99CB-B00A-A88CD70D7488%7D.pdf",
+     "publisher": "Banco de México",
+     "title": "Circular 3/2012 (English version), Article 46",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-ba98bab88ce9.pdf.gz",
+     "quote": "Institutions may receive Deposits in Foreign Currency from the following persons: I. Demand Deposits, with or without checkbook, payable in the Mexican Republic: a) From individuals who have their domicile in the strip going along twenty kilometers from the border of the United States of America, or in the states of Baja California and Baja California Sur; b) From corporate entities that have their domicile in Mexican territory"
+    }
+   ],
+   "notes": "The English translation's version date was not confirmed; Banxico Circular 11/2026 amended arts. 8 and 14 (MXN accounts). Art. 46 not reported as changed. Re-check the Spanish compiled text."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Mexico (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Mexico is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Mexico is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "The legal name must match the RFC (personal RFCs are 13 characters), and payouts go to an MXN-denominated Mexican bank account (CLABE). No website is needed: an app-store link or social profile works. The Stripe help page is JS-rendered (scripted fetch returned 83 characters); read in the built-in browser and saved as a text capture. Mercado Pago, Clip and Conekta not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. PayPal Mexico (contract with Operadora PayPal de México) is for Mexican-resident individuals aged 18+ and Mexican entities. All accounts can send and receive payments, and business accounts are recommended for selling. The standard fee for receiving domestic commercial transactions is 3.95% plus a fixed fee, plus 0.50% for senders outside Mexico. Standard withdrawal to a bank account from a Business account is free (no currency conversion); instant transfer costs MXN 40.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/mx/legalhub/paypal/useragreement-full",
+     "publisher": "PayPal",
+     "title": "Condiciones de Uso (México)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-20b5b7b73e33.html.gz",
+     "quote": "Si usted es una persona física, debe ser residente en México y tener al menos 18 años para poder abrir una cuenta PayPal y utilizar los servicios PayPal."
+    },
+    {
+     "url": "https://www.paypal.com/mx/webapps/mpp/merchant-fees",
+     "publisher": "PayPal",
+     "title": "Comisiones para comercios (México) — updated 13 Oct 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2872ba9cfbc7.html.gz",
+     "quote": "Comisión estándar por recibir transacciones nacionales Tabla de tarifas: Comisión estándar por recibir transacciones nacionales Tipo de transacción Comisión Transacciones comerciales 3.95% + comisión fija"
+    },
+    {
+     "url": "https://www.paypal.com/mx/webapps/mpp/merchant-fees",
+     "publisher": "PayPal",
+     "title": "Comisiones — retiros",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2872ba9cfbc7.html.gz",
+     "quote": "Retiro de fondos de una cuenta Empresa de PayPal Tabla de tarifas: Retiro de fondos de una cuenta Empresa de PayPal Retiro o transferencia a Tipo de retiro o transferencia Comisión Cuenta bancaria Estándar Sin comisión (si no se requiere una conversión de divisas )"
+    }
+   ],
+   "notes": "Automated Payouts table: Mexico 'Receive and withdraw'."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: used in Mexico to receive USD, EUR or GBP from platforms and clients and withdraw in pesos via SPEI to Mexican banks (2–5 business days). Two independent Mexican guides recommend it for collecting from abroad, not as a savings account. Wise: Mexico is NOT on Wise's list of countries whose residents can hold money.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://comparalatam.com/mx/change/payoneer.html",
+     "publisher": "ComparaLatam",
+     "title": "Payoneer Opiniones 2026: ¿Es Confiable en México? (updated 19 Jun 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-76656880116f.html.gz",
+     "quote": "Recibe en USD, EUR o GBP y retira en pesos mexicanos mediante SPEI con comisiones competitivas del 1% para recibir de empresas;"
+    },
+    {
+     "url": "https://finantres.mx/payoneer-opiniones/",
+     "publisher": "Finantres México",
+     "title": "Payoneer opiniones: ¿vale la pena en México?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-ad9a658d34e6.html.gz",
+     "quote": "Nuestra opinión resumida: Payoneer sí puede valer la pena en México si la usas para cobrar del extranjero y retirar con frecuencia a tu banco , pero no conviene tratarla como una cuenta de ahorro, una cuenta bancaria mexicana o un lugar para dejar todo tu dinero durante meses."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Mexico."
+    }
+   ],
+   "notes": "Both Payoneer guides are comparison/affiliate-style sites. Payoneer's 1% fee is not confirmed on Payoneer's own pages."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "No separate company is needed. An individual operates as a 'persona física' registered in the SAT's RFC under business and professional activities, or under RESICO (L3). Individuals aged 18+ with a CURP can register online. Payment providers (e.g. Stripe) onboard individuals as 'Persona Física con Actividad Empresarial'. A company (S.A. or S. de R.L.) is optional, e.g. to hold a USD account (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "http://omawww.sat.gob.mx/informacion_fiscal/tramites/inscripcion_rfc/Paginas/ficha_3_cff.aspx",
+     "publisher": "Servicio de Administración Tributaria (SAT)",
+     "title": "Solicitud de inscripción en el RFC de personas físicas con CURP",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1725ab6d26aa.html.gz",
+     "quote": "Contenido de la página Quiénes lo presentan Personas físicas a partir de 18 años de edad cumplidos que cuenten con clave única de registro de población (CURP) y requieran inscribirse en el Registro Federal de Contribuyentes (RFC) con o sin obligaciones fiscales."
+    },
+    {
+     "url": "https://www.gob.mx/sat/es/articulos/sabes-a-quien-beneficiara-el-nuevo-regimen-simplificado-de-confianza?idiom=es",
+     "publisher": "Servicio de Administración Tributaria (SAT, gob.mx)",
+     "title": "¿Sabes a quién beneficiará el nuevo Régimen Simplificado de Confianza? (09/02/2022)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-10e764877f0f.txt.gz",
+     "quote": "1. Actividades empresariales y profesionales"
+    },
+    {
+     "url": "https://support.stripe.com/questions/required-information-to-open-your-stripe-account-in-mexico",
+     "publisher": "Stripe",
+     "title": "Required information to open your Stripe account in Mexico",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-40289bcb2eea.txt.gz",
+     "quote": "Legal name: This should exactly match the business or person name in the RFC."
+    }
+   ],
+   "notes": "www.sat.gob.mx timed out; the omawww/wwwmat SAT mirrors were reachable."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The RFC (Registro Federal de Contribuyentes). Personal RFCs are 13 characters. Anyone 18+ with a CURP can obtain it online by filling in a form on the SAT site with no documents (one-time option), or at an SAT office with official ID (voter credential, passport, professional ID with photo).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gob.mx/cms/uploads/attachment/file/632611/RFC_CON_CURP.pdf",
+     "publisher": "Gobierno de México (gob.mx)",
+     "title": "RFC con CURP (guía)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2ada288faf95.pdf.gz",
+     "quote": "Cualquier persona física mayor a 18 años que cuente con CURP puede tramitar el RFC, solamente se requiere llenar un formulario para conocerlo, desde la página del SAT."
+    },
+    {
+     "url": "https://wwwmat.sat.gob.mx/tramites/82714/realiza-tu-inscripcion-en-el-rfc-persona-fisica",
+     "publisher": "Servicio de Administración Tributaria (SAT)",
+     "title": "Realiza tu inscripción en el RFC persona física",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8ed3d2813f9f.html.gz",
+     "quote": "• Identificación oficial vigente del contribuyente o representante legal, como: credencial para votar expedida por el Instituto Nacional Electoral vigente (antes Instituto Federal Electoral), pasaporte, cédula profesional vigente con fotografía, credencial del Instituto Nacional de las Personas Adultas Mayores (original)."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents are taxed on worldwide income regardless of nationality. Residence is a home in Mexico, or the centre of vital interests if there is a home abroad too (more than 50% of income from Mexico or main professional activity in Mexico). The 2026 progressive rates run from 1.92% to 35% (top bracket above MXN 5,107,703.93). RESICO (Régimen Simplificado de Confianza): individuals with business or professional activities and annual invoiced income under MXN 3.5m pay ISR of 1%–2.5% of collected income, with no deductions and a pre-filled annual return. RESICO remains in force in 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/mexico/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mexico — Taxes on personal income (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a186ed4263a3.html.gz",
+     "quote": "Resident individuals are subject to Mexican income tax on their worldwide income, regardless of their nationality."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/mexico/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mexico — Residence",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-b82bc8006e33.html.gz",
+     "quote": "Under Mexican domestic tax law, a person’s centre of vital interests is considered located in Mexico if either (i) more than 50% of the person's income comes from Mexican sources in a calendar year or (ii) Mexico is the primary place of the person's professional activities."
+    },
+    {
+     "url": "https://www.gob.mx/sat/es/articulos/sabes-a-quien-beneficiara-el-nuevo-regimen-simplificado-de-confianza?idiom=es",
+     "publisher": "Servicio de Administración Tributaria (SAT, gob.mx)",
+     "title": "Régimen Simplificado de Confianza (09/02/2022)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-10e764877f0f.txt.gz",
+     "quote": "A partir de 2022, las personas físicas que se encuentren en este nuevo esquema estarán obligados a pagar entre el 1 y el 2.5 % de sus ingresos."
+    },
+    {
+     "url": "https://www.pluxee.mx/blog/resico-que-es-quien-aplica-y-como-funciona/",
+     "publisher": "Pluxee México",
+     "title": "RESICO 2026: Qué es, quién aplica y cómo funciona (14/05/2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c37ff7ef5f21.html.gz",
+     "quote": "Cifras clave: El RESICO para personas físicas mantiene tasas de ISR desde 1% hasta 2.5%."
+    },
+    {
+     "url": "https://siemprealdia.co/mexico/fiscal/regimen-simplificado-de-confianza-resico/",
+     "publisher": "Siempre al Día (Alegra)",
+     "title": "RESICO 2026 (actualizado 29 Abr 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-5e8ea25d4ab4.html.gz",
+     "quote": "Con las modificaciones fiscales 2026, RESICO mantiene sus beneficios pero con nuevas obligaciones de reporte."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/mexico/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mexico — Taxes on personal income (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a186ed4263a3.html.gz",
+     "quote": "5,107,703.93 and above 1,601,862.46 35.00"
+    }
+   ],
+   "notes": "The SAT RESICO article is from 2022 (gob.mx, JS-rendered; read in the browser and saved as a text capture). 2026 continuity is from two independent 2026 guides; LISR arts. 113-E to 113-I not read directly (diputados.gob.mx / dof.gob.mx timeouts)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The general IVA rate is 16%. 0% applies to goods exports and to certain services 'used abroad' (LIVA art. 29-IV). That list is LIMITATIVE: technical assistance and related technical services, maquila, advertising, commissions and mediation, insurance, financing, filming or recording, call centres for calls from abroad, and IT services. The IT category has strict conditions: infrastructure and staff in Mexico, recipient IPs abroad, payment from foreign accounts. Services outside the list are subject to 16% IVA even with a foreign client. There is no small-business IVA exemption for registered individuals in general.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/mexico/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mexico — Other taxes (VAT)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-abe7e2a01e04.html.gz",
+     "quote": "Temporary imports under IMMEX and similar programs are subject to the general 16% VAT rate."
+    },
+    {
+     "url": "https://sdv.com.mx/compendio/ley-iva/articulo-29/",
+     "publisher": "SDV Compendio (hosted text of LIVA)",
+     "title": "Ley del IVA, artículo 29",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-ad26a93b3ffe.html.gz",
+     "quote": "El aprovechamiento en el extranjero de servicios prestados por residentes en el pais, por concepto de: - a) Asistencia tecnica, servicios tecnicos relacionados con esta e informaciones relativas a experiencias industriales, comerciales o cientificas."
+    },
+    {
+     "url": "https://praxiumconsultores.com/blog/art-29-liva-exportacion-de-servicios-al-0",
+     "publisher": "Praxium Consultores",
+     "title": "Art. 29 LIVA: exportación de servicios al 0%",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-f8881d872bef.html.gz",
+     "quote": "La lista de la fracción IV es limitativa: solo se consideran exportados los servicios que ella enumera —asistencia técnica y servicios técnicos relacionados, maquila y submaquila, publicidad, comisiones y mediaciones, seguros y reaseguros, operaciones de financiamiento, filmación o grabación, centros telefónicos de llamadas originadas en el extranjero y servicios de tecnologías de la información—."
+    }
+   ],
+   "notes": "The 'no general small-business IVA exemption' is not quoted; it is a reading of the absence of any threshold in the sources consulted. Mark for confirmation."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The new Federal Law on Protection of Personal Data Held by Private Parties (LFPDPPP) was published in the DOF on 20 Mar 2025 and has been in force since 21 Mar 2025. It keeps the privacy notice (aviso de privacidad) and consent regime. New consent is required for purposes beyond the original notice (no more 'compatible purposes'), and transfers need consent unless an exception applies. INAI was abolished: the Secretaría Anticorrupción y Buen Gobierno is now the private-sector data authority.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ey.com/es_mx/technical/tax/boletines-fiscales/nueva-ley-federal-proteccion-datos-personal-posesion-particulares",
+     "publisher": "EY México",
+     "title": "Nueva LFPDPPP (boletín)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8f94a93ba0bb.html.gz",
+     "quote": "Finalmente, el 20 de marzo de 2025 se publicó en el DOF el Decreto Relevante y, consecuentemente, conforme al Primer transitorio de dicho decreto, la nueva LFPDPPP entró en vigor el 21 de marzo de 2025."
+    },
+    {
+     "url": "https://www.ey.com/es_mx/technical/tax/boletines-fiscales/nueva-ley-federal-proteccion-datos-personal-posesion-particulares",
+     "publisher": "EY México",
+     "title": "Nueva LFPDPPP — autoridad",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8f94a93ba0bb.html.gz",
+     "quote": "Con la entrada en vigor de la nueva LFPDPPP, las funciones y competencias del INAI en materia de protección de datos personales en posesión de los particulares se entienden transferidas a la Secretaría de Anticorrupción y Buen Gobierno."
+    },
+    {
+     "url": "https://www.garrigues.com/es_ES/noticia/mexico-nueva-ley-federal-proteccion-datos-personales-posesion-particulares-introduce",
+     "publisher": "Garrigues",
+     "title": "México: la nueva LFPDPPP (27/03/2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-b815e2c5ef1b.html.gz",
+     "quote": "El pasado 20 de marzo de 2025, se publicó en el Diario Oficial de la Federación la nueva Ley Federal de Protección de Datos Personales en Posesión de los Particulares, que entró en vigor el 21 de marzo de 2025."
+    },
+    {
+     "url": "https://idconline.mx/corporativo/2025/03/21/publican-nuevas-leyes-sobre-acceso-a-informacion-publica-y-proteccion-de-datos-personales",
+     "publisher": "IDC Online",
+     "title": "Publican nuevas leyes sobre acceso a información pública y protección de datos personales",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bd05cd3fe40e.html.gz",
+     "quote": "Una de las principales novedades es que la Secretaría de Anticorrupción y Buen Gobierno se convierte en la autoridad competente para proteger los datos personales en posesión de particulares en México, en sustitución del INAI ."
+    }
+   ],
+   "notes": "DOF unreachable (timeout). No registration duty for controllers was found."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "LFPC art. 56: the contract is perfected 5 business days after delivery of the good or signature of the contract, whichever is later. During that period the consumer may revoke consent without liability, and the supplier refunds the price (freight and insurance at the consumer's cost). PROFECO and media apply this cooling-off period to internet purchases.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://mley.mx/LFPC/articulo/56/",
+     "publisher": "mLey (hosted text of LFPC)",
+     "title": "LFPC Artículo 56",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8b4509422524.html.gz",
+     "quote": "ARTÍCULO 56 .- El contrato se perfeccionará a los cinco días hábiles contados a partir de la entrega del bien o de la firma del contrato, lo último que suceda."
+    },
+    {
+     "url": "https://sdv.com.mx/compendio/ley-federal-de-proteccion-al-consumidor/articulo-56/",
+     "publisher": "SDV Compendio (hosted text of LFPC)",
+     "title": "LFPC Artículo 56",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0baf01264360.html.gz",
+     "quote": "Durante ese lapso, el consumidor tendrá el derecho de revocar su consentimiento sin responsabilidad alguna."
+    },
+    {
+     "url": "https://www.unotv.com/noticias-utiles/puedo-cancelar-mi-compra-por-internet-despues-de-haber-recibido-el-producto/",
+     "publisher": "UnoTV (Nov 2022, citing Profeco)",
+     "title": "¿Puedo cancelar mi compra por internet después de haber recibido el producto?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8a10e1432dd4.html.gz",
+     "quote": "Después de realizar una compra por internet, de acuerdo con el Artículo 56 de la LFPC, la persona podrá desistir de la compra sin responsabilidad durante los próximos 5 días hábiles contados a partir de la entrega del bien, de la firma del contrato o lo último que suceda."
+    }
+   ],
+   "notes": "Whether art. 56 (part of the door-to-door / off-premises chapter) applies to all e-commerce is an interpretation reported by media citing Profeco; the LFPC e-commerce chapter (arts. 76 bis) was not read."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) RESICO: 1%–2.5% ISR on collected income for individuals under MXN 3.5m/yr, with no deductions and simplified compliance. (2) 0% IVA on qualifying exported services (LIVA art. 29-IV list). (3) No exchange controls: earnings move freely. (4) Free online RFC registration with CURP. No digital-specific tax holiday for individuals was verified.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gob.mx/sat/es/articulos/sabes-a-quien-beneficiara-el-nuevo-regimen-simplificado-de-confianza?idiom=es",
+     "publisher": "Servicio de Administración Tributaria (SAT, gob.mx)",
+     "title": "Régimen Simplificado de Confianza",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-10e764877f0f.txt.gz",
+     "quote": "La propuesta está orientada a contribuyentes personas físicas que perciben ingresos anuales menores a 3.5 millones de pesos facturados conforme a su actividad económica"
+    },
+    {
+     "url": "https://www.pluxee.mx/blog/resico-que-es-quien-aplica-y-como-funciona/",
+     "publisher": "Pluxee México",
+     "title": "RESICO 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c37ff7ef5f21.html.gz",
+     "quote": "Aplica para ingresos anuales de hasta 3.5 millones de pesos."
+    },
+    {
+     "url": "https://praxiumconsultores.com/blog/art-29-liva-exportacion-de-servicios-al-0",
+     "publisher": "Praxium Consultores",
+     "title": "Art. 29 LIVA",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-f8881d872bef.html.gz",
+     "quote": "Se le factura a tasa 0 % cuando el servicio se aprovecha en el extranjero y encuadra en alguno de los conceptos que enumera el artículo 29 fracción IV de la LIVA, que es una lista limitativa."
+    }
+   ],
+   "notes": "The platform-economy withholding regime (ISR/IVA withheld by digital platforms) was not researched."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The INE voter credential (credencial para votar) is the main official ID, alongside the passport and the professional ID card with photo; the SAT accepts these as official identification. The CURP (population registry key) is the base identifier used to obtain the RFC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wwwmat.sat.gob.mx/tramites/82714/realiza-tu-inscripcion-en-el-rfc-persona-fisica",
+     "publisher": "Servicio de Administración Tributaria (SAT)",
+     "title": "Realiza tu inscripción en el RFC persona física",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8ed3d2813f9f.html.gz",
+     "quote": "• Identificación oficial vigente del contribuyente o representante legal, como: credencial para votar expedida por el Instituto Nacional Electoral vigente (antes Instituto Federal Electoral), pasaporte, cédula profesional vigente con fotografía, credencial del Instituto Nacional de las Personas Adultas Mayores (original)."
+    },
+    {
+     "url": "https://www.gob.mx/cms/uploads/attachment/file/632611/RFC_CON_CURP.pdf",
+     "publisher": "Gobierno de México (gob.mx)",
+     "title": "RFC con CURP (guía)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2ada288faf95.pdf.gz",
+     "quote": "Te solicitará que ingreses tu CURP para iniciar el proceso."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Receive and withdraw'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Mexico: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

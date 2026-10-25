@@ -1,0 +1,511 @@
+{
+ "code": "TG",
+ "un_name": "Togo",
+ "m49_name": "Togo",
+ "iso3": "TGO",
+ "m49": "768",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. As a UEMOA member, Togo applies Regulation 06/2024/CM/UEMOA. Residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), and repatriate all export proceeds for goods and services (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "Annex II deadlines not read."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation from the Minister of Finance after a binding BCEAO opinion (UEMOA Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Togo (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Togo is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Togo is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "PayDunya, the Dakar-based payment platform, launched in Togo in 2022. It offers businesses collection and disbursement via local mobile money (T-money, Flooz, Wave) and bank cards. Individual onboarding requirements were not confirmed."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Togo is a listed PayPal market but not on the Payouts list.",
+   "status": "unverified",
+   "note": "No Togo-specific PayPal receiving/withdrawal source found on 2026-10-20; only Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Togo is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Togo is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Togo."
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the OHADA entreprenant / individual enterprise (no minimum capital), registered through the Centre de Formalités des Entreprises (CFE), which a guide says can be done online via entreprendre.gouv.tg. The tax number (NIF) comes from the OTR.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA portant sur le droit commercial général (FAOLEX copy)",
+     "title": "AUDCG, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "Art.30.- L’entreprenant est un entrepreneur indi viduel, personne physique qui, sur simple déclaration prévue dans le présent Acte unifo rme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole."
+    },
+    {
+     "url": "https://africarrieres.com/togo/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrières",
+     "title": "Créer une entreprise au Togo (Aug 2026)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-6e9be170f5e1.html.gz",
+     "quote": "Entreprises individuelles Entreprise Individuelle (EI) : Forme la plus simple, sans capital minimum requis"
+    }
+   ],
+   "notes": "CFE official fee schedule not captured (Kolonell Togo page returned 60 chars)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIF (numéro d'identification fiscale) from the Office Togolais des Recettes (OTR). A guide says it is free and takes 3–5 working days. The OTR's e-TPU platform is accessed with the taxpayer's unique identification number.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/togo/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrières",
+     "title": "Créer une entreprise au Togo — NIF",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-6e9be170f5e1.html.gz",
+     "quote": "Auprès de l'Office Togolais des Recettes (OTR) : Obtention du Numéro d'Identification Fiscale (NIF) Délai : 3 à 5 jours ouvrables Gratuit"
+    },
+    {
+     "url": "https://www.togofirst.com/fr/gouvernance-economique/1709-20085-togo-lotr-lance-e-tpu-pour-declarer-et-payer-la-tpu-en-ligne",
+     "publisher": "Togo First",
+     "title": "Togo : l'OTR lance e-TPU (17 Sep 2026)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d59f1add23b4.html.gz",
+     "quote": "La plateforme e-TPU, qui vient d’être lancée, entend substituer à ce circuit un parcours entièrement dématérialisé en six étapes : accès via le numéro d'identification unique du contribuable, dépôt de la liasse fiscale simplifiée, déclaration, liquidation automatisée, paiement mobile et émission d'un justificatif avec QR code."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Small taxpayers pay the Taxe Professionnelle Unique (TPU), a synthetic regime for individuals with annual turnover up to FCFA 60m (2025-2026 press) - some guides and the public-service portal say FCFA 30m. It is computed on turnover estimated by the tax administration, at 8.5% for services and 2.5% for trade/production, and filed and paid online via e-TPU (launched Sept 2026) with mobile money. Under a Sept 2026 OTR notice (CGI art. 129-2), individuals carrying out import and/or export operations are not eligible for the TPU and must use the real regime regardless of turnover. Whether this covers exports of services was not established. Treatment of foreign-source income was not established.",
+   "status": "conflicting",
+   "sources": [
+    {
+     "url": "https://leclik.tg/2025/04/21/tpu-otr-togo/",
+     "publisher": "Leclik",
+     "title": "Taxe professionnelle unique (TPU) : l’OTR poursuit la perception du premier trimestre 2025",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-5c61de8e0c20.html.gz",
+     "quote": "Son montant est calculé sur la base du chiffre d’affaires estimé par l’administration fiscale, à hauteur de 2,5 % pour les activités de commerce et de production, et de 8,5 % pour les prestations de service."
+    },
+    {
+     "url": "https://www.togofirst.com/fr/gouvernance-economique/1709-20085-togo-lotr-lance-e-tpu-pour-declarer-et-payer-la-tpu-en-ligne",
+     "publisher": "Togo First",
+     "title": "Togo : l'OTR lance e-TPU",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d59f1add23b4.html.gz",
+     "quote": "Elle vise en priorité les artisans, commerçants et micro-entreprises relevant du régime forfaitaire, soit les opérateurs dont le chiffre d'affaires annuel est inférieur à 60 millions de francs CFA."
+    },
+    {
+     "url": "https://otr.tg/images/2026/PDF/09/AVIS-N008-2026-OTR-CG-CI-CDDI-NON-ELIGIBILITE-PERSONNES-PHYSIQUES-EFFECTUANT-OPERATIONS-D-IMPORTATION-EXPORTATION-AU-REGIME-SYNTHETIQUE-D-IMPOSITION-TPU.pdf",
+     "publisher": "Office Togolais des Recettes",
+     "title": "Avis N°008/2026/OTR/CG/CI/CDDI",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-a0e92e2c8ec7.pdf.gz",
+     "quote": "En conséquence, toute personne physique qui réalise ou envisage de réaliser des opérations d’importation et/ou d’exportation doit être soumise au régime du bénéfice réel d’imposition, indépendamment du montant de son chiffre d’affaires."
+    },
+    {
+     "url": "https://africarrieres.com/togo/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrières",
+     "title": "Créer une entreprise au Togo — régimes fiscaux",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-6e9be170f5e1.html.gz",
+     "quote": "Régime de l'impôt synthétique : Chiffre d'affaires inférieur à 30 millions FCFA"
+    }
+   ],
+   "notes": "CONFLICT: service-public.gouv.tg (search result) and Africarrières cite a FCFA 30m synthetic ceiling; Leclik and Togo First cite 60m. CGI art. 129 not read. The OTR notice is co-signed by customs (CDDI), suggesting goods import/export, but the text does not say so."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "From 1 Jan 2025, persons with turnover above FCFA 100m must charge and remit VAT (threshold raised from 60m). Those already registered under the old threshold keep their obligations until 31 Dec 2027. The VAT rate and the treatment of exported services were not captured from Togolese sources.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://otr.tg/images/2025/PDF/01/CIRCULAIRE-N001-2025-OTR-CG-CI-REHAUSSEMENT-SEUIL-D-ASSUJETTISSEMENT-TAXE-SUR-LA-TVA.pdf",
+     "publisher": "Office Togolais des Recettes",
+     "title": "Circulaire N°001/2025/OTR/CG/CI — rehaussement du seuil d’assujettissement à la TVA",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-e147f3c95ff3.pdf.gz",
+     "quote": "Ce seuil, initialement de soixante millions (60 000 000) de francs CFA, est porté à cent millions (100 000 000) de francs CFA."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2019-014 of 29 Oct 2019 on personal data created the IPDCP, which began operating in 2025 and oversees compliance of processing. The IPDCP has publicised penalties: illegally collecting or keeping sensitive data without explicit consent risks 1–5 years in prison and an FCFA 1–10m fine. Declaration/authorisation formalities are reported by legal commentary but were not read in the law text.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cio-mag.com/protection-des-donnees-personnelles-au-togo-lipdcp-entame-sa-mission/",
+     "publisher": "CIO Mag",
+     "title": "Protection des données personnelles : au Togo, l’IPDCP entame sa mission",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-93a8de09a96e.html.gz",
+     "quote": "Créé par la loi n°2019-014 relative à la protection des données à caractère personnel, l’IPDCP démarre sa mission par la sensibilisation de masse."
+    },
+    {
+     "url": "https://fr.allafrica.com/stories/202512040384.html",
+     "publisher": "Togonews via AllAfrica",
+     "title": "Togo: Protéger les données, protéger la liberté (4 Dec 2025)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d1cd79822920.html.gz",
+     "quote": "Selon l'IPDCP, toute personne qui collecte ou conserve illégalement des données sensibles, origine ethnique, opinions politiques ou religieuses, santé, vie sexuelle..., sans consentement explicite risque 1 à 5 ans de prison et une amende de 1 à 10 millions de Fcfa."
+    }
+   ],
+   "notes": "Law text (JO 29 Oct 2019, afapdp.org) timed out; droitmediasfinance commentary returned 503."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Decree 2018-062/PR on electronic transactions and services requires suppliers to give extensive pre-contract information, including withdrawal conditions where applicable and their return/refund policy. If a supplier fails these duties, the consumer may cancel within 14 days of receiving the goods or services, with a refund less direct return costs. No general cooling-off period was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://arcep.tg/wp-content/uploads/2020/11/Decret_2018_062_PR_portant_reglementation_des_transactions_services_electronique.pdf",
+     "publisher": "ARCEP Togo — Décret n° 2018-062/PR",
+     "title": "Décret 2018-062/PR portant réglementation des transactions et services électroniques",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-5ed26d8d166f.pdf.gz",
+     "quote": "Si un fournisseur ne se conforme pas aux dispositions précitées, le consommateur peut annuler la transaction dans un délai de quatorze (14) jours qui suivent la réception des produits ou des services faisant l'objet de la transaction."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) TPU synthetic regime up to FCFA 60m, with online filing and mobile-money payment via e-TPU (L3). (2) VAT threshold raised to FCFA 100m from 2025 (L4). (3) Per a Sept 2026 report, new businesses are exempt from TPU for their first two years. This is single-source and not confirmed in the CGI.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.otr.tg/index.php/fr/1619-la-plateforme-de-declaration-et-de-paiement-en-ligne-de-la-taxe-professionnelle-unique-e-tpu-officiellement-lancee.html",
+     "publisher": "Office Togolais des Recettes",
+     "title": "La plateforme e-TPU officiellement lancée",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-5cfdebb55854.html.gz",
+     "quote": "Destinée aux petites et moyennes entreprises, aux microentreprises, artisans et commerçants soumis au régime fiscal synthétique de la TPU, e-TPU permet d'accomplir l'ensemble des déclarations fiscales à distance, depuis un téléphone, une tablette ou un ordinateur, sans déplacement dans un centre des impôts."
+    },
+    {
+     "url": "https://www.togofirst.com/fr/gouvernance-economique/1709-20085-togo-lotr-lance-e-tpu-pour-declarer-et-payer-la-tpu-en-ligne",
+     "publisher": "Togo First",
+     "title": "e-TPU — exemption reminder",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d59f1add23b4.html.gz",
+     "quote": "Des mesures incitatives en parallèle La réforme s'accompagne de rappels sur les dispositifs d'exonération existants : les nouvelles entreprises bénéficient d'une exemption de TPU sur leurs deux premières années d'activité."
+    }
+   ],
+   "notes": "The 2-year TPU exemption is single-source; verify in CGI before relying (Niger repealed a similar exemption in 2025)."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The free e-ID card with a unique identification number (NIU), issued by the ANID under the World Bank-funded WURI programme. Over 6 million people were enrolled by September 2026. The NIU is the reference for identity checks with administrations, banks and social services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://fr.allafrica.com/stories/202609290381.html",
+     "publisher": "Togonews via AllAfrica",
+     "title": "Togo: E-ID - Plus de 6 millions de Togolais déjà enregistrés (29 Sep 2026)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-384911a7ac7a.html.gz",
+     "quote": "Ce numéro, attribué une fois pour toutes, sert de référence pour vérifier l'identité de son titulaire dans ses démarches auprès de l'administration, des banques ou des services sociaux."
+    },
+    {
+     "url": "https://www.digitalbusiness.africa/identification-biometrique-la-carte-e-id-togo-gratuite-est-operationnelle/",
+     "publisher": "Digital Business Africa",
+     "title": "La carte « e-ID Togo » gratuite est opérationnelle (12 Dec 2024)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-7721052b38ff.html.gz",
+     "quote": "Il est possible pour tout résident ou citoyen Togolais d’obtenir une carte e-ID ainsi qu’un Numéro d’ Identification unique (NIU)."
+    }
+   ],
+   "notes": "Whether the e-ID replaces the older national ID card for KYC was not established."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Togo: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Togo: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Togo: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Togo: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Togo: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,676 @@
+{
+ "code": "PK",
+ "status": "complete",
+ "started": "2026-10-17",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. The State Bank of Pakistan's Foreign Exchange Manual (Chapter 12, as updated) defines freelancers as all resident individuals providing digital/online services paid from abroad, lets banks process their export proceeds on a self-declaration basis when no contract exists, and lets them keep USD 5,000 per month or 50% of proceeds (whichever is higher) in a foreign-currency export account (ESFCA). The rest is credited in PKR. Retained balances can be converted to PKR any time, but no foreign-currency cash withdrawal is allowed inside Pakistan.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "b) Freelancers mean all individuals, resident in Pakistan, engaged in provision of any digital/online services, including IT and IT related services, against which payments are received from outside Pakistan."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "b) IT Companies and Freelancers shall be allowed to retain USD 5,000/- per month or 50% of the export proceeds, whichever is higher, in their ESFCAs."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "For Freelancers, the export proceeds could also be processed on self-declaration basis, where underlying export agreements/contracts are not available."
+    },
+    {
+     "url": "https://www.sbp.org.pk/epd/2023/FECL17.htm",
+     "publisher": "State Bank of Pakistan",
+     "title": "EPD Circular Letter No. 17 of 2023 (October 23, 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-32f57134e7fb.html.gz",
+     "quote": "the retention limit in ESFCAs has been increased from 35% to 50% of the export proceeds and the utilization of the retained funds has been further liberalized."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/documents/press-release/Pr-23-Oct-2023-1.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Press release: SBP introduces new measures to facilitate IT Exporters and Freelancers (October 23, 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-71e5d58d5782.pdf.gz",
+     "quote": "The freelancers can retain 50% of their export proceeds or USD 5,000/- per month, whichever is higher, in their ESFCAs and can make all payments from these accounts without any approval from SBP or banks."
+    }
+   ],
+   "notes": "TRAP: an older copy of Chapter 12 is still online at https://www.sbp.org.pk/assets/documents/circulars/epd/chapters/chapter12.pdf (snapshot 2026-10-17-09219f02a320) and says software exporters may retain 'upto 35%', with no freelancer provisions. It is superseded by EPD Circular Letter 17/2023. Do not cite it as current."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Freelancers: yes. Banks must open an Exporters' Special Foreign Currency Account (ESFCA) at the same time as the freelancer's primary PKR account. Balances can pay for personal and work-related current-account items (digital services, marketing, subscriptions, certifications, study) without SBP approval, can be converted to PKR any time, and cannot be withdrawn as foreign-currency cash inside Pakistan. General foreign-currency accounts for residents who are not freelancers were not researched under this item.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "a) Authorized Dealers shall open Exporters’ Special Foreign Currency Accounts (ESFCAs) of all such exporters (IT companies & freelancers) concurrently while opening the primary PKR account."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "e) For freelancers, the balances held in ESFCAs may be utilized for making all personal and own work related payments of current account nature (for example, digital services, digital marketing, membership/ subscription fees, acquiring certification, study etc.) without any approval from SBP."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "However, no cash withdrawal from these foreign currency retention accounts shall be allowed within Pakistan."
+    }
+   ]
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Pakistan (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Dodo Payments (sellers).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Pakistan is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Pakistan is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "SBP's register of authorized PSOs/PSPs (last updated 2 September 2026) lists these e-commerce/electronic payment gateways in commercial operations: NIFT (e-commerce gateway approved 7 Sep 2021), Premier Payfast (21 May 2021), Safepay (17 Apr 2025) and Virtual Remittance Gateway ('Electronic Payment Gateway', 17 Apr 2017). Accept Technologies (Paymob) is only at in-principle approval (4 Nov 2024), not commercial. Sole proprietors: a PayFast integration partner (bSecure) lists the documents for a 'Sole Proprietor Company': CNIC, NTN/FBR certificate and a utility bill matching the website address. Safepay's own onboarding form asks for CNIC of owners/managers, NTN and business age, a bank maintenance certificate, and a 'business account' for payouts. It does not explicitly say whether individuals without a registered business qualify. The register's statuses were read from the rendered PDF page, because text extraction scrambled the columns and made Paymob look approved. Whether Safepay onboards unregistered individuals is not stated on its own pages: open question for Safepay support."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "PayPal does not operate in Pakistan. Pakistan is absent from PayPal's worldwide market list (199 markets) and from PayPal's Payouts eligibility table (93 countries), so Pakistani residents can't open PayPal accounts to receive money, and platforms that pay out via PayPal can't pay Pakistani PayPal accounts. Wise's own Pakistan guide also notes Xoom, a PayPal service, as a way to receive money from abroad into Pakistan.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal worldwide country list",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Pakistan does not appear among the 199 PayPal markets linked from this page (each market links to /<cc>/home; no /pk/home link exists).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Eligible countries and their feature sets: 93 rows; Pakistan is not among them.",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://wise.com/pk/blog/receive-international-payments-in-pakistan",
+     "publisher": "Wise",
+     "title": "Best Ways to Receive International Payments in Pakistan (29.09.24)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-04cc431e3b1b.html.gz",
+     "quote": "While Pakistan has restrictions on some international payment platforms, there are still options available: Payoneer Skrill Xoom (a PayPal service)"
+    }
+   ],
+   "notes": "These are absence findings from complete official lists, so the 'quote' fields describe the list rather than quoting a sentence. The Xoom mention comes from a third party's (Wise's) 2024 page and was not verified on Xoom's own site."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: yes. Payoneer's Pakistan guide (last modified 31 Aug 2026) offers an 'Individual' account type for private individuals without a registered business, alongside sole-proprietor (FBR/NTN) and company (SECP) types. Wise: residents can't get Wise USD account details (Wise help centre lists Pakistan), and Wise's own Pakistan guide (dated 29 Sep 2024) says you can't sign up for Wise directly in Pakistan. Clients abroad can still send money via Wise to a Pakistani bank account in PKR.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/payoneer-individual-account-in-pakistan/",
+     "publisher": "Payoneer",
+     "title": "How to Open a Payoneer Individual Account in Pakistan (last modified Aug 31, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7650f222ac65.html.gz",
+     "quote": "Individual: Suitable if you are registering as a private individual without a registered business Sole proprietor: For one-owner businesses operating under a personal or trade name (typically with FBR/NTN registration) Company: For businesses registered with SECP"
+    },
+    {
+     "url": "https://wise.com/help/articles/2810318/can-i-get-usd-account-details",
+     "publisher": "Wise",
+     "title": "Can I get USD account details?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ac0f5ed24cc.html.gz",
+     "quote": "You can't get USD account details if your address is in: Afghanistan Bangladesh, Belarus, ... North Korea Pakistan Russia Serbia, ..."
+    },
+    {
+     "url": "https://wise.com/pk/blog/receive-international-payments-in-pakistan",
+     "publisher": "Wise",
+     "title": "Best Ways to Receive International Payments in Pakistan (29.09.24)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-04cc431e3b1b.html.gz",
+     "quote": "Remember, while you can't sign up for Wise directly in Pakistan, encouraging your international clients or senders to use Wise can result in faster, cheaper, and more transparent transfers for both parties."
+    }
+   ],
+   "notes": "Wise's 'countries we don't support' list (help article 2978049, snapshot 2026-10-17-4541b35e54c0) does NOT include Pakistan. That list covers places where Wise doesn't operate at all (no sending or receiving). A search-engine summary wrongly claimed Pakistan was on it; the page itself disproves that. The Wise sign-up statement comes from a 2024 blog marked 'updated more than 1 year ago': re-check."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "No separate business registration is required. SMEDA (a government SME agency) says a sole proprietorship needs no prior registration with any government department. The practical registration is with the tax authority (FBR): an individual e-enrolls online with CNIC, phone, email and address, adding a business name and address if they have business income. SMEDA's booklet says FBR is the registering authority for sole proprietors and that applying for an NTN has no official cost; that booklet's other figures date from 2018-19. Companies register with SECP, which is optional and only needed for a company. Punjab residents can also register a sole proprietorship on the Punjab Business Registration Portal, which links to FBR. Freelancers who want the 0.25% export tax rate register with PSEB (see L7), and PSEB requires a personal NTN with no business name.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://smeda.org/index.php?option=com_content&view=article&id=10&Itemid=145",
+     "publisher": "SMEDA (Small and Medium Enterprises Development Authority, Government of Pakistan)",
+     "title": "Legal Facilitation for SMEs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-52025d927b71.html.gz",
+     "quote": "To start a business as a “sole proprietorship” no prior registration of it is required with any government department or authority."
+    },
+    {
+     "url": "https://smeda.org/phocadownload/OTC_Documents/Business_Regulations/C-4%20Business%20Structures%20and%20Types.pdf",
+     "publisher": "SMEDA",
+     "title": "Business Regulations Information Booklet: Business Structures and Types for SMEs (figures refer to 2018-19)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-3056ad575019.pdf.gz",
+     "quote": "The governing body and registering authority for sole proprietor business is the Federal Board of Revenue (FBR) in addition to an optional registration with Provincial Industries Department, particularly for the purpose of excise and taxation."
+    },
+    {
+     "url": "https://smeda.org/phocadownload/OTC_Documents/Business_Regulations/C-4%20Business%20Structures%20and%20Types.pdf",
+     "publisher": "SMEDA",
+     "title": "Business Regulations Information Booklet: Business Structures and Types for SMEs (figures refer to 2018-19)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-3056ad575019.pdf.gz",
+     "quote": "There is no cost associated with applying for NTN for sole proprietorship (other than the lawyer’s fee)."
+    },
+    {
+     "url": "https://smeda.org/phocadownload/OTC_Documents/Business_Regulations/C-4%20Business%20Structures%20and%20Types.pdf",
+     "publisher": "SMEDA",
+     "title": "Business Regulations Information Booklet: Business Structures and Types for SMEs (figures refer to 2018-19)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-3056ad575019.pdf.gz",
+     "quote": "For a Company in Pakistan, Securities and Exchange Commission of Pakistan (SECP) is the only authority for registration and regulating the companies in Pakistan under Companies Act 2017."
+    },
+    {
+     "url": "https://www.fbr.gov.pk/categ/register-income-tax/51147/30846/71149",
+     "publisher": "Federal Board of Revenue",
+     "title": "Register for Income Tax (e-enrollment requirements)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3b28db8a2ae9.html.gz",
+     "quote": "Requirements of e-enrollment for an individual are as follows: CNIC/NICOP/Passport number Cell phone number in use Active e-mail address Nationality Residential address Accounting period In case of business income business name business address Principal business activity"
+    },
+    {
+     "url": "https://www.fbr.gov.pk/one-window-facility-for-registration-of-businesses-in-punjab-with-fbr-launched/152876",
+     "publisher": "Federal Board of Revenue",
+     "title": "One Window facility for registration of businesses in Punjab with FBR launched",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8c57e1695403.html.gz",
+     "quote": "This facility enables applicants to be registered with Punjab Business Portal and FBR in one go without visiting FBR’s field offices or its website."
+    }
+   ],
+   "notes": "SECP's own pages (secp.gov.pk) return HTTP 403 to scripts and refused the built-in browser, so SECP was not quoted directly. The SMEDA booklet's tax figures (Rs 10 million turnover, 1.25%) are from 2018-19 and are NOT used here; current tax rules are in L3. The booklet's '7-10 days' estimate is also old and was not re-checked."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "The tax ID is the NTN (National Tax Number). For individuals, the 13-digit CNIC number itself is used as the NTN. It is obtained by online e-enrollment with FBR (Iris), which issues the NTN/registration number and a password. Being registered and filing returns also matters for the export-income regime in L3, because section 154A's final-tax treatment requires that a return has been filed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.fbr.gov.pk/categ/register-income-tax/51147/30846/71148",
+     "publisher": "Federal Board of Revenue",
+     "title": "Register for Income Tax",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2f2253d7c58e.html.gz",
+     "quote": "In case of individuals, 13 digits Computerized National Identity Card (CNIC) will be used as NTN or Registration Number."
+    },
+    {
+     "url": "https://www.fbr.gov.pk/categ/register-income-tax/51147/30846/71148",
+     "publisher": "Federal Board of Revenue",
+     "title": "Register for Income Tax",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2f2253d7c58e.html.gz",
+     "quote": "E-Enrollment with FBR provides you with a National Tax Number (NTN) or Registration Number and password."
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Residents are taxed on both Pakistan-source and foreign-source income. For export receipts there is a special regime (Income Tax Ordinance s.154A, text amended up to 30 June 2026). The bank deducts tax when the foreign-exchange proceeds are realised: 0.25% of proceeds for computer software, IT or IT-enabled services exports by persons registered with PSEB (tax years 2024 up to 2029), and 1% for other export of services ('any other case'). The deduction is a FINAL tax on that income if the return is filed, withholding statements are filed if required, and sales tax returns are filed if required. PSEB-registered IT exporters are exempt from the sales-tax-return condition. No foreign tax credit is allowed. FBR's Budget 2026-27 salient features confirm the 0.25% rate was extended to Tax Year 2029.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "(5) The income of a resident person under a head of income shall be computed by taking into account amounts that are Pakistan -source income and amounts that are foreign-source income."
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "154A. Export of Services. — (1) Every authorized dealer in foreign exchange shall, at the time of realization of foreign exchange proceeds on account of the following, deduct tax from the proceeds ... (a) exports of computer software or IT services or IT enabled services [where the exporter is registered with and duly certified by the Pakistan Software Export Board (PSEB).]; (b) services or technical services rendered outside Pakistan or exported from Pakistan;"
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "Export proceeds of Computer software or IT services or IT Enabled services by persons registered with Pakistan Software Export Board 0.25% of proceeds [for tax years 2024 up to tax year [2029] ] 2. Any other case 1% of proceeds"
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "(2) The tax deductible under this section shall be a final tax on the income arising from the transactions referred to in this section, upon fulfilment of the following conditions – (a) return has been filed;"
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "(c) sales tax returns under Federal or Provincial laws have been filed, if required under the law [: Provided that this condition shall not apply in case of an exporter mentioned in clause (a) of sub-section (1) of this section.] (d) no credit for foreign taxes paid shall be allowed."
+    },
+    {
+     "url": "https://fbr.gov.pk/Budget2026-27/SalientFeatures/Salient-Feature.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Salient Features, Budget 2026-27",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e79171b42304.pdf.gz",
+     "quote": "Extension of concessionary tax rate for IT and IT-enabled services exports: The reduced tax rate of 0.25% for exporters of IT and IT-enabled services has been extended from 2026 up to Tax Year 2029."
+    }
+   ],
+   "notes": "Whether income from digital PRODUCTS (e.g. templates or e-books sold abroad through foreign platforms) counts as 'IT enabled services' or 'services exported' under s.154A is not stated in these texts. That classification is a question for a tax adviser or FBR, and the guide must not assume it. The text of the Second Schedule, normal slab rates and the definition of 'IT enabled services' (s.2) were not extracted in this pass."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "Pakistan splits sales tax. Goods fall under the federal Sales Tax Act 1990: standard rate 18%, and exported goods are zero-rated. Finance Act 2026's sales-tax amendments do not change section 3, so the 18% stands. People selling digitally ordered goods within Pakistan through a marketplace, website or app must register (cottage industry excepted). Services are taxed by the provinces (Sindh SRB, Punjab PRA, KP KPRA, Balochistan BRA) and by the federal government for Islamabad. Sindh, verified: standard rate 15%, and IT consulting, IT design and development, and software licensing services exported and delivered outside Pakistan are exempt if paid in foreign exchange through banking channels into the exporter's business bank account and reported to SBP. Punjab, KP, Balochistan and Islamabad rules were NOT verified (see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/202586148252375SalesTaxActupdatedupto2025-26.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Sales Tax Act, 1990 (as amended up to 30th June, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-47377f3f00e9.pdf.gz",
+     "quote": "Scope of tax. – (1) Subject to the provisions of this Act, there shall be charged, levied and paid a tax known as sales tax at the rate of [eighteen] per cent of the value of– (a) taxable supplies made […] by a registered person in the course or furtherance of any [taxable activity] carried on by him;"
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/202586148252375SalesTaxActupdatedupto2025-26.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Sales Tax Act, 1990 (as amended up to 30th June, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-47377f3f00e9.pdf.gz",
+     "quote": "the following goods shall be charged to tax at the rate of zero per cent:-- [(a) goods exported, or the goods specified in the Fifth Schedule;]"
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/202586148252375SalesTaxActupdatedupto2025-26.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Sales Tax Act, 1990 (as amended up to 30th June, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-47377f3f00e9.pdf.gz",
+     "quote": "(1A) Every person including a non-resident person except who is running a cottage industry and the retailers who are required to pay sales tax through electricity bills under sub-section (9) of section 3, selling digitally ordered goods from within Pakistan through online marketplace, website or software application as the case may be, shall apply in the prescribed form and in the prescribed manner for registration."
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/20266291261044366FinanceAct2026.pdf",
+     "publisher": "Federal Board of Revenue (Gazette of Pakistan, Extra., June 26, 2026)",
+     "title": "Finance Act, 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-49ad283594c4.pdf.gz",
+     "quote": "Amendments of the Sales Tax Act, 1990 (VII of 1990) .—In the Sales Tax Act, 1990 (VII of 1990), the following further amendments shall be made, namely:— (1) in section 2,– {the amended sections are 2, 6, 8B, 9, 21, 23, 25, 33 and 40C, among others; section 3 is not amended}"
+    },
+    {
+     "url": "https://www.srb.gos.pk/srb/wp-content/uploads/2026/08/SSTOS_Act2011.pdf",
+     "publisher": "Sindh Revenue Board",
+     "title": "Sindh Sales Tax on Services Act, 2011 (consolidated, includes Sindh Finance Act 2026 amendments)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7494d543d269.pdf.gz",
+     "quote": "te of fiftee n per cent of value of the taxable service , which shall be referred to as the standard rate"
+    },
+    {
+     "url": "https://www.srb.gos.pk/srb/wp-content/uploads/2026/08/SSTOS_Act2011.pdf",
+     "publisher": "Sindh Revenue Board",
+     "title": "Sindh Sales Tax on Services Act, 2011 (consolidated, includes Sindh Finance Act 2026 amendments)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7494d543d269.pdf.gz",
+     "quote": "8313 Information technology (IT) consulting and support services The exemption shall be applicable to services exported and delivered outside Pakistan, subject to the condition that the value of export of the services is received in foreign exchange ... through banking channels in the business bank accounts of the registered person exporting the services and is also reported to the State Bank of Pakistan"
+    }
+   ],
+   "notes": "Punjab Revenue Authority sites (pra.punjab.gov.pk, reg.pra.punjab.gov.pk) timed out from here and the built-in browser couldn't reach them, so Punjab's rate and export treatment are UNVERIFIED. A search summary cites a PRA FAQ saying exported services are not taxable and the standard rate is 16%, but that page is about 11 years old and was not fetched. KPRA, BRA and the Islamabad (ICT) services regime were not checked. Sindh's exemption requires the money to land in a 'business bank account' of a 'registered person', so a freelancer paid into a personal account may not qualify as written. The Sales Tax Act copy is the version amended to 30 June 2025, checked against the Finance Act 2026 amendment list. The FA26 quote's curly-brace part is our summary of the amendment list, not the Act's words."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "No comprehensive personal data protection law is in force. The Ministry of IT & Telecom's Data Governance Policy (June 2026) lists the 'Personal Data Protection Law' as anticipated and says the policy will be updated when it is enacted. A May 2026 secondary guide says the Personal Data Protection Bill was approved by the Federal Cabinet but has not passed both houses of Parliament. Current relevant statutes named by MoITT include the Prevention of Electronic Crimes Act 2016 (PECA) and the Electronic Transactions Ordinance 2002. Since there is no PDP regulator yet, sellers serving foreign customers should expect the customers' own laws (e.g. GDPR) to matter more.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://moitt.gov.pk/SiteImage/Policies/Data%20Governance%20Policy%20June%202026.pdf",
+     "publisher": "Ministry of Information Technology and Telecommunication",
+     "title": "Data Governance Policy 2026 (June 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3935ae2f2da5.pdf.gz",
+     "quote": "PDPL Personal Data Protection Law (anticipated) PECA Prevention of Electronic Crimes Act, 2016"
+    },
+    {
+     "url": "https://moitt.gov.pk/SiteImage/Policies/Data%20Governance%20Policy%20June%202026.pdf",
+     "publisher": "Ministry of Information Technology and Telecommunication",
+     "title": "Data Governance Policy 2026 (June 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3935ae2f2da5.pdf.gz",
+     "quote": "Where the Personal Data Protection Law is enacted, this Policy shall be updated to align with the statutory regime."
+    },
+    {
+     "url": "https://www.recordinglaw.com/world-laws/world-data-privacy-laws/pakistan-data-privacy-laws/",
+     "publisher": "Recording Law",
+     "title": "Pakistan Data Privacy Laws: PECA and Personal Data Protection Bill Guide (2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a7c63b427c3e.html.gz",
+     "quote": "The most recently published version, the Personal Data Protection Bill 2023 (also referred to in some government communications as the Personal Data Protection Act 2025 in its updated draft form), has been approved by the Federal Cabinet but has not passed both houses of Parliament."
+    }
+   ],
+   "notes": "Status as of June 2026 (official) and May 2026 (secondary). Re-check the National Assembly and Senate before publishing; the bill could pass at any time."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Electronic contracts and signatures are legally recognised under the Electronic Transactions Ordinance 2002, which extends to the whole of Pakistan. Consumer protection is mostly provincial; the federal one is the Islamabad Consumers Protection Act 1995, listed on Pakistan Code. Provincial acts were not fetched. Domestic online sales also carry tax rules. Income Tax Ordinance s.6A taxes payments for digitally ordered goods or services delivered from within Pakistan through locally operated platforms or websites: 1% when paid digitally via a payment intermediary, 2% for cash on delivery via courier. Export proceeds taxed under s.154/154A are excluded. Sellers of digitally ordered goods must register for sales tax (see L4). The Ministry of Commerce's e-Commerce Policy 2.0 (2025-30) exists only as a stakeholder draft and couldn't be fetched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://pakistancode.gov.pk/pdffiles/administratordbc98dd49f2df3b1d07bb986dcceb9a3.pdf",
+     "publisher": "Pakistan Code (Ministry of Law and Justice)",
+     "title": "The Electronic Transactions Ordinance, 2002",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b690834ee4c7.pdf.gz",
+     "quote": "3. Legal recognition of electronic forms. —No document, record , information, communication or transaction shall be denied legal recognition, admissibility, effect, validity, proof or enforceability on the ground that it is in electronic form and has not been attested by any witness."
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "a tax shall be imposed, at the rate specified in Division IVA of Part I of the First Schedule, on every person who receives payment for supply of digitally ordered goods or services which are delivered from within Pakistan using locally operated online platforms including online marketplace or websites: Provided that the export proceeds subjected to withholding under section 154 and 154A shall not fall within the ambit of this section."
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "(i) Digital Means or banking channels by payment intermediary at the rate of 1% of gross amount paid or payable; and (ii) Cash on Delivery by courier service at the rate of 2% of the gross amount paid or payable."
+    },
+    {
+     "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apqVYw==-sg-jjjjjjjjjjjjj",
+     "publisher": "Pakistan Code (Ministry of Law and Justice)",
+     "title": "Islamabad Consumers Protection Act, 1995 (listing page)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-db1de3261496.html.gz",
+     "quote": "The Pakistan Code Ministry of Law and Justice ... Islamabad Consumers Protection Act, 1995"
+    }
+   ],
+   "notes": "Gaps: provincial consumer protection acts (Punjab 2005, Sindh, KP, Balochistan) not fetched, because punjabcode.punjab.gov.pk and sindhlaws.gov.pk timed out. commerce.gov.pk returned 403 to scripts and a Cloudflare challenge in the browser (not bypassed), so the e-Commerce Policy 2.0 draft was not read. The Islamabad Act's provisions themselves were not extracted (listing page only). The s.6A subsection (3) about adjustability and opting out above or below Rs 200 million turnover was seen in the text but not summarised."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "1) The PSEB freelancer registration unlocks the reduced 0.25% final export tax instead of 1% (L3) and exempts PSEB IT exporters from the sales-tax-return condition for final-tax treatment. It costs Rs 1,000 per year to register and Rs 2,000 per year to renew. It needs a personal NTN with no business name, CNIC and a personal bank account letter, and is open to individuals. The certificate is issued 2-5 working days after payment is verified. Renewal needs an export revenue summary and an income tax return. 2) Under SBP, freelancers can keep USD 5,000 per month or 50% of export proceeds (whichever is higher) in an ESFCA foreign-currency account and spend it without approval (see P1/P2). 3) Sindh exempts exported IT services from provincial sales tax, subject to conditions (L4).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://techdestination.com/freelancer-registration/",
+     "publisher": "Pakistan Software Export Board (pseb.org.pk redirects to techdestination.com)",
+     "title": "Freelancer Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d86516c39d1a.html.gz",
+     "quote": "Required Documents You are required to submit scanned copies of: Personal NTN (With No Business Name) CNIC (Both Sides) Personal Bank Account Letter/Certificate Registration fee for Freelancer Rs. 1,000/- (Per year)"
+    },
+    {
+     "url": "https://techdestination.com/freelancer-registration/",
+     "publisher": "Pakistan Software Export Board (pseb.org.pk redirects to techdestination.com)",
+     "title": "Freelancer Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d86516c39d1a.html.gz",
+     "quote": "Renewal charges for freelancers Rs. 2,000/- (Per year)"
+    },
+    {
+     "url": "https://techdestination.com/freelancer-registration/",
+     "publisher": "Pakistan Software Export Board (pseb.org.pk redirects to techdestination.com)",
+     "title": "Freelancer Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d86516c39d1a.html.gz",
+     "quote": "Once the registration payment is verified, it usually takes about 2-5 working days to process and issue the certificate."
+    },
+    {
+     "url": "https://download1.fbr.gov.pk/Docs/2026724177725705IncomeTaxOrdinanace2001.pdf",
+     "publisher": "Federal Board of Revenue",
+     "title": "Income Tax Ordinance, 2001 (Income Tax Manual Part I, amended up to 30th June, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-1b611d31c667.pdf.gz",
+     "quote": "Export proceeds of Computer software or IT services or IT Enabled services by persons registered with Pakistan Software Export Board 0.25% of proceeds [for tax years 2024 up to tax year [2029] ] 2. Any other case 1% of proceeds"
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "b) IT Companies and Freelancers shall be allowed to retain USD 5,000/- per month or 50% of the export proceeds, whichever is higher, in their ESFCAs."
+    }
+   ],
+   "notes": "techdestination.com is treated as PSEB's official site because https://pseb.org.pk/ redirects there (checked 2026-10-17, HTTP 200 at https://techdestination.com/). A search summary mentioned a 1-working-day processing time on another PSEB page; the page we fetched says 2-5 working days after payment verification."
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The Computerised National Identity Card (CNIC), issued by NADRA under sections 9 and 10 of the NADRA Ordinance 2000. Its 13-digit number doubles as the individual's NTN (L2) and is what Payoneer, payment gateways and PSEB ask for. NADRA also issues the NICOP for overseas Pakistanis, and FBR e-enrollment accepts CNIC, NICOP or passport number.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nadra.gov.pk/",
+     "publisher": "National Database & Registration Authority (NADRA)",
+     "title": "NADRA home page (identity documents section)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": null,
+     "quote": "Computerised National Identity Card (CNIC) is an identity document issued by NADRA under Section 9 & 10 of NADRA Ordinance, 2000."
+    },
+    {
+     "url": "https://www.fbr.gov.pk/categ/register-income-tax/51147/30846/71148",
+     "publisher": "Federal Board of Revenue",
+     "title": "Register for Income Tax",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2f2253d7c58e.html.gz",
+     "quote": "In case of individuals, 13 digits Computerized National Identity Card (CNIC) will be used as NTN or Registration Number."
+    }
+   ],
+   "notes": "nadra.gov.pk returns HTTP 403 to scripts, so the NADRA quote was read during a normal visit in the built-in browser (page footer 'Last Updated 17-09-2026'). No raw snapshot is saved for it; the FBR source has a snapshot."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (6) Local official channel: The State Bank of Pakistan lets freelancers receive export proceeds on self-declaration when there is no contract. Banks must open an Exporters' Special Foreign Currency Account (ESFCA) alongside your PKR account. Payoneer offers an 'Individual' account type (P1/P2/P5). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Pakistan: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "b) Freelancers mean all individuals, resident in Pakistan, engaged in provision of any digital/online services, including IT and IT related services, against which payments are received from outside Pakistan."
+    },
+    {
+     "url": "https://www.sbp.org.pk/assets/document/Chapter-12-foreign-exchange-manual.pdf",
+     "publisher": "State Bank of Pakistan",
+     "title": "Foreign Exchange Manual, Chapter 12 (Exports), updated version",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a333972542.pdf.gz",
+     "quote": "a) Authorized Dealers shall open Exporters’ Special Foreign Currency Accounts (ESFCAs) of all such exporters (IT companies & freelancers) concurrently while opening the primary PKR account."
+    },
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/payoneer-individual-account-in-pakistan/",
+     "publisher": "Payoneer",
+     "title": "How to Open a Payoneer Individual Account in Pakistan (last modified Aug 31, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7650f222ac65.html.gz",
+     "quote": "Individual: Suitable if you are registering as a private individual without a registered business Sole proprietor: For one-owner businesses operating under a personal or trade name (typically with FBR/NTN registration) Company: For businesses registered with SECP"
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "completed": "2026-10-17",
+ "open_questions": [
+  "Punjab (PRA), KP, Balochistan and Islamabad sales tax on exported services: unverified (PRA site unreachable).",
+  "Do digital PRODUCTS sold abroad count as IT-enabled services or exported services under s.154A? Ask a tax adviser or FBR.",
+  "Does Safepay onboard unregistered individuals? Ask Safepay support.",
+  "Provincial consumer protection acts not fetched.",
+  "Personal Data Protection Bill: re-check parliamentary status before publishing."
+ ]
+}

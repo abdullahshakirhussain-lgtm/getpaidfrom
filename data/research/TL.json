@@ -1,0 +1,325 @@
+{
+ "code": "TL",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No conversion is needed: the US dollar is Timor-Leste's official currency, with local centavo coins equal to US cents. Payments in Timor-Leste must be made in the official currency. No surrender or repatriation rules for foreign receipts were found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://lpr.adb.org/sites/default/files/resource/%5Bnid%5D/timor-leste-legal-tender-of-timor-leste-english.pdf",
+     "publisher": "Asian Development Bank (Law and Policy Reform database)",
+     "title": "Legal Tender of Timor-Leste (Decree-Law, English)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a2c82ee5de52.pdf.gz",
+     "quote": "The official currency of the Democratic Republic of Timor-Leste is the US dollar."
+    },
+    {
+     "url": "https://seasia.co/2026/07/09/why-timor-leste-chooses-not-to-print-its-own-currency",
+     "publisher": "Seasia",
+     "title": "Why Timor-Leste chooses not to print its own currency",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-aa5b3b9f4313.html.gz",
+     "quote": "2000/7 established the US Dollar as the official currency to stop exchange rate speculation in the market."
+    }
+   ],
+   "notes": "Exchange-control rules not captured; BCTL 'Know your money' page captured without the body text."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Accounts are in US dollars by default (the official currency). Rules for other currencies were not captured.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Timor-Leste (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Timor-Leste is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Timor-Leste is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Timor-Leste is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Timor-Leste is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Timor-Leste is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Timor-Leste.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole trader registers as an Empresário em Nome Individual (ENIN) with SERVE, the Business Registration and Verification Service. There is no minimum capital and liability is unlimited. Under Decree-Law 16/2017, registration takes 1 to 5 days and is free of charge. Documents are reportedly submitted in person.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://serve.gov.tl/page/19",
+     "publisher": "SERVE, I.P.",
+     "title": "Business registration procedures",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-575c297da53c.html.gz",
+     "quote": "16/2017, 17 of May – Business Registration and the registration process is free of charge."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-east-timor/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Empresário em Nome Individual) in East Timor",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-11fbbf08f4f6.html.gz",
+     "quote": "In East Timor, the equivalent of a sole proprietorship is called Empresário em Nome Individual (often abbreviated ENIN)."
+    }
+   ],
+   "notes": "In-person filing per secondary guides (IPIM, Deel); not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established from a captured source.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents are taxed on income from all sources within and outside Timor-Leste; non-residents only on Timor-Leste-source income. For a resident natural person, annual taxable income up to $6,000 is taxed at 0% and the excess at 10%. Resident wages have a separate wage income tax: 0% on the first $500 a month, 10% above.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.icnl.org/wp-content/uploads/Timor-Leste_Taxes_and_Duties_Act_2008.pdf",
+     "publisher": "ICNL (law text)",
+     "title": "Taxes and Duties Act 2008 (Law No. 8/2008)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-151b9f373afc.pdf.gz",
+     "quote": "the gross income of a resident person includes income derived from all sources within and outside Timor-Leste"
+    },
+    {
+     "url": "https://www.icnl.org/wp-content/uploads/Timor-Leste_Taxes_and_Duties_Act_2008.pdf",
+     "publisher": "ICNL (law text)",
+     "title": "Taxes and Duties Act 2008 (Law No. 8/2008)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-151b9f373afc.pdf.gz",
+     "quote": "Amount of Taxable Income Rate $0 - $6,000 0% in excess of $6,000 10%"
+    },
+    {
+     "url": "https://bizasean.com/taxation-structure-timorleste",
+     "publisher": "BizASEAN",
+     "title": "Taxation structure — Timor-Leste",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-eb69e7e1aa26.html.gz",
+     "quote": "Wage Income Tax (WIT): Employment income for residents is taxed progressively: 0% on the first US$500 of monthly wages and 10% on the excess."
+    }
+   ],
+   "notes": "Act text hosted by ICNL (not a government site); later amendments not checked."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "There is no VAT yet. A 5% services tax applies only to hotel, restaurant, bar and telecommunications turnover above US$500 a month. A VAT is being designed, and the Timor-Leste Tax Authority benchmarked Indonesia's system; reports target 2027, which was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bizasean.com/taxation-structure-timorleste",
+     "publisher": "BizASEAN",
+     "title": "Taxation structure — Timor-Leste",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-eb69e7e1aa26.html.gz",
+     "quote": "Other taxes: Timor-Leste levies no value-added tax (VAT) and no stamp duty ."
+    },
+    {
+     "url": "https://bizasean.com/taxation-structure-timorleste",
+     "publisher": "BizASEAN",
+     "title": "Taxation structure — Timor-Leste",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-eb69e7e1aa26.html.gz",
+     "quote": "A 5% services tax applies to hotel, restaurant, bar and telecommunications turnover above US$500 per month, and import duty is generally 2.5% ."
+    },
+    {
+     "url": "https://www.pajak.go.id/index.php/en/node/120199",
+     "publisher": "Directorate General of Taxes (Indonesia)",
+     "title": "Willing to Develop A VAT System, Timor Leste Visited Indonesia for Benchmark",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-5bf557a4da6c.html.gz",
+     "quote": "The development of the VAT system design has become one part of Timor Leste’s national fiscal reform to strengthen domestic revenue mobilization and to improve the efficiency and fairness of the taxation system."
+    }
+   ],
+   "notes": "Re-check: VAT introduction planned (vatcalc.com 403 on 2026-10-22)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no data-protection/privacy legislation in Timor-Leste. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "626,Timor-Leste,Legislation,Legislation,No Legislation,Legislation,No Legislation,0,0,1,1,0,1,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Timor-Leste. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "626,Timor-Leste,Legislation,Legislation,No Legislation,Legislation,No Legislation,0,0,1,1,0,1,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Bilhete de Identidade (Identity Card) (Wikipedia, compulsory-ID list). Compulsory for all East Timorese citizens. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "East Timor Bilhete de Identidade (Identity Card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Timor-Leste: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Timor-Leste: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Timor-Leste: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Timor-Leste: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "TIN; amendments to Taxes and Duties Act; VAT law timing.",
+  "Data protection; consumer law.",
+  "FX rules for non-USD; local payment options.",
+  "ID/KYC."
+ ]
+}

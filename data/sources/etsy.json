@@ -1,0 +1,390 @@
+{
+ "source": "etsy",
+ "route": "etsy",
+ "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+ "retrieved_at": "2026-10-16T18:21:04+00:00",
+ "sha256": "4d7395251ec4a231e51aeb87ca82403e96b15fff941b4f4425296f56e17e9fbb",
+ "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+ "evidence": "official",
+ "lists": {
+  "eligible": {
+   "meaning": "seller_payments_eligible",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account.",
+   "count": 61,
+   "entries": [
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "CN",
+     "raw": "China",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "KR",
+     "raw": "South Korea",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "TR",
+     "raw": "Türkiye",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": "payoneer",
+     "meaning": "seller_payments_eligible_via_payoneer"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "seller_payments_eligible"
+    }
+   ],
+   "group_entries_not_expanded": [
+    {
+     "raw": "United States territories",
+     "note": "Group entry on Etsy's list; not expanded to individual territories."
+    }
+   ]
+  }
+ }
+}

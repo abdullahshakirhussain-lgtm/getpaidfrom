@@ -1,0 +1,758 @@
+{
+ "code": "TR",
+ "un_name": "Türkiye",
+ "m49_name": "Türkiye",
+ "iso3": "TUR",
+ "m49": "792",
+ "region": "Asia",
+ "sub_region": "Western Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "24-10-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency TRY",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "not_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Under the CBRT Invisible Transactions Circular of 18 May 2026 (which replaced the 2000/YB-4 circular), residents may freely dispose of foreign currency received from non-residents for services provided in Türkiye or abroad. They may sell it freely to banks, authorised institutions or PTT, or keep it in FX accounts. If such currency is sold to a bank, the bank must sell at least 35% of it on to the CBRT. This is a bank-level rule: the individual is paid in full in lira. The 180-day repatriation duty and the 35% sale rule (Temporary Art. 4, to 31/01/2027) in the CBRT Export Circular apply to export proceeds tied to customs declarations (İBKB/DAB), i.e. goods exports.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://tcmb.gov.tr/wps/wcm/connect/189a732e-ea1d-4ef9-b136-7ff4db4e6c4a/Gorunmeyenislveekleri.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-189a732e-ea1d-4ef9-b136-7ff4db4e6c4a-m3fzkyN",
+     "publisher": "Türkiye Cumhuriyet Merkez Bankası (CBRT)",
+     "title": "Görünmeyen İşlemler Genelgesi (18 May 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-db2c2c4df2e1.pdf.gz",
+     "quote": "Döviz kazandırıcı işlemler MADDE 5- (1) Türkiye’de yerleşik kişiler, dışarıda yerleşik kişiler için yurt içinde ve yurt dışında sundukları hizmetler karşılığında dışarıda yerleşik kişilerden aldıkları dövizleri serbestçe tasarruf edebilirler."
+    },
+    {
+     "url": "https://tcmb.gov.tr/wps/wcm/connect/189a732e-ea1d-4ef9-b136-7ff4db4e6c4a/Gorunmeyenislveekleri.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-189a732e-ea1d-4ef9-b136-7ff4db4e6c4a-m3fzkyN",
+     "publisher": "Türkiye Cumhuriyet Merkez Bankası (CBRT)",
+     "title": "Görünmeyen İşlemler Genelgesi (18 May 2026), Art. 5(2)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-db2c2c4df2e1.pdf.gz",
+     "quote": "(2) Döviz kazandırıcı hizmetlerden/işlemlerden elde edilen dövizlerin bankalara satılması halinde, bu dövizlerin en az %35’i bankaca Merkez Bankasına satılır."
+    },
+    {
+     "url": "https://www.tcmb.gov.tr/wps/wcm/connect/e90670f7-fc2e-453c-acd3-88098334b484/%C4%B0hracat+Genelgesi.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e90670f7-fc2e",
+     "publisher": "Türkiye Cumhuriyet Merkez Bankası (CBRT)",
+     "title": "İhracat Genelgesi (consolidated)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2bcd84617eb7.pdf.gz",
+     "quote": "Merkez Bankasına satış GEÇİCİ MADDE 4 – (1) Bu maddenin yürürlük tarihinden itibaren 31/01/2027 (dahil) tarihine kadar İBKB’ye veya DAB’a bağlanan ihracat bedellerinin en az %35’i İBKB’yi veya DAB’ı düzenleyen bankaya satılır."
+    }
+   ],
+   "notes": "Secondary sites disagreed on the current sale rate (25%, 35%, 5%) and expiry date (30 Apr / 31 Jul 2026 / 31 Jan 2027). The consolidated CBRT circulars settle it: 35% until 31/01/2027. Services rule = Invisible Transactions Circular Art. 5."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. The same Art. 5 of the CBRT Invisible Transactions Circular (18 May 2026) states that FX earned from services to non-residents may be kept in FX accounts at banks. The GİB guide on the 20/B content-creator exemption also confirms that foreign-currency proceeds may be paid into the dedicated account; withholding is computed on the lira value at the transfer date.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://tcmb.gov.tr/wps/wcm/connect/189a732e-ea1d-4ef9-b136-7ff4db4e6c4a/Gorunmeyenislveekleri.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-189a732e-ea1d-4ef9-b136-7ff4db4e6c4a-m3fzkyN",
+     "publisher": "Türkiye Cumhuriyet Merkez Bankası (CBRT)",
+     "title": "Görünmeyen İşlemler Genelgesi (18 May 2026), Art. 5(1)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-db2c2c4df2e1.pdf.gz",
+     "quote": "Bu dövizler bankalara, yetkili müesseselere ve PTT’ye serbestçe satılabilir veya bankalarda döviz üzerinden açılacak hesaplarda tutulabilir."
+    },
+    {
+     "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2F2025_sosyal_icerik.pdf",
+     "publisher": "Gelir İdaresi Başkanlığı (GİB)",
+     "title": "Sosyal İçerik Üreticiliği ... Kazanç İstisnası rehberi (2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c7de6f5eb254.pdf.gz",
+     "quote": "Bu kapsamda açılan hesaplara döviz cinsinden bedellerin yatırılması durumunda, hesaba yatırılan döviz bedellerinin aktarım tarihindeki kur (işlem tarihindeki döviz alış kuru) Türk lirası karşılıkları dikkate alınmak suretiyle tevkifat matrahı tespit olunacaktır."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Türkiye (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Türkiye is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Türkiye is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "iyzico (a licensed payment institution): its 'Link ile Ödeme Alma' (pay-by-link) service needs no company. Virtual POS and the marketplace solution need a business: a sole proprietorship (şahıs şirketi) is accepted. Required documents are a signature circular, a tax registration certificate (vergi levhası), partner IDs and a bank document verifying the IBAN. The name on the tax certificate must match the payout account. PayTR's documents for sole traders are listed only by third parties (Ticimax, IdeaSoft), so PayTR is not cited. iyzico's page describes itself as holding 'BDDK ve PCI-DSS lisanslarına'; payment-institution licensing moved to the CBRT under Law 6493 as amended in 2019. Licensing body wording not relied on."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. PayPal's own Türkiye page says PayPal stopped its operations in Türkiye in June 2016. PayPal customers in Türkiye cannot send or receive money, access their accounts or withdraw to linked bank accounts. Etsy's 2016 seller notice explains that the banking regulator (BDDK) refused PayPal a licence. PayPal's developer Payouts country table still lists 'Turkey' as 'Fully localized'. This conflicts with PayPal's consumer statement and with its worldwide market list (TR absent). The specific, current consumer statement is treated as decisive.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/tr/home",
+     "publisher": "PayPal",
+     "title": "PayPal TR — Türkiye’deki Müşterilerimiz İçin Önemli Bilgilendirme",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6393d2baa089.html.gz",
+     "quote": "PayPal olarak Haziran 2016 tarihinden itibaren Türkiye’deki faaliyetlerimizi durdurduğumuzu üzülerek bildirmiştik."
+    },
+    {
+     "url": "https://www.paypal.com/tr/home",
+     "publisher": "PayPal",
+     "title": "PayPal TR — Tüketicileri İlgilendiren Soru ve Cevaplar",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6393d2baa089.html.gz",
+     "quote": "PayPal’ın Türkiye’deki müşterileri para gönderemez veya alamaz, hesaplarına erişemez ya da tanımlı banka hesaplarına para çekemezler."
+    },
+    {
+     "url": "https://www.etsy.com/seller-handbook/article/46601124253",
+     "publisher": "Etsy",
+     "title": "PayPal Ceasing Operations in Turkey (Seller Handbook, 2016)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b44fa3b636cd.txt.gz",
+     "quote": "The Banking Regulation and Supervision Agency (known as the BDDK) has refused PayPal a license to operate in Turkey, which means that PayPal can no longer process payments there."
+    }
+   ],
+   "notes": "CONFLICT IN AUTOMATED DATA: data/sources/paypal_payouts.json lists TR 'Fully localized'; data/sources/paypal_worldwide.json does not list TR. The PayPal TR page is the decisive source. The SEC 10-Q (2016) returned HTTP 403 to scripted access. Etsy blocked scripted access (403), so its article was read in the built-in browser and saved as a text capture."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: usable from Türkiye. Individuals and companies can open accounts, collect marketplace and client payments, and withdraw to Turkish bank accounts (two independent Turkish guides). Payoneer lists Turkish Lira among its supported currencies, and its card-payment option is excluded for 'domestic payments in India or Turkey'. Payoneer is not a CBRT-licensed local institution. Wise: Türkiye is NOT on Wise's list of countries whose residents can hold money in Wise, so no Wise balance or account details for Turkish residents (sending to TRY is a separate service).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sirket.io/blog/payoneer-nedir",
+     "publisher": "sirket.io",
+     "title": "Payoneer Nedir? Türkiye'de Payoneer Kullanımı (2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-419d68297518.html.gz",
+     "quote": "PayPal'ın aksine Payoneer, Türkiye'de yasal olarak kullanılabilir: Türkiye'den bireysel ve kurumsal hesap açılabilir, pazaryeri ve müşteri ödemeleri toplanabilir, bakiye Türk bankalarındaki hesaplara transfer edilebilir."
+    },
+    {
+     "url": "https://mukellef.co/blog/payoneer-nedir/",
+     "publisher": "Mükellef",
+     "title": "Payoneer Nedir? Hesap Nasıl Açılır? 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-1512f435f583.html.gz",
+     "quote": "Hesapta bulunan tutar sistem tarafından Türk Lirasına çevrilerek kullanıcının daha önce tanımlamış olduğu Türkiye banka hesabına aktarılır."
+    },
+    {
+     "url": "https://www.payoneer.com/get-paid-by-clients/",
+     "publisher": "Payoneer",
+     "title": "Get Paid Easily by Clients Worldwide",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e2acda72cd63.html.gz",
+     "quote": "Cannot be used for domestic payments in India or Turkey"
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Türkiye/Turkey."
+    }
+   ],
+   "notes": "No Payoneer page dedicated to Türkiye was found (payoneer.com/tr/ returns 404). Payoneer TRY withdrawal fees are not confirmed."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Generally yes, for tax purposes. Under VUK 213 Art. 153, traders, craftsmen and self-employed professionals (serbest meslek erbabı) must notify the tax office that they have started work. For individuals this is due within 10 days of starting (Art. 168). EXCEPTION, GVK Art. 20/B: social content creators, people selling online courses, data-processing or product-promotion services via online platforms, and mobile-app developers selling through app stores do not keep books or issue invoices. Instead they get an 'İstisna Belgesi' (exemption certificate) from their tax office, which they can apply for online through Dijital Vergi Dairesi. They then collect all revenue through a dedicated Turkish bank account, where the bank withholds 15%. Selling online from your own site or app also requires registering in the Ministry of Trade's ETBİS before starting; sales only via domestic marketplaces are exempt.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.213.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Vergi Usul Kanunu No. 213, Art. 153",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f04c9b088672.pdf.gz",
+     "quote": "Madde 153 – Aşağıda yazılı mükelleflerden işe başlıyanlar keyfiyeti vergi dairesine bildirmeye mecburdurlar: 1. Vergiye tabi ticaret ve sanat erbabı; 2. Serbest meslek erbabı;"
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.213.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Vergi Usul Kanunu No. 213, Art. 168",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f04c9b088672.pdf.gz",
+     "quote": "Gerçek kişilerde işe başlama bildirimleri, işe başlama tarihinden itibaren on gün içinde kendilerince"
+    },
+    {
+     "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2F2025_sosyal_icerik.pdf",
+     "publisher": "Gelir İdaresi Başkanlığı (GİB)",
+     "title": "Sosyal İçerik Üreticiliği ... Kazanç İstisnası rehberi (2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c7de6f5eb254.pdf.gz",
+     "quote": "Mükelleflerin ikametgâhlarının bulunduğu yerdeki tarha yetkili vergi dairelerinden “193 Sayılı Kanunun Mükerrer 20/B Maddesi Uygulamasına İlişkin İstisna Belgesi”ni (İstisna Belgesi) almaları gerekmektedir."
+    },
+    {
+     "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2F2025_sosyal_icerik.pdf",
+     "publisher": "Gelir İdaresi Başkanlığı (GİB)",
+     "title": "Sosyal İçerik Üreticiliği ... Kazanç İstisnası rehberi (2025), Q10",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c7de6f5eb254.pdf.gz",
+     "quote": "tutarı aşıp aşmadığına bakılmaksızın, defter tasdik ettirme, defter tutma (defter-beyan sistemine kaydolma/elektronik defter tutma) ve belge düzenleme zorunlulukları kaldırılmıştır."
+    },
+    {
+     "url": "https://ticaret.gov.tr/ic-ticaret/elektronik-ticaret/elektronik-ticaret-bilgi-sistemi-etbis",
+     "publisher": "T.C. Ticaret Bakanlığı",
+     "title": "Elektronik Ticaret Bilgi Sistemi (ETBİS)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6350cae57ebf.html.gz",
+     "quote": "Elektronik ticaret veya aracılık faaliyetinde bulunan hizmet sağlayıcı veya aracı hizmet sağlayıcıların, faaliyete başlamadan önce e-Devlet kapısı üzerinden ETBİS’e kayıt olması gerekmektedir."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=23842&mevzuatTur=Teblig&mevzuatTertip=5",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Elektronik Ticaret Bilgi Sistemi ve Bildirim Yükümlülükleri Hakkında Tebliğ (2017, am. 2019), Art. 5",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-28f59381bb93.pdf.gz",
+     "quote": "c) Yurt içinde yerleşik olup yurt içinde elektronik ticaret faaliyetinde bulunmamakla birlikte yurt dışında yerleşik bir aracı hizmet sağlayıcı üzerinden sözleşme yapan veya sipariş alan hizmet sağlayıcılar."
+    }
+   ],
+   "notes": "Under the ETBİS Communiqué Art. 5(1)(c), Turkish residents who take orders through a FOREIGN intermediary platform (e.g. Etsy) must also register. The communiqué's 2015 legal-basis regulation was replaced in 2022 (Regulation 7.5.39927), but the Ministry's current ETBİS page still states the pre-activity registration duty."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "For Turkish citizens the 11-digit T.C. kimlik numarası (national ID number) IS the tax ID. Tax offices have used it as such since 1 July 2006, and it goes in the VKN field of documents. Legal entities use a separate VKN. Tax-office services (Dijital Vergi Dairesi) are accessed with the T.C. ID number and an e-Devlet password.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://gib.gov.tr/mevzuat/kanun/434/ozelge/25748",
+     "publisher": "Gelir İdaresi Başkanlığı (Ankara VDB özelgesi, 04.05.2023)",
+     "title": "Özelge 27575268-105[Mük.242-2020-907]-191430 (quoting VKN General Communiqué No. 3)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2adca360e90b.txt.gz",
+     "quote": "vergi dairesi kayıtlarında Türkiye Cumhuriyeti tabiyetinde bulunan gerçek kişilerin vergi kimlik numaraları on bir haneli rakamdan oluşan Türkiye Cumhuriyeti kimlik numarasına dönüştürülmüş ve 01/07/2006 tarihinden itibaren vergi dairelerince fiilen Türkiye Cumhuriyeti kimlik numarası kullanılmaya başlanılmıştır."
+    },
+    {
+     "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fonceki-dokumanlar%2F2025_sosyal_icerik.pdf",
+     "publisher": "Gelir İdaresi Başkanlığı (GİB)",
+     "title": "Sosyal İçerik Üreticiliği ... Kazanç İstisnası rehberi (2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c7de6f5eb254.pdf.gz",
+     "quote": "Bununla birlikte, e-Devlet (www.turkiye.gov.tr) üzerinden giriş yaptıktan sonra veya internet bankacılığı üzerinden e-Devlet sayfası kanalıyla da Dijital Vergi Dairesine geçiş yapılabilmektedir."
+    }
+   ],
+   "notes": "The gib.gov.tr ruling page is rendered by JavaScript (a scripted fetch returned 24 characters). It was read in the built-in browser and the relevant excerpt saved as a text capture."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (domicile in Türkiye, or more than 6 continuous months in a calendar year) are taxed on worldwide income (GVK Arts. 3-4). The 2026 progressive scale for non-wage income is 15% up to TL 190,000, then 20%, 27%, 35% and 40% above TL 5,300,000. Special regimes: (a) GVK 20/B: income of content creators, platform-based online services and app-store app developers is exempt from income tax, with the bank withholding 15% as a FINAL tax on revenue paid into the dedicated account. This holds while yearly 20/B earnings stay under the 4th-bracket amount (TL 5,300,000 for 2026); above it, all of it is declared. (b) GVK 89/13: 80% of the profit from listed services (architecture, engineering, design, software, data processing and others) provided in Türkiye to non-residents and used exclusively abroad is deductible. This requires an invoice to the foreign customer and the whole profit transferred to Türkiye by the annual return deadline.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Art. 3",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "Madde 3 – Aşağıda yazılı gerçek kişiler Türkiye içinde ve dışında elde ettikleri kazanç ve iratların tamamı üzerinden vergilendirilirler: 1. Türkiye'de yerleşmiş olanlar;"
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Mükerrer Art. 20/B",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "Bankalar, bu kapsamda açılan hesaplara aktarılan hasılat tutarı üzerinden, aktarım tarihi itibarıyla %15 oranında gelir vergisi tevkifatı yapmak ve Kanunun 98 ve 119 uncu maddelerindeki esaslar çerçevesinde beyan edip ödemekle yükümlüdür."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Art. 89/13 (as amended by Law 7491, 27/12/2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "Türkiye'de yerleşmiş olmayan kişilerle, işyeri, kanuni ve iş merkezi yurt dışında bulunanlara Türkiye’de verilen ve münhasıran yurt dışında yararlanılan mimarlık, mühendislik, tasarım, yazılım, tıbbi raporlama, muhasebe kaydı tutma, çağrı merkezi, ürün testi, sertifikasyon, veri saklama, veri işleme, veri analizi"
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Art. 89/13 (deduction rate)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "elde edildiği takvim yılına ilişkin yıllık gelir vergisi beyannamesinin verilmesi gereken tarihe kadar tamamının Türkiye’ye transfer edilmesi şartıyla, %80’i. Bu indirimden yararlanılabilmesi için fatura veya benzeri belgenin yurt dışındaki müşteri adına düzenlenmesi şarttır."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Art. 103 (2026 amounts per GİB General Communiqué No. 332)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "500.000 TL’den fazlasının (5.300.000 TL) 500.000 TL’si (5.300.000 TL) için 163.460 TL (1.737.500 TL)"
+    }
+   ],
+   "notes": "In the consolidated GVK the 2026 amounts appear in brackets next to the statutory base amounts (footnote 133: General Communiqué No. 332, RG 31/12/2025). The 2026 4th-bracket figure of TL 5,300,000 for 20/B is also given by secondary sites (fatiharas.com, icpilot.co); GİB's own 2026 20/B guide was not found, only the 2025 edition (TL 4,300,000)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The standard KDV rate is 20% (Presidential Decision 7346, in force 10/07/2023), with reduced rates of 10% and 1%. There is no turnover registration threshold. KDV liability comes with tax registration, but services performed for customers abroad are exempt (KDV Art. 11/1-a). The conditions are that the service is performed for a customer abroad and used abroad (Art. 12/2). Supplies whose income is taxed under GVK 20/B are KDV-exempt under Art. 17/4-a.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2Fkdv-oranlari.pdf",
+     "publisher": "Gelir İdaresi Başkanlığı (GİB)",
+     "title": "Güncel KDV Oranları",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8589f1010782.pdf.gz",
+     "quote": "Yürürlük: 10/07/2023) % 20"
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3065.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Katma Değer Vergisi Kanunu No. 3065, Art. 11/1-a",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-a14c1364f6f9.pdf.gz",
+     "quote": "Aşağıdaki teslim ve hizmetler vergiden müstesnadır: a) (Değişik: 4/6/2008-5766/12 md.) İhracat teslimleri ve bu teslimlere ilişkin hizmetler, yurt dışındaki müşteriler için yapılan hizmetler"
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3065.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Katma Değer Vergisi Kanunu No. 3065, Art. 12/2",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-a14c1364f6f9.pdf.gz",
+     "quote": "Bir hizmetin yurt dışındaki müşteriler için yapılan hizmet sayılabilmesi için aşağıdaki şartlar yerine getirilmiş olmalıdır. a) Hizmetler yurt dışındaki bir müşteri için yapılmış olmalıdır. b) Hizmetten yurt dışında faydalanılmalıdır."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3065.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Katma Değer Vergisi Kanunu No. 3065, Art. 17/4-a",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-a14c1364f6f9.pdf.gz",
+     "quote": "aynı Kanunun mükerrer 20/B ve geçici 94 üncü maddeleri kapsamında vergilendirilen kazançlara konu teslim ve hizmetler"
+    }
+   ],
+   "notes": "'No threshold' = no turnover threshold appears in the KDV Law for registration (liability attaches to taxable supplies by registered taxpayers). This is an absence reading of the statute, not a quoted sentence."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Data Protection Law No. 6698 (KVKK) applies. Personal data may not be processed without explicit consent unless a statutory ground in Art. 5(2) applies, such as performance of a contract. Cross-border transfers need an adequacy decision or appropriate safeguards. A standard contract must be notified to the Authority within 5 business days of signing (Art. 9(5), as amended in 2024). VERBIS (data controller registry) registration: controllers with fewer than 50 employees and a balance sheet under TL 100 million are exempt, unless their main activity is processing special-category data (Board Decision 2018/87 as amended by 2025/1572). Controllers that do not keep balance-sheet books (e.g. most sole traders) are judged on employee count only.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Kişisel Verilerin Korunması Kanunu No. 6698, Art. 5",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-1ad27253b006.pdf.gz",
+     "quote": "Kişisel verilerin işlenme şartları MADDE 5- (1) Kişisel veriler ilgili kişinin açık rızası olmaksızın işlenemez."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Kişisel Verilerin Korunması Kanunu No. 6698, Art. 9(5)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-1ad27253b006.pdf.gz",
+     "quote": "(5) Standart sözleşme, imzalanmasından itibaren beş iş günü içinde veri sorumlusu veya veri işleyen tarafından Kuruma bildirilir."
+    },
+    {
+     "url": "https://www.kvkk.gov.tr/Icerik/8577/kisisel-verileri-koruma-kurulunun-04-09-2025-tarihli-ve-2025-1572-sayili-kararinin-uygulama-esaslarina-iliskin-kamuoyu-duyurusu",
+     "publisher": "Kişisel Verileri Koruma Kurumu (KVKK)",
+     "title": "2025/1572 sayılı Kararın Uygulama Esaslarına İlişkin Kamuoyu Duyurusu",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d78e35832e09.html.gz",
+     "quote": "“yıllık çalışan sayısı 50’den az ve yıllık mali bilanço toplamı 100 milyon Türk lirasından az olan gerçek veya tüzel kişi veri sorumlularından ana faaliyet konusu özel nitelikli kişisel veri işleme olmayanlar"
+    },
+    {
+     "url": "https://www.kvkk.gov.tr/Icerik/8577/kisisel-verileri-koruma-kurulunun-04-09-2025-tarihli-ve-2025-1572-sayili-kararinin-uygulama-esaslarina-iliskin-kamuoyu-duyurusu",
+     "publisher": "Kişisel Verileri Koruma Kurumu (KVKK)",
+     "title": "2025/1572 sayılı Kararın Uygulama Esaslarına İlişkin Kamuoyu Duyurusu",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d78e35832e09.html.gz",
+     "quote": "bilanço esasına göre defter tutmayan veri sorumluları bakımından yıllık mali bilanço toplamı bilgisi bulunmaması sebebiyle yalnızca “yıllık çalışan sayısı” kriterinin esas alınmasına” karar verilmiştir."
+    }
+   ],
+   "notes": "The registration exemption does not lift the Law's other duties (notice/aydınlatma, security, data-subject requests)."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 6502 on Consumer Protection, Art. 48: for distance contracts, the consumer has 14 days to withdraw without giving reasons. The seller must give pre-contract information and bears the burden of proving it did. Under the Distance Contracts Regulation (Art. 15(1)(ğ)), the right of withdrawal does not apply to services performed instantly in electronic form or intangible goods delivered instantly. The seller must prove that electronically delivered intangible goods or services were free of defects. Law 6563 on E-Commerce requires pre-order information and order confirmation. Sellers with their own site or app, or selling through a foreign platform, must register in ETBİS (see L1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6502.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Tüketicinin Korunması Hakkında Kanun No. 6502, Art. 48(4)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-943f70aa212a.pdf.gz",
+     "quote": "(4) Tüketici, on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.20237.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Mesafeli Sözleşmeler Yönetmeliği, Art. 15",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f7c6cf93b5e9.pdf.gz",
+     "quote": "ğ) Elektronik ortamda anında ifa edilen hizmetler veya tüketiciye anında teslim edilen gayrimaddi mallara ilişkin sözleşmeler."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.20237.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Mesafeli Sözleşmeler Yönetmeliği, Art. 15(3)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f7c6cf93b5e9.pdf.gz",
+     "quote": "(3) Satıcı veya sağlayıcı elektronik ortamda tüketiciye teslim edilen gayrimaddi malların veya ifa edilen hizmetlerin ayıpsız olduğunu ispatla yükümlüdür."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6563.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Elektronik Ticaretin Düzenlenmesi Hakkında Kanun No. 6563, Art. 4",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-694e91667476.pdf.gz",
+     "quote": "b) Hizmet sağlayıcı, alıcının siparişini aldığını gecikmeksizin elektronik iletişim araçlarıyla teyit eder."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) GVK 20/B: a 15% final bank withholding replaces income tax, with no books, no invoices and no KDV, for content creators, platform-based online services and app-store developers, up to TL 5.3m/yr (2026). (2) GVK 89/13: an 80% deduction on profit from listed services (software, design, engineering, data processing and others) exported to non-residents, provided the profit is brought into Türkiye. (3) GVK Mükerrer 20, young entrepreneurs: full taxpayers under 29 registering for the first time are exempt on business profit up to the 2nd-bracket amount (TL 400,000 in 2026) for 3 tax years. They must still file a return, and this cannot be combined with 20/B (per a 2022 tax ruling reported secondarily). (4) GVK 20/D (Law 7582, from 2026): people who become Turkish residents after 3 years with no Turkish domicile or tax liability get a 20-year exemption on foreign-source income. This is relevant to returning diaspora.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Mükerrer Art. 20/B",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "Bu istisnadan faydalanılabilmesi için Türkiye’de kurulu bankalarda bir hesap açılması ve bu faaliyetlere ilişkin tüm hasılatın münhasıran bu hesap aracılığıyla tahsil edilmesi şarttır."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Mükerrer Art. 20 (genç girişimci)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "Ticari, zirai veya mesleki faaliyeti nedeniyle adlarına ilk defa gelir vergisi mükellefiyeti tesis olunan ve mükellefiyet başlangıç tarihi itibarıyla yirmi dokuz yaşını doldurmamış tam mükellef gerçek kişilerin, faaliyete başladıkları takvim yılından itibaren üç vergilendirme dönemi boyunca elde ettikleri bu kazançlarının 103 üncü maddede yazılı tarifenin ikinci diliminde yer alan tutara kadar olan kısmı"
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Mükerrer Art. 20/D (Law 7582)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "Türkiye’de yerleşmiş sayılan gerçek kişilerin, Türkiye’de yerleşmiş sayılmasından önceki son üç takvim yılında Türkiye’de ikametgahının ve vergi mükellefiyetinin bulunmaması şartıyla Türkiye dışında elde ettiği kazanç ve iratları yirmi yıl boyunca gelir vergisinden müstesnadır."
+    },
+    {
+     "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.4.193.pdf",
+     "publisher": "Mevzuat Bilgi Sistemi (T.C. Cumhurbaşkanlığı)",
+     "title": "Gelir Vergisi Kanunu No. 193, Art. 103 (2nd bracket, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3d45f709bcca.pdf.gz",
+     "quote": "40.000 TL’nin (400.000 TL) 18.000 TL’si (190.000 TL) için 2.700 TL, (28.500 TL) fazlası % 20"
+    }
+   ],
+   "notes": "The ban on combining 20/B with the young-entrepreneur exemption comes from a Kayseri tax office ruling (2022) reported by secondary sites; the ruling itself was not fetched. GVK 20/D applies to persons treated as resident from 1/1/2026 (amendments table in the consolidated GVK)."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The chip-based Türkiye Cumhuriyeti Kimlik Kartı (TCKK), rolled out nationwide from 2 January 2017, is mandatory for every citizen. It carries the 11-digit T.C. kimlik numarası, which is also the tax ID (L2). A passport is the alternative for foreign platforms.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nvi.gov.tr/tc-kimlik-karti",
+     "publisher": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü (NVİ)",
+     "title": "TC Kimlik Kartı",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6934da71fd7c.html.gz",
+     "quote": "Her Türkiye Cumhuriyeti vatandaşı Türkiye Cumhuriyeti Kimlik Kartı almak zorundadır."
+    },
+    {
+     "url": "https://www.nvi.gov.tr/tc-kimlik-karti",
+     "publisher": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü (NVİ)",
+     "title": "TC Kimlik Kartı",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6934da71fd7c.html.gz",
+     "quote": "02.01.2017 tarihi itibariyle de ülke genelinde yaygınlaştırma çalışmalarına başlanmıştır."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Türkiye: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,497 @@
+{
+ "code": "TT",
+ "un_name": "Trinidad and Tobago",
+ "m49_name": "Trinidad and Tobago",
+ "iso3": "TTO",
+ "m49": "780",
+ "region": "Americas",
+ "sub_region": "Latin America and the Caribbean",
+ "ldc": false,
+ "lldc": false,
+ "sids": true,
+ "un_admitted": "18-09-1962",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "See quoted official summary. No restrictive controls on receiving foreign income were found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/trinidad-and-tobago-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Trinidad and Tobago Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-5ca6af97a09b.html.gz",
+     "quote": "Foreign Exchange Controls The Central Bank of TT manages foreign exchange (forex) and has been combatting forex shortages since 2015 through regular injections of U.S."
+    }
+   ],
+   "notes": "USD shortages since 2015."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Trinidad and Tobago (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Trinidad and Tobago is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Trinidad and Tobago is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Trinidad and Tobago is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Trinidad and Tobago is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Trinidad and Tobago is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Trinidad and Tobago.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Trinidad and Tobago (updated June 10, 2026), registration is handled by: Companies Registry under the Registrar General’s Department (Ministry of Legal Affairs) via the Registration of Business Names Act. Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-trinidad-and-tobago/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Sole Trader) in Trinidad and Tobago Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-9a5ccffe0990.html.gz",
+     "quote": "Registration body Companies Registry under the Registrar General’s Department (Ministry of Legal Affairs) via the Registration of Business Names Act",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The BIR number (Board of Inland Revenue file number). Types include the Individual Income Tax File Number, Company File Number, PAYE number and VAT registration. A self-employed person or sole trader must register for a BIR file number. Individuals can register online through e-TAX with form IA-001 and valid ID, and the number must appear on returns and most tax correspondence (Inland Revenue Division).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ird.gov.tt/BIR_number",
+     "publisher": "Inland Revenue Division, Trinidad and Tobago",
+     "title": "Board of Inland Revenue (BIR) Number",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-3f2e269df0cf.html.gz",
+     "quote": "A BIR Number must be furnished on returns, statements, any other tax related documents, and most communication with the Board of Inland Revenue.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.ird.gov.tt/BIR_number",
+     "publisher": "Inland Revenue Division, Trinidad and Tobago",
+     "title": "Board of Inland Revenue (BIR) Number",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-3f2e269df0cf.html.gz",
+     "quote": "Individual Yes, Simply click here to register for a BIR number through e-TAX .",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.ird.gov.tt/self-employed-sole-trader",
+     "publisher": "Inland Revenue Division, Trinidad and Tobago",
+     "title": "Self Employed/Sole Trader",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0fa58c762f79.html.gz",
+     "quote": "A Self Employed person must Register for a Board of Inland Revenue file number .",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents taxed on worldwide income; 25% below TTD 1 million.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/trinidad-and-tobago/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Trinidad and Tobago - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-20fc2c39328a.html.gz",
+     "quote": "Persons who are resident, ordinarily resident, or domiciled in Trinidad and Tobago are taxed on their worldwide income, whether or not such earnings are remitted to Trinidad and Tobago."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/trinidad-and-tobago/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Trinidad and Tobago - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-20fc2c39328a.html.gz",
+     "quote": "The income tax rate for individuals with chargeable income less than TTD 1 million is 25%."
+    },
+    {
+     "url": "https://taxatlas.io/country/trinidad-and-tobago/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Trinidad And Tobago Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-a5e63e596643.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "USD shortages since 2015."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 12.5%; exports, basic foodstuffs and other qualifying items are zero-rated. Register once commercial supplies reach TTD 600,000 in the preceding 12 months, or when there is evidence that supplies will exceed that in a 12-month period (Deloitte 2026). Whether services to foreign clients count as zero-rated exports was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/trinidad-and-tobago/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Trinidad and Tobago - Corporate - Other taxes",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-5d73673a3c61.html.gz",
+     "quote": "The standard rate applicable to commercial supplies is 12.5%.",
+     "retrieved": "2026-10-23"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/trinidad-and-tobago/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Trinidad and Tobago - Corporate - Other taxes",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-5d73673a3c61.html.gz",
+     "quote": "Basic food items and agricultural supplies are zero-rated, as are crude oil, natural gas, and exported goods and services.",
+     "retrieved": "2026-10-23"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-trinidadandtobagohighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Trinidad and Tobago Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4653edefe39c.pdf.gz",
+     "quote": "Rates: Generally, a standard rate of 12.5% applies to consumables, unless they are deemed zero rated.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-trinidadandtobagohighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Trinidad and Tobago Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4653edefe39c.pdf.gz",
+     "quote": "A zero rate generally applies to exports, basic foodstuffs, and other qualifying products and services.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-trinidadandtobagohighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Trinidad and Tobago Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4653edefe39c.pdf.gz",
+     "quote": "Registration: Businesses making commercial supplies of TTD 600,000 or more in the preceding 12-month period, or having evidence that supplies will exceed that amount in a 12-month period, should register for VAT purposes.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Trinidad and Tobago. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "780,Trinidad and Tobago,Legislation,No Data,Legislation,Legislation,No Legislation,0,1,0,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The National Identification Card is issued by the Elections and Boundaries Commission (EBC) and is accepted as a primary form of identification in Trinidad and Tobago (Wikipedia). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "It is also accepted as a primary form of identification within Trinidad and Tobago, and can be obtained before voting age.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Trinidad and Tobago: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,535 @@
+{
+ "code": "AE",
+ "un_name": "United Arab Emirates",
+ "m49_name": "United Arab Emirates",
+ "iso3": "ARE",
+ "m49": "784",
+ "region": "Asia",
+ "sub_region": "Western Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "09-12-1971",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible_via_payoneer",
+   "label": "payoneer",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency AED; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive",
+   "label": "Send, receive, and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. There are no currency restrictions in the UAE. The dirham has been pegged to the US dollar at AED 3.6725 since 1997.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "United Arab Emirates Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-db5c173ef462.html.gz",
+     "quote": "There are no currency restrictions in the UAE, and residents and non-residents are entitled to hold fully convertible offshore or onshore bank accounts in the UAE or overseas in dirhams or in foreign currency."
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "United Arab Emirates Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-db5c173ef462.html.gz",
+     "quote": "The midpoint between the official buying and selling rate for the dirham has been fixed at AED 3.6725 per 1 USD since 1997."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Residents and non-residents may hold fully convertible accounts in dirhams or foreign currency, onshore or overseas.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "United Arab Emirates Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-db5c173ef462.html.gz",
+     "quote": "There are no currency restrictions in the UAE, and residents and non-residents are entitled to hold fully convertible offshore or onshore bank accounts in the UAE or overseas in dirhams or in foreign currency."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for United Arab Emirates (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "United Arab Emirates is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; United Arab Emirates is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. The UAE is on PayPal's Payouts list as 'Send, receive, and withdraw' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "United Arab Emirates is listed on PayPal's Payouts country list as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: the UAE is NOT on Wise's list of countries whose residents can hold money (as of our 17 Oct 2026 snapshot). Payoneer: Etsy pays UAE sellers via Payoneer (collector data).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include the United Arab Emirates.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Wise may offer other UAE products; only the 'hold money' list was checked."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Freelancers usually work under a freelance permit or licence from a free zone or emirate authority, or as a sole establishment with a mainland trade licence. Free-zone options include Dubai Development Authority/GoFreelance, Expo City Dubai, twofour54, RAKEZ, Ajman and Fujairah Creative City. Costs vary widely: Dubai Development Authority Dh7,500 excluding visa; Expo City Dubai Dh9,000 per year including a new employment visa; Ajman Dh6,000. Some permits come with a residence visa.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.khaleejtimes.com/life-and-living/visa-and-immigration-in-uae/freelance-visa-in-uae-explained-types-cost-eligibility?amp=1",
+     "publisher": "Khaleej Times",
+     "title": "Freelance visa in UAE explained: Types, cost, eligibility (Jan 2022)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-42134e016365.html.gz",
+     "quote": "According to Dubai Development Authority, a freelancer permit costs Dh7,500 – excluding visa cost."
+    },
+    {
+     "url": "https://www.khaleejtimes.com/life-and-living/visa-and-immigration-in-uae/freelance-visa-in-uae-explained-types-cost-eligibility?amp=1",
+     "publisher": "Khaleej Times",
+     "title": "Freelance visa in UAE explained: Types, cost, eligibility (Jan 2022)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-42134e016365.html.gz",
+     "quote": "Ajman Free Zone offers freelance visas for Dh6,000 in 40 categories and flexible co-working spaces."
+    },
+    {
+     "url": "https://gulfnews.com/living-in-uae/ask-us/work-in-dubai-as-a-freelancer-expo-city-dubai-offers-permits-in-three-days-1.1734087829915",
+     "publisher": "Gulf News",
+     "title": "Work in Dubai as a freelancer: Expo City Dubai offers permits in three days",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-193d6594fdf9.html.gz",
+     "quote": "• A one-year permit and new employment visa for Dh9,000 per year."
+    }
+   ],
+   "notes": "Fees change often; confirm with the issuing authority. Mainland sole-establishment route not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by United Arab Emirates to the OECD: \"The United Arab Emirates does not issue Tax Identification Numbers (″TINs″). Therefore, TINs are not automatically issued for Individuals and Entities. The United Arab Emirates issues Tax Residency Certificate s (″TRCs″) (also known as Tax Domicile Certificates) upon application of an eligible individual or entity based on the applicable Double Taxation Treaty. The TRCs are valid for one year and do not carry a TIN.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/uae-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by United Arab Emirates's tax administration)",
+     "title": "United Arab Emirates — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-563d1e8c10c7.pdf.gz",
+     "quote": "The United Arab Emirates does not issue Tax Identification Numbers (″TINs″). Therefore, TINs are not automatically issued for Individuals and Entities. The United Arab Emirates issues Tax Residency Certificate s (″TRCs″) (also known as Tax Domicile Certificates) upon application of an eligible individual or entity based on the applicable Double Taxation Treaty. The TRCs are valid for one year and do not carry a TIN.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "There is no personal income tax on employment or investment income. Natural persons conducting a business in the UAE, including freelancers, fall under Corporate Tax once their business turnover exceeds AED 1 million in a calendar year: 0% on the first AED 375,000 of taxable income (profit) and 9% above. Small-business relief for revenue up to AED 3 million is available through tax periods ending in 2026 but requires registration and filing.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/united-arab-emirates/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United Arab Emirates - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-97fd71e6d918.html.gz",
+     "quote": "Under the UAE CT Law, natural persons who conduct a business or business activity in the United Arab Emirates will be subject to UAE CT at 9% where the total turnover derived from such business or business activity exceeds 1 million UAE dirham (AED)."
+    },
+    {
+     "url": "https://economymiddleeast.com/news/uae-corporate-tax-natural-persons-and-threshold-for-taxable-turnover",
+     "publisher": "Economy Middle East",
+     "title": "UAE corporate tax: Natural persons and threshold for taxable turnover",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-653006bff44d.html.gz",
+     "quote": "The tax rate for natural persons is zero up to AED375,000 in taxable income, with a 9 percent rate applying to amounts exceeding this threshold."
+    },
+    {
+     "url": "https://beancount.io/blog/2026/08/13/uae-corporate-tax-freelancers-2026-guide",
+     "publisher": "Beancount",
+     "title": "UAE Corporate Tax for Freelancers in 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b76f28fb4a8d.html.gz",
+     "quote": "Natural persons (individuals) engaged in business or business activity in the UAE — including freelancers operating under a freelance permit or license — are subject to corporate tax only when gross turnover exceeds AED 1 million in a calendar year."
+    }
+   ],
+   "notes": "TRAP: once over AED 1m, registration and returns are required even if relief makes tax zero. FTA/Cabinet Decision 49/2023 text not captured."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 5%. Resident businesses must register above AED 375,000 of taxable supplies, including zero-rated supplies (voluntary from AED 187,500). Services exported outside the GCC VAT states are zero-rated where the recipient is outside the UAE; a recipient with only a short-term presence of under a month, not connected with the supply, counts as outside.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/united-arab-emirates/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United Arab Emirates - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a919d1682bbe.html.gz",
+     "quote": "For UAE resident businesses, the mandatory VAT registration threshold is AED 375,000 and the voluntary registration threshold is AED 187,500."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/united-arab-emirates/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United Arab Emirates - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a919d1682bbe.html.gz",
+     "quote": "The 0% VAT rate applies to goods and services exported outside the VAT-implementing Gulf Cooperation Council (GCC) member states, international transportation, the supply of crude oil/natural gas, the first supply of residential real estate, and some specific areas, such as health care and education."
+    },
+    {
+     "url": "https://www.hawksford.com/insights-and-guides/vat-registration-uae",
+     "publisher": "Hawksford",
+     "title": "VAT registration in the UAE",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8cbeceec1dac.html.gz",
+     "quote": "Amounts that can count towards the threshold generally include: Standard-rated taxable supplies subject to VAT at 5% Zero-rated supplies, including qualifying exports"
+    }
+   ],
+   "notes": "Zero-rated exports count toward the AED 375k threshold (Hawksford)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (PDPL) was issued on 26 September 2021. It is GDPR-like, with access, rectification, deletion and objection rights, and applies to processing of data of UAE residents. Compliance starts six months after its Executive Regulations are issued, and their status was not confirmed. DIFC and ADGM free zones have their own data-protection laws.",
+   "status": "unverified",
+   "note": "Single secondary domain (DLA Piper) captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=AE&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in the United Arab Emirates",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-58e050100605.html.gz",
+     "quote": "45 of 2021 on the Protection of Personal Data Protection (“ PDPL ”), which was issued on 26 September 2021."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=AE&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in the United Arab Emirates",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-58e050100605.html.gz",
+     "quote": "Once the Executive Regulations are issued, organisations have a further six months from their date of the issuance in which they can adjust operations to compliance with the PDPL."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in United Arab Emirates. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "784,United Arab Emirates,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,1,1,0,0,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No personal income tax; CT applies to individuals' business income only above AED 1m turnover, with a 0% band up to AED 375k profit and small-business relief (see L3). Freelance permits can carry a residence visa.",
+   "status": "unverified",
+   "note": "Summary of L1/L3; no separate incentive source on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for United Arab Emirates accepts: Power of Attorney (Company Authorization) Emirates ID - photos of front and back of the physical Emirates ID card or the front and back of the Emirates ID from the ICP app are required Passport - a photo of the physical passport or the e-passport are required Residence visa - passport visa page, digital visa from ICP app, front and back of Emirates Golden Card or front and back of physical Emirates ID card (if …. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=AE",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — United Arab Emirates",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-dc04611bb4a6.html.gz",
+     "quote": "Acceptable forms of identification: Power of Attorney (Company Authorization) Emirates ID - photos of front and back of the physical Emirates ID card or the front and back of the Emirates ID from the ICP app are required Passport - a photo of the physical passport or the e-passport are required Residence visa - passport visa page, digital visa from",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) Stripe accepts merchants here, so you can take card payments directly on your own site. (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "United Arab Emirates: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "youtube_ypp|Republic of Ireland": {
+  "code": "IE",
+  "verified_on": "2026-10-17",
+  "sources": [
+   "https://support.google.com/youtube/answer/7101720?hl=en",
+   "https://www.un.org/en/about-us/member-states"
+  ],
+  "evidence": "YouTube's list contains both 'Republic of Ireland' and 'United Kingdom'. The UN members whose UN/M49 names contain 'Ireland' are exactly IE (Ireland) and GB (United Kingdom of Great Britain and Northern Ireland). GB is listed separately, so this is IE."
+ },
+ "youtube_ypp|Macedonia": {
+  "code": "MK",
+  "verified_on": "2026-10-17",
+  "sources": [
+   "https://www.un.org/en/about-us/member-states/yugoslavia",
+   "https://www.un.org/en/about-us/member-states"
+  ],
+  "evidence": "UN page: admitted 8 April 1993 (A/RES/47/225) as 'The former Yugoslav Republic of Macedonia'; following a 14 February 2019 communication the name changed to 'the Republic of North Macedonia (short form: North Macedonia)'. North Macedonia (flag code mk) is the only UN member whose name contains 'Macedonia', so YouTube's 'Macedonia' entry is MK."
+ }
+}

@@ -1,0 +1,732 @@
+{
+ "source": "polar",
+ "route": "polar",
+ "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+ "retrieved_at": "2026-10-16T18:18:58+00:00",
+ "sha256": "d12ad91c55b8a1c9447dd082f2202608b98f3cebc164a60f811d38aa51cdcdfb",
+ "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+ "evidence": "official",
+ "lists": {
+  "payouts": {
+   "meaning": "payout_supported",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ).",
+   "count": 119,
+   "entries": [
+    {
+     "code": "AL",
+     "raw": "🇦🇱 Albania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DZ",
+     "raw": "🇩🇿 Algeria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AO",
+     "raw": "🇦🇴 Angola",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AG",
+     "raw": "🇦🇬 Antigua and Barbuda",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AR",
+     "raw": "🇦🇷 Argentina",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AM",
+     "raw": "🇦🇲 Armenia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AU",
+     "raw": "🇦🇺 Australia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AT",
+     "raw": "🇦🇹 Austria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AZ",
+     "raw": "🇦🇿 Azerbaijan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BS",
+     "raw": "🇧🇸 Bahamas",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BH",
+     "raw": "🇧🇭 Bahrain",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BD",
+     "raw": "🇧🇩 Bangladesh",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BE",
+     "raw": "🇧🇪 Belgium",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BJ",
+     "raw": "🇧🇯 Benin",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BT",
+     "raw": "🇧🇹 Bhutan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BO",
+     "raw": "🇧🇴 Bolivia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BA",
+     "raw": "🇧🇦 Bosnia and Herzegovina",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BW",
+     "raw": "🇧🇼 Botswana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BN",
+     "raw": "🇧🇳 Brunei",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BG",
+     "raw": "🇧🇬 Bulgaria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KH",
+     "raw": "🇰🇭 Cambodia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CA",
+     "raw": "🇨🇦 Canada",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CL",
+     "raw": "🇨🇱 Chile",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CO",
+     "raw": "🇨🇴 Colombia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CR",
+     "raw": "🇨🇷 Costa Rica",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HR",
+     "raw": "🇭🇷 Croatia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CY",
+     "raw": "🇨🇾 Cyprus",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CZ",
+     "raw": "🇨🇿 Czech Republic",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DK",
+     "raw": "🇩🇰 Denmark",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DO",
+     "raw": "🇩🇴 Dominican Republic",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EC",
+     "raw": "🇪🇨 Ecuador",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EG",
+     "raw": "🇪🇬 Egypt",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SV",
+     "raw": "🇸🇻 El Salvador",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EE",
+     "raw": "🇪🇪 Estonia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ET",
+     "raw": "🇪🇹 Ethiopia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FI",
+     "raw": "🇫🇮 Finland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FR",
+     "raw": "🇫🇷 France",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GA",
+     "raw": "🇬🇦 Gabon",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GM",
+     "raw": "🇬🇲 Gambia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DE",
+     "raw": "🇩🇪 Germany",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GH",
+     "raw": "🇬🇭 Ghana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GR",
+     "raw": "🇬🇷 Greece",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GT",
+     "raw": "🇬🇹 Guatemala",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GY",
+     "raw": "🇬🇾 Guyana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HK",
+     "raw": "🇭🇰 Hong Kong",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HU",
+     "raw": "🇭🇺 Hungary",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IS",
+     "raw": "🇮🇸 Iceland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IN",
+     "raw": "🇮🇳 India",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ID",
+     "raw": "🇮🇩 Indonesia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IE",
+     "raw": "🇮🇪 Ireland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IL",
+     "raw": "🇮🇱 Israel",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IT",
+     "raw": "🇮🇹 Italy",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CI",
+     "raw": "🇨🇮 Ivory Coast",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JM",
+     "raw": "🇯🇲 Jamaica",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JP",
+     "raw": "🇯🇵 Japan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JO",
+     "raw": "🇯🇴 Jordan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KZ",
+     "raw": "🇰🇿 Kazakhstan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KE",
+     "raw": "🇰🇪 Kenya",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KW",
+     "raw": "🇰🇼 Kuwait",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LA",
+     "raw": "🇱🇦 Laos",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LV",
+     "raw": "🇱🇻 Latvia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LI",
+     "raw": "🇱🇮 Liechtenstein",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LT",
+     "raw": "🇱🇹 Lithuania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LU",
+     "raw": "🇱🇺 Luxembourg",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MO",
+     "raw": "🇲🇴 Macao",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MG",
+     "raw": "🇲🇬 Madagascar",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MY",
+     "raw": "🇲🇾 Malaysia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MT",
+     "raw": "🇲🇹 Malta",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MU",
+     "raw": "🇲🇺 Mauritius",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MX",
+     "raw": "🇲🇽 Mexico",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MD",
+     "raw": "🇲🇩 Moldova",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MC",
+     "raw": "🇲🇨 Monaco",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MN",
+     "raw": "🇲🇳 Mongolia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MA",
+     "raw": "🇲🇦 Morocco",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MZ",
+     "raw": "🇲🇿 Mozambique",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NA",
+     "raw": "🇳🇦 Namibia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NL",
+     "raw": "🇳🇱 Netherlands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NZ",
+     "raw": "🇳🇿 New Zealand",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NE",
+     "raw": "🇳🇪 Niger",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NG",
+     "raw": "🇳🇬 Nigeria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MK",
+     "raw": "🇲🇰 North Macedonia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NO",
+     "raw": "🇳🇴 Norway",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "OM",
+     "raw": "🇴🇲 Oman",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PK",
+     "raw": "🇵🇰 Pakistan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PA",
+     "raw": "🇵🇦 Panama",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PY",
+     "raw": "🇵🇾 Paraguay",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PE",
+     "raw": "🇵🇪 Peru",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PH",
+     "raw": "🇵🇭 Philippines",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PL",
+     "raw": "🇵🇱 Poland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PT",
+     "raw": "🇵🇹 Portugal",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "QA",
+     "raw": "🇶🇦 Qatar",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RO",
+     "raw": "🇷🇴 Romania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RW",
+     "raw": "🇷🇼 Rwanda",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LC",
+     "raw": "🇱🇨 Saint Lucia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SM",
+     "raw": "🇸🇲 San Marino",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SA",
+     "raw": "🇸🇦 Saudi Arabia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SN",
+     "raw": "🇸🇳 Senegal",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RS",
+     "raw": "🇷🇸 Serbia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SG",
+     "raw": "🇸🇬 Singapore",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SK",
+     "raw": "🇸🇰 Slovakia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SI",
+     "raw": "🇸🇮 Slovenia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ZA",
+     "raw": "🇿🇦 South Africa",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KR",
+     "raw": "🇰🇷 South Korea",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ES",
+     "raw": "🇪🇸 Spain",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LK",
+     "raw": "🇱🇰 Sri Lanka",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SE",
+     "raw": "🇸🇪 Sweden",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CH",
+     "raw": "🇨🇭 Switzerland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TW",
+     "raw": "🇹🇼 Taiwan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TZ",
+     "raw": "🇹🇿 Tanzania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TH",
+     "raw": "🇹🇭 Thailand",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TT",
+     "raw": "🇹🇹 Trinidad and Tobago",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TN",
+     "raw": "🇹🇳 Tunisia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TR",
+     "raw": "🇹🇷 Turkey",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AE",
+     "raw": "🇦🇪 United Arab Emirates",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GB",
+     "raw": "🇬🇧 United Kingdom",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "US",
+     "raw": "🇺🇸 United States",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UY",
+     "raw": "🇺🇾 Uruguay",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UZ",
+     "raw": "🇺🇿 Uzbekistan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VN",
+     "raw": "🇻🇳 Vietnam",
+     "label": null,
+     "meaning": "payout_supported"
+    }
+   ]
+  }
+ }
+}

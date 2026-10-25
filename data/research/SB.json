@@ -1,0 +1,265 @@
+{
+ "code": "SB",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "No captured FX source on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Solomon Islands (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Solomon Islands is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Solomon Islands is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Solomon Islands is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Solomon Islands is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Solomon Islands is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Solomon Islands.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Reported bands 0% to SBD 15,000 rising to 40% (TaxAtlas).",
+   "status": "unverified",
+   "note": "Single aggregator source (TaxAtlas) captured on 2026-10-23.",
+   "sources": [
+    {
+     "url": "https://taxatlas.io/country/solomon-islands/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Solomon Islands Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-c67e163ca6cf.html.gz",
+     "quote": "Income Range ( SBD ) Tax Rate SI$0 – SI$15K 0% SI$15K – SI$30K 11%"
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "No VAT yet; a goods/sales tax applies (reported rates 15% on imports and 10% on local goods, not captured). A VAT Bill would set a single 15% rate: registration would be required above SBD 2,000,000 of turnover, and businesses under SBD 600,000 would not charge VAT (VATupdate, July 2025). As of September 2026, businesses were being prepared for VAT, with no start date confirmed (VATupdate).",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.vatupdate.com/2025/07/15/solomon-islands-introduces-vat-bill-to-modernize-tax-system-and-unify-tax-base/",
+     "publisher": "VATupdate",
+     "title": "Solomon Islands Introduces VAT Bill",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-27858d423b7c.html.gz",
+     "quote": "Businesses must register for VAT if turnover exceeds SBD 2,000,000.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.vatupdate.com/2026/09/02/solomon-islands-advances-tax-reform-with-vat-introduction-preparations/",
+     "publisher": "VATupdate",
+     "title": "Solomon Islands Advances Tax Reform with VAT Introduction Preparations",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-ad2991366c87.html.gz",
+     "quote": "Businesses and taxpayers are being prepared for new VAT requirements, including changes to tax recording, charging, and reporting.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (VATupdate) captured on 2026-10-25; Inland Revenue Division text not captured."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no data-protection/privacy legislation in Solomon Islands. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "090,Solomon Islands,Legislation,No Legislation,No Legislation,No Legislation,No Legislation,0,0,1,1,0,1,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Solomon Islands. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "090,Solomon Islands,Legislation,No Legislation,No Legislation,No Legislation,No Legislation,0,0,1,1,0,1,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Solomon Islands national voter's identity cards are optional, on request (Wikipedia). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "National Voter's Identity Cards are optional upon request.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Solomon Islands: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Solomon Islands: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Solomon Islands: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Solomon Islands: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN for freelancers.",
+  "Services-export VAT treatment; second sources.",
+  "Data protection; consumer law."
+ ]
+}

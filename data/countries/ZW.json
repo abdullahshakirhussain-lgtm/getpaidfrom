@@ -1,0 +1,516 @@
+{
+ "code": "ZW",
+ "un_name": "Zimbabwe",
+ "m49_name": "Zimbabwe",
+ "iso3": "ZWE",
+ "m49": "716",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": false,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "25-08-1980",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "seller_unsupported",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Partly established. Exporters keep 70% of gross export proceeds and must sell 30% to the Reserve Bank at the interbank rate (FXD5/2026, March 2026). Foreign currency received by individuals has historically been treated as 'free funds', held in Nostro FCA accounts and not surrendered (2019 RBZ circular). Whether payments from foreign clients to an individual freelancer count as free funds or as service-export proceeds (30% surrender) was not confirmed.",
+   "status": "unverified",
+   "note": "Surrender rule from a bank's summary of FXD5/2026 (one domain); free-funds rule from 2019 press; no current RBZ text on individual service exporters found on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://nmbz.co.zw/nmb/sites/default/files/2026-03/RBZ%20Notice%20-%203%20March%202026.pdf",
+     "publisher": "NMB Bank",
+     "title": "NMB Bank customer notice on RBZ Foreign Exchange Directive FXD5/2026 (3 Mar 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research_large/2026-10-22-584c66f84a7e.pdf.gz",
+     "quote": "The statutory surrender portion of 30% shall be sold to the Reserve Bank at the prevailing Weighted Average Willing Buyer–Willing Seller (WBWS) Interbank Market Exchange Rate."
+    },
+    {
+     "url": "https://nmbz.co.zw/nmb/sites/default/files/2026-03/RBZ%20Notice%20-%203%20March%202026.pdf",
+     "publisher": "NMB Bank",
+     "title": "NMB Bank customer notice on RBZ Foreign Exchange Directive FXD5/2026 (3 Mar 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research_large/2026-10-22-584c66f84a7e.pdf.gz",
+     "quote": "Exporters’ Foreign Currency Retention The foreign currency retention threshold remains at 70% of gross export proceeds."
+    },
+    {
+     "url": "https://insiderzim.com/what-you-need-to-know-about-latest-reserve-bank-of-zimbabwe-directive-on-use-of-free-funds/",
+     "publisher": "The Insider (Zimbabwe)",
+     "title": "What you need to know about latest RBZ directive on use of free funds (24 Jul 2019)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-140355ad6112.html.gz",
+     "quote": "Free funds: This is foreign currency received by individuals, international organisations, NGOs and embassies."
+    }
+   ],
+   "notes": "Rules change frequently; check the latest RBZ Exchange Control directives."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Foreign-currency (Nostro FCA) accounts are standard in Zimbabwe; free funds received by individuals are held in Nostro FCAs (2019 circular). The economy is largely USD-based alongside the ZiG.",
+   "status": "unverified",
+   "note": "Only a 2019 press summary captured; no current RBZ text on resident FCA accounts captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://insiderzim.com/what-you-need-to-know-about-latest-reserve-bank-of-zimbabwe-directive-on-use-of-free-funds/",
+     "publisher": "The Insider (Zimbabwe)",
+     "title": "What you need to know about latest RBZ directive on use of free funds (24 Jul 2019)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-140355ad6112.html.gz",
+     "quote": "Free funds will continue to be received and held in Nostro FCAs for use to settle international transactions."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Zimbabwe (automated collector snapshots, Oct 2026). Available: Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments. Restricted: Paddle lists it as an unsupported seller country.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Zimbabwe is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Zimbabwe is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Zimbabwe is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Zimbabwe is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Zimbabwe is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Zimbabwe.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole trader does not need to register with the Companies Registry. The key step is mandatory tax registration with ZIMRA for anyone carrying on a trade or business, done online via the TaRMS Self-Service Portal. A guide says there is no specific fee beyond obtaining the tax identifier.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://zimra.co.zw/news/2346-taxpayer-registration",
+     "publisher": "ZIMRA",
+     "title": "Taxpayer Registration",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-922b213abd09.html.gz",
+     "quote": "Registration is mandatory for: All persons carrying out any trade or business in Zimbabwe."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-zimbabwe/",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Zimbabwe",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d6295142dc64.html.gz",
+     "quote": "As a sole proprietor, you do not need to register your business with the Companies Registry or any separate commercial register."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-zimbabwe/",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Zimbabwe",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d6295142dc64.html.gz",
+     "quote": "There is no specific fee charged for registering as a sole trader beyond obtaining your business tax identifier."
+    }
+   ],
+   "notes": "Deel still refers to the legacy BP number; ZIMRA now issues a TIN via TaRMS."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A Taxpayer Identification Number (TIN), issued on successful registration on ZIMRA's TaRMS Self-Service Portal. It replaced the older Business Partner (BP) number. A tax clearance certificate (ITF263) is tied to the TIN.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://zimra.co.zw/news/2346-taxpayer-registration",
+     "publisher": "ZIMRA",
+     "title": "Taxpayer Registration",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-922b213abd09.html.gz",
+     "quote": "To register as a taxpayer you are required to visit ZIMRA’s online TaRMS Self-Service Portal (SSP) https://mytaxselfservice.zimra.co.zw/auth/login?returnUrl=%2F A Taxpayer Identification Number (TIN) is issued upon successful registration."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Zimbabwe taxes on a source basis: income from a source within (or deemed within) Zimbabwe is taxed whatever the residence. Under case law (CIR v Lever Bros), the source is where the work that earns the income is done. A freelancer working from Zimbabwe for foreign clients is therefore likely taxable in Zimbabwe, while foreign income not deemed Zimbabwean is not. Presumptive taxes apply to some small businesses. Individual rates were reported up to 40%.",
+   "status": "unverified",
+   "note": "Single secondary domain (Alliott Global) for the source rule; ZIMRA tax tables and Income Tax Act not read on 2026-10-22; PwC Zimbabwe page 404.",
+   "sources": [
+    {
+     "url": "https://www.alliottglobal.com/insights/taxation-law-in-zimbabwe-an-overview/",
+     "publisher": "Alliott Global",
+     "title": "Taxation Law in Zimbabwe - an overview",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fa4675cf041f.html.gz",
+     "quote": "Thus, generally, all receipts (not of a capital nature) arising from a source within Zimbabwe are taxed, irrespective of the residential status of the taxpayer."
+    },
+    {
+     "url": "https://www.alliottglobal.com/insights/taxation-law-in-zimbabwe-an-overview/",
+     "publisher": "Alliott Global",
+     "title": "Taxation Law in Zimbabwe - an overview",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fa4675cf041f.html.gz",
+     "quote": "In CIR v Lever Bros and Unilever Ltd (1946) the applicable principle was that the source of receipts, received as income, is not where they come from, but the originating cause of their being received as income is the work which the taxpayer does to earn them."
+    }
+   ],
+   "notes": "Application to remote freelancing is an inference from the Lever Bros principle."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 15.5%, up from 15% from 1 Jan 2026 (Finance Act 2025); many older pages still say 15%. Compulsory registration applies when taxable supplies exceed US$25,000 in 12 months. Since 2026, input-tax claims need FDMS-validated (fiscalised) invoices. Treatment of exported services was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://lookuptax.com/docs/country/zimbabwe",
+     "publisher": "Lookuptax",
+     "title": "Zimbabwe VAT guidelines (source snapshot 28 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a7d5116e28e5.html.gz",
+     "quote": "Raised from 15% with effect from 1 January 2026 under the Finance Act, 2025 (Act No."
+    },
+    {
+     "url": "https://lookuptax.com/docs/country/zimbabwe",
+     "publisher": "Lookuptax",
+     "title": "Zimbabwe VAT guidelines (source snapshot 28 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a7d5116e28e5.html.gz",
+     "quote": "Compulsory VAT registration Taxable supplies exceed, or are expected to exceed, US$25,000 (or ZiG equivalent) in any 12 months In force from 1 January 2024."
+    },
+    {
+     "url": "https://kpmg.com/us/en/taxnewsflash/news/2025/12/tnf-zimbabwe-direct-and-indirect-tax-proposals-in-2026-budget.html",
+     "publisher": "KPMG TaxNewsFlash",
+     "title": "Zimbabwe: Direct and indirect tax proposals in 2026 budget (Dec 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ed7f13e0882b.html.gz",
+     "quote": "VAT on imported services to be paid in foreign currency."
+    }
+   ],
+   "notes": "TRAP: 15% vs 15.5%. A search summary cited a 2025 Business Times piece also giving US$25,000 (not captured). KPMG item covers imported services, not rate."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Cyber and Data Protection Act, with POTRAZ as the Data Protection Authority. Under SI 155 of 2024, organisations processing personal data of 50 or more people need an annual data-controller licence. It costs US$50 a year for 50–1,000 people, and US$300 plus a US$30 application fee for 1,001–100,000. A certified Data Protection Officer must be appointed. POTRAZ began mandatory compliance inspections from 1 Sep 2026.",
+   "status": "unverified",
+   "note": "Single secondary domain (CITE) captured; techzim (HTTP 520) and The Independent (404) failed on 2026-10-22; SI 155 of 2024 text not read.",
+   "sources": [
+    {
+     "url": "https://cite.org.zw/potraz-data-licence-fees-slammed-as-costly-burden-on-businesses-and-consumers/",
+     "publisher": "CITE",
+     "title": "POTRAZ data licence fees slammed as costly burden on businesses and consumers (30 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3fbc0d99a7f5.html.gz",
+     "quote": "Under Statutory Instrument 155 of 2024, organisations processing personal data belonging to 50 or more individuals are required to obtain a data controller licence from POTRAZ."
+    },
+    {
+     "url": "https://cite.org.zw/potraz-data-licence-fees-slammed-as-costly-burden-on-businesses-and-consumers/",
+     "publisher": "CITE",
+     "title": "POTRAZ data licence fees slammed as costly burden on businesses and consumers (30 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3fbc0d99a7f5.html.gz",
+     "quote": "Organisations handling data for between 50 and 1 000 people pay US$50 annually, while those processing between 1 001 and 100 000 records pay US$300 plus a US$30 application fee."
+    },
+    {
+     "url": "https://cite.org.zw/potraz-data-licence-fees-slammed-as-costly-burden-on-businesses-and-consumers/",
+     "publisher": "CITE",
+     "title": "POTRAZ data licence fees slammed as costly burden on businesses and consumers (30 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3fbc0d99a7f5.html.gz",
+     "quote": "The criticism follows the publication of Regulatory Notice 2 of 2026, in which POTRAZ announced that from 1 September 2026 it will begin mandatory compliance inspections and assessments of data controllers under the Cyber and Data Protection Act."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Consumer Protection Act 2019 (s. 53), consumers may cancel any electronic transaction without reason or penalty within seven days of receiving the goods or concluding the agreement. The only allowed charge is the direct cost of returning goods, and prepaid amounts must be refunded within fourteen days of cancellation.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commons.laws.africa/akn/zw/act/2019/5/media/publication/zw-act-2019-5-publication-document.pdf",
+     "publisher": "Consumer Protection Act [Chapter 14:44], No. 5 of 2019 (Laws.Africa commons copy)",
+     "title": "Consumer Protection Act 2019, s. 53(1)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c25c516755c9.pdf.gz",
+     "quote": "53 Cooling-off period in electronic transaction (1) A consumer is entitled to cancel without reason and without penalty any electronic transaction and any related credit agreement for the supply of goods or services within seven days after the date of the receipt of the goods or the conclusion of the agreement"
+    },
+    {
+     "url": "https://commons.laws.africa/akn/zw/act/2019/5/media/publication/zw-act-2019-5-publication-document.pdf",
+     "publisher": "Consumer Protection Act [Chapter 14:44], No. 5 of 2019 (Laws.Africa commons copy)",
+     "title": "Consumer Protection Act 2019, s. 53(2)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c25c516755c9.pdf.gz",
+     "quote": "the consumer is entitled to a full refund of such payment, within fourteen days of the date of cancellation."
+    }
+   ],
+   "notes": "Chapter cited as 14:44 in the publication header (some sources say 14:14)."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "A valid national ID or passport, plus proof of address and banking details, are listed for sole-trader tax registration. Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Commercial guide only (Deel); no ID-authority or bank KYC source captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-zimbabwe/",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Zimbabwe",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d6295142dc64.html.gz",
+     "quote": "Valid national ID or passport Proof of address (such as a utility bill or tenancy agreement) Bank account or proof of banking details"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Zimbabwe: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Zimbabwe: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Zimbabwe: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Zimbabwe: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Zimbabwe: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

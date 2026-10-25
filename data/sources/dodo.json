@@ -1,0 +1,1154 @@
+{
+ "source": "dodo",
+ "route": "dodo",
+ "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+ "retrieved_at": "2026-10-16T18:18:59+00:00",
+ "sha256": "ec953343d374262bd1f9c461da733fdd837d44538009b3b298a3a86a4f011b48",
+ "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+ "evidence": "official",
+ "lists": {
+  "accepted": {
+   "meaning": "seller_accepted",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies).",
+   "count": 177,
+   "entries": [
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AD",
+     "raw": "Andorra",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AI",
+     "raw": "Anguilla",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua and Barbuda",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AW",
+     "raw": "Aruba",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BB",
+     "raw": "Barbados",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BZ",
+     "raw": "Belize",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BM",
+     "raw": "Bermuda",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia and Herzegovina",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "VG",
+     "raw": "British Virgin Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei Darussalam",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "BF",
+     "raw": "Burkina Faso",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CV",
+     "raw": "Cabo Verde",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KY",
+     "raw": "Cayman Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CN",
+     "raw": "China",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KM",
+     "raw": "Comoros",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CK",
+     "raw": "Cook Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CW",
+     "raw": "Curacao",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "DJ",
+     "raw": "Djibouti",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "DM",
+     "raw": "Dominica",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SZ",
+     "raw": "Eswatini",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ET",
+     "raw": "Ethiopia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "FK",
+     "raw": "Falkland Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "FO",
+     "raw": "Faroe Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "FJ",
+     "raw": "Fiji",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PF",
+     "raw": "French Polynesia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GA",
+     "raw": "Gabon",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GL",
+     "raw": "Greenland",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GD",
+     "raw": "Grenada",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GU",
+     "raw": "Guam",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GG",
+     "raw": "Guernsey",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GN",
+     "raw": "Guinea",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea-Bissau",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "IM",
+     "raw": "Isle of Man",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "JE",
+     "raw": "Jersey",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KI",
+     "raw": "Kiribati",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KG",
+     "raw": "Kyrgyzstan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LS",
+     "raw": "Lesotho",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LR",
+     "raw": "Liberia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MG",
+     "raw": "Madagascar",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MW",
+     "raw": "Malawi",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MV",
+     "raw": "Maldives",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MR",
+     "raw": "Mauritania",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ME",
+     "raw": "Montenegro",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MS",
+     "raw": "Montserrat",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NP",
+     "raw": "Nepal",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NC",
+     "raw": "New Caledonia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PW",
+     "raw": "Palau",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PR",
+     "raw": "Puerto Rico",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KR",
+     "raw": "Republic of Korea",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "RW",
+     "raw": "Rwanda",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "KN",
+     "raw": "Saint Kitts and Nevis",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LC",
+     "raw": "Saint Lucia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "MF",
+     "raw": "Saint Martin",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "PM",
+     "raw": "Saint Pierre and Miquelon",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "VC",
+     "raw": "Saint Vincent and the Grenadines",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "WS",
+     "raw": "Samoa",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ST",
+     "raw": "Sao Tome and Principe",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SC",
+     "raw": "Seychelles",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SL",
+     "raw": "Sierra Leone",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SX",
+     "raw": "Sint Maarten",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SB",
+     "raw": "Solomon Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SR",
+     "raw": "Suriname",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TJ",
+     "raw": "Tajikistan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TL",
+     "raw": "Timor-Leste",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TG",
+     "raw": "Togo",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TO",
+     "raw": "Tonga",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad and Tobago",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TR",
+     "raw": "Türkiye",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TM",
+     "raw": "Turkmenistan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "TC",
+     "raw": "Turks and Caicos Islands",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "UZ",
+     "raw": "Uzbekistan",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "VU",
+     "raw": "Vanuatu",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "VI",
+     "raw": "Virgin Islands",
+     "label": null,
+     "meaning": "seller_accepted",
+     "mapping_note": "Listed as 'Virgin Islands'; 'British Virgin Islands' is listed separately on the same page, so this entry is read as the U.S. Virgin Islands."
+    },
+    {
+     "code": "WF",
+     "raw": "Wallis and Futuna",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ZM",
+     "raw": "Zambia",
+     "label": null,
+     "meaning": "seller_accepted"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": null,
+     "meaning": "seller_accepted"
+    }
+   ]
+  },
+  "grandfathered": {
+   "meaning": "grandfathered_only",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups.",
+   "count": 11,
+   "entries": [
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "GQ",
+     "raw": "Equatorial Guinea",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "ER",
+     "raw": "Eritrea",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "MH",
+     "raw": "Marshall Islands",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "FM",
+     "raw": "Micronesia",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "NR",
+     "raw": "Nauru",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "TV",
+     "raw": "Tuvalu",
+     "label": null,
+     "meaning": "grandfathered_only"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": null,
+     "meaning": "grandfathered_only"
+    }
+   ]
+  }
+ }
+}

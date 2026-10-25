@@ -1,0 +1,456 @@
+{
+ "code": "JP",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. Under the Foreign Exchange and Foreign Trade Act, companies and individuals may freely conduct capital transactions and settlements with overseas parties, such as opening foreign deposit accounts. Since the 1998 amendment, prior approval and notification have in principle been abolished and replaced by after-the-fact reports for payments above a set amount, used for balance-of-payments statistics. The threshold is reported as JPY 30 million.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mof.go.jp/international_policy/gaitame_kawase/gaitame/naiyou.htm",
+     "publisher": "Ministry of Finance Japan",
+     "title": "外為法の概要 (Ministry of Finance — outline of the Foreign Exchange and Foreign Trade Act)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b002eef2dca7.html.gz",
+     "quote": "企業や個人は自由に海外の企業や個人と資本取引、決済等を行うことができます。"
+    },
+    {
+     "url": "https://www.mof.go.jp/international_policy/gaitame_kawase/gaitame/naiyou.htm",
+     "publisher": "Ministry of Finance Japan",
+     "title": "外為法の概要 (Ministry of Finance — outline of the Foreign Exchange and Foreign Trade Act)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b002eef2dca7.html.gz",
+     "quote": "1998年（平成10年）の外為法改正により、内外資本取引等に係る事前の許可・届出制度が原則として廃止され、代わって事後報告制度が法運用上の重要な柱の一つとして位置付けられています。"
+    }
+   ],
+   "notes": "JPY 30m payment-report threshold from search summaries (bitFlyer FAQ 403); not captured."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Individuals may freely hold foreign deposit accounts, including abroad, and carry out foreign-currency transactions between residents.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mof.go.jp/international_policy/gaitame_kawase/gaitame/naiyou.htm",
+     "publisher": "Ministry of Finance Japan",
+     "title": "外為法の概要 (Ministry of Finance — outline of the Foreign Exchange and Foreign Trade Act)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b002eef2dca7.html.gz",
+     "quote": "海外に預金口座を開設し、その口座を通じて海外での取引の決済を行ったり、通信販売の代金を払うこと"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Japan (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Japan is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Japan is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Japan is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Japan is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json) and as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Japan IS on Wise's list of countries whose residents can hold money. Payoneer: Etsy pays Japanese sellers via Payoneer (collector data).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Japan appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietor (個人事業主) files a business-opening notification (開業届, kaigyō todoke) at the local tax office, generally within one month of starting. There is no registration fee and no commercial register entry. Filing the optional Blue Return application, generally within two months, unlocks a special deduction of up to ¥650,000, family-salary deductions and 3-year loss carry-forward. Foreigners need a status of residence that permits the activity (not researched).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://migaku.com/blog/language-fun/blue-tax-return-in-japan-benefits-for-the-self-employed",
+     "publisher": "Migaku",
+     "title": "Blue Tax Return in Japan: Benefits for the Self-Employed",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c5df78c136a0.html.gz",
+     "quote": "Register your business : file the 「個人事業の開業・廃業等届出書」 (kaigyou todoke) at your local tax office."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-japan/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Japan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-201667d9f477.html.gz",
+     "quote": "(It’s only obligatory if you’re using Blue return status) Step 5: Pay registration fees and contributions There is typically no registration fee for sole proprietorships."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-japan/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Japan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-201667d9f477.html.gz",
+     "quote": "You may choose to apply for Blue Return status within two months to enable deductions."
+    }
+   ],
+   "notes": "NTA form pages not captured. Deduction tiers: ¥650k (double-entry + e-Tax), ¥550k (paper), ¥100k (simple); ¥750k reportedly planned from 2027."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Japan to the OECD: \"Individual Number (“My Number”) Individual Number (nicknamed “My Number”) is 12-digit numbers assigned to individuals living in Japan under the Social Security and Tax Number System.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/japan-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Japan's tax administration)",
+     "title": "Japan — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-ed16d73bbff7.pdf.gz",
+     "quote": "Individual Number (“My Number”) Individual Number (nicknamed “My Number”) is 12-digit numbers assigned to individuals living in Japan under the Social Security and Tax Number System.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (permanent residents, including all Japanese nationals) are taxed on worldwide income. Non-permanent residents are foreign nationals domiciled in Japan for five years or less out of the last ten. They are not taxed on foreign-source income unless it is paid in or remitted to Japan, but work performed in Japan is Japan-source. National income tax is progressive from 5% to 45% (45% from JPY 40m), plus a 2.1% reconstruction surtax on the national tax and roughly 10% local inhabitant's tax.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.jetro.go.jp/en/invest/setting_up/section3/page7.html",
+     "publisher": "JETRO",
+     "title": "JETRO — Section 3. Taxes in Japan (3.7 personal tax)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-0ad2418efc6f.html.gz",
+     "quote": "The worldwide income of residents, regardless of the location of the source of income, is subject to income tax."
+    },
+    {
+     "url": "https://www.jetro.go.jp/en/invest/setting_up/section3/page7.html",
+     "publisher": "JETRO",
+     "title": "JETRO — Section 3. Taxes in Japan (3.7 personal tax)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-0ad2418efc6f.html.gz",
+     "quote": "The scope of taxation for non-permanent residents corresponds to that for residents, but tax will not be assessed in Japan on income sourced outside Japan as long as that income is not paid within Japan or is not remitted to Japan."
+    },
+    {
+     "url": "https://www.jetro.go.jp/en/invest/setting_up/section3/page7.html",
+     "publisher": "JETRO",
+     "title": "JETRO — Section 3. Taxes in Japan (3.7 personal tax)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-0ad2418efc6f.html.gz",
+     "quote": "From 18,000,000 JPY Up to 39,999,000 JPY 40% 2,796,000 JPY 40,000,000 JPY or more - 45%"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/japan/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Japan - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c7c9d42c2b63.html.gz",
+     "quote": "Local income taxes Generally, in Japan, the local inhabitant’s tax is imposed at a flat rate of 10%."
+    }
+   ],
+   "notes": "Freelancers in Japan serving foreign clients: income from work performed in Japan is Japan-source (not captured verbatim). Business tax (個人事業税) may also apply."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Consumption tax is 10% (8% reduced). A sole proprietor becomes a taxable person if taxable sales in the base period (the year two years earlier) exceed JPY 10 million, or in the first half of the previous year (specified period). Export sales count toward the threshold. Voluntary registration is also possible, and is needed to issue qualified invoices under the invoice system from 1 October 2023. Exports and certain services to non-residents are zero-rated.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nta.go.jp/english/taxes/consumption_tax/01.htm",
+     "publisher": "National Tax Agency",
+     "title": "Consumption Tax (NTA English guide)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-44f76370c3ec.html.gz",
+     "quote": "In principle, the Base Period for sole proprietors is the second preceding year before the Taxable Period, and the Base Period for corporations is the second preceding business year before the Taxable Period."
+    },
+    {
+     "url": "https://www.nta.go.jp/english/taxes/consumption_tax/01.htm",
+     "publisher": "National Tax Agency",
+     "title": "Consumption Tax (NTA English guide)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-44f76370c3ec.html.gz",
+     "quote": "(1) Businesses which had a taxable sales amounting to more than 10million yen during the Base Period"
+    },
+    {
+     "url": "https://www.nta.go.jp/english/taxes/consumption_tax/01.htm",
+     "publisher": "National Tax Agency",
+     "title": "Consumption Tax (NTA English guide)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-44f76370c3ec.html.gz",
+     "quote": "No.2 Amount of Taxable Sales “Amount of Taxable Sales” means the sum of the amount of sales related to transactions subject to consumption tax (excluding consumption tax) and the amount of sales related to transaction such as export transaction."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/japan/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Japan - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8ef6a5d753fb.html.gz",
+     "quote": "Exports and certain services to non-residents are taxed at a zero rate."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/japan/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Japan - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8ef6a5d753fb.html.gz",
+     "quote": "A new Qualified Invoice System (QIS) was introduced as part of Japan’s 2016 Tax Reform, which is effective from 1 October 2023."
+    }
+   ],
+   "notes": "TRAP: Japanese B2B clients may require a qualified-invoice registration number, pushing small freelancers to register voluntarily. 10% rate in captured PwC text ('The general rate is 10%;')."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Act on the Protection of Personal Information (APPI), enforced by the Personal Information Protection Commission, applies to any business, including sole traders and non-profits, that handles personal information of individuals in Japan, wherever located. It requires purpose notices, consent for sensitive data and for certain third-party and cross-border transfers. Corporate fines reach JPY 100 million.",
+   "status": "unverified",
+   "note": "Single secondary domain (Reed Smith) captured; Baker McKenzie (403) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102l2yi/japan-in-focus-data-protection-and-ai-in-japan/",
+     "publisher": "Reed Smith",
+     "title": "Japan in focus: data protection and AI in Japan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4f48abd31cd9.html.gz",
+     "quote": "The APPI covers all businesses that handle the personal information of individuals in Japan or that supply goods or services within Japan, regardless of whether the business is physically located in the country (APPI, Article 171)."
+    },
+    {
+     "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102l2yi/japan-in-focus-data-protection-and-ai-in-japan/",
+     "publisher": "Reed Smith",
+     "title": "Japan in focus: data protection and AI in Japan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4f48abd31cd9.html.gz",
+     "quote": "The APPI mandates comprehensive privacy notices, sets conditions for consent (especially for sensitive personal information), and imposes requirements on data transfers, particularly those involving third parties outside Japan."
+    }
+   ],
+   "notes": "JPY 100m fine from search summaries."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Act on Specified Commercial Transactions (Art. 15-3), online and mail-order sales of goods can be cancelled within 8 days of delivery unless the seller's advertisement states its own return/cancellation terms. Online sellers must display the mandatory 'Tokushōhō' disclosures (seller identity, price, return terms and so on) and must not advertise misleadingly. There is no general cooling-off right for mail order beyond this.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.japaneselawtranslation.go.jp/ja/laws/view/4302/en",
+     "publisher": "Japanese Law Translation (Ministry of Justice)",
+     "title": "Act on Specified Commercial Transactions (Act No. 57 of 1976), official English translation",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-40152fb89b60.html.gz",
+     "quote": "during the period up until eight days have passed since the date on which the purchaser is delivered the goods or is transferred the specified rights"
+    },
+    {
+     "url": "https://hiken.w.waseda.jp/en/jalaw_inf/new_leg/005goto.html",
+     "publisher": "Waseda University (Institute of Comparative Law)",
+     "title": "New Legislations — Act on Specified Commercial Transactions",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-401eb7f403a1.html.gz",
+     "quote": "(4) Cancellation and Return of Goods in Mail Order Service If there is no indication that prohibits return of goods in advertisement of a mail order service, cancellation and return of goods may be permitted for eight days (Article 15-2)."
+    }
+   ],
+   "notes": "Art. 15-3 covers goods and specified rights, not services. Waseda explainer cites the older article number (15-2)."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Blue Return special deduction of up to ¥650,000 for double-entry bookkeeping with e-Tax (see L1); no other freelancer-specific incentive researched.",
+   "status": "unverified",
+   "note": "Secondary sources only (Deel, Migaku) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://migaku.com/blog/language-fun/blue-tax-return-in-japan-benefits-for-the-self-employed",
+     "publisher": "Migaku",
+     "title": "Blue Tax Return in Japan: Benefits for the Self-Employed",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c5df78c136a0.html.gz",
+     "quote": "It unlocks a deduction of up to ¥650,000, lets you carry losses forward for three years, and allows you to put family members on payroll as a deductible expense."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Japan accepts: 運転免許証 (Driver's license) マイナンバーカード (顔写真付き) (My Number Card, with photo) 日本旅券 (Japanese passport) 在留カード・特別永住者証明書 (Residence Card) 住民票 (Residence Certificate) 特定在留カード (Tokutei Zairyū Card). Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=JP",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Japan",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-87379601c32f.html.gz",
+     "quote": "Acceptable forms of identification: 運転免許証 (Driver's license) マイナンバーカード (顔写真付き) (My Number Card, with photo) 日本旅券 (Japanese passport) 在留カード・特別永住者証明書 (Residence Card) 住民票 (Residence Certificate) 特定在留カード (Tokutei Zairyū Card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (6) Stripe accepts merchants here, so you can take card payments directly on your own site. (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Japan: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "NTA official pages for kaigyo todoke / blue return; My Number.",
+  "FEFTA payment-report threshold (JPY 30m) official text.",
+  "APPI official/PPC source; second domain.",
+  "Visa status for foreign freelancers; individual business tax."
+ ]
+}

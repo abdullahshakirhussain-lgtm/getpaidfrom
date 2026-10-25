@@ -1,0 +1,404 @@
+{
+ "code": "SA",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. There are no limits on inflows or outflows of funds apart from withholding taxes on certain payments. The riyal has been fixed by SAMA at 3.75 per USD since 1986.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/saudi-arabia-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Saudi Arabia Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-4d6f5702dc8a.html.gz",
+     "quote": "Foreign Exchange Controls There is no limitation in Saudi Arabia on the inflow or outflow of funds for remittances of profits, debt service, capital, capital gains, returns on intellectual property, or imported inputs, other than certain withholding taxes"
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/saudi-arabia-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Saudi Arabia Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-4d6f5702dc8a.html.gz",
+     "quote": "Since 1986, when the last currency devaluation occurred, the official exchange rate has been fixed by SAMA at 3.75 Saudi riyals per U.S."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. SAMA's rulebook (in force since 2019) lets customers open accounts in any available foreign currency and deposit and withdraw in it; if that currency is unavailable, payment can be made in Saudi riyals, and normal fees are borne by the customer (SAMA). The riyal is pegged to the US dollar (not captured here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://rulebook.sama.gov.sa/en/node/2486",
+     "publisher": "Saudi Central Bank (SAMA) Rulebook",
+     "title": "Foreign Currency Accounts",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0e3a262aa5f9.html.gz",
+     "quote": "Status: In-Force Customers may open accounts in any available foreign currency.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://rulebook.sama.gov.sa/en/node/2486",
+     "publisher": "Saudi Central Bank (SAMA) Rulebook",
+     "title": "Foreign Currency Accounts",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0e3a262aa5f9.html.gz",
+     "quote": "If such foreign currency is not available, payments can be made in Saudi riyal.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Saudi Arabia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Saudi Arabia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Saudi Arabia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways (e.g. Moyasar, HyperPay, Tap) were not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Saudi Arabia is on PayPal's Payouts list as 'Send, receive, and withdraw' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Saudi Arabia is listed on PayPal's Payouts country list as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Saudi Arabia IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Saudi Arabia appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Saudi nationals can get a Freelance Document/License from the Ministry of Human Resources and Social Development via the official freelance platform. It is valid for one year, renewable, and covers 120+ specialties. Expatriates cannot use this route and generally need a commercial registration or a licensed company (sponsorship/investment rules apply).",
+   "status": "unverified",
+   "note": "Single secondary domain (Wafeq) captured; Qoyod (403) and freelance.sa not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.wafeq.com/en/business-hub/for-business/freelance-accounting-in-ksa",
+     "publisher": "Wafeq",
+     "title": "The Ultimate Guide to Freelance Accounting Licenses for Saudi Professionals (Wafeq)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-28c9719a78d0.html.gz",
+     "quote": "Human Resources and Social Development (MHRSD) that allows Saudi nationals to offer professional services as independent freelancers legally ."
+    },
+    {
+     "url": "https://www.wafeq.com/en/business-hub/for-business/freelance-accounting-in-ksa",
+     "publisher": "Wafeq",
+     "title": "The Ultimate Guide to Freelance Accounting Licenses for Saudi Professionals (Wafeq)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-28c9719a78d0.html.gz",
+     "quote": "A Freelance License Key Features in Saudi Arabia : Available only to Saudi nationals."
+    }
+   ],
+   "notes": "TRAP: expatriate freelancing is not covered by the freelance document."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Saudi Arabia to the OECD: \"TIN is issued by the General Authority for Zakat and Tax (GAZT) to all taxpayers and withholding entities ( such as government ministries, agencies and departments). GAZT is the Saudi Arabian tax administration . TIN is issued once to a taxpayer; it remains valid as long as the taxpayer is in operation. The taxpayer's TIN is used for all the taxes to which the taxpayer is liable.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/saudi-arabia-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Saudi Arabia's tax administration)",
+     "title": "Saudi Arabia — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-9c1cbed5dc15.pdf.gz",
+     "quote": "TIN is issued by the General Authority for Zakat and Tax (GAZT) to all taxpayers and withholding entities ( such as government ministries, agencies and departments). GAZT is the Saudi Arabian tax administration . TIN is issued once to a taxpayer; it remains valid as long as the taxpayer is in operation. The taxpayer's TIN is used for all the taxes to which the taxpayer is liable.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "There is no individual income tax scheme, and employment earnings are not taxed. Non-employment (business) income is taxed as an entity or PE: non-Saudi owners pay 20% income tax, while Saudi/GCC owners' share pays zakat (2.5% basis, not captured). Deloitte 2026 agrees: employment income is not taxed, but an individual's business income may face corporate income tax, withholding tax or zakat depending on nationality and residence.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/saudi-arabia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Saudi Arabia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b9a5cabd5aef.html.gz",
+     "quote": "There is no individual income tax scheme in Saudi Arabia. Income tax is not imposed on an individual's earnings if they are derived only from employment in Saudi Arabia. Non-employment income is taxed as an entity or permanent establishment (PE)."
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-saudiarabiahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Saudi Arabia Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-cb9c323acbcc.pdf.gz",
+     "quote": "Individual taxation Individuals are not subject to income tax on employment income.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-saudiarabiahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Saudi Arabia Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-cb9c323acbcc.pdf.gz",
+     "quote": "However, individuals may be subject to corporate income tax, withholding tax, or zakat on business income depending on their nationality and residence.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "TRAP: freelance/business income of individuals is NOT simply tax-free - it falls under the entity rules (zakat for Saudis, 20% tax for non-Saudis)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 15% (since 1 July 2020). Registration is mandatory above SAR 375,000 of taxable supplies in 12 months, and voluntary between SAR 187,500 and 375,000. Exports of goods and services and certain cross-border services consumed outside Saudi Arabia are zero-rated, with input VAT recoverable.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/saudi-arabia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Saudi Arabia - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-57d46a0e8331.html.gz",
+     "quote": "Effective 1 July 2020, the standard VAT rate was increased by the government to 15%."
+    },
+    {
+     "url": "https://stripe.com/resources/more/saudi-arabia-vat-rate-explained",
+     "publisher": "Stripe",
+     "title": "Saudi Arabia VAT rate explained (Stripe)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-22b8a6604886.html.gz",
+     "quote": "egistration: Any business with taxable supplies that exceed 375,000 Saudi riyals (SAR) in a 12-month period must register for VAT."
+    },
+    {
+     "url": "https://stripe.com/resources/more/saudi-arabia-vat-rate-explained",
+     "publisher": "Stripe",
+     "title": "Saudi Arabia VAT rate explained (Stripe)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-22b8a6604886.html.gz",
+     "quote": "Common zero-rated supplies include exports of goods and services, international transportation, investment-grade precious metals, qualifying medicines and medical equipment approved by regulators, and certain cross-border services consumed outside Saudi Arabia."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Data Protection Law (Royal Decree M/19, amended by M/148) took effect on 14 September 2023, with compliance generally required by 14 September 2024. Implementing Regulations and Transfer Regulations are in force; SDAIA is the regulator. It applies across sectors and partly extraterritorially.",
+   "status": "unverified",
+   "note": "Single secondary domain (DLA Piper) captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=SA&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in Saudi Arabia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a59643b5b4c3.html.gz",
+     "quote": "Accordingly, businesses within the scope of the PDPL generally had until 14 September 2024 to adjust their status to become compliant with the PDPL."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The E-Commerce Law (in force October 2019) lets consumers return goods or terminate services bought online within 7 days of receipt if unused, subject to exceptions, and cancel if delivery is delayed more than 15 days. The consumer bears return costs unless agreed otherwise. Online sellers must register and disclose identity; the Ministry of Commerce enforces, with fines of up to SAR 1 million reported.",
+   "status": "unverified",
+   "note": "Single secondary domain (CMS) captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://cms.law/en/sau/legal-updates/Saudi-Arabia-implements-its-new-E-Commerce-Law",
+     "publisher": "CMS",
+     "title": "Saudi Arabia implements its new E-Commerce Law",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-98ffd42ce949.html.gz",
+     "quote": "Furthermore, the E-Commerce Law includes a provision that consumers may return goods, or terminate a contract of service, obtained through an e-commerce channel, within seven days of receipt, if they have not used or benefitted from the goods or services - except for certain circumstances that are set out in the E-Commerce Law."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Freelance license for Saudi nationals (see L1); no other freelancer incentive researched.",
+   "status": "unverified",
+   "note": "Not researched in depth on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: بطاقة الأحوال المدنية ( Biṭaqat Al-Aḥwal Al-Madaniya , Iqama or Bataka ) (Wikipedia, compulsory-ID list). Compulsory for men 17 and older and optional for teenage boys aged 15–16. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Saudi Arabia بطاقة الأحوال المدنية ( Biṭaqat Al-Aḥwal Al-Madaniya , Iqama or Bataka )",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Saudi Arabia: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "freelance.sa official terms/fees; expatriate options (MISA licence, Premium Residency).",
+  "Zakat for Saudi freelancers; 20% tax for non-Saudi individuals' business income (official ZATCA).",
+  "PDPL second source; e-commerce law second source.",
+  "FCY accounts; local gateways."
+ ]
+}

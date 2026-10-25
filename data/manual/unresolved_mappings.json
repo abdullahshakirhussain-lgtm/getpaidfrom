@@ -1,0 +1,10 @@
+{
+ "whop|Republic of the Congo": {
+  "candidate_code": "CG",
+  "status": "unresolved",
+  "logged_on": "2026-10-17",
+  "why": "Whop's payout list contains exactly one Congo entry, 'Republic of the Congo'. That string is also a substring of 'Democratic Republic of the Congo' (CD), and Whop lists no other Congo, so the page alone does not prove which member is meant. The UN uses the short name 'Congo' for CG; no official source fetched so far gives 'Republic of the Congo' with its code (EU style guide renders via JavaScript; UNCTAD PDF did not respond).",
+  "effect": "Excluded from verified data: Whop payout status for CG and CD is 'unverified' until resolved.",
+  "next_step": "Confirm via an official ISO/UN source naming 'Republic of the Congo' = CG, or ask Whop support which country the entry denotes."
+ }
+}

@@ -1,0 +1,637 @@
+{
+ "code": "UG",
+ "un_name": "Uganda",
+ "m49_name": "Uganda",
+ "iso3": "UGA",
+ "m49": "800",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "25-10-1962",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, freely. Uganda fully liberalised its capital account in 1997, and the Foreign Exchange Act 2004 repealed the Exchange Control Act. No surrender or repatriation rule for individuals' service income was found. The Governor may impose temporary exchange controls only after a severe balance-of-payments deterioration. Cross-border foreign-currency payments go through licensed institutions.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bills.parliament.ug/attachments/Laws%20of%20Uganda%20(Acts)%20-%20THE%20FOREIGN%20EXCHANGE%20ACT%202004.pdf",
+     "publisher": "Parliament of Uganda",
+     "title": "The Foreign Exchange Act, 2004 — repeal of the Exchange Control Act",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-35769c2c3a94.pdf.gz",
+     "quote": "The Exchange Control Act, is repealed."
+    },
+    {
+     "url": "https://bills.parliament.ug/attachments/Laws%20of%20Uganda%20(Acts)%20-%20THE%20FOREIGN%20EXCHANGE%20ACT%202004.pdf",
+     "publisher": "Parliament of Uganda",
+     "title": "The Foreign Exchange Act, 2004 — temporary restrictions",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-35769c2c3a94.pdf.gz",
+     "quote": "Where the Governor is satisfied that Uganda has experienced a severe deterioration in its balance of payments that makes necessary the temporary imposition of exchange controls"
+    },
+    {
+     "url": "https://www.brettonwoodsproject.org/2023/07/financial-liberalisation-capital-controls-and-development-in-africa-the-case-of-uganda/",
+     "publisher": "Bretton Woods Project",
+     "title": "Financial liberalisation, capital controls and development in Africa: The case of Uganda (2023)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-34b16dfa0393.html.gz",
+     "quote": "Specifically, for Uganda, the liberalisation of its capital account in 1997 was carried out as part of a series of stabilisation and reform policies undertaken since 1987 under IMF and World Bank Group SAPs."
+    }
+   ],
+   "notes": "The 2023 FX (Amendment) Act (payments via BoU-licensed entities) was not read. Bank of Uganda's archive site did not resolve (DNS failure)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Since 1997 residents may hold foreign-currency accounts in Ugandan banks. For example, Standard Chartered Uganda offers its current account in UGX, USD, GBP and EUR, and Ugandans open it with a national ID.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sc.com/ug/save/current-account.html",
+     "publisher": "Standard Chartered Bank Uganda",
+     "title": "Current Account",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-592d31a277fb.html.gz",
+     "quote": "It is offered in Uganda shillings (UGX) and United States Dollars (USD), GBP, EUR."
+    },
+    {
+     "url": "https://ideas.repec.org/a/bla/devpol/v19y2001i1p101-120.html",
+     "publisher": "IDEAS/RePEc (Kasekende, Development Policy Review 2001)",
+     "title": "Capital account liberalisation: The Ugandan experience — abstract",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a6a170d25ec1.html.gz",
+     "quote": "Following full liberalisation of the capital account in 1997, Uganda realised increasing private capital flows."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Uganda (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Uganda is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Uganda is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Pesapal, offered with dfcu Bank, onboards sole proprietorships. It requires a certificate of business registration, a URA TIN certificate, a national ID or passport, and bank-account proof for USD and UGX accounts, so the individual needs a registered business name. Pesapal's own Uganda checklist, Flutterwave Uganda and MTN MoMo/Airtel merchant onboarding not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "UNCLEAR. Uganda is a listed PayPal market but not on the Payouts list, so platforms paying via PayPal Payouts cannot pay Ugandan accounts. A 2025 Ugandan guide describes withdrawing PayPal balances to a linked Ugandan Visa/Mastercard debit card. Other 2026 guides describe PayPal as having limited functionality in Uganda and recommend Payoneer.",
+   "status": "conflicting",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    },
+    {
+     "url": "https://www.dignited.com/16173/receive-money-and-get-paid-via-paypal-uganda/",
+     "publisher": "Dignited",
+     "title": "PayPal in Uganda: How to receive money and be paid via Paypal",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-fd21efda2a0e.html.gz",
+     "quote": "Link your Ugandan Visa or MasterCard debit card (e.g., Stanbic, Absa, Centenary, Equity, UBA, etc.)."
+    },
+    {
+     "url": "https://mctaba.com/learn/uganda/get-paid-from-abroad-uganda",
+     "publisher": "McTaba",
+     "title": "How to Get Paid From Abroad as a Developer in Uganda (updated 4 Jun 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-fa97741fea50.html.gz",
+     "quote": "PayPal had limited functionality in Uganda."
+    }
+   ],
+   "notes": "PayPal's UG fee page lists Uganda among covered markets, but its withdrawal tables do not clearly show a card or bank withdrawal route for UG. Confirm before relying on PayPal."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. Guides consistently describe withdrawing USD to a Ugandan bank account in UGX. Direct withdrawal to MTN Mobile Money is claimed by one guide and contradicted by others (bank then mobile money). Wise: Uganda is NOT on Wise's list of countries whose residents can hold money, despite a 2026 guide claiming Ugandans get Wise USD account details.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.progigfinder.com/blog/how-to-receive-upwork-payments-in-uganda-kenya-nigeria-and-ghana-in-2026",
+     "publisher": "ProGigFinder",
+     "title": "How to Receive Upwork Payments in Uganda, Kenya, Nigeria, and Ghana in 2026 (16 Apr 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-81713c22227d.html.gz",
+     "quote": "Payoneer lets you withdraw USD to a Ugandan bank account in UGX."
+    },
+    {
+     "url": "https://mctaba.com/learn/uganda/get-paid-from-abroad-uganda",
+     "publisher": "McTaba",
+     "title": "How to Get Paid From Abroad as a Developer in Uganda",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-fa97741fea50.html.gz",
+     "quote": "Payoneer offers similar functionality with the added benefit of direct withdrawal to MTN Mobile Money"
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Uganda."
+    }
+   ],
+   "notes": "TRAP: McTaba (2026) says 'Wise gives you a USD account with routing details' to Ugandan developers; Wise's own residency list excludes Uganda, so that is not relied on. No Payoneer-owned Uganda page was captured."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole trader working under their own true surname (with or without first names or initials) is not required to register a business name. Registration is required when trading under any other name (Business Names Registration Act). Business names are registered online with URSB (OBRS). In practice, gateways such as Pesapal (P3) and the citizens' 3-year income tax exemption (L7) require a registered business. A local trading licence may also apply but was not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mtic.go.ug/wp-content/uploads/2019/08/Business-Names-Registration-Act-Cap.-109.pdf",
+     "publisher": "Ministry of Trade, Industry and Cooperatives (Uganda)",
+     "title": "Business Names Registration Act, Cap. 109, s.2(1)(b)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c5cf080a84c3.pdf.gz",
+     "quote": "(b) every individual having a place of business in Uganda and carrying on business under a business name which does not consist of a true surname without any addition other than his or her true Christian names or the initials thereof;"
+    },
+    {
+     "url": "https://ursb.go.ug/business-registration",
+     "publisher": "Uganda Registration Services Bureau (URSB)",
+     "title": "Business Registration Services",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-513d5748d84b.html.gz",
+     "quote": "The Bureau is mandated under the Uganda Registration Services Bureau Act Cap 217 to register all business entities in Uganda which are required by law to be registered."
+    }
+   ],
+   "notes": "The Act was renumbered Cap. 105 in the 2023 revised laws; the Cap. 109 text was read. The URSB fee schedule was not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The TIN from the Uganda Revenue Authority (URA). Individuals with a National Identification Number (NIN) from NIRA can get an instant TIN online, without URA staff approval, in about 5 minutes. No documents are needed with a valid NIN, and details auto-populate from NIRA. Those without a NIN use the standard individual registration route.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ura.go.ug/en/domestic-taxes/tin-application/instant-tin-application/",
+     "publisher": "Uganda Revenue Authority",
+     "title": "Instant TIN Application",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-0feb11fb97a9.html.gz",
+     "quote": "This application is not subject to verification or approval by URA staff, and the client will be able to get this TIN within 5 minutes."
+    },
+    {
+     "url": "https://ura.go.ug/wp-content/uploads/2022/12/10352_Press_Release_TIN_application_process_improvements_funal.pdf",
+     "publisher": "Uganda Revenue Authority",
+     "title": "Press release: TIN application process improvements",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1acde5e6f01f.pdf.gz",
+     "quote": "No documents required if the applicant has a valid NIN/BRN"
+    }
+   ],
+   "notes": "Whether URA charges any fee is not stated on these pages (press reports say the service is free)."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (permanent home in Uganda, or 183+ days in a 12-month period, among other tests) are taxed on income from all geographical sources. From 1 July 2026 (Income Tax (Amendment) Act 2026, signed 20 August 2026 with effect from 1 July), resident individuals pay nil up to UGX 4,020,000 a year, then 20%, 25%, and 30% above UGX 5,820,000, plus an additional 10% above UGX 120 million. Presumptive (turnover) tax applies to small businesses with sales of UGX 10m–150m, but professionals are excluded.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/uganda/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uganda — Individual — Taxes on personal income (last reviewed 12 Jan 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-59f693e6f03a.html.gz",
+     "quote": "The gross income of a resident person includes income derived from all geographical sources."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/uganda/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uganda — Individual — Residence",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-91536dd4a4e1.html.gz",
+     "quote": "for a period of, or periods amounting in aggregate to, 183 days or more in any 12-month period commencing or ending in the year of income"
+    },
+    {
+     "url": "https://www.onyangoadvocates.com/assets/PDF/INSIDE%20UGANDA%E2%80%99S%202026%20TAX%20AMENDMENT%20ACTS%20130526.pdf",
+     "publisher": "Onyango & Company Advocates",
+     "title": "Tax Alert: Inside Uganda's 2026 Tax Amendment Acts",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e09c7cfc9467.pdf.gz",
+     "quote": "i. Income below/not exceeding UGX 4,020,000 per year- Nil (exempt) ii. Income exceeding UGX 4,020,000/= but not exceeding UGX 4,920,000/= per year -20% of the excess above UGX 4,020,000/="
+    },
+    {
+     "url": "https://www.forvismazars.com/ug/en/insights/our-publications/local-and-regional/paye-2026",
+     "publisher": "Forvis Mazars Uganda",
+     "title": "The Income Tax (Amendment) Act, 2026: Key Reforms and Their Impact",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-911b5fc4db3a.html.gz",
+     "quote": "This Act was signed by the President on 20 August 2026, after its commencement date of 1 July 2026."
+    },
+    {
+     "url": "https://ura.go.ug/en/small-business/",
+     "publisher": "Uganda Revenue Authority",
+     "title": "Small Business (presumptive tax)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-4a169f499631.html.gz",
+     "quote": "professionals for example persons in dental, medical, engineers, accountants, and architectural practice among others do not pay this tax."
+    }
+   ],
+   "notes": "PwC's individual page (reviewed Jan 2026) still shows the pre-July-2026 scale (nil to UGX 2,820,000). The new bands are confirmed by Onyango (annual) and Chimp Reports/AllAfrica (monthly equivalents: 335k / 410k / 485k). Whether IT/digital freelancers count as 'professionals' excluded from presumptive tax was not established."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 18%. Exports of goods and services are zero-rated (input VAT recoverable). The registration threshold rose from UGX 150m to UGX 300m a year (UGX 75m in any three consecutive months) from 1 July 2026, under the VAT (Amendment) Act 2026, assented 18 May 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxnews.ey.com/news/2026-1253-uganda-issues-tax-amendment-acts-for-2026",
+     "publisher": "EY Global Tax News",
+     "title": "Uganda issues Tax Amendment Acts for 2026 (11 Jun 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-f607411fde03.html.gz",
+     "quote": "Increment in the annual VAT registration threshold (Section 7) The amendment increases the annual VAT registration threshold from UGX150m to UGX300m."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/uganda/corporate/significant-developments",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uganda — Corporate — Significant developments",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-dce6ec48922e.html.gz",
+     "quote": "Increase in the annual VAT registration threshold from UGX 150 million to UGX 300 million."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/uganda/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uganda — Corporate — Other taxes",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-dea5c5464041.html.gz",
+     "quote": "The zero-rated supplies include the supply of goods and services exported from Uganda;"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/uganda/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uganda — Corporate — Other taxes (rate)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-dea5c5464041.html.gz",
+     "quote": "VAT is charged at the rate of 18% on the supply of most goods and services in the course of business in Uganda."
+    },
+    {
+     "url": "https://lookuptax.com/docs/country/uganda-vat-guidelines-indirect-tax",
+     "publisher": "Lookuptax",
+     "title": "Uganda VAT guidelines (as at 2026-10-06)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0523637b64fc.html.gz",
+     "quote": "UGX 300,000,000 in any twelve months, applied as UGX 75,000,000 in any three consecutive calendar months — from 1 July 2026"
+    }
+   ],
+   "notes": "TRAP: PwC's 'Other taxes' page and several 2026 guides still say UGX 150m; superseded from 1 July 2026. The Bill proposed 250m; Parliament set 300m. When a service counts as 'exported' under the VAT Act (place of use/consumption) was not checked against the Act text."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Data Protection and Privacy Act 2019. Every person, institution or public body that collects, processes, holds or uses personal data must register with the Personal Data Protection Office (PDPO, within NITA-U), under s.29 and reg. 15(1). Failing to register is an offence (fine and/or up to three months' imprisonment). No exemption notice for small operators was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://insights.afriwise.com/blog/beat-the-data-protection-registration-deadline",
+     "publisher": "Afriwise",
+     "title": "Beat the data protection registration deadline",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-3b1d91deba18.html.gz",
+     "quote": "Persons, institutions, and public bodies within Uganda that collect, process, hold or use personal data as well as persons, institutions or public bodies outside Uganda that collect personal data relating to Ugandan citizens, are all required to register with the Office."
+    },
+    {
+     "url": "https://www.kaa.co.ug/wp-content/uploads/2022/08/KAA-Registration-compliance.pdf",
+     "publisher": "Kampala Associated Advocates (KAA)",
+     "title": "Registration compliance under the Data Protection and Privacy Act",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-1a85c5079962.pdf.gz",
+     "quote": "the requirement for data collectors/ data processors/ data controllers to register with the ... under section 29 of the Act and Regulation 15(1) of the Data Protection & Privacy Regulations."
+    }
+   ],
+   "notes": "PDPO's site renders client-side (no text captured); the Act text on ULII returned 403. Registration fees not established."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Electronic Transactions Act 2011. Online sellers must give prescribed information (s.24). If they fail to, the consumer may cancel within 14 days of receiving the goods or services (s.24(3)). Otherwise a consumer may cancel an electronic transaction within 7 days of receipt of the goods or services, or within 7 days of concluding the agreement (s.25).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/uga/1950/the-electronic-transactions-act_html/Electronic-Transactions-Act.pdf",
+     "publisher": "Electronic Transactions Act 2011 (Act 8 of 2011; text hosted by UNODC SHERLOC)",
+     "title": "Electronic Transactions Act 2011, s.25",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-16153ee2162d.pdf.gz",
+     "quote": "(1) Subject to sub section (2), a consumer may cancel an electronic transaction and any related credit agreement for the supply of goods or services— (a) within seven days after the date of receipt of the goods or services;"
+    },
+    {
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/uga/1950/the-electronic-transactions-act_html/Electronic-Transactions-Act.pdf",
+     "publisher": "Electronic Transactions Act 2011 (UNODC SHERLOC copy)",
+     "title": "Electronic Transactions Act 2011, s.24(3)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-16153ee2162d.pdf.gz",
+     "quote": "a consumer may cancel the transaction within fourteen days after receiving the goods or services under the transaction."
+    }
+   ],
+   "notes": "Whether a newer consumer-protection statute applies to online sales was not checked. ULII returned 403 and the NITA FAQ URL 404."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) A three-year income tax exemption for businesses established by citizens after 1 July 2025 (Income Tax (Amendment) Act 2025). Conditions: registered investment capital up to UGX 500m, no prior use by the citizen or an associate, and annual returns plus a business information return. The ITA definition of 'citizen' covers EAC partner-state citizens. (2) The VAT threshold doubled to UGX 300m (L4). (3) Exports are zero-rated (L4). (4) No foreign-exchange controls (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ey.com/en_gl/technical/tax-alerts/uganda-issues-tax-amendment-acts-for-2025",
+     "publisher": "EY",
+     "title": "Uganda issues Tax Amendment Acts for 2025",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d346cae330db.html.gz",
+     "quote": "The Act exempts income derived from a business established by a citizen after 1 July 2025 for a period of three years if the: Business is registered with an investment capital not exceeding 500 million Ugandan shillings (UGX500m)"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/uganda/corporate/significant-developments",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uganda — Corporate — Significant developments (2025 amendments)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-dce6ec48922e.html.gz",
+     "quote": "Introduction of an income tax exemption for businesses established by citizens after 1 July 2025 for a period of three years, subject to the following criteria: The business should be registered with an investment capital not exceeding 500 million Ugandan shillings (UGX)."
+    },
+    {
+     "url": "https://www.monitor.co.ug/uganda/business/prosper/who-qualifies-for-three-year-income-tax-exemption--4999022",
+     "publisher": "Daily Monitor",
+     "title": "Who qualifies for three-year income tax exemption?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-991afcb5d500.html.gz",
+     "quote": "The Income Tax Act, Cap 338 (which is the current tax law that governs the taxation of income of a person doing business in Uganda) defines a citizen to mean a natural person who is a citizen of a partner state of the East African Community (EAC);"
+    }
+   ],
+   "notes": "The Monitor article analyses the 2025 Bill. What counts as 'investment capital' is ambiguous per commentary, and the exempt business still has VAT/PAYE agent duties."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The National ID card and National Identification Number (NIN) issued by NIRA. They are used for the instant TIN, bank accounts (e.g. Standard Chartered) and gateway onboarding (national ID or passport).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ura.go.ug/en/domestic-taxes/tin-application/instant-tin-application/",
+     "publisher": "Uganda Revenue Authority",
+     "title": "Instant TIN Application — eligibility",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-0feb11fb97a9.html.gz",
+     "quote": "Only Individuals Registered with the NIRA (National Identification Registration Authority) and who have been issued a National Identification Number (NIN)"
+    },
+    {
+     "url": "https://www.sc.com/ug/save/current-account.html",
+     "publisher": "Standard Chartered Bank Uganda",
+     "title": "Current Account — documents",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-592d31a277fb.html.gz",
+     "quote": "Documents Required Original / copy of National ID"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Uganda: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

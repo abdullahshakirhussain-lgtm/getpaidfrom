@@ -1,0 +1,577 @@
+{
+ "source": "paypal_payouts",
+ "route": "paypal",
+ "url": "https://developer.paypal.com/payouts/supported-features",
+ "retrieved_at": "2026-10-17T03:52:13+00:00",
+ "sha256": "1fdbd4ae39c38b9c8b2cd4937a3c5078a97509d40b7d2cceb497a22e2c5249eb",
+ "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+ "evidence": "official",
+ "lists": {
+  "eligible": {
+   "meaning": "paypal_payouts_receive",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send.",
+   "count": 93,
+   "entries": [
+    {
+     "code": "AD",
+     "raw": "Andorra",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "BM",
+     "raw": "Bermuda",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil (see PayPal restriction note)",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "KY",
+     "raw": "Cayman Islands",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "CN",
+     "raw": "China (see PayPal restriction note)",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia (see PayPal restriction note)",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "FO",
+     "raw": "Faroe Islands",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "GL",
+     "raw": "Greenland",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong SAR China",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": "Receive and withdraw",
+     "meaning": "paypal_payouts_receive_only"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "LS",
+     "raw": "Lesotho",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia (see PayPal restriction note)",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": "Receive and withdraw",
+     "meaning": "paypal_payouts_receive_only"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco (see PayPal restriction note)",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "RE",
+     "raw": "Réunion",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": "Send, receive, and withdraw in local currency",
+     "meaning": "paypal_payouts_send_receive_local"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "TR",
+     "raw": "Turkey",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": "Fully localized",
+     "meaning": "paypal_payouts_fully_localized"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": "Send, receive, and withdraw",
+     "meaning": "paypal_payouts_send_receive"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

@@ -1,0 +1,717 @@
+{
+ "code": "UA",
+ "un_name": "Ukraine",
+ "m49_name": "Ukraine",
+ "iso3": "UKR",
+ "m49": "804",
+ "region": "Europe",
+ "sub_region": "Eastern Europe",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "24-10-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "grandfathered_only",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible_via_payoneer",
+   "label": "payoneer",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency UAH; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Receiving FX for exported services is allowed and largely unrestricted. (1) The NBU's export settlement deadline (180 days for transactions since 5 Apr 2022 under martial-law Resolution 18) does NOT apply to exports of works, services (except transport and insurance) and intellectual-property rights. This exemption has existed since NBU Resolution 67 of 14 May 2019, and tax practitioners confirmed it still applied in July 2026. (2) There is no mandatory sale of FX proceeds: the NBU abolished the surrender requirement from 20 June 2019. A sole proprietor (FOP) sells FX only on their own instruction. Other martial-law FX restrictions under Resolution 18, e.g. on purchasing FX and transfers abroad, still apply and were not researched here.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bank.gov.ua/en/news/all/granichni-stroki-rozrahunkiv-za-nizkoyu-eksportno-importnih-operatsiy-skasovuyutsya",
+     "publisher": "National Bank of Ukraine",
+     "title": "Deadlines for Certain Export and Import Settlements to Be Cancelled (15 May 2019)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-88a25bfb355b.html.gz",
+     "quote": "From now on, the deadline on settlement for exports and imports (at present – 365 days) shall not apply to the following transactions:"
+    },
+    {
+     "url": "https://bank.gov.ua/en/news/all/pereglyanuto-granichni-stroki-rozrahunkiv-dlya-deyakih-eksportnih-operatsiy",
+     "publisher": "National Bank of Ukraine",
+     "title": "NBU Revises Settlement Deadlines For Some Export Transactions (Nov 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8f7f19b574f7.html.gz",
+     "quote": "As previously reported, the settlement deadlines for transactions executed since 5 April 2022 were set at 180 calendar days."
+    },
+    {
+     "url": "https://7eminar.ua/news/22853-ci-dije-granicnii-strok-povernennya-valyutnoyi-virucki-za-eksport-poslug",
+     "publisher": "7eminar",
+     "title": "Чи діє граничний строк повернення валютної виручки за експорт послуг (29.07.2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-d0d3b7b650fe.html.gz",
+     "quote": "Якщо ви експортували послуги , то граничні строки валютних розрахунків на такі операції не поширюються , незалежно від суми валютної виручки."
+    },
+    {
+     "url": "https://bank.gov.ua/en/news/all/obovyazkoviy-prodaj-valyutnih-nadhodjen-biznesom-skasovano",
+     "publisher": "National Bank of Ukraine",
+     "title": "NBU Lifts Surrender Requirement on Foreign Currency Proceeds (June 2019)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-43ac457be3be.html.gz",
+     "quote": "The requirement that obliges entrepreneurs to sell 30% of their foreign currency proceeds in the interbank FX market will no longer be effective starting from 20 June 2019."
+    }
+   ],
+   "notes": "CONFLICT RESOLVED: a dtkt summary implied the 180-day deadline also runs for services (counted from the act/invoice date). NBU Resolution 67's exemption for services and 7eminar's July 2026 consultation say deadlines do not apply to service exports. That the surrender requirement was not reintroduced under martial law is inferred from 2026 FOP practice articles (FOP sells 'за дорученням'); the consolidated Resolution 18 text was not readable (PDF behind JS)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. FOPs receive client payments in a foreign-currency (валютний) account at a Ukrainian bank. Income is recognised at the NBU rate on the day the FX is credited, and later sale of the FX is the FOP's own choice. For single-tax group 3, FX gains on that sale are not taxable. Funds received on foreign bank accounts must be moved to the Ukrainian FX account within 180 days (practitioner guidance).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://news.dtkt.ua/simple/individual-single-tax/112872-kursova-riznicia-dlia-fopa-platnika-jedinogo-podatku-u-2026-roci",
+     "publisher": "Дебет-Кредит (dtkt.ua)",
+     "title": "Курсова різниця для ФОПа-платника єдиного податку у 2026 році (15.07.2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-42878ecf3cc9.html.gz",
+     "quote": "Після надходження коштів на валютний рахунок підприємець визначає свій дохід відповідно до вимог Податкового кодексу – у гривневому еквіваленті за офіційним курсом Національного банку України, що діяв у день зарахування валюти."
+    },
+    {
+     "url": "https://yankiv.com/fop-ta-valyutni-nadhodzhennya-kurs-nbu/",
+     "publisher": "YANKIV (law firm)",
+     "title": "ФОП та валютні надходження (оновлено 08.10.2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-3ac1f32a292a.html.gz",
+     "quote": "Якщо ФОП відкрив рахунок в іноземному банку — всі кошти, що надходять на такий рахунок, потрібно перерахувати на валютний рахунок в Україні протягом 180 днів."
+    }
+   ],
+   "notes": "No NBU page specifically on individual FX accounts was captured."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Ukraine (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Ukraine is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Ukraine is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Internet acquiring requires FOP (sole proprietor) or company status. PrivatBank's LiqPay internet acquiring: no connection fee, 1.3% on all cards, and the merchant must be an entrepreneur or legal entity with a business current account. WayForPay accepts FOPs with an extract from the Unified State Register and ID. Diia documents (ID card, passport, taxpayer card) can be shared for verification. fondy.ua returned 502; not used."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. PayPal publishes a fee schedule for Ukraine (UA) residents covering buying, 'Selling with PayPal' (commercial transactions) and personal transfers. Withdrawing a personal-account balance to cards in UA carries no PayPal fee when no currency conversion is involved. Since March 2022 Ukrainians can receive P2P payments and withdraw to Ukrainian Visa and Mastercard cards. PayPal reserves the right to modify Ukraine services at any time 'in view of the developing situation'.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypalobjects.com/marketing/web/shared/clac/en/paypal-fees/Ukraine-paypal-fees-31-Dec-2026.pdf",
+     "publisher": "PayPal",
+     "title": "PayPal fees — Ukraine (31 Dec 2026 version)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c25082aa3784.pdf.gz",
+     "quote": "Withdrawing a balance from a personal PayPal account Withdrawal/Transfer to Market/Region Rate Cards UA No Fee (when no currency conversion is involved)"
+    },
+    {
+     "url": "https://www.paypalobjects.com/marketing/web/shared/clac/en/paypal-fees/Ukraine-paypal-fees-31-Dec-2026.pdf",
+     "publisher": "PayPal",
+     "title": "PayPal fees — Ukraine (scope)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c25082aa3784.pdf.gz",
+     "quote": "In view of the developing situation in Ukraine, PayPal reserves the right to modify these services at any time and such modifications will be effective immediately upon notice being published on our website."
+    },
+    {
+     "url": "https://en.ain.ua/2022/03/18/paypal-launches-in-ukraine",
+     "publisher": "AIN.UA",
+     "title": "PayPal launches in Ukraine (18 Mar 2022)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d4fb0064b8d1.html.gz",
+     "quote": "Ukrainian customers can transfer funds from their PayPal Wallet to eligible Mastercard and Visa debit and credit cards."
+    }
+   ],
+   "notes": "Data conflict: data/sources/paypal_payouts.json does not list UA, while paypal_worldwide.json lists it. The UA fee schedule is decisive for receiving. Commercial receiving fees for UA business accounts are on the Merchant Fees page (not captured)."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: widely used, and Etsy pays Ukrainian sellers via Payoneer (automated collector). The tax service's position is that for single-tax FOPs, funds received on Payoneer (and similar systems) count as single-tax income if moved to the FOP's Ukrainian bank account by the end of the reporting period (a quarter for group 3). Funds left abroad, or sent to a personal account, are taxed as an individual's foreign income (18% PIT plus military levy). Income date is the date credited to Payoneer. Wise: Ukraine is NOT on Wise's list of countries whose residents can hold money. Practitioner articles still mention Wise in the same tax rule, presumably for accounts opened elsewhere.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://i.factor.ua/ukr/journals/nibu/2025/april/issue-28/article-132500.html",
+     "publisher": "Податки & бухоблік (factor.ua)",
+     "title": "Payoneer, Wise ... — позиція ДПС (Apr 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-842ae5520452.html.gz",
+     "quote": "За наполяганням податківців, якщо ФОП на єдиному податку отримує кошти на рахунок у системах Payoneer, Wise, Paypal, Gusto, Scrill або Genome та до кінця звітного періоду перераховує їх на банківський рахунок ФОП в Україні, то такі кошти оподатковуються єдиним податком."
+    },
+    {
+     "url": "https://news.dtkt.ua/simple/individual-single-tax/102164-data-doxodu-fopa-na-payoneer-dps-proti-nbu-xto-maje-raciiu",
+     "publisher": "Дебет-Кредит (dtkt.ua)",
+     "title": "Дата доходу ФОПа на Payoneer: ДПС проти НБУ (19.08.2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-275daed4c487.html.gz",
+     "quote": "При цьому ДПС висуває ключову умову: щоб ці кошти вважалися доходом підприємця, їх необхідно перерахувати на український банківський рахунок ФОПа (у форматі IBAN) до кінця звітного періоду ."
+    },
+    {
+     "url": "https://yankiv.com/fop-ta-valyutni-nadhodzhennya-kurs-nbu/",
+     "publisher": "YANKIV (law firm)",
+     "title": "ФОП та валютні надходження",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-3ac1f32a292a.html.gz",
+     "quote": "Якщо гроші залишились на Payoneer або Wise після закінчення звітного періоду і не були переведені на рахунок в Україні — вони оподатковуються як дохід фізичної особи: ПДФО 18% + військовий збір."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Ukraine."
+    }
+   ],
+   "notes": "The underlying DPS consultations (ZIR card 107.01.03) were not read directly (tax.gov.ua returned 403). Liga (20 Jul 2026) reports a new individual tax consultation on Payoneer for group-3 FOPs selling digital goods."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest form: an individual entrepreneur (ФОП, FOP). State registration is free and can be done automatically in Diia, with the application taking about 10 minutes. Applicants choose the tax system and KVED codes, and a group-3 single taxpayer is entered in the register within 2 working days. Requirements are Ukrainian citizenship, an assigned taxpayer number (РНОКПП) and a qualified e-signature (Diia.Pidpys). FOP status is in practice needed for local acquiring (P3) and for the single-tax treatment of foreign income (P5, L3).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://guide.diia.gov.ua/view/derzhavna-reiestratsiia-fizychnoi-osoby---pidpryiemtsia-f369b2af-e580-4dd3-9cb8-30753de06ccb",
+     "publisher": "Гід з державних послуг (Diia)",
+     "title": "Державна реєстрація фізичної особи – підприємця",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1a96ade0b527.html.gz",
+     "quote": "Державна реєстрація фізичної особи підприємця проводиться безоплатно."
+    },
+    {
+     "url": "https://diia.gov.ua/services/reyestraciya-fop/",
+     "publisher": "Дія (diia.gov.ua)",
+     "title": "Автоматична реєстрація ФОП",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-032fcf68b4eb.html.gz",
+     "quote": "Якщо ви вибрали 3-тю групу — податкова поставить вас на облік у реєстрі платників Єдиного податку протягом 2-х робочих днів з дня подання заяви на реєстрацію ФОП."
+    },
+    {
+     "url": "https://guide.diia.gov.ua/view/derzhavna-reiestratsiia-fizychnoi-osoby---pidpryiemtsia-f369b2af-e580-4dd3-9cb8-30753de06ccb",
+     "publisher": "Гід з державних послуг (Diia)",
+     "title": "Державна реєстрація ФОП — хто може",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1a96ade0b527.html.gz",
+     "quote": "якому присвоєно реєстраційний номер облікової картки платника податків, який не є фізичною особою - підприємцем відповідно до відомостей Єдиного державного реєстру та має намір провадити підприємницьку діяльність"
+    }
+   ],
+   "notes": "zakon.rada.gov.ua (statute texts) timed out from this environment."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Individuals use the РНОКПП (registration number of the taxpayer's account card, formerly 'identification number'). It is assigned by the State Tax Service on submission of form 1DR with an identity document, in person, by post or through the online e-cabinet (cabinet.tax.gov.ua). It can be shown in Diia as an e-taxpayer card. It is a precondition for FOP registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://guide.diia.gov.ua/view/vydacha-kartky-platnyka-podatkiv-vnesennia-do-pasporta-hromadianyna-ukrainy-u-formi-knyzhechky-danykh-pro-reiestratsiinyi-nomer--84621340-45bf-4122-8be0-c2f8facee3a0",
+     "publisher": "Гід з державних послуг (Diia)",
+     "title": "Реєстраційний номер облікової картки платника податків (РНОКПП)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1ff1a8c2ff40.html.gz",
+     "quote": "Фізична особа - платник податків незалежно від віку (як резидент, так і нерезидент), для якої раніше не формувалася облікова картка платника податків та яка не включена до Державного реєстру фізичних осіб - платників податків (далі - Державний реєстр), зобов'язана особисто або через законного представника чи уповноважену особу подати відповідному контролюючому органу облікову картку фізичної особи - платника податків"
+    },
+    {
+     "url": "https://guide.diia.gov.ua/view/vydacha-kartky-platnyka-podatkiv-vnesennia-do-pasporta-hromadianyna-ukrainy-u-formi-knyzhechky-danykh-pro-reiestratsiinyi-nomer--84621340-45bf-4122-8be0-c2f8facee3a0",
+     "publisher": "Гід з державних послуг (Diia)",
+     "title": "РНОКПП — online submission",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1ff1a8c2ff40.html.gz",
+     "quote": "№ 1ДР може бути подана через меню «ЕК для громадян»/«Облікова картка фізичної особи – платника податків (1ДР)/Заява про внесення змін до Державного реєстру фізичних осіб – платників податків (5ДР)» приватної частини ІТС «Електронний кабінет» (cabinet.tax.gov.ua)."
+    }
+   ],
+   "notes": "The Diia guide notes the page's age; tax.gov.ua (403) not readable."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents, including registered freelancers and entrepreneurs, are taxed on worldwide income. Foreign income of individuals: 18% PIT plus military levy of 5% (raised from 1.5% from 1 Dec 2024, Law 4015-IX). Simplified (single-tax) group 3, the usual regime for IT and digital service FOPs: 5% of revenue (non-VAT payer) or 3% (VAT payer), plus military levy of 1% of revenue, plus minimum social contribution (ЄСВ) of UAH 1,902.34/month in 2026. The 2026 income cap is 1,167 minimum wages = UAH 10,091,049.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Individual — Residence",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c91c240e36d9.html.gz",
+     "quote": "Registered freelancers and private entrepreneurs also qualify as Ukrainian tax residents and are subject to Ukrainian tax on their worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Taxes on personal income",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e04c3eec1375.html.gz",
+     "quote": "Taxable income received from abroad is subject to a tax rate of 18% , with some exceptions ."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/individual/significant-developments",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Significant developments (military tax)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-9758e43503c6.html.gz",
+     "quote": "Introduced for taxpayers registered on the third group of the simplified regime: 1% from the gross taxable income (i.e. revenue)."
+    },
+    {
+     "url": "https://buhplatforma.com.ua/news/117140-aktualnyi-podatkovyi-dovidnyk-tsyfr-dlia-fop-u-2026-rotsi",
+     "publisher": "Головбух (buhplatforma.com.ua)",
+     "title": "Актуальний податковий довідник цифр для ФОП у 2026 році",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-82980163c9b7.html.gz",
+     "quote": "ФОП 3 група — 5% від доходу без ПДВ або 3% із ПДВ."
+    },
+    {
+     "url": "https://buhplatforma.com.ua/news/117140-aktualnyi-podatkovyi-dovidnyk-tsyfr-dlia-fop-u-2026-rotsi",
+     "publisher": "Головбух (buhplatforma.com.ua)",
+     "title": "Довідник цифр 2026 — ліміт",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-82980163c9b7.html.gz",
+     "quote": "3 група — до 10 091 049 гривень."
+    },
+    {
+     "url": "https://24tv.ua/fop-iii-grupi-yaki-podatki-treba-platiti_n3144467",
+     "publisher": "24 Канал",
+     "title": "Які податки сплачує ФОП III групи у 2026 році",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d01061fa4f6a.html.gz",
+     "quote": "ЄСВ – щонайменше 1 902,34 гривні на місяць."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/corporate/tax-credits-and-incentives",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Tax credits and incentives (simplified system)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bbac3ad65830.html.gz",
+     "quote": "only up to 1,167 minimal salary as of 1 January of the reporting year (for 2026 this amount is equal to UAH 10,091,000)"
+    }
+   ],
+   "notes": "Tax Code text not readable (zakon.rada timeout; tax.gov.ua 403). PwC's incentives page gives the same 1,167-minimum-wage cap (UAH 10,091,000 rounded)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT is 20% (reduced 14% and 7%; 0% for goods exports). Compulsory registration once taxable supplies exceed UAH 1 million over the past 12 months; voluntary registration earlier. Exported services: consulting, engineering, legal and the other services listed in Tax Code art. 186.3(в) are supplied where the recipient is registered. When supplied to a non-resident they are outside Ukraine's VAT scope (no VAT, no input recovery). A non-VAT-registered provider charges no VAT anyway. Group-3 FOPs at 5% are non-VAT payers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Corporate — Other taxes (VAT)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8795d513f52e.html.gz",
+     "quote": "The rate of 20% applies to all transactions subject to VAT except specific transactions subject to 14%, 7%, and 0% VAT."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — VAT registration",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8795d513f52e.html.gz",
+     "quote": "The current registration threshold is UAH 1 million for the past 12 consecutive months."
+    },
+    {
+     "url": "https://news.dtkt.ua/state/zed/111611-opodatkuvannia-pri-eksporti-poslug-u-2026-roci-pdv-podatok-na-pributok-ta-jedinii-podatok",
+     "publisher": "Дебет-Кредит (dtkt.ua)",
+     "title": "Оподаткування при експорті послуг у 2026 році",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-5ffa40005a66.html.gz",
+     "quote": "Тож якщо платник ПДВ надає консультаційні послуги нерезидентові, об’єкта оподаткування ПДВ не виникає, тому що місце постачання таких послуг розташоване за межами митної території України, в країні реєстрації нерезидента-отримувача послуг."
+    },
+    {
+     "url": "https://news.dtkt.ua/state/zed/111611-opodatkuvannia-pri-eksporti-poslug-u-2026-roci-pdv-podatok-na-pributok-ta-jedinii-podatok",
+     "publisher": "Дебет-Кредит (dtkt.ua)",
+     "title": "Оподаткування при експорті послуг у 2026 році — не платник ПДВ",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-5ffa40005a66.html.gz",
+     "quote": "Якщо особа-виконавець не є платником ПДВ , то експорт послуг не оподатковується ПДВ, навіть якщо місце постачання розташоване на митній території України."
+    },
+    {
+     "url": "https://buhplatforma.com.ua/news/715-opodatkuvannja",
+     "publisher": "Головбух (buhplatforma.com.ua)",
+     "title": "Оподаткування ПДВ окремих експортних послуг",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-b75853909d67.html.gz",
+     "quote": "Консультаційні, інжинірингові, юридичні та інші послуги, перелічені у підпункті «в» пункту 186.3 Податкового кодексу України, які надаються платником ПДВ — резидентом нерезиденту, не є об’єктом оподаткування ПДВ"
+    }
+   ],
+   "notes": "Services not listed in 186.3(в) follow the general rule (place of supply = supplier's place); classify each service. PwC notes such services are 'subject to 20% VAT or considered to be outside the scope of VAT ... depending on the place of supply'."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 'On Personal Data Protection' No. 2297-VI (in force since 2011) applies, supervised by the Verkhovna Rada Commissioner for Human Rights (Ombudsman). There is no general database registration. Controllers notify the Ombudsman ONLY about processing that poses a special risk (sensitive data, e.g. health, biometrics, ethnicity, criminal records), within 30 working days of starting it. Processing generally needs consent unless the law provides another ground. A GDPR-style replacement (draft law 8153) passed first reading but was not enacted as of 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ombudsman.gov.ua/uk/oprilyudnennya-informaciyi-na-vimogu-statti-9-ta-24-zakonu-ukrayini-pro-zahist-personalnih-danih/poryadok-ta-formi-zdijsnennya-povidomlen-dodatkova-informaciya",
+     "publisher": "Уповноважений Верховної Ради України з прав людини",
+     "title": "Порядок та форми здійснення повідомлень",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a68203a24ed1.html.gz",
+     "quote": "На підставі Закону України «Про захист персональних даних» володілець персональних даних повідомляє Уповноваженого Верховної Ради України з прав людини (далі– Уповноважений) лише про обробку персональних даних, яка становить особливий ризик для прав і свобод суб’єктів персональних даних"
+    },
+    {
+     "url": "https://ombudsman.gov.ua/uk/oprilyudnennya-informaciyi-na-vimogu-statti-9-ta-24-zakonu-ukrayini-pro-zahist-personalnih-danih/poryadok-ta-formi-zdijsnennya-povidomlen-dodatkova-informaciya",
+     "publisher": "Уповноважений Верховної Ради України з прав людини",
+     "title": "Порядок та форми здійснення повідомлень — строк",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a68203a24ed1.html.gz",
+     "quote": "упродовж тридцяти робочих днів з дня початку такої обробки"
+    },
+    {
+     "url": "https://ombudsman.gov.ua/storage/app/media/uploaded-files/pamyatkapdweb.pdf",
+     "publisher": "Уповноважений Верховної Ради України з прав людини",
+     "title": "Пам’ятка щодо особливостей обробки та захисту персональних даних",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-cd82b9015443.pdf.gz",
+     "quote": "Не допускається збирання, зберігання, використання та поширення конфіденційної інформації про особу без її згоди, крім випадків, визначених законом, і лише в інтересах національної безпеки, економічного добробуту та прав людини»."
+    },
+    {
+     "url": "https://dc.org.ua/en/news/zahyst-personalnyh-danyh-i-shi-zakonoproekt-8153-gdpr-ta-zakon-es-pro-shi-u-konteksti-tehnologiy-shtuchnogo-intelektu",
+     "publisher": "Dnistrianskyi Center",
+     "title": "Personal Data Protection and AI: Draft Law No. 8153 (15 Jan 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-58539f5d3827.html.gz",
+     "quote": "8153, “On the Protection of Personal Data” (hereinafter – Data Protection Draft Law) adopted in its first reading by the Verkhovna Rada (Ukrainian Parliament), introduces broader rules for the automated processing of personal data, modeled after the EU General Data Protection Regulation"
+    }
+   ],
+   "notes": "REJECTED SOURCE: dataprotection.gi (self-labelled 'ai_generated, legal review: never_reviewed'). Not used. Baker McKenzie handbook returned 403. That 8153 was still not enacted by mid-2026 rests on search summaries (no Rada bill-tracker access; zakon.rada timeout). Re-check."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The 1991 Law 'On Consumer Rights Protection' (No. 1023-XII), art. 13, still applies to distance contracts. The consumer may terminate within 14 days of the information confirmation or of receiving the goods, extended to 90 days if the confirmation is missing or defective. There is no right to terminate where, with the consumer's consent, a service or goods were delivered electronically before the period ended and the consumer was told so. The new consumer law No. 3153-IX (14-day withdrawal with digital-content rules) enters into force one year after publication but NOT before martial law ends. Martial law was extended to 31 Oct 2026, so the old law remains in force.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://urst.com.ua/pro_zakhyst_prav_spozhyvachiv/st-13",
+     "publisher": "URST (hosted statute text)",
+     "title": "Стаття 13 Закону «Про захист прав споживачів»",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c3c2f816641e.html.gz",
+     "quote": "Споживач має право розірвати укладений на відстані договір шляхом повідомлення продавця (виконавця) про це протягом чотирнадцяти днів з моменту підтвердження інформації або з моменту одержання товару чи першої поставки товару."
+    },
+    {
+     "url": "https://protocol.ua/ru/pro_zahist_prav_spogivachiv_stattya_13/",
+     "publisher": "Protocol.ua (hosted statute text)",
+     "title": "Стаття 13 Закону «Про захист прав споживачів» — виняток",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-82ac8f2768b7.html.gz",
+     "quote": "У разі коли інше не передбачено договором, споживач не має права розірвати договір, укладений на відстані, якщо: 1) надання послуги або поставка товару електронними засобами зв'язку за згодою споживача відбулися до закінчення строку розірвання договору"
+    },
+    {
+     "url": "https://buh.ligazakon.net/news/220717_nov-pravila-roboti-z-pokuptsyami-pri-elektronny-komerts-ta-prodazhu-tovarv-zakon-pdpisano",
+     "publisher": "ЛІГА:ЗАКОН",
+     "title": "Нові правила роботи з покупцями ... закон підписано (2023)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-9c004500b1c0.html.gz",
+     "quote": "Цей Закон набирає чинності через один рік з дня його опублікування, але не раніше дня припинення чи скасування воєнного стану."
+    },
+    {
+     "url": "https://netfreedom.org.ua/?p=22767",
+     "publisher": "НетФрідом",
+     "title": "Воєнний стан в Україні до якого числа діє у 2026 році (31.07.2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-39daf709c2f9.html.gz",
+     "quote": "Станом на кінець липня 2026 року воєнний стан в Україні продовжено до 05 години 30 хвилин 31 жовтня 2026 року."
+    }
+   ],
+   "notes": "Martial law ends 31 Oct 2026 unless extended again, which has happened 20+ times. If it ends, Law 3153-IX would apply one year after publication (already passed), so re-check after 31 Oct 2026. A second martial-law source: Liga (Oct 2025) covers an earlier extension."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Single-tax group 3: 5% of revenue plus 1% military levy instead of 18% PIT plus 5% levy, with simplified reporting and no VAT if non-registered, up to UAH 10.09m (2026). (2) Diia City: IT specialists ('gig specialists') under special contracts with Diia City resident companies pay 5% PIT plus 5% military levy (from 1 Dec 2024), within limits. (3) Service exports are outside VAT scope (L4) and exempt from FX settlement deadlines (P1). (4) FOP registration is free and online (L1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/corporate/tax-credits-and-incentives",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Tax credits and incentives (simplified system)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bbac3ad65830.html.gz",
+     "quote": "private entrepreneurs) are entitled to use a simplified (unified) tax system (with exemption from CIT) if certain requirements are met."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/ukraine/individual/significant-developments",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ukraine — Diia City",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-9758e43503c6.html.gz",
+     "quote": "Remuneration (within certain limits) received by IT specialists under a special contract from a company registered as a 'resident of Diia City' is taxed at a 5% PIT rate and 5% military tax rate starting from 1 December 2024 ."
+    },
+    {
+     "url": "https://24tv.ua/fop-iii-grupi-yaki-podatki-treba-platiti_n3144467",
+     "publisher": "24 Канал",
+     "title": "Які податки сплачує ФОП III групи у 2026 році",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d01061fa4f6a.html.gz",
+     "quote": "Наразі основні платежі для підприємця, що має III групу такі: єдиний податок – 5% від доходу для неплатника ПДВ;"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The passport of a citizen of Ukraine as an ID card (biometric) or, for older holders, the 1994 booklet passport, plus the biometric foreign-travel passport. Diia shows digital ID cards and biometric passports with the same legal force as the plastic ones, usable for banking services. 1994 booklets and old-style foreign passports are not shown in Diia. The РНОКПП taxpayer card is the second core document (L2). WayForPay accepts documents shared via Diia.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://diia.gov.ua/faq/13",
+     "publisher": "Дія (diia.gov.ua)",
+     "title": "FAQ — цифрові документи",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-038d859cb063.html.gz",
+     "quote": "Цифрові документи мають таку ж юридичну силу, як і пластикові."
+    },
+    {
+     "url": "https://diia.gov.ua/faq/13",
+     "publisher": "Дія (diia.gov.ua)",
+     "title": "FAQ — цифрові документи (банки)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-038d859cb063.html.gz",
+     "quote": "Під час отримання банківських послуг."
+    },
+    {
+     "url": "https://diia.gov.ua/faq/25/",
+     "publisher": "Дія (diia.gov.ua)",
+     "title": "FAQ — документи для перевірки",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-e1ca1a77946f.html.gz",
+     "quote": "Зверніть увагу: паспорти-книжечки зразка 1994 року та закордонні паспорти старого зразка не відображаються в Дії."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed). The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Ukraine: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Ukraine: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Ukraine: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Ukraine: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Ukraine: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

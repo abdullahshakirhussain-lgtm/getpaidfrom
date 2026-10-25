@@ -1,0 +1,587 @@
+{
+ "code": "MZ",
+ "un_name": "Mozambique",
+ "m49_name": "Mozambique",
+ "iso3": "MOZ",
+ "m49": "508",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "16-09-1975",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive",
+   "label": "Send, receive, and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, with conditions (Lei Cambial 28/2022 and Aviso 5/GBM/2024). Residents must repatriate service-export receipts within 90 days of receiving the price or fees, through a bank authorised in Mozambique. A share must be converted into meticais on receipt: 30% under Aviso 5/GBM/2024, raised temporarily to 50% in April 2025 for 18 months, and extended by six months from 9 Oct 2026 (Aviso 7/GBM/2026).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bancomoc.mz/media/4hpn3emd/aviso-n-º-4-gbm-2024-liberalização-de-operações-de-capitais-e-outras-e-aviso-n-º-5-gbm-2024-repatriamento-e-conversão-de-receitas-de-exportação.pdf",
+     "publisher": "Banco de Moçambique — Avisos n.º 4/GBM/2024 e 5/GBM/2024 (Boletim da República, 21 Mar 2024)",
+     "title": "Aviso 5/GBM/2024, art. 3",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c5d6f8b26cfb.pdf.gz",
+     "quote": "O repatriamento de receitas de exportação de bens, serviços e de rendimentos de investimento no exterior, por residentes, deve ser efectuado no prazo de 90 dias, a contar: a) do embarque, no caso de exportação de bens;"
+    },
+    {
+     "url": "https://www.bancomoc.mz/media/4hpn3emd/aviso-n-º-4-gbm-2024-liberalização-de-operações-de-capitais-e-outras-e-aviso-n-º-5-gbm-2024-repatriamento-e-conversão-de-receitas-de-exportação.pdf",
+     "publisher": "Banco de Moçambique — Avisos n.º 4/GBM/2024 e 5/GBM/2024 (Boletim da República, 21 Mar 2024)",
+     "title": "Aviso 5/GBM/2024, art. 3 (b)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c5d6f8b26cfb.pdf.gz",
+     "quote": "b) do recebimento do preço ou dos honorários decorrentes da prestação de serviços;"
+    },
+    {
+     "url": "https://www.bancomoc.mz/media/4hpn3emd/aviso-n-º-4-gbm-2024-liberalização-de-operações-de-capitais-e-outras-e-aviso-n-º-5-gbm-2024-repatriamento-e-conversão-de-receitas-de-exportação.pdf",
+     "publisher": "Banco de Moçambique — Avisos n.º 4/GBM/2024 e 5/GBM/2024 (Boletim da República, 21 Mar 2024)",
+     "title": "Aviso 5/GBM/2024, art. 4",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c5d6f8b26cfb.pdf.gz",
+     "quote": "As receitas de exportação de bens, serviços e de rendimentos de investimento no exterior devem ser convertidas, em moeda nacional, em 30% do valor recebido."
+    },
+    {
+     "url": "https://rtp.pt/noticias/economia/regime-de-conversao-de-receitas-de-exportacao-em-mocambique-prorrogado-por-seis-meses_n1771117",
+     "publisher": "RTP (Lusa)",
+     "title": "Regime de conversão de receitas de exportação em Moçambique prorrogado por seis meses (Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-352729089c2f.html.gz",
+     "quote": "Em abril de 2025, o banco central aumentou de 30% para 50% a percentagem das receitas de exportação de bens, serviços e rendimentos de investimento no exterior que os exportadores são obrigados a converter para moeda nacional."
+    },
+    {
+     "url": "https://rtp.pt/noticias/economia/regime-de-conversao-de-receitas-de-exportacao-em-mocambique-prorrogado-por-seis-meses_n1771117",
+     "publisher": "RTP (Lusa)",
+     "title": "Regime de conversão prorrogado (Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-352729089c2f.html.gz",
+     "quote": "A decisão consta do Aviso n.º 7/GBM/2026, em que o banco central prolonga a vigência do regime criado pelo aviso anterior, inicialmente aprovado em abril de 2025 por um período transitório de 18 meses, agora prorrogado por seis meses, a contar de 09 de outubro."
+    }
+   ],
+   "notes": "Exemptions from conversion (art. 4(3)) not read in full. Aviso 7/GBM/2026 text not read (press only)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, conditionally. Residents may open a foreign-currency account in Mozambique without Banco de Moçambique authorisation, as a liberalised operation, if they have a proven relationship with abroad or with non-residents that generates foreign-currency flows (e.g. exporters).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bancomoc.mz/media/4hpn3emd/aviso-n-º-4-gbm-2024-liberalização-de-operações-de-capitais-e-outras-e-aviso-n-º-5-gbm-2024-repatriamento-e-conversão-de-receitas-de-exportação.pdf",
+     "publisher": "Banco de Moçambique — Avisos n.º 4/GBM/2024 e 5/GBM/2024 (Boletim da República, 21 Mar 2024)",
+     "title": "Aviso 4/GBM/2024 — liberalised operations",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c5d6f8b26cfb.pdf.gz",
+     "quote": "c) abertura de conta em moeda estrangeira, em Moçambique, por residentes, desde que tenham uma relação comprovada com o exterior ou com não residente e, da mesma, resulte fluxo de valores em moeda estrangeira, nomeadamente: i. exportadores;"
+    }
+   ],
+   "notes": "Aviso 4/GBM/2024 lists operations that do not require BdM authorisation."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Mozambique (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Mozambique is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Mozambique is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Mozambique is on PayPal's Payouts list with 'Send, receive, and withdraw'. Repatriation and conversion rules (P1) apply to export receipts.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Mozambique is listed on PayPal's Payouts country list with the capability 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "How PayPal withdrawals interact with the 90-day repatriation/conversion rule not established."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Mozambique is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Mozambique.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: a sole proprietorship (empresa em nome individual), with no formal minimum capital and unlimited liability. It is registered with the Commercial Registry via the one-stop shop (Balcão de Atendimento Único, BAU), in person or online, typically in 7–15 days. Fees were not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/register-sole-proprietorship-in-mozambique",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Empresa em Nome Individual) in Mozambique (updated 10 Jun 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-49bf2420a26e.html.gz",
+     "quote": "Category Description Official name Empresa em nome individual Registration body Commercial Registry (Conservatória do Registo Comercial via CRPC) and Balcão de Atendimento Único (BAU) Minimum capital No formal minimum capital requirement, though some sectors may require proof of financial capacity Liability Unlimited—the owner is personally responsible for all debts and obligations"
+    },
+    {
+     "url": "https://africarrieres.com/mozambique/fr/guide/employeur-entreprise/starting-business",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Mozambique - Guide pratique",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0a9a78e0fe4e.html.gz",
+     "quote": "Entreprise individuelle (Empresa em Nome Individual) Une entreprise détenue et exploitée par une seule personne."
+    }
+   ],
+   "notes": "Official BAU/e-BAU fee schedule not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NUIT (Número Único de Identificação Tributária), from the Tax Authority (Autoridade Tributária). It is needed to trade, invoice and file taxes, and is among the documents for sole-trader registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/mozambique/fr/guide/employeur-entreprise/starting-business",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Mozambique - Guide pratique",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0a9a78e0fe4e.html.gz",
+     "quote": "Le NUIT (Numéro Unique d'Identification Fiscale) est essentiel pour mener des activités commerciales, facturer et remplir les obligations fiscales."
+    },
+    {
+     "url": "https://www.deel.com/blog/register-sole-proprietorship-in-mozambique",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Empresa em Nome Individual) in Mozambique (updated 10 Jun 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-49bf2420a26e.html.gz",
+     "quote": "Unique Tax Identification Number (NUIT) Name reservation certificate (if applicable)"
+    }
+   ],
+   "notes": "AT procedure page not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents are taxed (IRPS) on worldwide income at progressive rates up to 32% (PwC, reviewed Aug 2026). Small taxpayers with annual turnover up to MZN 4m (raised from 2.5m by Law 9/2025, in force 1 Jan 2026) may use ISPC, paid quarterly. Goods sellers pay 3–5% of turnover; technical services pay 12%; liberal professions (e.g. consultants, engineers) pay 15% and may stay in ISPC for at most 5 years.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/mozambique/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mozambique - Individual - Taxes on personal income (reviewed 11 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3c18504363cb.html.gz",
+     "quote": "Residents are taxed on their worldwide income."
+    },
+    {
+     "url": "https://www.rsm.global/mozambique/sites/default/files/media/2026/RSM_Tax_Alert_ISPC_Outubro_2026.pdf",
+     "publisher": "RSM Moçambique",
+     "title": "Tax Alert ISPC (Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ea68dba84b8e.pdf.gz",
+     "quote": "A quem se aplica O ISPC é um regime de tributação simplificado para pequenos negócios, sejam pessoas singulares ou colectivas, com volume de negócios anual até MZN 4.000.000."
+    },
+    {
+     "url": "https://www.rsm.global/mozambique/sites/default/files/media/2026/RSM_Tax_Alert_ISPC_Outubro_2026.pdf",
+     "publisher": "RSM Moçambique",
+     "title": "Tax Alert ISPC (Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ea68dba84b8e.pdf.gz",
+     "quote": "Prestação de serviços Profissões liberais (ex.: advogados, contabilistas, engenheiros, consultores) 15%"
+    },
+    {
+     "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/taxnewsflash/pdf/2026/01/tnf-mozambique2-jan-7-2026.pdf",
+     "publisher": "KPMG Moçambique",
+     "title": "Tax Updates (5 Jan 2026) — ISPC amendments (Lei 9/2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-6311322e09c3.pdf.gz",
+     "quote": "Âmbito incidência real Verifica-se o aumento do limite do volume de negócios anual, que passa de 2.500.000,00 MT para igual ou inferior a 4.000.000,00 MT ."
+    },
+    {
+     "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/taxnewsflash/pdf/2026/01/tnf-mozambique2-jan-7-2026.pdf",
+     "publisher": "KPMG Moçambique",
+     "title": "Tax Updates (5 Jan 2026) — ISPC amendments (Lei 9/2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-6311322e09c3.pdf.gz",
+     "quote": "É fixado um período máximo de permanência no regime do ISPC de 5 anos para os prestadores de serviços de profissões liberais, independentemente do volume de negócios anual."
+    }
+   ],
+   "notes": "Whether digital/online services count as 'profissões liberais' (15%) or another category not established."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT is 16% (cut from 17% in 2023) (5% reduced on selected supplies). PwC states taxpayers with turnover above MZN 2.5m fall in the standard VAT regime. Exports are mostly zero-rated. Whether the 2026 ISPC ceiling increase (MZN 4m) moved the VAT threshold, and whether exported services are zero-rated, were not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/mozambique/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mozambique - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-aaf6e40409e8.html.gz",
+     "quote": "The standard rate is 16%."
+    },
+    {
+     "url": "https://tradingeconomics.com/mozambique/sales-tax-rate",
+     "publisher": "Trading Economics",
+     "title": "Mozambique Sales Tax Rate - VAT",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d39c15b6e4e0.html.gz",
+     "quote": "Sales Tax Rate in Mozambique averaged 16.81 percent from 2006 until 2026, reaching an all time high of 17.00 percent in 2007 and a record low of 16.00 percent in 2023."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/mozambique/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mozambique - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-aaf6e40409e8.html.gz",
+     "quote": "All taxpayers with a turnover or goods import operations higher than 2.5 million Mozambican metical (MZN) fall within the standard VAT regime."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/mozambique/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Mozambique - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-aaf6e40409e8.html.gz",
+     "quote": "Most of the items refer to exports and international transport, but other specified goods and services utilised for farming purposes, certain basic foodstuffs, mosquito nets"
+    }
+   ],
+   "notes": "Deel mentions a MZN 750,000 VAT exemption (not captured as a quote; conflicts with PwC). Threshold needs an official check. MZN 2.5m threshold single-domain (PwC)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No general data-protection law yet. A Data Protection bill has been submitted to the Assembleia da República (Aug 2026). Meanwhile the Electronic Transactions Law (Lei 3/2017) imposes some data duties, such as naming people responsible for data protection, which many entities do not meet (INTIC). Cybersecurity (Lei 13/2026) and cybercrime (Lei 14/2026) laws were approved in July 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://aimnews.org/2026/08/25/intic-alerta-para-desafios-na-proteccao-de-dados-pessoais-em-mocambique/",
+     "publisher": "AIM — Agência de Informação de Moçambique",
+     "title": "INTIC alerta para desafios na protecção de dados pessoais em Moçambique (25 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8517c59c3b09.html.gz",
+     "quote": "O Presidente do Conselho de Administração do INTIC, Lourino Chemane, explicou que a proposta de Lei de Protecção de Dados, já submetida à Assembleia da República, poderá reforçar os direitos dos cidadãos e clarificar as responsabilidades das entidades que recolhem, tratam e utilizam dados pessoais."
+    },
+    {
+     "url": "https://aimnews.org/2026/08/25/intic-alerta-para-desafios-na-proteccao-de-dados-pessoais-em-mocambique/",
+     "publisher": "AIM — Agência de Informação de Moçambique",
+     "title": "INTIC alerta para desafios (25 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8517c59c3b09.html.gz",
+     "quote": "Segundo o dirigente, a fiscalização realizada pelo INTIC revela que muitas entidades ainda não cumprem algumas das obrigações previstas na Lei de Transacções Electrónicas, incluindo a indicação de responsáveis pela gestão e protecção dos dados pessoais."
+    }
+   ],
+   "notes": "AIM is the state news agency (treated as official). Lei 3/2017 text not read; bill status after Aug 2026 not checked."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Consumer Protection Law (Lei 22/2009), consumers may withdraw within seven working days of receiving the goods or service when the contract is made off-premises, by correspondence or equivalent means. A right of retraction of seven working days also applies to supplier-initiated off-premises contracts. Whether online sales count as 'correspondence or equivalent' is an interpretation; implementing regulation: Decree 27/2016.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperafrica.com/export/sites/africa/mozambique/insights/legislation-series/industry-and-commerce/downloads/lei_22_2009.pdf_2063068952.pdf",
+     "publisher": "Lei n.º 22/2009 de Defesa do Consumidor (Boletim da República copy hosted by DLA Piper Africa)",
+     "title": "Lei 22/2009 — desistência",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-2b1ae814a403.pdf.gz",
+     "quote": "O consumidor pode desistir do contrato, no prazo de sete diasúteisa contarda data de recepçãodobem ouserviço,sempre que a contratação de fornecimento de bens ou serviços ocorrer fora do estabelecimentocomercial por meio de correspondência ou outros equivalentes"
+    },
+    {
+     "url": "https://www.dlapiperafrica.com/export/sites/africa/mozambique/insights/legislation-series/industry-and-commerce/downloads/lei_22_2009.pdf_2063068952.pdf",
+     "publisher": "Lei n.º 22/2009 de Defesa do Consumidor (Boletim da República copy hosted by DLA Piper Africa)",
+     "title": "Lei 22/2009 — retractação",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-2b1ae814a403.pdf.gz",
+     "quote": "Sem prejuízo de regimes mais favoráveis, nos contratos que resultem da iniciativa do fornecedor de bens ou do prestador de serviços fora do estabelecitnento comercial, por meio de correspondência ou outros equivalentes, é assegurado ao consumidor o direito de retractação, no prazo de sete dias úteis a contar da data da recepção do bem ou da conclusão do contrato de prestação de serviços."
+    }
+   ],
+   "notes": "Scanned text (spacing/OCR artefacts kept as extracted). Article numbers not identified. E-commerce duties in Lei 3/2017 not read."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. ISPC (L3) is the main simplification, but liberal professions are capped at 5 years in it.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Bilhete de identidade (Identity card) (Wikipedia, compulsory-ID list). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Mozambique Bilhete de identidade (Identity card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Mozambique: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,455 @@
+{
+ "code": "MM",
+ "un_name": "Myanmar",
+ "m49_name": "Myanmar",
+ "iso3": "MMR",
+ "m49": "104",
+ "region": "Asia",
+ "sub_region": "South-eastern Asia",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "19-04-1948",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "seller_unsupported",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "not_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, a forced-conversion regime applies. Foreign currency earned by Myanmar residents must be deposited with authorised banks in Myanmar, and a set percentage converted into kyat within one working day of receipt. The conversion is at official rates, which have been far below market. For export earnings the share was 65% (2022), cut to 50%, 35% and 25%, and then to 15% from 1 January 2026 (CBM Notification 2/2026). Myanmar also remains on the FATF 'call for action' list (June 2026), so foreign banks and platforms apply enhanced due diligence.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.allenandgledhill.com/perspectives/articles/32015/mmkh-myanmar-reduces-percentage-of-export-earnings-required-to-be-converted-into-kyat",
+     "publisher": "Allen & Gledhill",
+     "title": "Myanmar reduces percentage of export earnings required to be converted into kyat",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fe5202c4ca26.html.gz",
+     "quote": "Under this regime, all foreign currency earned by Myanmar residents must be deposited with banks in Myanmar authorised to deal in foreign exchange and converted into Myanmar kyat within one working day of receipt, subject to the applicable conversion percentage prescribed from time to time."
+    },
+    {
+     "url": "https://www.allenandgledhill.com/perspectives/articles/32015/mmkh-myanmar-reduces-percentage-of-export-earnings-required-to-be-converted-into-kyat",
+     "publisher": "Allen & Gledhill",
+     "title": "Myanmar reduces percentage of export earnings required to be converted into kyat",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fe5202c4ca26.html.gz",
+     "quote": "2/2026 announcing a reduction in the proportion of foreign currency export earnings required to be converted into Myanmar kyat from 25% to 15%."
+    },
+    {
+     "url": "https://www.irrawaddy.com/?p=139180",
+     "publisher": "The Irrawaddy",
+     "title": "The Irrawaddy — junta cuts forced conversion of export earnings to 25%",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3ef8ca42f766.html.gz",
+     "quote": "Exporters were required to convert their foreign currency earnings into kyats at authorized dealers at fixed rates that were far lower than market rates."
+    },
+    {
+     "url": "https://www.fiaumalta.org/news/fatf-public-statements-19th-june-2026/",
+     "publisher": "FIAU Malta",
+     "title": "FATF Public Statements – 19th June 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-a70beccf7346.html.gz",
+     "quote": "The FATF calls on its members and other jurisdictions to apply enhanced due diligence measures proportionate to the risk arising from Myanmar."
+    }
+   ],
+   "notes": "HIGH-RISK: the current 15% figure comes from one source (Allen & Gledhill); whether individual service income is treated as 'export earnings' is not confirmed. Check sanctions exposure (some Myanmar banks and entities are sanctioned by the US, EU and UK) before using any channel. fatf-gafi.org returned 403 on 2026-10-22."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Partly. Foreign currency earned by residents must be deposited with authorised FX-dealer banks in Myanmar, implying FX accounts are available, but a share must be converted to kyat.",
+   "status": "unverified",
+   "note": "Account rules for individuals not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Myanmar (automated collector snapshots, Oct 2026). Available: Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Myanmar is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Myanmar is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local wallets (KBZPay, Wave Money) not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Myanmar is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Myanmar is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Myanmar is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Myanmar.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Not established for sole proprietors (companies register with DICA via MyCO; individual businesses typically take municipal/township licences).",
+   "status": "unverified",
+   "note": "No captured source on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "No IRD page captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Resident nationals and resident foreigners are taxed on worldwide income. Residence is based on days present in the income year (reported as 183 days; not captured). Other income, including professional and business income, is taxed at progressive rates of 1% to 25%. Since 1 October 2023, non-resident citizens are taxed on salaries received abroad, at the lower of the progressive rates or 2%; their other income is taxed at 10%. Tax on income received in foreign currency must be paid in that currency.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/myanmar/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Myanmar - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2112a1eed6b6.html.gz",
+     "quote": "Resident nationals and foreigners are taxed on their worldwide income under the Myanmar Income Tax Act."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/myanmar/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Myanmar - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2112a1eed6b6.html.gz",
+     "quote": "Other income: Resident nationals and resident foreigners Progressive rates from 1% to 25% Non-resident foreigners 25% Non-resident nationals 10%"
+    },
+    {
+     "url": "https://www.allenandgledhill.com/perspectives/articles/27910/mmkh-issues-union-tax-law-for-financial-year-2024-2025",
+     "publisher": "Allen & Gledhill",
+     "title": "Myanmar issues Union Taxation Law for financial year 2024-2025",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2fcad8c3cfdf.html.gz",
+     "quote": "Income tax The 2024 UTL provides that tax on income received in foreign currency must be paid in that currency instead of in Myanmar kyats."
+    }
+   ],
+   "notes": "TRAP: citizens abroad are also taxed (10% on non-salary foreign income per PwC). 183-day test from search summary, not captured."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "There is no VAT; commercial tax, a turnover tax, applies instead. Most services are taxed at 5%, and internet-services income at 15%. Manufacturers, traders and service providers above annual sales of MMK 50,000,000 must register (2024 Union Taxation Law). Treatment of services exported to foreign clients was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/myanmar/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Myanmar - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-cbe87ca985ee.html.gz",
+     "quote": "Generally, commercial tax is imposed at the rate of 5%."
+    },
+    {
+     "url": "https://www.allenandgledhill.com/perspectives/articles/27910/mmkh-issues-union-tax-law-for-financial-year-2024-2025",
+     "publisher": "Allen & Gledhill",
+     "title": "Myanmar issues Union Taxation Law for financial year 2024-2025",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2fcad8c3cfdf.html.gz",
+     "quote": "Commercial tax Manufacturers, traders and service providers exceeding the statutory annual threshold of MMK50,000,000 (approximately S$32,500) are required to register for commercial tax."
+    },
+    {
+     "url": "https://www.allenandgledhill.com/perspectives/articles/27910/mmkh-issues-union-tax-law-for-financial-year-2024-2025",
+     "publisher": "Allen & Gledhill",
+     "title": "Myanmar issues Union Taxation Law for financial year 2024-2025",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2fcad8c3cfdf.html.gz",
+     "quote": "The general commercial tax rate on the import or sale of goods or provision of services remains unchanged at 5%."
+    }
+   ],
+   "notes": "Threshold from the 2024-25 UTL; later UTLs not checked."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No comprehensive personal-data law was found in force. Cybersecurity Law No. 1/2025 took effect on 30 July 2025 (Notification 113/2025). It requires digital platform providers to retain user information, including personal data, for three years, and requires approval to provide VPN services. Platforms with over 100,000 Myanmar users must register.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.tilleke.com/insights/myanmar-cybersecurity-law-takes-effect/",
+     "publisher": "Tilleke & Gibbins",
+     "title": "Myanmar Cybersecurity Law Takes Effect",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-9d10364cfa8c.html.gz",
+     "quote": "1/2025 came into effect with the State Administration Council’s issuance of Notification 113/2025."
+    },
+    {
+     "url": "https://vdb-loi.com/mm_publications/cyber-security-law-2025-establishes-a-framework-for-digital-security-and-governance/",
+     "publisher": "VDB Loi",
+     "title": "Cyber Security Law 2025 establishes a framework for digital security and governance",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-76cac17acee6.html.gz",
+     "quote": "Section 33 requires digital platform providers to retain user information, including personal data and usage records, for three years."
+    },
+    {
+     "url": "https://vdb-loi.com/mm_publications/cyber-security-law-2025-establishes-a-framework-for-digital-security-and-governance/",
+     "publisher": "VDB Loi",
+     "title": "Cyber Security Law 2025 establishes a framework for digital security and governance",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-76cac17acee6.html.gz",
+     "quote": "Section 44 of the law regulates VPN services, mandating that anyone wishing to establish or provide VPN services within Myanmar must first obtain approval from the Ministry."
+    }
+   ],
+   "notes": "A draft Personal Data Protection Law is reported (search summary), not captured. The 100,000-user registration threshold is from a search summary only."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Myanmar. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "104,Myanmar,Legislation,Legislation,No Legislation,Draft Legislation,No Legislation,0,0,1,1,0,1,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Citizenship Scrutiny Card (Wikipedia, compulsory-ID list). Myanmar citizens are required to have a Citizenship Scrutiny Card. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Myanmar Citizenship Scrutiny Card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (2) Paid apps and in-app sales through Google Play (merchant registration available here). (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Myanmar: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Myanmar: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Myanmar: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

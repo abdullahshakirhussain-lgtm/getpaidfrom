@@ -1,0 +1,393 @@
+{
+ "code": "UZ",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Partly established. Exporters must repatriate export proceeds within a statutory period; sources conflict between 120 and 180 days, with penalties for overdue receivables, and a bill to replace them with a flat 20% penalty was reported. The 2019 currency law liberalised accounts: residents notify the Central Bank rather than seeking permits to open accounts abroad. Mandatory sale was not found.",
+   "status": "unverified",
+   "note": "Mondaq/Gratanet/UzDaily seen only via search summaries; kun.uz had an invalid TLS certificate (not bypassed) on 2026-10-22.",
+   "sources": [],
+   "notes": "Verify the current repatriation term and penalty in the Foreign Trade decree."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Reportedly yes (residents may open accounts abroad with notification only, and local FCY accounts are available), not captured.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Uzbekistan (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Uzbekistan is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Uzbekistan is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local PSPs (Payme, Click, Uzum) not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Uzbekistan is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Uzbekistan is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Uzbekistan is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Uzbekistan.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Register as an individual entrepreneur online through the Unified Portal for State Services (my.gov.uz), fo.birdarcha.uz or a Public Services Centre (One Stop Shop). Online registration often takes about two working days (IT Park, a government agency). A separate self-employed status exists for some activities (not verified here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.it-park.uz/en/itpark/news/how-to-register-a-business-in-uzbekistan-a-complete-guide-for-foreign-founders",
+     "publisher": "IT Park Uzbekistan",
+     "title": "How to register a business in Uzbekistan: a complete guide for foreign founders",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-b050b1713718.html.gz",
+     "quote": "Through portals like my.gov.uz and fo.birdarcha.uz , or the One Stop Shop it’s now possible to register your business completely online — and in many cases, in just two working days.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Businesses and individual entrepreneurs use the STIR (taxpayer identification number; INN in Russian). For individuals, the 14-digit PINFL (personal identification number) serves as the tax identification number (Tax Code art. 127, per LookupTax).",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://lookuptax.com/docs/tax-identification-number/uzbekistan-tax-id-guide",
+     "publisher": "LookupTax",
+     "title": "Uzbekistan VAT number guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-82e2f17e8dbe.html.gz",
+     "quote": "For individuals, the personal identification number (PINFL) serves as the tax identification number (Tax Code Art.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://lookuptax.com/docs/tax-identification-number/uzbekistan-tax-id-guide",
+     "publisher": "LookupTax",
+     "title": "Uzbekistan VAT number guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-82e2f17e8dbe.html.gz",
+     "quote": "Businesses are identified for tax purposes, including VAT, by the taxpayer identification number (STIR in Uzbek, INN in Russian).",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (LookupTax guide citing the Tax Code) captured on 2026-10-25; Soliq (State Tax Committee) text not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents are taxed on worldwide income at a flat 12% PIT (dividends and interest 5%). Individual entrepreneurs and legal entities with annual turnover up to 12,000 BCU (threshold raised from UZS 1 billion from 1 June 2026) may opt for turnover tax, which replaces CIT and VAT and is reported monthly. From 1 January 2025 the 0% rate for exports was abolished and export income is included in the turnover-tax base. A separate self-employed regime exists (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a292580be233.html.gz",
+     "quote": "Residents are taxed on their worldwide income;"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a292580be233.html.gz",
+     "quote": "Personal income tax (PIT) rates The PIT rates are as follows: Taxable income Tax rate (%) Employment income, rent income, capital gains, etc. 12 Dividends and interest for residents 5"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/corporate/taxes-on-corporate-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Corporate - Taxes on corporate income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-69cbf294257e.html.gz",
+     "quote": "turnover tax) An optional simplified tax regime (turnover tax) is available to legal entities and individual entrepreneurs whose annual turnover does not exceed 12,000 BCU."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/corporate/taxes-on-corporate-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Corporate - Taxes on corporate income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-69cbf294257e.html.gz",
+     "quote": "From 1 January 2025, the 0% CIT rate for the export of goods (services) is abolished and income from exports will be included in the tax base for turnover tax."
+    },
+    {
+     "url": "https://taxatlas.io/country/uzbekistan/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Uzbekistan Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-d4791476ad1c.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "TRAP: export income is no longer 0% under turnover tax (from 2025). Turnover-tax rate for IEs (reported 4%) not captured."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 12%. Turnover-tax payers (turnover up to 12,000 BCU) are outside VAT, because turnover tax replaces it. Export of goods is generally zero-rated; treatment of exported services was not captured. Foreign e-service suppliers to individuals must register for VAT. Rate confirmed by Kintsugi (2026).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a77110d7bae2.html.gz",
+     "quote": "The rate for taxable turnover is 12%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a77110d7bae2.html.gz",
+     "quote": "Export of goods is generally zero-rated."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-uzbekistan/corporate/taxes-on-corporate-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Uzbekistan - Corporate - Taxes on corporate income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-69cbf294257e.html.gz",
+     "quote": "Under this regime, turnover tax generally replaces corporate income tax (CIT) and value-added tax (VAT)."
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/uzbekistan.md",
+     "publisher": "Kintsugi",
+     "title": "Uzbekistan VAT Guide for 2026 (Kintsugi)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-02f375e8d2d7.html.gz",
+     "quote": "Uzbekistan's standard VAT is 12%.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law No. ZRU-547 'On Personal Data' was adopted 2 July 2019 and has been in force since 1 October 2019, regulated by the Cabinet of Ministers and the State Personalization Centre. Data localisation of Uzbek citizens' personal data is widely reported but was not captured.",
+   "status": "unverified",
+   "note": "Single secondary domain (DLA Piper) captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=UZ&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in Uzbekistan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fe0080e224b9.html.gz",
+     "quote": "ZRU-547 \"On Personal Data\" ( \"Law on Personal Data\" ), adopted on 2 July 2019 and effective from 1 October 2019."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Uzbekistan. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "860,Uzbekistan,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,1,1,0,0,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "IT Park Uzbekistan gives residents CIT and VAT exemptions and a 7.5% PIT rate on employees' salaries. Incentives run to 2040, but from 1 January 2028 they are limited to members whose IT-service exports are at least 50% of revenue. Sources conflict on whether individual freelancers can become residents: one guide describes a simplified freelancer procedure via the IT Park platform, another says only legal entities qualify. The self-employed regime is the usual alternative.",
+   "status": "unverified",
+   "note": "Freelancer eligibility conflicting; official IT Park freelancer rules not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.outsource.gov.uz/de/media/unprecedented-extension-of-benefits-for-it-exporters-until-2040",
+     "publisher": "IT Park Uzbekistan (outsource.gov.uz)",
+     "title": "Unprecedented extension of benefits for IT exporters until 2040",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-a4eb449d2cf1.html.gz",
+     "quote": "From January 1, 2028, until January 1, 2040, the incentives, preferences, and support programs offered by IT Park Uzbekistan will be applicable exclusively to companies that meet the following criteria: − Companies whose export of IT services constitutes at least 50% of their total revenue;"
+    },
+    {
+     "url": "https://sayt.uz/en/blog/it-park-uzbekistan-reja",
+     "publisher": "Sayt.uz",
+     "title": "IT Park Uzbekistan: Becoming a Resident and Its Benefits",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a3b987fa41a7.html.gz",
+     "quote": "For freelancers there is a separate, simplified procedure that allows independently working specialists to conduct official activity and legally formalize the income they earn from foreign clients."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Shaxs Guvohnmasi (National identity card) (Wikipedia, compulsory-ID list). Until 2020 Uzbekistan passport was also used as internal identity document. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Uzbekistan Shaxs Guvohnmasi (National identity card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Uzbekistan: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Current export repatriation term (120 vs 180 days) and penalties.",
+  "IE/self-employed registration, TIN; turnover-tax rate for IEs; self-employed regime 2026.",
+  "IT Park freelancer eligibility (official).",
+  "VAT on exported services; data localisation; consumer law."
+ ]
+}

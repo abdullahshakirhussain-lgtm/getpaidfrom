@@ -1,0 +1,411 @@
+{
+ "code": "NA",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, under exchange control (Common Monetary Area rules). The Bank of Namibia says foreign-earned income may be retained offshore, but this does not apply to export proceeds. Goods export proceeds must be repatriated within 180 days and may be held indefinitely in foreign-currency accounts at local banks. Payments for goods and services go through commercial banks (authorised dealers). Whether a freelancer's foreign client fees count as 'foreign earned income' or as service-export proceeds was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bon.com.na/Informations/FAQ/Exchange-Control.aspx",
+     "publisher": "Bank of Namibia",
+     "title": "Frequently Asked Questions: Exchange Control",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-3cbf1e348298.html.gz",
+     "quote": "Foreign earned income may be retained offshore. This does not apply to the proceeds from exports."
+    },
+    {
+     "url": "https://www.bon.com.na/getattachment/1546d385-0945-4df3-a1a5-595537d9d203/.aspx",
+     "publisher": "Bank of Namibia",
+     "title": "Exchange control overview (BoN attachment)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-7da81b15ee76.pdf.gz",
+     "quote": "Additionally, Namibia’s exchange control law mandates that export proceeds from Namibian goods must be repatriated within 180 days from the date of shipment."
+    },
+    {
+     "url": "https://www.bon.com.na/getattachment/1546d385-0945-4df3-a1a5-595537d9d203/.aspx",
+     "publisher": "Bank of Namibia",
+     "title": "Exchange control overview (BoN attachment)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-7da81b15ee76.pdf.gz",
+     "quote": "The exchange control policies also extend to payments made by foreign investors f or goods and services which should be conducted through the commercial banks."
+    }
+   ],
+   "notes": "Residents also have a N$1m single discretionary allowance and N$4m offshore investment allowance (with tax clearance) per BoN FAQ."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Export proceeds can be kept indefinitely in foreign-currency accounts at local banks and used to settle foreign liabilities. Banks offer customer foreign-currency accounts.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bon.com.na/getattachment/1546d385-0945-4df3-a1a5-595537d9d203/.aspx",
+     "publisher": "Bank of Namibia",
+     "title": "Exchange control overview (BoN attachment)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-7da81b15ee76.pdf.gz",
+     "quote": "These proceeds can be kept in Foreign Currency Accounts within local banks indefinitely and may be used to settle foreign liabilities."
+    }
+   ],
+   "notes": "Individual (non-exporter) FCA eligibility not separately confirmed."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Namibia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Namibia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Namibia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Namibia is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Namibia is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Namibia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Namibia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Namibia (updated June 11, 2026), registration is handled by: Business and Intellectual Property Authority (BIPA). Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-namibia/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship in Namibia Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-a4b3ff22e83a.html.gz",
+     "quote": "Registration body Business and Intellectual Property Authority (BIPA)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The TIN (Taxpayer Identification Number), issued by the Namibia Revenue Agency (NamRA) on registration. It is your official tax reference. Registration is a legal requirement for anyone liable under Namibian tax law, including individuals with business income from Namibia; registering creates a record, and tax is due only when an obligation arises (NamRA registration FAQ).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.namra.org.na/documents/cms/uploaded/qaregistration-and-taxpayer-services-education-on-registration-updated-7230453470.pdf",
+     "publisher": "Namibia Revenue Agency (NamRA)",
+     "title": "Registration and taxpayer services — Q&A",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-727742c92c4f.pdf.gz",
+     "quote": "Once registered, a taxpayer is issued with a Taxpayer Identification Number, known as a TIN.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.namra.org.na/documents/cms/uploaded/qaregistration-and-taxpayer-services-education-on-registration-updated-7230453470.pdf",
+     "publisher": "Namibia Revenue Agency (NamRA)",
+     "title": "Registration and taxpayer services — Q&A",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-727742c92c4f.pdf.gz",
+     "quote": "Where a person or business is liable under Namibian tax laws, registration is a legal requirement.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Namibia taxes on a source basis: individuals are taxable on income received or accrued from a Namibian or deemed Namibian source (Deloitte 2026; PwC). Rates for the year from 1 March 2025: 0% up to NAD 100,000, then 18% rising in bands to 37% above NAD 1,550,000 (PwC; Deloitte 2026). Whether fees for remote work done in Namibia for foreign clients are Namibian-source (likely, since the work is performed there) was not confirmed. The 2026/27 budget proposed new brackets that were not yet enacted when checked (search summary).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-namibiahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Namibia Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-9d44fa207e78.pdf.gz",
+     "quote": "Basis: Individuals are taxable on all income received or accrued from a Namibian source or a deemed Namibian source.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-namibiahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Namibia Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-9d44fa207e78.pdf.gz",
+     "quote": "Rates: Individual income tax generally is levied at progressive rates up to 37%; however, part-time employees are taxed at a flat rate of 18%.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-namibia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Namibia - Individual - Taxes on personal income",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-2f33346fe810.html.gz",
+     "quote": "The total amount, in cash or otherwise, received by or accrued to any person from a source within, or deemed to be within, Namibia, excluding receipts of a capital nature.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-namibia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Namibia - Individual - Taxes on personal income",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-2f33346fe810.html.gz",
+     "quote": "Not over 0 100,000 0 0 100,000 150,000 0 18",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "Corrected 2026-10-25: TaxAtlas's N$50,000 zero band is outdated. The PwC Namibia rate-card PDF returned 403."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 15%. Registration became mandatory above N$1,000,000 of taxable supplies in any 12 months, doubled from N$500,000 under recent amendments. The planned April 2026 e-invoicing launch was turned into a phased multi-year rollout. Treatment of exported services was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://beancount.io/blog/2026/10/07/namibia-vat-threshold-n1-million-e-invoicing-rollout-guide",
+     "publisher": "Beancount",
+     "title": "Namibia Doubled Its VAT Registration Threshold to N$1 Million (7 Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8b40273c1f13.html.gz",
+     "quote": "The Namibia Revenue Agency (NamRA) has doubled the mandatory VAT registration threshold from N$500,000 to N$1 million — and at the same time, the e-invoicing system that was supposed to go live in April 2026 has been pushed into a multi-year reform programme with no fixed launch date."
+    },
+    {
+     "url": "https://www.vatupdate.com/2026/08/21/namra-raises-vat-registration-threshold-to-n1-million/",
+     "publisher": "VATupdate",
+     "title": "NamRA Raises VAT Registration Threshold to N$1 Million (21 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ed0f1a1970f9.html.gz",
+     "quote": "This threshold was raised from N$500,000 under recent tax amendments."
+    },
+    {
+     "url": "https://beancount.io/blog/2026/10/07/namibia-vat-threshold-n1-million-e-invoicing-rollout-guide",
+     "publisher": "Beancount",
+     "title": "Namibia Doubled Its VAT Registration Threshold to N$1 Million (7 Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8b40273c1f13.html.gz",
+     "quote": "A registered business charges 15% VAT on standard-rated sales"
+    }
+   ],
+   "notes": "Effective date of the N$1m threshold not established. TRAP: older pages (e.g. TaxAtlas) say N$500,000. 15% rate single-domain."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No standalone data-protection law or authority yet. A Data Protection Bill was tabled in late 2025; promulgation was expected by the end of 2026 (Chambers 2026). Sector laws (e.g. Financial Intelligence Act; CRAN under the Communications Act) apply.",
+   "status": "unverified",
+   "note": "Single secondary domain (Chambers) captured; bill status after mid-2026 not confirmed on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://gpg-pdf.chambers.com/Doing-Business-In-2026/718/",
+     "publisher": "Chambers and Partners",
+     "title": "Doing Business In 2026 — Namibia (data protection chapter)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-74f9f7e16fbf.html.gz",
+     "quote": "In fulfilment of these obligations, Namibia is actively advancing the development of its data protection legislation, which is expected to be promulgated by the end of 2026."
+    },
+    {
+     "url": "https://gpg-pdf.chambers.com/Doing-Business-In-2026/718/",
+     "publisher": "Chambers and Partners",
+     "title": "Doing Business In 2026 — Namibia (data protection chapter)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-74f9f7e16fbf.html.gz",
+     "quote": "8.3 Role and Authority of the Data Protection Agency Namibia does not currently have an active standalone data protection authority."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The Electronic Transactions Act 4 of 2019 contains a consumer chapter: a 7-day cooling-off right (s. 35), and cancellation within 14 days if the supplier fails its information duties. Per the annotated statute, that chapter (Chapter 4) is NOT yet in force, so these rights cannot currently be relied on. General consumer law applies meanwhile.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.lac.org.na/laws/annoSTAT/Electronic%20Transactions%20Act%204%20of%202019.pdf",
+     "publisher": "Electronic Transactions Act 4 of 2019 (Legal Assistance Centre annotated statute)",
+     "title": "ETA 2019, Chapter 4 annotation",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-bd7630c8d2b4.pdf.gz",
+     "quote": "CHAPTER 4 CONSUMER PROTECTION [This chapter is not yet in force.]"
+    },
+    {
+     "url": "https://www.lac.org.na/laws/annoSTAT/Electronic%20Transactions%20Act%204%20of%202019.pdf",
+     "publisher": "Electronic Transactions Act 4 of 2019 (Legal Assistance Centre annotated statute)",
+     "title": "ETA 2019, s. 35",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-bd7630c8d2b4.pdf.gz",
+     "quote": "Cooling-off period 35. (1) Subject to subsection (5), a consumer is entitled to cancel without reason and without penalty any transaction for the supply - (a) of goods within seven days after the date"
+    }
+   ],
+   "notes": "TRAP: guides may cite the 7-day right as operative. Check for a commencement notice after the LAC annotation date."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: National ID card (Wikipedia, compulsory-ID list). Compulsory for all Namibia citizens. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Namibia National ID card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Namibia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Whether freelancer fees are 'foreign earned income' (may stay offshore) or service-export proceeds; services repatriation rule.",
+  "BIPA registration and NamRA TIN procedure; source rule for remote services (single-domain).",
+  "Data Protection Bill status after mid-2026; ETA Chapter 4 commencement.",
+  "N$1m VAT threshold effective date; VAT on exported services; PayPal withdrawals, Payoneer, gateways, KYC ID."
+ ]
+}

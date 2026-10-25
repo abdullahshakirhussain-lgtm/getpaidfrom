@@ -1,0 +1,702 @@
+{
+ "code": "TN",
+ "un_name": "Tunisia",
+ "m49_name": "Tunisia",
+ "iso3": "TUN",
+ "m49": "788",
+ "region": "Africa",
+ "sub_region": "Northern Africa",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "12-11-1956",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under exchange control. The Exchange and Foreign Trade Code (Law 76-18, art. 20) requires every resident individual to repatriate all foreign currency earned from services rendered abroad, under BCT conditions and deadlines. Freelancers, consultants and other providers serving non-residents outside Tunisia can open a PPR account in foreign currency or convertible dinars and credit their service fees to it (BCT circular 2017-04), so the proceeds need not all be converted. A PPR holder may not keep bank balances abroad. Locally, Konnect (a BCT-certified payment facilitator) lets freelancers take international Visa/Mastercard payments, settled in Tunisia.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bct.gov.tn/bct/siteprod/documents/loi7618.pdf",
+     "publisher": "Banque Centrale de Tunisie",
+     "title": "Loi n° 76-18 du 21 janvier 1976 — Code des changes et du commerce extérieur, art. 20",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-cb3743f4f8bb.pdf.gz",
+     "quote": "Toute personne physique ayant sa résidence habituelle en Tunisie ... est tenue de rapatrier dans les conditions et délais fixés par la Banque Centrale de Tunisie l'intégralité des devises ... de la rémunération de services rendus à l'étranger"
+    },
+    {
+     "url": "https://www.cbf.org.tn/wp-content/uploads/2023/01/04-Circulaire-de-la-BCT-aux-intermediaires-agrees-n%C2%B02017-04-du-23-Juin-2017.pdf",
+     "publisher": "Banque Centrale de Tunisie (circular text hosted by the Conseil Bancaire et Financier)",
+     "title": "Circulaire aux intermédiaires agréés n° 2017-04 du 23 juin 2017 (compte PPR), art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-d5688c04f33a.pdf.gz",
+     "quote": "- les rémunérations des prestataires de services, au titre de leurs prestations de services réalisées en faveur de non-résidents établis hors de Tunisie;"
+    },
+    {
+     "url": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=67",
+     "publisher": "Banque Centrale de Tunisie",
+     "title": "Réglementation des changes",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-095834b3771f.html.gz",
+     "quote": "Les personnes physiques résidentes ayant des ressources en devises provenant de la rémunération de services rendus à des non-résidents établis hors de Tunisie peuvent ouvrir des comptes"
+    }
+   ],
+   "notes": "The BCT 'Réglementation des changes' page still cites the older 'prestataires de services' account (circ. 2006-14); circular 2017-04 merged that account into the PPR account. No BCT circular after 2017 on freelancer proceeds was found. A pending bill (36/2026) and a new exchange code bill (115/2025) are not law."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, two ways. (1) The PPR account (BCT circular 2017-04): one per person, for listed categories that include providers of services to non-residents abroad. It is credited with their foreign service fees and can be debited for conversion, documented personal payments abroad, and so on. (2) Since 1 January 2026, Finance Law 2026 (Law 2025-17, art. 98) lets resident individuals of Tunisian nationality open foreign-currency accounts with licensed intermediaries without prior BCT approval. These accounts can only be funded from another foreign-currency or convertible-dinar account, from interest, or from the annual tourist allowance. They can be debited for payments abroad, travel currency or another FX account, and can never be overdrawn.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cdn2.webmanagercenter.com/wmc/wp-content/uploads/2025/12/LF2026_EXtrait_AR.pdf",
+     "publisher": "Journal Officiel de la République Tunisienne n°148, 12 Dec 2025 (extract hosted by WebManagerCenter)",
+     "title": "Loi n°17 de 2025 portant loi de finances pour 2026, art. 98",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-4dde362a829f.pdf.gz",
+     "quote": "يمكن لﻸشخاص الطبيعيين المقيمين ذوي الجنسية التونسية أن يفتحوا بدفاتر الوسطاء المقبولين حسابات بالعمﻼت."
+    },
+    {
+     "url": "https://cdn2.webmanagercenter.com/wmc/wp-content/uploads/2025/12/LF2026_EXtrait_AR.pdf",
+     "publisher": "Journal Officiel de la République Tunisienne n°148 (extract hosted by WebManagerCenter)",
+     "title": "Loi de finances 2026, art. 98 — funding sources",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-4dde362a829f.pdf.gz",
+     "quote": "- المبالغ المتأتية من حساب آخر بالعمﻼت أو بالدينار القابل للتحويل."
+    },
+    {
+     "url": "https://businessnews.com.tn/2025/12/03/comptes-en-devises-pour-les-residents-tunisiens-tout-ce-quil-faut-savoir/1376299/",
+     "publisher": "Business News (Tunisia)",
+     "title": "Comptes en devises pour les résidents tunisiens : tout ce qu’il faut savoir (3 Dec 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-1358c5c003d7.html.gz",
+     "quote": "L’article adopté permet aux personnes physiques de nationalité tunisienne résidant en Tunisie d’ouvrir des comptes en devises auprès des intermédiaires financiers agréés, sans avoir à obtenir une autorisation préalable de la Banque centrale de Tunisie."
+    },
+    {
+     "url": "https://www.cbf.org.tn/wp-content/uploads/2023/01/04-Circulaire-de-la-BCT-aux-intermediaires-agrees-n%C2%B02017-04-du-23-Juin-2017.pdf",
+     "publisher": "Banque Centrale de Tunisie (circular text hosted by the Conseil Bancaire et Financier)",
+     "title": "Circulaire n° 2017-04, art. 2",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-d5688c04f33a.pdf.gz",
+     "quote": "- les prestataires de services fournis à des non - résidents établis hors de la Tunisie, tels que définis à l’annexe n°1 à la présente circulaire;"
+    }
+   ],
+   "notes": "Art. 98's funding list does not expressly include payments received from foreign clients; for freelance proceeds the PPR account is the expressly provided route. The JORT extract uses Arabic presentation-form ligatures, and quotes are copied as extracted. No BCT implementing circular for art. 98 was found."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Tunisia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Tunisia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Tunisia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Konnect, a BCT-certified payment facilitator, onboards freelancers as well as companies online with identification documents. It offers payment links, CMS plugins and an API, accepts Tunisian cards, e-dinar and international Visa/Mastercard, and pays out to the merchant's Tunisian bank account. Konnect's site renders client-side; read in the built-in browser and saved as a text excerpt. Which identity or registration documents Konnect requires (CIN only, or tax ID/RNE) is not stated. Other local gateways (ClicToPay/SMT, Flouci) not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Tunisia is a listed PayPal market but is classed as 'send only': residents can pay but cannot normally receive income for their work. Tunisia is also absent from the Payouts list. An August 2026 private member's bill (36/2026) would open PayPal-type platforms to freelancers, with a 15% levy on withdrawals, a USD 5,000 monthly cap and automatic conversion to dinars. It is not law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    },
+    {
+     "url": "https://businessnews.com.tn/2026/08/10/freelances-la-loi-qui-veut-ouvrir-paypal-et-preleve-15/1413684/",
+     "publisher": "Business News (Tunisia)",
+     "title": "Freelances : la loi qui veut ouvrir PayPal et prélève 15 % (10 Aug 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c37d6a02066c.html.gz",
+     "quote": "il ne peut pas recevoir normalement le produit de son travail."
+    },
+    {
+     "url": "https://businessnews.com.tn/2026/08/10/freelances-la-loi-qui-veut-ouvrir-paypal-et-preleve-15/1413684/",
+     "publisher": "Business News (Tunisia)",
+     "title": "Freelances : la loi qui veut ouvrir PayPal — bill terms",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c37d6a02066c.html.gz",
+     "quote": "Mais le texte prévoit aussi un prélèvement de 15 % sur les retraits, un plafond mensuel de 5.000 dollars et la conversion automatique des devises en dinars."
+    },
+    {
+     "url": "https://www.lecourrierdelatlas.com/?p=215588",
+     "publisher": "Le Courrier de l'Atlas",
+     "title": "Statut du freelance, PayPal, prélèvements… 5 choses à savoir sur la nouvelle proposition de loi (10 Aug 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-125a1bd68aa7.html.gz",
+     "quote": "Dernière précaution : la proposition de loi n’est pas encore une loi."
+    }
+   ],
+   "notes": "The PayPal Tunisia user agreement (snapshot taken) is generic and does not state Tunisian receiving capability."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Tunisia is NOT on Wise's list of countries whose residents can hold money. Payoneer: no reliable 2026 source confirming availability for Tunisian residents was found. Whatever the channel, residents must repatriate foreign service earnings (Exchange Code art. 20), and PPR-account holders may not hold bank balances abroad, so foreign wallet balances are not a lawful place to keep earnings.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Tunisia."
+    },
+    {
+     "url": "https://www.cbf.org.tn/wp-content/uploads/2023/01/04-Circulaire-de-la-BCT-aux-intermediaires-agrees-n%C2%B02017-04-du-23-Juin-2017.pdf",
+     "publisher": "Banque Centrale de Tunisie (circular text hosted by the Conseil Bancaire et Financier)",
+     "title": "Circulaire n° 2017-04, art. 8",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-d5688c04f33a.pdf.gz",
+     "quote": "Toutefois le titulaire du compte ne peut en aucun cas constituer des avoirs en comptes bancaires à l’étranger"
+    }
+   ],
+   "notes": "Payoneer's availability and withdrawal routes to Tunisian banks are unconfirmed; only a 2014 Payoneer marketing testimonial was found."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the auto-entrepreneur regime (Decree-Law 2020-33). It is open to Tunisian nationals working individually in industry, agriculture, commerce, services, crafts or trades with annual turnover up to TND 75,000. Registration is online in the Registre national de l'auto-entrepreneur. Eligible activities are fixed by government decree, and whether a given digital service is listed was not verified. People who had already filed a tax 'déclaration d'existence' are excluded. Otherwise an individual files a déclaration d'existence with the tax office to get a tax ID. Registration in the Registre National des Entreprises (Law 2018-52) is mandatory for natural persons who are traders or carry on any other professional activity.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.emploi.gov.tn/sites/default/files/inline-files/Decret-loi-2020_33du-10juin2020autoentrepreneur.pdf",
+     "publisher": "Ministère de l'Emploi et de la Formation Professionnelle",
+     "title": "Décret-loi n° 2020-33 du 10 juin 2020 relatif au régime de l'auto-entrepreneur, art. 2",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-5899f1c7ddb9.pdf.gz",
+     "quote": "On entend par auto-entrepreneur au sens du présent décret-loi, toute personne physique, de nationalité tunisienne exerçant individuellement une activité dans le secteur de l'industrie, de l'agriculture, du commerce, des services, de l’artisanat ou des métiers, à condition que son chiffre d'affaires annuel ne dépasse pas 75 mille dinars."
+    },
+    {
+     "url": "https://www.emploi.gov.tn/sites/default/files/inline-files/Decret-loi-2020_33du-10juin2020autoentrepreneur.pdf",
+     "publisher": "Ministère de l'Emploi et de la Formation Professionnelle",
+     "title": "Décret-loi n° 2020-33, art. 2 (activity list, exclusion)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-5899f1c7ddb9.pdf.gz",
+     "quote": "La liste des activités dans les secteurs mentionnés au premier alinéa du présent article est fixée par décret gouvernemental. Est exclue du bénéfice de ce régime, toute personne ayant déposé la déclaration d'existence"
+    },
+    {
+     "url": "https://kapitalis.com/tunisie/2019/04/17/debat-a-sfax-nouveautes-et-defis-du-registre-national-des-entreprises/",
+     "publisher": "Kapitalis",
+     "title": "Débat à Sfax : Nouveautés et défis du Registre national des entreprises (17 Apr 2019)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e497b866ab42.html.gz",
+     "quote": "l’enregistrement au registre national des entreprises est obligatoire pour toute personne physique ayant la qualité de commerçant ou exerçant une activité artisanale ou toute autre activité professionnelle ;"
+    },
+    {
+     "url": "https://www.finances.gov.tn/fr/octroi-dun-identifiant-fiscal",
+     "publisher": "Ministère des Finances",
+     "title": "Octroi d'un identifiant fiscal",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ec07552e523.html.gz",
+     "quote": "Dépôt de la déclaration d’existence selon un modèle préparé par l’administration"
+    },
+    {
+     "url": "https://businessnews.com.tn/2026/08/10/freelances-la-loi-qui-veut-ouvrir-paypal-et-preleve-15/1413684/",
+     "publisher": "Business News (Tunisia)",
+     "title": "Freelances : la loi qui veut ouvrir PayPal et prélève 15 % (10 Aug 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c37d6a02066c.html.gz",
+     "quote": "au plafond de 75.000 dinars prévu par le régime tunisien de l’autoentrepreneur"
+    }
+   ],
+   "notes": "The government decree listing auto-entrepreneur activities was not located. The RNE claim rests on a 2019 article; Law 2018-52's text was not read."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The identifiant fiscal (matricule fiscal). File a déclaration d'existence on the administration's form at the competent tax control office (bureau de contrôle des impôts); premises may be visited, and the office head grants the ID 'immediately'. Natural persons attach a copy of their national ID card (CIN). The tax ID also serves as the unique identifier in the business register (RNE).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.finances.gov.tn/fr/octroi-dun-identifiant-fiscal",
+     "publisher": "Ministère des Finances",
+     "title": "Octroi d'un identifiant fiscal",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ec07552e523.html.gz",
+     "quote": "Octroi d'un identifiant fiscal Le chef du bureau de contrôle des impôts DELAI D'OBTENTION DE LA PRESTATION: Dans l'immédiat."
+    },
+    {
+     "url": "https://kapitalis.com/tunisie/2019/04/17/debat-a-sfax-nouveautes-et-defis-du-registre-national-des-entreprises/",
+     "publisher": "Kapitalis",
+     "title": "Registre national des entreprises",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e497b866ab42.html.gz",
+     "quote": "Par ailleurs, pour les besoins de l’immatriculation, l’identifiant fiscal sera retenu comme identifiant unique de l’entreprise le long de son existence."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (principal home in Tunisia, or 183+ days a calendar year) pay personal income tax on worldwide income, except foreign income already taxed abroad. From 1 January 2025 the scale is 0% to TND 5,000, then rising bands of 15% up to 40% (upper band limits not captured). Auto-entrepreneurs instead pay a single contribution covering income tax, VAT and social security. The income-tax part is TND 200 a year (communal zones as at 2015) or TND 100 (other zones), plus the social contribution of the first bracket of the self-employed scheme. Nothing is due in the year of registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/tunisia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Tunisia — Individual — Taxes on personal income",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-428860de2bea.html.gz",
+     "quote": "PIT is due by all individuals considered as tax resident in Tunisia on the basis of their worldwide income (including foreign-sourced income, except those already subject to tax abroad)."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/tunisia/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Tunisia — Individual — Residence",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-f5b2b523508c.html.gz",
+     "quote": "The individual has one's principal dwelling abroad but stays in Tunisia, in a continuous or discontinuous way, respectively, for one period or for several periods, the total duration of which is at least equal to 183 days per calendar year."
+    },
+    {
+     "url": "https://www.leconomistemaghrebin.com/2024/12/11/loi-de-finances-2025-voici-le-nouveau-bareme-de-lirpp/",
+     "publisher": "L'Economiste Maghrébin",
+     "title": "Loi de finances 2025 : voici le nouveau barème de l'IRPP",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-50f1de66ff6d.html.gz",
+     "quote": "– 40% pour les personnes dont le revenu annuel est supérieur à 70 mille dinars."
+    },
+    {
+     "url": "https://www.webmanagercenter.com/2024/11/12/534251/autoentrepreneur-en-tunisie-quel-est-le-regime-fiscal-et-social",
+     "publisher": "WebManagerCenter",
+     "title": "Autoentrepreneur en Tunisie : quel est le régime fiscal et social ? (12 Nov 2024)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-038f4cec381b.html.gz",
+     "quote": "La valeur de la contribution unique est fixée comme suit : – 200 dinars par an pour les personnes exerçant dans les zones communales conformément aux limites territoriales des communes en vigueur avant le 1er janvier 2015 et 100 dinars pour les personnes exerçant dans les autres zones, et ce, au titre de l’impôt sur le revenu."
+    }
+   ],
+   "notes": "Business News cited a different intermediate bracket (28% for TND 20-30k); PwC and L'Economiste Maghrébin both give 30% for 2025, and the guide uses 30%. The 'worldwide' rule rests on PwC only. The Code IRPP text itself was not read."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT is 19% (VAT Code art. 7). Professional fees (consultants, experts, etc.) have been at 19% since 2023. A service is taxable in Tunisia only when it is used or exploited in Tunisia (art. 3), so services used by clients abroad are outside Tunisian VAT. Voluntary registration is possible for export-destined operations. No general turnover threshold for service providers was found. For auto-entrepreneurs the single contribution replaces VAT.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://chaexpert.com/documents/Code%20de%20la%20taxe%20sur%20la%20valeur%20ajout%C3%A9e%202022.pdf",
+     "publisher": "Code de la TVA, 2022 edition (copy hosted by chaexpert.com)",
+     "title": "Code de la TVA, art. 3 (territorialité)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-65131811b585.pdf.gz",
+     "quote": "s'il s'agit de toute autre opération, l orsque le service rendu, le droit cédé ou l'objet loué sont utilisés ou exploités en Tunisie."
+    },
+    {
+     "url": "https://chaexpert.com/documents/Code%20de%20la%20taxe%20sur%20la%20valeur%20ajout%C3%A9e%202022.pdf",
+     "publisher": "Code de la TVA, 2022 edition (copy hosted by chaexpert.com)",
+     "title": "Code de la TVA, art. 7 (taux)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-65131811b585.pdf.gz",
+     "quote": "Sont soumis à la taxe sur la valeur ajoutée au taux de 19%, les opérations portant sur les biens et les services non soumis à un autre taux."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/tunisia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Tunisia — Corporate — Other taxes (VAT)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0b65c40d1e37.html.gz",
+     "quote": "The sale of services is considered as taking place in Tunisia, and subject to VAT, if the services sold are exploited or used in Tunisia."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/tunisia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Tunisia — Corporate — Other taxes (VAT rate)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0b65c40d1e37.html.gz",
+     "quote": "The standard rate of VAT is 19%."
+    }
+   ],
+   "notes": "The VAT Code copy is a consolidated 2022 edition hosted by a private site; later Finance Laws may amend it. Registration rules for individual service providers below any threshold were not established."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Organic Law 2004-63: every processing of personal data requires a prior declaration to the INPDP (art. 7). Sensitive data needs authorisation, and cross-border transfers are restricted. Processing without the declaration is punishable by one year's imprisonment and a TND 5,000 fine (art. 90). A replacement organic law (draft 095/2025) is pending.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://legislation-securite.tn/wp-content/uploads/sites/5/2023/11/Loi-n%C2%B0-2004-63-du-27-Juillet-2004-Fr.pdf",
+     "publisher": "Loi organique n° 2004-63 (text in the DCAF 'Législation du secteur de la sécurité en Tunisie' database)",
+     "title": "Loi organique n° 2004-63 du 27 juillet 2004, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-90cb527c2bfb.pdf.gz",
+     "quote": "Toute opération de traitement des donné es à caractère personnel est soumise à une déclaration préalable déposée au siège de l'instance nationale de protection des données à caractère personnel"
+    },
+    {
+     "url": "https://legislation-securite.tn/wp-content/uploads/sites/5/2023/11/Loi-n%C2%B0-2004-63-du-27-Juillet-2004-Fr.pdf",
+     "publisher": "Loi organique n° 2004-63 (DCAF database copy)",
+     "title": "Loi organique n° 2004-63, art. 90",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-90cb527c2bfb.pdf.gz",
+     "quote": "Est puni d'un an d'emprisonnement et d'une amende de cinq mille dinars, quiconque"
+    },
+    {
+     "url": "https://www.tunisienumerique.com/donnees-personnelles-quelles-responsabilites-pour-le-chef-dentreprise-tunisien/",
+     "publisher": "Tunisie Numérique",
+     "title": "Données personnelles : quelles responsabilités pour le chef d’entreprise tunisien ?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-ea236f778e90.html.gz",
+     "quote": "En effet, toute collecte de données identifiantes, du nom au numéro de carte d’identité en passant par l’adresse IP, doit faire l’objet d’une déclaration préalable auprès de l’Instance, tandis que le traitement de données sensibles, santé, biométrie, casier judiciaire, exige une autorisation explicite."
+    }
+   ],
+   "notes": "INPDP's own site and declaration forms not consulted. The status of draft organic law 095/2025 should be re-checked."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 2000-83 on electronic exchanges and commerce: the consumer may withdraw within 10 working days, counted from receipt for goods or from contract conclusion for services (art. 30), subject to the pre-contract information duties of art. 25. Exceptions (art. 32) include a service delivered before the period ends at the consumer's request, and personalised or perishable goods.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi_2000-83_090800_fr.pdf",
+     "publisher": "Conseil du Marché Financier (official text of Loi n° 2000-83 du 9 août 2000)",
+     "title": "Loi n° 2000-83 relative aux échanges et au commerce électroniques, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-dddb59fdaeb6.pdf.gz",
+     "quote": "le consommateur peut se rétracter dans un délai de 10 jours ouvrables, courants : - à compter de la date de leur réception par le consommateur, pour les marchandises, - à compter de la date de conclusion du contrat, pour les services."
+    },
+    {
+     "url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi_2000-83_090800_fr.pdf",
+     "publisher": "Conseil du Marché Financier (official text of Loi n° 2000-83)",
+     "title": "Loi n° 2000-83, art. 32",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-dddb59fdaeb6.pdf.gz",
+     "quote": "le consommateur ne peut pas se rétracter dans les cas suivants - Lorsque le consommateur demande la livraison du serv ice avant l'expiration du délai de rétractation et que le vendeur le lui fourni"
+    }
+   ],
+   "notes": "Later amendments to Law 2000-83 were not checked."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) The auto-entrepreneur single contribution (L3), which replaces income tax, VAT and social security up to TND 75,000 turnover, with nothing due in the first year if the National Employment Fund covers social contributions. (2) The PPR foreign-currency account for service exporters, and resident FX accounts since 2026 (P2). (3) Services used abroad are outside Tunisian VAT (L4). Pending, not law: freelance bill 36/2026 (platform access with a 15% levy) and new exchange code bill 115/2025.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.webmanagercenter.com/2024/11/12/534251/autoentrepreneur-en-tunisie-quel-est-le-regime-fiscal-et-social",
+     "publisher": "WebManagerCenter",
+     "title": "Autoentrepreneur en Tunisie : quel est le régime fiscal et social ?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-038f4cec381b.html.gz",
+     "quote": "Ladite contribution est libératoire de l’impôt sur le revenu des personnes physiques, de la taxe sur la valeur ajoutée et des autres taxes dues sur le chiffre d’affaires ainsi que de la cotisation au régime de sécurité sociale."
+    },
+    {
+     "url": "https://www.webmanagercenter.com/2024/11/12/534251/autoentrepreneur-en-tunisie-quel-est-le-regime-fiscal-et-social",
+     "publisher": "WebManagerCenter",
+     "title": "Autoentrepreneur — first year",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-038f4cec381b.html.gz",
+     "quote": "La contribution unique n’est pas due au cours de la première année allant de la date d’inscription au registre de l’auto-entrepreneur jusqu’au 31 décembre de la même année"
+    },
+    {
+     "url": "https://www.lecourrierdelatlas.com/?p=215588",
+     "publisher": "Le Courrier de l'Atlas",
+     "title": "Statut du freelance, PayPal, prélèvements… (10 Aug 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-125a1bd68aa7.html.gz",
+     "quote": "Parmi les mesures qui retiennent déjà l’attention : la possibilité d’utiliser des plateformes comme PayPal et l’instauration d’un prélèvement à hauteur de 15 %, déjà problématique car jugé excessif par certains."
+    }
+   ],
+   "notes": "Investment Law 2016-71 and Tax Incentives Law 2017-8 mainly benefit companies (wholly exporting status); not applied to individuals here."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card (carte d'identité nationale, CIN), required for the tax ID. Foreigners use a residence card.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.finances.gov.tn/fr/octroi-dun-identifiant-fiscal",
+     "publisher": "Ministère des Finances",
+     "title": "Octroi d'un identifiant fiscal — pièces",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ec07552e523.html.gz",
+     "quote": "Copie de la carte d’identité nationale pour l’exploitant lorsqu’il s’agit d’une personne physique ou pour le représentant légal s’il s’agit d’une personne morale ou de la carte de résidence pour les étrangers."
+    }
+   ],
+   "notes": "Bank/gateway KYC document lists not consulted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (6) Local official channel: Providers of services to non-residents can open a PPR foreign-currency account. Repatriation of foreign earnings is mandatory (Exchange Code art. 20) (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Tunisia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://www.bct.gov.tn/bct/siteprod/documents/loi7618.pdf",
+     "publisher": "Banque Centrale de Tunisie",
+     "title": "Loi n° 76-18 du 21 janvier 1976 — Code des changes et du commerce extérieur, art. 20",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-cb3743f4f8bb.pdf.gz",
+     "quote": "Toute personne physique ayant sa résidence habituelle en Tunisie ... est tenue de rapatrier dans les conditions et délais fixés par la Banque Centrale de Tunisie l'intégralité des devises ... de la rémunération de services rendus à l'étranger"
+    },
+    {
+     "url": "https://cdn2.webmanagercenter.com/wmc/wp-content/uploads/2025/12/LF2026_EXtrait_AR.pdf",
+     "publisher": "Journal Officiel de la République Tunisienne n°148, 12 Dec 2025 (extract hosted by WebManagerCenter)",
+     "title": "Loi n°17 de 2025 portant loi de finances pour 2026, art. 98",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-4dde362a829f.pdf.gz",
+     "quote": "يمكن لﻸشخاص الطبيعيين المقيمين ذوي الجنسية التونسية أن يفتحوا بدفاتر الوسطاء المقبولين حسابات بالعمﻼت."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

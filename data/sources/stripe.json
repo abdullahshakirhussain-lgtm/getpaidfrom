@@ -1,0 +1,324 @@
+{
+ "source": "stripe",
+ "route": "stripe",
+ "url": "https://stripe.com/global",
+ "retrieved_at": "2026-10-16T18:18:57+00:00",
+ "sha256": "db26509e88c5ee2a8b7cd4ef96ed5721025beab1431bc330886914defb257189",
+ "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+ "evidence": "official",
+ "lists": {
+  "available": {
+   "meaning": "merchant_signup_available",
+   "caveat": null,
+   "count": 51,
+   "entries": [
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "CI",
+     "raw": "Côte d'Ivoire",
+     "label": "Extended network",
+     "meaning": "extended_network_via_paystack"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": "Extended network",
+     "meaning": "extended_network_via_paystack"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": "Preview",
+     "meaning": "preview_contact_sales"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": "Preview",
+     "meaning": "preview_contact_sales"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": "Extended network",
+     "meaning": "extended_network_via_paystack"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": "Extended network",
+     "meaning": "extended_network_via_paystack"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": "Extended network",
+     "meaning": "extended_network_via_paystack"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "merchant_signup_available"
+    }
+   ]
+  }
+ }
+}

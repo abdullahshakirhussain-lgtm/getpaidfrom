@@ -1,0 +1,348 @@
+{
+ "code": "BN",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. Brunei has no foreign-exchange controls, although exchanges and movements of currency are monitored. The Brunei dollar is pegged at par to the Singapore dollar (currency board).",
+   "status": "unverified",
+   "note": "Single captured source (Deloitte, Jan 2023); SGD peg not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2024/dttl-tax-bruneihighlights-2023.pdf",
+     "publisher": "Deloitte",
+     "title": "Brunei Darussalam Highlights 2023",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-441b693df774.pdf.gz",
+     "quote": "Foreign exchange control: There are no foreign exchange controls in Brunei Darussalam (Brunei), although exchanges and movements of currency are monitored."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established from a captured source (no exchange controls suggests FCY accounts are permitted).",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Brunei Darussalam (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Brunei is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Brunei Darussalam is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Brunei is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal Brunei help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Brunei is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Brunei is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Brunei.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship is registered as a business name with the Registry of Companies and Business Names (ROCBN, Ministry of Finance and Economy) via the online OCP portal. Only Brunei citizens or permanent residents aged 18+, holding a valid NRIC and not bankrupt, may register. No minimum capital; unlimited liability. A $30 registration fee is reported (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-brunei/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Brunei",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b3a3d2aaec6c.html.gz",
+     "quote": "Step 1: Check your eligibility You must be at least 18 years old, be a Brunei citizen or permanent resident, hold a valid NRIC (National Registration Identity Card), and not be a declared bankrupt."
+    },
+    {
+     "url": "https://bizbrunei.com/2017/10/guide-to-registering-business-brunei-rocbn",
+     "publisher": "BizBrunei",
+     "title": "Your guide to registering a business (ROCBN)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-1aa6955593f7.html.gz",
+     "quote": "Sole-proprietorship A business owned by one person – that person being 18 years or older, and a citizen or permanent resident of Brunei."
+    }
+   ],
+   "notes": "TRAP: foreigners (non-PR) cannot register a sole proprietorship. MOFE business-names page and OCP fee page returned 404 / empty on 2026-10-22."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Brunei Darussalam to the OECD: \"In Brunei Darussalam, only company incorporated or registered under the Companies Act (Chapter 39) is subject to tax. Individuals, partnerships and other entities or bodies of persons are exempted from tax. Individual: There is no TIN issued for individual.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/brunei-darussalam-tin%20.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Brunei Darussalam's tax administration)",
+     "title": "Brunei Darussalam — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-70dd9d6fd638.pdf.gz",
+     "quote": "In Brunei Darussalam, only company incorporated or registered under the Companies Act (Chapter 39) is subject to tax. Individuals, partnerships and other entities or bodies of persons are exempted from tax. Individual: There is no TIN issued for individual.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "There is no personal income tax, so individuals, including sole proprietors and freelancers with foreign clients, pay no income tax on their earnings. Companies pay 18.5% corporate tax. Employers contribute 5% of local employees' wages to the Employees Trust Fund.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/brunei-darussalam/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Brunei Darussalam - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-641486fe0fb8.html.gz",
+     "quote": "Brunei does not impose personal income tax on individuals."
+    },
+    {
+     "url": "https://www.aseanbriefing.com/news/a-guide-to-taxation-in-brunei/",
+     "publisher": "ASEAN Briefing (Dezan Shira)",
+     "title": "A Guide to Taxation in Brunei",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5068f31a0906.html.gz",
+     "quote": "The corporate income tax is one of the lowest in the region at 18.5 percent, and there is no personal income tax, no value-added tax, and no withholding tax on dividends, interest, royalties, and fees for technical services for resident companies."
+    }
+   ],
+   "notes": "Self-employed social-security (TAP/SCP) obligations not researched."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "There is no VAT, GST or sales tax in Brunei.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/consulting/2024/dttl-tax-bruneihighlights-2023.pdf",
+     "publisher": "Deloitte",
+     "title": "Brunei Darussalam Highlights 2023",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-441b693df774.pdf.gz",
+     "quote": "Value added tax Brunei does not have a VAT or sales tax."
+    },
+    {
+     "url": "https://www.aseanbriefing.com/news/a-guide-to-taxation-in-brunei/",
+     "publisher": "ASEAN Briefing (Dezan Shira)",
+     "title": "A Guide to Taxation in Brunei",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5068f31a0906.html.gz",
+     "quote": "There is no value-added tax (VAT) in Brunei."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Data Protection Order 2025 (PDPO) was enacted on 8 January 2025. Most substantive provisions commenced on 1 January 2026, after a one-year sunrise period. It applies to all private-sector organisations, commercial or not, and is administered by AITI. Penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=BN&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in Brunei",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-83f4ba66de18.html.gz",
+     "quote": "the Personal Data Protection Order, 2025 (\"PDPO\") was enacted on 8 January 2025, with most substantive provisions commencing on 1 January 2026, to govern the collection, use and disclosure of personal data in Brunei Darussalam."
+    },
+    {
+     "url": "https://aiti.gov.bn/news/2025/trust-and-innovation-take-centre-stage-at-the-digital-future-conference-exhibition-dfce-2025/",
+     "publisher": "AITI",
+     "title": "Trust and innovation take centre stage at DFCE 2025",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-35fe23564528.html.gz",
+     "quote": "Upon the end of its one-year sunrise period, the Order will be fully enforced in January 2026."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The Consumer Protection (Fair Trading) Act, Chapter 261 (originally the 2011 Order, in force 1 January 2012), prohibits unfair practices and gives consumers civil redress. It includes a right to cancel certain contracts within a cancellation period, under the Cancellation of Contracts Regulations. Whether that right covers online sales was not captured.",
+   "status": "unverified",
+   "note": "Only the DEPS page's purpose statement was captured; section 10 / Regulations text not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://deps.mofe.gov.bn/cpfta-dca/",
+     "publisher": "Department of Economic Planning and Statistics (MOFE)",
+     "title": "Consumer Protection (Fair Trading) Act",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c32d46c62990.html.gz",
+     "quote": "It is an Act to protect consumers against unfair practices and matters relating to it."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found (no personal income tax is itself the main advantage).",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "A valid NRIC is required to register a business name (see L1). Other KYC requirements were not captured.",
+   "status": "unverified",
+   "note": "Single secondary source on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-brunei/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Brunei",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b3a3d2aaec6c.html.gz",
+     "quote": "Step 1: Check your eligibility You must be at least 18 years old, be a Brunei citizen or permanent resident, hold a valid NRIC (National Registration Identity Card), and not be a declared bankrupt."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Brunei Darussalam: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Official ROCBN fee/eligibility pages (404).",
+  "FCY accounts; BND-SGD peg source.",
+  "PDPO penalties; CPFTA cancellation scope.",
+  "Self-employed social security; PayPal withdrawals."
+ ]
+}

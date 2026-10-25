@@ -1,0 +1,301 @@
+{
+ "code": "BZ",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "See quoted official summary. Controls or FX shortages may affect conversion and transfers.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/belize-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Belize Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-37c1e5c585a4.html.gz",
+     "quote": "The Government of Belize has established currency controls, and foreign investors seeking to convert, transfer, or repatriate funds must comply with Central Bank of Belize (CBB) regulations."
+    }
+   ],
+   "notes": "",
+   "note": "Captured text describes the regime only partially (2026-10-22)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Restricted (exchange controls). Residents need permission to open a foreign-currency account with an authorised dealer. The application must give the bank, the currency, the expected balances and why the account is needed. A resident entity qualifies if its activity generates at least US$50,000 a year and it makes regular payments to foreign suppliers; businesses in the Commercial Free Zone or Export Processing Zones qualify automatically (Central Bank of Belize Direction 10/2014, revised December 2014). TRAP for small freelancers: below the US$50,000 level you may not qualify, so expect to convert foreign earnings to BZD.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.centralbank.org.bz/detail-pages/publication/direction-10-foreign-currency-accounts",
+     "publisher": "Central Bank of Belize",
+     "title": "Direction 10: Foreign Currency Accounts",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-562817445404.pdf.gz",
+     "quote": "Foreign currency accounts may be opened for Belizean residents, subject to the following conditions: (a) The entity must be engaged in an activity that generates at least US$50,000 per annum and also need to make regular payments to foreign suppliers.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.centralbank.org.bz/detail-pages/publication/direction-10-foreign-currency-accounts",
+     "publisher": "Central Bank of Belize",
+     "title": "Direction 10: Foreign Currency Accounts",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-562817445404.pdf.gz",
+     "quote": "Applications for permission by residents to open and operate foreign currency accounts with Authorised Dealers must include:- (a) The bank with which the account is proposed to be maintained;",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Belize (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Belize is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Belize is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Belize is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Belize is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Belize is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Belize.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Belize (updated June 10, 2026), registration is handled by: Belize Companies & Corporate Affairs Registry (BCCAR). Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-belize/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Empresa Individual) in Belize Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-69dfac98d5f9.html.gz",
+     "quote": "Registration body Belize Companies & Corporate Affairs Registry (BCCAR)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Belize to the OECD: \"Belize Tax Service Department issues all Tax Identification Numbers (TIN). TINs are issued to Individuals(employees), Sole Proprietors, Partnerships, Limited Liability Partnerships, and Companies. It is not mandatory for an unemployed individual to have a TIN. Directors and shareholders are also required to have a TIN.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/belize-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Belize's tax administration)",
+     "title": "Belize — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-2e481a0f51e4.pdf.gz",
+     "quote": "Belize Tax Service Department issues all Tax Identification Numbers (TIN). TINs are issued to Individuals(employees), Sole Proprietors, Partnerships, Limited Liability Partnerships, and Companies. It is not mandatory for an unemployed individual to have a TIN. Directors and shareholders are also required to have a TIN.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Belize taxes only Belize-source income; reported bands 0% to BZD 26,000 and 25% above (TaxAtlas).",
+   "status": "unverified",
+   "note": "Single aggregator source (TaxAtlas) captured on 2026-10-23.",
+   "sources": [
+    {
+     "url": "https://taxatlas.io/country/belize/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Belize Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-660e4c690931.html.gz",
+     "quote": "Belize taxes only income sourced within the country."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Belize. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "084,Belize,Legislation,No Data,Legislation,Legislation,No Legislation,0,1,0,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The Belize national ID card is optional, although compulsory for voting and other government transactions (Wikipedia). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Belize Optional, although compulsory for voting and other government transactions.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (5) Local official channel: A resident foreign-currency account needs Central Bank permission, applied for through your bank; an entity qualifies at US$50,000 a year of foreign-currency activity. Below that, receive into your BZD account and keep invoices (Central Bank of Belize Direction 10) (P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Belize: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Belize: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Belize: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Belize: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Belize: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://www.centralbank.org.bz/detail-pages/publication/direction-10-foreign-currency-accounts",
+     "publisher": "Central Bank of Belize",
+     "title": "Direction 10: Foreign Currency Accounts",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-562817445404.pdf.gz",
+     "quote": "Foreign currency accounts may be opened for Belizean residents, subject to the following conditions: (a) The entity must be engaged in an activity that generates at least US$50,000 per annum and also need to make regular payments to foreign suppliers.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN for freelancers.",
+  "Services-export VAT treatment; second sources.",
+  "Data protection; consumer law."
+ ]
+}

@@ -1,0 +1,561 @@
+{
+ "code": "NO",
+ "un_name": "Norway",
+ "m49_name": "Norway",
+ "iso3": "NOR",
+ "m49": "578",
+ "region": "Europe",
+ "sub_region": "Northern Europe",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "27-11-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency NOK",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established from a captured source (no restrictive FX controls are generally reported).",
+   "status": "unverified",
+   "note": "trade.gov page lacked FX text (or served another country's page) on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Norwegian banks offer currency accounts (valutakonto) to private customers: SpareBank 1 Østlandet's private-customer service menu lets you order one (Bestill valutakonto). Some large banks, such as DNB, market their currency accounts to businesses (search summary), so availability and fees vary by bank.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://sparebank1.no/nb/ostlandet/privat/kundeservice/bestill.html",
+     "publisher": "SpareBank 1 Østlandet (private customer service page)",
+     "title": "Bestill og endre",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-76b03b5cb6f2.html.gz",
+     "quote": "Avslutt depositumskonto - jeg er leietaker Bestill valutakonto Bestill bekreftelse på kontonummer",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Norway (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Norway is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Norway is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Norway is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Norway is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Norway IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Norway appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Sole proprietorships (enkeltpersonforetak) obtain an organisation number by registering with the Brønnøysund Register Centre (via Altinn); an organisation number is required for commercial activity, and foreign sole proprietors operating in Norway must register too. Mandatory VAT registration starts once VAT-liable supplies exceed NOK 50,000 in 12 months (see L4). Practical requirements: a Norwegian business address and a national ID number or D-number (temporary number for foreign nationals); no start-up capital. Deel quotes digital registration from NOK 2,683; that fee likely applies to the Register of Business Enterprises (Foretaksregisteret) rather than the free Central Coordinating Register (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-norway/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Enkeltpersonforetak) in Norway (Deel)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-4fcef3bbd598.html.gz",
+     "quote": "You register through the Brønnøysund Register Centre using the Altinn platform , and you don’t need any start-up capital."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-norway/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Enkeltpersonforetak) in Norway (Deel)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-4fcef3bbd598.html.gz",
+     "quote": "To qualify, you’ll need a Norwegian business address and either a national ID number or a D-number (a temporary identification number for foreign nationals)."
+    },
+    {
+     "url": "https://www.skatteetaten.no/en/business-and-organisation/foreign/registration-obligation/registration-obligations-for-foreign-sole-proprietors/",
+     "publisher": "Skatteetaten (Norwegian Tax Administration)",
+     "title": "Registration obligations – foreign sole proprietors",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-2a723f316f9f.html.gz",
+     "quote": "More information about the Norwegian identity number Organisation numbers can be obtained through registering with the Brønnøysund Register Centre ."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Norway to the OECD: \"Norway has three types of TINs. The three types are National identity numbers, D -numbers and Legal Entities. National identity numbers and D-numbers There are two types of identification numbers in Norway for individuals: National identity number and D-number. Which identification number you receive as a foreign national depends on your residence permit and how long you’re planning to stay in Norway.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/norway-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Norway's tax administration)",
+     "title": "Norway — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-36fb995cb325.pdf.gz",
+     "quote": "Norway has three types of TINs. The three types are National identity numbers, D -numbers and Legal Entities. National identity numbers and D-numbers There are two types of identification numbers in Norway for individuals: National identity number and D-number. Which identification number you receive as a foreign national depends on your residence permit and how long you’re planning to stay in Norway.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Rates not captured. Residents are generally taxed on worldwide income (see quoted rules). Work performed while living in Norway for foreign clients is generally taxable there. Social security contribution (trygdeavgift) 2026: 10.8% on business income (annen næringsinntekt), versus 7.6% on wages. Nothing is due on personal income below NOK 99,650, and the charge never exceeds 25% of income above that.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.skatteetaten.no/satser/trygdeavgift/?year=2026",
+     "publisher": "Skatteetaten (Norwegian Tax Administration)",
+     "title": "Trygdeavgift 2026 (Skatteetaten)",
+     "retrieved": "2026-10-24",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-19504922ba0d.html.gz",
+     "quote": "Annen næringsinntekt 10,8 %"
+    },
+    {
+     "url": "https://www.skatteetaten.no/satser/trygdeavgift/?year=2026",
+     "publisher": "Skatteetaten (Norwegian Tax Administration)",
+     "title": "Trygdeavgift 2026 (Skatteetaten)",
+     "retrieved": "2026-10-24",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-19504922ba0d.html.gz",
+     "quote": "Avgiften utgjør aldri mer enn 25 prosent av den delen av personinntekten/grunnlaget som overstiger 99 650 kr"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/norway/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Norway - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-cef3e7141e28.html.gz",
+     "quote": "Residents are liable to income tax on their worldwide income, whereas non-resident taxpayers are only subject to income tax on specific types of income from Norwegian sources."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/norway/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Norway - Individual - Residence",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-9dbf2e64cda5.html.gz",
+     "quote": "Tax residency Resident status is obtained when an alien resides in Norway more than 183 days in the course of any 12-month period or 270 days in any 36-month period."
+    },
+    {
+     "url": "https://taxatlas.io/country/norway/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Norway Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-b9035acfd4da.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "EEA member: GDPR applies (not captured here)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The standard VAT (MVA) rate is 25%. A business must register in the VAT Register once taxable supplies and self-supplies exceed NOK 50,000 (excluding VAT) in a period of twelve months (VAT Act § 2-1(1)). Per LookupTax, the same NOK 50,000 applies to non-residents; Avalara says foreign businesses register from the first supply. Unresolved; non-residents also need a Norwegian VAT representative. Treatment of services exported to foreign clients was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://lookuptax.com/docs/country/norway-vat-guidelines-indirect-tax",
+     "publisher": "LookupTax",
+     "title": "Norway VAT guidelines (LookupTax)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-bd15d26b0f92.html.gz",
+     "quote": "Businesses and public bodies must register in the VAT Register ( Merverdiavgiftsregisteret ) once their taxable supplies and self-supplies exceed NOK 50,000 in a period of twelve months ."
+    },
+    {
+     "url": "https://www.avalara.com/us/en/vatlive/country-guides/europe/norway/norwegian-vat-registration.html",
+     "publisher": "Avalara",
+     "title": "Norwegian VAT registration",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-0212705c8447.html.gz",
+     "quote": "For Norwegian-established businesses supplying goods or services domestically, VAT registration is required once taxable turnover exceeds NOK 50,000 in a 12-month period."
+    },
+    {
+     "url": "https://lookuptax.com/docs/country/norway-vat-guidelines-indirect-tax",
+     "publisher": "LookupTax",
+     "title": "Norway VAT guidelines (LookupTax)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-bd15d26b0f92.html.gz",
+     "quote": "The threshold for non-residents is the same NOK 50,000 — not zero."
+    },
+    {
+     "url": "https://www.avalara.com/us/en/vatlive/country-guides/europe/norway/norwegian-vat-registration.html",
+     "publisher": "Avalara",
+     "title": "Norwegian VAT registration",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-0212705c8447.html.gz",
+     "quote": "Where a foreign business makes taxable supplies in Norway and is not established there, VAT registration is generally required from the first taxable supply."
+    }
+   ],
+   "notes": "Conflict for non-residents only (LookupTax cites Altinn and the statute; Avalara says first supply). Irrelevant for Norway-resident freelancers."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The GDPR applies in Norway through the EEA Agreement (incorporated by the EEA Joint Committee in July 2018). The Norwegian Personal Data Act (LOV-2018-06-15-38) implements the GDPR from 20 July 2018; supervisor: Datatilsynet.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://natlawreview.com/article/gdpr-now-eea-wide",
+     "publisher": "National Law Review",
+     "title": "GDPR is Now EEA Wide! (National Law Review / Squire Patton Boggs, 17 Sep 2018)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-754e0059264b.html.gz",
+     "quote": "The General Data Protection Regulation (GDPR) was incorporated into the EEA Agreement by the EEA Joint Committee in Brussels and entered into force in mid-July."
+    },
+    {
+     "url": "https://natlawreview.com/article/gdpr-now-eea-wide",
+     "publisher": "National Law Review",
+     "title": "GDPR is Now EEA Wide! (National Law Review / Squire Patton Boggs, 17 Sep 2018)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-754e0059264b.html.gz",
+     "quote": "The European Economic Area (EEA) currently includes all EU Member States, including, for the time being, the UK, as well as the three out of four EFTA States meaning Iceland, Liechtenstein and Norway(the fourth one being Switzerland)."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=NO&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in Norway",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-8302322dcf15.html.gz",
+     "quote": "The new Norwegian Personal Data Act (LOV-2018-06-15-38) (\" PDA \") implements GDPR and became effective as of July 20, 2018."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Norway. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "578,Norway,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Norway accepts: Førerkort (Driver License) - scans of front and back are required ID-kort (ID card) Pass (Passport) Oppholdskort (Resident permit ID) - dated within 12 months. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=NO",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Norway",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-10ca766fae88.html.gz",
+     "quote": "Acceptable forms of identification: Førerkort (Driver License) - scans of front and back are required ID-kort (ID card) Pass (Passport) Oppholdskort (Resident permit ID) - dated within 12 months",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Norway: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,732 @@
+{
+ "code": "RO",
+ "un_name": "Romania",
+ "m49_name": "Romania",
+ "iso3": "ROU",
+ "m49": "642",
+ "region": "Europe",
+ "sub_region": "Eastern Europe",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "14-12-1955",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency RON; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive",
+   "label": "Send, receive, and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. As an EU member state, Romania applies Article 63 TFEU, which prohibits restrictions on capital movements and payments between EU countries and with non-EU countries. Banks still apply AML/KYC checks and may ask for the source of funds.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "Article 63 TFEU prohibits all restrictions on the movement of capital and payments between EU countries, as well as between EU and non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. BCR, Romania's largest bank, opens current accounts in lei or foreign currency for individuals free of charge, and its fee schedule for individuals lists a monthly administration fee for a foreign-currency current account (EUR/USD vs other currencies) (BCR fee schedule, valid from 27 January 2018; current fees not checked). EU law (art. 63 TFEU) bars restrictions on capital movements.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "ensuring that payments in relation to those capital movements can be executed without restrictions, so that individuals and businesses can use, invest and/or save their money or financial assets anywhere within the EU as well as in non-EU countries.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://www.bcr.ro/content/dam/ro/bcr/www_bcr_ro/Persoane-fizice/Conturi-si-tranzactii/Sectiuni-Contract/Sec%C8%9Biunea-B-Comisioane-(valabil%C4%83-din-27.01.2018).pdf",
+     "publisher": "BCR (fee schedule for individuals)",
+     "title": "Secțiunea B — Comisioane (valabilă din 27.01.2018)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0d30d2d3cfa8.pdf.gz",
+     "quote": "Deschidere / Inchidere cont curent in Lei sau valuta 0 Lei",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.bcr.ro/content/dam/ro/bcr/www_bcr_ro/Persoane-fizice/Conturi-si-tranzactii/Sectiuni-Contract/Sec%C8%9Biunea-B-Comisioane-(valabil%C4%83-din-27.01.2018).pdf",
+     "publisher": "BCR (fee schedule for individuals)",
+     "title": "Secțiunea B — Comisioane (valabilă din 27.01.2018)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0d30d2d3cfa8.pdf.gz",
+     "quote": "Administrare Cont Curent in valuta - EUR/USD - Alte valute",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "BCR fee figures are from the 2018 schedule; check the current tariff."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Romania (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Romania is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Romania is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Romania is on PayPal's Payouts list as 'Send, receive, and withdraw' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Romania is listed on PayPal's Payouts country list as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Romania IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Romania appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A freelancer usually registers a PFA (persoană fizică autorizată) at the trade-register office (ONRC) of the county of the professional seat, before starting activity. You can file online through the ONRC portal with documents signed by qualified electronic signature, or at the counter. Typical documents: ID, proof of the right to use the professional seat (ownership, lease or loan-for-use contract), a declaration that the seat meets operating conditions, and proof of qualification for the chosen CAEN codes. Registration itself is free. A draft fee (200 lei, halved online) was under public debate but not confirmed in force. Processing takes about 1–3 working days when complete.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://folositor.ro/ghid/cum-deschizi-pfa-pas-cu-pas",
+     "publisher": "Folositor",
+     "title": "Cum deschizi PFA pas cu pas (Folositor)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-1dadc6c94897.html.gz",
+     "quote": "Dosarul se depune la oficiul registrului comerțului din județul în care e sediul profesional , înainte să începi activitatea."
+    },
+    {
+     "url": "https://folositor.ro/ghid/cum-deschizi-pfa-pas-cu-pas",
+     "publisher": "Folositor",
+     "title": "Cum deschizi PFA pas cu pas (Folositor)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-1dadc6c94897.html.gz",
+     "quote": "Online Prin portalul ONRC, cu documentele semnate cu semnătură electronică calificată."
+    },
+    {
+     "url": "https://folositor.ro/ghid/cum-deschizi-pfa-pas-cu-pas",
+     "publisher": "Folositor",
+     "title": "Cum deschizi PFA pas cu pas (Folositor)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-1dadc6c94897.html.gz",
+     "quote": "Activitatea Registrului Comerțului e finanțată de la bugetul de stat, deci pentru cererea de înregistrare nu se percepe tarif."
+    },
+    {
+     "url": "https://folositor.ro/ghid/cum-deschizi-pfa-pas-cu-pas",
+     "publisher": "Folositor",
+     "title": "Cum deschizi PFA pas cu pas (Folositor)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-1dadc6c94897.html.gz",
+     "quote": "o taxă de 200 lei pentru înregistrare și 20 lei pentru rezervarea denumirii, înjumătățite la depunerea online."
+    },
+    {
+     "url": "https://www.infocontact.ro/cum-infiintezi-un-pfa-2026/",
+     "publisher": "Infocontact",
+     "title": "Cum înființezi un PFA în 2026 (Infocontact)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-f120e9eda1c9.html.gz",
+     "quote": "Costurile de înființare ale unui PFA în 2026 Înregistrarea unui PFA este gratuită."
+    },
+    {
+     "url": "https://www.infocontact.ro/cum-infiintezi-un-pfa-2026/",
+     "publisher": "Infocontact",
+     "title": "Cum înființezi un PFA în 2026 (Infocontact)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-f120e9eda1c9.html.gz",
+     "quote": "Termenul mediu de soluționare este de aproximativ 3 zile lucrătoare, dacă documentația este completă."
+    }
+   ],
+   "notes": "No ONRC page captured; confirm on onrc.ro. Folositor reports the 200-lei draft fee as not confirmed in the Monitorul Oficial at its last check."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Romania to the OECD: \"Tax identification number (TIN) is a numerical code that is used by individuals or entities (companies) for tax purposes. 1. Individuals: A. The Personal Code (CNP) is issued by the Ministry of Internal Affairs and it is used also by the tax administration as a TIN; B. Tax identification number (NIF) for tax non-resident persons in Romania is issued by the Tax Administration only for tax purposes.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/romania-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Romania's tax administration)",
+     "title": "Romania — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-15017982c1dc.pdf.gz",
+     "quote": "Tax identification number (TIN) is a numerical code that is used by individuals or entities (companies) for tax purposes. 1. Individuals: A. The Personal Code (CNP) is issued by the Ministry of Internal Affairs and it is used also by the tax administration as a TIN; B. Tax identification number (NIF) for tax non-resident persons in Romania is issued by the Tax Administration only for tax purposes.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Tax residents of Romania are taxed on worldwide income (see quoted rules for exceptions such as remittance-basis regimes). Flat 10% generally (not captured). Inference (general source principle, not quoted): work performed while living in Romania for foreign clients is normally taxable in Romania. PFA taxes in 2026 (accounting sources): income tax is 10%, applied to net income after deductible CAS and CASS (or to the income norm, see L7). CAS (pension, 25%) is due once net income reaches 12 minimum wages (48,600 lei). It is charged on a fixed base of 12 wages (12,150 lei) or 24 wages (24,300 lei), not on actual income. CASS (health, 10%) is charged on net income between 6 and 72 minimum wages (2026 maximum 29,160 lei). 2026 thresholds use the 4,050 lei minimum wage in force on 1 January 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "Salariul minim de referință este 4.050 lei, deci plafoanele sunt 24.300 lei (6 salarii), 48.600 lei (12 salarii) și 97.200 lei (24 de salarii)."
+    },
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "Cota de 25% nu se aplică asupra venitului net realizat."
+    },
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "Singura modificare de cifră este la plafonul maxim de CASS , ridicat de la 60 la 72 de salarii minime."
+    },
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "Pentru tot anul 2026, plafoanele de contribuții sociale se calculează în raport cu salariul minim brut pe economie în vigoare la 1 ianuarie 2026"
+    },
+    {
+     "url": "https://www.infocontact.ro/cum-infiintezi-un-pfa-2026/",
+     "publisher": "Infocontact",
+     "title": "Cum înființezi un PFA în 2026 (Infocontact)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-f120e9eda1c9.html.gz",
+     "quote": "Plafoanele fiscale relevante sunt: 6 salarii minime: 24.300 lei 12 salarii minime: 48.600 lei"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/romania/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Romania - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d45844a0c7d4.html.gz",
+     "quote": "Romanian nationals domiciled in Romania are considered Romanian tax residents and are taxed on their worldwide income (except for salary income received from abroad for work performed abroad, which is tax exempt)"
+    },
+    {
+     "url": "https://taxatlas.io/country/romania/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Romania Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-95f037f87db5.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "PFA/micro-enterprise regimes not researched. A news site (Alba24) suggests the 1 July 2026 minimum-wage rise to 4,325 lei changes the thresholds. ContApp states the 1 January value applies for all of 2026, and ContApp is followed here."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "National threshold: the small-business VAT exemption ceiling rose from 300,000 to 395,000 lei on 1 September 2025 (Ordonanța 22/2025). Exceeding it requires VAT registration; the exemption ends with the transaction that crosses it. Operations whose place of supply is not in Romania are no longer counted toward the 395,000 lei. This matters for freelancers: B2B services to foreign businesses (place of supply abroad, see below) do not use up the ceiling. Under the EU SME scheme, businesses under the ceiling can also use exemptions in other member states if EU-wide turnover is at most EUR 100,000. The standard VAT rate is 21%. Under the EU SME scheme, small businesses below a national threshold (at most EUR 85,000) can be exempt on domestic sales. Where services are taxed (EU-wide rules, illustrated by Irish Revenue guidance): (1) B2B, meaning services to business customers in other EU countries or outside the EU, are taxed where the customer is established, so no Romania VAT is charged; EU business customers self-account under the reverse charge. (2) B2C services to private individuals are, as a rule, taxed where the supplier is established, so Romania VAT applies once you are VAT-registered. (3) Exception: consultancy, legal, accounting, engineering, data-processing, advertising, licensing and electronically supplied services to private customers outside the EU are outside EU VAT, subject to 'use and enjoyment' rules. Electronically supplied services to private customers in other EU countries follow special OSS rules (not captured here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.crowe.com/ro/news/alerta-fiscala-modificari-fiscale-in-materie-de-tva",
+     "publisher": "Crowe Romania",
+     "title": "Alertă fiscală: modificări fiscale în materie de TVA (Crowe Romania)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-113ed9e6929c.html.gz",
+     "quote": "Începând cu 1 septembrie 2025, plafonul de scutire de TVA se majorează la 395.000 lei ."
+    },
+    {
+     "url": "https://www.crowe.com/ro/news/alerta-fiscala-modificari-fiscale-in-materie-de-tva",
+     "publisher": "Crowe Romania",
+     "title": "Alertă fiscală: modificări fiscale în materie de TVA (Crowe Romania)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-113ed9e6929c.html.gz",
+     "quote": "De asemenea, în cifra de afaceri de 395.000 lei nu se mai includ operațiunile care nu au locul livrării sau prestării în România."
+    },
+    {
+     "url": "https://www.g4media.ro/plafonul-national-de-scutire-de-tva-pentru-intreprinderile-mici-va-creste-de-la-300-000-de-lei-la-395-000-de-lei-incepand-cu-data-de-1-septembrie-2025.html",
+     "publisher": "G4Media",
+     "title": "Plafonul naţional de scutire de TVA va creşte la 395.000 de lei (G4Media)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-b2d3bc4b020d.html.gz",
+     "quote": "dacă cifra de afaceri a acestora nu depăşeşte la nivelul UE plafonul de 100.000 de euro"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/romania/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Romania - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d4726dd9eb97.html.gz",
+     "quote": "The 21% standard VAT rate applies to all taxable transactions that are not exempt and do not qualify for a reduced rate."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/vat-exemptions/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "VAT exemptions for SMEs in cross-border and domestic sales (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-348d2dc786c3.html.gz",
+     "quote": "Domestic VAT Rules If your SME has an annual turnover under EUR 85 000 or lower if set by the EU country , you can apply for a VAT exemption on domestic sales ."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/cross-border-vat/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Cross-border VAT (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-31a2fc91eb48.html.gz",
+     "quote": "Selling services to businesses based in another EU country If you sell services to businesses based in another EU country you don't usually need to charge your customers VAT."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "Supply of services to a business (B2B) For supplies of business to business services (B2B), the place of supply is the place where the business receiving the services is established."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "This applies whether the business customer is in the European Union (EU) or not."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "For supplies of business to consumer services (B2C), the place of supply is the place where the supplier: has established their business"
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "If the following services are provided to non-business customers established outside the European Union (EU), the place of supply is outside the EU."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "This includes the provision of other services directly linked thereto telecommunications services radio and television broadcasting services and electronically supplied services."
+    }
+   ],
+   "notes": "National SME threshold not captured unless stated. Romanian thresholds come from Crowe (advisory) and G4Media (news, citing News.ro); the Monitorul Oficial text was not captured."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The EU General Data Protection Regulation (GDPR) applies directly in Romania, supervised by the national data protection authority. It covers EU businesses and non-EU businesses offering goods or services to people in the EU.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+     "publisher": "European Commission",
+     "title": "Data protection (European Commission)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-67745d447c93.html.gz",
+     "quote": "EU data protection legislation is comprised of the General Data Protection Regulation (GDPR), the Law Enforcement Directive (LED), and the Data Protection Regulation for EU institutions, bodies, offices and agencies (EUDPR)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Data protection and online privacy (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5529929a174.html.gz",
+     "quote": "These rules apply to both companies and organisations (public and private) in the EU and those based outside the EU who offer goods or services in the EU , such as Facebook or Amazon, whenever these companies request or re-use the personal data of individuals in the EU."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "EU consumer law gives a 14-day withdrawal right for online and distance purchases without justification: 14 days from delivery for goods, and from conclusion of the contract for services. Exceptions include personalised goods, perishables and date-specific services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "This means you can cancel the contract within 14 days without providing any justification (the \"cooling-off period\")."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "For goods this means 14 days from the date of delivery, for services 14 days after the day the contract was agreed."
+    }
+   ],
+   "notes": "National implementations may add detail."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Income norm (normă de venit): for activities on the official list, PFA income tax is 10% of a fixed annual income norm set per activity and county, not of actual profit. Threshold: anyone whose 2025 gross receipts exceeded the lei equivalent of EUR 25,000 (126,037 lei at the 2025 average rate) must use the real system (actual income minus expenses) from 2026. Whether a given online/IT activity is on the norm list depends on the CAEN code and county (not captured). Contabilul.manager.ro confirms the EUR 25,000 rule (Fiscal Code art. 69(9)): exceeding it moves you to the real system from the following year.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "Impozitul se obține aplicând 10% la valoarea normei, sau la normele cumulate dacă sunt mai multe activități autorizate la ONRC."
+    },
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "au obligația determinării venitului net în sistem real, începând cu anul fiscal 2026 ."
+    },
+    {
+     "url": "https://contapp.ro/blog/taxe-pfa-2026/",
+     "publisher": "ContApp",
+     "title": "Taxe PFA 2026. CAS, CASS și impozitele datorate de PFA-uri (ContApp)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-aaea236d9ff8.html.gz",
+     "quote": "Plafonul în lei: 25.000 euro × 5,0415 = 126.037 lei (cursul mediu al anului 2025)"
+    },
+    {
+     "url": "https://contabilul.manager.ro/a/29952/pfa-la-norma-de-venit-cand-devine-obligatoriu-sistemul-real-si-ce-aveti-de-facut.html",
+     "publisher": "Contabilul.manager.ro",
+     "title": "PFA la norma de venit: cand devine obligatoriu sistemul real",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e46ca1148d60.html.gz",
+     "quote": "care in anul fiscal anterior a avut venit brut anual peste echivalentul a 25.000 euro trece obligatoriu in sistem real din anul urmator",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Romania accepts: Permis de conducere (Driver License) Carte de identitate / Buletin (Identity Card) Paşaport (Passport) Permis de şedere (Residence Permit) - scans of front and back are required. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=RO",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Romania",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-bc1e129664f7.html.gz",
+     "quote": "Acceptable forms of identification: Permis de conducere (Driver License) Carte de identitate / Buletin (Identity Card) Paşaport (Passport) Permis de şedere (Residence Permit) - scans of front and back are required",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Romania: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

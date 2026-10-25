@@ -1,0 +1,526 @@
+{
+ "code": "ZA",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, under exchange control. Resident individuals' 'foreign earned income' is exempt from Exchange Control Regulations 6 and 7 only where earned on approved foreign assets or for services rendered to non-residents WHILE PHYSICALLY ABROAD (SARB AD Manual B.17(A)). For services rendered from inside South Africa, the general rule applies: individuals holding foreign currency outside South Africa must offer it for sale to an Authorised Dealer within 30 days of becoming entitled to it, unless exempted. Individuals may, however, keep legitimate foreign earned income in a foreign currency account with an Authorised Dealer (P2). Inward foreign-earned funds are reported under BOP category 210.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/Currency%20and%20Exchanges%20Manual%20for%20Authorised%20Dealers.pdf",
+     "publisher": "South African Reserve Bank (Financial Surveillance)",
+     "title": "Currency and Exchanges Manual for Authorised Dealers (2026), B.17(A)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-36102ede3d77.pdf.gz",
+     "quote": "Private individuals (natural persons) resident in South Africa are exempted from the provisions of Regulations 6 and 7 in respect of foreign earned income with effect from 1997 -07-01 (i.e. income earned on approved foreign assets or in respect of services rendered to non-residents while physically abroad), with the exception of the proceeds of merchandise exports, which must be repatriated to South Africa within 30 days from the date of becoming entitled thereto."
+    },
+    {
+     "url": "https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/Currency%20and%20Exchanges%20Guidelines%20for%20Individuals.pdf",
+     "publisher": "South African Reserve Bank (Financial Surveillance)",
+     "title": "Currency and Exchanges Guidelines for Individuals (1/2026), 3.7.1",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-6e0339150ec2.pdf.gz",
+     "quote": "Individuals and foreign nationals who are holders of foreign currencies outside South Africa must, unless exempted elsewhere in terms of the provisions of this document, offer to sell their holdings to an Authorised Dealer within 30 days from the date of becoming entitled thereto."
+    }
+   ],
+   "notes": "The 'physically abroad' qualifier means remote freelancers working from SA are not covered by the B.17(A) exemption. Confirm treatment with an Authorised Dealer. The 30-day sale duty in 3.7.1 refers to holdings OUTSIDE SA. Funds deposited in a local foreign currency account (P2) are within the system."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. SARB permits individuals to conduct a foreign currency account with an Authorised Dealer (and/or a foreign bank account) for travel, foreign investment, legitimate foreign earned income and foreign inheritance. CFC (Customer Foreign Currency) accounts proper are for legal persons, e.g. entities providing services in SA to non-residents.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/Currency%20and%20Exchanges%20Guidelines%20for%20Individuals.pdf",
+     "publisher": "South African Reserve Bank (Financial Surveillance)",
+     "title": "Currency and Exchanges Guidelines for Individuals (1/2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-6e0339150ec2.pdf.gz",
+     "quote": "Individuals are permitted to conduct a foreign currency account with an Authorised Dealer and/or a foreign bank account for the following purposes: (a) for travel as authorised (see section 3.3 (h));"
+    },
+    {
+     "url": "https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/Currency%20and%20Exchanges%20Guidelines%20for%20Individuals.pdf",
+     "publisher": "South African Reserve Bank (Financial Surveillance)",
+     "title": "Currency and Exchanges Guidelines for Individuals — purposes",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-6e0339150ec2.pdf.gz",
+     "quote": "(c) legitimate foreign earned income (see section 3.6.4);"
+    },
+    {
+     "url": "https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/Currency%20and%20Exchanges%20Manual%20for%20Authorised%20Dealers.pdf",
+     "publisher": "South African Reserve Bank (Financial Surveillance)",
+     "title": "AD Manual — CFC accounts (legal persons)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-36102ede3d77.pdf.gz",
+     "quote": "Authorised Dealers may open CFC accounts for the following South African entities (legal persons)"
+    }
+   ],
+   "notes": "The guideline's cross-reference '3.6.4' points to a securities paragraph in the 1/2026 edition (likely an outdated cross-reference)."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for South Africa (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "South Africa is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; South Africa is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Upgrading to a Registered Business removes the limit. PayFast, Yoco and Ozow not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. PayPal lists South Africa as 'Send, receive, and withdraw' and covers ZA in its merchant fee schedule. Withdrawals go through the FNB Withdraw Service with PayPal, which moves PayPal funds to an FNB account or any linked South African bank account (up to 4–6 business days). FNB states withdrawals must be made within 30 days of receipt, for exchange-control compliance (secondary summary; see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.fnb.co.za/downloads/PayPal_FAQs.pdf",
+     "publisher": "FNB",
+     "title": "FAQs — FNB Top Up and Withdraw Service with PayPal",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-adffdb33a2cd.pdf.gz",
+     "quote": "• The FNB Withdraw Service with PayPal allows you to withdraw funds paid into your PayPal account to your FNB account or any linked South African bank account."
+    },
+    {
+     "url": "https://www.paypal.com/za/webapps/mpp/merchant-fees",
+     "publisher": "PayPal",
+     "title": "Merchant Fees (ZA) — updated 28 Sep 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-b88925d19de4.html.gz",
+     "quote": "Rates published below apply to PayPal accounts of residents of the following market/region:"
+    }
+   ],
+   "notes": "The '30 days' withdrawal requirement was reported in search summaries of FNB pages but not in the captured FAQ. FNB fee (~1.5%) not captured. Not claimed in quotes."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: South Africa IS on Wise's list of countries whose residents can hold money. Payoneer: South Africans can receive client payments in foreign currency and withdraw to a local bank account (two independent guides, one by a competitor). Exchange-control rules (P1) apply to such foreign balances.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Slovenia South Africa South Korea Spain"
+    },
+    {
+     "url": "https://briefly.co.za/102598-payoneer-south-africa-set-withdraw-money-account.html",
+     "publisher": "Briefly.co.za",
+     "title": "Payoneer South Africa: how to set up and withdraw money from your account",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bebc115624e5.html.gz",
+     "quote": "Fill in the local bank account details you will be using to receive payments."
+    },
+    {
+     "url": "https://wise.com/za/blog/payoneer-south-africa-for-international-transfers",
+     "publisher": "Wise blog (competitor)",
+     "title": "How to Use Payoneer for International Payments From South Africa",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bd57da3a5c7a.html.gz",
+     "quote": "Once the payment has cleared, you can withdraw it directly to your local bank account or at supported ATMs in the country."
+    }
+   ],
+   "notes": "Payoneer evidence is weak (general guide plus competitor blog)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "No company is needed. A sole proprietorship, owned and operated by a natural person, is the simplest form and has no existence separate from the owner, so its income goes on the owner's personal return. As soon as a person commences a business, they must register as a taxpayer with SARS (eFiling or service centre) within 21 business days of becoming liable. Business income makes the owner a provisional taxpayer.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sars.gov.za/wp-content/uploads/Ops/Guides/Legal-Pub-Guide-Gen09-Tax-Guide-for-Small-Businesses.pdf",
+     "publisher": "SARS",
+     "title": "Tax Guide for Small Businesses 2025/2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a527469cd06e.pdf.gz",
+     "quote": "A sole proprietorship is a business that is owned and operated by a natural person and is the simplest form of business type. The business itself has no existence separate from the owner who is called the proprietor"
+    },
+    {
+     "url": "https://www.sars.gov.za/wp-content/uploads/Ops/Guides/Legal-Pub-Guide-Gen09-Tax-Guide-for-Small-Businesses.pdf",
+     "publisher": "SARS",
+     "title": "Tax Guide for Small Businesses 2025/2026 — registration",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a527469cd06e.pdf.gz",
+     "quote": "The person must register within 21 business days after becoming liable for any normal tax or becoming liable to submit any return."
+    }
+   ],
+   "notes": "CIPC (cipc.co.za) timed out; registering a sole proprietorship with CIPC is not required (no legal personality)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The SARS income tax reference number, obtained by registering as a taxpayer on SARS eFiling, the SARS MobiApp or at a service centre, within 21 business days of becoming liable.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sars.gov.za/wp-content/uploads/Ops/Guides/Legal-Pub-Guide-Gen09-Tax-Guide-for-Small-Businesses.pdf",
+     "publisher": "SARS",
+     "title": "Tax Guide for Small Businesses 2025/2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a527469cd06e.pdf.gz",
+     "quote": "the person is required to register as a taxpayer with the SARS service centre or on SARS eFiling15 to obtain a tax reference number."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (ordinarily resident, or meeting the physical-presence test) are taxed on worldwide income. 2026/27 brackets: 18% up to R245,100, rising through 26%, 31%, 36%, 39% and 41%, to 45% above R1,878,600. Turnover Tax for micro-businesses (2026/27): 0% to R600,000, 1%, 2%, then 3% above R1.4m, for turnover up to R2.3m. NOT available to natural persons with more than 20% of receipts from 'professional services' (which include consulting, IT, accounting, law and others).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sars.gov.za/wp-content/uploads/Ops/Guides/Legal-Pub-Guide-Gen09-Tax-Guide-for-Small-Businesses.pdf",
+     "publisher": "SARS",
+     "title": "Tax Guide for Small Businesses 2025/2026 — gross income",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a527469cd06e.pdf.gz",
+     "quote": "any person who is a resident , the total amount of worldwide income, in cash or otherwise, received by or accrued to or in favour of the person during the year of assessment"
+    },
+    {
+     "url": "https://www.sars.gov.za/about/sars-tax-and-customs-system/budget/budget-2026-frequently-asked-questions/",
+     "publisher": "SARS",
+     "title": "Budget 2026 Frequently Asked Questions",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a8bc4d778a49.html.gz",
+     "quote": "R0 – R245100: 18% R245101 – R383 100: R44 118 + 26% above R245 100"
+    },
+    {
+     "url": "https://www.sars.gov.za/about/sars-tax-and-customs-system/budget/budget-2026-frequently-asked-questions/",
+     "publisher": "SARS",
+     "title": "Budget 2026 FAQ — Turnover Tax",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a8bc4d778a49.html.gz",
+     "quote": "R0–R600000: 0% (previously R0–R335 000) R600001–R950 000: 1% above R600 000 R950001–R1 400 000: R3 500 + 2% above R950 000 R1400 001+: R12 500 + 3% above R1 400 000 Annual turnover limit for the regime: R2.3 million (up from R1 million)."
+    },
+    {
+     "url": "https://www.sars.gov.za/faq/faq-who-does-not-qualify-to-be-registered-for-turnover-tax/",
+     "publisher": "SARS",
+     "title": "FAQ: Who does not qualify to be registered for Turnover Tax?",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c1efedcc0cb9.html.gz",
+     "quote": "more than 20% of the receipts are derived from rendering a professional service;"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/south-africa/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "South Africa — Residence",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-28bea0ba2c4a.html.gz",
+     "quote": "If not ordinarily resident in South Africa, an individual is considered a South African resident if the individual is physically present in South Africa for more than 91 days, in aggregate, in the relevant tax year and each of the preceding five tax years, and also for more than 915 days, in aggregate, in the preceding five tax years."
+    }
+   ],
+   "notes": "The Budget 2026 FAQ is 'subject to Parliament's legislative process' (the 2026 Rates Bill, still draft per SARS VAT Connect Sept 2026). The list of professional services was seen in SARS search summaries."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 15%. Compulsory registration threshold: R2.3m of taxable supplies per year from 1 April 2026 (voluntary from R120,000). This is proposed in the DRAFT 2026 Rates Bill and not yet promulgated as of Sept 2026, but SARS already applies it to new registrations and deregistrations from 1 April 2026; the previous statutory figure was R1m. Services supplied to non-residents are zero-rated under VAT Act s.11(2)(l), subject to exclusions (e.g. where the recipient is in SA when services are rendered) and documentary proof.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sars.gov.za/businesses-and-employers/my-business-and-tax/vat-connect-issue-21-september-2026/",
+     "publisher": "SARS",
+     "title": "VAT Connect Issue 21 (September 2026) — Registration threshold",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-51bfea146779.html.gz",
+     "quote": "As the proposed amendments will be retrospective once promulgated, SARS is applying the new compulsory registration threshold from 1 April 2026 for new registration and deregistration requests."
+    },
+    {
+     "url": "https://www.sars.gov.za/about/sars-tax-and-customs-system/budget/budget-2026-frequently-asked-questions/",
+     "publisher": "SARS",
+     "title": "Budget 2026 FAQ — VAT thresholds",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a8bc4d778a49.html.gz",
+     "quote": "From 1 April 2026: The compulsory registration threshold applies when the total value of taxable supplies exceeds R2.3 million per annum (increased from R1 million)."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/south-africa/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "South Africa — VAT",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-33964c0373aa.html.gz",
+     "quote": "It is levied at two rates, namely a standard rate (currently 15%) and a zero rate (0%)."
+    },
+    {
+     "url": "https://www.sars.gov.za/lapd-intr-in-2015-05-in85-master-currency-case-and-zero-rating-of-supplies-made-to-non-residents",
+     "publisher": "SARS",
+     "title": "Interpretation Note 85 — zero-rating of supplies made to non-residents (s.11(2)(l))",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-fd752763b0c1.pdf.gz",
+     "quote": "SECTION 11(2)(l) SUBJECT : THE MASTER CURRENCY CASE AND THE ZERO-RATING OF SUPPLIES MADE TO NON-RESIDENTS"
+    },
+    {
+     "url": "https://www.taxfaculty.ac.za/news/read/cross-border-supply-of-internet-services-vat-analysis-under-south-african-law",
+     "publisher": "The Tax Faculty",
+     "title": "Cross-Border Supply of Internet Services: VAT Analysis under South African Law",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-b88beab152a8.html.gz",
+     "quote": "Thus, the supply qualifies for zero-rating under Section 11(2)(l), provided the supplier: Obtains and retains valid documentation confirming the customer's non-resident status"
+    }
+   ],
+   "notes": "TRAP: IOL commentary implied the threshold was in the promulgated Act 3 of 2026, but SARS VAT Connect shows the Acts promulgated 1 Apr 2026 were the 2025 bills; the R2.3m threshold is in the draft 2026 Rates Bill."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Protection of Personal Information Act 4 of 2013 (POPIA), enforced by the Information Regulator. Public and private bodies, including individuals (sole proprietors) and small businesses that process personal information, must register their Information Officer (and deputies) with the Regulator via the eServices portal. Information Officers may take up duties only after registration (s.55). Security compromises are reported via the same portal.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://inforegulator.org.za/popia/",
+     "publisher": "Information Regulator (South Africa)",
+     "title": "POPIA",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-9e88c5dad258.html.gz",
+     "quote": "Individuals (Sole Proprietor), small businesses, and firms are also obliged to register their Information Officers if they process personal information."
+    },
+    {
+     "url": "https://inforegulator.org.za/popia/",
+     "publisher": "Information Regulator (South Africa)",
+     "title": "POPIA — s.55",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-9e88c5dad258.html.gz",
+     "quote": "Registering Information Officers The Information Officers are required, in terms of Section 55(2) of POPIA, to take up their duties only after being registered with the Regulator."
+    },
+    {
+     "url": "https://inforegulator.org.za/",
+     "publisher": "Information Regulator (South Africa)",
+     "title": "Home — Registration of Information Officers",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2aa949c0408c.html.gz",
+     "quote": "In accordance with the stipulations laid out in Section 55 of the Protection of Personal Information Act 4 of 2013 (POPIA), Information Officers must assume their duties only after the responsible party has registered them with the Regulator."
+    }
+   ],
+   "notes": "The Regulator's FAQ reportedly says non-registration is not itself an offence, but the head of the body is liable (search summary; not captured)."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Electronic Communications and Transactions Act 25 of 2002, s.44: in electronic transactions a consumer may cancel without reason or penalty within 7 days of receiving goods, or of concluding a services agreement. The only charge allowed is the direct cost of returning goods, and prepaid amounts must be refunded within 30 days. Statutory exclusions apply (e.g. financial services, auctions, foodstuffs, services begun with consent before the period ends).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.acts.co.za/electronic-communications-and-transactions-act-2002/44__cooling_off_period",
+     "publisher": "Acts Online (hosted statute)",
+     "title": "ECTA s.44 Cooling-off period",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0aef633d8df0.html.gz",
+     "quote": "A consumer is entitled to cancel without reason and without penalty any transaction and any related credit agreement for the supply— (a) of goods within seven days after the date of the receipt of the goods;"
+    },
+    {
+     "url": "https://www.michalsons.com/blog/consumer-protection-provisions-of-the-ect-act/2380",
+     "publisher": "Michalsons",
+     "title": "Consumer protection provisions of the ECT Act",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bcce3d903b19.html.gz",
+     "quote": "(3) If payment for the goods or services has been effected prior to a consumer exercising a right referred to in subsection (1), the consumer is entitled to a full refund of such payment, which refund must be made within 30 days of the date of cancellation."
+    }
+   ],
+   "notes": "The s.42 exclusions list was seen in summaries only."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Turnover Tax: 0% on the first R600,000 and max 3% for micro-businesses up to R2.3m, but excluded for those with more than 20% of receipts from professional services such as IT and consulting (L3). (2) Higher VAT thresholds from 1 Apr 2026 (applied administratively; L4). (3) Zero-rating of services exported to non-residents (L4). (4) Special Economic Zones offer a 15% corporate rate for qualifying companies (not individuals).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sars.gov.za/about/sars-tax-and-customs-system/budget/budget-2026-frequently-asked-questions/",
+     "publisher": "SARS",
+     "title": "Budget 2026 FAQ",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a8bc4d778a49.html.gz",
+     "quote": "Turnover Tax is a separate tax regime for qualifying micro-businesses."
+    },
+    {
+     "url": "https://www.sars.gov.za/about/sars-tax-and-customs-system/budget/budget-2026-frequently-asked-questions/",
+     "publisher": "SARS",
+     "title": "Budget 2026 FAQ — SEZ",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a8bc4d778a49.html.gz",
+     "quote": "Companies in approved Special Economic Zones may qualify for a reduced rate of 15%, subject to the applicable requirements."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The green bar-coded South African identity document or the Smart ID card, which SARB rules require for FX allowances. SARS automatic registration uses the SA ID number.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/Currency%20and%20Exchanges%20Guidelines%20for%20Individuals.pdf",
+     "publisher": "South African Reserve Bank (Financial Surveillance)",
+     "title": "Currency and Exchanges Guidelines for Individuals (1/2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-6e0339150ec2.pdf.gz",
+     "quote": "A single discretionary allowance within a limit of R1 million per calendar year is available to all South African residents who are 18 years and older, and in possession of a valid green bar -coded South African identity document or smart identity document card."
+    }
+   ],
+   "notes": "Home Affairs (dha.gov.za) not consulted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (7) Card payments on your own site through Paystack (a Stripe company). Stripe lists this country under its extended network. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "South Africa: listed in Stripe's extended network (via Paystack) (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "Exchange control for remote freelancers working FROM South Africa: B.17(A) exemption covers services rendered 'while physically abroad' only; confirm with an Authorised Dealer whether local foreign-currency-account retention suffices.",
+  "VAT R2.3m threshold and 2026/27 tax tables are in the draft 2026 Rates Bill (not promulgated as of Sept 2026); SARS applies the threshold administratively. Re-check after promulgation.",
+  "FNB PayPal 30-day withdrawal rule and ~1.5% fee seen only in summaries.",
+  "Payoneer SA evidence weak (general guide + competitor blog).",
+  "CIPC (cipc.co.za) unreachable; Home Affairs ID details not consulted."
+ ]
+}

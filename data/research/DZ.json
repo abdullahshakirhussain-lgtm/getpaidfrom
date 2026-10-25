@@ -1,0 +1,528 @@
+{
+ "code": "DZ",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but proceeds must be repatriated to an Algerian bank. Since Banque d'Algérie Regulation 26-02 (JO n°58, 12 Aug 2026), export proceeds must be repatriated within 120 days of the services being performed (previously 360 days). Up to 180 days is possible only with export-credit insurance. Resident individuals carrying on an economic activity (e.g. registered auto-entrepreneurs) may open a 'compte devise professionnel non commerçant' and credit 100% of service-export proceeds repatriated on time (Instruction 06-2021). Proceeds not domiciled or repatriated late are converted to dinars.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bank-of-algeria.dz/stoodroa/2021/11/instruction062021.pdf",
+     "publisher": "Banque d'Algérie",
+     "title": "Instruction n°06-2021 du 29 juin 2021 (comptes devise commerçant / professionnel non commerçant), art. 4",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1215b5c0337f.pdf.gz",
+     "quote": "ouvrent droit à l’inscription dans ledit compte de l’intégralité du produit de leurs recettes d’exportation de biens et de services totalement ou partiellement rapatriées dans les délais réglementaires"
+    },
+    {
+     "url": "https://www.bank-of-algeria.dz/les-exportateurs-disposent-100-recettes-leurs-exportations/",
+     "publisher": "Banque d'Algérie",
+     "title": "Les exportateurs disposent de 100% des recettes de leurs exportations",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7aa75a04dfe4.html.gz",
+     "quote": "Ladite instruction permet désormais, l’accès à 100% des recettes d’exportation hors hydrocarbures, au profit de l’exportateur."
+    },
+    {
+     "url": "https://www.upgrowth.dz/journal-officiel/reglement-26-02-comptes-devises-rapatriement-exportations",
+     "publisher": "UpGrowth (summary of JO n°58, 12 Aug 2026)",
+     "title": "Règlement 26-02 : rapatriement export sous 120 jours",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-5675ac22fee8.html.gz",
+     "quote": "L'exportateur doit rapatrier la recette provenant de l'exportation dans un délai n'excédant pas cent vingt (120) jours, à compter de la date d'expédition pour les biens ou de la date de réalisation pour les services."
+    },
+    {
+     "url": "https://financesao.com/algerie-la-banque-dalgerie-ramene-a-120-jours-le-delai-de-rapatriement-des-recettes-dexportation/",
+     "publisher": "Finances AO",
+     "title": "La Banque d’Algérie ramène à 120 jours le délai de rapatriement des recettes d’exportation",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-111b6002b166.html.gz",
+     "quote": "Le règlement n° 2016-04 du 17 novembre 2016 permettait en effet un délai maximal de 360 jours à compter de l’expédition des marchandises ou de la réalisation des services."
+    }
+   ],
+   "notes": "Regulation 26-02's JO text itself was not opened (two summaries agree). TRAP: guides published before Aug 2026 still say 360 days. The Banque d'Algérie notice also describes an 80/20 split of proceeds between import needs and the exporter account."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Regulation 07-01 (art. 22) lets any resident or non-resident person open FX accounts with licensed banks. For income from an activity, Instruction 06-2021 provides the professional non-commercial FX account for resident individuals carrying on an economic activity. It cannot go overdrawn, cash withdrawals are only exceptional, and it may be debited for transfers paying activity-related expenses.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bank-of-algeria.dz/stoodroa/2021/11/instruction062021.pdf",
+     "publisher": "Banque d'Algérie",
+     "title": "Instruction n°06-2021, art. 2",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1215b5c0337f.pdf.gz",
+     "quote": "Toute personne physique ou morale résidente exerçant une activité économique conformément à la législation et à la réglementatio n en vigueur, est autorisée à ouvrir auprès des banques, un ou plusieurs compte(s) devise(s) commer çant ou compte(s) devise(s) professionnel non commerçant."
+    },
+    {
+     "url": "https://www.bank-of-algeria.dz/stoodroa/2021/11/instruction062021.pdf",
+     "publisher": "Banque d'Algérie",
+     "title": "Instruction n°06-2021, art. 12",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1215b5c0337f.pdf.gz",
+     "quote": "Les montants inscrits au crédit du compte devise professionnel non commerçant peuvent être utilisés, pour : - tout transfert en paiement de dépenses en relation avec son activité ;"
+    },
+    {
+     "url": "https://www.upgrowth.dz/journal-officiel/reglement-26-02-comptes-devises-rapatriement-exportations",
+     "publisher": "UpGrowth",
+     "title": "Règlement 07-01 art. 22 (as summarised)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-5675ac22fee8.html.gz",
+     "quote": "L'article 22 dispose que toute personne physique ou morale, résidente ou non résidente, est autorisée à ouvrir un ou plusieurs comptes devises à vue et/ou à terme auprès des banques intermédiaires agréés"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Algeria (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Dodo Payments (sellers); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Algeria is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Algeria is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Chargily Pay accepts the domestic CIB and EDAHABIA cards (Visa/Mastercard 'coming soon'). The national e-payment system is domestic only. Chargily's merchant eligibility (auto-entrepreneur card vs commerce register) not confirmed; SATIM/bank merchant contracts not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Limited and unclear. A PayPal account can be opened with Algeria as country of residence, but PayPal's Algeria help reportedly requires a confirmed Visa card or a US bank account to accept funds. Withdrawals go only to cards PayPal shows as eligible in the account, and there is no official list of working Algerian bank cards. Algeria is not on the Payouts list. Any receipts remain subject to repatriation rules (P1).",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://zoomalgerie.com/paypal-algerie/",
+     "publisher": "Dzaïr Zoom (zoomalgerie.com)",
+     "title": "PayPal en Algérie : recevoir de l’argent, carte Visa, retraits et limites (Aug 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d283b6ce56b2.html.gz",
+     "quote": "Pour accepter des fonds, PayPal DZ demande aujourd’hui une Visa confirmée ou un compte bancaire américain ."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": "Searched (2026-10-18): 'PayPal Algérie recevoir argent 2026 freelance Payoneer retrait'. Results gave Dzaïr Zoom (Aug 2026, citing PayPal DZ help), AlgeriaTech (Payoneer context only), a Kolonell comparison (not Algeria-specific) and payment-tech listings. Only one secondary source describes the receiving conditions, and PayPal's DZ help page was not captured, so the fact stays unverified. Treat PayPal as unreliable for Algerian residents.",
+   "note": "Searched 2026-10-18: 'PayPal Algérie recevoir argent impossible 2026 freelance Payoneer retrait Algérie' (Dzaïr Zoom Aug 2026 citing PayPal DZ help; AlgeriaTech; Kolonell). Only one secondary source describes receiving conditions; PayPal DZ help page not captured."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Algeria is NOT on Wise's list of countries whose residents can hold money. Payoneer: widely used by Algerian freelancers as a receiving wallet for platform income, but support is partial and withdrawal routes to dinars are more restricted than in neighbouring countries. Any foreign wallet must end in repatriation to an Algerian bank account (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Algeria."
+    },
+    {
+     "url": "https://algeriatech.news/?p=27653",
+     "publisher": "AlgeriaTech News",
+     "title": "Payment stack for Algerian developers",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-1d8c5f0d777c.html.gz",
+     "quote": "The limitation is that Payoneer’s Algeria support is partial: currency access and withdrawal routes have historically been more restricted than in neighbouring Morocco, where PayPal operates with broader functionality."
+    },
+    {
+     "url": "https://zoomalgerie.com/freelance-algerie-clients-etrangers-statut-paiements-impots-devises/",
+     "publisher": "Dzaïr Zoom",
+     "title": "Freelance en Algérie : statut, impôts et paiements",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-fbc100c119a0.html.gz",
+     "quote": "La disponibilité d’un service ne suffit pas à établir la conformité du circuit. Demandez à votre banque si elle accepte le transfert, les justificatifs de la plateforme et le rapatriement final."
+    }
+   ],
+   "notes": "AlgeriaTech also suggests Wise as a fallback; Wise's own residency list excludes Algeria, so that is not relied on."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: auto-entrepreneur status (Law 22-23 of 18 Dec 2022). Any natural person working individually in an eligible activity, with turnover under the legal ceiling (DZD 5m a year in practice), registers in the national auto-entrepreneur register (ANAE, online) and receives a card. Benefits include exemption from the commerce register, a preferential tax regime and a business bank account. Liberal, regulated and craft professions are excluded. Separately, the e-commerce law (18-05) requires e-commerce activity to be registered in the commerce or craft register with a '.com.dz' site hosted in Algeria. This targets online sales to consumers in Algeria, and how it applies to auto-entrepreneurs selling abroad was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022085.pdf",
+     "publisher": "Journal Officiel de la République Algérienne n°85 (19 Dec 2022)",
+     "title": "Loi n° 22-23 portant statut de l’auto-entrepreneur, art. 2",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8539201f9eb0.pdf.gz",
+     "quote": "— Il est entendu par auto-entrepreneur, toute personne physique exerçant à titre individuel une activité lucrative figurant dans la liste des activités éligibles au statut de l’auto-entrepreneur et dont le chiffre d’affaires annuel n’excède pas un seuil fixé conformément à la législation en vigueur."
+    },
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022085.pdf",
+     "publisher": "Journal Officiel n°85 (2022)",
+     "title": "Loi n° 22-23 — exclusions and benefits",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8539201f9eb0.pdf.gz",
+     "quote": "Sont exclues de la liste des activités prévue à l’alinéa ci-dessus, les fonctions libérales, les professions et les activités réglementées et artisanales."
+    },
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022085.pdf",
+     "publisher": "Journal Officiel n°85 (2022)",
+     "title": "Loi n° 22-23 — benefits",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8539201f9eb0.pdf.gz",
+     "quote": "— de la dispense de l’obligation d’inscription au registre du commerce ; — d’un régime fiscal préférentiel ; — de l’ouverture d’un compte bancaire commercial."
+    },
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018028.pdf",
+     "publisher": "Journal Officiel n°28 (2018)",
+     "title": "Loi n° 18-05 relative au commerce électronique",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-41d8c23335bc.pdf.gz",
+     "quote": "— L’activité de commerce électronique est soumise à inscription, selon le cas , au registre du commerce ou au registre de l’artisanat et des métiers , et à la publication d’un site ou d’une page web hébergé en Algérie avec une extension « .com.dz »."
+    }
+   ],
+   "notes": "The DZD 5m ceiling comes from secondary sources (UpGrowth, TSA) and the tax ceiling; the law refers to a threshold 'fixed by legislation'. The activity list (Decree 23-197, ~1,400+ activities including digital services per UpGrowth) was not read."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIF (numéro d'identification fiscale). Auto-entrepreneurs must obtain a NIF and declare to CASNOS, the social security fund for the self-employed (Law 22-23, art. 10). Registration uses the national ID number (NIN) on the biometric ID card.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022085.pdf",
+     "publisher": "Journal Officiel n°85 (2022)",
+     "title": "Loi n° 22-23, art. 10",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8539201f9eb0.pdf.gz",
+     "quote": "Art. 10. — L’auto-entrepreneur est soumis à l’obligation d’obtention d’un numéro d’identification fiscale et de déclaration auprès de l’organisme de sécurité sociale des non-salariés."
+    }
+   ],
+   "notes": "DGI NIF procedure page not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents domiciled in Algeria fall within IRG on worldwide income. The 2026 scale runs from 0% up to DZD 240,000 to 35% above DZD 3,840,000. Auto-entrepreneurs instead pay the IFU at 0.5% of turnover (Finance Law 2024, art. 18; was 5%), in full discharge of IRG and VAT. Separately, foreign-currency-generating exports of services by individuals are permanently exempt from IRG pro rata to foreign-currency turnover (CID art. 13), if proceeds are repatriated. Advisers caution against applying this automatically to an auto-entrepreneur's IFU without written confirmation from the tax office.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.richelieu-international.com/expatrie-algerie-fiscalite/",
+     "publisher": "Richelieu International",
+     "title": "Expatrié en Algérie : quelle fiscalité ?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-dd3928a96e1a.html.gz",
+     "quote": "La résidence fiscale détermine l’essentiel de votre imposition : une fois domicilié fiscalement en Algérie, vos revenus mondiaux entrent en principe dans le champ de l’IRG, sous réserve de la convention franco-algérienne."
+    },
+    {
+     "url": "https://assets.kpmg.com/content/dam/kpmgsites/dz/pdf/newsletter/loi-de-finances-2024-fr.pdf.coredownload.inline.pdf",
+     "publisher": "KPMG Algérie",
+     "title": "Loi de finances 2024 — newsletter",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-4f7942e66d68.pdf.gz",
+     "quote": "L’IFU relatif aux activités exercées sous le statut d’auto-entrepreneur est désormais fixé au taux de 0.5% au lieu de 5%."
+    },
+    {
+     "url": "https://www.lpalaw.com/wp-content/uploads/2024/01/2024.01.03-Smart-News-loi-de-finances-pour-2024.pdf",
+     "publisher": "LPA-CGR Avocats",
+     "title": "Smart News — loi de finances pour 2024",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-02f3eeb6874b.pdf.gz",
+     "quote": "Précédemment fixé à 5% pour les activités sous le statut d'auto-entrepreneur selon la Loi de Finances pour 2023, le taux est désormais considérablement réduit à 0,5%."
+    },
+    {
+     "url": "https://mfa.gov.dz/media/images/PDF/Guide-Exportateur-Algerien-2021.pdf",
+     "publisher": "Ministère des Affaires Étrangères (Algérie)",
+     "title": "Guide pratique de l’exportateur algérien 2021",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-c4ce283a97ec.pdf.gz",
+     "quote": "Les opérations d'exportation de biens et des services, \"génératrices de devises\", réalisées par les personnes physiques, bénéficient d'une exonération \"permanente\" en matière d'IRG (impôt sur le revenu global). Cette exonération est octroyée au prorata du chiffre d’affaires réalisé en devises."
+    },
+    {
+     "url": "https://zoomalgerie.com/freelance-algerie-clients-etrangers-statut-paiements-impots-devises/",
+     "publisher": "Dzaïr Zoom",
+     "title": "Freelance en Algérie — exonération export",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-fbc100c119a0.html.gz",
+     "quote": "Enfin, l’exonération prévue pour certaines recettes d’exportation de services ne doit pas être appliquée automatiquement à l’IFU de l’auto-entrepreneur sans confirmation écrite de l’administration fiscale."
+    }
+   ],
+   "notes": "PwC Worldwide Tax Summaries' Algeria pages returned 404 on 2026-10-18 (removed). The IRG scale is from Richelieu only. The export exemption is from the 2021 MFA guide; its current wording in the CIDTA was not checked."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 19% standard and 9% reduced. Intellectual services such as consulting, marketing and IT development fall under 19%. Exports of goods are exempt (CTCA art. 13), with VAT-free purchases for services directly linked to exporting. The VAT treatment of exported services themselves was not confirmed. Auto-entrepreneurs' 0.5% IFU covers VAT, so they do not charge VAT separately.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://merbouhi.com/blog/tva-algerie-19-9-exonere.html",
+     "publisher": "Merbouhi",
+     "title": "TVA en Algérie : Taux 19%, 9% et Exonérations",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-66f1454b78b3.html.gz",
+     "quote": "Prestations de services intellectuels (consulting, marketing, développement informatique)."
+    },
+    {
+     "url": "https://lamacta.com/en/blog/tva-algerie-2026-taux-exonerations-declaration/",
+     "publisher": "Lamacta",
+     "title": "TVA Algérie 2026 : taux 19 %, G50 et exonérations",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d8d622b9f214.html.gz",
+     "quote": "Les deux taux de TVA applicables en 2026 Taux standard — biens et services courants 19 % Taux réduit — biens essentiels et santé 9 %"
+    },
+    {
+     "url": "https://www.commerce.gov.dz/fr/questions-frequentes/themes/facilitations-fiscales",
+     "publisher": "Ministère du Commerce (Algérie)",
+     "title": "Questions fréquentes — facilitations fiscales",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-d88584fd5c4f.html.gz",
+     "quote": "Sont exemptées de la TVA, les affaires de vente et de façon qui portent sur les marchandises exportées"
+    },
+    {
+     "url": "https://www.upgrowth.dz/auto-entrepreneur-impots",
+     "publisher": "UpGrowth",
+     "title": "Auto-entrepreneur : impôts",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-ce6d76d67c3d.html.gz",
+     "quote": "bénéficient d'un taux unique de 0,5 % du chiffre d'affaires annuel, libératoire de tout autre impôt (IRG, TVA)."
+    }
+   ],
+   "notes": "Exported services: one blog claims exemption with refund under CTCA art. 9; the Ministry FAQ covers goods only. Not established. Lamacta's 'IFU threshold' figure looks erroneous and is not used."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 18-07 (2018), amended by Law 25-11 (July 2025). Every processing of personal data requires a prior declaration to, or authorisation from, the national authority (ANPDP), with a commitment to comply (art. 12–13). A simplified declaration exists for low-risk categories.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018034.pdf",
+     "publisher": "Journal Officiel n°34 (10 Jun 2018)",
+     "title": "Loi n° 18-07, art. 12",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f11f8132804f.pdf.gz",
+     "quote": "— Nonobstant toute disposition législative contraire, toute opération de traitement des données à caractère personnel, est soumise à une déclaration préalable à l’autorité nationale ou à son autorisation conformément aux dispositions prévues par la présente loi."
+    },
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018034.pdf",
+     "publisher": "Journal Officiel n°34 (2018)",
+     "title": "Loi n° 18-07 — simplified declaration",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f11f8132804f.pdf.gz",
+     "quote": "qui font l’objet d’une déclaration simplifiée"
+    }
+   ],
+   "notes": "Law 25-11 amendments (DPO, impact assessments, breach notification) not read from the official text; secondary sources conflict on details."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 18-05 on e-commerce. E-suppliers must disclose, among other things, their commerce-register or artisan-card number and any withdrawal conditions. If delivery deadlines are missed, the e-consumer may return the product within 4 working days of actual delivery. No general no-reason cooling-off period was found in the law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018028.pdf",
+     "publisher": "Journal Officiel n°28 (2018)",
+     "title": "Loi n° 18-05 — late delivery",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-41d8c23335bc.pdf.gz",
+     "quote": "— En cas de non-respect par le e-fournisseur des délais de livraison, le e-consommateur peut réexpédier le produit en l’état dans un délai n’exédant pas quatre (4) jours ouvrables, à compter de la date de la livraision effective du produit"
+    },
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2018/F2018028.pdf",
+     "publisher": "Journal Officiel n°28 (2018)",
+     "title": "Loi n° 18-05 — disclosures",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-41d8c23335bc.pdf.gz",
+     "quote": "— les conditions et les délais de rétractation, le cas échéant ;"
+    }
+   ],
+   "notes": "Law 18-05 governs supplies to consumers in Algeria; exports to foreign consumers are mainly governed by the buyer's law."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Auto-entrepreneur status: 0.5% IFU covering IRG and VAT, no commerce-register requirement, and the activity can be domiciled at home, which is then protected from seizure (L1/L3). (2) Permanent IRG exemption for individuals' foreign-currency service exports, pro rata (L3; confirm for IFU). (3) 100% of repatriated service-export proceeds can be held in an FX account (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.joradp.dz/FTP/JO-FRANCAIS/2022/F2022085.pdf",
+     "publisher": "Journal Officiel n°85 (2022)",
+     "title": "Loi n° 22-23 — domiciliation",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8539201f9eb0.pdf.gz",
+     "quote": "— L’auto-entrepreneur peut domicilier son activité dans son lieu de résidence ou dans des espaces de travail communs."
+    },
+    {
+     "url": "https://mfa.gov.dz/media/images/PDF/Guide-Exportateur-Algerien-2021.pdf",
+     "publisher": "Ministère des Affaires Étrangères (Algérie)",
+     "title": "Guide pratique de l’exportateur algérien 2021 — IRG",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-c4ce283a97ec.pdf.gz",
+     "quote": "Des exonérations permanentes de l'impôt sur les bénéfices des sociétés (IBS) , de la taxe sur l’activité professionnelle (TAP) et de l’impôt sur le revenu global (IRG) sont accordées pour les opérations de ventes de biens et de services destinées à l’exportation."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The biometric national identity card (CNI) with its 18-digit national identification number (NIN). It is required for ANAE auto-entrepreneur registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.algerie360.com/carte-dauto-entrepreneur-inscription-avantages-et-conditions-deligibilite/",
+     "publisher": "Algérie 360",
+     "title": "Carte d’auto-entrepreneur : inscription, avantages et conditions",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0e5324a3bff1.html.gz",
+     "quote": "Pour s’inscrire, l’auto-entrepreneur doit simplement se munir de sa carte d’identité biométrique."
+    },
+    {
+     "url": "https://www.upgrowth.dz/auto-entrepreneur-inscription-anae",
+     "publisher": "UpGrowth",
+     "title": "Inscription ANAE",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-4af5ce107d0e.html.gz",
+     "quote": "Numéro CNI / NIN (numéro d'identification national) à 18 chiffres."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Algeria: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "PayPal receiving/withdrawal for Algerian accounts (single secondary source; PayPal DZ help not captured).",
+  "Regulation 26-02 JO text not opened (two summaries agree on 120 days for services).",
+  "Whether the permanent IRG exemption for foreign-currency service exports applies to auto-entrepreneurs paying IFU.",
+  "VAT treatment of exported services (art. 9 vs art. 13 CTCA) not established.",
+  "Law 18-05's commerce-register requirement vs auto-entrepreneur register exemption for online sellers.",
+  "Chargily merchant eligibility; Decree 23-197 activity list; Law 25-11 data-protection amendments.",
+  "PwC Algeria pages removed (404); IRG scale from one secondary (Richelieu)."
+ ]
+}

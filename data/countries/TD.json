@@ -1,0 +1,521 @@
+{
+ "code": "TD",
+ "un_name": "Chad",
+ "m49_name": "Chad",
+ "iso3": "TCD",
+ "m49": "148",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under CEMAC exchange control (Regulation 02/18/CEMAC/UMAC/CM). Service-export receipts must be collected and repatriated by the exporter through its domiciliary bank via the BEAC (art. 70). Service transactions of FCFA 5m or more must be domiciled with a CEMAC credit institution (art. 68) and backed by a contract, purchase order or invoice (art. 69). Foreign currency received by banks is surrendered to the BEAC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM portant réglementation des changes",
+     "title": "Règlement 02/18/CEMAC, art. 70",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 70. Les recettes d'exportation des services sont recouvrées et rapatriées par I'exportateur à travers sa banque domiciliataire par I'entremise de la Banque Centrale."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 68",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 68. Les transactions avec I'extérieur liées aux services d'un montant égal ou supérieur à 5 millions de Francs CFA sont domiciliées auprès d'un établissement de crédit de la CEMAC."
+    }
+   ],
+   "notes": "OCR text of the BEAC PDF (e.g. 'I'extérieur'); quotes copied as extracted. No specific repatriation deadline for services found (goods: 150 days). Later BEAC instructions not checked. Applies in all six CEMAC states."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "No. Opening a foreign-currency account within CEMAC for a resident is not authorised (art. 43). Only resident legal persons may be authorised by the BEAC. Resident individuals' accounts abroad must be declared to the BEAC (art. 42).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 43",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 43. L'ouverture d'un compte en devises dans la CEMAC au profit d'un résident n'est pas autorisée."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 42",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 42. Les comptes des personnes physiques résidentes ouverts à l'étranger sont déclarés à la Banque Centrale."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Chad (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Chad is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Chad is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established. No gateway onboarding individuals for online acceptance was sourced."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Chad is listed as a PayPal market but is not on the PayPal Payouts list. No source on receiving or withdrawing was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony on withdrawals in Chad captured on 2026-10-21.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Chad is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Chad is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed. Under CEMAC rules, individuals must declare foreign accounts to the BEAC (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Chad.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: an individual enterprise (entreprise individuelle), operating in the entrepreneur's own name. Registration goes through the one-stop shop of ANIE (Agence Nationale des Investissements et des Exportations); the legal target is 72 hours, which ANIE said in 2025 it was close to meeting. Fees were not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/tchad/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Tchad - Guide pratique 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-ae71ed7e3d43.html.gz",
+     "quote": "Entreprise Individuelle La forme la plus simple, où l'entrepreneur exerce son activité en son nom propre."
+    },
+    {
+     "url": "https://tchadinfos.com/2025/03/07/lanie-sensibilise-sur-la-formalisation-des-entreprises/",
+     "publisher": "Tchadinfos",
+     "title": "L’ANIE sensibilise sur la formalisation des entreprises (7 Mar 2025)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-d1e7fcab51f9.html.gz",
+     "quote": "Si les textes prévoient qu’une entreprise peut être créée au bout de 72 heures, l’on n’est pas loin de cette disposition légale, affirme Moustapha Ali Moustapha, coordonnateur du guichet unique de l’ANIE."
+    }
+   ],
+   "notes": "ANIE fee schedule not captured. OHADA entreprenant status also available in principle (AUDCG art. 30)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIF (Numéro d'Identification Fiscale), from the tax administration. Small IGL taxpayers need a tax-identifier certificate to declare and pay through the e-Tax portal. Since the 2026 Finance Law, a 15% prepayment (30% for repeat cases) applies to unregistered economic operators.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/tchad/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Tchad - Guide pratique 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-ae71ed7e3d43.html.gz",
+     "quote": "Obtention du Numéro d'Identification Fiscale (NIF) : S'enregistrer auprès de l'administration fiscale pour obtenir le NIF."
+    },
+    {
+     "url": "https://www.atpe.td/igl-le-regime-simplifie-dimposition-fiscale-simpose-aux-chefs-dentreprises/",
+     "publisher": "ATPE (Agence Tchadienne de Presse et d'Edition)",
+     "title": "IGL : Le régime simplifié d’imposition fiscale s’impose aux chefs d’entreprises",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-539576adbbd2.html.gz",
+     "quote": "Il explique que pour procéder au paiement, les contribuables de IGL (impôt général libératoire) doivent juste avoir un certificat d’identifiant fiscal."
+    },
+    {
+     "url": "https://tchadinfos.com/2026/01/29/loi-de-finances-2026-la-direction-generale-des-impots-detaille-les-nouvelles-mesures-fiscales/",
+     "publisher": "Tchadinfos",
+     "title": "Loi de finances 2026 : la Direction générale des impôts détaille les nouvelles mesures fiscales (29 Jan 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-4833c8b8af58.html.gz",
+     "quote": "Le précompte appliqué aux opérateurs économiques non immatriculés est relevé à 15 %, avec un taux de 30 % en cas de récidive, afin d’encourager l’entrée dans le secteur formel."
+    }
+   ],
+   "notes": "DGI's NIF procedure page not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents of Chad are subject to personal income tax on worldwide income (PwC); non-residents only on Chad-source income. Small businesses pay the Impôt Général Libératoire (IGL) via e-Tax; the DGI said those with turnover not exceeding FCFA 2m are exempt. The current IGL turnover ceiling was not confirmed (a 2020 finance-law text cites FCFA 50m).",
+   "status": "unverified",
+   "note": "Worldwide-income rule from one secondary domain (PwC) only; IGL ceiling not found in a 2026 source (LF2026 text and CGI 2026 not accessible on 2026-10-21).",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/chad/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Chad - Individual - Taxes on personal income",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-2500da948572.html.gz",
+     "quote": "with residence in Chad is subject to personal income tax (PIT) on worldwide income."
+    },
+    {
+     "url": "https://www.atpe.td/igl-le-regime-simplifie-dimposition-fiscale-simpose-aux-chefs-dentreprises/",
+     "publisher": "ATPE (Agence Tchadienne de Presse et d'Edition)",
+     "title": "IGL : Le régime simplifié d’imposition fiscale s’impose aux chefs d’entreprises (undated, c. 2022)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-539576adbbd2.html.gz",
+     "quote": "“Au cas où vous êtes un contribuable et que vous ne réalisez pas un chiffre d’affaires qui dépasse 2 millions, vous êtes exonérés de l’impôt général libératoire”."
+    }
+   ],
+   "notes": "LF2026 introduces separate taxation of individuals by income category (press); details not read."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT rate 18%, with 9% on listed local products and 0% on exports and related international transport (PwC; Central Africa Tax Guide). Since the 2026 Finance Law, digital platforms must collect and remit VAT. The registration threshold and whether exported services qualify for 0% were not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/chad/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Chad - Corporate - Other taxes",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-5808e0baabc5.html.gz",
+     "quote": "The VAT rate applicable in Chad is: 18% on all taxable operations."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/chad/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Chad - Corporate - Other taxes",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-5808e0baabc5.html.gz",
+     "quote": "0% on exports and their related international transportation, refuelling operations for aircraft with a foreign destination, and products and sub-products of local agri-food industry (excluding alcohol)."
+    },
+    {
+     "url": "https://centralafricataxguide.com/the-republic-of-chad/value-added-tax-vat/",
+     "publisher": "Central Africa Tax Guide",
+     "title": "Taxe sur la Valeur Ajoutée (TVA) - Tchad",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-019be525d45e.html.gz",
+     "quote": "Rates 18% for all taxable activities 9% for applicable to local food and construction necessities"
+    },
+    {
+     "url": "https://africarrieres.com/tchad/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Tchad - Guide pratique 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-ae71ed7e3d43.html.gz",
+     "quote": "TVA (%) 17,5 % (taux normal légal) ;"
+    },
+    {
+     "url": "https://tchadinfos.com/2026/01/29/loi-de-finances-2026-la-direction-generale-des-impots-detaille-les-nouvelles-mesures-fiscales/",
+     "publisher": "Tchadinfos",
+     "title": "Loi de finances 2026 : la DGI détaille les nouvelles mesures fiscales (29 Jan 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-4833c8b8af58.html.gz",
+     "quote": "Les plateformes numériques sont désormais tenues de collecter et reverser la TVA."
+    }
+   ],
+   "notes": "TRAP: Africarrieres (2026 guide) gives 17.5% as 'taux normal légal', citing PwC's 2024 corporate summary; PwC's current page and the Central Africa Tax Guide both give 18%. Threshold not found (50m figures online are UEMOA, not Chad)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 007/PR/2015 of 10 Feb 2015 on personal data protection, implemented by Decree 075/PR/2019. The authority is ANSICE. Processing not under the authorisation regime (e.g. genetic or biometric data) must be declared in writing to ANSICE. Transfers outside CEMAC or ECCAS require an adequate level of protection, and ANSICE must be informed beforehand.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=TD&t=law",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Chad",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-b99eb3794a4c.html.gz",
+     "quote": "The regime of declaration Apart from the data provided for by the authorisation regime, any processing of personal data must be declared in a written form and addressed to ANSICE."
+    },
+    {
+     "url": "https://uneca.org/sites/default/files/ATPC/cp/Digital%20trade%20regulatory%20integration%20-%20Country%20profile%20-%20CHAD%20-%20ENG.pdf",
+     "publisher": "UN Economic Commission for Africa (ATPC)",
+     "title": "Digital trade regulatory integration — Country profile — Chad",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-c0a947d1a838.pdf.gz",
+     "quote": "The Data Protection Act stipulates that the transfer of personal data to non CEMAC or ECCAS members can take place only if the country ensures an adequate level of privacy protection and fundamental rights and freedoms."
+    }
+   ],
+   "notes": "Law text (arcep.td PDF) returned 404 on 2026-10-21."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 008/PR/2015 on electronic transactions requires anyone engaged in e-commerce to give easy, direct and permanent access to information (art. 39); no licence is needed for e-commerce. No withdrawal right or refund period was found.",
+   "status": "unverified",
+   "note": "Only the UNECA profile captured; law text (arcep.td Loi-N°-08-PR-2015.pdf) returned 404 on 2026-10-21; searches for a Chadian withdrawal period found none.",
+   "sources": [
+    {
+     "url": "https://uneca.org/sites/default/files/ATPC/cp/Digital%20trade%20regulatory%20integration%20-%20Country%20profile%20-%20CHAD%20-%20ENG.pdf",
+     "publisher": "UN Economic Commission for Africa (ATPC)",
+     "title": "Digital trade regulatory integration — Country profile — Chad",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-c0a947d1a838.pdf.gz",
+     "quote": "008/PR/2015 of 25 November 2014 on electronic transactions provides that, without prejudice to other le- gal and regulatory requirements, any natural or legal person who engages in e-commerce shall be required to provide easy, direct and permanent access to information to those for whom the supply of goods or services is intended and to the certification authority."
+    }
+   ],
+   "notes": "Law date given as 25 Nov 2014 (UNECA) vs 10 Feb 2015 (ITA, Council of Europe) — likely adoption vs promulgation."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. Special economic zones get ten years of reductions and exemptions under the 2026 Finance Law, which is not relevant to individual freelancers.",
+   "status": "unverified",
+   "note": "No source on incentives for individual digital businesses found on 2026-10-21.",
+   "sources": [
+    {
+     "url": "https://tchadinfos.com/2026/01/29/loi-de-finances-2026-la-direction-generale-des-impots-detaille-les-nouvelles-mesures-fiscales/",
+     "publisher": "Tchadinfos",
+     "title": "Loi de finances 2026 (29 Jan 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-4833c8b8af58.html.gz",
+     "quote": "En contrepartie, elles bénéficieront, sur dix ans, de réductions et exonérations fiscales importantes, notamment sur l’impôt sur les sociétés, la TVA sur les équipements et les droits d’enregistrement."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card is issued by ANATS (Agence Nationale des Titres Sécurisés) and has been fee-paying again since August 2023. Enrolment in the biometric register gives a Numéro National d'Identification (NNI), the only way to obtain a secure ID document. Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Only press (Tchadinfos) captured; no ANATS or bank/COBAC KYC source on 2026-10-21.",
+   "sources": [
+    {
+     "url": "https://tchadinfos.com/2023/08/02/tchad-fin-de-la-gratuite-de-la-delivrance-de-la-carte-nationale-didentite/",
+     "publisher": "Tchadinfos",
+     "title": "Tchad : fin de la gratuité de la délivrance de la carte nationale d’identité (2 Aug 2023)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-a9e55f06b1b7.html.gz",
+     "quote": "« Nous exhortons chaque Tchadien à venir s’enrôler et obtenir son numéro National d’Identification (NNI), lequel l’inscrit dans le registre national biométrique des populations et seul moyen qui ouvre la porte pour se faire délivrer un titre sécurisé », appelle-t-elle."
+    },
+    {
+     "url": "https://tchadinfos.com/2023/08/02/tchad-fin-de-la-gratuite-de-la-delivrance-de-la-carte-nationale-didentite/",
+     "publisher": "Tchadinfos",
+     "title": "Tchad : fin de la gratuité de la délivrance de la carte nationale d’identité (2 Aug 2023)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-a9e55f06b1b7.html.gz",
+     "quote": "Après 8 mois de gratuité, la délivrance de la carte nationale d’identité est désormais payante."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed). The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Chad: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Chad: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Chad: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

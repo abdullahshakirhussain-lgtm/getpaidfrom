@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Get paid from {{ c.name }}: platforms, bank accounts, tax | Get Paid From{% endblock %}
+{% block description %}How to get paid from {{ c.name }}: which payment platforms work, foreign-currency accounts, tax ID, VAT and registration, with sources checked up to {{ c.checked }}.{% endblock %}
+{% block robots %}{% if c.noindex %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
+{% block main %}
+<nav class="crumbs"><a href="{{ root }}#countries">Countries</a> › {{ c.region }}</nav>
+<h1>Get paid from {{ c.name }}</h1>
+{% if c.official %}<p class="small official">Official name: {{ c.official }}</p>{% endif %}
+<p class="meta">
+  <span class="badge ok">{{ c.n_verified }} of {{ c.n_facts }} verified</span>
+  {% if c.n_gaps %}<span class="badge muted">{{ c.n_gaps }} not yet researched</span>{% endif %}
+  <span>Sources checked {{ c.first }}{% if c.first != c.checked %} to {{ c.checked }}{% endif %}</span>
+</p>
+
+<nav class="toc" aria-label="On this page">
+  {% for sid, title, facts in c.sections %}<a href="#{{ sid }}">{{ title }}</a>{% if sid == "start" %}<a href="#platforms">Platforms</a>{% endif %}{% endfor %}
+</nav>
+
+{% macro fact(f) %}
+<article class="fact" id="{{ f.code }}">
+  <header>
+    <h3><span class="code">{{ f.code }}</span> {{ f.title }}</h3>
+    <span class="badge {{ f.tone }}">{{ f.badge }}</span>
+  </header>
+  <p class="q">{{ f.question }}</p>
+  {% if f.gap %}
+  <p class="gap">We have not found a reliable source for this yet, so we leave it blank rather than guess.</p>
+  {% elif f.routes %}
+  {% if f.routes.barriers %}
+  <h4 class="sub">What gets in the way</h4>
+  <ul class="barriers">{% for b in f.routes.barriers %}<li>{{ (b[:1]|upper ~ b[1:])|rich }}</li>{% endfor %}</ul>
+  {% endif %}
+  {% if f.routes.routes %}
+  <h4 class="sub">Routes that work</h4>
+  <ol class="routes">{% for r in f.routes.routes %}<li>{{ r|rich }}</li>{% endfor %}</ol>
+  {% endif %}
+  <p class="avoid">{{ f.routes.closing|rich }}</p>
+  {% if f.notes %}<p class="notes"><strong>Note:</strong> {{ f.notes|rich }}</p>{% endif %}
+  {% else %}
+  <p class="a">{{ f.answer|rich }}</p>
+  {% if f.notes %}<p class="notes"><strong>Note:</strong> {{ f.notes|rich }}</p>{% endif %}
+  {% if f.note and f.tone != "ok" %}<p class="why">Why this rating: {{ f.note }}</p>{% endif %}
+  {% endif %}
+  {% if f.sources %}
+  <details class="sources">
+    <summary>{{ f.sources|length }} source{{ "s" if f.sources|length != 1 }}</summary>
+    <ol>
+      {% for s in f.sources %}
+      <li>
+        <a href="{{ s.url }}" rel="nofollow noopener" target="_blank">{{ s.publisher }}{% if s.title and s.title != s.publisher %}: {{ s.title }}{% endif %}</a>
+        <span class="tag {{ 'off' if s.official else 'sec' }}">{{ "official" if s.official else "secondary" }}</span>
+        {% if s.retrieved %}<span class="small">checked {{ s.retrieved }}</span>{% endif %}
+        {% if s.quote %}<blockquote{% if s.summary %} class="summary"{% endif %}>{% if s.summary %}<em>Summary of the source list:</em> {% endif %}{{ s.quote }}</blockquote>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+  {% endif %}
+</article>
+{% endmacro %}
+
+{% for sid, title, facts in c.sections %}
+<section id="{{ sid }}">
+  <h2>{{ title }}</h2>
+  {% for f in facts %}{{ fact(f) }}{% endfor %}
+</section>
+{% if sid == "start" %}
+<section id="platforms">
+  <h2>Platforms</h2>
+  <p class="small">From each platform's own country list, as captured on the date shown. Being listed does not guarantee approval for your account.</p>
+  {% for group, rows in c.platforms %}
+  <h3 class="pgroup">{{ group }}</h3>
+  <table class="ptable">
+    <tbody>
+    {% for p in rows %}
+      <tr>
+        <th scope="row">{{ p.name }}</th>
+        <td><span class="dot {{ p.tone }}" aria-hidden="true"></span>{{ p.label }}{% if p.caveat %}<details class="cav"><summary>Caveat</summary>{{ p.caveat }}</details>{% endif %}</td>
+        <td class="src"><a href="{{ p.url }}" rel="nofollow noopener" target="_blank">source</a><span class="small">{{ p.retrieved }}</span></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endfor %}
+</section>
+{% endif %}
+{% endfor %}
+{% endblock %}

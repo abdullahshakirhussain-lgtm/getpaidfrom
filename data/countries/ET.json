@@ -1,0 +1,627 @@
+{
+ "code": "ET",
+ "un_name": "Ethiopia",
+ "m49_name": "Ethiopia",
+ "iso3": "ETH",
+ "m49": "231",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "13-11-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, through Ethiopian banks, within NBE controls. Since the February 2026 relaxation of Directive FXD/01/2024 (amendment FXD/04/2026), any service exporter may keep 100% of export proceeds in a foreign-exchange retention account indefinitely. Previously part had to be converted. Goods exporters still face a 50% conversion rule. Retention-account holders can get internationally recognised cards for outbound e-commerce payments. Whether an unregistered individual freelancer counts as a 'service exporter' eligible for a retention account was not established; banks may require a TIN and business licence.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice: Relaxation of Foreign Exchange Directives (FXD/01/2024), Feb 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "Any service exporter is allowed to hold one hundred percent (100%) of its export proceeds in foreign exchange retention account for indefinite periods."
+    },
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice — cards for FX account holders",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "Authorized banks are allowed to issue internationally recognized cards for all foreign exchange account holders that will be used by the customers to make outbound retail payments including e-commerce as long as the account holders have sufficient FX in their accounts."
+    },
+    {
+     "url": "https://capitalethiopia.com/2026/02/11/nbe-rolls-out-major-forex-liberalization-100-retention-for-service-exporters-higher-bureau-limits/",
+     "publisher": "Capital (Ethiopia)",
+     "title": "NBE rolls out major forex liberalization: 100% Retention for Service Exporters (11 Feb 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-06b17a9c1bce.html.gz",
+     "quote": "Service exporters will now be allowed to retain 100 percent of their export proceeds in foreign exchange retention accounts for an indefinite period, a significant shift from previous retention limits and time caps."
+    }
+   ],
+   "notes": "The directive PDF (FXD/04/2026) link on nbe.gov.et returned 404; the NBE public notice was read. Tech-ish (secondary) frames it as covering freelance developers, but the NBE text says 'service exporter' without defining individuals."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, for qualifying sources. Service exporters use retention accounts (P1). The February 2026 relaxation also removed the USD 100 minimum for foreign-exchange savings accounts for resident and non-resident Ethiopians. FX account holders may pay a spouse's and children's education, medical and travel costs abroad from the account with documents.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice — FX savings accounts",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "The minimum requirement, USD 100 to open a foreign exchange savings account for resident and non-resident Ethiopians, including foreign nationals of Ethiopian origin has been removed."
+    },
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice — uses of FX accounts",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "Any foreign exchange account holder, including retention accounts holders, can pay from his/her forex account for his/her spouse’s and children’s education, medical and travel expenses abroad upon presentation of valid documents."
+    }
+   ],
+   "notes": "Which inflows a resident's ordinary FX savings account may receive (beyond retention-account export proceeds) was not established from the directive text."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Ethiopia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Ethiopia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Ethiopia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Chapa, NBE-licensed in 2022 and the first non-bank payment gateway, lets businesses accept local and international payment methods. Merchant onboarding requirements could not be read from Chapa's own site (client-side rendering); press reports describe KYC with business details. Sources are from 2022. Whether an unlicensed individual can onboard (vs. a TIN plus business licence) is unconfirmed. Telebirr merchant options not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Ethiopia is a listed PayPal market, but Ethiopian-registered accounts can only send and shop. They cannot receive payments or withdraw to Ethiopian banks. Ethiopia is not on the PayPal Payouts list. Xoom (PayPal-owned) handles inbound remittances to Ethiopia, which is a separate service.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.skydo.com/people-ask/does-paypal-work-in-ethiopia",
+     "publisher": "Skydo",
+     "title": "Does PayPal work in Ethiopia",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-c88b6d20577d.html.gz",
+     "quote": "Receiving money: Standard accounts registered in Ethiopia cannot receive payments or withdraw funds."
+    },
+    {
+     "url": "https://etcareers.com/blog/freelancing-remote-work-ethiopia",
+     "publisher": "ETCareers",
+     "title": "Freelancing in Ethiopia: How to Earn USD on Upwork and Fiverr (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-b251e142cdb6.html.gz",
+     "quote": "Many freelancers use platforms like Payoneer or PayPal (linked to international accounts) to receive funds."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": "Accounts 'linked to international accounts' (registered abroad) are not a lawful route for residents, and the guide does not recommend them."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Ethiopia is NOT on Wise's list of countries whose residents can hold money. Payoneer: no reliable source confirming Payoneer accounts and withdrawals to Ethiopian banks for residents was found. A 2026 guide mentions Payoneer use only loosely. Proceeds should reach an Ethiopian bank, where service-export receipts can sit in a retention account (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Ethiopia."
+    },
+    {
+     "url": "https://etcareers.com/blog/freelancing-remote-work-ethiopia",
+     "publisher": "ETCareers",
+     "title": "Freelancing in Ethiopia (2026) — bank integration",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-b251e142cdb6.html.gz",
+     "quote": "Local Bank Integration: Some platforms now allow direct transfers to Ethiopian banks, though exchange rates and regulations by the National Bank of Ethiopia (NBE) apply."
+    }
+   ],
+   "notes": "Payoneer status for Ethiopia is unconfirmed; treat as unavailable until a Payoneer or NBE source says otherwise."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A formal sole proprietorship means commercial registration (unique trade name) and a business licence from the Ministry of Trade and regional trade bureaus, increasingly online via the eTrade portal, with a TIN. In practice, tax rules penalise unlicensed suppliers: payers withhold 30% instead of 3% when the supplier has no TIN and business licence. Informal individual online sellers are still 'E-Commerce Operators' under the e-commerce law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-ethiopia/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Ethiopia",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-1860901b375c.html.gz",
+     "quote": "Category Description Official name የንግድ ግል ባለቤት (sole proprietorship) Registration body The Ministry of Trade and Industry and local trade bureaus for licensing;"
+    },
+    {
+     "url": "https://taxnews.ey.com/news/2025-2542-ethiopia-issues-a-new-income-tax-proclamation",
+     "publisher": "EY Global Tax News",
+     "title": "Ethiopia issues a new Income Tax Proclamation (17 Dec 2025) — withholding",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-342ed0982ff1.html.gz",
+     "quote": "If the supplier does not have a taxpayer identification number (TIN) and business license, the withholding rate is 30%."
+    },
+    {
+     "url": "https://www.thereporterethiopia.com/51498",
+     "publisher": "The Reporter (Ethiopia)",
+     "title": "E-Commerce Governance in Ethiopia: Law Exists, Compliance Does Not (commentary)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d76ff4ce12fb.html.gz",
+     "quote": "However, they are, indeed, E-Commerce Operators."
+    }
+   ],
+   "notes": "Commercial Registration and Business Licensing Proclamation 1150/2019 text not reachable (metaappz returned a placeholder). Whether a freelancer serving only foreign clients must hold a business licence was not confirmed from law."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The TIN from the Ministry of Revenues. Since late 2023 tax registration has been linked to the Fayda national digital ID, so a Fayda number is effectively required. Fayda is legal and sufficient proof of identity and is used to obtain business licences.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://id.gov.et/benefits",
+     "publisher": "National ID Program (Fayda)",
+     "title": "Benefits of Fayda",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2d0ad1e4c479.html.gz",
+     "quote": "As per Article 16 (1) of this proclamation, Fayda's ID shall be considered as legal and sufficient proof of identity."
+    },
+    {
+     "url": "https://shega.co/post/ministry-of-revenue-issues-over-125000-new-tax-ids-using-fayda",
+     "publisher": "Shega",
+     "title": "Ministry of Revenue Issues Over 125,000 New Tax IDs Using Fayda",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-86fb8cdf12c4.html.gz",
+     "quote": "Ministry of Revenue Issues Over 125,000 New Tax IDs Using Fayda"
+    }
+   ],
+   "notes": "The Ministry of Revenues' own TIN procedure page was not captured; the Shega article body was largely not machine-readable beyond its headline."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Resident individuals are taxed on worldwide income. Under Income Tax (Amendment) Proclamation 1395/2025 (in effect from July 2025), individual business income is taxed 0% up to ETB 24,000, then 15%, 20%, 25%, 30%, and 35% above ETB 168,000. Individuals with turnover under ETB 2m (Category B) pay tax on gross sales at 2–9%, but professional service providers (accounting, architectural, consulting, legal, etc.) may not use gross-sales taxation. Digital content creators' income is business income if earned regularly for profit; otherwise it is taxed at 15% as other income.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/ethiopia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ethiopia — Individual — Taxes on personal income",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-4ae7796ada97.html.gz",
+     "quote": "Ethiopian resident individuals are taxed on their worldwide income."
+    },
+    {
+     "url": "https://taxnews.ey.com/news/2025-2542-ethiopia-issues-a-new-income-tax-proclamation",
+     "publisher": "EY Global Tax News",
+     "title": "Ethiopia issues a new Income Tax Proclamation — business income",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-342ed0982ff1.html.gz",
+     "quote": "Individuals (excluding Category B taxpayers taxed on gross sales) face new business income tax: Taxable business income (ETB/year) New rate 0 — 24,000 0% 24,001 — 48,000 15% 48,001 — 84,000 20% 84,001 — 120,000 25% 120,001 — 168,000 30% Over 168,000 35%"
+    },
+    {
+     "url": "https://taxnews.ey.com/news/2025-2542-ethiopia-issues-a-new-income-tax-proclamation",
+     "publisher": "EY Global Tax News",
+     "title": "Ethiopia — Category B gross sales tax",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-342ed0982ff1.html.gz",
+     "quote": "Annual gross sales (ETB) Tax Rate 0 — 100,000 2% 100,001 — 500,000 3% 500,001 — 1,000,000 5% 1,000,001 — 1,500,000 7% 1,500,001 — 2,000,000 9%"
+    },
+    {
+     "url": "https://www.afriwise.com/blog/update-on-ethiopias-new-income-tax-amendment-proclamation",
+     "publisher": "Afriwise",
+     "title": "Update on Ethiopia's New Income Tax Amendment Proclamation",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2b52a6aca197.html.gz",
+     "quote": "Income from digital content creation will be taxed either as business income (0 to 35%) or under Schedule “D” as other income at 15%."
+    }
+   ],
+   "notes": "One law-firm summary (via an aggregator, not captured) gives a 30% top business rate; EY and Afriwise both give 35%, which the guide uses. Whether software/design freelancers are 'professional service providers' barred from gross-sales tax is unsettled (Afriwise lists consulting, engineering, etc.)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT Proclamation 1341/2024: the standard rate is 15%, and registration is required at ETB 2m of taxable supplies in 12 months. Exports of goods and services are zero-rated where the proclamation's zero-rating conditions are met.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ey.com/en_gl/technical/tax-alerts/ethiopia-introduces-new-vat-proclamation-introducing-raft-of-changes",
+     "publisher": "EY",
+     "title": "Ethiopia introduces new VAT Proclamation introducing raft of changes (Sep 2024)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-1772dfa43e1e.html.gz",
+     "quote": "VAT registration threshold The VAT registration threshold has been set at 2,000,000 Ethiopian Birr (ETB2m)."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/ethiopia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Ethiopia — Corporate — Other taxes",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a86e4ab59f2c.html.gz",
+     "quote": "The standard VAT rate is 15% and applies to goods and services that are neither exempt from VAT nor zero-rated."
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/africa/ethiopia",
+     "publisher": "Kintsugi",
+     "title": "Ethiopia VAT guide 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-ba5ba4bd4b15.html.gz",
+     "quote": "Exports of goods and services, international air and sea transport, and the supply of gold to the National Bank are zero-rated [1]."
+    },
+    {
+     "url": "https://afrotools.com/blog/ethiopia-vat-guide-2026/",
+     "publisher": "AfroTools",
+     "title": "Ethiopia VAT guide 2026 (checked 9 Sep 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-87df058d90e5.html.gz",
+     "quote": "Zero rate 0% only for supplies that satisfy the proclamation's zero-rating rules."
+    }
+   ],
+   "notes": "Proclamation 1341/2024 text not read; the conditions for zero-rating exported services were not verified."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Personal Data Protection Proclamation 1321/2024: to process personal data, a data controller or processor must be registered with the Authority, the Ethiopian Communications Authority (art. 33). The Authority may set registration requirements by directive. No small-business exemption was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "publisher": "Personal Data Protection Proclamation No. 1321/2024 (text reproduced by metaappz.com)",
+     "title": "Proclamation 1321/2024, art. 33",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-cc19d02435ae.html.gz",
+     "quote": "33. Registration In order to process personal data the data controller or the data processor shall be registered with the Authority."
+    },
+    {
+     "url": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1321_2024/en/txt",
+     "publisher": "Personal Data Protection Proclamation No. 1321/2024 (metaappz.com copy)",
+     "title": "Proclamation 1321/2024, definitions",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-cc19d02435ae.html.gz",
+     "quote": "“Authority” means the Ethiopian Communications Authority established as per the Communications Proclamation No."
+    }
+   ],
+   "notes": "Registration directive, fees and any exemption thresholds not researched."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Electronic Transaction Proclamation 1205/2020: sellers must disclose business details and transaction conditions. Per commentary on the law, a consumer may return goods or services without cause within 7 days of receipt for a full refund (consumer pays return costs). If the information duties are not met, the consumer may withdraw within 14 days of receipt.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://digitalpolicyalert.org/change/13288-consumer-protection-in-electronic-transactions-proclamation-no-12052020",
+     "publisher": "Digital Policy Alert",
+     "title": "Consumer protection in Electronic Transactions Proclamation No. 1205/2020",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-181d02cf55d6.html.gz",
+     "quote": "The law mandates e-commerce platforms to provide consumers with comprehensive information, including business details and transaction conditions."
+    },
+    {
+     "url": "https://www.thereporterethiopia.com/51498",
+     "publisher": "The Reporter (Ethiopia)",
+     "title": "E-Commerce Governance in Ethiopia: Law Exists, Compliance Does Not (commentary)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d76ff4ce12fb.html.gz",
+     "quote": "Additionally, depending on the nature of the good or service, the consumer may return the good or service without cause within 7 days of receiving it."
+    },
+    {
+     "url": "https://www.thereporterethiopia.com/51498",
+     "publisher": "The Reporter (Ethiopia)",
+     "title": "E-Commerce commentary — 14-day withdrawal",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d76ff4ce12fb.html.gz",
+     "quote": "Beyond that, if the above requirements are not met, the consumer is entitled to withdraw from the transaction within 14 days of receiving the goods or services."
+    }
+   ],
+   "notes": "The proclamation's text (metaappz) was not reachable, so article numbers were not verified."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) 100% FX retention for service exporters, indefinitely, since February 2026 (P1). (2) Gross-sales tax of 2–9% for individuals under ETB 2m turnover, except professional services (L3). (3) Zero-rated VAT on qualifying exports (L4). (4) No USD minimum to open an FX savings account (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice: Relaxation of FX Directives",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "Any service exporter is allowed to hold one hundred percent (100%) of its export proceeds in foreign exchange retention account for indefinite periods."
+    },
+    {
+     "url": "https://www.afriwise.com/blog/update-on-ethiopias-new-income-tax-amendment-proclamation",
+     "publisher": "Afriwise",
+     "title": "Ethiopia income tax amendment — Category B",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2b52a6aca197.html.gz",
+     "quote": "Following this categorisation, the Amendment Proclamation now requires Category B taxpayers to be taxed based on annual gross sales, rather than based on net profit under a standard assessment system."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The Fayda national digital ID (Digital ID Proclamation; legal and sufficient proof of identity). It is used for opening bank accounts, SIM cards, business licences and TIN registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://id.gov.et/benefits",
+     "publisher": "National ID Program (Fayda)",
+     "title": "Benefits of Fayda — services",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2d0ad1e4c479.html.gz",
+     "quote": "Services in financial and telecom institutions Opening bank accounts and withdraw money"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (4) Local official channel: Since February 2026, service exporters may keep 100% of export proceeds in a foreign-exchange retention account (NBE directive) (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Ethiopia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice: Relaxation of Foreign Exchange Directives (FXD/01/2024), Feb 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "Any service exporter is allowed to hold one hundred percent (100%) of its export proceeds in foreign exchange retention account for indefinite periods."
+    },
+    {
+     "url": "https://nbe.gov.et/nbe_news/public-notice-notice-on-relaxation-of-foreign-exchange-directives-fxd-01-2024/",
+     "publisher": "National Bank of Ethiopia",
+     "title": "Public Notice — FX savings accounts",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-8d59050da242.html.gz",
+     "quote": "The minimum requirement, USD 100 to open a foreign exchange savings account for resident and non-resident Ethiopians, including foreign nationals of Ethiopian origin has been removed."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

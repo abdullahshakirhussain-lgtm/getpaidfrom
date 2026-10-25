@@ -1,0 +1,574 @@
+{
+ "code": "RW",
+ "un_name": "Rwanda",
+ "m49_name": "Rwanda",
+ "iso3": "RWA",
+ "m49": "646",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "18-09-1962",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Under BNR Regulation 42/2022 (as amended in 2025), cross-border payments such as exports and offshore service contracts are permitted through authorised channels with documentation. BNR's 2025 directive on who may transact in foreign currency covers service providers earning foreign currency from abroad. However, quoting or charging foreign-currency prices to Rwandan residents without BNR authorisation is banned, with fines of RWF 5m–10m for pricing and 50–100% of the amount for unauthorised transactions. No surrender requirement was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://rw.andersen.com/dist/new-rules-foreign-currency.html",
+     "publisher": "Andersen in Rwanda",
+     "title": "New rules: Who can use foreign currency in Rwanda? (25 Sep 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0e49e9ee495d.html.gz",
+     "quote": "Expatriates legally employed in Rwanda and service providers to expatriates or those earning foreign currency from abroad are also covered."
+    },
+    {
+     "url": "https://pkfea.com/media/qlphrh5o/tightened-foreign-exchange-restrictions-in-rwanda-1.pdf",
+     "publisher": "PKF Eastern Africa",
+     "title": "Tightened foreign exchange restrictions in Rwanda",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2406d0006955.pdf.gz",
+     "quote": "The allowances established under the 2022 regulation remain fully applicable, provided transactions are conducted through authorised channels and supported by appropriate documentation."
+    },
+    {
+     "url": "https://pkfea.com/media/qlphrh5o/tightened-foreign-exchange-restrictions-in-rwanda-1.pdf",
+     "publisher": "PKF Eastern Africa",
+     "title": "Tightened FX restrictions — pricing ban",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2406d0006955.pdf.gz",
+     "quote": "The new rules confirm that any communication of foreign currency amounts to Rwandan residents (whether verbal, written, contractual, promotional, or digital) constitutes a violation, unless the person or entity is specifically authorised by BNR."
+    }
+   ],
+   "notes": "BNR's regulatory digest page rendered empty (client-side); the regulation and directive texts were not read directly."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Transactions through licensed foreign-currency accounts are among the uses permitted under the 2022 FX regulation, and the 2025 amendment keeps them. Bank-specific requirements were not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://pkfea.com/media/qlphrh5o/tightened-foreign-exchange-restrictions-in-rwanda-1.pdf",
+     "publisher": "PKF Eastern Africa",
+     "title": "Tightened FX restrictions — permitted transactions",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2406d0006955.pdf.gz",
+     "quote": "Transactions through licensed foreign currency accounts;"
+    },
+    {
+     "url": "https://rw.andersen.com/dist/new-rules-foreign-currency.html",
+     "publisher": "Andersen in Rwanda",
+     "title": "New rules: Who can use foreign currency in Rwanda?",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0e49e9ee495d.html.gz",
+     "quote": "This New FX Directive clarifies who can transact in foreign currencies and under what conditions, building on prior regulatory frameworks to strengthen enforcement and reduce unauthorised foreign currency transactions in the country."
+    }
+   ],
+   "notes": "Second source is context only (framework); the FX-account permission rests mainly on PKF. Not verified against bank product pages."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Rwanda (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Rwanda is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Rwanda is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "IremboPay (BNR-licensed) accepts MTN MoMo, Airtel Money and cards. Onboarding is not self-serve and requires a business registration certificate, a TIN and owners' IDs, so a registered (RDB) business is needed. Paystack operates in Rwanda with MTN MoMo, Airtel Money and cards. A 2026 guide says onboarding needs RDB registration and an RRA TIN. Paystack's own Rwanda compliance page was blocked (Cloudflare error) or missing (404). A search summary of Paystack's support article described a 'Starter' tier for unregistered sole traders (ID + personal bank account), but the page (support2.paystack.com) returned a Cloudflare 1034 error and was not bypassed. Treat as unconfirmed."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Rwanda is a listed PayPal market but not on the PayPal Payouts list. A relocation blog reportedly lists Rwanda among send-only PayPal countries, but its text could not be retrieved. No 2025–2026 source confirming receiving or withdrawal for Rwandan accounts was found. Xoom (PayPal-owned) handles inbound remittances to MTN wallets, which is separate.",
+   "status": "unverified",
+   "note": "Searched 2026-10-18: 'PayPal Rwanda receive payments withdraw 2026 Rwandan freelancers Payoneer' and '\"PayPal\" Rwanda \"send only\" OR \"cannot receive\" ...'. Results: Living in Kigali (send-only claim; page body not retrievable by script or browser), Xoom Rwanda pages (remittances), McTaba Rwanda guide (no PayPal mention). Only the Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: the standard choice for Rwandan freelancers per a 2026 guide. It provides virtual USD/EUR/GBP receiving details, withdrawal to Rwandan banks takes 2–5 business days, and fees are about USD 1.50–3 per withdrawal (unverified against Payoneer). Wise: Rwanda is NOT on Wise's list of countries whose residents can hold money, even though the same guide recommends Wise.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://mctaba.com/learn/rwanda/get-paid-from-abroad-rwanda",
+     "publisher": "McTaba",
+     "title": "How to Get Paid From Abroad in Rwanda",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a06ce4ad564c.html.gz",
+     "quote": "Withdrawal from Payoneer to Rwandan bank: 2 to 5 business days."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Rwanda."
+    }
+   ],
+   "notes": "TRAP: McTaba recommends Wise for direct client payments; Wise's residency list excludes Rwanda. Payoneer is single-source (no Payoneer-owned page)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "An 'individual enterprise' (business in the owner's name) is registered online with the Office of the Registrar General at RDB. The service is immediate and free, and RDB–RRA integration issues a single TIN. Anyone setting up a taxable activity must register. Since Law 011/2026, online businesses face new e-commerce disclosure obligations and reportedly licensing, with a 6-month transition.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rra.gov.rw/en/domestic-tax-services/registration-de-registration/default-title",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "Register your business",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-91d5bd297053.html.gz",
+     "quote": "Registering an individual enterprise (business in the owner’s names) and a company owned by an individual or group of people is done online through the RDB portal via this link: businessprocedures.rdb.rw This service is immediate and free of charge."
+    },
+    {
+     "url": "https://www.rra.gov.rw/en/domestic-tax-services/registration-de-registration/default-title",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "Register your business — TIN",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-91d5bd297053.html.gz",
+     "quote": "The RDB and RRA systems are integrated to ensure a smooth registration process that provides a single, unique Taxpayer Identification Number (TIN) and a clear understanding of the taxpayer’s obligations."
+    }
+   ],
+   "notes": "The online-business licensing requirement under Law 011/2026 is from press summaries (search result), not captured; the Law's text was not read."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The TIN from the Rwanda Revenue Authority. Business owners are registered for income tax automatically when registering through RDB. Individuals without a business (e.g. property owners, PAYE) register at RRA offices. Turnover under RWF 2m is exempt from income tax.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax/register-for-income-tax",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "Register for Income Tax",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ac0ee4ace62.html.gz",
+     "quote": "You are automatically registered for income tax when registering your business through Rwanda Development Board (RDB)."
+    },
+    {
+     "url": "https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax/register-for-income-tax",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "Register for Income Tax — exemption",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ac0ee4ace62.html.gz",
+     "quote": "A person who has an annual turnover of less than two million Rwandan francs (FRW 2,000,0000);"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Resident individuals are taxed on domestic and foreign-source income. Annual PIT on real profit (from 2023): 0% to RWF 720,000, 10% to 1,200,000, 20% to 2,400,000, and 30% above. Small enterprises with turnover of RWF 12,000,001–20,000,000 pay a 3% lump-sum tax on turnover (they can opt out by keeping accounts). Turnover of RWF 2m–12m pays flat amounts, and turnover under RWF 2m is exempt (L2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax/personal-income-tax-pit-1",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "Personal Income Tax (PIT)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-9ef40871f0cb.html.gz",
+     "quote": "A resident taxpayer is liable to income tax per the tax period from all domestic source and foreign source."
+    },
+    {
+     "url": "https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax/personal-income-tax-pit-1",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "PIT rates and lump sum",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-9ef40871f0cb.html.gz",
+     "quote": "From the second year which is 2023, the rates are the following: Annual Taxable Profit in Rwandan Francs Tax Rate From To Tax Rate 0 720,000 0% 720,001 1,200,000 10% 1,200,001 2,400,000 20% 2,400,001 More 30% However, if you operate a small enterprise (FRW 12,000,001 – FRW 20,000,000) you will pay a lumpsum tax of three percent (3%) of your annual turnover."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/rwanda/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Rwanda — Individual — Taxes on personal income (monthly bands)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-516e981fcf46.html.gz",
+     "quote": "Personal income tax rates Bands of income (RWF*) Taxable income (RWF) PIT rate (%) From To 0 60,000 60,000 0 60,001 100,000 40,000 10 100,001 200,000 100,000 20 200,001 And above 30"
+    }
+   ],
+   "notes": "Flat-tax amounts for RWF 2m–12m turnover not captured (PwC corporate page mentions them). Law 014/2025 amendments concerned capital gains and gaming, not PIT bands."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 18%. Exports of goods and services are zero-rated. Registration is mandatory when turnover exceeded RWF 20m in the previous fiscal year or RWF 5m in the previous quarter, within 7 days of the period's end. Voluntary registration is possible.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rra.gov.rw/fileadmin/user_upload/VAT__EN_2025.pdf",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "VAT (2025 brochure)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-c1e82c804b7c.pdf.gz",
+     "quote": "Mandatory Registration You must register for VAT if: • Your turnover exceeded RWF 20,000,000 in the previous fiscal year, or • Your turnover exceeded RWF 5,000,000 in the previous quarter"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/rwanda/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Rwanda — Corporate — Other taxes",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bb7c81e65b35.html.gz",
+     "quote": "Exports of goods and services are subject to VAT at 0%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/rwanda/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Rwanda — VAT rate",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-bb7c81e65b35.html.gz",
+     "quote": "The standard VAT rate is 18% and applies to goods and services that are neither exempt from VAT nor zero-rated."
+    }
+   ],
+   "notes": "Conditions for treating a service as exported were not checked against the VAT law."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 058/2021 on personal data protection and privacy: anyone intending to act as a data controller or processor must register with the National Cyber Security Authority (NCSA). The transition period ended on 15 October 2023.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dlapiperafrica.com/en/rwanda/insights/2023/deadline-for-mandatory-data-controller-set-to-expire-15-October.html",
+     "publisher": "DLA Piper Africa (Equity Juris Chambers)",
+     "title": "Deadline for mandatory registration as a data controller or processor (21 Sep 2023)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-991a8029da64.html.gz",
+     "quote": "Registration with the NCSA: There is an obligation to register with the supervisory authority as a data controller or data processor for organisations that intend to be data controllers or data processors."
+    },
+    {
+     "url": "https://dlapiperafrica.com/en/rwanda/insights/2023/deadline-for-mandatory-data-controller-set-to-expire-15-October.html",
+     "publisher": "DLA Piper Africa",
+     "title": "Supervisory authority",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-991a8029da64.html.gz",
+     "quote": "The supervisory authority is the National Cybersecurity Authority (NCSA)."
+    },
+    {
+     "url": "https://dataprotection.africa/rwanda-data-protection-act-introduced/",
+     "publisher": "Data Protection Africa",
+     "title": "Rwanda: Data Protection Act introduced",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-aa73e98ce0ac.html.gz",
+     "quote": "The Act provides for: The application and registration of data controllers and data processors with the supervisory authority;"
+    }
+   ],
+   "notes": "Statute text not read; DataGuidance/Digital Policy Alert also describe the registration duty."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 011/2026 of 26 February 2026 on competition and consumer protection replaced Law 36/2012. For the first time it sets e-commerce duties: sellers must disclose registration numbers and physical addresses, and digital distance contracts have their own rules. Consumers may withdraw from online purchases within 7 days of receiving the good or service (art. 42).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://allafrica.com/stories/202603170337.html",
+     "publisher": "The New Times (via AllAfrica)",
+     "title": "Rwanda: A New Consumer Protection Law for a Modern Marketplace (16 Mar 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-8067af0dc3d3.html.gz",
+     "quote": "a defined right of withdrawal allowing consumers to cancel online purchases within seven days of receiving a good or service (Article 42 of New Competition and Consumer Protection Act)."
+    },
+    {
+     "url": "https://leap.unep.org/en/countries/rw/national-legislation/law-ndeg-0112026-26022026-relating-competition-and-consumer",
+     "publisher": "UNEP LEAP / FAOLEX",
+     "title": "Law n° 011/2026 of 26/02/2026 relating to competition and consumer protection",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-da5abb02503f.html.gz",
+     "quote": "This Law governs competition and consumer protection and applies to any economic activity carried out by any means which is related to business and has an effect on the consumer or on competition in the Rwandan market."
+    }
+   ],
+   "notes": "The New Times piece and Andersen's article share an author (Andersen Rwanda), so they were not counted as independent. The Gazette text was not read."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Income tax exemption under RWF 2m turnover, flat tax for RWF 2m–12m, and 3% lump sum for RWF 12m–20m (L2/L3). (2) Exports are zero-rated for VAT (L4). (3) Free, immediate online business registration with an automatic TIN (L1). (4) A 5-year foreign-income PIT exemption for newly resident experts working for KIFC-licensed entities (not relevant to most freelancers).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax/personal-income-tax-pit-1",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "PIT — KIFC exemption",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-9ef40871f0cb.html.gz",
+     "quote": "However, a resident taxpayer who was not resident in Rwanda in the five (5) years immediately prior to becoming resident, who works as an expert or a professional directly for an entity carrying out Kigali International Financial Centre licensed activities, is exempted from personal income tax on foreign sourced income during the first five (5) years following the date of becoming resident."
+    },
+    {
+     "url": "https://www.rra.gov.rw/en/taxes-fees/domestic-taxes/income-tax/register-for-income-tax",
+     "publisher": "Rwanda Revenue Authority",
+     "title": "Income tax exemption under RWF 2m",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ac0ee4ace62.html.gz",
+     "quote": "A person who has an annual turnover of less than two million Rwandan francs (FRW 2,000,0000);"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national ID card or a passport, used for director/owner verification at payment providers (IremboPay, Paystack) and for business registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://mctaba.com/learn/paystack/paystack-onboarding-and-compliance-requirements-in-rwanda",
+     "publisher": "McTaba",
+     "title": "Paystack Onboarding in Rwanda — ID",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-64b066a3cd78.html.gz",
+     "quote": "(3) provide your national ID or passport for director verification;"
+    },
+    {
+     "url": "https://irembo.com/irembopay-faqs",
+     "publisher": "Irembo",
+     "title": "IremboPay FAQs — owner identification",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c0c2fe471f1a.html.gz",
+     "quote": "Identification documents of key business owners/partners"
+    }
+   ],
+   "notes": "NIDA's own site not consulted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Rwanda: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

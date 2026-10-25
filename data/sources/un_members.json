@@ -1,0 +1,1177 @@
+{
+ "source": "un_members",
+ "route": "_scope",
+ "url": "https://www.un.org/en/about-us/member-states",
+ "retrieved_at": "2026-10-17T04:34:32+00:00",
+ "sha256": "a86defce756ac5a015610dcdba6e2aa0072956be755820070cadbfb1de4c2771",
+ "snapshot": "data/snapshots/un_members/2026-10-17-a86defce756a.html.gz",
+ "evidence": "official",
+ "lists": {
+  "members": {
+   "meaning": "un_member_state",
+   "caveat": null,
+   "count": 193,
+   "entries": [
+    {
+     "code": "AF",
+     "raw": "Afghanistan",
+     "label": "admitted 19-11-1946",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": "admitted 08-10-1962",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AD",
+     "raw": "Andorra",
+     "label": "admitted 28-07-1993",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AO",
+     "raw": "Angola",
+     "label": "admitted 01-12-1976",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua and Barbuda",
+     "label": "admitted 11-11-1981",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": "admitted 01-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas (The)",
+     "label": "admitted 18-09-1973",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": "admitted 21-09-1971",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": "admitted 17-09-1974",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BB",
+     "raw": "Barbados",
+     "label": "admitted 09-12-1966",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BY",
+     "raw": "Belarus",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": "admitted 27-12-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BZ",
+     "raw": "Belize",
+     "label": "admitted 25-09-1981",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": "admitted 21-09-1971",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia (Plurinational State of)",
+     "label": "admitted 14-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia and Herzegovina",
+     "label": "admitted 22-05-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": "admitted 17-10-1966",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei Darussalam",
+     "label": "admitted 21-09-1984",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BF",
+     "raw": "Burkina Faso",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "BI",
+     "raw": "Burundi",
+     "label": "admitted 18-09-1962",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CV",
+     "raw": "Cabo Verde",
+     "label": "admitted 16-09-1975",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CM",
+     "raw": "Cameroon",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": "admitted 09-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CF",
+     "raw": "Central African Republic",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TD",
+     "raw": "Chad",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CN",
+     "raw": "China (the People's Republic of)",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": "admitted 05-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KM",
+     "raw": "Comoros",
+     "label": "admitted 12-11-1975",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CG",
+     "raw": "Congo",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": "admitted 02-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CI",
+     "raw": "Côte D'Ivoire",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": "admitted 22-05-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CU",
+     "raw": "Cuba",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czechia",
+     "label": "admitted 19-01-1993",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KP",
+     "raw": "Democratic People's Republic of Korea",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CD",
+     "raw": "Democratic Republic of the Congo",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "DJ",
+     "raw": "Djibouti",
+     "label": "admitted 20-09-1977",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "DM",
+     "raw": "Dominica",
+     "label": "admitted 18-12-1978",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": "admitted 21-12-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GQ",
+     "raw": "Equatorial Guinea",
+     "label": "admitted 12-11-1968",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ER",
+     "raw": "Eritrea",
+     "label": "admitted 28-05-1993",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SZ",
+     "raw": "Eswatini",
+     "label": "admitted 24-09-1968",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ET",
+     "raw": "Ethiopia",
+     "label": "admitted 13-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "FJ",
+     "raw": "Fiji",
+     "label": "admitted 13-10-1970",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GA",
+     "raw": "Gabon",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia (Republic of The)",
+     "label": "admitted 21-09-1965",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": "admitted 31-07-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": "admitted 18-09-1973",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": "admitted 08-03-1957",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": "admitted 25-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GD",
+     "raw": "Grenada",
+     "label": "admitted 17-09-1974",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": "admitted 21-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GN",
+     "raw": "Guinea",
+     "label": "admitted 12-12-1958",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea Bissau",
+     "label": "admitted 17-09-1974",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": "admitted 20-09-1966",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "HT",
+     "raw": "Haiti",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": "admitted 17-12-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": "admitted 19-11-1946",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": "admitted 30-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": "admitted 28-09-1950",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IR",
+     "raw": "Iran (Islamic Republic of)",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IQ",
+     "raw": "Iraq",
+     "label": "admitted 21-12-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": "admitted 11-05-1949",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": "admitted 18-09-1962",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": "admitted 18-12-1956",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": "admitted 16-12-1963",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KI",
+     "raw": "Kiribati",
+     "label": "admitted 14-09-1999",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": "admitted 14-05-1963",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KG",
+     "raw": "Kyrgyzstan",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LA",
+     "raw": "Lao People’s Democratic Republic",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LB",
+     "raw": "Lebanon",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LS",
+     "raw": "Lesotho",
+     "label": "admitted 17-10-1966",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LR",
+     "raw": "Liberia",
+     "label": "admitted 02-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LY",
+     "raw": "Libya",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": "admitted 18-09-1990",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MG",
+     "raw": "Madagascar",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MW",
+     "raw": "Malawi",
+     "label": "admitted 01-12-1964",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": "admitted 17-09-1957",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MV",
+     "raw": "Maldives",
+     "label": "admitted 21-09-1965",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": "admitted 28-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": "admitted 01-12-1964",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MH",
+     "raw": "Marshall Islands",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MR",
+     "raw": "Mauritania",
+     "label": "admitted 27-10-1961",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": "admitted 24-04-1968",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": "admitted 07-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "FM",
+     "raw": "Micronesia (Federated States of)",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco",
+     "label": "admitted 28-05-1993",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": "admitted 27-10-1961",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ME",
+     "raw": "Montenegro",
+     "label": "admitted 28-06-2006",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": "admitted 12-11-1956",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": "admitted 16-09-1975",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MM",
+     "raw": "Myanmar",
+     "label": "admitted 19-04-1948",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": "admitted 23-04-1990",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NR",
+     "raw": "Naoero",
+     "label": "admitted 14-09-1999",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NP",
+     "raw": "Nepal",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands (Kingdom of the)",
+     "label": "admitted 10-12-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": "admitted 07-10-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": "admitted 08-04-1993",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": "admitted 27-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": "admitted 07-10-1971",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": "admitted 30-09-1947",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PW",
+     "raw": "Palau",
+     "label": "admitted 15-12-1994",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": "admitted 13-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PG",
+     "raw": "Papua New Guinea",
+     "label": "admitted 10-10-1975",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": "admitted 31-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": "admitted 21-09-1971",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KR",
+     "raw": "Republic of Korea",
+     "label": "admitted 17-09-1991",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "MD",
+     "raw": "Republic of Moldova",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "RU",
+     "raw": "Russian Federation",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "RW",
+     "raw": "Rwanda",
+     "label": "admitted 18-09-1962",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "KN",
+     "raw": "Saint Kitts and Nevis",
+     "label": "admitted 23-09-1983",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LC",
+     "raw": "Saint Lucia",
+     "label": "admitted 18-09-1979",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "VC",
+     "raw": "Saint Vincent and the Grenadines",
+     "label": "admitted 16-09-1980",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "WS",
+     "raw": "Samoa",
+     "label": "admitted 15-12-1976",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ST",
+     "raw": "Sao Tome and Principe",
+     "label": "admitted 16-09-1975",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": "admitted 28-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": "admitted 01-11-2000",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SC",
+     "raw": "Seychelles",
+     "label": "admitted 21-09-1976",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SL",
+     "raw": "Sierra Leone",
+     "label": "admitted 27-09-1961",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": "admitted 21-09-1965",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": "admitted 19-01-1993",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": "admitted 22-05-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SB",
+     "raw": "Solomon Islands",
+     "label": "admitted 19-09-1978",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SO",
+     "raw": "Somalia",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": "admitted 07-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SS",
+     "raw": "South Sudan",
+     "label": "admitted 14-07-2011",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": "admitted 14-12-1955",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SD",
+     "raw": "Sudan",
+     "label": "admitted 12-11-1956",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SR",
+     "raw": "Suriname",
+     "label": "admitted 04-12-1975",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": "admitted 19-11-1946",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": "admitted 10-09-2002",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "SY",
+     "raw": "Syrian Arab Republic",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TJ",
+     "raw": "Tajikistan",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": "admitted 15-12-1946",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TL",
+     "raw": "Timor-Leste",
+     "label": "admitted 27-09-2002",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TG",
+     "raw": "Togo",
+     "label": "admitted 20-09-1960",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TO",
+     "raw": "Tonga",
+     "label": "admitted 14-09-1999",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad and Tobago",
+     "label": "admitted 18-09-1962",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": "admitted 12-11-1956",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TR",
+     "raw": "Türkiye",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TM",
+     "raw": "Turkmenistan",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TV",
+     "raw": "Tuvalu",
+     "label": "admitted 05-09-2000",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": "admitted 25-10-1962",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": "admitted 09-12-1971",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom of Great Britain and Northern Ireland",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "TZ",
+     "raw": "United Republic of Tanzania",
+     "label": "admitted 14-12-1961",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "US",
+     "raw": "United States of America",
+     "label": "admitted 24-10-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": "admitted 18-12-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "UZ",
+     "raw": "Uzbekistan",
+     "label": "admitted 02-03-1992",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "VU",
+     "raw": "Vanuatu",
+     "label": "admitted 15-09-1981",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela, Bolivarian Republic of",
+     "label": "admitted 15-11-1945",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "VN",
+     "raw": "Viet Nam",
+     "label": "admitted 20-09-1977",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": "admitted 30-09-1947",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ZM",
+     "raw": "Zambia",
+     "label": "admitted 01-12-1964",
+     "meaning": "un_member_state"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": "admitted 25-08-1980",
+     "meaning": "un_member_state"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

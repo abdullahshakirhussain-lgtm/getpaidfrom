@@ -1,0 +1,486 @@
+{
+ "code": "BR",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Under the FX framework of Law 14.286/2021, FX operations may be carried out freely with no value limit, under BCB regulation. Residents, individuals included, MAY KEEP abroad the foreign-currency proceeds of exports of goods and services (Law 11.371/2006 Art. 1 as rewritten by Law 14.286/2021). There is no obligation to bring money into Brazil or convert it. Residents with more than US$1 million in foreign assets at year end must file the BCB 'Capitais Brasileiros no Exterior' (CBE) declaration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11371.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 11.371/2006 (consolidated, as amended by Lei 14.286/2021)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-11f64d4511cd.html.gz",
+     "quote": "1º Fica facultada a manutenção, no exterior, dos recursos em moeda estrangeira relativos aos recebimentos de exportações brasileiras de mercadorias e de serviços para o exterior, realizadas por pessoas físicas ou jurídicas residentes, domiciliadas ou com sede no País."
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14286.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 14.286/2021 (novo marco cambial)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b43b724da063.html.gz",
+     "quote": "As operações no mercado de câmbio podem ser realizadas livremente, sem limitação de valor, observados a legislação, as diretrizes estabelecidas pelo Conselho Monetário Nacional e o regulamento a ser editado pelo Banco Central do Brasil."
+    },
+    {
+     "url": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202406/ri202406b6p.pdf",
+     "publisher": "Banco Central do Brasil",
+     "title": "Contas de exportadores no exterior (Relatório de Inflação, June 2024, box)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c76b2fe95905.pdf.gz",
+     "quote": "A declaração de CBE é obrigatória para residentes no Brasil ‑ pessoas físicas e jurídicas ‑ que detinham mais de US$1 milhão em ativos no exterior no último dia de cada ano‑base."
+    }
+   ],
+   "notes": "Planalto pages are ISO-8859-1; snap.py was fixed to honour the declared charset (accent rendering in snapshots is approximate but quote matching is accent-insensitive). Resolução BCB 277/2022 (eFX limits, e.g. US$10,000 for certain transfers per a search summary) was not read. Income tax still applies to money kept abroad (L3)."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Abroad: yes. Residents may keep export proceeds in financial institutions abroad (P1); foreign assets must be declared to the BCB above US$1m (CBE) and in the income tax return. Foreign-currency accounts INSIDE Brazil are left to BCB regulation (Law 14.286 gives the BCB power to regulate 'contas em moeda estrangeira no País'), and whether ordinary individuals may open one was NOT verified.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14286.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 14.286/2021",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b43b724da063.html.gz",
+     "quote": "IX - regulamentar as contas em moeda estrangeira no País, inclusive quanto aos requisitos e aos procedimentos para sua abertura e sua movimentação;"
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11371.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 11.371/2006 (consolidated)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-11f64d4511cd.html.gz",
+     "quote": "1º Fica facultada a manutenção, no exterior, dos recursos em moeda estrangeira relativos aos recebimentos de exportações brasileiras de mercadorias e de serviços para o exterior"
+    }
+   ],
+   "notes": "Wise lets Brazilian residents hold balances, with BRL held only by residents (P5)."
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Brazil (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program. Not listed: Lemon Squeezy payouts; Polar (payouts).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: merchant_signup_available (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Brazil is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Mercado Pago (operated by Mercado Pago Instituição de Pagamento Ltda.) lets freelancers and informal sellers open a 'Conta Negócio' with just a CPF, no prior business registration. It offers payment links, QR codes, Pix and card machines; documents are the CPF and a photo ID. BCB's register of authorised payment institutions was not read. Stripe's Brazil support pages (CPF account requirements) render client-side and were not readable. Per a search summary, payouts need a BRL account in the same CPF; not quoted. Use the URL in data/sources/stripe.json for the Stripe evidence."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "Fully available: the PayPal Payouts table lists Brazil as 'Fully localized'.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil row: 'Fully localized' (data/sources/paypal_payouts.json)."
+    }
+   ]
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Brazil is on Wise's list of countries where you can hold money, and BRL can be held only by Brazilian residents. Payoneer: operates a Brazilian Portuguese site offering withdrawals to your bank account, and Etsy pays Brazilian sellers via Payoneer (automated Etsy collector).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Brazil You can only hold BRL if you reside in Brazil."
+    },
+    {
+     "url": "https://www.payoneer.com/pt/",
+     "publisher": "Payoneer",
+     "title": "Payoneer (Português)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-78ebede3cfd7.html.gz",
+     "quote": "Receba pagamentos Receba pagamentos de clientes Solicite e Receba Pagamentos Saque recursos Para a sua conta bancária"
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy",
+     "title": "Etsy Payments eligible countries (automated collector)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: seller_payments_eligible_via_payoneer (data/sources/etsy.json)."
+    }
+   ],
+   "notes": "Payoneer BRL withdrawal fees/timing not confirmed on a Brazil-specific page."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Not necessarily. Individuals can earn as a pessoa física (autônomo) and pay monthly carnê-leão on income from abroad (L3). The simplified business option is the MEI (Microempreendedor Individual): annual gross revenue up to R$81,000 (domestic and export combined), ONLY for occupations listed in Annex XI of CGSN Resolution 140/2018, at most one employee. It is exempt from IRPJ, CSLL, PIS/COFINS and IPI under SIMEI, and registered online via the Portal do Empreendedor (CNPJ). A bill (PLP 186/2026) proposing R$110k in 2027 is NOT in force.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/perguntaomei.pdf",
+     "publisher": "Receita Federal (Simples Nacional)",
+     "title": "Perguntas e Respostas MEI e Simei",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-1077686dd7a1.pdf.gz",
+     "quote": "• exercer tão-somente as ocupações constantes do Anexo XI da Resolução CGSN nº 140, de 2018;"
+    },
+    {
+     "url": "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/perguntaomei.pdf",
+     "publisher": "Receita Federal (Simples Nacional)",
+     "title": "Perguntas e Respostas MEI e Simei",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-1077686dd7a1.pdf.gz",
+     "quote": "O limite anual de R$ 81.000,00 é um só, somando receitas de mercado interno e externo."
+    },
+    {
+     "url": "https://www.gov.br/memp/pt-br/teto-do-mei",
+     "publisher": "Ministério do Empreendedorismo (gov.br)",
+     "title": "Teto do MEI",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bd17bde00669.html.gz",
+     "quote": "Esses valores são propostos pelo PLP nº 186/2026 e ainda não estão em vigor."
+    }
+   ],
+   "notes": "Whether typical digital freelancer occupations (programmer, designer, consultant) are in Annex XI was NOT checked; many intellectual professions are reportedly excluded. Otherwise options are Simples Nacional via an ME, or staying a pessoa física. Municipal registration for autônomos (ISS) was not researched."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "CPF (Cadastro de Pessoas Físicas), the individual taxpayer number from Receita Federal. It is also the single national identification number on the new national ID card (CIN, Decree 10.977/2022) and is required by payment providers (Mercado Pago, Stripe). An MEI or company gets a CNPJ.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.policiacivil.pr.gov.br/Pagina/INFORMACOES-SOBRE-CARTEIRA-DE-IDENTIDADE-NACIONAL-CIN",
+     "publisher": "Polícia Civil do Paraná (state government)",
+     "title": "Informações sobre a Carteira de Identidade Nacional (CIN)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-123970bff52e.html.gz",
+     "quote": "utiliza o Cadastro de Pessoa Física ( CPF ) como número único de identificação nacional e substituiu o Registro Geral ( RG ), de acordo com o Decreto Federal nº 10.977/22"
+    },
+    {
+     "url": "https://www.mercadopago.com.br/blog/como-abrir-conta-pj-tendo-conta-pessoal",
+     "publisher": "Mercado Pago",
+     "title": "Como abrir Conta Negócio tendo conta pessoal?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-37bdd85a4c2d.html.gz",
+     "quote": "CPF e documento de identidade com foto válida."
+    }
+   ],
+   "notes": "How to obtain a CPF (Receita Federal online service) was not snapshotted."
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Residents who receive income from abroad (or from other individuals) must pay carnê-leão monthly. It is mandatory, and income from abroad is declared in the carnê-leão system. From January 2026 (Law 15.270/2025), monthly taxable income up to R$5,000 gets a tax reduction that brings the tax to zero, with a decreasing reduction between R$5,000.01 and R$7,350. Foreign tax paid can be credited where a treaty or reciprocity exists (search summary).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gov.br/pt-br/servicos/apurar-carne-leao",
+     "publisher": "Governo Federal (gov.br / Receita Federal service)",
+     "title": "Apurar carnê-leão",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ee48ba25a85.html.gz",
+     "quote": "O Carnê-leão é o imposto sobre a renda que deve ser pago mensalmente, de forma obrigatória, pelas pessoas físicas, residentes no Brasil, que receberem rendimentos de outra pessoa física ou do exterior."
+    },
+    {
+     "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/carne-leao/manual",
+     "publisher": "Receita Federal",
+     "title": "Manual do Carnê-Leão",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b4965af51e96.html.gz",
+     "quote": "Se selecionado \"Sim\" para rendimentos ou pagamentos do exterior, serão disponibilizadas os campos para informar: rendimentos recebidos do exterior ( Rendimentos );"
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 15.270/2025",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8e52f68bbfac.html.gz",
+     "quote": "A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal do Imposto sobre a Renda das Pessoas Físicas"
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 15.270/2025",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8e52f68bbfac.html.gz",
+     "quote": "até R$ 5.000,00 até R$ 312,89 (de modo que o imposto devido seja zero) de R$ 5.000,01 até R$ 7.350,00"
+    }
+   ],
+   "notes": "Progressive table rates (up to 27.5%) and the minimum-tax rules for high incomes in Law 15.270 were not extracted. Whether R$5,000 applies per month of carnê-leão income for self-employed income from abroad follows from 'rendimentos tributáveis sujeitos à incidência mensal' (our reading)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "There's no single national VAT on services yet. Services pay municipal ISS (minimum 2%, maximum 5%, LC 116/2003). ISS does NOT apply to exports of services. BUT services developed in Brazil whose RESULT occurs in Brazil are not exports, even if the payer is abroad. MEIs pay ISS within the fixed monthly SIMEI amount (not extracted). The 2026-2033 consumption-tax reform (CBS/IBS) was not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei Complementar nº 116/2003 (ISS)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8dd02a9d5532.html.gz",
+     "quote": "Art. 2 o O imposto não incide sobre: I – as exportações de serviços para o exterior do País;"
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei Complementar nº 116/2003",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8dd02a9d5532.html.gz",
+     "quote": "Não se enquadram no disposto no inciso I os serviços desenvolvidos no Brasil, cujo resultado aqui se verifique, ainda que o pagamento seja feito por residente no exterior."
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei Complementar nº 116/2003",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8dd02a9d5532.html.gz",
+     "quote": "II – demais serviços, 5% (cinco por cento)."
+    }
+   ],
+   "notes": "Federal PIS/COFINS exemption on export receipts and the CBS/IBS transition (test rates from 2026) were NOT researched; a big re-check item for Brazil. ICMS on goods not covered."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "LGPD, the Lei Geral de Proteção de Dados Pessoais (Law 13.709/2018, as amended by Law 13.853/2019), supervised by the Autoridade Nacional de Proteção de Dados (ANPD). Fines go up to 2% of the company's or group's revenue in Brazil, capped at R$50 million per infraction.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 13.709/2018 (LGPD)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-48c1dc509619.html.gz",
+     "quote": "Lei Geral de Proteção de Dados Pessoais (LGPD). (Redação dada pela Lei nº 13.853, de 2019)"
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 13.709/2018 (LGPD)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-48c1dc509619.html.gz",
+     "quote": "II - multa simples, de até 2% (dois por cento) do faturamento da pessoa jurídica de direito privado, grupo ou conglomerado no Brasil no seu último exercício, excluídos os tributos, limitada, no total, a R$ 50.000.000,00 (cinquenta milhões de reais) por infração;"
+    }
+   ],
+   "notes": "ANPD's simplified regime for small processing agents (Resolution CD/ANPD 2/2022) was not checked."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Consumer Defence Code (Law 8.078/1990) Art. 49: consumers may withdraw within 7 days of signing or receiving the product or service when the purchase happens outside the business premises, which covers online. Decree 7.962/2013 (e-commerce): sellers' websites must prominently show the business name and CPF/CNPJ registration number, physical and electronic address, a contract summary before purchase, and clear means to exercise the withdrawal right, including through the same tool used to buy.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei nº 8.078/1990 (Código de Defesa do Consumidor, compilado)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fbcec7277278.html.gz",
+     "quote": "O consumidor pode desistir do contrato, no prazo de 7 dias a contar de sua assinatura ou do ato de recebimento do produto ou serviço, sempre que a contratação de fornecimento de produtos e serviços ocorrer fora do estabelecimento comercial, especialmente por telefone ou a domicílio."
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Decreto nº 7.962/2013 (comércio eletrônico)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f11aa2a98d72.html.gz",
+     "quote": "I - nome empresarial e número de inscrição do fornecedor, quando houver, no Cadastro Nacional de Pessoas Físicas ou no Cadastro Nacional de Pessoas Jurídicas do Ministério da Fazenda;"
+    },
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Decreto nº 7.962/2013",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f11aa2a98d72.html.gz",
+     "quote": "5º O fornecedor deve informar, de forma clara e ostensiva, os meios adequados e eficazes para o exercício do direito de arrependimento pelo consumidor."
+    }
+   ]
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) Export proceeds may be kept abroad without conversion (P1). (2) No ISS on genuine service exports (L4). (3) From 2026, effectively zero income tax on monthly taxable income up to R$5,000 (L3). (4) MEI: simplified fixed monthly payment, exempt from federal corporate taxes, for listed occupations up to R$81k a year (L1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm",
+     "publisher": "Presidência da República (Planalto)",
+     "title": "Lei Complementar nº 116/2003",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8dd02a9d5532.html.gz",
+     "quote": "Art. 2 o O imposto não incide sobre: I – as exportações de serviços para o exterior do País;"
+    },
+    {
+     "url": "https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/perguntaomei.pdf",
+     "publisher": "Receita Federal (Simples Nacional)",
+     "title": "Perguntas e Respostas MEI e Simei",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-1077686dd7a1.pdf.gz",
+     "quote": "À diferença do que ocorre com os demais optantes pelo Simples Nacional, o optante pelo Simei é isento dos seguintes tributos: • IRPJ • CSLL • Contribuição para o PIS/Pasep, Cofins e IPI (exceto se incidentes na importação)"
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The Carteira de Identidade Nacional (CIN), the new national ID card under Federal Decree 10.977/2022. It uses the CPF as the single national identification number and replaces the old RG, which remains valid until 2032. A CPF is mandatory to apply.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.policiacivil.pr.gov.br/Pagina/INFORMACOES-SOBRE-CARTEIRA-DE-IDENTIDADE-NACIONAL-CIN",
+     "publisher": "Polícia Civil do Paraná (state government)",
+     "title": "Informações sobre a Carteira de Identidade Nacional (CIN)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-123970bff52e.html.gz",
+     "quote": "O RG emitido em data anterior a implantação da CIN, possui validade até 2.032 ."
+    },
+    {
+     "url": "https://www.policiacivil.pr.gov.br/Pagina/INFORMACOES-SOBRE-CARTEIRA-DE-IDENTIDADE-NACIONAL-CIN",
+     "publisher": "Polícia Civil do Paraná",
+     "title": "Informações sobre a CIN",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-123970bff52e.html.gz",
+     "quote": "icitar a CIN é obrigatório informar o número do Cadastro de Pessoa Física (CPF) do titular e o seu endereço com CEP ."
+    }
+   ],
+   "notes": "The federal gov.br CIN pages returned 404 to scripts; a state issuer page is used. Exact RG end date differs by source (28 Feb vs 23 Feb 2032)."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (6) Stripe accepts merchants here, so you can take card payments directly on your own site. (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Brazil: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "PIS/COFINS on export receipts for individuals/MEI; CBS/IBS reform transition from 2026.",
+  "Are programmer/designer/consultant occupations in MEI Annex XI?",
+  "Can resident individuals open foreign-currency accounts inside Brazil (Res. BCB 277)?",
+  "Stripe Brazil individual (CPF) requirements (support pages client-rendered).",
+  "Progressive IR table and how the R$5,000 reduction applies to carnê-leão foreign income."
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "code": "AO",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Probably yes, through a bank. Service receipts from non-residents are 'invisíveis correntes' (current invisibles). Under BNA Aviso 13/2013 (as summarised by a law firm in 2013), they must go through an institution authorised to deal in foreign exchange, with settlement within 360 days of the service. Whether Aviso 13/2013 is still in force was not confirmed. Separately, since Aviso 4/26 (May 2026), transfers abroad ordered by individuals are capped at USD 150,000 a year.",
+   "status": "unverified",
+   "note": "Aviso 13/2013 known only from a 2013 law-firm briefing (ALC Advogados); no 2024-2026 BNA notice on service-export receipts by individuals found on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.alcadvogados.com/xms/files/v1/Briefings/2013/2013.08_Aviso_13.2013_-_Operacoes_cambiais_de_invisiveis_correntes.pdf",
+     "publisher": "ALC Advogados (Briefing, Aug 2013)",
+     "title": "Aviso 13/2013 - Operações cambiais de invisíveis correntes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d0ed895eee25.pdf.gz",
+     "quote": "As operações cambiais destinadas à liquidação de operações de invisíveis correntes devem efectuar-se até 360 dias a contar da data da prestação dos serviços."
+    },
+    {
+     "url": "https://novojornal.co.ao/economia/detalhe/bna-impoe-limite-anual-de-150-mil-usd-nas-transferencias-para-o-exterior-ordenadas-por-pessoas-singulares--72117.html",
+     "publisher": "Novo Jornal",
+     "title": "BNA impõe limite anual de 150 mil USD nas transferências para o exterior ordenadas por pessoas singulares (28 May 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-46ec49cb879a.html.gz",
+     "quote": "SB 28 de Maio 2026 às 09:18 Continuar a ler A medida, prevista no aviso 4/26, visa \"mitigar os efeitos decorrentes das tensões geopolíticas que se observam no panorama internacional\"."
+    }
+   ],
+   "notes": "Goods exporters must credit receipts to an FX account at an Angolan bank (Aviso 4/21, per law-firm summaries) - not captured."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, in practice. BNA rules for individuals (Aviso 05/2021) cover resident and non-resident individuals transferring their own foreign-currency funds held in bank accounts, through authorised institutions. Individual FX operations are exempt from BNA licensing but subject to an annual cap on transfers abroad since Aviso 4/26 (reported as USD 150,000; amount not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bfa.ao/media/6456/aviso.pdf",
+     "publisher": "Banco Nacional de Angola — Aviso n.º 05/2021 (copy hosted by BFA)",
+     "title": "Aviso 05/2021, art. 3.º b)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-25d6f1b1871c.pdf.gz",
+     "quote": "b) Operação Cambial : a venda de moeda estrangeira a um cliente ou o débito da conta de um cliente com recursos próprios em moeda estrangeira, para cobertura de uma operação de invisíveis correntes, de mercadorias ou de capitais."
+    },
+    {
+     "url": "https://novojornal.co.ao/economia/detalhe/bna-impoe-limite-anual-de-150-mil-usd-nas-transferencias-para-o-exterior-ordenadas-por-pessoas-singulares--72117.html",
+     "publisher": "Novo Jornal",
+     "title": "BNA impõe limite anual de 150 mil USD (28 May 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-46ec49cb879a.html.gz",
+     "quote": "As operações cambiais ordenadas por pessoas singulares estão isentas de licenciamento pelo Banco Nacional de Angola, refere ainda o aviso publicado em Diário da República."
+    }
+   ],
+   "notes": "No explicit article on opening resident FX accounts captured; inference from Aviso 05/2021 definitions. Aviso 05/2021 may have been amended by later notices (e.g. Aviso 4/26)."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Angola (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Angola is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Angola is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Angola is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Angola is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Angola is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Angola.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: a sole trader (empresário em nome individual), registered online or in person at the GUE (Guiché Único da Empresa). A 2023 guide gives the fee as AOA 21,380 and requires only the identity card (BI), phone and email. Registration takes days, but licences for some activities can take much longer. In 2025 the press reported most GUE-registered companies never start activity.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.vendus.pt/blog/saiba-como-criar-uma-empresa-online-em-angola/",
+     "publisher": "Vendus",
+     "title": "Saiba como criar uma empresa online em Angola (2 Aug 2023)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5b4d83a2e467.html.gz",
+     "quote": "O custo de abrir uma empresa em nome individual é de 21.380.00 kwanzas."
+    },
+    {
+     "url": "https://expansao.co.ao/empresas/detalhe/constituir-uma-empresa-e-facil-licenciar-e-muito-mais-complicado-60188.html",
+     "publisher": "Expansão",
+     "title": "Constituir uma empresa é fácil, licenciar é muito mais complicado (11 Apr 2023)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-9c851282cd45.html.gz",
+     "quote": "O primeiro passo pode ser feito por via online ( www.gue.gov.ao ), ou presencialmente num dos postos de atendimento do Guiché Único da Empresas (GUE), sendo que são sete a funcionar no País, três em Luanda e um nas cidades de Malanje, Benguela, Lubango e Cuíto."
+    },
+    {
+     "url": "https://www.expansao.co.ao/angola/detalhe/gue-cria-mais-de-100-empresasdia-mas-75-nao-entram-em-actividade-64025.html",
+     "publisher": "Expansão",
+     "title": "GUE cria mais de 100 empresas/dia mas 75% não entram em actividade (13 Feb 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-e91bc84876c6.html.gz",
+     "quote": "Entretanto, mais de 75% por destas empresas são fantasmas, existem no papel mas não estão em actividade ou não completaram o processo de formalização na totalidade."
+    }
+   ],
+   "notes": "Fee from a 2023 commercial guide; current GUE fee schedule (gue.gov.ao) not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "For Angolan citizens, the tax number (NIF) is the same as the identity card (BI) number. For foreign tax residents, it is the number on the residence card.",
+   "status": "unverified",
+   "note": "Single secondary source (Expansão, Apr 2023); AGT confirmation not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://expansao.co.ao/empresas/detalhe/constituir-uma-empresa-e-facil-licenciar-e-muito-mais-complicado-60188.html",
+     "publisher": "Expansão",
+     "title": "Constituir uma empresa é fácil, licenciar é muito mais complicado (11 Apr 2023)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-9c851282cd45.html.gz",
+     "quote": "No caso de um cidadão nacional, é necessário apenas de B.I., sendo que o Número de Identificação Fiscal (NIF) já está agregado ao número do B.I."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Freelance income falls under IRT (personal income tax) Group B (self-employed). When paid by companies or accounting entities, the payer withholds 6.5% on the service value; otherwise a 25% rate applies to income assessed from records. Small individual traders (Group C) with turnover up to AOA 10m pay a flat 6.5% of sales under the 2026 Budget, with income up to AOA 150,000 exempt. Treatment of foreign-source income was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/angola/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Angola - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5d4f0ba8fb87.html.gz",
+     "quote": "When the income is paid by companies, or individuals who have a simplified accounting or a general accounting model/organised accounting, the taxable amount corresponds to the value of the service and is subject to WHT at a rate of 6.5%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/angola/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Angola - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5d4f0ba8fb87.html.gz",
+     "quote": "Group B: Income earned by self-employed workers."
+    },
+    {
+     "url": "https://beancount.io/pt/blog/2026/09/15/angola-mandatory-e-invoicing-simplified-regime-group-c-guide",
+     "publisher": "Beancount",
+     "title": "Mandato de Faturação Eletrónica em Angola: Guia para o Regime Simplificado e Grupo C (15 Sep 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-bd4ba3036a30.html.gz",
+     "quote": "No âmbito do Orçamento de 2026, os contribuintes do Grupo C cujo volume de negócios anual não exceda 10 milhões KZ pagam uma taxa fixa de 6,5% sobre o seu volume de vendas de bens e serviços , com rendimentos até 150.000 KZ isentos do imposto."
+    }
+   ],
+   "notes": "How Group B applies to payments from foreign clients (no Angolan withholding agent) not established; 25% route likely but unconfirmed. PwC residence test: habitual residence on 31 Dec. PwC.pt OGE 2026 flash returned 403."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 14%. Turnover or imports under AOA 25m: exclusion regime (no VAT). AOA 25m–350m: simplified regime at 7%. Above AOA 350m: standard regime. Exports of goods are zero-rated; treatment of exported services was not established. Certified e-invoicing became mandatory for simplified-regime businesses from 21 Sep 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/angola/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Angola - Corporate - Other taxes (reviewed 24 Jun 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ebc271d6bb0d.html.gz",
+     "quote": "The standard VAT rate is 14%, and VAT has a broad tax base."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/angola/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Angola - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ebc271d6bb0d.html.gz",
+     "quote": "The simplified regime The simplified regime applies to taxpayers with an annual turnover or volume of import operations between AOA 25 million and AOA 350 million."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/angola/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Angola - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ebc271d6bb0d.html.gz",
+     "quote": "7% on the simplified VAT regime (excluding the lease of immovable property, which is exempt)."
+    },
+    {
+     "url": "https://beancount.io/pt/blog/2026/09/15/angola-mandatory-e-invoicing-simplified-regime-group-c-guide",
+     "publisher": "Beancount",
+     "title": "Mandato de Faturação Eletrónica em Angola: Guia para o Regime Simplificado e Grupo C (15 Sep 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-bd4ba3036a30.html.gz",
+     "quote": "As empresas abaixo do limiar de 25 milhões de kwanzas enquadram-se geralmente no regime de Isenção de IVA."
+    },
+    {
+     "url": "https://beancount.io/pt/blog/2026/09/15/angola-mandatory-e-invoicing-simplified-regime-group-c-guide",
+     "publisher": "Beancount",
+     "title": "Mandato de Faturação Eletrónica em Angola: Guia para o Regime Simplificado e Grupo C (15 Sep 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-bd4ba3036a30.html.gz",
+     "quote": "Ultrapasse os 25 milhões KZ e entra no regime simplificado de IVA — software certificado e reporte em tempo real tornam-se obrigatórios a 21 de setembro."
+    }
+   ],
+   "notes": "Zero rate per PwC: exports of goods, vessel/aircraft supplies, international passenger transport."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 22/11 of 17 June 2011 (LPDP) applies. Processing must be notified to the Data Protection Agency (APD), one notification per purpose; some processing needs prior authorisation. The APD is active: in mid-2024 it fined five companies, including USD 150,000 for an illegal transfer of personal data to the UK and failure to notify.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.afriwise.com/blog/personal-data-in-angola",
+     "publisher": "Afriwise",
+     "title": "Personal data in Angola",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-df53308014ab.html.gz",
+     "quote": "Processing of personal data The processing of personal data is subject to notification to the APD."
+    },
+    {
+     "url": "https://plmj.com/xms/files/03_Novidades_legislativas/2024/N_Colab_RVA-PLMJ_Dados_Pessoais_e_Ciber-seguranca_em_Angola.pdf",
+     "publisher": "PLMJ / RVA Advogados (2024)",
+     "title": "Dados Pessoais e Ciber-segurança em Angola: A Actuação Fiscalizadora da APD",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d54a2909db8e.pdf.gz",
+     "quote": "Em Junho e Julho de 2024, a APD divulgou na sua página de internet a aplicação de sanções a cinco empresas de diversos sectores, após investigações que concluíram pela existência de violações da LPDP, nomeadamente: • MAXAM – Companhia de Pólvoras e Explosivos de Angola, S.A.: Multada em USD 150.000,00 por transferência ilegal de dados pessoais para o Reino Unido e por não notificar a APD sobre actividades de tratamento de da"
+    }
+   ],
+   "notes": "Law text not read; transfer regime (APD approval for non-adequate countries) from secondary summaries only."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Consumer Protection Law (Lei 15/03), consumers may withdraw within seven working days of receiving the goods or service when the contract was made off-premises, by correspondence or equivalent means (art. 15(5)). Where product or service information was missing, insufficient or ambiguous, consumers also have seven working days to retract (art. 9). No dedicated e-commerce withdrawal rule was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://angolex.com/paginas/leis/lei-de-defesa-do-consumidor.html",
+     "publisher": "Lei n.º 15/03 de Defesa do Consumidor (text on AngoLEX)",
+     "title": "Lei 15/03, art. 15.º n.º 5",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b4bcf2ac917b.html.gz",
+     "quote": "O consumidor pode desistir do contrato, no prazo de sete dias úteis a contar da data de recepção do bem ou serviço, sempre que a contratação de fornecimento de bens ou serviços ocorrer fora do estabelecimento comercial, por meio de correspondência ou outros equivalentes."
+    },
+    {
+     "url": "https://angolex.com/paginas/leis/lei-de-defesa-do-consumidor.html",
+     "publisher": "Lei n.º 15/03 de Defesa do Consumidor (text on AngoLEX)",
+     "title": "Lei 15/03, art. 9.º",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b4bcf2ac917b.html.gz",
+     "quote": "Quando se verifique falta de informação, informação insuficiente, ilegível ou ambígua que comprometa a utilização adequada do bem ou do serviço, o consumidor goza do direito de retratação do contrato relativo à sua aquisição ou prestação, no prazo de sete dias úteis a contar da data de recepção do produto ou da data de celebração do contrato de prestação de serviços."
+    }
+   ],
+   "notes": "AngoLEX is a private legal database reproducing the law (treated as a copy of the official text). Whether 'correspondência ou outros equivalentes' covers online sales is an interpretation (academic work argues the law is insufficient for distance selling). Lei 23/11 (information-society services) not read."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. The Group C flat 6.5% regime and the VAT exclusion below AOA 25m (L3, L4) are the main simplifications.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The identity card (Bilhete de Identidade, BI). It is the only document needed to register a sole trader online, and its number doubles as the NIF for citizens (L2). Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Commercial guide and press only (Vendus, Expansão); no ID-authority or bank KYC source captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.vendus.pt/blog/saiba-como-criar-uma-empresa-online-em-angola/",
+     "publisher": "Vendus",
+     "title": "Saiba como criar uma empresa online em Angola (2 Aug 2023)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5b4d83a2e467.html.gz",
+     "quote": "Documentos Para o registo do Empresário em Nome Individual é necessário: – Bilhete de Identidade – Número de telefone – Email"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Angola: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Angola: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Angola: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Angola: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Angola: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-21",
+ "open_questions": [
+  "Status of BNA Aviso 13/2013 (invisíveis correntes, 360 days) and any 2024-2026 notice on individuals' service-export receipts; explicit resident FX-account rule.",
+  "Group B taxation of payments from foreign clients (no local withholding agent); foreign-source income rule; VAT on exported services.",
+  "Lei 22/11 transfer regime and APD procedures read only via secondary sources; Lei 23/11 (information society) not read.",
+  "Current GUE fees (2023 figure AOA 21,380); NIF = BI number single-sourced; PayPal withdrawals, Payoneer, local gateways."
+ ]
+}

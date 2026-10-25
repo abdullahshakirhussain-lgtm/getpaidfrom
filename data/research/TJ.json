@@ -1,0 +1,336 @@
+{
+ "code": "TJ",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Partly established. Tajikistan has accepted IMF Article VIII (current-account convertibility). Dollar liquidity in banks is limited and can delay transactions. Residents must notify the National Bank of capital-movement FX operations and of opening foreign bank accounts (Instruction No. 223; not captured). No surrender requirement for service income was found.",
+   "status": "unverified",
+   "note": "Single captured source (trade.gov) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/tajikistan-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Tajikistan Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-9e4798ee3070.html.gz",
+     "quote": "Foreign Exchange Controls Tajikistan is subject to the International Monetary Fund’s Article VIII on Foreign Exchange controls."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established from a captured source (foreign accounts must be notified to the National Bank per search summaries).",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Tajikistan (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Tajikistan is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Tajikistan is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Tajikistan is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal Tajikistan help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Tajikistan is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Tajikistan is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Tajikistan.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Anyone earning on a regular basis must register as an individual entrepreneur (соҳибкори инфиродӣ) with the local tax authority, through the one-stop or single-window service, in person or online, and pay a registration fee. Documents: passport/ID and photos, and for foreigners a document authorising their stay (visa, registration card or residence permit). Patent-regime applicants prepay the first month's patent. Operating without registration doubles the tax rates.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "When receiving income on a regular basis, you must register as an individual entrepreneur ."
+    },
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "One can register as an individual entrepreneur by filing the respective application and paying the registration fee to the local tax authority either personally at the place of business or online through a single-window service."
+    },
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "If someone engages in entrepreneurial activities without a valid state registration, their income for the relevant period is subject to taxation at double the rates established for such activities."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-tajikistan/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Соҳибкори инфиродӣ) in Tajikistan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d22d4e5254ef.html.gz",
+     "quote": "Foreign nationals can register if they hold a residence permit or other authorization confirming their right to work."
+    }
+   ],
+   "notes": "TRAP: unregistered regular income is taxed at double rates. Fee amount not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A taxpayer identification number (TIN) is needed. Enterprises and individual entrepreneurs receive a single identification number (SIN) on registration.",
+   "status": "unverified",
+   "note": "Single secondary source (Mellow) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "Learn more about the TIN The single identification number (SIN) is a unique tax identifier assigned to enterprises and individual entrepreneurs upon registration."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents, meaning citizens and foreigners present more than 182 days in a consecutive 12-month period, are taxed on worldwide income. Non-registered individuals pay 15% on other income with no deductions (salary at the main workplace: 12%). Individual entrepreneurs choose a patent regime (fixed tax), a certificate regime or a certificate regime with special conditions. Deel reports that most pay a flat 6% of gross turnover under the simplified regime (Tax Code art. 380), while some sectors pay 13–20%.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "Tax residence Tajikistan taxes its residents on their worldwide income, while non-residents are taxed on their Tajikistan-source income only."
+    },
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "This tax is payable at a rate of 15% with no option to claim deductions ."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-tajikistan/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Соҳибкори инфиродӣ) in Tajikistan",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d22d4e5254ef.html.gz",
+     "quote": "proprietors in Tajikistan are usually taxed under the simplified regime, paying a flat 6 % of gross turnover in accordance with Article 380 of the Tax Code."
+    }
+   ],
+   "notes": "TRAP: citizens are residents regardless of days (per Mellow). PwC Tajikistan pages returned 404 on 2026-10-22."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Under the Tax Code (Art. 245), a person whose total income over a period of up to 12 consecutive full calendar months exceeds TJS 1.0 million becomes a VAT payer. Foreign entities performing remote services are also VAT payers. The standard rate is 14% for 1 January 2024 to 31 December 2026 and 13% from 1 January 2027 (Art. 397(4)). Smaller entrepreneurs (income under TJS 1 million) are 'small entrepreneurial activity'.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://andoz.tj/docs/kodex/Kodex_14_05_2025_Nav_ENG_en.pdf",
+     "publisher": "Tax Committee under the Government of the Republic of Tajikistan",
+     "title": "Tax Code of the Republic of Tajikistan (English text)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8abfc05e3116.pdf.gz",
+     "quote": "a person whose total income for a period not exceeding 12 full consecutive calendar months exceeds 1.0 million somoni",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://andoz.tj/docs/kodex/Kodex_14_05_2025_Nav_ENG_en.pdf",
+     "publisher": "Tax Committee under the Government of the Republic of Tajikistan",
+     "title": "Tax Code of the Republic of Tajikistan (English text)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8abfc05e3116.pdf.gz",
+     "quote": "is established at 14 percent for the period from 1 January 2024 to 31 December 2026, and at 13 percent starting from 1 January 2027",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/tajikistan.md",
+     "publisher": "Kintsugi",
+     "title": "Tajikistan VAT Guide for 2026 (Kintsugi)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-497f274d90f5.html.gz",
+     "quote": "a business becomes a VAT payer once income exceeds 1,000,000 somoni over the previous 12 months",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "English text of the Tax Code published by the Tax Committee (andoz.tj), found via Kintsugi's source list."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Tajikistan. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "762,Tajikistan,Legislation,No Data,Legislation,Legislation,Legislation,0,0,1,1,0,0,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "A passport or ID plus two 4x6 photos is needed for IE registration; foreigners also need a visa, registration card or residence permit (see L1).",
+   "status": "unverified",
+   "note": "Single secondary source (Mellow) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://help.mellow.io/en/articles/9148831-freelance-and-taxes-tajikistan",
+     "publisher": "Mellow",
+     "title": "Freelance and taxes: Tajikistan (Mellow)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b10a3182a82c.html.gz",
+     "quote": "The following documents must be submitted along with the application: A copy of the individual's ID document (passport) Two photos sized 4x6 cm For foreign individuals: a copy of the document authorizing them to stay in the Republic of Tajikistan (visa, registration card, residence permit)"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Tajikistan: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Tajikistan: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Tajikistan: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Tajikistan: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "FX notification rules; FCY accounts.",
+  "Patent/certificate rates for IT/freelance services; VAT rate/threshold (official).",
+  "Data protection; consumer law.",
+  "PayPal; local payment options."
+ ]
+}

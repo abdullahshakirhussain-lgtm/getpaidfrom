@@ -1,0 +1,844 @@
+{
+ "source": "lemon",
+ "route": "lemonsqueezy",
+ "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+ "retrieved_at": "2026-10-17T04:38:29+00:00",
+ "sha256": "dd2592e3c9d2876875ec2f468f77de68e68e9b3b362232ded963d83532baff86",
+ "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+ "evidence": "official",
+ "lists": {
+  "bank_payouts": {
+   "meaning": "payout_supported_bank",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments.",
+   "count": 119,
+   "entries": [
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AO",
+     "raw": "Angola",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua and Barbuda",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia and Herzegovina",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei Darussalam",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CI",
+     "raw": "Côte d’Ivoire",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "ET",
+     "raw": "Ethiopia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GA",
+     "raw": "Gabon",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": "footnote",
+     "meaning": "payout_supported_bank_restricted",
+     "footnote": "From May 2024, Stripe only accepts new accounts from India on an invite-only basis; merchants can only set up a bank payout if their accounts are pre-approved by Stripe, otherwise they must use PayPal (quoted from Lemon Squeezy's page, 2026-10-17)."
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LA",
+     "raw": "Lao People’s Democratic Republic",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MO",
+     "raw": "Macao",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MG",
+     "raw": "Madagascar",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "KR",
+     "raw": "Republic of Korea (ROK)",
+     "label": "rok",
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "RW",
+     "raw": "Rwanda",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LC",
+     "raw": "Saint Lucia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad and Tobago",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "TR",
+     "raw": "Turkey",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "UZ",
+     "raw": "Uzbekistan",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "payout_supported_bank"
+    }
+   ],
+   "group_entries_not_expanded": []
+  },
+  "purchases_blocked": {
+   "meaning": "buyers_blocked",
+   "caveat": null,
+   "count": 17,
+   "entries": [
+    {
+     "code": "CF",
+     "raw": "Central African Republic",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "CU",
+     "raw": "Cuba",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "KP",
+     "raw": "Democratic People’s Republic of Korea",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "CD",
+     "raw": "Democratic Republic of the Congo",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "ER",
+     "raw": "Eritrea",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea-Bissau",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "IR",
+     "raw": "Iran",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "IQ",
+     "raw": "Iraq",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "LB",
+     "raw": "Lebanon",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "LY",
+     "raw": "Libya",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "RU",
+     "raw": "Russian Federation",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "SO",
+     "raw": "Somalia",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "SS",
+     "raw": "South Sudan",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "SD",
+     "raw": "Sudan",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "SY",
+     "raw": "Syrian Arab Republic",
+     "label": null,
+     "meaning": "buyers_blocked"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": null,
+     "meaning": "buyers_blocked"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

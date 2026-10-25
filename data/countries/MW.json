@@ -1,0 +1,478 @@
+{
+ "code": "MW",
+ "un_name": "Malawi",
+ "m49_name": "Malawi",
+ "iso3": "MWI",
+ "m49": "454",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "01-12-1964",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Partly established. Malawi has exchange controls (Exchange Control Regulation 2022 on repatriation of export proceeds and foreign-currency-denominated accounts). In March 2025 the Reserve Bank cut the mandatory conversion of export proceeds from 30% to 25% for exporters; for NGOs it went from 70% to 50%. Whether and how this applies to individual service exporters (freelancers) was not confirmed.",
+   "status": "unverified",
+   "note": "Press only (Nation Online); regulation text and any rule for individual service exporters not found on 2026-10-22; allAfrica (403).",
+   "sources": [
+    {
+     "url": "https://mwnation.com/rbm-motivates-exporters-reviews-forex-controls/",
+     "publisher": "Nation Online (Malawi)",
+     "title": "RBM motivates exporters, reviews forex controls (Mar 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-54945950bcbd.html.gz",
+     "quote": "Mafuta Mwale: The measures will incentivise the export sector| Among others, he said the central bank has reduced the mandatory conversion ratio on export proceeds from 30 percent to 25 percent for exporters with exemption from the mandatory conversion of export proceeds for manufacturers meeting criteria issued by the central bank."
+    }
+   ],
+   "notes": "Rules described as temporary and under review."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Foreign-currency-denominated accounts (FCDAs) exist and are regulated by the 2022 Exchange Control Regulation. Exporters keep their retained share there. Rules for individuals opening FCDAs were not sourced.",
+   "status": "unverified",
+   "note": "No source on individual FCDA eligibility captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Malawi (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Malawi is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Malawi is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Malawi is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Malawi is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Malawi is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Malawi.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship is registered under the Business Registration Act through the online Malawi Business Registration System (MBRS). The registry function reportedly moved from the Registrar General to CRIPC from 1 April 2026. There is no minimum capital and liability is unlimited. Fees were not confirmed (guides cite MK 2,000 to MK 10,000).",
+   "status": "unverified",
+   "note": "Single secondary domain (Deel) captured; MBRS/CRIPC official pages not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/register-a-sole-proprietorship-in-malawi",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Malawi",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3e88ff7d295d.html.gz",
+     "quote": "Category Description Official name There is no special statutory local translation—common usage is “sole proprietorship” or “sole trader” under the Business Registration Act Registration body Department of Registrar General via the Malawi Business Registration System (MBRS) Minimum capital None Liability Unlimited—the owner is personally liable for business debts and obligations"
+    }
+   ],
+   "notes": "CRIPC transfer from search summary of duties.mbrs.gov.mw (not captured)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A TPIN (Taxpayer Identification Number) from the Malawi Revenue Authority. Registrar guidance reportedly requires it before business registration.",
+   "status": "unverified",
+   "note": "Only search summaries; no MRA page captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Malawi taxes on a source basis: individuals are taxable on Malawi-source income wherever payment is made. Whether income from services performed in Malawi for foreign clients is Malawi-source (likely, if the work is done in Malawi) was not confirmed. Personal rates reportedly reach 35%.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bdo.global/en-gb/microsites/tax-newsletters/ges-news/october-2019-issue/malawi-taxation-of-expatriates-in-malawi",
+     "publisher": "BDO (GES News, Oct 2019)",
+     "title": "MALAWI - Taxation of expatriates in Malawi",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-915e5b78785f.html.gz",
+     "quote": "There is no special tax regime for expatriates in Malawi and individuals are taxable on their Malawian source income irrespective of where payment is made."
+    },
+    {
+     "url": "https://www.lloydsbanktrade.com/en/market-potential/malawi/taxes",
+     "publisher": "Lloyds Bank International Trade Portal",
+     "title": "Malawi: Business Environment — Taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4983f58bf6f9.html.gz",
+     "quote": "Corporate Taxes Company Tax 30% Tax Rate For Foreign Companies All companies (resident and non-resident) are subject to tax on Malawi-source income."
+    },
+    {
+     "url": "https://www.deel.com/blog/register-a-sole-proprietorship-in-malawi",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Malawi",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3e88ff7d295d.html.gz",
+     "quote": "Business profits are taxed as personal income, with progressive rates ranging from 0% to 35%"
+    }
+   ],
+   "notes": "PwC Malawi pages now 404. Lloyds quote covers companies; source principle for individuals rests on BDO (2019). Small-business presumptive/turnover tax not sourced."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 17.5%. The registration threshold doubled from MWK 25m to MWK 50m a year with the 2026–27 budget law, in force 15 April 2026. Foreign digital-service suppliers must now register regardless of turnover. Treatment of exported services was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://fonoa.com/resources/blog/malawi-vat-foreign-digital-services",
+     "publisher": "Fonoa",
+     "title": "Malawi Introduces VAT Rules for Non-Resident Digital Services Suppliers (2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-da3bc684729e.html.gz",
+     "quote": "Non-resident suppliers must register regardless of revenue threshold The amendment increased the domestic VAT registration threshold from MWK 25 million to MWK 50 million per annum."
+    },
+    {
+     "url": "https://regfollower.com/malawi-enacts-2026-27-budget-introduces-vat-on-digital-services-by-foreign-companies/",
+     "publisher": "RegFollower",
+     "title": "Malawi enacts 2026-27 budget, introduces VAT on digital services by foreign companies",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-42e63b9e9a4a.html.gz",
+     "quote": "RF Report Malawi has enacted the legislation implementing the 2026–2027 Budget, which was published in the Official Gazette on 14 April 2026 and entered into force on 15 April 2026."
+    },
+    {
+     "url": "https://regfollower.com/malawi-enacts-2026-27-budget-introduces-vat-on-digital-services-by-foreign-companies/",
+     "publisher": "RegFollower",
+     "title": "Malawi enacts 2026-27 budget, introduces VAT on digital services by foreign companies",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-42e63b9e9a4a.html.gz",
+     "quote": "VAT VAT registration threshold doubled from MWK 25 million to MWK 50 million, relieving small businesses."
+    },
+    {
+     "url": "https://fonoa.com/resources/blog/malawi-vat-foreign-digital-services",
+     "publisher": "Fonoa",
+     "title": "Malawi Introduces VAT Rules for Non-Resident Digital Services Suppliers (2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-da3bc684729e.html.gz",
+     "quote": "Malawi now requires foreign digital services providers, marketplaces, and intermediaries to register for VAT and charge 17.5% VAT on taxable digital supplies."
+    }
+   ],
+   "notes": "TRAP: older guides (e.g. Lloyds trade portal) still give 16.5% and MWK 25m (or MK 10m)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Data Protection Act 2024 applies, with MACRA as the authority. Registration is required only for controllers or processors 'of significant importance': those processing personal data of more than 10,000 Malawi residents, or data of significance to the economy, society or security (s. 41(1)). Registration fees were under consultation in July 2026. Cross-border transfers are restricted (s. 38).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://macra.mw/wp-content/uploads/2026/07/REGISTRATION-FEES-PUBLIC-NOTICE-1.pdf",
+     "publisher": "MACRA — Malawi Communications Regulatory Authority",
+     "title": "Public notice: proposed registration fees for data controllers and processors of significant importance (Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-ce9c980e4ab5.pdf.gz",
+     "quote": "Any natural or legal person processing or intending to process personal information of more than 10,000 Data Subjects who are resident in Malawi or personal information of significance to the economy, society, or security of Malawi is a Data Controller or Processor of Significant Importance and must therefore register with the Authority."
+    },
+    {
+     "url": "https://cdh-malawi.com/wp-content/uploads/2025/09/Data-Protection-Act-2024.pdf",
+     "publisher": "Data Protection Act, 2024 (copy hosted by Cliffe Dekker Hofmeyr Malawi)",
+     "title": "Data Protection Act 2024, s. 38",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-6d4c6a2ee766.pdf.gz",
+     "quote": "38.__(1) a data controller and data processor shall not transfer personal data from Malawi to another country or an international organization, unless— (a) the recipient of the data is subject to— (i) a law;"
+    }
+   ],
+   "notes": "Small freelancers below 10,000 data subjects need not register but must follow the Act's principles (inference). Fee schedule proposed, not final."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Electronic Transactions and Cyber Security Act 2016 (s. 35), consumers may withdraw from an electronic contract without reasons or penalty within seven days: of receiving goods, or of forming a services contract (or an agreed period). Suppliers must reimburse within fourteen days, and the consumer may bear return costs. The right does not apply once services have started with the consumer's consent, or to personalised or perishable goods.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ictpolicyafrica.org/en/document/32nve43i8rl?page=26",
+     "publisher": "Electronic Transactions and Cyber Security Act 2016 (text on ICT Policy Africa)",
+     "title": "ETCSA 2016, s. 35(1)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c234d5aa0ad8.html.gz",
+     "quote": "35.__(1) A consumer shall be entitled to exercise the right of withdrawal from a contract concluded by electronic means without giving reasons and without penalties__ (a) with respect to goods, within seven days of receipt of the goods or a period as agreed by the two parties in the agreement;"
+    },
+    {
+     "url": "https://www.ictpolicyafrica.org/en/document/32nve43i8rl?page=26",
+     "publisher": "Electronic Transactions and Cyber Security Act 2016 (text on ICT Policy Africa)",
+     "title": "ETCSA 2016, s. 35(3)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c234d5aa0ad8.html.gz",
+     "quote": "(3) After a consumer has cancelled a contract under this section, a supplier shall, within fourteen days of cancellation of the contract by the consumer, reimburse to the consumer all sums paid."
+    },
+    {
+     "url": "https://www.ictpolicyafrica.org/en/document/32nve43i8rl?page=26",
+     "publisher": "Electronic Transactions and Cyber Security Act 2016 (text on ICT Policy Africa)",
+     "title": "ETCSA 2016, s. 35(6)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-c234d5aa0ad8.html.gz",
+     "quote": "(6) Notwithstanding subsection (1), a consumer shall not withdraw from a contract concluded by electronic means where__ (a) the provision of services started with the consumer's consent, before the end of the seven day period;"
+    }
+   ],
+   "notes": "ICT Policy Africa hosts the Act text (treated as a copy of the official text). Data-protection provisions of ETCSA were repealed by the DPA 2024."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The National ID (citizens) or a passport (non-citizens) is listed for sole-proprietorship registration. Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Commercial guide only (Deel); no NRB or bank KYC source captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/register-a-sole-proprietorship-in-malawi",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Malawi",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3e88ff7d295d.html.gz",
+     "quote": "Valid ID (National ID if citizen;"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Malawi: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Malawi: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Malawi: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Malawi: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Malawi: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

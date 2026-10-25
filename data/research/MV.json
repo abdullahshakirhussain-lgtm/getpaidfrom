@@ -1,0 +1,328 @@
+{
+ "code": "MV",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Maldives (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Maldives is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Maldives is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Maldives is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Maldives is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Maldives is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Maldives.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Maldives (updated June 10, 2026), registration is handled by: Ministry of Economic Development & Trade ( Business Portal ). Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-maldives/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship in Maldives (Deel)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-cca24d833a81.html.gz",
+     "quote": "Registration body Ministry of Economic Development & Trade ( Business Portal )",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The TIN (Taxpayer Identification Number). Per Maldives' official TIN sheet supplied to the OECD, one TIN covers all taxes a registrant is registered for, with a tax-specific account suffix (e.g. 1000001PIT001 for individual income tax, 1000001GST501 for general-sector GST), and TINs do not expire.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/maldives-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Maldives's tax administration)",
+     "title": "Maldives — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-56d5bf75870c.pdf.gz",
+     "quote": "The TIN’s will not expire and will be used until the legal entities are dissolved.",
+     "retrieved": "2026-10-24"
+    },
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/maldives-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Maldives's tax administration)",
+     "title": "Maldives — Information on Tax Identification Numbers (OECD)",
+     "retrieved": "2026-10-24",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-56d5bf75870c.pdf.gz",
+     "quote": "Individuals = 1000001PIT001"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Yes, the Maldives taxes individuals. Under the Income Tax Act (signed 17 December 2019), taxation started on 1 January 2020, and remuneration has been taxed since 1 April 2020. Residents are taxed on income derived from both the Maldives and elsewhere. Temporary residents and non-residents are taxed only on Maldivian-source income. Individual rates on taxable income for an accounting period: 0% up to MVR 720,000; 5.5% to MVR 1,200,000; 8% to MVR 1,800,000; 12% to MVR 2,400,000; 15% above. So a freelancer living in the Maldives is taxable on foreign-client income above the MVR 720,000 band.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://mira.gov.mv/Pages/View/FAQ_IncomeTax",
+     "publisher": "Maldives Inland Revenue Authority (MIRA)",
+     "title": "Income Tax — FAQ",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-be53e106639b.txt.gz",
+     "quote": "The taxation under the Act started on 1 January 2020. However, taxation of remuneration under the Act commenced on 1 April 2020.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://mira.gov.mv/Pages/View/FAQ_IncomeTax",
+     "publisher": "Maldives Inland Revenue Authority (MIRA)",
+     "title": "Income Tax — FAQ",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-be53e106639b.txt.gz",
+     "quote": "a resident would be taxed on income derived from both the Maldives and elsewhere, while a temporary resident would be taxed only on income derived from the Maldives.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://mira.gov.mv/Pages/View/FAQ_IncomeTax",
+     "publisher": "Maldives Inland Revenue Authority (MIRA)",
+     "title": "Income Tax — FAQ",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-be53e106639b.txt.gz",
+     "quote": "Not exceeding MVR 720,000 | 0%",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://mira.gov.mv/Pages/View/FAQ_IncomeTax",
+     "publisher": "Maldives Inland Revenue Authority (MIRA)",
+     "title": "Income Tax — FAQ",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-be53e106639b.txt.gz",
+     "quote": "More than MVR 2,400,000 | 15%",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "RESOLVED CONFLICT: TaxAtlas's '0% personal income tax' is outdated, since MIRA confirms the Income Tax Act applies to individuals. MIRA FAQ read in the browser (fetch script gets 403) and saved as an excerpt. Some third-party guides misapply MIRA's monthly withholding brackets (MVR 60,000/month) as annual ones."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "GST has a dual rate: 8% for the general sector and 16% for tourism (from 1 January 2023; a rise to 17% was planned from July 2025). Registration is required once annual taxable supplies exceed MVR 1 million. Some guides report the general rate rose to 12%; this conflicts with the sources above and needs checking with MIRA.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://edition.mv/features/44897",
+     "publisher": "Edition.mv",
+     "title": "Revenue, reform, and resilience: understanding the Maldives tax journey (Edition.mv, 7 Oct 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-46484753eedd.html.gz",
+     "quote": "for example, from 1 January 2023, the tourism sector faces a 16 percent GST rate, while the general sector is taxed at 8 percent."
+    },
+    {
+     "url": "https://quaderno.io/guides/maldives/gst/",
+     "publisher": "Quaderno",
+     "title": "Maldives GST Guide for Digital Businesses (Quaderno)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b1f3d3457133.html.gz",
+     "quote": "Yes, Maldives has an annual sales registration threshold of MVR 1 million."
+    }
+   ],
+   "notes": "Rate conflict (8% vs 12% general; 16% vs 17% tourism) — verify current rates."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records only draft data-protection/privacy legislation in Maldives. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "462,Maldives,Legislation,No Legislation,Draft Legislation,Legislation,No Legislation,0,0,1,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD); status of the draft not checked nationally."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Maldives. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "462,Maldives,Legislation,No Legislation,Draft Legislation,Legislation,No Legislation,0,0,1,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: ދިވެހި ރައްޔިތެއްކަން އަންގައިދޭ ކާޑު / National Identity Card (Wikipedia, compulsory-ID list). The card is compulsory to access the national health insurance scheme, Aasandha, acquire passports and driver's licenses, open bank accounts, etc. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Maldives ދިވެހި ރައްޔިތެއްކަން އަންގައިދޭ ކާޑު / National Identity Card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Maldives: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Maldives: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Maldives: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Maldives: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Maldives: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "MMA FX conversion rules for USD receipts.",
+  "Current GST rates; income tax bands (MIRA).",
+  "Registration/TIN; data protection; consumer law."
+ ]
+}

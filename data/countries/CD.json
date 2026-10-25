@@ -1,0 +1,575 @@
+{
+ "code": "CD",
+ "un_name": "Democratic Republic of the Congo",
+ "m49_name": "Democratic Republic of the Congo",
+ "iso3": "COD",
+ "m49": "180",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "buyers_blocked",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "seller_unsupported",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "unverified",
+   "reason": "Whop's payout list contains exactly one Congo entry, 'Republic of the Congo'. That string is also a substring of 'Democratic Republic of the Congo' (CD), and Whop lists no other Congo, so the page alone does not prove which member is meant. The UN uses the short name 'Congo' for CG; no official source fetched so far gives 'Republic of the Congo' with its code (EU style guide renders via JavaScript; UNCTAD PDF did not respond).",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Under the BCC's 2014 exchange regulation, service exporters are not required to surrender their export receipts to banks or the BCC (art. 33). The 60-day repatriation deadline in art. 32 is written for goods exports. Règlement 001/25 (16 Apr 2025) added a ban on carrying USD 10,000 or more in cash between towns where banks exist (bank transfer required); it does not change the receipts rules.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.droitcongolais.info/files/662.03.14c-Banque-centrale_Reglementation-du-25-mars-2014.pdf",
+     "publisher": "Banque Centrale du Congo — Réglementation du change (2014) (copy on droitcongolais.info)",
+     "title": "Réglementation du change, art. 33 al. 3",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-4db69b1f5bcc.pdf.gz",
+     "quote": "Alinéa 3 : Les exportateurs des services ne sont pas tenus de rétrocéde r leurs recettes d’exportation aux banques ou à la Banque Centrale du Congo."
+    },
+    {
+     "url": "https://resources.bcc.cd/publications/fichiers-pdf-general/reglement_ndeg001_2025_modifiant_et_completant_la_reglementation_du_change_du_28_mars_2014.pdf",
+     "publisher": "Banque Centrale du Congo — Règlement n° 001/25 (16 Apr 2025)",
+     "title": "Règlement n° 001/25 modifiant et complétant la Réglementation du change du 28 mars 2014, art. 1",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-22-773b1668d8af.pdf.gz",
+     "quote": "avec une somme en espèce égale ou supérieure à 10.000 dollars américains ou son équivalent en d'autres monnaies étrangères. Les sommes excédant ce plafond doivent faire l'objet d'un transfert bancaire.",
+     "quote_type": "rendered_reading"
+    }
+   ],
+   "notes": "2014 text read from a droitcongolais.info copy (OCR-like spacing kept, e.g. 'rétrocéde r'); BCC dates the regulation 28 March 2014. Règlement 001/25 is an image-only scan (pages rendered and read); it repeals Règlement 003/18. Whether other amendments touched arts. 32/33/73 not checked. Press reports a ban on cash FX transactions from April 2027 (unverified)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Approved banks may open foreign-currency accounts for residents (RME) and non-residents without prior BCC authorisation, and these accounts can be credited and debited freely (art. 73).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.droitcongolais.info/files/662.03.14c-Banque-centrale_Reglementation-du-25-mars-2014.pdf",
+     "publisher": "Banque Centrale du Congo — Réglementation du change (2014) (copy on droitcongolais.info)",
+     "title": "Réglementation du change, art. 73",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-4db69b1f5bcc.pdf.gz",
+     "quote": "Article 73 : Alinéa 1 : Les banques agréées sont autorisées à ouvrir des comptes en monnaies étrangères au profit des résidents (RME) et non -résidents (NRME) sans autorisation préalable de la Banque Centrale du Congo."
+    }
+   ],
+   "notes": "The economy is heavily dollarised; USD accounts are common."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Democratic Republic of the Congo (automated collector snapshots, Oct 2026). Available: Google Play (developer registration). Not listed: Stripe (merchant sign-up); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country; Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Democratic Republic of the Congo is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Democratic Republic of the Congo is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established. Mobile money (M-Pesa, Orange Money, Airtel Money) is widespread; no gateway onboarding individuals for online acceptance was sourced."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. 'Congo - Kinshasa' is listed as a PayPal market but is not on the PayPal Payouts list; no reliable source on withdrawals was found.",
+   "status": "unverified",
+   "note": "Searched 2026-10-22 'RDC PayPal retrait argent compte Kinshasa 2026'; only promotional blogs.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "DR Congo is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market ('Congo - Kinshasa', paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: the DRC is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include the Democratic Republic of the Congo.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Registration goes through the GUCE (Guichet Unique de Création d'Entreprise, Decree 14/014 of 8 May 2014). It bundles the RCCM, national identification number, tax number and social-security affiliation, with a legal limit of three working days for a complete file. Real-world cost and time are disputed: the World Bank's B-READY 2024 found up to 85 days and USD 1,700 in official fees, while GUCE says fees are USD 110 for an SARL. Individual-enterprise fees were not confirmed officially.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/cng207356.pdf",
+     "publisher": "Décret n° 14/014 du 08 mai 2014 — Guichet Unique de Création d'Entreprise (FAOLEX copy, OCR)",
+     "title": "Décret 14/014, délai",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-de684ef6d591.pdf.gz",
+     "quote": "s'accomplissent dans un délai qui ne peut dépasser trois jouts ouvtables, à partir de la téception du dossier semplet."
+    },
+    {
+     "url": "https://www.legavox.fr/blog/yav-associates/quand-retour-normalite-dans-creation-36196.htm",
+     "publisher": "Légavox (YAV & Associates)",
+     "title": "A quand le retour à la normalité dans la création d’entreprises en RDC ? (11 Nov 2024)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0fe991f79fbb.html.gz",
+     "quote": "Le nouveau « rapport Business Ready 2024 » en sigle B-READY du Groupe de la Banque mondiale – qui a remplacé le rapport « Doing Business » - établit un délai allant jusqu’à 85 jours et un coût de 1700 $ de frais officiels et entre 500$ et 1000$ de frais non officiels pour la création d’une entreprise à Kinshasa, ce que le Guichet Unique de Création d’Entreprise [ GUCE ] conteste."
+    },
+    {
+     "url": "https://www.legavox.fr/blog/yav-associates/quand-retour-normalite-dans-creation-36196.htm",
+     "publisher": "Légavox (YAV & Associates)",
+     "title": "A quand le retour à la normalité dans la création d’entreprises en RDC ? (11 Nov 2024)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0fe991f79fbb.html.gz",
+     "quote": "Ce que le GUCE réfute en soutenant que ces frais sont fixés à 110$ pour une SARL et 120 $ pour une S.A et le tout payable à la banque."
+    }
+   ],
+   "notes": "Decree text is OCR (e.g. 'jouts ouvtables'); quote copied as extracted. Kolonell (2026, commercial) estimates EI at ~USD 40-80; not relied on. OHADA entreprenant status also available in principle."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The 'numéro impôt' (tax number, instituted by Decree 03/012 of 2003), assigned by the DGI delegate at the GUCE during business creation, alongside the RCCM.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/cng207356.pdf",
+     "publisher": "Décret n° 14/014 du 08 mai 2014 — Guichet Unique de Création d'Entreprise (FAOLEX copy, OCR)",
+     "title": "Décret 14/014 — DGI delegate",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-de684ef6d591.pdf.gz",
+     "quote": "Le délégué de la Ditection Générale des Impôts est chargé de l'attdbution du numéto impôr"
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-rdc-guichet-unique-kinshasa-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise en RDC via le guichet unique à Kinshasa (31 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5320015ad92e.html.gz",
+     "quote": "La RDC, membre de l'OHADA, délivre le RCCM et le numéro impôt en un seul dossier centralisé."
+    }
+   ],
+   "notes": "OCR text ('numéto impôr'); procedure for individuals outside GUCE not sourced."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Since 1 January 2026, Law 23/053 of 30 Nov 2023 replaced the old schedular system with corporate tax (IS) and personal income tax (IRPP). Residents are now taxed on worldwide income, including services performed for foreign clients; previously only Congolese-source income was taxable. Per the DGI presentation, micro-enterprises (turnover under CDF 25m) pay a flat USD 30, and small enterprises (CDF 25m–300m) pay 1% of turnover for sales of goods or 2% for services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://juristefiscaliste.org/lecture/l-imposition-des-revenus-de-sources-etrangeres-des-personnes",
+     "publisher": "JuristeFiscaliste (C. Musiwa Kitoko)",
+     "title": "L'imposition des revenus de sources étrangères des personnes physiques résidentes en droit fiscal congolais (30 May 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c17d0643859f.html.gz",
+     "quote": "Entrée en vigueur le 1er janvier 2026, elle institue un impôt global sur le revenu des personnes physiques fondé sur le critère de la résidence, conduisant à soumettre à l'imposition congolaise l'intégralité des revenus du résident, quelle qu'en soit l'origine géographique."
+    },
+    {
+     "url": "https://www.deloitte.com/afrique/fr/services/tax/perspectives/reforme-impot-revenu-personnes-physiques.html",
+     "publisher": "Deloitte Afrique francophone",
+     "title": "Réforme de l’Impôt sur le revenu des personnes physiques (2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ed5bfe86596b.html.gz",
+     "quote": "La République Démocratique du Congo modernise en profondeur son système fiscal avec l’adoption des Lois nº 23/052 et nº 23/053 du 30 novembre 2023, qui entreront en vigueur le 1er janvier 2026."
+    },
+    {
+     "url": "https://fec-rdc.com/retour-sur-la-matinee-fiscale-de-sensibilisation-sur-la-mise-en-oeuvre-de-la-reforme-a-limpot-des-societes-et-a-limpot-sur-le-revenu-des-personnes-physique/",
+     "publisher": "Fédération des Entreprises du Congo (FEC)",
+     "title": "Matinée fiscale sur la réforme IS/IRPP (17 Oct 2025, DGI presentation)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-527fa923ab1c.html.gz",
+     "quote": "le principe de la territorialité mondiale pour les résidents et de la territorialité différenciée pour les non-résidents pour l’IRPP ;"
+    },
+    {
+     "url": "https://fec-rdc.com/retour-sur-la-matinee-fiscale-de-sensibilisation-sur-la-mise-en-oeuvre-de-la-reforme-a-limpot-des-societes-et-a-limpot-sur-le-revenu-des-personnes-physique/",
+     "publisher": "Fédération des Entreprises du Congo (FEC)",
+     "title": "Matinée fiscale sur la réforme IS/IRPP (17 Oct 2025, DGI presentation)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-527fa923ab1c.html.gz",
+     "quote": "Les micro-entreprises (chiffre d’affaires inférieur à 25.000.000 CDF) sont imposées à un régime forfaitaire de 30 USD."
+    },
+    {
+     "url": "https://fec-rdc.com/retour-sur-la-matinee-fiscale-de-sensibilisation-sur-la-mise-en-oeuvre-de-la-reforme-a-limpot-des-societes-et-a-limpot-sur-le-revenu-des-personnes-physique/",
+     "publisher": "Fédération des Entreprises du Congo (FEC)",
+     "title": "Matinée fiscale sur la réforme IS/IRPP (17 Oct 2025, DGI presentation)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-527fa923ab1c.html.gz",
+     "quote": "Par contre, les petites entreprises (chiffre d’affaires supérieur à 25.000.000 CDF et inférieur à 300.000.000 CDF), au régime forfaitaire de 1% du chiffre d’affaires (vente des biens) et 2% du chiffre d’affaires (prestation de service)."
+    },
+    {
+     "url": "https://droitnumerique.cd/lentree-en-vigueur-de-lis-et-de-lirpp-en-rdc-une-reforme-fiscale-structurante-a-lepreuve-de-la-modernisation-et-du-numerique/",
+     "publisher": "Droit-Numérique.cd",
+     "title": "L’entrée en vigueur de l’IS et de l’IRPP en RDC (Jan 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-286e00af2697.html.gz",
+     "quote": "Ce 1er janvier 2026 marque un tournant majeur pour le système fiscal congolais avec l’entrée en vigueur, notamment, de la Loi n°23/053 du 30 novembre 2023 relative à l’ impôt sur les sociétés (IS) et à l’ impôt sur le revenu des personnes physiques (IRPP) 1 ."
+    },
+    {
+     "url": "https://fec-rdc.com/retour-sur-la-matinee-fiscale-de-sensibilisation-sur-la-mise-en-oeuvre-de-la-reforme-a-limpot-des-societes-et-a-limpot-sur-le-revenu-des-personnes-physique/",
+     "publisher": "Fédération des Entreprises du Congo (FEC)",
+     "title": "Matinée fiscale sur la réforme IS/IRPP (17 Oct 2025, DGI presentation)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-527fa923ab1c.html.gz",
+     "quote": "les petites entreprises (chiffre d’affaires supérieur à 25.000.000 CDF et inférieur à 300.000.000 CDF)"
+    }
+   ],
+   "notes": "TRAP: PwC's individual page still says foreign-sourced profits are not taxable, and the 2013 ordinance-law 13/006 (and DGI comms reported by ACP/Deskeco 2024) use the old bands (micro <= CDF 10m with CDF 30,000 flat; small 10-80m) - superseded from 2026. PwC's corporate page already shows 25m/300m. Law text itself (art. 58/59) not read."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 16%, a reduced rate on specific essential goods, and 0% on exports and assimilated transactions (PwC). Persons become liable from annual turnover of CDF 80m (Légavox; the 2010 ordinance-law said 50m, raised by a 2011 ministerial order per secondary sources). A taxpayer who falls below the threshold stays registered for two years. Whether exported services count as 0%-rated exports was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/democratic-republic-of-the-congo/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Democratic Republic of the Congo - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f065e3073bfc.html.gz",
+     "quote": "There are three rates: A standard rate of 16%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/democratic-republic-of-the-congo/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Democratic Republic of the Congo - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f065e3073bfc.html.gz",
+     "quote": "A rate of 0% on exports and assimilated transactions."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/democratic-republic-of-the-congo/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Democratic Republic of the Congo - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f065e3073bfc.html.gz",
+     "quote": "A reduced rate of 1% applies to specific essential goods"
+    },
+    {
+     "url": "https://www.legavox.fr/blog/yav-associates/theorie-pratique-taxe-valeur-ajoutee-7401.htm",
+     "publisher": "Légavox (YAV & Associates)",
+     "title": "Théorie et pratique de la TVA en R.D. Congo",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fa5ecdefdf20.html.gz",
+     "quote": "En effet, les personnes physiques ou morales sont assujetties à la TVA lorsqu’elles réalisent un chiffre d’affaires annuel égal ou supérieur à 80.000.000 de francs congolais ."
+    }
+   ],
+   "notes": "Threshold from one secondary domain; not checked against a 2026 official text. Interaction of the CDF 80m VAT threshold with the new 25m/300m small-enterprise bands not established. A blog says liberal professions are VAT-liable regardless of turnover (not verified)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Digital Code (Ordonnance-loi 23/010 of 13 Mar 2023) governs personal data. Processing requires prior declaration to the Data Protection Authority (APD, art. 186). The APD has not yet been set up; its powers are exercised provisionally by the telecom regulator ARPTC, which on 11 Sep 2025 issued a decision on declaration and authorisation procedures (including fees). Commentators argue that decision is unlawful.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "publisher": "Ordonnance-loi n° 23/010 du 13 mars 2023 portant Code du numérique (text on droitnumerique.cd)",
+     "title": "Code du numérique, art. 186",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b6f4f5aee33a.pdf.gz",
+     "quote": "Le traitement des données personnelles est soumis à une déclaration préalable auprès de l’Autorité de protection des données."
+    },
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2026/05/Illegalite-de-la-decision-de-lARPTC-Brozeck-Kandolo-1.pdf",
+     "publisher": "Droit-Numérique.cd (Dossier n° 11, May 2026)",
+     "title": "Réflexions sur l’illégalité de la décision de l’ARPTC sur la procédure d’autorisation et de déclaration des traitements de données personnelles",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-398f8158a308.pdf.gz",
+     "quote": "Dans l’attente de la mise en place effective de l’Autorité de protection des données prévue par le législateur, ces compétences sont exercées à titre provisoire par l ’Autorité de Régulation de la Poste et des Télécommunications du Congo (ARPTC)."
+    },
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2026/05/Illegalite-de-la-decision-de-lARPTC-Brozeck-Kandolo-1.pdf",
+     "publisher": "Droit-Numérique.cd (Dossier n° 11, May 2026)",
+     "title": "Réflexions sur l’illégalité de la décision de l’ARPTC",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-398f8158a308.pdf.gz",
+     "quote": "C’est dans ce contexte que l’ARPTC a pris, en date du 11 septembre 2025, une décision fixant les modalités applicables aux procédures de déclaration et d’autorisation des traitements de données personnelles."
+    }
+   ],
+   "notes": "Code text hosted by droitnumerique.cd (private legal site), treated as a copy of the official text; same site hosts the commentary. ARPTC decision text not read. Transfer rules not read."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Digital Code, consumers (B2C only) may withdraw within 72 hours, without reasons and bearing only direct return costs (art. 62). The period becomes 15 days if the seller failed its pre-contract information duty. The seller must refund within 72 hours of the withdrawal notice. For services already started, the client pays pro rata for what was delivered.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "publisher": "Ordonnance-loi n° 23/010 du 13 mars 2023 portant Code du numérique (text on droitnumerique.cd)",
+     "title": "Code du numérique, art. 62",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b6f4f5aee33a.pdf.gz",
+     "quote": "Nonobstant l’accord entre les parties, avant le jour de l’expédition prévu dans le contrat, le client dispose d’un délai de soixante-douze (72) heures pour exercer son droit de rétractation."
+    },
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "publisher": "Ordonnance-loi n° 23/010 du 13 mars 2023 portant Code du numérique (text on droitnumerique.cd)",
+     "title": "Code du numérique, art. 62",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b6f4f5aee33a.pdf.gz",
+     "quote": "Dans le cas où le professionnel manque à son obligation d’information préalable prévue à l’article 49 du présent Livre, le délai de rétractation est porté à quinze (15) jours."
+    },
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "publisher": "Ordonnance-loi n° 23/010 du 13 mars 2023 portant Code du numérique (text on droitnumerique.cd)",
+     "title": "Code du numérique — scope",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b6f4f5aee33a.pdf.gz",
+     "quote": "Les dispositions du présent chapitre relatives au droit de rétractation ne s’appliquent qu’aux contrats conclus entre professionnels et non-professionnels."
+    },
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "publisher": "Ordonnance-loi n° 23/010 du 13 mars 2023 portant Code du numérique (text on droitnumerique.cd)",
+     "title": "Code du numérique — services started",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b6f4f5aee33a.pdf.gz",
+     "quote": "En cas d’exercice du droit de rétractation après le commencement de la fourniture du service, le client est tenu au paiement de la partie du prix déterminée proportionnellement au service effectivement fourni"
+    },
+    {
+     "url": "https://droitnumerique.cd/wp-content/uploads/2024/08/Code-du-numerique-I-RD-Congo.pdf",
+     "publisher": "Ordonnance-loi n° 23/010 du 13 mars 2023 portant Code du numérique (text on droitnumerique.cd)",
+     "title": "Code du numérique — refund",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b6f4f5aee33a.pdf.gz",
+     "quote": "Ce remboursement intervient dans un délai maximum de soixante-douze (72) heures, à compter de la date de réception de la notification de la rétractation."
+    }
+   ],
+   "notes": "Unusually short (72h) window - do not assume EU-style 14 days. Exact start-of-period rules for services not fully read."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. The flat USD 30 micro-enterprise regime (turnover under CDF 25m, L3) is the main simplification.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22; micro regime covered in L3.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "There has been no national ID card since 1997. The voter card issued by CENI serves as the ID card and may be required for banking transactions, though each card is tied to one electoral cycle.",
+   "status": "unverified",
+   "note": "Single source (Canada IRB country research, Apr 2024); bank/BCC KYC rules not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://irb-cisr.gc.ca/fr/renseignements-pays/rdi/Pages/index.aspx?doc=458935",
+     "publisher": "Commission de l'immigration et du statut de réfugié du Canada (CISR) — Direction des recherches",
+     "title": "COD201845.EF — RDC : information sur la carte d’électeur (12 Apr 2024)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-1183faa7bf95.html.gz",
+     "quote": "Le secrétaire exécutif d’Héritiers de la justice a affirmé que « faute de pièce d’identité au pays depuis la fin du régime de Mobutu en 1997 et le changement du nom du pays, la carte d’électeur […] tient lieu de carte d’identité en RDC » (2024-03-08)."
+    }
+   ],
+   "notes": "AllAfrica Oct 2024 article on national identification returned 403 to scripts."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (2) Paid apps and in-app sales through Google Play (merchant registration available here). (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Democratic Republic of the Congo: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Democratic Republic of the Congo: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Democratic Republic of the Congo: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

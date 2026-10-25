@@ -1,0 +1,2289 @@
+{
+ "source": "gplay",
+ "route": "google_play",
+ "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+ "retrieved_at": "2026-10-17T16:04:52+00:00",
+ "sha256": "e9b92cfcb4c2452305ea6bb3d41032892535343439e79ae6df4544dc88914bbc",
+ "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+ "evidence": "official",
+ "lists": {
+  "developer_registration": {
+   "meaning": "developer_registration",
+   "caveat": null,
+   "count": 214,
+   "entries": [
+    {
+     "code": "AF",
+     "raw": "Afghanistan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AS",
+     "raw": "American Samoa",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AD",
+     "raw": "Andorra",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AO",
+     "raw": "Angola",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AQ",
+     "raw": "Antarctica",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua and Barbuda",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AW",
+     "raw": "Aruba",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BB",
+     "raw": "Barbados",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BY",
+     "raw": "Belarus",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BZ",
+     "raw": "Belize",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BM",
+     "raw": "Bermuda",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia and Herzegovina",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IO",
+     "raw": "British Indian Ocean Territory",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VG",
+     "raw": "British Virgin Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BF",
+     "raw": "Burkina Faso",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "BI",
+     "raw": "Burundi",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CM",
+     "raw": "Cameroon",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CV",
+     "raw": "Cape Verde",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CF",
+     "raw": "Central African Republic",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TD",
+     "raw": "Chad",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CN",
+     "raw": "China",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KM",
+     "raw": "Comoros",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CD",
+     "raw": "Congo (DRC)",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CG",
+     "raw": "Congo (Republic)",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CI",
+     "raw": "Cote d'Ivoire",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czechia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "DJ",
+     "raw": "Djibouti",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "DM",
+     "raw": "Dominica",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GQ",
+     "raw": "Equatorial Guinea",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ER",
+     "raw": "Eritrea",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SZ",
+     "raw": "Eswatini",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ET",
+     "raw": "Ethiopia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "FK",
+     "raw": "Falkland Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "FO",
+     "raw": "Faroe Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "FJ",
+     "raw": "Fiji",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GF",
+     "raw": "French Guiana",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GA",
+     "raw": "Gabon",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GL",
+     "raw": "Greenland",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GD",
+     "raw": "Grenada",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GP",
+     "raw": "Guadeloupe",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GU",
+     "raw": "Guam",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GN",
+     "raw": "Guinea",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea-Bissau",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "HT",
+     "raw": "Haiti",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IQ",
+     "raw": "Iraq",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KI",
+     "raw": "Kiribati",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "XK",
+     "raw": "Kosovo",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KG",
+     "raw": "Kyrgyzstan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LA",
+     "raw": "Laos",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LB",
+     "raw": "Lebanon",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LS",
+     "raw": "Lesotho",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LR",
+     "raw": "Liberia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LY",
+     "raw": "Libya",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MG",
+     "raw": "Madagascar",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MO",
+     "raw": "Macau",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MW",
+     "raw": "Malawi",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MV",
+     "raw": "Maldives",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MH",
+     "raw": "Marshall Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MQ",
+     "raw": "Martinique",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MR",
+     "raw": "Mauritania",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "YT",
+     "raw": "Mayotte Island",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "FM",
+     "raw": "Micronesia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ME",
+     "raw": "Montenegro",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MM",
+     "raw": "Myanmar",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NR",
+     "raw": "Nauru",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NP",
+     "raw": "Nepal",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MP",
+     "raw": "Northern Mariana Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PW",
+     "raw": "Palau",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PS",
+     "raw": "Palestine",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PG",
+     "raw": "Papua New Guinea",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "PR",
+     "raw": "Puerto Rico",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "RE",
+     "raw": "Reunion Island",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "RU",
+     "raw": "Russia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "RW",
+     "raw": "Rwanda",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "WS",
+     "raw": "Samoa",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ST",
+     "raw": "São Tomé & Príncipe",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SC",
+     "raw": "Seychelles",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SL",
+     "raw": "Sierra Leone",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SB",
+     "raw": "Solomon Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SO",
+     "raw": "Somalia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KR",
+     "raw": "South Korea",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SS",
+     "raw": "South Sudan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "KN",
+     "raw": "St. Kitts & Nevis",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "LC",
+     "raw": "St. Lucia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VC",
+     "raw": "St. Vincent & Grenadines",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SD",
+     "raw": "Sudan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SR",
+     "raw": "Suriname",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TJ",
+     "raw": "Tajikistan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TL",
+     "raw": "Timor-Leste",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TG",
+     "raw": "Togo",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TO",
+     "raw": "Tonga",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad and Tobago",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TR",
+     "raw": "Türkiye",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TM",
+     "raw": "Turkmenistan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "TV",
+     "raw": "Tuvalu",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VI",
+     "raw": "U.S. Virgin Islands",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "UZ",
+     "raw": "Uzbekistan",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VU",
+     "raw": "Vanuatu",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VA",
+     "raw": "Vatican City",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ZM",
+     "raw": "Zambia",
+     "label": null,
+     "meaning": "developer_registration"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": null,
+     "meaning": "developer_registration"
+    }
+   ],
+   "group_entries_not_expanded": []
+  },
+  "merchant_registration": {
+   "meaning": "merchant_registration",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions.",
+   "count": 163,
+   "entries": [
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AS",
+     "raw": "American Samoa",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua and Barbuda",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": "default currency AUD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BY",
+     "raw": "Belarus",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BZ",
+     "raw": "Belize",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": "default currency BRL",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "BI",
+     "raw": "Burundi",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": "default currency CAD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CF",
+     "raw": "Central African Republic",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": "default currency CLP; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CN",
+     "raw": "China",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": "default currency COP; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CD",
+     "raw": "Congo (DRC)",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": "default currency CRC; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CI",
+     "raw": "Cote d'Ivoire",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czechia",
+     "label": "default currency CZK",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": "default currency DKK",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "DM",
+     "raw": "Dominica",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": "default currency EGP; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GQ",
+     "raw": "Equatorial Guinea",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ER",
+     "raw": "Eritrea",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SZ",
+     "raw": "Eswatini",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "FJ",
+     "raw": "Fiji",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GF",
+     "raw": "French Guiana",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GD",
+     "raw": "Grenada",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GP",
+     "raw": "Guadeloupe",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GU",
+     "raw": "Guam",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GN",
+     "raw": "Guinea",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea-Bissau",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "HT",
+     "raw": "Haiti",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": "default currency HKD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": "default currency HUF",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": "default currency INR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": "default currency IDR; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": "default currency ILS",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": "default currency JPY",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KI",
+     "raw": "Kiribati",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LA",
+     "raw": "Laos",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": "default currency USD; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LB",
+     "raw": "Lebanon",
+     "label": "default currency LBP; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LS",
+     "raw": "Lesotho",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LR",
+     "raw": "Liberia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LY",
+     "raw": "Libya",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MW",
+     "raw": "Malawi",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": "default currency MYR; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MV",
+     "raw": "Maldives",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": "default currency USD; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MH",
+     "raw": "Marshall Islands",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MQ",
+     "raw": "Martinique",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MR",
+     "raw": "Mauritania",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "YT",
+     "raw": "Mayotte Island",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": "default currency MXN",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "FM",
+     "raw": "Micronesia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MM",
+     "raw": "Myanmar",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": "default currency NZD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NG",
+     "raw": "Nigeria",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MP",
+     "raw": "Northern Mariana Islands",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": "default currency NOK",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": "default currency PKR; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PW",
+     "raw": "Palau",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PS",
+     "raw": "Palestine",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": "default currency PEN",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": "default currency PHP; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": "default currency PLN",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "PR",
+     "raw": "Puerto Rico",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "RE",
+     "raw": "Reunion Island",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": "default currency RON; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "RU",
+     "raw": "Russia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": "default currency SAR; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SL",
+     "raw": "Sierra Leone",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": "default currency SGD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SO",
+     "raw": "Somalia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": "default currency ZAR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KR",
+     "raw": "South Korea",
+     "label": "default currency KRW",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": "default currency EUR",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "KN",
+     "raw": "St. Kitts & Nevis",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "LC",
+     "raw": "St. Lucia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "VC",
+     "raw": "St. Vincent & Grenadines",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SR",
+     "raw": "Suriname",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": "default currency SEK",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": "default currency CHF",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": "default currency THB; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TG",
+     "raw": "Togo",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad and Tobago",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TR",
+     "raw": "Türkiye",
+     "label": "default currency TRY",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "TM",
+     "raw": "Turkmenistan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "VI",
+     "raw": "U.S. Virgin Islands",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": "default currency UAH; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": "default currency AED; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": "default currency GBP",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "UZ",
+     "raw": "Uzbekistan",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "VU",
+     "raw": "Vanuatu",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "VE",
+     "raw": "Venezuela",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": "default currency VND; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "YE",
+     "raw": "Yemen",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ZM",
+     "raw": "Zambia",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": "default currency USD",
+     "meaning": "merchant_registration"
+    }
+   ],
+   "group_entries_not_expanded": []
+  }
+ }
+}

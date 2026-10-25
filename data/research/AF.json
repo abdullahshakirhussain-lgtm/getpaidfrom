@@ -1,0 +1,273 @@
+{
+ "code": "AF",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Severely constrained. After August 2021, Afghanistan's international reserves, including banks' FX deposits at the central bank, were frozen, SWIFT and international settlements were suspended, and banks faced acute AFN and FX liquidity shortages. Some banks now advertise SWIFT transfers 'subject to availability'. Sanctions screening (UN, US and others) affects any cross-border payment.",
+   "status": "unverified",
+   "note": "Single captured source (UNDP brief, 2021-era) on 2026-10-22; current conditions not confirmed.",
+   "sources": [
+    {
+     "url": "https://files.acquia.undp.org/public/migration/iicpsd/Policy-Brief-Afghan-Banking-and-Financial-System-Situation-Report.pdf",
+     "publisher": "UNDP",
+     "title": "UNDP Policy Brief — Afghan Banking and Financial System Situation Report",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-985b030420a2.pdf.gz",
+     "quote": "Following the Taliban takeover and subsequent international sanctions, Afghanistan’s international reserves, including banking sector FX deposits at the DAB, were frozen;"
+    },
+    {
+     "url": "https://files.acquia.undp.org/public/migration/iicpsd/Policy-Brief-Afghan-Banking-and-Financial-System-Situation-Report.pdf",
+     "publisher": "UNDP",
+     "title": "UNDP Policy Brief — Afghan Banking and Financial System Situation Report",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-985b030420a2.pdf.gz",
+     "quote": "the SWIFT system and international settlements were suspended;"
+    }
+   ],
+   "notes": "HIGH-RISK / SANCTIONS: verify current OFAC/UN licences and bank channels before any receipt. Never route payments to evade sanctions."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Afghanistan (automated collector snapshots, Oct 2026). Available: Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Afghanistan is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Afghanistan is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Afghanistan is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Afghanistan is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Afghanistan is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Afghanistan.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Business licences are issued by the Afghanistan Investment Support Agency (AISA) or the Ministry of Commerce. Persons without such a licence are taxed at 3% (versus 2% fixed tax for licensed importers).",
+   "status": "unverified",
+   "note": "Single secondary source on 2026-10-22; registration procedure under current authorities not captured.",
+   "sources": [
+    {
+     "url": "https://www.bankofscotlandtrade.co.uk/en/market-potential/afghanistan/taxes",
+     "publisher": "Bank of Scotland Trade Portal",
+     "title": "Afghanistan: tax rates (Bank of Scotland International Trade Portal)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-149fe317ce15.html.gz",
+     "quote": "Natural and legal persons without a business license issued by the Afghanistan Investment Support Agency (AISA) or the Ministry of Commerce are subject to the income tax at a rate of 3%."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "The Income Tax Law taxes Afghan-source income of all persons and the foreign income of Afghan residents. A person is resident if their principal home is in Afghanistan at any time in the fiscal year, among other tests. Individuals pay progressive rates. Revenue Department guidelines of 14 July 2026 reportedly raised the exempt threshold, removed the 2% bracket and cut corporate tax from 20% to 10%.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.icnl.org/wp-content/uploads/Afghanistan_inctax.pdf",
+     "publisher": "ICNL (law text)",
+     "title": "Income Tax Law of Afghanistan (version 7 April 2005, unofficial translation)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-333d2cfed78b.pdf.gz",
+     "quote": "A natural or legal person is considered a resident of Afghanistan if: (1) The person has his or her principal home in Afg hanistan at any time during the fiscal year;"
+    },
+    {
+     "url": "https://orbitax.com/news/country/article/Afghanistan-Tax-Reform-Include-62778",
+     "publisher": "Orbitax",
+     "title": "Afghanistan Tax Reform Includes Tax Rate Reductions (11 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c0ecc26c061d.html.gz",
+     "quote": "The main changes include the following: The Corporate Income Tax rate is reduced from 20% to 10%, although the 20% rate remains applicable for companies involved in mining extraction;"
+    }
+   ],
+   "notes": "2005 law version (amended 2009); current individual brackets not captured."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The business receipts tax was replaced by VAT, in force from 21 December 2020 at 10%, with exemptions such as health services. Application under the current authorities was not confirmed.",
+   "status": "unverified",
+   "note": "Single secondary source (Bank of Scotland trade portal) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.bankofscotlandtrade.co.uk/en/market-potential/afghanistan/taxes",
+     "publisher": "Bank of Scotland Trade Portal",
+     "title": "Afghanistan: tax rates (Bank of Scotland International Trade Portal)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-149fe317ce15.html.gz",
+     "quote": "However, this tax has been replaced by VAT, which entered into force on 21 December 2020 (with a 10% rate)."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no data-protection/privacy legislation in Afghanistan. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "004,Afghanistan,Legislation,No Legislation,No Legislation,Legislation,No Legislation,0,0,1,1,0,1,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Afghanistan. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "004,Afghanistan,Legislation,No Legislation,No Legislation,Legislation,No Legislation,0,0,1,1,0,1,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Tazkira (National Identity Document) (Wikipedia, compulsory-ID list). The Tazkira includes a certificate of citizenship and an electronic ID card , which contain a 13-digit national identification number . Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Afghanistan Tazkira (National Identity Document)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (2) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Afghanistan: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Afghanistan: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Current SWIFT/bank channels and sanctions licences (OFAC GLs, UN 1988).",
+  "2026 individual brackets; VAT application today.",
+  "Registration/TIN under current authorities.",
+  "Everything else - very limited reliable information."
+ ]
+}

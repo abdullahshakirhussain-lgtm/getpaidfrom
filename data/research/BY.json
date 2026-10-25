@@ -1,0 +1,290 @@
+{
+ "code": "BY",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Sanctions-affected. Belarus is subject to US (OFAC Belarus Sanctions) and EU restrictive measures, which limit banking channels and platform access. Domestic currency rules were not captured. This guide covers only lawful routes; it does not describe ways around sanctions.",
+   "status": "unverified",
+   "note": "Only the OFAC program page (no specifics) captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/belarus-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "Belarus Sanctions",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-c1d9e52240bf.html.gz",
+     "quote": "Sanctions Brochures​ Sanctions Brochures are an overview of OFAC's regulations with regard to the Belarus Sanctions."
+    }
+   ],
+   "notes": "HIGH-RISK. Hi-Tech Park (HTP) regime not researched."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Belarus (automated collector snapshots, Oct 2026). Available: Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Belarus is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Belarus is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Belarus is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Belarus is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Belarus is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Belarus.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "LookupTax's tax-ID guide for Belarus identifies the relevant identifiers as the UNP (taxpayer account number). Who must register and how to obtain it from the tax authority were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://lookuptax.com/docs/tax-identification-number/belarus-tax-id-guide",
+     "publisher": "LookupTax",
+     "title": "Belarus UNP Tax Identification Number Guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-3338f73d2ec8.html.gz",
+     "quote": "Belarus UNP Tax Identification Number Guide",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (LookupTax guide title) captured on 2026-10-25; how residents obtain it was not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (183+ days in a calendar year) are taxed on worldwide income; non-residents only on Belarus-source income. Most personal income is taxed at a flat 13%, and business income of registered individual entrepreneurs at 16% (MyExpatTaxes; TaxAtlas). Simplified and professional-income regimes exist for some activities (not verified). Sanctions sharply limit foreign platforms and payments (see W1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.myexpattaxes.com/?p=242356",
+     "publisher": "MyExpatTaxes",
+     "title": "Moving to Belarus: A Complete Tax Guide for US Expats",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-bce1af1e0047.html.gz",
+     "quote": "Tax residents pay tax on their worldwide income, while non-residents pay tax only on income earned in Belarus.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.myexpattaxes.com/?p=242356",
+     "publisher": "MyExpatTaxes",
+     "title": "Moving to Belarus: A Complete Tax Guide for US Expats",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-bce1af1e0047.html.gz",
+     "quote": "The country applies a flat personal income tax rate of 13%, with business income of individual entrepreneurs (IEs) taxed at 16%.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://taxatlas.io/country/belarus/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Belarus Income Tax",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-1d037fa27793.html.gz",
+     "quote": "Residents are taxed on worldwide income.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT is 20%, with reduced 10% and 0% bands. A business registers with the Ministry of Taxes and Duties once it makes taxable supplies (no turnover threshold reported). Foreign suppliers of electronic services to Belarusian consumers register separately under the foreign e-services regime (since 2018).",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/belarus.md",
+     "publisher": "Kintsugi",
+     "title": "Belarus VAT Guide for 2026 (Kintsugi)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-12c46f1cfef0.html.gz",
+     "quote": "Belarus's standard VAT is 20%, with reduced 10% and 0% bands.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/belarus.md",
+     "publisher": "Kintsugi",
+     "title": "Belarus VAT Guide for 2026 (Kintsugi)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-12c46f1cfef0.html.gz",
+     "quote": "a business registers with the Ministry of Taxes and Duties once it makes taxable supplies",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Kintsugi) captured on 2026-10-25."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Belarus. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "112,Belarus,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Belarus. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "112,Belarus,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Нацыянальная ідэнтыфікацыйная карта (Belarus national identity card (since 2021)) (Wikipedia, compulsory-ID list). Belarus did until 2021 combine the international Belarusian passport and the internal passport into one document. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Belarus Нацыянальная ідэнтыфікацыйная карта (Belarus national identity card (since 2021))",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money; major freelance and payment platforms exclude residents (sanctions or payment-partner restrictions). No clean workaround: these platforms exclude residents, for sanctions or payment-partner reasons depending on the country. Using someone else's account, a foreign address or a VPN to appear elsewhere breaches their terms, risks frozen funds, and can breach sanctions law. Do not do it. Legal options are limited to what local banks and licensed local channels allow (see P1/P2), and they change with sanctions policy, so check the current status before relying on any route.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Belarus: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Belarus: on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Belarus: on Paddle's unsupported-country list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists. Editorial guidance on what not to do is ours, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "HTP regime; tax for IEs/self-employed.",
+  "Currency rules.",
+  "Sanctions exposure of banks."
+ ]
+}

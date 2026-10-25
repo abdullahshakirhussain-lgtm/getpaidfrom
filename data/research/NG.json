@@ -1,0 +1,559 @@
+{
+ "code": "NG",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, into domiciliary (USD and other foreign-currency) accounts at Nigerian banks. CBN's new Foreign Exchange Manual (4th edition) took effect on 1 June 2026. Ordinary domiciliary account holders get 'unfettered and unrestricted access' to their funds without prior regulatory approval, and Form A is no longer required for remittances from ordinary domiciliary accounts. Banks still verify the purpose. Export-proceeds domiciliary accounts are stricter: no cash withdrawals, and access depends on transaction documents. CBN says export proceeds must be repatriated and credited to exporters' domiciliary accounts within 180 days for non-oil exports, and since 8 January 2025 extensions are suspended. CBN has also said it won't force holders to convert domiciliary balances to naira.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.cbn.gov.ng/AboutCBN/Reforms.html",
+     "publisher": "Central Bank of Nigeria",
+     "title": "CBN Reforms and Initiatives",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0b401cfa888e.txt.gz",
+     "quote": "which provide that export proceeds must be repatriated and credited to exporters' domiciliary accounts within specified time frames: 180 days for non-oil exports and 90 days for oil and gas exports from the bill of lading date."
+    },
+    {
+     "url": "https://www.cbn.gov.ng/AboutCBN/Reforms.html",
+     "publisher": "Central Bank of Nigeria",
+     "title": "CBN Reforms and Initiatives",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0b401cfa888e.txt.gz",
+     "quote": "The Bank declared a suspension of extensions on the repatriation of export proceeds for oil and non-oil exports. The directive took effect from January 8, 2025."
+    },
+    {
+     "url": "https://guardian.ng/news/new-fx-operational-guidelines-take-effect-from-june-1-says-cardoso/",
+     "publisher": "The Guardian (Nigeria)",
+     "title": "New FX operational guidelines take effect from June 1, says Cardoso",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-2fd7fb6899c7.html.gz",
+     "quote": "The mandatory requirement for Form A for remittances using ordinary domiciliary accounts has been removed, ensuring that authorised dealer banks continue to verify the legitimacy and purpose of such transactions."
+    },
+    {
+     "url": "https://businessday.ng/news/article/cbn-frees-personal-dollar-accounts-tightens-oversight-of-export-proceeds-in-new-fx-rules/",
+     "publisher": "BusinessDay (Nigeria)",
+     "title": "CBN scraps pandemic-era dollar account curbs as liquidity improves (June 3, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-199acf6264df.html.gz",
+     "quote": "Under the fresh guidelines, ordinary domiciliary account holders are guaranteed “unfettered and unrestricted access” to their funds."
+    },
+    {
+     "url": "https://businessday.ng/news/article/cbn-frees-personal-dollar-accounts-tightens-oversight-of-export-proceeds-in-new-fx-rules/",
+     "publisher": "BusinessDay (Nigeria)",
+     "title": "CBN scraps pandemic-era dollar account curbs as liquidity improves (June 3, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-199acf6264df.html.gz",
+     "quote": "In a major departure from the 2020 framework, cash withdrawals from export proceeds domiciliary accounts are no longer permitted."
+    },
+    {
+     "url": "https://businessday.ng/news/article/no-restrictions-on-converting-currency-in-domiciliary-accounts-to-naira-cbn/",
+     "publisher": "BusinessDay (Nigeria)",
+     "title": "No restrictions on converting currency in domiciliary accounts to naira -CBN (November 7, 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-f624efc42d79.html.gz",
+     "quote": "In February 2024, the CBN reaffirmed that it would not force domiciliary account holders to convert their holdings into Naira."
+    }
+   ],
+   "notes": "The FX Manual 4th edition PDF on cbn.gov.ng returns HTTP 403 to scripts and would download in the browser, so it was NOT read; the Manual's details come from Guardian and BusinessDay. The CBN Reforms page was read in a normal browser visit (snapshot is a .txt.gz EXCERPT of the matching paragraphs). The 180-day rule is phrased for goods ('bill of lading'). Whether a freelancer's service income counts as 'export proceeds' (stricter account) or ordinary domiciliary inflow is NOT stated in what was read; ask the bank."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes: ordinary domiciliary accounts. Under the FX Manual effective 1 June 2026, individuals can use their foreign-currency balances without prior regulatory approval, and Form A is not required for remittances funded from these personal accounts. CBN has said it won't force conversion to naira.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://businessday.ng/news/article/cbn-frees-personal-dollar-accounts-tightens-oversight-of-export-proceeds-in-new-fx-rules/",
+     "publisher": "BusinessDay (Nigeria)",
+     "title": "CBN scraps pandemic-era dollar account curbs as liquidity improves (June 3, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-199acf6264df.html.gz",
+     "quote": "Individuals can now utilise their foreign currency balances without prior regulatory approval."
+    },
+    {
+     "url": "https://guardian.ng/news/new-fx-operational-guidelines-take-effect-from-june-1-says-cardoso/",
+     "publisher": "The Guardian (Nigeria)",
+     "title": "New FX operational guidelines take effect from June 1, says Cardoso",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-2fd7fb6899c7.html.gz",
+     "quote": "The mandatory requirement for Form A for remittances using ordinary domiciliary accounts has been removed, ensuring that authorised dealer banks continue to verify the legitimacy and purpose of such transactions."
+    }
+   ],
+   "notes": "Two independent outlets agree; the CBN Manual itself was not read (403)."
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Nigeria (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Whop (payouts); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Nigeria is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Nigeria is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Individuals can sign up without CAC registration as a 'Starter Business'. They need a government-issued ID (BVN, driver's licence, NIN slip, voter's card or passport), a BVN and a personal bank account number, and Starter Businesses have a collection limit (Nigeria: NGN 8,000,000; USD 5,000 for USD collections), lifted by upgrading to a Registered Business (CAC). Flutterwave and CBN's own licence register were not checked. paystack.com/compliance returns 403 to scripts; it was read in a normal browser visit and saved as a .txt.gz excerpt."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "PayPal lists Nigeria as a market, but it is NOT in the PayPal Payouts eligibility table, so platforms paying via PayPal Payouts can't pay Nigerian accounts. PayPal's Nigeria help centre says new customers in Nigeria must link to a partner bank to start receiving money. In some countries receiving requires linking to a licensed local partner, and some services work only for cross-border transactions.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/ng/cshelp/article/how-do-i-receive-money-through-paypal-help667",
+     "publisher": "PayPal",
+     "title": "How do I receive money through PayPal? (PayPal NG)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e035cbcaa25e.html.gz",
+     "quote": "If you are a new customer in Nigeria please be sure to link to your partner bank to start receiving money."
+    },
+    {
+     "url": "https://www.paypal.com/ng/cshelp/article/how-do-i-receive-money-through-paypal-help667",
+     "publisher": "PayPal",
+     "title": "How do I receive money through PayPal? (PayPal NG)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e035cbcaa25e.html.gz",
+     "quote": "In some countries, certain PayPal services may be available only for cross-border transactions, and receiving money with PayPal requires linking your account to a licensed local partner."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Eligible countries and their feature sets: 93 rows; Nigeria is not among them."
+    }
+   ],
+   "notes": "Which bank is the 'partner bank' was not stated on the page read."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: Kuda Bank customers with a business registered at CAC can open or access a Payoneer account in the Kuda app and withdraw to Kuda in naira (announced 8 July 2022). Payoneer for unregistered individuals in Nigeria was NOT confirmed on a Nigeria-specific Payoneer page. Wise: residents can't get USD account details, as Nigeria is on Wise's exclusion list, and Wise Business restricts US businesses with a Nigerian address.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/resources/news-events/payoneer-announces-partnership-with-kuda-bank-enabling-nigerian-businesses-to-go-global/",
+     "publisher": "Payoneer",
+     "title": "Payoneer Announces Partnership with Kuda Bank (July 8, 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-a3b41bb750e4.html.gz",
+     "quote": "Through the Kuda app, Nigerians who have registered a business with the country’s Corporate Affairs Commission (CAC) can now open a Payoneer Account or access their existing Payoneer Account, view their Payoneer balances in multiple currencies, receive payments and make quick transfers from Payoneer to their Kuda account."
+    },
+    {
+     "url": "https://wise.com/help/articles/2810318/can-i-get-usd-account-details",
+     "publisher": "Wise",
+     "title": "Can I get USD account details?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ac0f5ed24cc.html.gz",
+     "quote": "Libya Myanmar Nevada, Nigeria, North Korea Pakistan Russia"
+    },
+    {
+     "url": "https://wise.com/help/articles/2810318/can-i-get-usd-account-details",
+     "publisher": "Wise",
+     "title": "Can I get USD account details?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ac0f5ed24cc.html.gz",
+     "quote": "your US business has an address in Bangladesh, Cameroon, China, Nigeria, and Pakistan."
+    }
+   ],
+   "notes": "Fintech USD-account apps (Grey, Raenest, Geegpay, etc.) appear in blogs but weren't researched: they're third-party apps, not regulators. Check their licensing before listing them."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Only if you trade under a business name. Under CAMA 2020 s.814, an individual with a place of business in Nigeria must register a business name with the Corporate Affairs Commission (CAC) when the name is anything other than their true surname plus forenames or initials. Registration is needed before starting, or within 28 days of starting under that name. Trading under your own name needs no registration, and Paystack's 'Starter Business' route works without CAC registration (P3). Banks generally require a registered name to open a business account, and Payoneer's Kuda route needs CAC registration (P5).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.lawglobalhub.com/section-814-companies-and-allied-matters-act-cama-2020/",
+     "publisher": "LawGlobal Hub (reproduces statute text)",
+     "title": "Section 814 Companies and Allied Matters Act (CAMA) 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-3bd2edccfa4d.html.gz",
+     "quote": "(b) in the case of an individual, the name does not consist of his truesurname without any addition other than his true forenames or the initialsthereof ;"
+    },
+    {
+     "url": "https://www.lawglobalhub.com/section-814-companies-and-allied-matters-act-cama-2020/",
+     "publisher": "LawGlobal Hub",
+     "title": "Section 814 Companies and Allied Matters Act (CAMA) 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-3bd2edccfa4d.html.gz",
+     "quote": "(1) Every individual, firm or Corporation having a place of business in Nigeria and carrying on business under a business name shall be registered in the manner provided in this Part if—"
+    },
+    {
+     "url": "https://lawpadi.com/steps-registering-business-name-nigeria/",
+     "publisher": "LawPàdí",
+     "title": "Steps to Registering a Business Name in Nigeria",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-2dfd42252f34.html.gz",
+     "quote": "Where registration is required, it must be done before you commence business , or an application must be submitted within 28 days of commencing business under that name."
+    },
+    {
+     "url": "https://lawpadi.com/steps-registering-business-name-nigeria/",
+     "publisher": "LawPàdí",
+     "title": "Steps to Registering a Business Name in Nigeria",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-2dfd42252f34.html.gz",
+     "quote": "Banks will not open a business account without it, and an unregistered name is a name someone else can take."
+    }
+   ],
+   "notes": "CAC's own full-text CAMA PDF returned 404; LawNigeria's copy had only the table of contents. Registration fee and current CAC portal steps were not verified."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "Under the Nigeria Tax Administration Act 2025 (in force since 1 January 2026), every taxable person must register with the relevant tax authority and get a Taxpayer Identification number ('Tax ID'). The tax authority must issue one on request, and can register people who failed to apply. Banks and other financial-services providers must make sure every taxable person gives them a Tax ID. The Nigeria Revenue Service handles companies, non-residents and others; individuals' income tax is administered by their State's tax authority.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nrs.gov.ng/uploads/NIGERIA_TAX_ADMINISTRATION_ACT_2025_8c945071a7.pdf",
+     "publisher": "Nigeria Revenue Service (Official Gazette copy)",
+     "title": "Nigeria Tax Administration Act, 2025",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-956092e5ec5a.pdf.gz",
+     "quote": "Every taxable person shall register with the relevant tax authority andobtain a Taxpayer Identification (\" Tax ID\") for the purpose of compliance with tax obligations."
+    },
+    {
+     "url": "https://www.nrs.gov.ng/uploads/NIGERIA_TAX_ADMINISTRATION_ACT_2025_8c945071a7.pdf",
+     "publisher": "Nigeria Revenue Service",
+     "title": "Nigeria Tax Administration Act, 2025",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-956092e5ec5a.pdf.gz",
+     "quote": "upon receiving a request, regrster and issue a Tax ID to every taxable person."
+    },
+    {
+     "url": "https://statehouse.gov.ng/new-tax-laws-will-commence-on-january-1-2026-as-planned/",
+     "publisher": "State House, Abuja",
+     "title": "New tax laws will commence on January 1, 2026 as planned (December 30, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f86a3e716b5a.html.gz",
+     "quote": "The new tax laws, including those that took effect on June 26, 2025, and the remaining acts scheduled to commence on January 1, 2026, will continue as planned."
+    }
+   ],
+   "notes": "The Act PDF is a scanned gazette with OCR errors (e.g. 'regrster'); quotes are as extracted. Whether the NIN serves as the Tax ID for individuals was NOT found in the extracted text, and the exact step-by-step process wasn't verified."
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Nigeria Tax Act 2025 (in force since 1 January 2026; it repealed the Personal Income Tax Act and others): a resident individual's income is taxable in Nigeria wherever it arises, whether or not it is brought into Nigeria. Freelance and online income earned from abroad is therefore taxable. Rates for individuals on taxable income: first ₦800,000 at 0%, next ₦2.2m at 15%, next ₦9m at 18%, next ₦13m at 21%, next ₦25m at 23%, and above ₦50m at 25%. Profits or gains from digital asset transactions are explicitly chargeable.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "The income, gains or profits of an individual who is a resident of Nigeria are deemed to accrue in Nigeria and are chargeable to tax in Nigeria wherever they arise, and whether or not the income, profits or gains have been brought into or received in Nigeria."
+    },
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "(a) First N800,000 at 0% ; (b) Next N2,200,000 at 15% ; (c) Next N9,000,000 at 18% ; (d) Next N13,000,000 at 21% ; (e) Next N25,000,000 at 23% ; and (f) Above N50,000,000 at 25%."
+    },
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "(j) profits or gains from transactions in digital assets ;"
+    }
+   ],
+   "notes": "Residency tests for individuals, allowable deductions and reliefs (rent relief etc.), the filing deadline, and how foreign income is converted to naira (a blog says CBN rate on the date of receipt; not verified) were not extracted."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "Nigeria Tax Act 2025: VAT is 7.5% on taxable supplies (s.147). Exported services, exported goods (excluding oil and gas) and exported incorporeal property such as IP and digital rights are zero-rated (s.186). A 'small company' is one with gross turnover of ₦100m or less and fixed assets up to ₦250m. The VAT registration or charging threshold for individuals and small businesses was not verified (see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "147. Subject to the provisions of Part IX of this Chapter, V AT shall be charged on the value of all taxable supplies at the rate of 7.5%."
+    },
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "186. Subject to paragraph 2 of the Tenth Schedule to this Act, the following taxable supplies are charged to V AT at the rate of zero percent —"
+    },
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "(n) exported goods excluding oil and gas ; (o) exported services ; (p) exported incorporeal property ;"
+    }
+   ],
+   "notes": "The small-company definition (turnover ≤ ₦100m, fixed assets ≤ ₦250m) is in the Act's interpretation section. Whether small companies or individuals below a turnover are exempt from VAT registration or charging (a common claim) was NOT found in the extracted text. Re-check the VAT registration provisions of the Tax Administration Act."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Nigeria Data Protection Act 2023 (NDPA), enforced by the Nigeria Data Protection Commission (NDPC), which the Act established. NDPC registers data controllers and processors (with a separate category for those 'of major importance') and issued the General Application and Implementation Directive (GAID) 2025, dated 20 March 2025.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ndpc.gov.ng/",
+     "publisher": "Nigeria Data Protection Commission",
+     "title": "NDPC home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-aba4da0befab.html.gz",
+     "quote": "The Nigeria Data Protection Commission (NDPC), established under the Nigeria Data Protection Act 2023, safeguards data privacy"
+    },
+    {
+     "url": "https://ndpc.gov.ng/",
+     "publisher": "Nigeria Data Protection Commission",
+     "title": "NDPC home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-aba4da0befab.html.gz",
+     "quote": "Data Controller/ Processor Registration Click the button below to register as a Data controller/ processor."
+    }
+   ],
+   "notes": "Registration thresholds (who must register, fees) under GAID 2025 were not extracted. The Act text was not fetched."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "The Federal Competition and Consumer Protection Act 2018 (FCCPA) applies to all suppliers, online included, and is enforced by the Federal Competition and Consumer Protection Commission (FCCPC). Consumers can file complaints with FCCPC online, including about online vendors.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://fccpc.gov.ng/",
+     "publisher": "Federal Competition and Consumer Protection Commission",
+     "title": "FCCPC home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8d65021be23f.html.gz",
+     "quote": "Pursuant to sections 17, 18, & 163 of the Federal Competition and Consumer Protection Act 2018 (FCCPA) 2018, the Commission has amended and, consequently, publishes the…"
+    },
+    {
+     "url": "https://fccpc.gov.ng/",
+     "publisher": "Federal Competition and Consumer Protection Commission",
+     "title": "FCCPC home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8d65021be23f.html.gz",
+     "quote": "We protect and promote the interest and welfare of consumers by providing them with wider variety of quality products at competitive prices and ensuring the adoption of measures to guarantee that goods and services are safe for intended or normally safe use."
+    }
+   ],
+   "notes": "No Nigeria-specific e-commerce statute was identified in this pass. Specific FCCPA duties (disclosure, refunds) were not extracted from the Act. The Cybercrimes Act (amended by the Nigeria Tax Act, per its long title) was not reviewed."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "From the 2025 tax reform (in force 1 Jan 2026): (1) exported services and exported incorporeal property are VAT zero-rated (L4); (2) the first ₦800,000 of an individual's taxable income is taxed at 0% (L3); (3) a 'small company' (turnover ≤ ₦100m, fixed assets ≤ ₦250m) pays 0% company income tax, which matters if a freelancer incorporates. Startup Act incentives and NITDA/IT-sector schemes were not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "(a) a small company, at 0% ; and (b) any other company, at the rate of 30% from the commencement of this Act."
+    },
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "\"small company\" a business that earns gross turnover of N100,000,000 or less per annum with total fixed assets not exceeding N250,000,000."
+    },
+    {
+     "url": "https://nass.gov.ng/documents/download/11249",
+     "publisher": "National Assembly of Nigeria",
+     "title": "Nigeria Tax Act, 2025 (Edited 1-1-2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41abf6887bc5.pdf.gz",
+     "quote": "(n) exported goods excluding oil and gas ; (o) exported services ; (p) exported incorporeal property ;"
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The National Identification Number (NIN), an 11-digit number from the National Identity Management Commission (NIMC). It is free to obtain, and all citizens and legal residents are eligible. Payment providers also use the BVN (Bank Verification Number); Paystack accepts BVN, driver's licence, NIN slip, voter's card or passport (P3).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nimc.gov.ng/nin/",
+     "publisher": "National Identity Management Commission",
+     "title": "National Identity Number",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-4c9a8ffc4e5d.txt.gz",
+     "quote": "The National Identification Number (NIN) consists of 11 non-intelligible numbers randomly chosen and assigned to an individual at the completion of enrolment into the National Identity Database (NIDB)."
+    },
+    {
+     "url": "https://nimc.gov.ng/nin/",
+     "publisher": "National Identity Management Commission",
+     "title": "National Identity Number",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-4c9a8ffc4e5d.txt.gz",
+     "quote": "All citizens and legal residents in Nigeria, from age zero (birth) and above are eligible to enrol for their NINs."
+    }
+   ],
+   "notes": "nimc.gov.ng is JavaScript-rendered; its text was read in a normal browser visit and saved as a .txt.gz excerpt."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving). Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Card payments on your own site through Paystack (a Stripe company). Stripe lists this country under its extended network. (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (7) Local official channel: Receive into an ordinary domiciliary (USD) account. Under the CBN FX Manual in force from 1 June 2026, holders have unrestricted access without prior approval (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Nigeria: listed in Stripe's extended network (via Paystack) (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.cbn.gov.ng/AboutCBN/Reforms.html",
+     "publisher": "Central Bank of Nigeria",
+     "title": "CBN Reforms and Initiatives",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0b401cfa888e.txt.gz",
+     "quote": "which provide that export proceeds must be repatriated and credited to exporters' domiciliary accounts within specified time frames: 180 days for non-oil exports and 90 days for oil and gas exports from the bill of lading date."
+    },
+    {
+     "url": "https://businessday.ng/news/article/cbn-frees-personal-dollar-accounts-tightens-oversight-of-export-proceeds-in-new-fx-rules/",
+     "publisher": "BusinessDay (Nigeria)",
+     "title": "CBN scraps pandemic-era dollar account curbs as liquidity improves (June 3, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-199acf6264df.html.gz",
+     "quote": "Individuals can now utilise their foreign currency balances without prior regulatory approval."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-17",
+ "completed": "2026-10-17",
+ "open_questions": [
+  "CBN FX Manual 4th ed. (403 to scripts): are freelancer service receipts 'export proceeds' (no cash, documentation) or ordinary domiciliary inflows?",
+  "VAT registration/charging threshold for individuals and small businesses under the 2025 Acts.",
+  "Is the NIN the individual's Tax ID? Process to obtain a Tax ID.",
+  "Payoneer for unregistered individuals in Nigeria; PayPal partner bank name.",
+  "NDPC GAID 2025 registration thresholds; FCCPA specific duties for online sellers."
+ ]
+}

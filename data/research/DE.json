@@ -1,0 +1,518 @@
+{
+ "code": "DE",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. As an EU member state, Germany applies Article 63 TFEU, which prohibits restrictions on capital movements and payments between EU countries and with non-EU countries. Banks still apply AML/KYC checks and may ask for the source of funds.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "Article 63 TFEU prohibits all restrictions on the movement of capital and payments between EU countries, as well as between EU and non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Private customers can open a foreign-currency account (Fremdwährungskonto) at many German banks or online brokers (Finanztip). It is typically a sub-account of an existing settlement or current account; BNP Paribas Private Banking's opening form, for example, offers USD, GBP, CAD, AUD, JPY and other currencies (BNP Paribas). Some banks offer it only to existing customers. EU law (art. 63 TFEU) bars restrictions on capital movements.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "ensuring that payments in relation to those capital movements can be executed without restrictions, so that individuals and businesses can use, invest and/or save their money or financial assets anywhere within the EU as well as in non-EU countries.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://www.finanztip.de/tagesgeld/fremdwaehrungskonto/",
+     "publisher": "Finanztip",
+     "title": "Fremdwährungskonto",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-019644293026.html.gz",
+     "quote": "Als Privatkunde kannst Du ein Fremdwährungskonto bei vielen deutschen Banken oder Online-Brokern eröffnen.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://privatebanking.bnpparibas.de/content/dam/de-wm/editorial/010-Mein-Bereich/PDF/Formulare/Konto%26Depot/Eroeffnung_Fremdwaehrungskonto_SET.pdf",
+     "publisher": "BNP Paribas Wealth Management (account-opening form)",
+     "title": "Eröffnungsantrag Fremdwährungskonto",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-f43cd0feef2c.pdf.gz",
+     "quote": "Ich/Wir bitte/n um Eröffnung eines Fremdwährungskontos als Unterkonto zu dem rechts oben benannten Verrechnungskonto.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Germany (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Germany is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Germany is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Germany is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Germany is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Germany IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Germany appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Freelancers (Freiberufler) do not need to register a business (Gewerbe) or enter the Commercial Register; they register with the local tax office (Finanzamt) by filing the tax registration questionnaire (Fragebogen zur steuerlichen Erfassung) via ELSTER, generally within one month of starting. Traders (Gewerbetreibende) also file a Gewerbeanmeldung with the municipality (not captured). The questionnaire is also where you opt into the small-business (Kleinunternehmer) VAT scheme.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/resources/more/the-tax-registration-form",
+     "publisher": "Stripe",
+     "title": "The tax registration form: What German businesses need to know",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-0dcaae733442.html.gz",
+     "quote": "Freelance professions If you are working on a freelance basis, you don’t need to register a business or register with the Commercial Register."
+    },
+    {
+     "url": "https://norman.finance/de/en/blog/tax-registration-questionnaire-germany",
+     "publisher": "Norman Finance",
+     "title": "German Tax Registration Questionnaire (Fragebogen): A Step-by-Step Guide 2026",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-8e9747aaf48d.html.gz",
+     "quote": "Category Founding Updated September 10, 2026 Author Diana Chebotareva When you start self-employment in Germany (whether as a freelancer, sole trader, or GmbH managing director) you must register with your local tax office (Finanzamt)."
+    }
+   ],
+   "notes": "Secondary sources only; confirm on the national authority site."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Germany to the OECD: \"The Federal Central Tax Office (Bundeszentralamt für Steuern) issues a uniform and permanent tax identification number (TIN) to every individual who is subject to tax, for purposes of unambiguous identification in taxation procedures.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/germany-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Germany's tax administration)",
+     "title": "Germany — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-499855325f4e.pdf.gz",
+     "quote": "The Federal Central Tax Office (Bundeszentralamt für Steuern) issues a uniform and permanent tax identification number (TIN) to every individual who is subject to tax, for purposes of unambiguous identification in taxation procedures.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Tax residents of Germany are taxed on worldwide income (see quoted rules for exceptions such as remittance-basis regimes). Progressive up to 45% plus solidarity surcharge (rates not captured). Inference (general source principle, not quoted): work performed while living in Germany for foreign clients is normally taxable in Germany.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/germany/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Germany - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-5f9f228f2657.html.gz",
+     "quote": "All resident individuals are taxed on their worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/germany/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Germany - Individual - Residence",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-1bfc2a573cca.html.gz",
+     "quote": "This can be assumed if the individual is physically present in Germany for more than six months in any one calendar year, or for a consecutive period of six months over a year-end."
+    },
+    {
+     "url": "https://taxatlas.io/country/germany/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Germany Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-0ce0b3520935.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "Kleinunternehmer (small-business) VAT threshold not captured; trade tax may apply to Gewerbe."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "National threshold (Kleinunternehmerregelung, § 19 UStG, from 2025): no VAT is charged if total turnover was at most EUR 25,000 in the previous year and stays at most EUR 100,000 in the current year. In the founding year, the limit is EUR 25,000 of actual turnover, with no annualisation. Exceeding EUR 25,000 in a year means standard VAT from 1 January of the next year. Waiving the exemption binds you to standard taxation for five years. The standard VAT rate is 19%. Under the EU SME scheme, small businesses below a national threshold (at most EUR 85,000) can be exempt on domestic sales. Where services are taxed (EU-wide rules, illustrated by Irish Revenue guidance): (1) B2B, meaning services to business customers in other EU countries or outside the EU, are taxed where the customer is established, so no Germany VAT is charged; EU business customers self-account under the reverse charge. (2) B2C services to private individuals are, as a rule, taxed where the supplier is established, so Germany VAT applies once you are VAT-registered. (3) Exception: consultancy, legal, accounting, engineering, data-processing, advertising, licensing and electronically supplied services to private customers outside the EU are outside EU VAT, subject to 'use and enjoyment' rules. Electronically supplied services to private customers in other EU countries follow special OSS rules (not captured here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ihk-muenchen.de/ratgeber/steuern/umsatzsteuer/kleinunternehmerregelung/",
+     "publisher": "IHK München und Oberbayern",
+     "title": "Kleinunternehmerregelung (IHK München und Oberbayern)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-df834d21df43.html.gz",
+     "quote": "Seit 2025 gelten neue Umsatzgrenzen: 25.000 € Gesamtumsatz im Vorjahr und 100.000 € Gesamtumsatz im laufenden Jahr"
+    },
+    {
+     "url": "https://www.ihk-muenchen.de/ratgeber/steuern/umsatzsteuer/kleinunternehmerregelung/",
+     "publisher": "IHK München und Oberbayern",
+     "title": "Kleinunternehmerregelung (IHK München und Oberbayern)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-df834d21df43.html.gz",
+     "quote": "Der Gesamtumsatz darf im Gründungsjahr die Grenze von 25.000 € nicht überschreiten."
+    },
+    {
+     "url": "https://www.ihk-muenchen.de/ratgeber/steuern/umsatzsteuer/kleinunternehmerregelung/",
+     "publisher": "IHK München und Oberbayern",
+     "title": "Kleinunternehmerregelung (IHK München und Oberbayern)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-df834d21df43.html.gz",
+     "quote": "In diesem Fall sind sie für fünf Jahre an die Regelbesteuerung gebunden."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/germany/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Germany - Corporate - Other taxes",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-32a48540779b.html.gz",
+     "quote": "Proceeds of sales and services effected in Germany are subject to VAT under the common system of the European Union at the standard rate of 19% (7% on certain items, such as food and books, and 0% for the sale and installation of photovoltaic systems and certain related devices)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/vat-exemptions/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "VAT exemptions for SMEs in cross-border and domestic sales (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-348d2dc786c3.html.gz",
+     "quote": "Domestic VAT Rules If your SME has an annual turnover under EUR 85 000 or lower if set by the EU country , you can apply for a VAT exemption on domestic sales ."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/cross-border-vat/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Cross-border VAT (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-31a2fc91eb48.html.gz",
+     "quote": "Selling services to businesses based in another EU country If you sell services to businesses based in another EU country you don't usually need to charge your customers VAT."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "Supply of services to a business (B2B) For supplies of business to business services (B2B), the place of supply is the place where the business receiving the services is established."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "This applies whether the business customer is in the European Union (EU) or not."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "For supplies of business to consumer services (B2C), the place of supply is the place where the supplier: has established their business"
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "If the following services are provided to non-business customers established outside the European Union (EU), the place of supply is outside the EU."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "This includes the provision of other services directly linked thereto telecommunications services radio and television broadcasting services and electronically supplied services."
+    }
+   ],
+   "notes": "National SME threshold not captured unless stated. German national threshold from a single source (IHK München, a statutory chamber); lexware/finanz.de/selbststaendigkeit.de agree per search summary but timed out on 2026-10-24. Per the same summary, exceeding EUR 100,000 mid-year applies standard VAT from that transaction."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The EU General Data Protection Regulation (GDPR) applies directly in Germany, supervised by the national data protection authority. It covers EU businesses and non-EU businesses offering goods or services to people in the EU.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+     "publisher": "European Commission",
+     "title": "Data protection (European Commission)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-67745d447c93.html.gz",
+     "quote": "EU data protection legislation is comprised of the General Data Protection Regulation (GDPR), the Law Enforcement Directive (LED), and the Data Protection Regulation for EU institutions, bodies, offices and agencies (EUDPR)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Data protection and online privacy (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5529929a174.html.gz",
+     "quote": "These rules apply to both companies and organisations (public and private) in the EU and those based outside the EU who offer goods or services in the EU , such as Facebook or Amazon, whenever these companies request or re-use the personal data of individuals in the EU."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "EU consumer law gives a 14-day withdrawal right for online and distance purchases without justification: 14 days from delivery for goods, and from conclusion of the contract for services. Exceptions include personalised goods, perishables and date-specific services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "This means you can cancel the contract within 14 days without providing any justification (the \"cooling-off period\")."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "For goods this means 14 days from the date of delivery, for services 14 days after the day the contract was agreed."
+    }
+   ],
+   "notes": "National implementations may add detail."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Kleinunternehmerregelung (see L4): VAT-free invoicing for turnover of at most EUR 25,000 in the prior year and EUR 100,000 in the current year, with no input-VAT recovery. An EU-wide small-business scheme also lets German small businesses use exemptions in other member states under conditions. The statute is § 19 UStG (Besteuerung der Kleinunternehmer).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ihk-muenchen.de/ratgeber/steuern/umsatzsteuer/kleinunternehmerregelung/",
+     "publisher": "IHK München und Oberbayern",
+     "title": "Kleinunternehmerregelung (IHK München und Oberbayern)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-df834d21df43.html.gz",
+     "quote": "Eine EU-Kleinunternehmerregelung ermöglicht es deutschen Unternehmen, unter bestimmten Bedingungen, auch in anderen EU-Ländern von der Steuerbefreiung zu profitieren."
+    },
+    {
+     "url": "https://www.gesetze-im-internet.de/ustg_1980/__19.html",
+     "publisher": "Bundesministerium der Justiz (gesetze-im-internet.de)",
+     "title": "§ 19 UStG — Besteuerung der Kleinunternehmer",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-bcee10874715.html.gz",
+     "quote": "§ 19 Besteuerung der Kleinunternehmer",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Germany accepts: Führerschein (Driver's license) - scans of front and back are required Personalausweis (Identity card) - scans of front and back are required Reisepass (Passport) unbefristeter Aufenthaltstitel (Permanent Resident card) - scans of front and back are required Aufenthaltstitel (Residence permit) - scans of front and back are required. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=DE",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Germany",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-173e8591242c.html.gz",
+     "quote": "Acceptable forms of identification: Führerschein (Driver's license) - scans of front and back are required Personalausweis (Identity card) - scans of front and back are required Reisepass (Passport) unbefristeter Aufenthaltstitel (Permanent Resident card) - scans of front and back are required Aufenthaltstitel (Residence permit) - scans of front and back are required",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Germany: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "National sole-trader registration steps/fees; TIN.",
+  "National SME VAT threshold; self-employed flat-rate regimes.",
+  "Social security for self-employed.",
+  "Second source for income tax."
+ ]
+}

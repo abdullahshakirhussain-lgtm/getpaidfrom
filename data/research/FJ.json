@@ -1,0 +1,339 @@
+{
+ "code": "FJ",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "See quoted official summary. Controls or FX shortages may affect conversion and transfers.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/fiji-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Fiji Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-ae98c2acba89.html.gz",
+     "quote": "The Reserve Bank also regulates commercial bank liquidity through monetary policy and supervises the broader credit environment, including foreign exchange controls."
+    }
+   ],
+   "notes": "",
+   "note": "Captured text describes the regime only partially (2026-10-22)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, generally available. Banks and non-bank financial institutions in Fiji offer foreign-currency accounts, among other services (US trade.gov guide). Eligibility conditions and Reserve Bank of Fiji exchange-control approvals for residents were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/fiji-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Fiji Country Commercial Guide — Trade Financing",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-ae98c2acba89.html.gz",
+     "quote": "Banks and NBFIs offer services such as leasing finance, personal loans, travelers’ checks, foreign-currency accounts, letters of credit, and documentary collections.",
+     "retrieved": "2026-10-23"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Fiji (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Fiji is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Fiji is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Fiji is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Fiji is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Fiji is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Fiji.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Fiji (updated June 10, 2026), registration is handled by: Registrar of Companies ; Fiji Revenue & Customs Service (FRCS) for tax. Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-fiji/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Sole Trader) in Fiji Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-27fc3ff9abd6.html.gz",
+     "quote": "Registration body Registrar of Companies ; Fiji Revenue & Customs Service (FRCS) for tax",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The TIN (Taxpayer Identification Number), issued by the Fiji Revenue and Customs Service (FRCS). It is compulsory for all Fiji citizens and is needed to open a bank account, among other services. Residents apply online through the Taxpayer Online Service (TPOS) portal (FRCS FAQ; TPOS user manual). A valid TIN is also required to open a mobile-wallet account (search summary).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://frcs.org.fj/faq-2/",
+     "publisher": "Fiji Revenue and Customs Service (FRCS)",
+     "title": "Frequently Asked Questions",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b6e4ae1b9ad.html.gz",
+     "quote": "It is compulsory for all Fiji Citizens to have a TIN.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://frcs.org.fj/faq-2/",
+     "publisher": "Fiji Revenue and Customs Service (FRCS)",
+     "title": "Frequently Asked Questions",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b6e4ae1b9ad.html.gz",
+     "quote": "Fiji Residents can apply for a TIN on the Taxpayer Online Service (TPOS).",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://frcs.org.fj/files/2025/07/FRCS_TPOS_User-Manual-Individual-TIN-Registration-by-Taxpayer_User-Manual-v1.2.pdf",
+     "publisher": "Fiji Revenue and Customs Service (FRCS)",
+     "title": "TPOS User Manual — Individual TIN Registration by Taxpayer",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-6ecfc7181fbc.pdf.gz",
+     "quote": "For instance, opening a Bank account, applying/renewing a Motor Vehicle License, requesting a Tertiary Education Loan by students, etc.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Reported bands: 0% to FJD 30,000, then 18%-20% (TaxAtlas).",
+   "status": "unverified",
+   "note": "Single aggregator source (TaxAtlas) captured on 2026-10-23.",
+   "sources": [
+    {
+     "url": "https://taxatlas.io/country/fiji/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Fiji Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-6e6d229e989b.html.gz",
+     "quote": "Income Range ( FJD ) Tax Rate FJ$0 – FJ$30K 0% FJ$30K – FJ$50K 18%"
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is charged at 0% and 12.5%, with 12.5% applying from 1 August 2025 (reduced from 15%). The registration threshold remains FJD 100,000 (FY2025-26 budget). Liable businesses must register with FRCS within 21 days of becoming liable. Separately, from 1 January 2026 businesses with turnover of FJD 50,000 or more must join the VAT Monitoring System (search summary).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://frcs.org.fj/?p=28316",
+     "publisher": "Fiji Revenue and Customs Service (FRCS)",
+     "title": "VAT Guide",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-53eb4d2c82cc.html.gz",
+     "quote": "Effective from 01/08/2025 , 12.5% VAT rate is charged on goods and services except for those items that fall under exempted and zero-rated VAT .",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://frcs.org.fj/?p=28316",
+     "publisher": "Fiji Revenue and Customs Service (FRCS)",
+     "title": "VAT Guide",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-53eb4d2c82cc.html.gz",
+     "quote": "Register for VAT with FRCS within 21 days of becoming so liable",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.finance.gov.fj/citizens-guide-to-the-fy2025-2026-national-budget-english",
+     "publisher": "Ministry of Finance, Fiji",
+     "title": "Citizens' Guide to the FY2025-2026 National Budget",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-25-6738b876f70d.pdf.gz",
+     "quote": "While the VAT registration threshold remains at $100,000, asset declaration will become mandatory for sole traders.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "TaxAtlas lists 9%, which is outdated; the official FRCS figure is used."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no data-protection/privacy legislation in Fiji. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "242,Fiji,Legislation,No Legislation,No Legislation,Legislation,Legislation,0,0,1,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Fiji. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "242,Fiji,Legislation,No Legislation,No Legislation,Legislation,Legislation,0,0,1,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Fiji has no compulsory ID card; the national voter ID card (electronic since 2017) is available on request and required for some government transactions such as voting (Wikipedia). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "national voter's ID card (electronic since 2017) are available upon request and compulsory for certain governmental transactions (e.g.: voting).",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Fiji: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Fiji: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Fiji: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Fiji: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Fiji: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN for freelancers.",
+  "Services-export VAT treatment; second sources.",
+  "Data protection; consumer law."
+ ]
+}

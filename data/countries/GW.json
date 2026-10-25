@@ -1,0 +1,434 @@
+{
+ "code": "GW",
+ "un_name": "Guinea Bissau",
+ "m49_name": "Guinea-Bissau",
+ "iso3": "GNB",
+ "m49": "624",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": true,
+ "un_admitted": "17-09-1974",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "buyers_blocked",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. As a UEMOA member, Guinea-Bissau applies Regulation 06/2024/CM/UEMOA. Residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), and repatriate all export proceeds for goods and services (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "Annex II deadlines not read."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation from the Minister of Finance after a binding BCEAO opinion (UEMOA Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Guinea Bissau (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Polar (payouts); Etsy seller payments; YouTube Partner Program. Restricted: Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Guinea Bissau is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Guinea Bissau is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Guinea-Bissau is a listed PayPal market but not on the Payouts list.",
+   "status": "unverified",
+   "note": "No Guinea-Bissau PayPal receiving/withdrawal source found on 2026-10-21; only Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Guinea-Bissau is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Guinea-Bissau is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Guinea-Bissau."
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Businesses are formalised through the Centro de Formalização de Empresas (CFE) one-stop shop. In April 2025 the government halved the cost of forming a limited company (SARL) to FCFA 180,000. The procedure and cost for an individual enterprise were not found. The OHADA entreprenant status applies in principle (OHADA member).",
+   "status": "unverified",
+   "note": "Searched 2026-10-21: 'Guiné-Bissau criar empresa individual Centro de Formalização de Empresas CFE NIF custo prazo bilhete de identidade'. Only press on SARL cost (Forbes África Lusófona) and consultancy pages on companies; nothing on individual enterprises.",
+   "sources": [
+    {
+     "url": "https://forbesafricalusofona.com/?p=154236",
+     "publisher": "Forbes África Lusófona",
+     "title": "Custo de criação de empresa na Guiné-Bissau foi reduzido – Governo (9 Apr 2025)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-5f3982759160.html.gz",
+     "quote": "Soares Sambu acrescentou ainda que todos os cidadãos que constituíram empresas a partir de Janeiro deste ano poderão dirigir-se ao Centro de Formalização de Empresas para pedir o reembolso de 50% do valor pago."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not confirmed. Consultancy guides say the NIF (tax number) is obtained from the DGCI at the CFE.",
+   "status": "unverified",
+   "note": "Only a consultancy page (Healy Consultants, not captured) describes NIF registration via the DGCI desk at the CFE; no official source found on 2026-10-21.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Not confirmed. Guinea-Bissau keeps a schedular ('parcelled') tax system with separate taxes per income type, such as a professional tax and an industrial contribution, per an undated Andersen tear sheet that still describes the pre-2025 IGV. No current source on small-business regimes or foreign-source income was found.",
+   "status": "unverified",
+   "note": "Searched 2026-10-21 (Portuguese and English): no official DGCI/Código source; Angolan results (imposto industrial) are a different country and were excluded.",
+   "sources": [
+    {
+     "url": "https://global.andersen.com/storage/app/media/DBI%20Tear%20Sheet/Guinea%20Bissau%20Tear%20Sheet_FINAL.pdf",
+     "publisher": "Andersen Global",
+     "title": "Guinea Bissau — Doing Business tear sheet (undated)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-d90260acf6fd.pdf.gz",
+     "quote": "It maintains the parcelled model, with taxes for each activity."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT (IVA) under Law 4/2022, a UEMOA-harmonised model, has applied nationwide since 1 January 2025 per Ministerial Order (Despacho) 130/GMF/2024. It replaced the general sales tax (IGV). Per the tax authority (DGCI, via Lusa), the standard rate is 19% with a reduced rate of 10%, and exports of goods are exempt. The treatment of exported services and the registration threshold were not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://mef.gw/noticias/informacao-importante-iva",
+     "publisher": "Ministério das Finanças da Guiné-Bissau",
+     "title": "INFORMAÇÃO IMPORTANTE IVA — Despacho Nº 130/GMF/2024 (30 Dec 2024)",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-2929af934042.html.gz",
+     "quote": "1) Fixar a data de 01 de janeiro de 2025, como data de implementação do IVA em toda a extensão do território nacional."
+    },
+    {
+     "url": "https://www.correiodamanhacanada.com/guine-bissau-comeca-a-pagar-iva-em-janeiro-de-2025/",
+     "publisher": "Correio da Manhã Canadá (Lusa)",
+     "title": "Guiné-Bissau começa a pagar IVA em janeiro de 2025",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-7b611d815e37.html.gz",
+     "quote": "A mesma fonte indicou que o IVA terá duas taxas: uma reduzida, de 10%, e outra normal, de 19%."
+    },
+    {
+     "url": "https://forbesafricalusofona.com/?p=117583",
+     "publisher": "Forbes África Lusófona (citing Lusa)",
+     "title": "Guiné-Bissau começa a pagar IVA em Janeiro de 2025",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-4df437154e71.html.gz",
+     "quote": "Ufé Vieira assinalou que, com a entrada em vigor do IVA, deixará de ser cobrado o IGV (Imposto Geral sobre Vendas), que era praticado desde os anos 1990 e que se “mostrava impraticável”, tanto na aplicação do imposto devido ao Estado como no controlo das isenções de várias entidades."
+    }
+   ],
+   "notes": "dgci.mef.gw (DNS failure) not reachable; the same order is reproduced on mef.gw. Code (Lei 4/2022) text and Despacho 149/2024 on exemptions not read."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No enacted general data-protection law was confirmed. On 5 May 2026 the Council of Ministers approved, with amendments, a data-protection law to protect individuals' fundamental rights in personal-data processing. Its enactment or publication was not confirmed. The IAPP (as of 2021) knew of no such law.",
+   "status": "unverified",
+   "note": "Searched 2026-10-21 (Portuguese, extended). Found only an O Democrata report of Council of Ministers approval (5 May 2026); no Boletim Oficial publication found. parlamento.gw not searched directly.",
+   "sources": [
+    {
+     "url": "https://www.odemocratagb.com/?p=57105",
+     "publisher": "O Democrata GB",
+     "title": "Recenseamento geral da população arranca em junho (Conselho de Ministros, 5 May 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-9f8b07795380.html.gz",
+     "quote": "O plenário governamental aprovou, com alterações, a lei sobre a proteção de dados, com o objetivo de garantir o respeito pelas liberdades públicas e pelos direitos fundamentais das pessoas singulares no tratamento de dados pessoais."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not researched to a source.",
+   "status": "unverified",
+   "note": "No Guinea-Bissau e-commerce/consumer-law source located in 2026-10-21 searches.",
+   "sources": [],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "The 2025 halving of company-formation costs (SARL now FCFA 180,000) is the only documented measure found. No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Single press source (Forbes África Lusófona).",
+   "sources": [
+    {
+     "url": "https://forbesafricalusofona.com/?p=154236",
+     "publisher": "Forbes África Lusófona",
+     "title": "Custo de criação de empresa na Guiné-Bissau foi reduzido – Governo",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-5f3982759160.html.gz",
+     "quote": "“Anunciada como “medida histórica”, o custo da constituição de sociedades por quotas de responsabilidade limitada é fixado em 180 mil francos CFA (cerca de 270 euros), o que representa uma redução de 50%”, disse o governante guineense."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Not confirmed (national identity card, bilhete de identidade, presumed).",
+   "status": "unverified",
+   "note": "No source captured on 2026-10-21.",
+   "sources": [],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Guinea Bissau: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Guinea Bissau: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Guinea Bissau: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Guinea Bissau: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Guinea Bissau: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

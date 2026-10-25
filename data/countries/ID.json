@@ -1,0 +1,605 @@
+{
+ "code": "ID",
+ "un_name": "Indonesia",
+ "m49_name": "Indonesia",
+ "iso3": "IDN",
+ "m49": "360",
+ "region": "Asia",
+ "sub_region": "South-eastern Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "28-09-1950",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency IDR; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive",
+   "label": "Send, receive, and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "preview_contact_sales",
+   "label": "Preview",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Indonesia has a free foreign-exchange regime: under Law 24/1999 Art. 2(1) every resident may freely own and use foreign exchange. FX used for domestic transactions must respect the legal-tender rules (rupiah), and Bank Indonesia may require information and data on residents' FX flows (reporting). No surrender or conversion requirement for individuals' service income was found. Indonesia's export-proceeds retention rules (DHE) cover natural-resource exporters, and they were not researched as applying to freelancers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://jdih.kemenkeu.go.id/api/download/fulltext/1999/24TAHUN~1999UU.htm",
+     "publisher": "JDIH Kementerian Keuangan (Ministry of Finance legal database)",
+     "title": "Undang-Undang Nomor 24 Tahun 1999 tentang Lalu Lintas Devisa dan Sistem Nilai Tukar",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c3e1fbfd66df.html.gz",
+     "quote": "BAB II LALU LINTAS DEVISA Pasal 2 (1) Setiap Penduduk dapat dengan bebas memiliki dan menggunakan Devisa."
+    },
+    {
+     "url": "https://jdih.kemenkeu.go.id/api/download/fulltext/1999/24TAHUN~1999UU.htm",
+     "publisher": "JDIH Kementerian Keuangan",
+     "title": "UU 24/1999",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c3e1fbfd66df.html.gz",
+     "quote": "Pasal 3 (1) Bank Indonesia berwenang meminta keterangan dan data mengenai kegiatan Lalu Lintas Devisa yang dilakukan oleh Penduduk."
+    }
+   ],
+   "notes": "English: 'Every resident may freely own and use foreign exchange' (Art. 2(1)). bi.go.id redirected; Bank Indonesia's own pages were not read. PBI 9/2024 on FX flow management was referenced in search results but not read."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes. Residents may freely own foreign exchange (Law 24/1999 Art. 2(1)), so holding FX deposits at Indonesian banks is permitted. Domestic payments must generally be in rupiah.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://jdih.kemenkeu.go.id/api/download/fulltext/1999/24TAHUN~1999UU.htm",
+     "publisher": "JDIH Kementerian Keuangan",
+     "title": "UU 24/1999",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c3e1fbfd66df.html.gz",
+     "quote": "(2) Penggunaan Devisa sebagaimana dimaksud pada ayat (1) untuk keperluan transaksi di dalam negeri, wajib memperhatikan ketentuan mengenai alat pembayaran yang sah sebagaimana diatur dalam Undang-undang tentang Bank Indonesia."
+    }
+   ],
+   "notes": "No bank's own FX-account page was checked; the answer relies on the statute's general freedom."
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Indonesia (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Indonesia is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Indonesia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Midtrans (GoTo group) says it has been registered with and licensed by Bank Indonesia since 2018. It accepts INDIVIDUALS: domestic individuals need the owner's KTP and NPWP (cards too), and the Starter Pack (bank transfer, GoPay, QRIS) needs only a KTP. Xendit does NOT currently accept individual businesses and asks you to register a legal entity, e.g. a Perseroan Perorangan via ptp.ahu.go.id. Bank Indonesia's own licence register was not read. The licence claim is Midtrans's own. Stripe lists Indonesia as 'Preview' (contact sales)."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "Available: the PayPal Payouts table lists Indonesia as 'Send, receive, and withdraw', and Indonesia is a PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia row: 'Send, receive, and withdraw' (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Withdrawal method and fees for Indonesian PayPal accounts were not checked."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. Its receiving accounts include IDR, so clients can pay by local bank transfer in rupiah, and withdrawals to Indonesian banks exist (fees, minimum and timing not confirmed). Wise: Indonesia is NOT on Wise's list of countries where you can hold money.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/receiving-accounts/",
+     "publisher": "Payoneer",
+     "title": "Multi-Currency Business Account (receiving accounts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-46c46c994de5.html.gz",
+     "quote": "Get credible local account details in 13 major currencies USD, EUR, GBP, JPY, AUD, CAD, SGD, HKD, AED, MXN, BRL, KRW and IDR, so your clients can pay you like a local, via bank transfer in their own currency."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia is not in the list of countries and territories where you can hold money in your Wise account (the list goes '... Iceland India Ireland ...')."
+    }
+   ],
+   "notes": "Whether Indonesian RESIDENTS can open Payoneer accounts in their own name was not confirmed on an Indonesia-specific Payoneer page (the IDR receiving account is for clients paying in IDR; it doesn't on its own prove residents' eligibility). Etsy lists Indonesia as eligible for Etsy Payments directly."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Businesses get a Business Identification Number (NIB) through the online OSS-RBA system, the official identity for starting or running a business in Indonesia. Individuals ('orang perseorangan') register with their NIK and personal NPWP. For low-risk micro and small businesses, the NIB and a self-declaration are issued directly and can be printed. Whether a freelancer selling only to foreign clients MUST hold an NIB was not verified. Tax registration (NIK as NPWP) applies regardless (L2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://oss.go.id/en",
+     "publisher": "OSS-RBA (Ministry of Investment/BKPM)",
+     "title": "OSS RBA - Sistem Perizinan Berusaha Terintegrasi Secara Elektronik",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-ea8129a5ccd0.html.gz",
+     "quote": "The Business Identification Number (NIB) is the official identity for starting or running a business in Indonesia."
+    },
+    {
+     "url": "https://s3.oss.go.id/oss/cms/(z)-2025_Perizinan-Berusaha-UMK-Risiko-Rendah-dan-Menengah-Rendah---Orang-Perseorangan-9a47a94cdbba5065cde976891a2c90f5.pdf",
+     "publisher": "OSS-RBA",
+     "title": "Perizinan Berusaha UMK Risiko Rendah dan Menengah Rendah - Orang Perseorangan (2025 guide)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-1d9b2d396dd7.pdf.gz",
+     "quote": "16.a Perizinan Berusaha telah terbit (Risiko Rendah) ● Perizinan Berusaha telah terbit, meliputi: 1.NIB, klik tombol CETAK NIB."
+    }
+   ],
+   "notes": "BKPM pages saying OSS is free of charge and that low-risk businesses only need an NIB came up in search, but their hosts (www3/www4/www5.bkpm.go.id) no longer resolve, so 'free' is NOT quoted. A Perseroan Perorangan (single-person company) is an option for those who need a legal entity, e.g. for Xendit."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "For resident individuals the NIK (national ID number) IS the NPWP (tax ID). This has been used since 14 July 2022 and fully implemented across all tax services since 1 July 2024 (PMK 136/2023 moved it from 1 Jan 2024). Old 15-digit NPWPs remain valid but the 16-digit NIK/NPWP format is mandatory in tax administration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://pajak.go.id/en/node/103413",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Pengaturan Kembali Saat Mulai Implementasi Penuh NIK Sebagai NPWP",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-4cf314d1fb88.html.gz",
+     "quote": "Pemerintah menetapkan pengaturan kembali saat mulainya implementasi penuh NIK sebagai NPWP Orang Pribadi penduduk dan NPWP 16 digit bagi Wajib Pajak Orang Pribadi bukan penduduk, Badan, dan Instansi Pemerintah dari yang semula 1 Januari 2024 menjadi 1 Juli 2024."
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Resident taxpayers are taxed on income from Indonesia AND from outside Indonesia (Income Tax Law). Small business option, PP 20/2026 (promulgated 22 Apr 2026, amending PP 55/2022): individuals can use the 0.5% final tax on gross turnover WITH NO TIME LIMIT (the old 7-year limit is gone), while turnover stays at or below Rp4.8 billion a year. Foreign turnover counts toward that limit. The first Rp500 million of an individual's turnover each year is not taxed. Transitional rules let individuals whose facility ended in 2024 or 2025 keep using it.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.pajak.go.id/sites/default/files/UU%20PPh%20No%2036%20Th%202008.pdf",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Undang-Undang Pajak Penghasilan (consolidated text, UU 36/2008)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b8d090f4d878.pdf.gz",
+     "quote": "Wajib Pajak dalam negeri dikenai pajak atas penghasilan baik yang diterima atau diperoleh dari Indonesia maupun dari luar Indonesia, sedangkan Wajib Pajak luar negeri dikenai pajak hanya atas penghasilan yang berasal dari sumber penghasilan di Indonesia;"
+    },
+    {
+     "url": "https://www.pajak.go.id/en/node/119953",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Era Baru PPh Final UMKM, Bentuk Nyata Insentif Tepat Sasaran",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-16492dbad9c7.html.gz",
+     "quote": "Orang pribadi dan PT Perorangan dapat memanfaatkan tarif PPh Final UMKM tanpa batas waktu, sedangkan koperasi dapat memanfaatkan tarif PPh Final UMKM maksimal empat tahun sejak terdaftar, selama peredaran bruto orang pribadi, PT Perorangan, dan koperasi dalam satu tahun pajak tidak melebihi Rp4,8 miliar."
+    },
+    {
+     "url": "https://www.pajak.go.id/en/node/119950",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "PP 20/2026: Tarif PPh 0,5% bagi UMKM Orang Pribadi Berlaku Selamanya",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-a8a11f906c9d.html.gz",
+     "quote": "Penentuan batas Rp4,8 Miliar dihitung dari akumulasi total seluruh peredaran bruto atas penghasilan dari usaha dan jasa sehubungan dengan pekerjaan bebas dalam 1 (satu) tahun dari Tahun Pajak terakhir, termasuk peredaran bruto yang diterima atau diperoleh di luar negeri."
+    },
+    {
+     "url": "https://pajak.go.id/id/berita/dirjen-pajak-tegaskan-omzet-umkm-hingga-rp500-juta-tidak-dikenai-pph",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Dirjen Pajak Tegaskan Omzet UMKM hingga Rp500 Juta Tidak Dikenai PPh",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fb2c1720250.html.gz",
+     "quote": "Bagian peredaran bruto sampai dengan Rp500 juta dalam satu tahun pajak tidak dikenai PPh sesuai dengan ketentuan yang berlaku."
+    }
+   ],
+   "notes": "The Income Tax Law PDF is the 2008 consolidated text; the worldwide principle wasn't found changed by UU HPP 2021 (not re-checked in consolidated form). Whether freelance 'pekerjaan bebas' professions can use the 0.5% regime: the DJP text counts turnover 'from business and services in connection with independent work' toward the limit, which suggests yes, but the eligibility exclusions (PP 55/2022 excludes some professionals) were NOT read. RE-CHECK before advising doctors, lawyers, consultants and similar."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "VAT (PPN): 12% from 1 Jan 2025, but for non-luxury goods and services it is computed on 11/12 of the price, so 11% effective. Only luxury goods pay the full 12%. Registration as a VAT-registered business (PKP) is required only above Rp4.8 billion of gross turnover a year; smaller businesses may opt in. Exported services are 0% under PMK 32/2019 for listed services produced in Indonesia and used abroad, including IT services and many consultancy types. Two formal conditions apply: a written agreement and payment with valid proof. 0% applies only to PKPs; below the threshold no VAT is charged at all.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://pajak.go.id/sites/default/files/2025-01/SP%201%202025.pdf",
+     "publisher": "Kanwil DJP Papua, Papua Barat dan Maluku (press release, 3 Jan 2025)",
+     "title": "PPN 2025: Kebijakan Baru, Beban Pajak Tetap Ringan untuk Masyarakat",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-45b82aa1244b.pdf.gz",
+     "quote": "• Barang Non-Mewah, Jasa, dan Barang Tidak Berwujud: o PPN dihitung sebesar 12% dari 11/12 nilai impor, harga jual, atau penggantian."
+    },
+    {
+     "url": "https://pajak.go.id/en/node/34250",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Pengusaha Kena Pajak",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c1a041f7c530.html.gz",
+     "quote": "Pengusaha kecil adalah merupakan pengusaha yang selama 1 (satu) tahun buku melakukan penyerahan Barang Kena Pajak dan/atau Jasa Kena Pajak dengan jumlah peredaran bruto dan/atau penerimaan bruto tidak lebih dari Rp4.800.000.000,00 (empat miliar delapan ratus juta rupiah)."
+    },
+    {
+     "url": "https://pajak.go.id/en/node/34557",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Dorong Daya Saing Ekspor Indonesia, Menteri Keuangan Perluas Batasan Ekspor Jasa Kena Pajak",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-960c09aa8404.html.gz",
+     "quote": "Ekspor jasa yang dapat menerima fasilitas PPN 0 persen harus memenuhi dua persyaratan formal yaitu (1) didasarkan atas perikatan atau perjanjian tertulis, dan (2) terdapat pembayaran disertai bukti pembayaran yang sah dari penerima ekspor kepada pengusaha kena pajak yang melakukan ekspor."
+    },
+    {
+     "url": "https://pajak.go.id/en/node/34557",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "Dorong Daya Saing Ekspor Indonesia...",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-960c09aa8404.html.gz",
+     "quote": "jasa konsultansi konstruksi jasa teknologi dan informasi;"
+    }
+   ],
+   "notes": "TRAP caught: a search-engine summary claimed the full 12% applies to all supplies from 1 Feb 2025; DJP's own release says that applies only to LUXURY goods, while non-luxury goods and services stay at 12% x 11/12. The PMK 32/2019 list is limited: services not on it don't get 0%. Whether later PMKs changed the list was not checked."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Personal Data Protection Law, UU 27/2022, enacted and in force 17 Oct 2022. Controllers and processors had to comply within 2 years of promulgation, i.e. by October 2024. A data protection 'lembaga' (agency) responsible to the President enforces it and imposes administrative sanctions. Whether that agency and the implementing regulations have been established was NOT confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://jdih.kemenkeu.go.id/api/download/46c17b53-4a45-411c-9b76-c6799e5769fc/UU_Nomor_27_Tahun_2022%20Perlindungan%20Data%20Pribadi.pdf",
+     "publisher": "JDIH Kementerian Keuangan (full text)",
+     "title": "Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-ed952dea04b8.pdf.gz",
+     "quote": "Pasal 74 Pada saat Undang-Undang ini mulai berlaku, Pengendali Data Pribadi, Prosesor Data Pribadi, dan pihak lain yang terkait dengan pemrosesan Data Pribadi, wajib menyesuaikan dengan ketentuan pemrosesan Data Pribadi berdasarkan Undang-Undang ini paling lama 2 (dua) tahun sejak Undang-Undang ini diundangkan."
+    },
+    {
+     "url": "https://jdih.kemenkeu.go.id/api/download/46c17b53-4a45-411c-9b76-c6799e5769fc/UU_Nomor_27_Tahun_2022%20Perlindungan%20Data%20Pribadi.pdf",
+     "publisher": "JDIH Kementerian Keuangan",
+     "title": "UU 27/2022",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-ed952dea04b8.pdf.gz",
+     "quote": "(2) Penyelenggaraan Pelindungan Data Pribadi sebagaimana dimaksud pada ayat (1) dilaksanakan oleh lembaga."
+    },
+    {
+     "url": "https://jdih.kemenkeu.go.id/dok/uu-27-tahun-2022",
+     "publisher": "JDIH Kementerian Keuangan",
+     "title": "UU 27 TAHUN 2022 - Perlindungan Data Pribadi (record)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-57a85fe2f73e.html.gz",
+     "quote": "Tanggal Penetapan 17 Okt 2022 Tanggal Pengundangan 17 Okt 2022 Tanggal Berlaku 17 Okt 2022"
+    }
+   ],
+   "notes": "komdigi.go.id and berkas.dpr.go.id returned 403 to scripts. A Komdigi document reportedly said implementing regulations and the agency were still pending after Oct 2024 (search summary); current status unknown, so RE-CHECK."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Electronic commerce (PMSE) is governed by Government Regulation PP 80/2019 and Trade Minister Regulation Permendag 31/2023, which replaced Permendag 50/2020 in Sept 2023. Permendag 31/2023 defines marketplaces and social commerce. Social-commerce platforms may not facilitate payments in their systems (search summary). Imported finished goods sold directly cross-border into Indonesia must be priced at least US$100 per unit. Seller identity and product disclosure duties were described in a search summary but not quoted from official text.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kemendag.go.id/berita/pojok-media/zulhas-resmi-berlakukan-permendag-312023",
+     "publisher": "Kementerian Perdagangan (Ministry of Trade)",
+     "title": "Zulhas Resmi Berlakukan Permendag 31/2023",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7e35f989ad71.html.gz",
+     "quote": "Zulhas Resmi Berlakukan Permendag 31/2023Pemerintah akhirnya resmi memberlakukan revisi Permendag 50/2020 menjadi Permendag 31/2023."
+    },
+    {
+     "url": "https://www.kemendag.go.id/berita/pojok-media/zulhas-resmi-berlakukan-permendag-312023",
+     "publisher": "Kementerian Perdagangan",
+     "title": "Zulhas Resmi Berlakukan Permendag 31/2023",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7e35f989ad71.html.gz",
+     "quote": "Kedua, penetapan harga minimum sebesar US$100 per unit untuk barang jadi asal luar negeri yang langsung dijual oleh pedagang ke Indonesia melalui platform e-commerce lintas negara."
+    }
+   ],
+   "notes": "The PP 80/2019 and Permendag 31/2023 texts were not read (JDIH Kemendag download link 404). Whether an individual selling from their OWN website needs an e-commerce licence (SIUPMSE) was NOT confirmed. The Kemendag article on SIUPMSE concerned platform operators (medium/large legal entities). The Consumer Protection Law (UU 8/1999) was not checked."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) PP 20/2026: individuals keep the 0.5% final tax on turnover with no time limit (up to Rp4.8bn), and the first Rp500m a year is untaxed. Spouses with separate NPWPs each get their own Rp500m. (2) No VAT registration below Rp4.8bn, plus 0% VAT on listed exported services for PKPs (L4). (3) Free foreign exchange (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.pajak.go.id/en/node/119951",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "PP 20/2026: Buat UMKM Bersukacita, Risihkan Pengusaha Besar Yang Berpura-Pura",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-037ad93b2135.html.gz",
+     "quote": "Pertama, batas waktu 7 tahun dihapus bagi WP orang pribadi (OP)."
+    },
+    {
+     "url": "https://www.pajak.go.id/en/node/119951",
+     "publisher": "Direktorat Jenderal Pajak",
+     "title": "PP 20/2026: Buat UMKM Bersukacita...",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-037ad93b2135.html.gz",
+     "quote": "Bahkan, bagi suami-istri yang berusaha dengan NPWP terpisah, batasan peredaran tidak dikenakan PPh Final 0,5% sejumlah Rp500 juta ini berlaku untuk masing-masing pihak."
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "KTP-el (electronic Kartu Tanda Penduduk), issued through the Civil Registration Directorate (Dukcapil, Ministry of Home Affairs), carrying the NIK. A digital version (IKD, Identitas Kependudukan Digital) is also being rolled out. The NIK doubles as the tax ID (L2) and is required for OSS business registration (L1). Midtrans asks for the KTP (P3).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dukcapil.kemendagri.go.id/",
+     "publisher": "Ditjen Dukcapil, Kementerian Dalam Negeri",
+     "title": "Dukcapil home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-efe557388c73.html.gz",
+     "quote": "Kejar Target KTP-el dan IKD, Ditjen Dukcapil Minta Bengkulu Perketat Keamanan Data"
+    },
+    {
+     "url": "https://midtrans.com/id/passport",
+     "publisher": "Midtrans",
+     "title": "Registrasi Passport Midtrans",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-4eb6a4b70004.html.gz",
+     "quote": "Individu KTP (untuk WNI) Passport dan KITAS (untuk WNA)"
+    }
+   ],
+   "notes": "The Dukcapil evidence is a news headline naming KTP-el and IKD; the Population Administration Law text was not read."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (7) Stripe lists this country as 'Preview' (sign-up by contacting Stripe sales), which is not a self-serve route for beginners yet. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Indonesia: listed by Stripe as Preview (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

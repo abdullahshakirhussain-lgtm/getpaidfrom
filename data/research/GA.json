@@ -1,0 +1,454 @@
+{
+ "code": "GA",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under CEMAC exchange control (Regulation 02/18/CEMAC/UMAC/CM). Service-export receipts must be collected and repatriated by the exporter through its domiciliary bank via the BEAC (art. 70). Service transactions of FCFA 5m or more must be domiciled with a CEMAC credit institution (art. 68) and backed by a contract, purchase order or invoice (art. 69). Foreign currency received by banks is surrendered to the BEAC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM portant réglementation des changes",
+     "title": "Règlement 02/18/CEMAC, art. 70",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 70. Les recettes d'exportation des services sont recouvrées et rapatriées par I'exportateur à travers sa banque domiciliataire par I'entremise de la Banque Centrale."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 68",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 68. Les transactions avec I'extérieur liées aux services d'un montant égal ou supérieur à 5 millions de Francs CFA sont domiciliées auprès d'un établissement de crédit de la CEMAC."
+    }
+   ],
+   "notes": "OCR text of the BEAC PDF (e.g. 'I'extérieur'); quotes copied as extracted. No specific repatriation deadline for services found (goods: 150 days). Later BEAC instructions not checked. Applies in all six CEMAC states."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "No. Opening a foreign-currency account within CEMAC for a resident is not authorised (art. 43). Only resident legal persons may be authorised by the BEAC. Resident individuals' accounts abroad must be declared to the BEAC (art. 42).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 43",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 43. L'ouverture d'un compte en devises dans la CEMAC au profit d'un résident n'est pas autorisée."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 42",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 42. Les comptes des personnes physiques résidentes ouverts à l'étranger sont déclarés à la Banque Centrale."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Gabon (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Gabon is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Gabon is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established. A digital-payments ordinance (n°0002/PR/2026 of 26 Feb 2026) was being ratified and amended in October 2026; its obligations were not yet published."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Gabon is listed as a PayPal market but is not on the PayPal Payouts list. A generic commercial guide (Doola) claims withdrawals to a Gabonese bank account are possible; this was not confirmed by PayPal or local testimony.",
+   "status": "unverified",
+   "note": "Searched 2026-10-21 'Gabon PayPal retrait compte bancaire gabonais 2026'; only a templated Doola guide found; PayPal's Gabon help/fees pages not captured.",
+   "sources": [
+    {
+     "url": "https://www.doola.com/paypal-guide/how-to-open-a-paypal-account-in-gabon",
+     "publisher": "doola",
+     "title": "How to Open a PayPal Account in Gabon (2026 Edition)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-cc177e856149.html.gz",
+     "quote": "Yes, you can withdraw funds from PayPal to your linked Gabonese bank account once it is verified."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Gabon is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Doola pages appear templated across countries; treat as weak."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Gabon is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed. Under CEMAC rules, individuals must declare foreign accounts to the BEAC (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Gabon.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: an individual enterprise (entreprise individuelle). It needs no minimum capital, has unlimited personal liability, and is taxed under personal income tax. It is registered through the ANPI-Gabon one-stop shop, which issues the RCCM and NIF together. In July 2024 ANPI announced a planned cut of the formalisation fee for individual enterprises from FCFA 85,000 to 50,000; whether it was adopted was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/gabon/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Gabon - Guide pratique 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-70aff7ab1789.html.gz",
+     "quote": "Entreprise individuelle Capital minimum : Aucun capital minimum requis Responsabilité : Illimitée sur les biens personnels Régime fiscal : Impôt sur le revenu des personnes physiques Gestion : Gestion simplifiée par l'entrepreneur individuel"
+    },
+    {
+     "url": "https://taxdo.com/resources/faq/post/verify-gabon-nif-rccm-tax-id",
+     "publisher": "TaxDo",
+     "title": "10 Essential Questions About TIN in Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-005939ae7849.html.gz",
+     "quote": "When a business registers at ANPI, it simultaneously receives its RCCM and NIF ."
+    },
+    {
+     "url": "https://gabonmediatime.com/anpi-gabon-la-grille-tarifaire-du-guichet-de-linvestissement-en-revision/",
+     "publisher": "Gabonmediatime",
+     "title": "ANPI-Gabon : la grille tarifaire du guichet de l’investissement en révision (31 Jul 2024)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-f6cde41f05ba.html.gz",
+     "quote": "A cet effet, dans les prochains jours, « les gabonais qui souhaitent créer des entreprises individuelles, le coût de formalisation devrait passer de 85 000 FCFA à 50 000 FCFA et les gabonais qui crées des SARL le coût de formalisation devrait passer de 135 000 à 85 000 FCFA » a-t-il déclaré ."
+    }
+   ],
+   "notes": "anpi-gabon.com unreachable (DNS failure) on 2026-10-21. Current ANPI fee schedule not confirmed. OHADA entreprenant status also available in principle (AUDCG art. 30)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIF (Numéro d'Identification Fiscale), issued by the DGI. It is mandatory for businesses and for individuals with tax obligations; its format is 7 digits plus a letter. Businesses registering at ANPI receive it with the RCCM.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxdo.com/resources/faq/post/verify-gabon-nif-rccm-tax-id",
+     "publisher": "TaxDo",
+     "title": "10 Essential Questions About TIN in Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-005939ae7849.html.gz",
+     "quote": "The NIF is a unique alphanumeric identifier assigned by the tax authorities to every individual and legal entity with tax obligations."
+    },
+    {
+     "url": "https://africarrieres.com/gabon/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Gabon - Guide pratique 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-70aff7ab1789.html.gz",
+     "quote": "Numéro d'Identification Fiscale (NIF) : Obligatoire"
+    }
+   ],
+   "notes": "DGI's own NIF procedure page not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Personal income tax (IRPP) applies to people habitually resident in Gabon or resident for at least 183 days in the year (CGI art. 74). Small businesses with turnover under FCFA 30m pay the Impôt Synthétique Libératoire (ISL); those with FCFA 30–60m are under the simplified regime (RSI). These taxpayers, explicitly including online sellers, are handled by the small-business tax centres (CIPEP) and are being moved onto the e-Tax platform. How foreign-source income is taxed was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kreston.com/wp-content/uploads/2026/02/Exco-Afrique-FEAG-Livret-Fiscal-2026-Gabon-v-diaporama-FR-V3.pdf",
+     "publisher": "Kreston / Exco Afrique (FEAG)",
+     "title": "Livret Fiscal 2026 Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-571a16d3eeb5.pdf.gz",
+     "quote": "Champ d’application Sous réserve des dispositions des conventions internationales, l’Impôt sur le Revenu des Personnes Physiques (IRPP) est dû par toute personne ayant une résidence habituelle au Gabon ou y ayant résidé cent-quatre-vingt-trois (183) jours au moins dans l’année (Art.74 du CGI)."
+    },
+    {
+     "url": "https://www.kreston.com/wp-content/uploads/2026/02/Exco-Afrique-FEAG-Livret-Fiscal-2026-Gabon-v-diaporama-FR-V3.pdf",
+     "publisher": "Kreston / Exco Afrique (FEAG)",
+     "title": "Livret Fiscal 2026 Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-571a16d3eeb5.pdf.gz",
+     "quote": "• Régime de l’Impôt Synthétique Libératoire (ISL) : es contribuables dont le chiffre d’affaires hors taxe est inférieur à 30 000 000 de F CFA sont soumis à l’Impôt Synthétique Libératoire (Art."
+    },
+    {
+     "url": "https://www.kreston.com/wp-content/uploads/2026/02/Exco-Afrique-FEAG-Livret-Fiscal-2026-Gabon-v-diaporama-FR-V3.pdf",
+     "publisher": "Kreston / Exco Afrique (FEAG)",
+     "title": "Livret Fiscal 2026 Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-571a16d3eeb5.pdf.gz",
+     "quote": "Régime simplifié d’imposition : relèvent de ce régime : • les contribuables dont le chiffre d’affaires hors taxe est compris entre 30 000 000 et 60 000 000 de F CFA (Art."
+    },
+    {
+     "url": "https://ecomatin.net/le-gabon-relance-digitax-sa-plateforme-digitale-pour-limpot-des-pme-et-des-particuliers",
+     "publisher": "EcoMatin",
+     "title": "Le Gabon relance Digitax, sa plateforme digitale pour l'impôt des PME et des particuliers",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-fe5c5f78d8c9.html.gz",
+     "quote": "Sont concernés les contribuables assujettis à l’impôt synthétique libératoire et au régime simplifié d’imposition (RSI) : commerçants de proximité, professionnels du spectacle, agences de transport et taxis, salons de coiffure, stations de lavage automobile, vendeurs en ligne"
+    }
+   ],
+   "notes": "ISL rate/amounts not captured; CGI not read."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Per the 2026 Kreston/Exco tax booklet, the standard VAT rate is 18% (reduced rates 10%, 5%, 0%; CGI art. 221), and the registration threshold is FCFA 60m turnover (FCFA 500m for forestry). One guide gives an 80m threshold but marks it unconfirmed. Treatment of exported digital services was not established.",
+   "status": "conflicting",
+   "sources": [
+    {
+     "url": "https://www.kreston.com/wp-content/uploads/2026/02/Exco-Afrique-FEAG-Livret-Fiscal-2026-Gabon-v-diaporama-FR-V3.pdf",
+     "publisher": "Kreston / Exco Afrique (FEAG)",
+     "title": "Livret Fiscal 2026 Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-571a16d3eeb5.pdf.gz",
+     "quote": "Le seuil d’assujettissement à la TVA est fixé à 60 000 000 de F CFA de chiffre d’affaires hors taxes pour la majorité des entreprises et à 500 000 000 de F CFA pour les entreprises d’exploitation forestière."
+    },
+    {
+     "url": "https://www.kreston.com/wp-content/uploads/2026/02/Exco-Afrique-FEAG-Livret-Fiscal-2026-Gabon-v-diaporama-FR-V3.pdf",
+     "publisher": "Kreston / Exco Afrique (FEAG)",
+     "title": "Livret Fiscal 2026 Gabon",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-571a16d3eeb5.pdf.gz",
+     "quote": "Le taux normal est de 18%, à l’exclusion des opérations soumises aux taux réduits de 10%, de 5% ou de 0% (Art.221 du CGI)."
+    },
+    {
+     "url": "https://africarrieres.com/gabon/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise au Gabon - Guide pratique 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-70aff7ab1789.html.gz",
+     "quote": "TVA : Inscription si le chiffre d'affaires dépasse 80 000 000 FCFA (non confirmé)"
+    }
+   ],
+   "notes": "Kreston 2026 booklet (a tax firm citing the CGI) is the stronger source for 60m; Africarrieres itself flags 80m as unconfirmed. RSI upper bound (60m) matches the Kreston VAT threshold. Deloitte LF2026 page 404."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 025/2023 of 12 July 2023 (JO n°218 bis, 15 July 2023) rewrote Law 001/2011 on personal data protection. The regulator is the APDPVP (successor to the CNPDCP). Automated processing must be declared to the APDPVP (art. 78); simplified norms allow simplified declarations or exemptions. Fines run from FCFA 1m to 100m (art. 204).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "publisher": "Journal Officiel de la République Gabonaise n°218 bis (copy hosted by AFAPDP)",
+     "title": "Loi n°025/2023 du 12 juillet 2023, art. 78",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-b5f62356c880.pdf.gz",
+     "quote": "Article 78 : Les traitements automatisés des données font l'objet d'une déclaration auprès de l’APDPVP, à l'exception des traitements mentionnés aux articles 80, 81 et 82 ou à l’article 111 de la présente loi."
+    },
+    {
+     "url": "https://www.afapdp.org/wp-content/uploads/2023/12/Gabon-Loi-025-2023-du-12-juillet-2023-portant-modification-de-la-loi-001-2011-du-25-septembre-relative-a-la-protection-des-donnees-a-caractere-personnel.pdf",
+     "publisher": "Journal Officiel de la République Gabonaise n°218 bis (copy hosted by AFAPDP)",
+     "title": "Loi n°025/2023 du 12 juillet 2023, art. 204",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-b5f62356c880.pdf.gz",
+     "quote": "-amende de un million à cent millions de Francs CFA."
+    },
+    {
+     "url": "https://www.gabonreview.com/donnees-personnelles-huissiers-et-notaires-edifies-sur-la-procedure-de-traitement/",
+     "publisher": "Gabonreview",
+     "title": "Données personnelles : huissiers et notaires édifiés sur la procédure de traitement (17 May 2024)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-b8e5be767d05.html.gz",
+     "quote": "Selon l’APDPVP, la mise en œuvre des traitements des données personnelles par les cabinets est subordonnée aux formalités préalables."
+    },
+    {
+     "url": "https://gabonmediatime.com/gabon-cnpdcp-transformee-autorite-pour-protection-des-donnees-caractere-personnel-vie-privee/",
+     "publisher": "Gabonmediatime",
+     "title": "Gabon : la CNPDCP transformée en Autorité pour la protection des données à caractère personnel et de la vie privée",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-8a48be9cedf0.html.gz",
+     "quote": "Un projet de loi relative à la protection des données à caractère personnel qui acte la réforme de la CNPDCP et qui permettra une refonte de la loi n° 001/2011 portant protection des données à caractère personnel."
+    }
+   ],
+   "notes": "Cross-border transfer articles not read in full. Art. 204 caps first-offence fines lower (FCFA 98.4m) as extracted."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 025/2021 of 28 Dec 2021 on electronic transactions (JO n°145, 1 Jan 2022) governs e-commerce. Sellers must give easy, permanent access to their identification details (art. 31) and state prices clearly, including whether taxes and fees are included (art. 32). Consumers may withdraw from a distance contract within 14 calendar days without giving reasons, bearing only direct return costs (art. 57); for services the period runs from the conclusion of the contract. Gabon had no general consumer-protection law in 2023; a 2022 bill existed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://journal-officiel.ga/18190-025-2021-/",
+     "publisher": "Journal Officiel de la République Gabonaise",
+     "title": "Loi n°025/2021 du 28/12/2021, art. 57",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-05a8761ebb76.html.gz",
+     "quote": "Article 57 : Le consommateur dispose d'un délai de quatorze jours calendaires pour se rétracter d'un contrat à distance, sans avoir à motiver sa décision et sans avoir à supporter d'autres coûts que les frais directs de renvoi du bien."
+    },
+    {
+     "url": "https://journal-officiel.ga/18190-025-2021-/",
+     "publisher": "Journal Officiel de la République Gabonaise",
+     "title": "Loi n°025/2021 du 28/12/2021, art. 31",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-05a8761ebb76.html.gz",
+     "quote": "Article 31 : Toute personne exerçant une activité de commerce électronique est tenue d'assurer aux destinataires de biens ou de prestation de services, un accès facile, direct et permanent aux informations permettant son identification."
+    },
+    {
+     "url": "https://unctad.org/system/files/official-document/cicplpd35_fr.pdf",
+     "publisher": "CNUCED (UNCTAD)",
+     "title": "Examen collégial volontaire du droit et de la politique de la protection du consommateur du Gabon — Aperçu (TD/B/C.I/CPLP/35, 21 Apr 2023)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-7f6f1179ebce.pdf.gz",
+     "quote": "Le Gabon n’ayant pas une loi spécifique pour la protection du consommateur, le droit communautaire est actuellement plus développé que le droit national."
+    }
+   ],
+   "notes": "Status of the 2022 consumer-protection bill after 2023 not checked. CEMAC Directive 02/19 on consumer protection also relevant."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. The ISL regime for turnover under FCFA 30m (L3) is the main simplification.",
+   "status": "unverified",
+   "note": "No source on tax holidays/incentives for individual digital businesses found on 2026-10-21; Kreston booklet section on incentives not searched in detail.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Carte Nationale d'identité (National Identity card) (Wikipedia, compulsory-ID list). Compulsory. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Gabon Carte Nationale d'identité (National Identity card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Gabon: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Gabon: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Gabon: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Gabon: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Gabon: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Gabon: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-21",
+ "completed": "2026-10-21",
+ "open_questions": [
+  "CEMAC: no explicit repatriation deadline for services in Reg. 02/18; later BEAC instructions not checked.",
+  "VAT threshold: Kreston 2026 says FCFA 60m vs Africarrieres 80m (unconfirmed); VAT on exported services and ISL amounts not read in the CGI.",
+  "PayPal withdrawals to Gabonese banks only claimed by a templated guide; Payoneer and local gateways unconfirmed; digital-payments ordinance 0002/PR/2026 text not found.",
+  "ANPI current fee schedule (planned cut 85k->50k FCFA, Jul 2024) unconfirmed; anpi-gabon.com DNS failure.",
+  "Law 025/2023 transfer articles not read; 2022 consumer-protection bill status; NIP/KYC document."
+ ]
+}

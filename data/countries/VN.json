@@ -1,0 +1,620 @@
+{
+ "code": "VN",
+ "un_name": "Viet Nam",
+ "m49_name": "Viet Nam",
+ "iso3": "VNM",
+ "m49": "704",
+ "region": "Asia",
+ "sub_region": "South-eastern Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "20-09-1977",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency VND; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive",
+   "label": "Send, receive, and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Under SBV Circular 16/2014/TT-NHNN (in force since 15 Sep 2014; amended by Circular 39/2026/TT-NHNN only for foreign credit institutions' accounts), residents and non-residents, organisations and individuals, may use foreign-currency accounts at licensed banks to receive transfers from abroad. Money can also be moved between their own FX accounts at different banks. No mandatory conversion to VND for individuals was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://baochinhphu.vn/nhnn-huong-dan-su-dung-tai-khoan-ngoai-te-102168272.htm",
+     "publisher": "Báo Điện tử Chính phủ (Government e-newspaper)",
+     "title": "NHNN: Hướng dẫn sử dụng tài khoản ngoại tệ (05/08/2014)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-29d4b52ad21f.html.gz",
+     "quote": "Thông tư quy định, người cư trú và người không cư trú là tổ chức, cá nhân được sử dụng tài khoản ngoại tệ tại ngân hàng được phép để thực hiện các giao dịch thu, chi như: Thu ngoại tệ chuyển khoản từ nước ngoài chuyển vào;"
+    },
+    {
+     "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-16-2014-tt-nhnn-12392.htm",
+     "publisher": "Công báo (Official Gazette of Viet Nam)",
+     "title": "Thông tư số 16/2014/TT-NHNN",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d65a5f5680cc.html.gz",
+     "quote": "Ban hành: 01/08/2014 - Hiệu lực: 15/09/2014 Thông tư số 16/2014/TT-NHNN hướng dẫn sử dụng tài khoản ngoại tệ, tài khoản đồng Việt Nam của người cư trú, người không cư trú tại ngân hàng được phép."
+    },
+    {
+     "url": "https://thoibaonganhang.vn/bo-sung-quy-dinh-su-dung-tai-khoan-ngoai-te-dong-viet-nam-cua-to-chuc-tin-dung-nuoc-ngoai-186037.html",
+     "publisher": "Thời báo Ngân hàng (banking newspaper)",
+     "title": "Bổ sung quy định sử dụng tài khoản ngoại tệ, đồng Việt Nam của tổ chức tín dụng nước ngoài (09/08/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-14db2da52cba.html.gz",
+     "quote": "Thống đốc Ngân hàng Nhà nước Việt Nam đã vừa ký ban hành Thông tư số 39/2026/TT-NHNN sửa đổi, bổ sung một số điều của Thông tư số 16/2014/TT-NHNN hướng dẫn sử dụng tài khoản ngoại tệ, tài khoản đồng Việt Nam của người cư trú, người không cư trú tại ngân hàng được phép."
+    }
+   ],
+   "notes": "English: 'The Circular provides that residents and non-residents, organisations and individuals, may use foreign-currency accounts at licensed banks for receipts and payments such as: receiving FX transferred from abroad.' vbpl.vn (national legal database) redirects old item links to its home page; the Circular text itself was not re-read, so the 2014 government summary plus the Gazette record are used. A snapshot of the government article was first saved still gzip-compressed (server quirk); snap.py was fixed and the page re-saved."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes. Resident individuals may hold foreign-currency payment accounts at licensed banks and use them to receive transfers from abroad (Circular 16/2014/TT-NHNN, still in force).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://baochinhphu.vn/nhnn-huong-dan-su-dung-tai-khoan-ngoai-te-102168272.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "NHNN: Hướng dẫn sử dụng tài khoản ngoại tệ (05/08/2014)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-29d4b52ad21f.html.gz",
+     "quote": "Thông tư quy định, người cư trú và người không cư trú là tổ chức, cá nhân được sử dụng tài khoản ngoại tệ tại ngân hàng được phép để thực hiện các giao dịch thu, chi như: Thu ngoại tệ chuyển khoản từ nước ngoài chuyển vào;"
+    }
+   ]
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Viet Nam (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Viet Nam is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Viet Nam is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "The SBV list of licensed non-bank intermediary payment service providers (as of 09/12/2024) includes VNPAY (licence 15/GP-NHNN, 2015), M_SERVICE (MoMo, 76/GP-NHNN, 2016), OnePay and Ngân Lượng, among others. According to a press report of SBV figures, 52 providers were licensed by end-2025. Whether these gateways onboard individuals without household-business registration was NOT verified. The list is dated 09/12/2024; the 2026 changes to licensing (Circular 22/2026 amending Circular 40/2024) were not read."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "Available. The PayPal Payouts table lists Viet Nam as 'Send, receive, and withdraw', and Viet Nam is a PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Vietnam row: 'Send, receive, and withdraw' (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "PayPal's Viet Nam withdrawal method and fees were not checked."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. Payoneer's Vietnamese guide offers a personal account for people who have NOT registered a business licence and want to receive international payments in their own name. Wise: Viet Nam is not on Wise's list of countries where you can hold money, so residents can't use Wise balances.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/vi/resources/how-to-use-payoneer/payoneer-registration-guide-for-individual-entrepreneurs/",
+     "publisher": "Payoneer",
+     "title": "Hướng dẫn đăng ký Payoneer cho cá nhân kinh doanh",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9d5c53b3cf2a.html.gz",
+     "quote": "Tài khoản Payoneer cá nhân phù hợp với người dùng chưa đăng ký giấy phép kinh doanh với cơ quan chức năng và muốn nhận thanh toán quốc tế dưới tên cá nhân."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam is not in the list of countries and territories where you can hold money in your Wise account (the list ends '... United States ... Uruguay')."
+    }
+   ],
+   "notes": "Payoneer's pricing page reportedly lists Vietnam among local-currency withdrawal countries (search summary; not snapshotted)."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Usually a household business (hộ kinh doanh) registration is needed. Under Art. 82(3) of Decree 168/2025/NĐ-CP (business registration), only certain groups are exempt: farming, fishing and salt-making households, street vendors, itinerant and seasonal traders, and people providing services with LOW INCOME. The low-income level is set by each province's People's Committee, and conditional business lines are always excluded. Exemption therefore depends on your province's threshold. For tax, individuals and household businesses use their 12-digit personal identification number as their tax code (L2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://baochinhphu.vn/cac-truong-hop-khong-phai-dang-ky-ho-kinh-doanh-102260623161201404.htm",
+     "publisher": "Báo Điện tử Chính phủ (Ministry of Finance answer)",
+     "title": "Các trường hợp không phải đăng ký hộ kinh doanh (24/06/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-ef40241eadc0.html.gz",
+     "quote": "Theo khoản 3 Điều 82 Nghị định số 168/2025/NĐ-CP thì hộ gia đình sản xuất nông, lâm, ngư nghiệp, làm muối và những người bán hàng rong, quà vặt, buôn chuyến, kinh doanh lưu động, kinh doanh thời vụ, làm dịch vụ có thu nhập thấp không phải đăng ký hộ kinh doanh, trừ trường hợp kinh doanh các ngành, nghề đầu tư kinh doanh có điều kiện."
+    },
+    {
+     "url": "https://baochinhphu.vn/cac-truong-hop-khong-phai-dang-ky-ho-kinh-doanh-102260623161201404.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Các trường hợp không phải đăng ký hộ kinh doanh (24/06/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-ef40241eadc0.html.gz",
+     "quote": "UBND tỉnh, thành phố trực thuộc trung ương quy định mức thu nhập thấp áp dụng trên phạm vi địa phương."
+    }
+   ],
+   "notes": "English: 'Households in farming/forestry/fishery/salt-making and street vendors, snack sellers, itinerant traders, mobile/seasonal businesses and low-income service providers need not register a household business, except in conditional business lines; provincial People's Committees set the low-income level.' Whether online freelancers count as 'low-income service providers' depends on the province's decision (not checked). Registration fees and the online procedure were not checked."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "Since 1 July 2025 the 12-digit personal identification number (from the national population database / Căn cước) is used INSTEAD of a separate tax code for households, household businesses, business individuals and individuals (Circular 86/2024/TT-BTC). If you had no tax code before 1/7/2025, a household business registers tax together with its business registration. Your name, date of birth and personal ID number must match the national population database.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-mot-so-noi-dung-ve-su-dung-so-dinh-danh-ca-nhan-thay-cho-ma-so-thue-tu-1-7-119250621104848381.htm",
+     "publisher": "Báo Điện tử Chính phủ (Cục Thuế guidance)",
+     "title": "Hướng dẫn một số nội dung về sử dụng số định danh cá nhân thay cho mã số thuế từ 1/7 (26/06/2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2ac66c0ff223.html.gz",
+     "quote": "Để triển khai đồng bộ việc sử dụng số định danh cá nhân thay cho mã số thuế (MST), Cục Thuế thông tin hướng dẫn một số nội dung cơ bản để người nộp thuế (NNT) biết và thực hiện từ ngày 01/7/2025 việc sử dụng số định danh cá nhân thay cho MST, NNT là hộ kinh doanh, hộ gia đình, cá nhân."
+    },
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-mot-so-noi-dung-ve-su-dung-so-dinh-danh-ca-nhan-thay-cho-ma-so-thue-tu-1-7-119250621104848381.htm",
+     "publisher": "Báo Điện tử Chính phủ (Cục Thuế guidance)",
+     "title": "Hướng dẫn một số nội dung về sử dụng số định danh cá nhân thay cho mã số thuế từ 1/7 (26/06/2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2ac66c0ff223.html.gz",
+     "quote": "- NNT phải kê khai chính xác 03 thông tin: Họ và tên, ngày tháng năm sinh, số định danh cá nhân đảm bảo khớp đúng với CSDLQGDC."
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Income from content creation on digital platforms (e.g. YouTube) is treated as business income (tax authority answer, July 2026). From 1 January 2026 (Decree 68/2026/NĐ-CP as amended by Decree 141/2026/NĐ-CP of 29 April 2026), household businesses and business individuals with annual revenue up to VND 1 billion pay no VAT and no personal income tax. Above that, PIT follows Article 7 of PIT Law 109/2025/QH15, and the Q&A says PIT is computed on revenue above the threshold. Business individuals with revenue above VND 1 billion must use e-invoices. For revenue up to 31/12/2025 the old VND 100 million threshold applied, with tax on ALL revenue once exceeded.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm",
+     "publisher": "Báo Điện tử Chính phủ (full text of Decree 141/2026/NĐ-CP)",
+     "title": "Toàn văn Nghị định số 141/2026/NĐ-CP (25/05/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f72beb20134a.html.gz",
+     "quote": "Điều 1 Nghị định số 141/2026/NĐ-CP sửa đổi cụm từ “500 triệu đồng” thành “01 tỷ đồng” tại Điều 3, Điều 4, khoản 1 Điều 8, Điều 9, Điều 10, khoản 3 Điều 11, khoản 1 và khoản 2 Điều 12, khoản 4 Điều 17, khoản 3 Điều 18 Nghị định số 68/2026/NĐ-CP."
+    },
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Toàn văn Nghị định số 141/2026/NĐ-CP (25/05/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f72beb20134a.html.gz",
+     "quote": "Sử dụng hóa đơn điện tử: Hộ kinh doanh, cá nhân kinh doanh có doanh thu năm trên 01 tỷ đồng thì phải áp dụng hóa đơn điện tử có mã của cơ quan thuế, hóa đơn điện tử khởi tạo từ máy tính tiền có kết nối dữ liệu với cơ quan thuế."
+    },
+    {
+     "url": "https://baochinhphu.vn/sang-tao-noi-dung-so-doanh-thu-bao-nhieu-phai-nop-thue-102260716165956679.htm",
+     "publisher": "Báo Điện tử Chính phủ (answer by Thuế cơ sở 3 tỉnh Phú Thọ)",
+     "title": "Sáng tạo nội dung số, doanh thu bao nhiêu phải nộp thuế? (17/07/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-ff95378e06a3.html.gz",
+     "quote": "Căn cứ quy định nêu trên, cá nhân có thu nhập từ hoạt động sáng tạo nội dung trên nền tảng số được coi là thu nhập từ hoạt động sản xuất, kinh doanh."
+    },
+    {
+     "url": "https://baochinhphu.vn/sang-tao-noi-dung-so-doanh-thu-bao-nhieu-phai-nop-thue-102260716165956679.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Sáng tạo nội dung số, doanh thu bao nhiêu phải nộp thuế? (17/07/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-ff95378e06a3.html.gz",
+     "quote": "Tại khoản 1 Điều 1 Nghị định số 141/2026/NĐ-CP ngày 29/4/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP"
+    }
+   ],
+   "notes": "TRAP: many 2025-2026 articles say VND 500 million; that was superseded by Decree 141/2026 (1 billion, applying from 1/1/2026). A search summary also says households that already paid Q1 2026 tax under the old threshold can offset or get refunds. Not extracted: PIT rates above the threshold (Law 109/2025 Art. 7, e.g. % of revenue vs actual income), whether residents are taxed on worldwide income, and how foreign-platform income is declared."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "VAT Law 48/2024/QH15 (from 1 July 2025): exported services are 0% when supplied to foreign organisations or individuals and consumed outside Viet Nam. The conditions (Decree 181/2025/NĐ-CP Art. 18(2)) are a service contract with the foreign party and non-cash payment documents. The tax authority confirmed (July 2026) that a household business providing software services to foreign customers qualifies for 0% if these conditions are met. Household businesses with revenue up to VND 1 billion are not subject to VAT at all (L3). The 0% list also covers digital information content products supplied abroad, with proof of consumption outside Viet Nam.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://baochinhphu.vn/ho-kinh-doanh-xuat-khau-phan-mem-nop-thue-gia-tri-gia-tang-the-nao-102260713101411015.htm",
+     "publisher": "Báo Điện tử Chính phủ (answer by Thuế cơ sở 16 TP.HCM)",
+     "title": "Hộ kinh doanh xuất khẩu phần mềm, nộp thuế giá trị gia tăng thế nào? (13/07/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7b0886db85ab.html.gz",
+     "quote": "Căn cứ các hướng dẫn nêu trên, trường hợp hộ kinh doanh của ông Quang cung cấp dịch vụ phần mềm cho khách hàng nước ngoài nếu đáp ứng điều kiện theo quy định tại khoản 2 Điều 18 Nghị định số 181/2025/NĐ-CP của Chính phủ nêu trên thì thuộc đối tượng áp dụng thuế suất thuế giá trị gia tăng 0%."
+    },
+    {
+     "url": "https://baochinhphu.vn/ho-kinh-doanh-xuat-khau-phan-mem-nop-thue-gia-tri-gia-tang-the-nao-102260713101411015.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Hộ kinh doanh xuất khẩu phần mềm, nộp thuế giá trị gia tăng thế nào? (13/07/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7b0886db85ab.html.gz",
+     "quote": "2. Đối với dịch vụ xuất khẩu, trừ quy định tại khoản 3, 4, 5 Điều này, phải có: a) Hợp đồng cung cấp dịch vụ với tổ chức, cá nhân ở nước ngoài hoặc ở trong khu phi thuế quan. b) Chứng từ thanh toán không dùng tiền mặt đối với dịch vụ xuất khẩu"
+    },
+    {
+     "url": "https://baochinhphu.vn/ho-kinh-doanh-xuat-khau-phan-mem-nop-thue-gia-tri-gia-tang-the-nao-102260713101411015.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Hộ kinh doanh xuất khẩu phần mềm, nộp thuế giá trị gia tăng thế nào? (13/07/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7b0886db85ab.html.gz",
+     "quote": "sản phẩm nội dung thông tin số cung cấp cho bên nước ngoài và có hồ sơ, tài liệu chứng minh tiêu dùng ở ngoài Việt Nam theo quy định của Chính phủ;"
+    }
+   ],
+   "notes": "The standard VAT rate (10%) comes from a search summary of Law 48/2024 Art. 9(3) and was NOT quoted. The full VAT Law PDF (datafiles.chinhphu.vn) was not fetched."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Personal Data Protection Law No. 91/2025/QH15, adopted 26 June 2025 and in force since 1 January 2026. It builds on Decree 13/2023. Enforcement sits with the Ministry of Public Security (A05, the cybersecurity and high-tech crime department).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://baochinhphu.vn/luat-bao-ve-du-lieu-ca-nhan-chinh-thuc-co-hieu-luc-tu-ngay-mai-1-1-2026-102251231155609721.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Luật Bảo vệ dữ liệu cá nhân chính thức có hiệu lực từ ngày mai (1/1/2026) (31/12/2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-419d3369ea2f.html.gz",
+     "quote": "Việc Luật chính thức có hiệu lực từ ngày 1/1/2026 được xem là bước ngoặt quan trọng trong bảo vệ quyền riêng tư, bảo đảm an ninh dữ liệu và củng cố niềm tin số tại Việt Nam."
+    },
+    {
+     "url": "https://baochinhphu.vn/luat-bao-ve-du-lieu-ca-nhan-chinh-thuc-co-hieu-luc-tu-ngay-mai-1-1-2026-102251231155609721.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Luật Bảo vệ dữ liệu cá nhân chính thức có hiệu lực từ ngày mai (1/1/2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-419d3369ea2f.html.gz",
+     "quote": "Việc ban hành Nghị định 13 và tiếp đó là Luật Bảo vệ dữ liệu cá nhân - có hiệu lực từ ngày mai, 1/1/2026 - là bước đi thể hiện cam kết mạnh mẽ của Nhà nước trong xây dựng một môi trường số an toàn, bảo đảm quyền con người trên không gian mạng, Đại tá Nguyễn Hồng Quân cho biết."
+    }
+   ],
+   "notes": "The law number 91/2025/QH15 and the 26/06/2025 adoption date come from search results listing the Official Gazette and government document pages (not snapshotted). Small-business exemptions and penalties (a search summary mentions up to 5% of prior-year revenue for cross-border transfer violations by organisations) were not verified."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "E-Commerce Law No. 122/2025/QH15 and its Decree 248/2026/NĐ-CP, both in force since 1 July 2026. Intermediary e-commerce platforms must verify sellers' identity before letting them operate. Social networks with commerce features must identify seller accounts. Livestream sellers, including KOLs and KOCs, must be identity-verified before broadcasting. Buyers must be clearly told seller details, prices, origin, and return, warranty and complaint policies.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html",
+     "publisher": "Ministry of Industry and Trade",
+     "title": "Bộ Công Thương phổ biến Luật Thương mại điện tử và Nghị định số 248/2026/NĐ-CP",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e46f0177135c.html.gz",
+     "quote": "Luật Thương mại điện tử và Nghị định số 248/2026/NĐ-CP cùng có hiệu lực từ ngày 01 tháng 7 năm 2026, tạo hành lang pháp lý quan trọng cho hoạt động thương mại điện tử trong giai đoạn mới."
+    },
+    {
+     "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html",
+     "publisher": "Ministry of Industry and Trade",
+     "title": "Bộ Công Thương phổ biến Luật Thương mại điện tử và Nghị định số 248/2026/NĐ-CP",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e46f0177135c.html.gz",
+     "quote": "Theo đó, chủ quản nền tảng thương mại điện tử trung gian có trách nhiệm xác thực người bán trước khi cho phép hoạt động trên nền tảng."
+    },
+    {
+     "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html",
+     "publisher": "Ministry of Industry and Trade",
+     "title": "Bộ Công Thương phổ biến Luật Thương mại điện tử và Nghị định số 248/2026/NĐ-CP",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e46f0177135c.html.gz",
+     "quote": "Người mua cần được biết rõ thông tin về người bán, hàng hóa, giá cả, xuất xứ, chính sách đổi trả, bảo hành và phương thức xử lý khiếu nại."
+    }
+   ],
+   "notes": "The Consumer Rights Protection Law 2023 (in force 1 July 2024) is not separately quoted. Duties for sellers operating their OWN website (versus platforms) under the new law were not extracted."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) No VAT and no PIT for household or individual businesses with revenue up to VND 1 billion a year (Decree 141/2026), one of the highest small-business thresholds found so far. (2) Exported services, including software and digital content consumed abroad, are 0% VAT with a contract and non-cash payment (L4). (3) Using the personal ID number as the tax code removes a separate tax-code step (L2). Industry incentive schemes were not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Toàn văn Nghị định số 141/2026/NĐ-CP",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f72beb20134a.html.gz",
+     "quote": "Theo đó, nâng ngưỡng doanh thu không phải chịu thuế lên mức 1 tỷ đồng."
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The Căn cước card (Identity Card Law 2023, in force 1 July 2024; previously 'Căn cước công dân'). It is mandatory for Vietnamese citizens aged 14 and over. Its 12-digit personal identification number doubles as the tax code (L2). Electronic identity runs through VNeID, which the E-Commerce Law uses for seller verification.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/nguoi-duoc-cap-the-can-cuoc-gom-nhung-ai-tren-the-can-cuoc-the-hien-nhung-noi-dung-gi-119240126124433285.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Người được cấp thẻ căn cước gồm những ai, trên thẻ căn cước thể hiện những nội dung gì? (27/01/2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f4cc723b38bf.html.gz",
+     "quote": "Người được cấp thẻ căn cước là công dân Việt Nam. 2. Công dân Việt Nam từ đủ 14 tuổi trở lên phải thực hiện thủ tục cấp thẻ căn cước."
+    },
+    {
+     "url": "https://xaydungchinhsach.chinhphu.vn/nguoi-duoc-cap-the-can-cuoc-gom-nhung-ai-tren-the-can-cuoc-the-hien-nhung-noi-dung-gi-119240126124433285.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "Người được cấp thẻ căn cước gồm những ai...",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f4cc723b38bf.html.gz",
+     "quote": "(Chinhphu.vn) - Luật Căn cước có hiệu lực từ 1/7/2024 quy định về người được cấp thẻ căn cước, nội dung thẻ căn cước và giá trị sử dụng của thẻ căn cước."
+    }
+   ]
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (8) Local official channel: Resident individuals may hold foreign-currency payment accounts to receive transfers from abroad (SBV Circular 16/2014). Payoneer offers personal accounts without a business licence (P2/P5). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Viet Nam: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://baochinhphu.vn/nhnn-huong-dan-su-dung-tai-khoan-ngoai-te-102168272.htm",
+     "publisher": "Báo Điện tử Chính phủ",
+     "title": "NHNN: Hướng dẫn sử dụng tài khoản ngoại tệ (05/08/2014)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-29d4b52ad21f.html.gz",
+     "quote": "Thông tư quy định, người cư trú và người không cư trú là tổ chức, cá nhân được sử dụng tài khoản ngoại tệ tại ngân hàng được phép để thực hiện các giao dịch thu, chi như: Thu ngoại tệ chuyển khoản từ nước ngoài chuyển vào;"
+    },
+    {
+     "url": "https://www.payoneer.com/vi/resources/how-to-use-payoneer/payoneer-registration-guide-for-individual-entrepreneurs/",
+     "publisher": "Payoneer",
+     "title": "Hướng dẫn đăng ký Payoneer cho cá nhân kinh doanh",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9d5c53b3cf2a.html.gz",
+     "quote": "Tài khoản Payoneer cá nhân phù hợp với người dùng chưa đăng ký giấy phép kinh doanh với cơ quan chức năng và muốn nhận thanh toán quốc tế dưới tên cá nhân."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

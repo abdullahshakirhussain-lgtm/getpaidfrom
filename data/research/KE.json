@@ -1,0 +1,615 @@
+{
+ "code": "KE",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, with no exchange controls. Kenya repealed the Exchange Control Act effective 27 December 1995, and FX business was delegated to authorised dealers. Foreign currency received can be credited to a foreign-currency account, sold to an authorised dealer, used to settle external obligations, or used to settle local debts billed in foreign currency. Residents may invoice in shillings or foreign currency. Dealers must obtain and keep documents for transactions above US$10,000; declaration forms are accepted where e-banking is used.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "It may be noted that the responsibility of managing foreign exchange business was delegated to the authorised foreign exchange dealers following repeal of the Exchange Control Act effective December 27, 1995."
+    },
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "The foreign currency received should be dealt with as follows:-  Credited to a foreign currency account  Sold to an authorised dealer  Used to settle external obligations through authorized banks  Settle local debts billed in foreign currency"
+    },
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "4.1 General Requirements All foreign exchange dealers are required to obtain and retain appropriate documents for all transactions above the equivalent of US$ 10,000."
+    },
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "2.8 Transactions Kenya residents and non residents may: (a) Invoice for their goods and services in Kenya Shilling or foreign currency."
+    }
+   ],
+   "notes": "The guidelines PDF is undated (uploaded 2016/08 on CBK's site); newer CBK foreign-exchange guidance was not searched. The quoted 'foreign currency received' sentence appears in a section about specific licensees; the general freedom comes from the 1995 repeal."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes. With exchange controls repealed since 1995, foreign currency received may be credited to a foreign-currency account (CBK guidelines). The guidelines state explicitly that authorised banks are free to open FCY accounts for certain categories (diplomatic missions, forex bureaus). A general statement on ordinary resident individuals' FCY accounts was not found in the text read.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "The foreign currency received should be dealt with as follows:-  Credited to a foreign currency account"
+    },
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "Authorised dealers are also free to facilitate payments between Kenya residents and non-residents and engage in spot money market and derivative foreign exchange deals."
+    }
+   ]
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Kenya (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Google Play (developer registration); YouTube Partner Program. Not listed: Dodo Payments (sellers); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Kenya is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Kenya is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "CBK's Directory of Authorized Payment Service Providers (as at 15 May 2026) includes Safaricom (M-PESA, licensed 1 Jan 2016), Cellulant, Pesapal (1 Jun 2021) and Paystack Payments Kenya (8 Nov 2022, 'a platform that facilitates processing of payments on behalf of merchants'). Individuals can sign up to Paystack as a 'Starter Business' with a national ID or passport and a personal bank account or personal mobile-money number. The collection limit is KES 600,000, lifted by upgrading to a Registered Business, where sole proprietors need a KRA PIN. Whether Pesapal onboards unregistered individuals was not checked. Flutterwave did not appear in the matched excerpts of the directory (not proof of absence)."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "PayPal works in Kenya: the Payouts table lists Kenya as 'Send, receive, and withdraw'. Withdrawals go to a bank (Wallet then 'Transfer to your bank'), or to M-PESA through Safaricom's PayPal service. That service moves funds between your own PayPal and M-PESA accounts in USD only, converts to KES, charges 3% of the applicable forex rate plus Safaricom C2B charges, and needs an Android device.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya row: 'Send, receive, and withdraw' (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://www.paypal.com/ke/cshelp/article/how-do-i-withdraw-money-to-my-bank-account-help394",
+     "publisher": "PayPal",
+     "title": "How do I withdraw money to my bank account? (PayPal KE)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-78ada7c21010.html.gz",
+     "quote": "To withdraw money from your PayPal account: Go to Wallet ."
+    },
+    {
+     "url": "https://www.safaricom.co.ke/main-mpesa/m-pesa-services/m-pesa-global/paypal",
+     "publisher": "Safaricom",
+     "title": "PayPal to M-PESA",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-83710253f570.html.gz",
+     "quote": "This is a money transfer service for joint PayPal and M-PESA customers that enables customers to move funds between their own M-PESA accounts and PayPal accounts."
+    },
+    {
+     "url": "https://www.safaricom.co.ke/main-mpesa/m-pesa-services/m-pesa-global/paypal",
+     "publisher": "Safaricom",
+     "title": "PayPal to M-PESA",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-83710253f570.html.gz",
+     "quote": "With PayPal, customers can top up and withdraw funds in US-Dollars (USD) only;"
+    },
+    {
+     "url": "https://www.safaricom.co.ke/media-center-landing/terms-and-conditions/terms-and-conditions-for-the-use-of-the-m-pesa-paypal-service",
+     "publisher": "Safaricom",
+     "title": "Terms and Conditions for the Use of M-PESA PayPal Service",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-74c8022d4121.html.gz",
+     "quote": "You will be charged a fee of 3% of the applicable forex rate on the date on which you complete each transaction."
+    }
+   ]
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. Businesses in Kenya can receive global bank transfers in Kenyan shillings at $2.99 per payment. Withdrawal fees and M-PESA withdrawal were not confirmed. Wise: Kenya is NOT among the countries where you can hold money with Wise, so residents can't use Wise balances or account details.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/resources/news-events/global-bank-transfers-now-available-in-kenyan-shillings/",
+     "publisher": "Payoneer",
+     "title": "Global Bank Transfers Now Available in Kenyan Shillings!",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f29b8fb99a92.html.gz",
+     "quote": "Businesses in Kenya can now receive global bank transfers in Kenyan shillings, making cross-border payments easier and more convenient."
+    },
+    {
+     "url": "https://www.payoneer.com/resources/news-events/global-bank-transfers-now-available-in-kenyan-shillings/",
+     "publisher": "Payoneer",
+     "title": "Global Bank Transfers Now Available in Kenyan Shillings!",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f29b8fb99a92.html.gz",
+     "quote": "At a cost of only $2.99 per payment , you can now receive your payments from participating Payoneer partners in KES!"
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya is not in the list of countries and territories where you can hold money in your Wise account (the list goes '... Jersey Kuwait ...')."
+    }
+   ],
+   "notes": "The Payoneer KES page is undated (a search tool reported it as about 1,661 days old)."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Sole proprietorships are registered with the Business Registration Service (BRS) under the Registration of Business Names Act. Guides say this applies when you trade under a name different from your own personal name. Registration is online via eCitizen (BRS), with name reservation and registration merged into one step, and the government fee is KES 950. A KRA PIN (L2) is needed regardless. A county Single Business Permit is also mentioned by one guide as mandatory before operating (NOT verified).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://brs.go.ke/",
+     "publisher": "Business Registration Service (Kenya)",
+     "title": "Business Registration Service home",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-64a510a817f8.html.gz",
+     "quote": "Register Your Business The Name Reservation and Business Registration process have been MERGED into one easy step."
+    },
+    {
+     "url": "https://wacumureithiadvocates.co.ke/sole-proprietorships-in-kenya/",
+     "publisher": "Wacu Mureithi & Co. Advocates",
+     "title": "Sole Proprietorship in Kenya: A Comprehensive Guide",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-80089b5ea510.html.gz",
+     "quote": "In Kenya, sole proprietorships are governed under the Business Registration Service (BRS) through the Registration of Business Names Act ."
+    },
+    {
+     "url": "https://www.kenzobe.com/blog/business-name-registration-kenya",
+     "publisher": "Kenzobe",
+     "title": "Business Name Registration in Kenya: Step-by-Step Guide (2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-5657e940f7f4.html.gz",
+     "quote": "It applies to sole proprietorships and partnerships — businesses that operate under a name different from the owner's personal name."
+    },
+    {
+     "url": "https://www.bizbrokerskenya.com/Business_Name.html",
+     "publisher": "Biz Brokers Kenya",
+     "title": "Sole proprietorship Registration in Kenya (2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ccb5e828c63.html.gz",
+     "quote": "The current BRS Companies Registry fee schedule lists KES 950 for registration of a business name."
+    }
+   ],
+   "notes": "The Act's text (kenyalaw.org) was unreachable, so the 'name different from your own' trigger rests on secondary guides; one older document (AMK Africa) says registration is not legally required. County Single Business Permits (Nairobi etc.) were not researched; they may apply to home-based or online businesses. Kenzobe's tax lines (TOT 1% under 5M) are outdated and were not used."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "The KRA PIN (Personal Identification Number), used for dealings with KRA, other government agencies and various service providers. Individuals register online on iTax (itax.kra.go.ke). Every individual with a KRA PIN must file an annual return by 30 June, even with no income (KRA, per search summary). Paystack's Registered Business tier requires a KRA PIN.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kra.go.ke/individual/individual-pin-registration/learn-about-pin/about-pin",
+     "publisher": "Kenya Revenue Authority",
+     "title": "About PIN",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fa6705134dcf.html.gz",
+     "quote": "A PIN (Personal Identification Number) is used when conducting business with the Kenya Revenue Authority (KRA), other Government agencies, and various service providers."
+    },
+    {
+     "url": "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/turnover-tax-tot",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Turnover Tax (TOT)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-88a520f7a04b.html.gz",
+     "quote": "Registration is done online through the iTax platform • Login to iTax using your PIN and password via https://itax.kra.go.ke"
+    }
+   ],
+   "notes": "The 'file even with nil income by 30 June' point came from a search summary of KRA's Individual Income Tax page; that page was not snapshotted, so the point is not relied on."
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Kenya taxes income accrued in or derived from Kenya (Income Tax Act s.3). KRA's example: a computer programmer in Kenya giving IT consultancy to an offshore company earns that income in Kenya, so it is taxable in Kenya. Freelance work done from Kenya for foreign clients is therefore taxable. Exceptions also tax some foreign income: foreign employment income of residents, and business carried on partly outside Kenya. Small businesses: Turnover Tax at 1.5% of gross sales (since 1 July 2023) is a FINAL tax for residents with turnover above KES 1,000,000 and not above KES 25,000,000. There are no deductions, simplified records, filing and payment through iTax, and no year-end income tax return on that income.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kra.go.ke/news-center/blog/1137-tax-implications-on-cross-border-transactions",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Tax implications on Cross Border Transactions",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-032d8694710f.html.gz",
+     "quote": "An example would be a subscription paid by a local to a company abroad for access to online content (over-the-top services), or a computer programmer in Kenya offering information technology consultancy services to an offshore company."
+    },
+    {
+     "url": "https://www.kra.go.ke/news-center/blog/1137-tax-implications-on-cross-border-transactions",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Tax implications on Cross Border Transactions",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-032d8694710f.html.gz",
+     "quote": "The gains or profits are earned in Kenya in both cases and are therefore taxable in Kenya."
+    },
+    {
+     "url": "https://www.kra.go.ke/helping-tax-payers/faqs/taxation-of-foreign-income",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Taxation of Foreign Income",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-4a390f22d5c3.html.gz",
+     "quote": "However, there are a few exceptions to this rule such that income earned outside Kenya is taxable in Kenya."
+    },
+    {
+     "url": "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/turnover-tax-tot",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Turnover Tax (TOT)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-88a520f7a04b.html.gz",
+     "quote": "It is payable at the rate of 1.5% on gross sales effective from 1st of July 2023 as per Finance Act 2023."
+    },
+    {
+     "url": "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/turnover-tax-tot",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Turnover Tax (TOT)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-88a520f7a04b.html.gz",
+     "quote": "25,000,000 in any year of income is eligible for Turnover Tax."
+    },
+    {
+     "url": "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/turnover-tax-tot",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Turnover Tax (TOT)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-88a520f7a04b.html.gz",
+     "quote": "Turn over Tax is charged on the gross sales and is a final tax."
+    }
+   ],
+   "notes": "CONFLICT inside KRA sources: the TOT page body says KES 1m-25m, but (per a search summary) its introduction says KES 50m, and the 2021 revised Income Tax Act says 50m. The 25m figure matches the Finance Act 2023 era and is used; confirm with KRA. Slab income-tax rates and the 2025/2026 Finance Acts were not checked. Whether a resident freelancer can choose TOT for foreign-client service income was not confirmed. A KRA blog says residents are taxed on worldwide income, which conflicts with the source-based FAQ; the FAQ plus the s.3 example are used."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "VAT Act 2013: general rate 16%; 0% on certain supplies including exports — and since 1 July 2023 (Finance Act 2023) the exportation of taxable SERVICES is zero-rated again (it was 16% from July 2022 to June 2023, except BPO), with refunds of input tax for zero-rated suppliers. You must register once taxable supplies reach or are expected to reach KES 5 million in a year (KRA brochure, reviewed October 2024).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kra.go.ke/images/publications/Value-Added-Tax-VAT-Brochure-151024.pdf",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Value Added Tax (VAT) brochure (Reviewed in October 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fd86bcca712.pdf.gz",
+     "quote": "Eligibility Any person supplying or who expects to supply taxable goods and taxable services with a value of Kshs 5 Million or more in a year is required to register for VAT."
+    },
+    {
+     "url": "https://www.kra.go.ke/images/publications/Value-Added-Tax-VAT-Brochure-151024.pdf",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Value Added Tax (VAT) brochure (Reviewed in October 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fd86bcca712.pdf.gz",
+     "quote": "• 0% (zero rate) - it is applicable to certain categories of supplies meant for promotion of trade, Exports, Agriculture, Education and Health."
+    },
+    {
+     "url": "https://www.kra.go.ke/images/publications/Value-Added-Tax-VAT-Brochure-151024.pdf",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Value Added Tax (VAT) brochure (Reviewed in October 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fd86bcca712.pdf.gz",
+     "quote": "• 16% (general rate) - this is applicable to all taxable goods and services other than zero rated supplies."
+    },
+    {
+     "url": "https://www.pna.co.ke/tax-alert-july-2023-kenya-vat-zero-rating-exported-services/",
+     "publisher": "Anchinga & Associates",
+     "title": "Tax Alert: July 2023 Kenya VAT Zero-rating of Exported Services (31 Jul 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-02d5d4fce4be.html.gz",
+     "quote": "Effective 1st July 2023, the Government, through the Kenya Finance Act 2023 (“the Act”), has zero-rated the exportation of taxable services, by amending the Second Schedule of the Kenya VAT Act 2013."
+    },
+    {
+     "url": "https://www.wyldeinternational.com/post/zero-rating-of-exportation-of-services-in-kenya",
+     "publisher": "Wylde International",
+     "title": "Zero rating of exportation of services in Kenya (Sep 15, 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-d01e42ab611f.html.gz",
+     "quote": "It’s a new dawn for the service industry in Kenya because the Finance Act of 2023 amended the second schedule to state the exportation of taxable services as a zero rated supply effective from 1st July 2023."
+    }
+   ],
+   "notes": "Finance Acts after 2023 (2024, 2025, 2026) were not checked for further changes to the export-of-services rule — re-check. Whether zero-rated export sales count toward the KES 5m threshold is our inference only. PwC Kenya's page returned 403."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Data Protection Act 2019, enforced by the Office of the Data Protection Commissioner (ODPC). Data controllers and processors must register with ODPC. You are exempt from mandatory registration if annual turnover or revenue is below KES 5 million AND you have fewer than 10 employees, unless you process data for Third Schedule purposes (e.g. political canvassing, crime prevention/CCTV, gambling, education, health). Exempt entities must still comply with Parts IV and VI of the Act (principles and data-subject rights).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-REGISTRATION-OF-DATA-CONTROLLERS-AND-DATA-PROCESSORS-REGULATIONS-2021.pdf",
+     "publisher": "Office of the Data Protection Commissioner (Legal Notice No. 265 of 2021)",
+     "title": "The Data Protection (Registration of Data Controllers and Data Processors) Regulations, 2021",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d0801e7cf129.pdf.gz",
+     "quote": "(2) A data controller or data processor is exempt from mandatory registration under these Regulations where the data controller or data processor (a) has an annual turnover of below five million shillings or annual revenue of below five million shillings;"
+    },
+    {
+     "url": "https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-REGISTRATION-OF-DATA-CONTROLLERS-AND-DATA-PROCESSORS-REGULATIONS-2021.pdf",
+     "publisher": "Office of the Data Protection Commissioner",
+     "title": "Registration Regulations, 2021",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d0801e7cf129.pdf.gz",
+     "quote": "and (b) has less than ten employees."
+    },
+    {
+     "url": "https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-REGISTRATION-OF-DATA-CONTROLLERS-AND-DATA-PROCESSORS-REGULATIONS-2021.pdf",
+     "publisher": "Office of the Data Protection Commissioner",
+     "title": "Registration Regulations, 2021",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d0801e7cf129.pdf.gz",
+     "quote": "(3) Despite the provisions of sub-regulation (2), the data controller and data processor exempt under sub-regulation (2) shall be required to comply with the provisions of the Part IV and Part VI of the Act."
+    },
+    {
+     "url": "https://www.odpc.go.ke/",
+     "publisher": "Office of the Data Protection Commissioner",
+     "title": "ODPC home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-448c31138862.html.gz",
+     "quote": "The mandate of the Office of the Data Protection Commissioner derived from the Data Protection Act 2019"
+    }
+   ],
+   "notes": "ODPC's Guidance Note lists a longer set of non-exempt sectors than the Regulations' Third Schedule (per search summary; not snapshotted). Check before relying on the exemption."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "The Competition Authority of Kenya (CAK) enforces consumer protection under the Competition Act (CAP 504), including preventing misleading market conduct, and the Constitution grants consumer rights. The Consumer Protection Act 2012 also exists, but its text (Kenya Law) was unreachable, so e-commerce-specific duties such as distance-selling cancellation rights were NOT verified.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cak.go.ke/",
+     "publisher": "Competition Authority of Kenya",
+     "title": "CAK home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6d398b8bd860.html.gz",
+     "quote": "The Authority’s mandate is to enforce the Competition Act CAP 504 (the Act) with the objective of enhancing the welfare of the people of Kenya by promoting and protecting effective competition in markets and preventing misleading market conduct throughout Kenya."
+    },
+    {
+     "url": "https://cak.go.ke/",
+     "publisher": "Competition Authority of Kenya",
+     "title": "CAK home page",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6d398b8bd860.html.gz",
+     "quote": "Consumer Protection The Constitution of Kenya grants consumer the right to;"
+    }
+   ],
+   "notes": "kenyalaw.org and new.kenyalaw.org didn't respond, so the Consumer Protection Act 2012 and the Kenya Information and Communications Act (electronic transactions) were not read. This fact only establishes the regulator and the main law."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) Turnover Tax, a simplified final 1.5% tax for turnover of KES 1m-25m, with only daily sales and purchase records required (L3). (2) Ajira Digital (KEPSA-Ajira, on a government .go.ke domain) runs virtual training classes and lists digital job opportunities for young people. (3) No data-protection registration below KES 5m turnover with fewer than 10 employees (L5).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/turnover-tax-tot",
+     "publisher": "Kenya Revenue Authority",
+     "title": "Turnover Tax (TOT)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-88a520f7a04b.html.gz",
+     "quote": "It is payable at the rate of 1.5% on gross sales effective from 1st of July 2023 as per Finance Act 2023."
+    },
+    {
+     "url": "https://ajiradigital.go.ke/",
+     "publisher": "Ajira Digital (KEPSA-Ajira)",
+     "title": "Ajira Digital portal",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-486d15b5a528.txt.gz",
+     "quote": "We are training! Register for one of our virtual classes today... first come, first served."
+    }
+   ],
+   "notes": "ajiradigital.go.ke renders client-side; the text was read in a normal browser visit and saved as an excerpt. The programme's owner (Ministry vs KEPSA) was not verified."
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The Kenyan National ID card. Its third generation is the 'Maisha card', piloted from 2024 and tied to the lifelong Maisha Namba number. It is issued by the National Registration Bureau. Paystack accepts a national ID or valid passport.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://immigration.go.ke/issuance-of-maisha-card-ids/",
+     "publisher": "Directorate of Immigration Services, Kenya",
+     "title": "Issuance of Maisha Card IDs (September 19, 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-cb6b68b93ecd.html.gz",
+     "quote": "The government is piloting the third-generation National ID card, better known as the Maisha card."
+    },
+    {
+     "url": "https://immigration.go.ke/issuance-of-maisha-card-ids/",
+     "publisher": "Directorate of Immigration Services, Kenya",
+     "title": "Issuance of Maisha Card IDs (September 19, 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-cb6b68b93ecd.html.gz",
+     "quote": "It is part of the identity ecosystem that features the Maisha Namba which will be a lifelong registration number issued as a birth certificate number and that will transit to a personal number for enrolment for government services such as education, health and taxation."
+    }
+   ],
+   "notes": "The page is from 2024; the current rollout status was not checked. The National Registration Bureau as issuer comes from a search summary of a Nov 2024 immigration notice."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) Card payments on your own site through Paystack (a Stripe company). Stripe lists this country under its extended network. (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (8) Local official channel: There are no exchange controls; foreign currency can be credited to a foreign-currency account at a Kenyan bank (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Kenya: listed in Stripe's extended network (via Paystack) (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "It may be noted that the responsibility of managing foreign exchange business was delegated to the authorised foreign exchange dealers following repeal of the Exchange Control Act effective December 27, 1995."
+    },
+    {
+     "url": "https://www.centralbank.go.ke/wp-content/uploads/2016/08/foreignexchangeguidelines.pdf",
+     "publisher": "Central Bank of Kenya",
+     "title": "Guidelines on Foreign Exchange",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8156aae13aa8.pdf.gz",
+     "quote": "The foreign currency received should be dealt with as follows:-  Credited to a foreign currency account"
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-17",
+ "completed": "2026-10-17",
+ "open_questions": [
+  "Turnover Tax ceiling: KES 25m (KRA page body) vs 50m (page intro / 2021 Act) - confirm.",
+  "Exported services zero-rating: any change after Finance Act 2023?",
+  "Consumer Protection Act 2012 duties for online sellers (kenyalaw.org unreachable).",
+  "County Single Business Permit for online/home businesses.",
+  "Business Names Act text (registration trigger) from official source.",
+  "Payoneer withdrawal to M-PESA; Pesapal individual onboarding."
+ ]
+}

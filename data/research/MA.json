@@ -1,0 +1,634 @@
+{
+ "code": "MA",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under exchange control. The Office des Changes' General Instruction on Exchange Operations (IGOC 2026) defines a services export as a paid service rendered in Morocco or abroad by a resident to a non-resident. Service exporters must repatriate the FULL proceeds within 90 days of performing the service. The repatriated FX must be sold (converted to dirhams), except for the share that may be placed in an FX or convertible-dirham account (up to 70%, see P2). The Office des Changes has publicly said this 90-day rule applies to online services by resident individuals. It has sanctioned non-repatriation and unauthorised holdings abroad, including balances on PayPal/Payoneer-type platforms.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "Instruction Générale des Opérations de Change 2026 — 4. Exportation de services",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Les exportations de services désignent, au sens de la présente Instruction, les prestations rendues au Maroc ou à l’étranger par un résident en faveur d’un non-résident et donnant lieu à une rémunération."
+    },
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — 4.3 Rapatriement du produit des exportations de services",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Les exportateurs de services sont tenus de procéder au rapatriement du montant intégral des recettes de leurs exportations conformément aux dispositions de l’article 11 de la présente Instruction et ce, dans un délai de quatre-vingt-dix (90) jours à compter de la date de la réalisation des prestations de services. Les montants rapatriés doivent être cédés, dans les conditions prévues par l’article 22 de la présente Instruction."
+    },
+    {
+     "url": "https://www.infomediaire.net/loffice-des-changes-accorde-un-delai-de-90-jours-pour-le-rapatriement-des-remunerations-a-letranger/",
+     "publisher": "Infomédiaire (MAP dispatch, 17/01/2022)",
+     "title": "L’Office des changes accorde un délai de 90 jours pour le rapatriement des rémunérations à l’étranger",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-175e7119a1e2.html.gz",
+     "quote": "Le rapatriement des rémunérations relatives aux services rendus en ligne par des Marocains résidents doit être réalisé dans un délai de 90 jours à compter de la date de réalisation de ces prestations de services"
+    },
+    {
+     "url": "https://www.infomediaire.net/loffice-des-changes-accorde-un-delai-de-90-jours-pour-le-rapatriement-des-remunerations-a-letranger/",
+     "publisher": "Infomédiaire (MAP dispatch, 17/01/2022)",
+     "title": "L’Office des changes accorde un délai de 90 jours ... (sanctioned infractions)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-175e7119a1e2.html.gz",
+     "quote": "Il a également cité l’ouverture de comptes bancaires à l’étranger que ce soit auprès d’organismes financiers réglementés ou auprès de plateformes financières (paypal, payoneer,…)"
+    }
+   ],
+   "notes": "Secondary sites disagreed on the services deadline (90 vs 150 days). The 150 days in IGOC 2026 is for GOODS, counted from the customs declaration; services = 90 days from performance. The Infomédiaire item is a 2022 MAP interview with the Office des Changes Director General; the rule is unchanged in IGOC 2026."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, with a cap. IGOC 2026 lets banks open FX or convertible-dirham accounts for Moroccan resident individuals NOT on the commercial register who have foreign-source income. They may credit up to 70% of repatriated foreign-source income, and the remainder must be sold on the FX market. Service exporters on the commercial register have their own exporter FX accounts, also capped at 70% of repatriated proceeds.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — Comptes en devises ... des personnes physiques marocaines résidentes, non inscrites au registre de commerce, disposant de revenus de source étrangère",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Les banques sont autorisées à ouvrir dans leurs livres des comptes en devises ou en dirhams convertibles au nom des personnes physiques marocaines résidentes, non inscrites au registre de commerce, disposant de revenus de source étrangère."
+    },
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — same article, credit rule",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Ces comptes peuvent enregistrer au crédit : Jusqu’à 70% des revenus de sources étrangères rapatriées. Le reliquat doit être cédé sur le marché des changes"
+    },
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — Comptes des exportateurs de biens et de services",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Opérations au crédit : 1) 70%, au maximum, des recettes d’exportation rapatriées"
+    }
+   ],
+   "notes": "The IGOC 2026 PDF is 'large' (stored locally in _research_large, not committed); sha256 72942c16abb7..."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Morocco (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Morocco is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Morocco is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "CMI (Centre Monétique Interbancaire), the main Moroccan card acquirer, accepts individuals 'au statut d’indépendant' as well as businesses. For individuals it requires registration on the commercial register (RC), a professional tax (patente) registration, a cheque specimen and an ID. So an unregistered freelancer cannot use CMI directly. Whether auto-entrepreneurs (registered in the national AE register rather than the RC) are accepted by CMI or by payment institutions such as Payzone or YouCan Pay was not confirmed officially. Payzone's site sits behind a Cloudflare challenge and was not accessed. BLOCKED: payzone.ma (Cloudflare 'Just a moment' challenge; not bypassed). YouCan Pay's terms mention a 'commercial user activity license' as an example ownership document but list no AE-specific requirements; not cited."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes, with a local repatriation clause. PayPal's Moroccan user agreement has a Morocco section: once withdrawal to a Moroccan bank account with PayPal's bank partner is enabled, users must comply with Moroccan law. Amounts received from PayPal users must be withdrawn to a Moroccan bank account within 30 days, and the partner bank charges a fee per withdrawal. Since September 2025, PayPal balances can be withdrawn in dirhams through the Cash Plus mobile app (Cash Plus is a payment institution licensed by Bank Al-Maghrib). PayPal's Payouts table lists Morocco as 'Send, receive, and withdraw' (automated collector).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/ma/legalhub/paypal/useragreement-full",
+     "publisher": "PayPal",
+     "title": "PayPal User Agreement (Morocco) — country section 'Morocco'",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fc863437e4e8.html.gz",
+     "quote": "Upon enablement of the withdrawal functionality to a Moroccan bank account with the bank partner of PayPal, you will be required to comply with Moroccan laws and regulations. This means notably that if you receive amounts into the balance of your PayPal account from a PayPal user, you must withdraw the amounts in the balance of your PayPal account to your Moroccan bank account* within 30 Days of receipt of funds."
+    },
+    {
+     "url": "https://www.moroccoworldnews.com/2025/09/259326/cash-plus-partners-with-paypal-to-facilitate-digital-withdrawals-in-morocco/",
+     "publisher": "Morocco World News",
+     "title": "Cash Plus Partners with PayPal to Facilitate Digital Withdrawals in Morocco (15 Sep 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-de38771b2e41.html.gz",
+     "quote": "The new partnership allows Moroccan PayPal users to instantly withdraw their balances in Moroccan dirhams through the Cash Plus Mobile app."
+    },
+    {
+     "url": "https://menastartupdigest.com/moroccos-cash-plus-launches-first-digital-paypal-withdrawal-service/",
+     "publisher": "MENA Startup Digest",
+     "title": "Morocco’s Cash Plus Launches First Digital PayPal Withdrawal Service (15 Sep 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-b9b062868b2f.html.gz",
+     "quote": "The new feature allows Moroccan users to instantly withdraw their PayPal balances in Moroccan dirhams directly through the Cash Plus mobile application"
+    }
+   ],
+   "notes": "The PayPal MA home page fetched only a 1.3k-character shell (JS). meatechwatch.com returned 403 (not used). The 30-day PayPal clause is stricter than the Office des Changes' 90-day services rule; follow the shorter one."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: widely used by Moroccan freelancers (receiving accounts in USD/EUR, marketplace integration). A Casablanca chartered-accountant firm stresses it is a collection tool, not an exchange-control exemption: funds must be repatriated to a Moroccan bank account in the professional's name, with records kept. Wise: Morocco is NOT on Wise's list of countries whose residents can hold money, so residents get no Wise balance or account details. One blog's claim that Moroccans can use Wise Business conflicts with Wise's own list and is not relied on. Sending money TO Morocco via Wise is a separate service.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://grey.co/fr-ma/blog/freelance-maroc-paiements",
+     "publisher": "Grey",
+     "title": "Freelance au Maroc : comment recevoir des paiements internationaux",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-6ffdba322404.html.gz",
+     "quote": "Payoneer Payoneer est populaire pour deux raisons : l’intégration directe avec les plateformes (Upwork, Fiverr, Amazon, Shutterstock) et la disponibilité d’un “receiving account” en USD et EUR que vous pouvez donner à des clients directs."
+    },
+    {
+     "url": "https://nexora-expertise.ma/articles/freelance-developpeur-export-services-maroc-2026-office-des-changes",
+     "publisher": "NEXORA Expertise Comptable (Casablanca)",
+     "title": "Freelance et développeur exportant des services depuis le Maroc en 2026 (09 Aug 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-bd8318723dc4.html.gz",
+     "quote": "Payoneer et Wise : ce sont des instruments d'encaissement, pas un régime dérogatoire. Les fonds encaissés doivent être rapatriés sur un compte bancaire marocain au nom de l'entreprise ou du professionnel"
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Morocco."
+    }
+   ],
+   "notes": "No official Payoneer page specific to Morocco was found. glorythm.com claims Wise Business works for Moroccans, which contradicts Wise's list (not used)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest form: the auto-entrepreneur status (Law 114-13). Register on the national AE register (rn.ae.gov.ma) and validate at any Barid Al-Maghrib (Poste Maroc) branch with the national ID card (CIN), a photo and proof of address. This gives an RNAE number, ICE and tax ID. Ceilings: MAD 200,000/yr turnover for services and MAD 500,000 for commercial, industrial or craft activities. Exporting services to foreign clients is allowed. Alternatives are a sole proprietorship taxed under IR, or an SARL AU (single-member LLC). Exchange control allows non-RC-registered resident individuals with foreign income to hold FX accounts (P2), so commercial-register registration is not a precondition for receiving foreign income.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://nexora-expertise.ma/articles/freelance-developpeur-export-services-maroc-2026-office-des-changes",
+     "publisher": "NEXORA Expertise Comptable (Casablanca)",
+     "title": "Freelance et développeur exportant des services depuis le Maroc en 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-bd8318723dc4.html.gz",
+     "quote": "Trois statuts possibles : auto-entrepreneur (loi n° 114-13), entreprise individuelle imposée à l'IR (régime du résultat net réel ou simplifié) ou société , en pratique la SARL à associé unique soumise à l'IS."
+    },
+    {
+     "url": "https://clicpaie.ma/blogs/auto-entrepreneur-maroc/",
+     "publisher": "ClicPaie",
+     "title": "Auto-Entrepreneur Maroc 2026 : inscription et déclaration (29 Mar 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-e2b26f83af02.html.gz",
+     "quote": "Plafonds : 500 000 DH (commercial) / 200 000 DH (services)."
+    },
+    {
+     "url": "https://clicpaie.ma/blogs/auto-entrepreneur-maroc/",
+     "publisher": "ClicPaie",
+     "title": "Auto-Entrepreneur Maroc 2026 — export de services",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-e2b26f83af02.html.gz",
+     "quote": "En revanche, l’ export de services (développement, design, consulting pour des clients étrangers) est autorisé."
+    },
+    {
+     "url": "https://snrtnews.com/fr/article/lauto-entrepreneuriat-au-maroc-tendances-et-realites-82978",
+     "publisher": "SNRT News",
+     "title": "L'auto-entrepreneuriat au Maroc : tendances et réalités",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a763d119a566.html.gz",
+     "quote": "Les autoentrepreneurs bénéficient de taux d'imposition réduits, tels que 0,5% pour les activités commerciales, industrielles et artisanales avec un chiffre d'affaires inférieur à 500 000 dirhams, et 1% pour les activités de services en dessous de 200 000 dirhams."
+    }
+   ],
+   "notes": "BLOCKED (connection timeouts from this environment, not bypassed): ae.gov.ma / rn.ae.gov.ma, adala.justice.gov.ma (Law 114-13 PDF), tax.gov.ma (HTTP 403) and finances.gov.ma (CGI 2026 PDF). Facts rest on >=2 independent secondary domains. The law text was not read directly."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Anyone carrying on a gainful activity needs a tax identifier (identifiant fiscal, IF) from the DGI. Businesses, including auto-entrepreneurs and self-employed individuals, also get the 15-digit ICE (Identifiant Commun de l'Entreprise), mandatory since 1 July 2016. For auto-entrepreneurs, the ICE and IF are issued automatically with RNAE registration at Barid Al-Maghrib.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://upsilon-consulting.com/identifiant-fiscal-au-maroc/",
+     "publisher": "Upsilon Consulting",
+     "title": "Identifiant fiscal au Maroc : 1 guide pour l'obtenir",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a4ce28f5e04d.html.gz",
+     "quote": "Au Maroc, toute personne qui exerce une activité lucrative doit disposer d’un identifiant fiscal."
+    },
+    {
+     "url": "https://www.demarchesmaroc.com/identifiant-commun-entreprise-ice/",
+     "publisher": "DémarchesMaroc",
+     "title": "Comment demander l’ICE (2 Apr 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-cfed324eeecc.html.gz",
+     "quote": "L’ICE est composé de 15 chiffres, répartis comme suit : Entreprise (9 chiffres) Établissements (4 chiffres) Caractères de contrôle (2 chiffres) Exemple : 123456789000057 L’ICE est devenu obligatoire à partir du 1er juillet 2016."
+    },
+    {
+     "url": "https://www.demarchesmaroc.com/identifiant-commun-entreprise-ice/",
+     "publisher": "DémarchesMaroc",
+     "title": "Comment demander l’ICE — who",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-cfed324eeecc.html.gz",
+     "quote": "Personnes physiques : Auto-entrepreneurs et travailleurs indépendants"
+    },
+    {
+     "url": "https://clicpaie.ma/blogs/auto-entrepreneur-maroc/",
+     "publisher": "ClicPaie",
+     "title": "Auto-Entrepreneur Maroc 2026 — ce que vous recevez",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-e2b26f83af02.html.gz",
+     "quote": "Ce que vous recevez Document Délai Numéro RNAE Immédiat ICE (15 chiffres) Automatique IF (Identifiant Fiscal) Automatique"
+    }
+   ],
+   "notes": "Official portals ice.gov.ma / tax.gov.ma not reachable from this environment."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Tax residents (permanent home, centre of economic interests, or more than 183 days in any 365-day period) pay income tax (IR) on WORLDWIDE income. The scale since 1 Jan 2025 is: 0% up to MAD 40,000, then 10%, 20%, 30% and 34%, and 37% above MAD 180,000. Auto-entrepreneurs instead pay a final 1% of collected turnover on services (0.5% commercial). Since 1 Jan 2023, an AE's annual services turnover above MAD 80,000 from the SAME client is taxed at a final 30%, withheld by the client.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/morocco/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Morocco — Individual — Taxes on personal income (last reviewed 30 Apr 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-7eec61f9ea10.html.gz",
+     "quote": "Individuals who have their tax residence in Morocco are subject to an IIT on their worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/morocco/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Morocco — IIT rates",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-7eec61f9ea10.html.gz",
+     "quote": "Annual taxable income (MAD) IIT rate (%) 0 to 40,000 Exempted 40,001 to 60,000 10 60,001 to 80,000 20 80,001 to 100,000 30 100,001 to 180,000 34 More than 180,000 37"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/morocco/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Morocco — Individual — Residence",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-5f287cd0418c.html.gz",
+     "quote": "The place of permanent home. The centre of economic interest. The duration of stay in the country exceeding 183 days within any period of 365 days."
+    },
+    {
+     "url": "https://fr.hespress.com/402679-loi-de-finances-2025-a-quoi-doivent-sattendre-les-marocains.html",
+     "publisher": "Hespress FR",
+     "title": "Loi de Finances 2025 : à quoi doivent s'attendre les Marocains ?",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-79e556775996.html.gz",
+     "quote": "Pour les revenus situés entre 100.001 et 180.000 dirhams, le taux s’élève à 34%, tandis que les revenus excédant 180.000 dirhams sont imposés à 37%."
+    },
+    {
+     "url": "https://ecoactu.ma/?p=175639",
+     "publisher": "EcoActu",
+     "title": "Auto-entrepreneur : retenue à la source au-delà de 80.000 DH par client",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-fbf9491d4b63.html.gz",
+     "quote": "A cet effet, à compter du 1 er janvier 2023, lorsque le chiffre d’affaires annuel au titre des prestations de services réalisées par un contribuable soumis au régime de l’auto-entrepreneur ou de la CPU, pour le compte d’un même client, dépasse 80.000 DH, le surplus est soumis à l’IR, par voie de retenue à la source (RAS) opérée par ledit client, au taux libératoire de 30%"
+    },
+    {
+     "url": "https://www.fnh.ma/article/actualite-financiere-maroc/fiscalite-de-l-autoentrepreneuriat-ou-placer-le-curseur",
+     "publisher": "Finances News Hebdo",
+     "title": "Fiscalité de l'autoentrepreneuriat : où placer le curseur ?",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a08005bfe278.html.gz",
+     "quote": "Jusque-là, l’un des atouts de charme du statut de l’autoentrepreneur avait trait à la fiscalité réduite (0,5% du CA pour les activités industrielle, commerciale et artisanale et 1% pour les prestations de services)."
+    }
+   ],
+   "notes": "Official CGI 2026 unreachable (see L1 notes). OPEN: how the 80,000 MAD/same-client rule is applied when the client is FOREIGN (it cannot withhold). NEXORA says withholding applies 'lorsqu'il s'agit d'une personne morale ou d'un professionnel établi au Maroc'; treatment for foreign clients not confirmed."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The standard VAT rate is 20% (10% reduced). Exported services are exempt WITH the right to deduct input VAT (CGI art. 92-I-1°): no VAT is charged to the foreign client, and input VAT can be deducted or refunded. This requires the service to be used abroad and an invoice in the foreign client's name. Auto-entrepreneurs do not charge VAT. Individual service providers with annual turnover up to MAD 500,000 are exempt without deduction under CGI art. 91-II-3° (single-source, see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Quick charts — VAT rates",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-bdb525d4a2f1.html.gz",
+     "quote": "Morocco (Last reviewed 30 April 2026) 20"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/morocco/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Morocco — Corporate — Other taxes (VAT)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-b42cd72489ff.html.gz",
+     "quote": "The zero-rated supplies include (but are not limited to) supplies of the following goods or services: Exported goods and services."
+    },
+    {
+     "url": "https://upsilon-consulting.com/tva-export-services-maroc/",
+     "publisher": "Upsilon Consulting",
+     "title": "TVA et export de services au Maroc — Guide 2026 (16 May 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-c1d036762bd3.html.gz",
+     "quote": "L’article 92-I-1° du Code général des impôts exonère de TVA les prestations de services rendues à l’exportation par les assujettis."
+    },
+    {
+     "url": "https://upsilon-consulting.com/tva-auto-entrepreneur-maroc/",
+     "publisher": "Upsilon Consulting",
+     "title": "TVA et auto-entrepreneur au Maroc (5 May 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-6f684ac9b254.html.gz",
+     "quote": "qui prévoit une exonération sans droit à déduction pour les fabricants et prestataires de services personnes physiques dont le chiffre d’affaires annuel est inférieur ou égal à 500 000 DH"
+    }
+   ],
+   "notes": "SINGLE-SOURCE: the MAD 500,000 art. 91-II-3° threshold is stated only by Upsilon (two pages, same domain). Wafir.ma gives 200,000 for services, apparently conflating the AE ceiling, and lists 7%/14% rates for 2026, which conflicts with PwC (transition to 0/10/20% by 2026). Wafir not used."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 09-08 (18 Feb 2009) applies to all processing whose controller or means are in Morocco; no replacement law had been adopted by Oct 2026. Every website operator that collects personal data must NOTIFY the CNDP before processing. A prior declaration is the default. Prior AUTHORISATION is needed if national ID (CNI) numbers or sensitive data are processed. Hosting or storing data on servers abroad requires a separate transfer request, filed together with the basic declaration. Users must be informed at collection (controller identity, purposes, recipients, access/rectification rights).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.cndp.ma/traitement-des-donnees-personnelles-au-maroc/",
+     "publisher": "CNDP",
+     "title": "Traitement des données personnelles au Maroc",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-85ca91d512f8.html.gz",
+     "quote": "Tous les traitements dont les responsables ou les moyens de traitement sont situés sur le territoire marocain, qu’ils soient propriété d’un organisme marocain ou d’un donneur d’ordre étranger,- sous-traitance, délocalisation, etc.-, sont tenus de se conformer à la loi 09-08 du 18 février 2009"
+    },
+    {
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/01/CNDP-guide-conformite-sites-web-fr.pdf",
+     "publisher": "CNDP",
+     "title": "Lignes directrices relatives à la conformité des sites web à la loi 09-08",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d39d8a96b771.pdf.gz",
+     "quote": "Tout responsable de site web qui collecte et traite des données personnelles est tenu par la loi 09-08 de notifier à la CNDP les traitements mis en œuvre sur ledit site."
+    },
+    {
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/01/CNDP-guide-conformite-sites-web-fr.pdf",
+     "publisher": "CNDP",
+     "title": "Lignes directrices ... — modalités",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d39d8a96b771.pdf.gz",
+     "quote": "Une demande d’autorisation si les données traitées portent sur le numéro de la carte nationale d’identité ou bien sur des données sensibles"
+    },
+    {
+     "url": "https://www.cndp.ma/wp-content/uploads/2023/01/CNDP-guide-conformite-sites-web-fr.pdf",
+     "publisher": "CNDP",
+     "title": "Lignes directrices ... — transfert",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d39d8a96b771.pdf.gz",
+     "quote": "Une demande de transfert à l’étranger en cas d’hébergement et de stockage des données personnelles sur des serveurs situés à l’étranger."
+    }
+   ],
+   "notes": "A GDPR-aligned reform has been discussed for years; no adoption found as of Oct 2026."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 31-08 on consumer protection governs online purchases. Consumers may withdraw within 7 days of receiving the product or signing the service contract (per the Ministry of Industry and Trade's online-shopping guide). Statutory exceptions for digital content or services already performed were not verified from the law text.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mcinet.gov.ma/sites/default/files/acheter-sur-internet-en-toute-confiance.pdf",
+     "publisher": "Ministère de l'Industrie et du Commerce",
+     "title": "Acheter sur internet en toute confiance",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-edfee8d40a17.pdf.gz",
+     "quote": "La loi n°31-08 édictant des mesures de protection du consommateur encadre l’achat sur internet."
+    },
+    {
+     "url": "https://www.mcinet.gov.ma/sites/default/files/acheter-sur-internet-en-toute-confiance.pdf",
+     "publisher": "Ministère de l'Industrie et du Commerce",
+     "title": "Acheter sur internet en toute confiance — rétractation",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-edfee8d40a17.pdf.gz",
+     "quote": "Si le produit ne me convient pas, je peux le retourner dans les 7 jours à partir de la date de réception du produit ou de la signature du contrat de service."
+    }
+   ],
+   "notes": "The WIPO Lex PDF of Law 31-08 returned an HTML page to scripts (refused by snap.py, not saved). Law 31-08 has been amended (draft law 13-23); the art. 38 exceptions were not read."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Auto-entrepreneur regime: final 1% tax on collected service turnover (0.5% commercial), no VAT, simplified records. Watch the MAD 80,000 same-client cap (L3). (2) Exchange-control facilities: individuals keep up to 70% of repatriated foreign income in an FX or convertible-dirham account (P2). The individual 'e-commerce allowance' for paying foreign online services was raised to MAD 20,000/yr in IGOC 2026. (3) Start-ups labelled by the Digital Development Agency (ADD) can invest abroad up to MAD 10m/yr and buy services online via international cards under IGOC 2026. (4) Exported services are VAT-exempt with input-VAT refund rights (L4).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — nouveautés (dotation commerce électronique)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Relèvement du plafond de la dotation commerce électronique pour les personnes physiques, à vingt mille (20.000) dirhams au lieu de quinze mille (15.000) dirhams par année civile."
+    },
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — nouveautés (start-ups labellisées ADD)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "Possibilité pour les start -ups labellisées par l’Agence de Développement du Digital (ADD) de réaliser des investissements à l’étranger en rapport avec leur activité, à hauteur de dix millions (10.000.000) de dirhams par année civile"
+    },
+    {
+     "url": "https://nexora-expertise.ma/articles/freelance-developpeur-export-services-maroc-2026-office-des-changes",
+     "publisher": "NEXORA Expertise Comptable (Casablanca)",
+     "title": "Freelance et développeur exportant des services depuis le Maroc en 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-bd8318723dc4.html.gz",
+     "quote": "Auto-entrepreneur : plafond de 200 000 MAD de chiffre d'affaires annuel pour les prestations de services, taxe libératoire de 1 % du chiffre d'affaires encaissé pour les services."
+    },
+    {
+     "url": "https://snrtnews.com/fr/article/lauto-entrepreneuriat-au-maroc-tendances-et-realites-82978",
+     "publisher": "SNRT News",
+     "title": "L'auto-entrepreneuriat au Maroc : tendances et réalités",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a763d119a566.html.gz",
+     "quote": "Les autoentrepreneurs bénéficient de taux d'imposition réduits, tels que 0,5% pour les activités commerciales, industrielles et artisanales avec un chiffre d'affaires inférieur à 500 000 dirhams, et 1% pour les activités de services en dessous de 200 000 dirhams."
+    }
+   ],
+   "notes": "Export-specific IR or IS reduced rates for individuals were not researched or verified; not claimed."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The Carte Nationale d'Identité Électronique (CNIE, Law 04-20; new generation issued by the DGSN since 2020) is the standard ID. It is valid for 10 years for over-12s, carries a PIN and supports NFC verification for digital services. Banks register FX allowances on the basis of the CNI. Auto-entrepreneur registration requires a copy of the CIN (both sides). CMI requires the signatory's ID.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oc.gov.ma/sites/default/files/reglementation/pdf/2026-01/IGOC%202026.pdf",
+     "publisher": "Office des Changes",
+     "title": "IGOC 2026 — Solution de Gestion des Dotations",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-72942c16abb7.pdf.gz",
+     "quote": "de la Carte Nationale d’Identité pour les Marocains résidents et les Marocains résidant à l’étranger"
+    },
+    {
+     "url": "https://fr.le360.ma/politique/nouvelle-cin-electronique-le-ministere-de-linterieur-accelere-la-cadence-220763/",
+     "publisher": "Le360",
+     "title": "Nouvelle CIN électronique (06/08/2020)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-c3aa87e5b8fe.html.gz",
+     "quote": "Le quotidien Al Massae rapporte, dans son édition du vendredi 8 août, que le projet de décret définit la durée de validité de la CNIE à 10 ans pour les personnes dont l’âge dépasse 12 ans et à 7 ans pour celles âgées de moins de 12 ans."
+    },
+    {
+     "url": "https://www.bladi.net/demande-nouvelle-carte-identite,73343.html",
+     "publisher": "Bladi.net",
+     "title": "Voici comment demander la nouvelle carte d’identité",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-3f14fd4d5ef0.html.gz",
+     "quote": "La DGSN tient à rappeler que l’article 16 de la loi n° 20.04 relative à la nouvelle carte d’identité nationale électronique stipule que les CNIE délivrées avant la date d’entrée en vigueur de cette loi resteront valables jusqu’à la fin de leur période de validité"
+    },
+    {
+     "url": "https://mobileidworld.com/morocco-launches-national-e-id-program-405091/",
+     "publisher": "Mobile ID World",
+     "title": "Morocco Launches National e-ID Program (9 May 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8953d548d805.html.gz",
+     "quote": "using the “My Digital Identity” mobile app, an individual can perform an NFC scan of their physical CNIE card to confirm that it’s in their possession"
+    }
+   ],
+   "notes": "cnie.ma and dgsn.gov.ma unreachable from this environment. Bladi writes 'loi n° 20.04' and Le360 'loi 04/20' — same law, different numbering conventions."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Physical or digital goods on Etsy (Etsy seller payments are available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Morocco: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "Official Moroccan tax/registry sources unreachable from this environment (tax.gov.ma 403; finances.gov.ma, ae.gov.ma, adala.justice.gov.ma, cnie.ma, dgsn.gov.ma timeouts). L1-L4 and D1 rest on >=2 independent secondary domains; re-check against CGI 2026 and Law 114-13 when reachable.",
+  "How the MAD 80,000 same-client / 30% rule applies to auto-entrepreneurs whose client is FOREIGN (no Moroccan withholding agent).",
+  "Whether CMI / Payzone / YouCan Pay accept auto-entrepreneurs (RNAE, not RC); Payzone behind Cloudflare challenge.",
+  "VAT art. 91-II-3° MAD 500,000 small-provider exemption is single-source (Upsilon).",
+  "Law 31-08 art. 38 exceptions (digital content / services begun) not read; law amended (draft 13-23).",
+  "PayPal 30-day withdrawal clause vs Office des Changes 90-day rule: guide should advise the shorter."
+ ]
+}

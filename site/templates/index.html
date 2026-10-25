@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero">
+  <h1>Get paid from your country</h1>
+  <p class="lede">Payment platforms, foreign-currency accounts, tax ID, VAT and registration for {{ stats.countries }} countries, with a source and a check date for every answer.</p>
+  <form class="search" role="search" action="#countries" onsubmit="return false">
+    <label for="q">Find your country</label>
+    <input id="q" type="search" placeholder="Type a country, e.g. Sri Lanka" autocomplete="off" list="names">
+    <datalist id="names">{% for _, cs in regions %}{% for c in cs %}<option value="{{ c.name }}">{% endfor %}{% endfor %}</datalist>
+  </form>
+  <ul class="legend">
+    <li><span class="badge ok">Verified</span> an official source, or two independent ones</li>
+    <li><span class="badge warn">Single source</span> one source only, treat with care</li>
+    <li><span class="badge bad">Sources disagree</span> both sides shown</li>
+    <li><span class="badge muted">Not yet researched</span> a gap, never a guess</li>
+  </ul>
+</section>
+
+<section id="countries">
+  <h2>Countries</h2>
+  <p class="small">The figure after each name is how many of its {{ 14 }} answers are verified.</p>
+  {% for region, cs in regions %}
+  <div class="region">
+    <h3>{{ region }}</h3>
+    <ul class="clist">
+      {% for c in cs|sort(attribute="name") %}
+      <li data-name="{{ c.search }}" data-exact="{{ c.name|lower }}"><a href="{{ c.slug }}/">{{ c.name }}</a> <span class="score" title="{{ c.n_verified }} of {{ c.n_facts }} answers verified">{{ c.n_verified }}/{{ c.n_facts }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  <p id="none" class="small" hidden>No country matches that name.</p>
+</section>
+
+<script>
+(function () {
+  var q = document.getElementById('q'), items = document.querySelectorAll('.clist li'), none = document.getElementById('none');
+  var byName = {};
+  items.forEach(function (li) { byName[li.dataset.exact] = li.querySelector('a').getAttribute('href'); });
+  q.addEventListener('input', function () {
+    var v = q.value.trim().toLowerCase(), shown = 0;
+    if (byName[v]) { location.href = byName[v]; return; }
+    items.forEach(function (li) { var m = !v || li.dataset.name.indexOf(v) !== -1; li.hidden = !m; shown += m; });
+    document.querySelectorAll('.region').forEach(function (r) { r.hidden = !r.querySelector('li:not([hidden])'); });
+    none.hidden = shown > 0;
+  });
+})();
+</script>
+{% endblock %}

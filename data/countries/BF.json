@@ -1,0 +1,518 @@
+{
+ "code": "BF",
+ "un_name": "Burkina Faso",
+ "m49_name": "Burkina Faso",
+ "iso3": "BFA",
+ "m49": "854",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": true,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. Burkina Faso left ECOWAS in 2025 but, per secondary reports, remains in the UEMOA/BCEAO CFA-franc union. Under Regulation 06/2024/CM/UEMOA, residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), and repatriate all export proceeds for goods and services (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "Continued UEMOA membership of the AES states rests on secondary reports (see ML.json notes); re-check."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation from the Minister of Finance after a binding BCEAO opinion (UEMOA Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Burkina Faso (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Burkina Faso is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Burkina Faso is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established from sources. No local gateway's onboarding requirements were found."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Burkina Faso is a listed PayPal market but is not on the Payouts list. No source on receiving or withdrawal for Burkinabè accounts was found.",
+   "status": "unverified",
+   "note": "Searched 2026-10-20 (same query as P3); no PayPal-specific Burkina source found. Only Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Burkina Faso is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Burkina Faso is NOT on Wise's list of countries whose residents can hold money. Payoneer: availability for Burkinabè residents was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Burkina Faso."
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the OHADA entreprenant / individual enterprise, set up at a CEFORE one-stop shop (commerce registry, tax office for the IFU, social security in one place). Commercial guides estimate FCFA 20,000–45,000 and 48–72 hours. Micro-enterprise taxpayers must file a tax existence declaration within 30 days of starting and hold a micro-enterprise tax card (CGI art. 539–540).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA portant sur le droit commercial général (FAOLEX copy)",
+     "title": "AUDCG, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "Art.30.- L’entreprenant est un entrepreneur indi viduel, personne physique qui, sur simple déclaration prévue dans le présent Acte unifo rme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole."
+    },
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "Direction Générale des Impôts du Burkina Faso — CGI 2023",
+     "title": "CGI 2023, art. 539",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "Les contribuables soumis à la contribution des micro -entreprises doivent souscrire une déclaration d’existence au service des impôts de leur ress ort territorial dans les trente (30) jours du début de leurs activités."
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-burkina-faso-cefore-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au Burkina Faso (CEFORE, 2026)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-e14eac0cca39.html.gz",
+     "quote": "Le CEFORE réunit sous un même toit le greffe du tribunal de commerce, la Direction générale des impôts (pour l' IFU ) et la caisse de sécurité sociale ( CNSS )."
+    }
+   ],
+   "notes": "businessprocedures.bf (official procedures portal) had an expired TLS certificate on 2026-10-20 - recorded as blocked, not bypassed."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The IFU (Identifiant Financier Unique), issued by the DGI through the CEFORE one-stop shop as part of business registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-burkina-faso-cefore-2026",
+     "publisher": "Kolonell",
+     "title": "CEFORE — IFU",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-e14eac0cca39.html.gz",
+     "quote": "Le RCCM , l' IFU (identifiant financier unique) et l'immatriculation sociale sont traités en un seul dossier, pour un ordre de grandeur de 30 000 à 90 000 FCFA en 2026."
+    },
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023 — abbreviations",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "IFU : Identifiant financier unique"
+    }
+   ],
+   "notes": "The official IFU issuance procedure (DGI) was not captured; the CGI only confirms the identifier's name."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Independent professionals with turnover under FCFA 15m pay the Contribution des Micro-Entreprises (CME) as fixed annual amounts by turnover class and zone, e.g. up to FCFA 200,000 in Ouagadougou/Bobo-Dioulasso for FCFA 13–15m. It covers all taxes for the year, and CME taxpayers may not invoice VAT. Turnover of FCFA 15m–50m falls under the simplified real regime (RSI), and FCFA 50m+ under the normal real regime. Residence is defined by permanent home among other tests. Treatment of foreign-source income was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dgi.bf/regime_imposition/",
+     "publisher": "Direction Générale des Impôts du Burkina Faso",
+     "title": "Régimes d’imposition",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-63189e117455.html.gz",
+     "quote": "LA CONTRIBUTION DES MICRO-ENTREPRISES (CME) Sont soumis au régime de la contribution des micro-entreprises, les contribuables exerçant une activité professionnelle à titre indépendant dont le chiffre d’affaires annuel est inférieur à quinze millions (15.000.000) de francs CFA."
+    },
+    {
+     "url": "https://dgi.bf/regime_imposition/",
+     "publisher": "Direction Générale des Impôts du Burkina Faso",
+     "title": "Régimes d’imposition — VAT",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-63189e117455.html.gz",
+     "quote": "Les contribuables qui relèvent de la Contribution des micro-entreprises ne sont pas autoriser à facturer la TVA."
+    },
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023, art. 536 — CME tariffs (zone A)",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "Classe/zone 1 2 3 4 5 6 7 8 A 200 000 160 000 120 000 80 000 60 000 30 000 20 000 10 000"
+    }
+   ],
+   "notes": "CGI edition updated to the 2023 Finance Law; 2024–2026 Finance Laws not checked."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 18% (10% for approved hotels/restaurants). Services performed in Burkina Faso but used in another country are treated as exports of services and are not taxable there. Exports of services are VAT-exempt with deduction rights. Sales and services by RSI and CME taxpayers are VAT-exempt unless they opt in.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023 — VAT rate",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "Le taux de la TVA est fixé à 18 %. Ce taux est réduit à 10% pour les prestations d’hébergement et de restauration fournies par les hôtels, les restaurants et organismes assimilés agréés."
+    },
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023 — territoriality of services",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "2) Les prestations de services exécutées au Burkina Faso mais utilisées dans un autre pays sont assimilées à des exportations de services et ne sont pas imposables au Burkina Faso."
+    },
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023 — exemptions",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "a) les ventes, les prestations de services et les travaux immobiliers effectués par les contribuables relevant du régime simplifié d’imposition ou de la contribution des micro-entreprises ;"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 001-2021/AN of 30 March 2021 on personal data, overseen by the CIL. Processing that is not exempt requires a prior formality: a request for opinion, a normal declaration (the default, art. 27) or a simplified declaration. Some categories such as archives are exempt.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://assembleenationale.bf/storage/Loi/kDsWHXOTUCQFVESChh8BlBdiZnCrdTsOpXe1rzmH.pdf",
+     "publisher": "Assemblée nationale du Burkina Faso",
+     "title": "Loi n°001-2021/AN, arts. 26–27",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-874972f5ed6d.pdf.gz",
+     "quote": "Article 27 : En dehors des cas prévus aux articles 28, 30 et 31 ci-dessous, les traitements de données à caractère personnel font l’objet d’une déclaration normale auprès de l’autorité de contrôle."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 045-2009/AN on electronic services and transactions requires pre-contract information, including whether a withdrawal right exists. Art. 63 gives the recipient of a service up to 7 working days to withdraw without reason or penalty (14 working days for financial services), with return costs possibly payable. These consumer provisions are mandatory.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://data.sante.gov.bf/legisante/uploads/Loi%20n%C2%B0045-2009%20AN%20portant%20r%C3%A8glementation%20des%20services%20et%20des%20transactions%20%C3%A9lectroniques%20au%20Burkina%20Faso.pdf",
+     "publisher": "Loi n°045-2009/AN (copy on the Ministry of Health legal database, from burkinapmepmi.com)",
+     "title": "Loi n°045-2009/AN, art. 63",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-cd5ce4d5afc0.pdf.gz",
+     "quote": "Article 63 : Le destinataire du service dispose d'un délai d’au plus sept jours ouvrables pour renoncer au contrat sans avoir à justifier de motifs, ni à payer de pénalités, à l'exception, le cas échéant, des frais de renvoi."
+    },
+    {
+     "url": "https://data.sante.gov.bf/legisante/uploads/Loi%20n%C2%B0045-2009%20AN%20portant%20r%C3%A8glementation%20des%20services%20et%20des%20transactions%20%C3%A9lectroniques%20au%20Burkina%20Faso.pdf",
+     "publisher": "Loi n°045-2009/AN",
+     "title": "Loi n°045-2009/AN — mandatory provisions",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-cd5ce4d5afc0.pdf.gz",
+     "quote": "Elles sont impératives dans les relations entre un prestataire et un consommateur."
+    }
+   ],
+   "notes": "The wording 'd'au plus sept jours' (at most seven days) is as published; later amendments not checked."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Low fixed CME amounts under FCFA 15m, reduced 25% for members of an approved management centre (art. 197). (2) RSI businesses get a 2-year business-licence (patente) exemption from start of activity, plus reductions if they join an approved management centre (art. 196). (3) Exported services are outside VAT (L4).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023, art. 197",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "Art.197.- Les micro-entreprises adhérentes des centres de gestion agréés bénéficient d’une réduction de 25 % de la contribution des micro-entreprises."
+    },
+    {
+     "url": "https://dgi.bf/wp-content/uploads/2023/10/CODE-GENERAL-DES-IMPOTS-2023-A-JOUR-AVEC-LA-LOI-DE-FINANCE-2023.pdf",
+     "publisher": "DGI Burkina Faso — CGI 2023",
+     "title": "CGI 2023, art. 196",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-01565200e1e8.pdf.gz",
+     "quote": "1) Exonération de la contribution des patentes pendant deux (2) exercices à compter de la date de démarrage effectif de l’activité dûment constaté par l’administration fiscale."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card (CNIB), being replaced by the AES biometric identity card (CIB-AES). The CIB-AES was adopted by decree on 6 Nov 2025, launched by the ONI on 1 Dec 2025 and is valid 10 years. Existing CNIBs stay valid for a 5-year transition after the CIB-AES actually enters circulation.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://tchadinfos.com/2025/11/08/burkina-faso-adoption-de-la-carte-didentite-biometrique-de-laes/",
+     "publisher": "Tchadinfos",
+     "title": "Burkina Faso : adoption de la carte d’identité biométrique de l’AES (8 Nov 2025)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-5f19b6d8686c.html.gz",
+     "quote": "Afin d’assurer une transition fluide, les cartes nationales d’identité burkinabè (CNIB) actuellement en circulation resteront valides pendant une période transitoire de cinq ans, à partir de la mise en circulation effective de la CIB-AES."
+    },
+    {
+     "url": "https://beninwebtv.bj/burkina-faso-lancement-officiel-de-la-carte-didentite-biometrique-de-laes/",
+     "publisher": "Bénin Web TV",
+     "title": "Burkina Faso : lancement officiel de la CIB-AES",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-4212dc35a517.html.gz",
+     "quote": "Côté coût, la CIB-AES sera délivrée à 3 500 F CFA, soit 1 000 F CFA de plus que la CNIB."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Burkina Faso: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Burkina Faso: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Burkina Faso: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Burkina Faso: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

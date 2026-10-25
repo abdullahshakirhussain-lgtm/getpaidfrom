@@ -1,0 +1,460 @@
+{
+ "code": "BJ",
+ "un_name": "Benin",
+ "m49_name": "Benin",
+ "iso3": "BEN",
+ "m49": "204",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. As a UEMOA member, Benin applies Regulation 06/2024/CM/UEMOA. Residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), and repatriate all export proceeds for goods and services (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "Annex II deadlines not read."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation from the Minister of Finance after a binding BCEAO opinion (UEMOA Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Benin (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Benin is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Benin is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "KKiaPay, a Benin-based aggregator, accepts MTN Mobile Money, Moov (Flooz) and bank cards including international Visa/Mastercard/Amex. It targets businesses carrying on a commercial activity; individual eligibility was not confirmed. FedaPay is a second local aggregator."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Benin is a listed PayPal market but not on the Payouts list.",
+   "status": "unverified",
+   "note": "No Benin-specific PayPal receiving/withdrawal source found (2026-10-20/21); only Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Benin is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Benin is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Benin."
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the entreprenant or individual enterprise. It is created entirely online at monentreprise.bj (APIEx one-stop shop), paid by MoMo, Flooz, Celtiis or card, for FCFA 10,000, with certificates in about 3 working hours. The certificates include the RCCM extract and the IFU tax registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://monentreprise.bj/APIEX_Guide_pratique_v2_3e1993847e.pdf",
+     "publisher": "APIEx — Agence de Promotion des Investissements et des Exportations (Bénin)",
+     "title": "Guide pratique de création d'entreprise (monentreprise.bj)",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-f669cc24d608.pdf.gz",
+     "quote": "Avec la formalisation en ligne, il est possible de créer son entreprise depuis sa maison à travers la plateforme www.monentreprise.bj ;"
+    },
+    {
+     "url": "https://monentreprise.bj/APIEX_Guide_pratique_v2_3e1993847e.pdf",
+     "publisher": "APIEx (Bénin)",
+     "title": "Guide pratique — fees and timing",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-f669cc24d608.pdf.gz",
+     "quote": "Etablissement 10.000 FCFA Pas de statut 3 heures Ouvrables"
+    }
+   ],
+   "notes": "Guide undated; fees should be re-checked on monentreprise.bj."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The IFU (Identifiant Fiscal Unique). The online business-creation file delivers an IFU registration certificate along with the RCCM, and a copy of the individual's IFU is among the documents listed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://monentreprise.bj/APIEX_Guide_pratique_v2_3e1993847e.pdf",
+     "publisher": "APIEx (Bénin)",
+     "title": "Guide pratique — certificats délivrés",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-f669cc24d608.pdf.gz",
+     "quote": "CERTIFICATS DELIVRES L’extrait du Registre du Commerce et du Crédit Mobilier (RCCM) L’attestation d’Immatriculation à l’Identifiant Fiscal Unique (IFU)"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Businesses with turnover under FCFA 50m fall under the Taxe Professionnelle Synthétique (TPS). A 2021/22 note says the CGI reform raised its rate from 2% to 5%. Current (2026) TPS rules, the personal income tax scope and the treatment of foreign-source income were not confirmed, because the official CGI 2026 host could not be reached.",
+   "status": "unverified",
+   "note": "Tried 2026-10-20/21: api.impots.bj CGI 2026 PDF (DNS failure, twice), finances.bj CGI 2025 PDF (connection timeout), www.impots.bj news page (timeout), Deloitte Bénin brèves (404). Captured only Grant Thornton's 2021/22 newsletter (single secondary).",
+   "sources": [
+    {
+     "url": "https://www.grantthornton.co.za/contentassets/510962511a1d47c3a0b2dc20ec300b62/tax-focus-newsletter--_benin.pdf",
+     "publisher": "Grant Thornton",
+     "title": "Tax Focus newsletter — Benin (new General Tax Code)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-b79dbe1cbe7a.pdf.gz",
+     "quote": "To limit the perverse effects of under-declaration of turnover by taxpayers (to benefit from the said system), the rate of the tax is increased from 2% to 5%."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Not confirmed from captured sources: the official CGI could not be reached. Search summaries indicate TPS taxpayers who have not opted for the real regime may not invoice VAT.",
+   "status": "unverified",
+   "note": "Same unreachable official hosts as L3; Deloitte brief (source of the TPS/VAT point) returned 404 when fetched.",
+   "sources": [],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Book V of the Code du numérique (Law 2017-20, amended 2020) is enforced by the APDP. Automated or manual processing of personal data by public or private bodies must be declared to the Authority before it starts, or entered in a register kept by a person the controller designates (art. 405). Some processing is exempt, such as purely private registers and general accounting (art. 410).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://sgg.gouv.bj/doc/loi-2017-20/download",
+     "publisher": "Secrétariat Général du Gouvernement du Bénin — Loi n° 2017-20 portant Code du numérique (OCR text: 'a' often extracted as 'o')",
+     "title": "Code du numérique, art. 405",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-7586c5938951.pdf.gz",
+     "quote": "doivent. préoloblement à leur mise en ceuvre, foire I'obiet d'une déclorotion préoloble ouprès de l'Autorité ou être inscrits dons un regisTre tenu por lo personne désignée à cel effet por le responsoble du troitemenl."
+    }
+   ],
+   "notes": "The official PDF is a scan whose text layer substitutes 'o' for 'a'; quotes are copied as extracted."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Code du numérique, consumers have 15 working days to withdraw from a distance contract, without reason and without cost other than possible return costs (art. 348). The period runs from the day after taking possession of goods or after ordering services, and is extended if mandatory pre-contract information (arts. 338–340) was not given. It applies only to business-to-consumer contracts (art. 347).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://sgg.gouv.bj/doc/loi-2017-20/download",
+     "publisher": "Secrétariat Général du Gouvernement du Bénin — Loi n° 2017-20 (OCR text)",
+     "title": "Code du numérique, art. 348",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-20-7586c5938951.pdf.gz",
+     "quote": "Leconsommoteurdisposed'undéloidequinze(]5)joursouvroblespour exercer son droit de rétroctolion."
+    }
+   ],
+   "notes": "The Constitutional Court (DCC 17-223) had asked for withdrawal periods to be harmonised before promulgation; the promulgated text reads 15 working days."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Per APIEx, the individual enterprise has an incentive tax regime that includes exemption from the business licence tax (patente) for new businesses during their first 12 months. Online registration costs FCFA 10,000 (L1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://monentreprise.bj/APIEX_Guide_pratique_v2_3e1993847e.pdf",
+     "publisher": "APIEx (Bénin)",
+     "title": "Guide pratique — avantages de l'entreprise individuelle",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-f669cc24d608.pdf.gz",
+     "quote": "Régime fiscal incitatif et très souple avec une exonération de la patente pour les nouvelles entreprises pendant les douze (12) premiers mois d’exercice"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The biometric national identity card, or the Certificat d'Identification Personnelle (CIP), for nationals (passport for foreigners). Both are accepted for online business creation.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://monentreprise.bj/APIEX_Guide_pratique_v2_3e1993847e.pdf",
+     "publisher": "APIEx (Bénin)",
+     "title": "Guide pratique — pièces",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-f669cc24d608.pdf.gz",
+     "quote": "Carte d’identité biométrique ou Certificat d’Identification Personnel pour les Nationaux ou Passeport pour les étrangers"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Benin: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

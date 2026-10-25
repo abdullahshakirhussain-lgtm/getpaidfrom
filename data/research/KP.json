@@ -1,0 +1,245 @@
+{
+ "code": "KP",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not applicable for this guide. North Korea is under comprehensive UN and US sanctions, and OFAC has issued specific guidance on DPRK IT workers who seek remote freelance work abroad, often under false identities, to generate revenue for the regime. No lawful route exists for a DPRK resident to sell services to foreign clients through global platforms. This guide covers only lawful routes; it does not describe ways around sanctions.",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "List of Medical Devices Requiring Specific Authorization for the North Korea Sanctions Regulations (June 11, 2026) Fact Sheet: Guidance on the Democratic People's Republic of Korea Information Technology Workers (May 16, 2022)"
+    }
+   ],
+   "notes": "Hiring platforms and clients must screen for DPRK IT-worker schemes."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Democratic People's Republic of Korea (automated collector snapshots, Oct 2026). Not listed: Stripe (merchant sign-up); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; Google Play (developer registration); YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country; Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "North Korea is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Democratic People's Republic of Korea is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. North Korea is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "North Korea is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: North Korea is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed (sanctions screening applies).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include North Korea.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Not applicable: comprehensive sanctions and the state-controlled economy leave no lawful cross-border freelancing pathway (see P1).",
+   "status": "not_applicable",
+   "sources": [
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "North Korea Sanctions",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8af48c23ef83.html.gz",
+     "quote": "Important Advisories and Information Sanctions advisories highlight the sanctions evasion tactics used by North Korea."
+    }
+   ],
+   "notes": ""
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "None - country is out of scope for lawful cross-border freelancing."
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "code": "LS",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established. Lesotho is in the Common Monetary Area (loti pegged to the rand) and applies exchange control through the Central Bank of Lesotho, but rules for residents receiving foreign service income were not sourced.",
+   "status": "unverified",
+   "note": "Searched 2026-10-22; no Central Bank of Lesotho exchange-control source captured.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "No source on resident foreign-currency accounts captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Lesotho (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Whop (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Lesotho is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Lesotho is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Lesotho is on PayPal's Payouts list with 'Send, receive, and withdraw'.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Lesotho is listed on PayPal's Payouts country list with the capability 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Exchange-control treatment of PayPal withdrawals not established."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Lesotho is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Lesotho.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole trader registers and obtains a trader's licence through the One-Stop Business Facilitation Centre (OBFC). Licences are annual and must be renewed. Fees were not confirmed officially (a wiki lists LSL 300 for an individual licence).",
+   "status": "unverified",
+   "note": "Single secondary domain (Deel) captured; OBFC official page not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://deel.com/blog/register-sole-proprietorship-in-lesotho",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship in Lesotho",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-e9e2761ca592.html.gz",
+     "quote": "The process is fairly streamlined through the government’s One-Stop Business Facilitation Centre (OBFC) , but it does come with some obligations—such as registering with the tax authority and keeping records for compliance."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Everyone who earns income or runs a business in Lesotho must register with Revenue Services Lesotho (RSL) for tax purposes, getting a TIN; registration is available online (eRegistration).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rsl.org.ls/faqs",
+     "publisher": "Revenue Services Lesotho",
+     "title": "FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-37ecdb280046.html.gz",
+     "quote": "Every person that earns income or runs a business within the borders of Lesotho is required by law to register for tax purposes."
+    },
+    {
+     "url": "https://www.rsl.org.ls/faqs",
+     "publisher": "Revenue Services Lesotho",
+     "title": "FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-37ecdb280046.html.gz",
+     "quote": "Every individual, trustee, partnership and company that has a business in Lesotho and has a chargeable income must register with Revenue Services Lesotho for income tax purposes."
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Resident individuals are taxed at 20% on income up to a first band and 30% above it, less an annual personal tax credit. RSL's income-tax page shows M69,120 and a M10,824 credit; a search summary of RSL's 2026/27 structure shows M77,760 and M12,240. Non-residents pay a standard 25%. Whether residents are taxed on worldwide income was not confirmed in a captured source.",
+   "status": "unverified",
+   "note": "RSL page appears to show an older year's figures; 2026/27 structure PDF returned 404 on 2026-10-22; residence basis not captured.",
+   "sources": [
+    {
+     "url": "https://www.rsl.org.ls/node/518",
+     "publisher": "Revenue Services Lesotho",
+     "title": "Income Tax",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-64a5f30ae813.html.gz",
+     "quote": "The Resident Individuals PAYE is calculated by applying marginal rates of 20% to the first M69, 120.00 and 30% to the excess."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Official sources conflict on the VAT registration threshold. The Senate's March 2026 report on the VAT Regulations 2025 sets M2,000,000 and repeals the 2013 threshold regulations; RSL's FAQ page still says M850,000. The newer M2m figure is likely current. Registered vendors file a return every month. The standard rate (15%) and treatment of exported services were not captured.",
+   "status": "conflicting",
+   "sources": [
+    {
+     "url": "https://senate.parliament.ls/2026/03/09/committee-report-on-value-added-tax-regulations-2025/",
+     "publisher": "Senate of Lesotho",
+     "title": "Committee Report on Value Added Tax Regulations, 2025 (9 Mar 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f20cd1e9f1a1.html.gz",
+     "quote": "The Ministry further showed that the registration threshold in respect of the supply of goods and services shall be M2, 000,000.00."
+    },
+    {
+     "url": "https://senate.parliament.ls/2026/03/09/committee-report-on-value-added-tax-regulations-2025/",
+     "publisher": "Senate of Lesotho",
+     "title": "Committee Report on Value Added Tax Regulations, 2025 (9 Mar 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f20cd1e9f1a1.html.gz",
+     "quote": "Moreover, Regulation 3 repeals The Value Added Tax (Threshold for Registration of Vendors) (Amendment) Regulations, 2013."
+    },
+    {
+     "url": "https://www.rsl.org.ls/faqs",
+     "publisher": "Revenue Services Lesotho",
+     "title": "FAQs",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-37ecdb280046.html.gz",
+     "quote": "A person who makes taxable supply of goods/services, whose turnover exceeds or is expected to exceed the registration threshold of M850, 000.00 per annum, is obliged to register;"
+    },
+    {
+     "url": "https://www.rsl.org.ls/node/113",
+     "publisher": "Revenue Services Lesotho",
+     "title": "Value Added Tax (VAT)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-b29c3b1d9374.html.gz",
+     "quote": "As an administrative requirement, registered businesses (Vendors) are required to file a return every month and make payment where it is due."
+    }
+   ],
+   "notes": "TRAP: RSL FAQ (and TaxAtlas) still say M850,000; the Senate report and RSL VAT page (per search) give M2,000,000. Commencement date of the 2025 regulations not captured."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Data Protection Act (commonly cited as 2011; Act 5 of 2012) is in force and applies to every organisation processing personal information in Lesotho. The Data Protection Commission has not yet been established, as a government official said in 2026. Obligations still apply and can be enforced through the courts.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.lena.gov.ls/urgent-gaps-in-cyber-security-data-protection-outlined/",
+     "publisher": "Lesotho News Agency (government)",
+     "title": "Urgent gaps in cyber security, data protection outlined (2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-0b4f1a02ddcc.html.gz",
+     "quote": "“The biggest challenge we face is that while the law exists, the key institution responsible for its enforcement, the Data Protection Commission, has not yet been established,” she said."
+    },
+    {
+     "url": "https://www.afriwise.com/blog/data-protection-compliance-in-lesotho-why-the-time-to-act-is-now",
+     "publisher": "Afriwise",
+     "title": "Data Protection Compliance in Lesotho: Why the Time to Act Is Now",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-700e27231229.html.gz",
+     "quote": "‍ The fact that the Data Protection Commission is not yet appointed does not suspend these obligations."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Lesotho. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "426,Lesotho,Draft Legislation,No Legislation,Legislation,Legislation,No Legislation,1,0,0,1,0,1,1,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: National ID card (Wikipedia, compulsory-ID list). Compulsory for all national citizens. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Lesotho National ID card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Lesotho: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Lesotho: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Lesotho: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Lesotho: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Lesotho: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Lesotho: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Central Bank of Lesotho exchange control for foreign service income and FX accounts.",
+  "OBFC fees; residence basis of income tax; current 2026/27 bands (PDF 404).",
+  "VAT rate, commencement of M2m threshold, VAT on exported services.",
+  "Consumer/e-commerce rules; gateways; Payoneer; KYC ID."
+ ]
+}

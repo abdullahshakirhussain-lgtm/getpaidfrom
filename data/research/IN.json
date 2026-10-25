@@ -1,0 +1,712 @@
+{
+ "code": "IN",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Export of services is governed by RBI's Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026, in force from 1 October 2026; they replace the 2015 regulations. 'Services' includes 'software', defined broadly as any computer programme, database, drawing, design, audio/video signals or any information delivered other than on a physical medium. So digital products count. The full export value must be realised and repatriated within NINE months from the invoice date, or twelve months if invoiced or settled in Indian rupees. This was amended on 22 September 2026: the text previously said fifteen and eighteen months. Exporters file an EDF declaration with their bank within 30 days after the invoice month, or for non-software services on or before the payment date. Invoices up to ₹10 lakh can be closed in the bank's EDPMS system on the exporter's declaration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13277&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 23(R)/2026-RB: Foreign Exchange Management (Export and Import of Goods and Services) Regulations, 2026 (amended up to September 22, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e80ea9b2abe3.html.gz",
+     "quote": "(2) These regulations shall come into force from October 01, 2026."
+    },
+    {
+     "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13277&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 23(R)/2026-RB (amended up to September 22, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e80ea9b2abe3.html.gz",
+     "quote": "(e) “Software” means any computer programme, database, drawing, design, audio/video signals, any information by whatever name called in or on any medium other than in or on any physical medium;"
+    },
+    {
+     "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13277&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 23(R)/2026-RB (amended up to September 22, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e80ea9b2abe3.html.gz",
+     "quote": "shall be realised (including by way of set off in terms of Regulation 7 of these Regulations) and repatriated by the exporter within the period specified below: (a) nine months ... from the date of shipment in case of goods (other than goods exported to a warehouse outside India) and from the date of invoice in case of services;"
+    },
+    {
+     "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13277&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 23(R)/2026-RB (amended up to September 22, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e80ea9b2abe3.html.gz",
+     "quote": "Substituted vide Notification No. FEMA 23(R)/(1)/2026-RB dated September 22, 2026 ... Prior to substitution, the words “nine months” read as “fifteen months”."
+    },
+    {
+     "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13277&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 23(R)/2026-RB (amended up to September 22, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e80ea9b2abe3.html.gz",
+     "quote": "(2) An exporter of services shall furnish to the specified authority, a declaration in EDF specifying the amount representing the full export value of services, within 30 days from the end of month in which invoice for services has been raised"
+    }
+   ],
+   "notes": "TRAP: a search-engine summary and RBI's annual report describe a November 2025 extension to FIFTEEN months, which a reader could take as current. The live regulation text, amended 22 Sep 2026, says NINE months (twelve for INR) and footnotes that it previously read fifteen (eighteen). Use the regulation. The old Master Direction on Export of Goods and Services (2016, nine months) is superseded."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes. Any person resident in India may open an Exchange Earners' Foreign Currency (EEFC) account with an authorised dealer bank and credit 100% of foreign-exchange earnings received through banking channels. The account is a non-interest-bearing current account. Funds can pay for permitted current and capital account transactions abroad, and there is no restriction on withdrawing them in rupees. Resident individuals can add resident relatives as joint holders on a former-or-survivor basis. The current regulation text (amended up to 9 October 2025) does not contain the old rule requiring conversion to rupees by the end of the following month.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10444&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 10(R)/2015-RB: Foreign Exchange Management (Foreign currency accounts by a person resident in India) Regulations, 2015 (Amended upto October 09, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97d4481a182c.html.gz",
+     "quote": "A person resident in India may open, hold and maintain with an authorised dealer in India, a Foreign Currency Account to be known as Exchange Earners’ Foreign Currency (EEFC) Account, subject to the terms and conditions of the Exchange Earners' Foreign Currency Account Scheme specified in the Schedule I ."
+    },
+    {
+     "url": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10444&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 10(R)/2015-RB (Amended upto October 09, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97d4481a182c.html.gz",
+     "quote": "A person resident in India may credit to the EEFC Account with an Authorised Dealer in India 100 percent of the foreign exchange earnings as specified here under: i) inward remittance through banking channel"
+    },
+    {
+     "url": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10444&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 10(R)/2015-RB (Amended upto October 09, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97d4481a182c.html.gz",
+     "quote": "Miscellaneous:- i) There is no restriction on withdrawal in rupees of funds held in an EEFC account."
+    },
+    {
+     "url": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10444&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 10(R)/2015-RB (Amended upto October 09, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97d4481a182c.html.gz",
+     "quote": "The account shall only be in the form of current account and no interest should be paid on the balance held in the account."
+    }
+   ],
+   "notes": "Older RBI master circulars (2007-2016) carry a conversion-by-end-of-next-month condition; the current text searched for 'succeeding' / 'last day' has no such rule. Don't cite the old circulars."
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for India (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "India is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; India is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "A separate RBI status table lists applicants with only in-principle authorisation. Individuals: Razorpay's activation documentation says unregistered individuals and sole proprietors may give personal bank account details, with personal PAN and Aadhaar for KYC. Stripe's own country list marks India as 'Preview' (contact sales; see platforms.stripe.available), although Stripe India holds a PA-O authorisation. Lemon Squeezy notes that Stripe has accepted new Indian accounts by invite only since May 2024. Whether the other aggregators onboard unregistered individuals wasn't checked."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "PayPal operates in India for EXPORT receipts only. Under PayPal India's user agreement (last updated 13 Jan 2025), the service lets residents receive payments from buyers outside India for exported goods and services. PayPal deposits the proceeds with an authorised dealer bank, so the money goes to your Indian bank account; PayPal does not hold it for you. Using Export Payment Services for a product or service worth more than USD 10,000 per transaction is a restricted activity. An RBI purpose code must be set before you can withdraw, and it decides whether you need an IEC (Importer Exporter Code). PayPal's Payouts table lists India as 'Receive and withdraw' only.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/in/legalhub/paypal/useragreement-full",
+     "publisher": "PayPal",
+     "title": "PayPal User Agreement (India), last updated on 13 January 2025",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c0d51d546b76.html.gz",
+     "quote": "PayPal offers the following services in India: Export Payment Services which allows you to receive payments from buyers for the export of goods and services outside India."
+    },
+    {
+     "url": "https://www.paypal.com/in/legalhub/paypal/useragreement-full",
+     "publisher": "PayPal",
+     "title": "PayPal User Agreement (India)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c0d51d546b76.html.gz",
+     "quote": "For Export Payment Services, PayPal is only responsible for depositing the export proceeds with the authorised dealer bank."
+    },
+    {
+     "url": "https://www.paypal.com/in/legalhub/paypal/useragreement-full",
+     "publisher": "PayPal",
+     "title": "PayPal User Agreement (India)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c0d51d546b76.html.gz",
+     "quote": "Use the Export Payment Services for exporting a product or service having a value of more than USD 10,000 per transaction."
+    },
+    {
+     "url": "https://www.paypal.com/in/cshelp/article/what-is-the-purpose-code-and-how-is-it-different-from-the-nature-of-my-business-help978",
+     "publisher": "PayPal",
+     "title": "What is the Purpose Code, and how is it different from the nature of my business?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-02dbafb4460c.html.gz",
+     "quote": "It must be in place before you can withdraw funds from your PayPal account to your local Indian bank account."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "India row: feature set 'Receive and withdraw' (from the automated collector, data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "The USD 10,000 sentence sits in the user agreement's list of restricted activities, just before the heading 'Actions We May Take if You Engage in Any Restricted Activities'. A search summary said PayPal sweeps India balances to the bank automatically every day. That help page (help398) is JS-rendered, its snapshot held only the title, and the browser was refused on paypal.com, so the daily sweep wording is NOT quoted. The user agreement's 'only responsible for depositing the export proceeds with the authorised dealer bank' supports the same point."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. Payoneer's India guide (last modified 31 Aug 2026) says it complies with FEMA, asks for government ID such as Aadhaar or PAN plus proof of an Indian bank account, and lets you withdraw in INR to an Indian bank. Wise: receiving is for business customers only, but Wise onboards 'Sole trader / freelancer' as a business type: you earn as an individual, and your PAN and receiving bank account are in your personal name. You get account details in 24 currencies, including local USD, GBP and EUR. Funds are auto-converted to INR and sent to your Indian bank, and can't be held in Wise balances or used to send money. Limits are USD 5 minimum and ₹2.5M maximum per transaction. Aadhaar and PAN are verified by video KYC while you are physically in India.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/how-to-receive-international-payments-in-india/",
+     "publisher": "Payoneer",
+     "title": "How to Receive International Payments in India (Last Modified August 31, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bf070160e914.html.gz",
+     "quote": "Step 2: Provide Documents for Verification Submit essential documents for verification, including a valid government-issued ID (e.g., Aadhaar or PAN card) and proof of your Indian bank account."
+    },
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/how-to-receive-international-payments-in-india/",
+     "publisher": "Payoneer",
+     "title": "How to Receive International Payments in India",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bf070160e914.html.gz",
+     "quote": "Easy Withdrawal Options Funds received through Payoneer can be withdrawn directly to your Indian bank account in INR."
+    },
+    {
+     "url": "https://wise.com/in/pricing/receive",
+     "publisher": "Wise",
+     "title": "Fees for receiving money (India)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97f9a554a19a.html.gz",
+     "quote": "Receiving money feature is currently available only for business customers."
+    },
+    {
+     "url": "https://wise.com/help/articles/6Kpm9pXlJW79OGAktSnHos/how-to-verify-your-indian-business-to-receive-payments",
+     "publisher": "Wise",
+     "title": "How to verify your Indian business to receive payments",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-65f511503a37.html.gz",
+     "quote": "Sole trader or Freelancer You're making money as an individual Your PAN is under your personal name Your bank account for receiving INR is under your personal name"
+    },
+    {
+     "url": "https://wise.com/help/articles/71lNXW0Ls3gEFhUH8PtodV/receiving-payments-for-indian-businesses",
+     "publisher": "Wise",
+     "title": "Receiving payments for Indian businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9180749a795d.html.gz",
+     "quote": "These account details can't be used to send money or hold in Balances, due to regulatory reasons."
+    },
+    {
+     "url": "https://wise.com/help/articles/71lNXW0Ls3gEFhUH8PtodV/receiving-payments-for-indian-businesses",
+     "publisher": "Wise",
+     "title": "Receiving payments for Indian businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9180749a795d.html.gz",
+     "quote": "the maximum you can receive is 2.5M INR or equivalent per transaction the minimum you can receive is 5 USD or equivalent per transaction"
+    }
+   ],
+   "notes": "India is NOT on Wise's 'can't get USD account details' list (snapshot 2026-10-17-8ac0f5ed24cc), consistent with the India business pages."
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "No separate business registration is required. Startup India (DPIIT) says there is no separate registration procedure for proprietorships; they are recognised through other registrations, such as tax registration, relevant to the business. Optional: Udyam (MSME) registration on the official portal is free, paperless and based on self-declaration. PAN- and GST-linked figures are pulled automatically, and GSTIN is required only where the CGST Act applies. Other registrations depend on the business: GST (see L4), possibly a state Shops & Establishments licence (not checked), and IEC for exporting goods (PayPal ties this to the purpose code, see P4).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.startupindia.gov.in/content/sih/en/international/go-to-market-guide/types-of-businesses.html",
+     "publisher": "Startup India (DPIIT, Ministry of Commerce and Industry)",
+     "title": "Types of Businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f39eebf117e0.html.gz",
+     "quote": "Easy to Start: There is no separate registration procedure for proprietorships. All you need is a government registration relevant to your business."
+    },
+    {
+     "url": "https://www.startupindia.gov.in/content/sih/en/international/go-to-market-guide/types-of-businesses.html",
+     "publisher": "Startup India (DPIIT)",
+     "title": "Types of Businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f39eebf117e0.html.gz",
+     "quote": "proprietorships are recognised by other registrations, such as a service or sales tax registration."
+    },
+    {
+     "url": "https://www.udyamregistration.gov.in/",
+     "publisher": "Ministry of MSME (Udyam Registration portal)",
+     "title": "Udyam Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bf5eeca835ff.html.gz",
+     "quote": "MSME Registration is free, paperless and based on self- declaration MSME registration process is fully online, paperless and based on self-declaration."
+    },
+    {
+     "url": "https://www.udyamregistration.gov.in/",
+     "publisher": "Ministry of MSME (Udyam Registration portal)",
+     "title": "Udyam Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bf5eeca835ff.html.gz",
+     "quote": "No Costs or Fees are to be paid to anyone."
+    }
+   ],
+   "notes": "The Startup India page's phrase 'service or sales tax registration' is outdated wording (GST replaced both in 2017); it's used here only for the no-separate-registration point. State Shops & Establishments rules for home-based or online businesses were not checked; they vary by state. Udyam sub-page (free-government-portal.html) returned 403; the homepage was used."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "PAN (Permanent Account Number). Quoting it is mandatory when filing an income tax return, and payment platforms (Razorpay, Wise, Payoneer) ask for it. Individuals with Aadhaar and an Aadhaar-linked mobile number can get an instant e-PAN online, free of charge, with no forms, through the Income Tax e-filing portal.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-01/FAQ%20on%20e-PAN.pdf",
+     "publisher": "Income Tax Department, Government of India",
+     "title": "FAQs on e-PAN (2026-01)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d4937f31d5c2.pdf.gz",
+     "quote": "Resolution: It is mandatory to quote your Permanent Account Number (PAN) while filing your Income Tax Return."
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-01/FAQ%20on%20e-PAN.pdf",
+     "publisher": "Income Tax Department, Government of India",
+     "title": "FAQs on e-PAN (2026-01)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d4937f31d5c2.pdf.gz",
+     "quote": "Generating e-PAN is free of cost, online process and does not require you to fill up any forms."
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "From 1 April 2026 the Income Tax Act, 2025 replaces the 1961 Act, which is repealed. Income from FY 2026-27 is 'Tax Year 2026-27'; anything before that stays under the 1961 Act. Residents must report all income from sources outside India in Schedule FSI, claim foreign tax credit under the relevant DTAA in Schedule TR, and disclose all foreign assets and accounts in Schedule FA, unless they are 'not ordinarily resident'. Presumptive scheme for professionals, verified only under the OLD Act for FY 2025-26 (s.44ADA): income declared at 50% of gross receipts with no books required. Eligible if receipts are up to ₹75 lakh (when cash receipts are at most 5%), otherwise ₹50 lakh, for professions listed in s.44AA(1). Under the new Act these schemes are consolidated into section 58, but the new thresholds and rates were not verified because the Act text was blocked (see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act-faq",
+     "publisher": "Income Tax Department (e-filing portal)",
+     "title": "Objective and scope of the New Act FAQs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-714563bbeefb.html.gz",
+     "quote": "The 1961 Act stands repealed on the 01.04.2026 ."
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act-faq",
+     "publisher": "Income Tax Department (e-filing portal)",
+     "title": "Objective and scope of the New Act FAQs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-714563bbeefb.html.gz",
+     "quote": "The concept of \"Tax Year \" is applicable from 01 April 2026, i.e., for income earned during FY 2026 -27 onwards and this will be referred to as Tax Year 2026-27 under the Income Tax Act ,2025."
+    },
+    {
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221416&reg=3&lang=1",
+     "publisher": "Press Information Bureau, Ministry of Finance",
+     "title": "The Income Tax Act, 2025 to come into effect from 1st April, 2026 (01 Feb 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-839ef73e7719.html.gz",
+     "quote": "New Income Tax Act The Income Tax Act, 2025 is slated to come into effect from 1 st April 2026."
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-03/Step%20by%20Step%20Guide%20FA%20FSI.pdf",
+     "publisher": "Income Tax Department",
+     "title": "Step-by-Step Guide to Fill FSI, TR, and FA Schedule in ITR (2026-03)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e1f22372e2bd.pdf.gz",
+     "quote": "Schedule FSI: Details of Income from Outside India and Tax Relief Applicability and Scope: Schedule FSI applies to taxpayers who are residents of India."
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-03/Step%20by%20Step%20Guide%20FA%20FSI.pdf",
+     "publisher": "Income Tax Department",
+     "title": "Step-by-Step Guide to Fill FSI, TR, and FA Schedule in ITR (2026-03)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e1f22372e2bd.pdf.gz",
+     "quote": "In case you are a resident in India, the details of all foreign assets or accounts in respect of which you are a beneficial owner, a beneficiary or the legal owner, is required to be mandatorily disclosed in the Schedule FA."
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/e-filing-itr4-form-sugam-faq",
+     "publisher": "Income Tax Department (e-filing portal)",
+     "title": "File ITR-4 (Sugam) Online FAQs (1961 Act provisions)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-608b40617b19.html.gz",
+     "quote": "The threshold limit under Section 44ADA limit is Rs. 75lakh ((if sum of the amount or aggregate of the amounts received during the previous year, in cash and in any other mode, does not exceed 5% of the total gross receipts of such previous year) and Rs. 50 lakhs otherwise."
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/e-filing-itr4-form-sugam-faq",
+     "publisher": "Income Tax Department (e-filing portal)",
+     "title": "File ITR-4 (Sugam) Online FAQs (1961 Act provisions)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-608b40617b19.html.gz",
+     "quote": "opt for presumptive taxation scheme of Section 44ADA (declare income @50% of the gross receipts), you are not required to maintain the books of accounts in respect of specified profession"
+    }
+   ],
+   "notes": "BLOCKED: incometaxindia.gov.in returns 403 to scripts. The Income-tax Act 2025 text (as amended by Finance Act 2026), the presumptive-scheme FAQ under section 58 and the 1 April 2026 press release all live there. A browser attempt at the FAQ PDF triggered a download dialog for the owner and was abandoned. indiacode.nic.in did not respond. Search summaries say section 58 consolidates 44AD/44ADA/44AE and that presumptive taxpayers pay all advance tax in one instalment by 15 March; NOT VERIFIED and not used. Selling digital PRODUCTS is likely 'business' (old s.44AD), not 'profession' (s.44ADA). Neither the 44AD rates nor which professions count under s.44AA(1) (e.g. IT) were verified. Slab rates were not extracted. Residency tests (182/60 days, RNOR) come from a search summary only and are not used."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "GST. Exports of goods or services are 'zero rated supplies' (IGST Act s.16). A registered exporter can supply under a bond or Letter of Undertaking (LUT, FORM GST RFD-11) without paying integrated tax and claim a refund of unused input tax credit. Registration: people making inter-State supplies of taxable services (exports count as inter-State supplies under IGST s.7(5)(a)) are exempt from registration while their all-India aggregate turnover stays at or below ₹20 lakh a year, or ₹10 lakh in special category States (Notification 10/2017-Integrated Tax). Domestic sales to Indian customers above the threshold are taxable; the current domestic rate for IT services was not verified (see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_IGST_Act/active/chaptervii/section16_v1.00.html",
+     "publisher": "CBIC (Central Board of Indirect Taxes and Customs)",
+     "title": "IGST Act 2017, Section 16: Zero rated supply",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0d7f79cede37.html.gz",
+     "quote": "Zero rated supply.- ( 1 ) \" zero rated supply \" means any of the following supplies of goods or services or both, namely: - ( a ) export of goods or services or both;"
+    },
+    {
+     "url": "https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_IGST_Act/active/chaptervii/section16_v1.00.html",
+     "publisher": "CBIC",
+     "title": "IGST Act 2017, Section 16",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0d7f79cede37.html.gz",
+     "quote": "(3) A registered person making zero rated supply shall be eligible to claim refund of unutilised input tax credit on supply of goods or services or both, without payment of integrated tax, under bond or Letter of Undertaking"
+    },
+    {
+     "url": "https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_IGST_Act/active/chapteriv/section7_v1.00.html",
+     "publisher": "CBIC",
+     "title": "IGST Act 2017, Section 7: Inter-State supply",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0f68a79a51fb.html.gz",
+     "quote": "(5) Supply of goods or services or both,- (a) when the supplier is located in India and the place of supply is outside India; ... shall be treated to be a supply of goods or services or both in the course of inter-State trade or commerce."
+    },
+    {
+     "url": "https://cbic-gst.gov.in/hindi/pdf/integrated-tax/10_2017_IT.pdf",
+     "publisher": "CBIC",
+     "title": "Notification No. 10/2017-Integrated Tax (13 Oct 2017)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-03c4b9a2e29f.pdf.gz",
+     "quote": "hereby specifies the persons making inter - State supplies of taxable services and having an aggregate turnover , to be computed on all India basis, not exceeding an amount of twenty lakh rupees in a financial year as the category of persons exempted fr"
+    }
+   ],
+   "notes": "The special-category ₹10 lakh proviso comes from a search summary (and its 2019 amendment, Notification 03/2019-IT) and wasn't quoted. The domestic rate for heading 9983 (IT and professional services) after the 2025 GST rate changes (Notification 05/2025-CT(Rate)) was not verified. gst.gov.in and tutorial.gst.gov.in did not respond. OIDAR rules for foreign suppliers are out of scope."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Digital Personal Data Protection Act, 2023 (DPDP Act). Its DPDP Rules, 2025 were notified on 14 November 2025 with an 18-month phased compliance timeline. The regulator is the Data Protection Board of India: fully digital, four members, appeals to TDSAT. Penalties reach up to ₹200 crore, for example for failing to notify the Board or affected individuals of a personal data breach. Small sellers handling Indian customers' data are data fiduciaries under the Act.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&reg=3&lang=2",
+     "publisher": "Press Information Bureau, Ministry of Electronics & IT",
+     "title": "Government notifies DPDP Rules to empower citizens and protect privacy (14 Nov 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2bb8b1435976.html.gz",
+     "quote": "The Government of India has notified the Digital Personal Data Protection (DPDP) Rules, 2025, marking the full operationalisation of the DPDP Act, 2023."
+    },
+    {
+     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&reg=3&lang=2",
+     "publisher": "Press Information Bureau, MeitY",
+     "title": "Government notifies DPDP Rules (14 Nov 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2bb8b1435976.html.gz",
+     "quote": "Phased and Practical Implementation The DPDP Rules provide an 18-month phased compliance timeline , allowing organisations time for smooth transition."
+    },
+    {
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf",
+     "publisher": "Press Information Bureau",
+     "title": "DPDP Rules, 2025 Notified (explainer)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-047206c88ce1.pdf.gz",
+     "quote": "Not notifying the Board or affected individuals of a personal data breach as well as violations of obligations relating to children can each attract penalties of up to ₹200 crore."
+    },
+    {
+     "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf",
+     "publisher": "Press Information Bureau",
+     "title": "DPDP Rules, 2025 Notified (explainer)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-047206c88ce1.pdf.gz",
+     "quote": "Digital-First Data Protection Board The Rules establish a fully digital Data Protection Board of India, which will consist of four members."
+    }
+   ],
+   "notes": "18 months from 14 Nov 2025 is about mid-May 2027 (our arithmetic). Which obligations apply when (the Rules' commencement clause) was not extracted; read the Rules text on meity.gov.in before publishing exact dates."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Consumer Protection Act, 2019 plus the Consumer Protection (E-Commerce) Rules, 2020. The Rules cover all goods and services bought or sold over a digital or electronic network, digital products included. An 'e-commerce entity' is anyone who owns, operates or manages a platform for electronic commerce. That includes a person selling from their own website or app, but not a seller on someone else's marketplace (marketplace sellers have separate duties). Every e-commerce entity must set up a grievance mechanism and appoint and display a grievance officer, who acknowledges complaints within 48 hours and resolves them within one month. Amendment Rules 2026 (published Sept 2026) add ranking-transparency and display duties, but their commencement date could not be read reliably (see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf",
+     "publisher": "Department of Consumer Affairs",
+     "title": "Consumer Protection (E-Commerce) Rules, 2020 (Gazette)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3012b37f6f6d.pdf.gz",
+     "quote": "these rules shall apply to: (a) all goods and services bought or sold over digital or electronic network including digital products;"
+    },
+    {
+     "url": "https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf",
+     "publisher": "Department of Consumer Affairs",
+     "title": "Consumer Protection (E-Commerce) Rules, 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3012b37f6f6d.pdf.gz",
+     "quote": "“e-commerce entity” means any person who owns, operates or manages digital or electronic facility or platform for electronic commerce, but does not include a seller offering his goods or services for sale on a marketplace e-commerce entity;"
+    },
+    {
+     "url": "https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf",
+     "publisher": "Department of Consumer Affairs",
+     "title": "Consumer Protection (E-Commerce) Rules, 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3012b37f6f6d.pdf.gz",
+     "quote": "(4) Every e-commerce entity sha ll establish an adequate grievance redressal mechanism having regard to the number of grievances ordinarily received by such entity from India, and shall appoint a grievance officer for consumer grievance redressal"
+    },
+    {
+     "url": "https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf",
+     "publisher": "Department of Consumer Affairs",
+     "title": "Consumer Protection (E-Commerce) Rules, 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-3012b37f6f6d.pdf.gz",
+     "quote": "Every e-commerce entity shall ensure that the grievance officer referred to in sub -rule (4) acknowledges the receipt of any consumer complaint within forty -eight hours and redresses the complaint withi n one month from the date of receipt of the complaint."
+    },
+    {
+     "url": "https://consumeraffairs.gov.in/public/upload/admin/cmsfiles/whatsnews/E_Commerce_Amendment_Rules_2026_2026-09-11_18-12-39.pdf",
+     "publisher": "Department of Consumer Affairs",
+     "title": "Consumer Protection (E-Commerce) Amendment Rules, 2026 (uploaded 11 Sep 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-78b0b8de1b6c.pdf.gz",
+     "quote": "an explanation of the main parameters in descending order whic h, individually or collectively are most s ignificant in determining the ranking of goods or sellers on its platform"
+    }
+   ],
+   "notes": "The 2026 amendment's commencement line extracts as 'come into force with effect from st January .' (the digits are lost in the PDF text layer), and a search summary called it 'proposed'. Commencement date and final or draft status are UNVERIFIED; render the page to read it. The Consumer Protection Act 2019 text itself was not fetched (the Rules cite it)."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "Legal levers verified: (1) GST zero-rating plus LUT: exporters pay no GST on exports and can reclaim input credit, and below ₹20 lakh turnover no GST registration is needed at all (L4). (2) EEFC account: keep 100% of export earnings in foreign currency and pay foreign subscriptions or tools from it (P2). (3) Presumptive taxation for professionals (old s.44ADA: 50% of receipts deemed profit, no books). Under the new Act it is consolidated into section 58, with thresholds to re-verify (L3). (4) Udyam MSME registration: free, online, self-declared (L1). Government schemes such as Startup India recognition or state IT policies were not researched in this pass.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxinformation.cbic.gov.in/content/html/tax_repository/gst/acts/2017_IGST_Act/active/chaptervii/section16_v1.00.html",
+     "publisher": "CBIC",
+     "title": "IGST Act 2017, Section 16",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0d7f79cede37.html.gz",
+     "quote": "(3) A registered person making zero rated supply shall be eligible to claim refund of unutilised input tax credit on supply of goods or services or both, without payment of integrated tax, under bond or Letter of Undertaking"
+    },
+    {
+     "url": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10444&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 10(R)/2015-RB (Amended upto October 09, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97d4481a182c.html.gz",
+     "quote": "A person resident in India may credit to the EEFC Account with an Authorised Dealer in India 100 percent of the foreign exchange earnings as specified here under: i) inward remittance through banking channel"
+    },
+    {
+     "url": "https://www.incometax.gov.in/iec/foportal/help/e-filing-itr4-form-sugam-faq",
+     "publisher": "Income Tax Department (e-filing portal)",
+     "title": "File ITR-4 (Sugam) Online FAQs (1961 Act provisions)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-608b40617b19.html.gz",
+     "quote": "opt for presumptive taxation scheme of Section 44ADA (declare income @50% of the gross receipts), you are not required to maintain the books of accounts in respect of specified profession"
+    },
+    {
+     "url": "https://www.udyamregistration.gov.in/",
+     "publisher": "Ministry of MSME (Udyam Registration portal)",
+     "title": "Udyam Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bf5eeca835ff.html.gz",
+     "quote": "Udyam (MSME) Registration is Free of Cost and paperless."
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "Aadhaar, a 12-digit random number issued by UIDAI to residents of India; enrolment is voluntary. It proves identity but not citizenship or domicile. PAN (tax ID, L2) is the other document that payment platforms ask for: Razorpay, Wise and Payoneer request PAN plus Aadhaar.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://uidai.gov.in/en/about-aadhaar",
+     "publisher": "Unique Identification Authority of India (UIDAI)",
+     "title": "About Your Aadhaar",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8b5e96823f96.html.gz",
+     "quote": "Aadhaar number is a 12-digit random number issued by the UIDAI (“Authority”) to the residents of India after satisfying the verification process laid down by the Authority."
+    },
+    {
+     "url": "https://uidai.gov.in/en/about-aadhaar",
+     "publisher": "UIDAI",
+     "title": "About Your Aadhaar",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8b5e96823f96.html.gz",
+     "quote": "The Aadhaar number is a proof of identity, however, it does not confer any right of citizenship or domicile in respect of an Aadhaar number holder."
+    }
+   ]
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Receive and withdraw'). (6) Stripe lists this country as 'Preview' (sign-up by contacting Stripe sales), which is not a self-serve route for beginners yet. (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (8) Local official channel: Credit 100% of foreign earnings to an EEFC account (RBI), or withdraw from Payoneer in INR to an Indian bank (P2/P5). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "India: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "India: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "India: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "India: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "India: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "India: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "India: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "India: listed by Stripe as Preview (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10444&Mode=0",
+     "publisher": "Reserve Bank of India",
+     "title": "FEMA 10(R)/2015-RB: Foreign Exchange Management (Foreign currency accounts by a person resident in India) Regulations, 2015 (Amended upto October 09, 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-97d4481a182c.html.gz",
+     "quote": "A person resident in India may open, hold and maintain with an authorised dealer in India, a Foreign Currency Account to be known as Exchange Earners’ Foreign Currency (EEFC) Account, subject to the terms and conditions of the Exchange Earners' Foreign Currency Account Scheme specified in the Schedule I ."
+    },
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/how-to-receive-international-payments-in-india/",
+     "publisher": "Payoneer",
+     "title": "How to Receive International Payments in India (Last Modified August 31, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-bf070160e914.html.gz",
+     "quote": "Step 2: Provide Documents for Verification Submit essential documents for verification, including a valid government-issued ID (e.g., Aadhaar or PAN card) and proof of your Indian bank account."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-17",
+ "completed": "2026-10-17",
+ "open_questions": [
+  "Income-tax Act 2025 section 58 thresholds and rates (incometaxindia.gov.in blocks scripts; indiacode unreachable).",
+  "Selling digital products: business (old 44AD) vs profession (44ADA); 44AA(1) professions list (IT?).",
+  "Domestic GST rate for IT/professional services after 2025 rate changes.",
+  "E-Commerce Amendment Rules 2026: commencement date and draft-or-final status.",
+  "DPDP Rules phase dates (commencement clause).",
+  "State Shops & Establishments licence for home/online businesses."
+ ]
+}

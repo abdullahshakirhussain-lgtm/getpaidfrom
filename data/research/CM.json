@@ -1,0 +1,333 @@
+{
+ "code": "CM",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under CEMAC exchange control (Regulation 02/18/CEMAC/UMAC/CM). Service-export receipts must be collected and repatriated by the exporter through its domiciliary bank via the BEAC (art. 70). Service transactions of FCFA 5m or more must be domiciled with a CEMAC credit institution (art. 68) and backed by a contract, purchase order or invoice (art. 69). Foreign currency received by banks is surrendered to the BEAC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM portant réglementation des changes",
+     "title": "Règlement 02/18/CEMAC, art. 70",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 70. Les recettes d'exportation des services sont recouvrées et rapatriées par I'exportateur à travers sa banque domiciliataire par I'entremise de la Banque Centrale."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 68",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 68. Les transactions avec I'extérieur liées aux services d'un montant égal ou supérieur à 5 millions de Francs CFA sont domiciliées auprès d'un établissement de crédit de la CEMAC."
+    }
+   ],
+   "notes": "OCR text of the BEAC PDF (e.g. 'I'extérieur'); quotes copied as extracted. No specific repatriation deadline for services found (goods: 150 days). Later BEAC instructions not checked. Applies in all six CEMAC states."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "No. Opening a foreign-currency account within CEMAC for a resident is not authorised (art. 43). Only resident legal persons may be authorised by the BEAC. Resident individuals' accounts abroad must be declared to the BEAC (art. 42).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 43",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 43. L'ouverture d'un compte en devises dans la CEMAC au profit d'un résident n'est pas autorisée."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 42",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 42. Les comptes des personnes physiques résidentes ouverts à l'étranger sont déclarés à la Banque Centrale."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Cameroon (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Cameroon is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Cameroon is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established. A commercial guide says mobile-money merchant accounts and online payment require the RCCM and NIU (a registered business)."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Effectively no for income. A Cameroonian PayPal account can receive payments, but per a 2026 guide the balance can only be used for online payments, and users cannot withdraw to local bank accounts. Cameroon is not on the PayPal Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://temovision.com/fr/retirer-de-largent-via-paypal-au-cameroun/",
+     "publisher": "Temovision",
+     "title": "Moyens gratuits de retirer de l'argent de PayPal Cameroun 2026 (updated 3 Mar 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-082f3e8e9305.html.gz",
+     "quote": "De plus, à ce jour, les utilisateurs de Paypal Cameroun ne peuvent pas retirer d'argent de leurs comptes PayPal et l'envoyer vers leurs comptes bancaires locaux au Cameroun."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Cameroon is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Cameroon is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed (only forum/blog testimony). Under CEMAC rules, individuals must declare foreign accounts to the BEAC (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Cameroon."
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: an individual enterprise (entreprenant/sole trader) registered at the CFCE one-stop shop, which handles RCCM and NIU. A commercial guide estimates FCFA 46,500 (5,000 name reservation + 41,500 RCCM) and about 5 days, with no notary needed.",
+   "status": "unverified",
+   "note": "Only commercial guides (Kolonell) captured for CFCE costs/steps; CFCE's own site not consulted on 2026-10-21.",
+   "sources": [
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-cameroun-etapes-cout-delai-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au Cameroun (2026) — CFCE",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-49a4e38e5484.html.gz",
+     "quote": "Les étapes au Cameroun via le CFCE Le CFCE est un guichet unique qui regroupe l'immatriculation au registre du commerce, l'obtention du numéro d'identifiant unique (NIU) fiscal, et les déclarations sociales."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIU (Numéro d'Identifiant Unique), a 14-character taxpayer number from the DGI. Since April 2025 registration is online-only via the DGI tele-declaration platform, using the national ID card number. Since Finance Law 2020 it has been required to open a bank account, connect utilities, take out insurance, and for other transactions.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://infospratiques.cm/?p=424",
+     "publisher": "Infos Pratiques Cameroun",
+     "title": "NIU Cameroun : comment obtenir son numéro de contribuable (Guide 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-2c96d0fdd981.html.gz",
+     "quote": "Procédure pour obtenir le NIU en ligne Depuis avril 2025, l’immatriculation fiscale s’effectue exclusivement en ligne via la plateforme officielle de télédéclaration de la DGI."
+    },
+    {
+     "url": "https://lefisk.cm/blog/numero-identifiant-fiscal-cameroun-niu-format-obtention-verification",
+     "publisher": "Lefisk",
+     "title": "Numéro identifiant fiscal Cameroun (NIU) : format, obtention, vérification",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-7f83e4012724.html.gz",
+     "quote": "Au Cameroun, il s'appelle NIU (Numéro d'Identifiant Unique) et obéit à un format strict de 14 caractères qui révèle plusieurs informations sur le contribuable."
+    }
+   ],
+   "notes": "Whether a FCFA 1,000 digital stamp applies is disputed between guides."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Since fiscal year 2025, the Impôt Général Synthétique (IGS) applies to businesses with turnover up to FCFA 50m. It replaced the impôt libératoire, the simplified regime, the business licence, VAT and personal income tax on commercial profits with a fixed annual amount per turnover class, paid quarterly to municipalities. Since January 2026, approved clients withhold 2% (5% for public procurement) on invoices, creditable only against the next year's IGS. Above FCFA 50m the real regime applies. Treatment of foreign-source income was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://beancount.io/fr/blog/2026/09/22/cameroon-igs-comprehensive-tax-turnover-brackets-small-business-guide",
+     "publisher": "Beancount",
+     "title": "Le nouvel impôt IGS du Cameroun (22 Sep 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-9608120f1bee.html.gz",
+     "quote": "Il regroupe plusieurs anciennes obligations — l'impôt libératoire, le régime simplifié, la patente, la TVA et l'impôt sur le revenu des personnes physiques frappant les bénéfices commerciaux — en un seul impôt forfaitaire unique pour les petites entreprises."
+    },
+    {
+     "url": "https://lefisk.cm/blog/igs-retenue-source-2-pourcent-cameroun-tresorerie-imputation-annee-suivante-communes",
+     "publisher": "Lefisk",
+     "title": "IGS : retenue à la source de 2 % (2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-26e1d746cd34.html.gz",
+     "quote": "Dans la même salle, la Chambre de commerce, d'industrie, des mines et de l'artisanat (CCIMA) a soulevé un problème que peu de dirigeants ont encore identifié dans leurs comptes : depuis janvier 2026, les clients habilités retiennent 2 % du montant hors taxes de vos factures — 5 % pour la commande publique — et ces retenues ne s'imputent que sur l'IGS de l'année suivante ."
+    }
+   ],
+   "notes": "TRAP: some 2026 guides (incl. Lefisk's VAT page) still describe a 'régime simplifié' for FCFA 10–50m, which IGS replaced from FY2025. IGS class amounts not captured; CGI not read."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 19.25% effective (17.5% plus 10% municipal surcharge). Exports are zero-rated with VAT credit refunds. IGS taxpayers (turnover up to FCFA 50m) do not charge VAT. Whether online services to foreign clients qualify as exports was not confirmed against the CGI.",
+   "status": "unverified",
+   "note": "Only one secondary domain captured (Lefisk VAT page; Kintsugi/PayPro results not captured); impots.cm CGI not retrieved on 2026-10-21.",
+   "sources": [
+    {
+     "url": "https://lefisk.cm/blog/regimes-tva-cameroun-reel-simplifie-exonerations",
+     "publisher": "Lefisk",
+     "title": "Régimes de TVA au Cameroun 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-0d4a8fc64f5f.html.gz",
+     "quote": "Les principales catégories en 2026 : Exportations (TVA à taux 0 — ouvre droit à remboursement du crédit de TVA)."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2024/017 of 23 Dec 2024 on personal data protection entered into force on 23 June 2026, after an 18-month grace period. It is enforced by the new Data Protection Authority (APDP). Cross-border transfers and foreign hosting require showing equivalent protection and prior authorisation. Declaration formalities for small businesses were not read in the text.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1297-cameroun-la-loi-sur-la-protection-des-donnees-a-caractere-personnel-entre-en-vigueur-ce-23-juin-2026",
+     "publisher": "Droit Médias Finance",
+     "title": "CAMEROUN : La loi sur la protection des données à caractère personnel entre en vigueur ce 23 juin 2026",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-3a7c2f19e223.html.gz",
+     "quote": "Promulguée en fin d'année 2024, la Loi n° 2024/017 avait accordé un moratoire de 18 mois aux entreprises et administrations publiques."
+    },
+    {
+     "url": "https://cio-mag.com/protection-des-donnees-au-cameroun-la-course-contre-la-montre-avant-juin-2026/",
+     "publisher": "CIO Mag",
+     "title": "Protection des données au Cameroun : la course contre la montre avant juin 2026 (23 Dec 2025)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-7038d90999ab.html.gz",
+     "quote": "À l’approche de l’échéance fatidique du 23 juin 2026, la mise en conformité n’est plus une option mais une obligation pour éviter des sanctions lourdes de l’Autorité de protection des données à caractère Personnel (APDP)."
+    }
+   ],
+   "notes": "Law text not read."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under Law 2010/021 on e-commerce, consumers may withdraw within 15 days, counted from the day after receipt for goods (art. 20). The seller must refund within 15 days of return or renunciation. Non-conforming or late goods may be returned within 15 days of delivery (art. 21). The framework consumer law 2011/012 separately grants up to 14 days for contracts concluded at the supplier's initiative (art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mincommerce.gov.cm/sites/default/files/documents/loi-n-2010-021-du-21-decembre-2010-regissant-le-commerce-electronique-au-cameroun.pdf",
+     "publisher": "Ministère du Commerce du Cameroun — Loi n° 2010/021 régissant le commerce électronique",
+     "title": "Loi 2010/021, art. 20",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-9de226fffa2e.pdf.gz",
+     "quote": "Art.20.- (1) Sous réserve des dispositions de l’article 15 ci -dessus, le consommateur peut se rétracter dans un délai de quinze (15) jours : - A compter du lendemain de la date de leur réception par le consommateur, pour les marchandises ;"
+    },
+    {
+     "url": "https://www.art.cm/sites/default/files/documents/loi_cadre_2011_012_06052011_protect_conso.pdf",
+     "publisher": "Agence de Régulation des Télécommunications — Loi-cadre n° 2011/012 portant protection du consommateur",
+     "title": "Loi-cadre 2011/012, art. 7",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-38b2897a5a4c.pdf.gz",
+     "quote": "Article 7 : Le consommateur a le droit de se rétracter dans un délai ne pouvant excéder quatorze (14) jours à compter de la date de signature ou d’exécution d’un contrat, de réception d’une technologie, d’un bien ou d’un service lo rsque le contrat a été conclu, indépendamment du lieu, à l’initiale du fournisseur, du vendeur ou de ses employés, agents ou serviteurs."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "The IGS single tax for turnover up to FCFA 50m, which covers several taxes including VAT (L3), is the main simplification. No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No source on tax holidays/incentives for individuals found on 2026-10-21; IGS details are covered in L3.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card (CNI). Its number is used for online NIU registration, and the NIU itself is required to open a bank account (L2).",
+   "status": "unverified",
+   "note": "CNI role rests on NIU guides only; no ID-authority source captured on 2026-10-21.",
+   "sources": [],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed). The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Cameroon: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Cameroon: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Cameroon: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-21",
+ "completed": "2026-10-21",
+ "open_questions": [
+  "CEMAC: no explicit repatriation deadline for services found in Reg. 02/18; later BEAC instructions not checked.",
+  "IGS class amounts and CGI text (impots.cm) not read; VAT on exported services and VAT sources single-domain.",
+  "Law 2024/017 declaration formalities not read.",
+  "Local gateways (Notch Pay, CinetPay, MoMo merchant) and Payoneer not confirmed; CFCE official fees; CNI/KYC source."
+ ]
+}

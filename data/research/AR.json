@@ -1,0 +1,526 @@
+{
+ "code": "AR",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, with exchange-control conditions. Export proceeds normally must be brought in and 'liquidated' (converted to pesos) in the official FX market (MULC). For INDIVIDUALS (personas humanas), BCRA Com. 'A' 8330 (18 Sep 2025) removed the former USD 36,000/yr cap on the exemption for service exports. Com. 'A' 8417 (9 Apr 2026) extended the exemption from liquidation to all goods- and service-export collections of individuals, provided the funds are credited to a foreign-currency account in the exporter's own name at a local financial entity. The exemption does not apply to individuals acting for companies. Funds must still enter within the normal period (20 business days from collection per practitioners). Banks may not charge their own fees for crediting incoming foreign funds to individuals' accounts.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://allende.com/bancario/el-banco-central-flexibiliza-el-regimen-cambiario-para-exportaciones-transferencias-en-moneda-extranjera-y-pagos-financieros-04-14-2026/",
+     "publisher": "Allende & Brea",
+     "title": "El Banco Central flexibiliza el régimen cambiario ... (14 Apr 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6a2c3f51b131.html.gz",
+     "quote": "(i) Las personas humanas quedan exceptuadas de la obligación de ingreso y liquidación de los cobros por exportaciones de bienes y servicios, siempre que se cumplan conjuntamente las siguientes condiciones: a."
+    },
+    {
+     "url": "https://allende.com/bancario/el-banco-central-flexibiliza-el-regimen-cambiario-para-exportaciones-transferencias-en-moneda-extranjera-y-pagos-financieros-04-14-2026/",
+     "publisher": "Allende & Brea",
+     "title": "Com. A 8417 — condiciones",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6a2c3f51b131.html.gz",
+     "quote": "Que los fondos por esas exportaciones sean acreditados en cuentas en moneda extranjera de titularidad del exportador abiertas en entidades financieras locales, y b."
+    },
+    {
+     "url": "https://www.estudio-ofarrell.com/el-banco-central-de-la-republica-argentina-flexibiliza-el-regimen-cambiario-para-cobros-de-servicios-y-exportaciones-para-personas-humanas/",
+     "publisher": "Estudio O'Farrell",
+     "title": "BCRA flexibiliza el régimen cambiario ... personas humanas (22 Sep 2025)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-45ee719b5738.html.gz",
+     "quote": "Se elimina el límite anual de USD 36.000 para la aplicación de la excepción en la obligación de liquidación de cobros por exportaciones de servicios."
+    },
+    {
+     "url": "https://www.smartlog.com.ar/blog/exportacion-de-servicios-abril-2026-nueva-opcion-para-no-liquidar-divisas/",
+     "publisher": "Smartlog",
+     "title": "Exportación de servicios Abril 2026: nueva opción para no liquidar divisas",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2375101d3330.html.gz",
+     "quote": "Según el marco vigente, dicho ingreso debe realizarse dentro de los 20 días hábiles desde: La fecha de percepción en el exterior o en el país, o La acreditación en cuentas del exterior."
+    }
+   ],
+   "notes": "BCRA's site (bcra.gob.ar) timed out or returned 502 from this environment; the Communications were not read directly. Three independent firms agree."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Individuals hold USD accounts at local banks, and under Com. 'A' 8417 export proceeds credited to the exporter's own local foreign-currency account need not be converted to pesos. Since Com. 'A' 8330, banks may not apply their own charges when crediting funds from abroad to such accounts (foreign intermediary costs may be passed on at cost).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://allende.com/bancario/el-banco-central-flexibiliza-el-regimen-cambiario-para-exportaciones-transferencias-en-moneda-extranjera-y-pagos-financieros-04-14-2026/",
+     "publisher": "Allende & Brea",
+     "title": "Com. A 8417",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6a2c3f51b131.html.gz",
+     "quote": "Que los fondos por esas exportaciones sean acreditados en cuentas en moneda extranjera de titularidad del exportador abiertas en entidades financieras locales"
+    },
+    {
+     "url": "https://www.bodlegal.com/nuevas-comunicaciones-del-bcra-claves-para-exportadores-de-servicios-empresas-e-inversores/",
+     "publisher": "Barreiro | Abogados",
+     "title": "Nuevas Comunicaciones del BCRA (A 8330/8331)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-800a33fc7385.html.gz",
+     "quote": "Las entidades financieras no podrán aplicar cargos propios en operaciones que impliquen la acreditación de fondos del exterior en cuentas en moneda extranjera."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Argentina (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Argentina is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Argentina is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Mercado Pago: with just a free Mercado Pago account you can create a payment link, no website needed. Buyers can pay by credit card in instalments, debit, cash or Mercado Pago balance. Fees depend on settlement speed, instalments and provincial taxes (the instalment-cost table is published on the page). Tax-registration requirements for receiving via Mercado Pago (CUIT/monotributo) were not confirmed on an official MP page."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. PayPal lists Argentina as 'Send, receive, and withdraw' (automated Payouts collector), and PayPal's fee schedule covering Argentina (AR) lists a withdrawal fee of ARS 75 per withdrawal in ARS to a bank account.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/ar/webapps/mpp/merchant-fees",
+     "publisher": "PayPal",
+     "title": "Comisiones para comercios (AR)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-e0eab286a5b8.html.gz",
+     "quote": "AR ARS 75.00 (por retiro en ARS)"
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina is listed as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "The AR fee page content is the shared multi-market schedule (same as CO). Exchange-control treatment of PayPal balances (A 8417 requires a local FX account for the liquidation exemption) should be noted in the guide."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer (official guide, Jan 2026): withdraw to Argentine bank accounts in ARS, or send to a USD account in Argentina, with up to 2% fee; receiving banks may request documents for incoming USD. Etsy pays Argentine sellers via Payoneer (automated collector). Wise: Argentina IS on Wise's list of countries whose residents can hold money.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/es/resources/business/estrategias-para-usar-y-mover-tus-fondos-en-argentina/",
+     "publisher": "Payoneer",
+     "title": "Estrategias para usar y mover tus fondos en Argentina (15 Jan 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-5fa11d95035e.html.gz",
+     "quote": "¿Puedo enviar dinero a una cuenta en USD en Argentina? Sí, con hasta 2% de comisión."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Andorra Argentina Australia Austria"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "An individual registers with ARCA (formerly AFIP), obtaining a CUIT (free; requires fiscal key level 3+ and a valid DNI), and enrols in a tax regime. The simplest is the Monotributo (Régimen Simplificado), which unifies IVA, income tax, pension contributions and health coverage into a single monthly payment, by category of annual gross billing (A to K). No company is required.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.argentina.gob.ar/economia/inclusion-financiera/como-registrar-tu-emprendimiento/monotributista",
+     "publisher": "Argentina.gob.ar (Ministerio de Economía)",
+     "title": "Monotributista",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-897360828bfd.html.gz",
+     "quote": "El monotributo unifica el componente impositivo (IVA y Ganancias) y el componente previsional (aportes jubilatorios y obra social) en una única cuota mensual , haciendo más simple y ágil cumplir con tus obligaciones."
+    },
+    {
+     "url": "https://www.arca.gob.ar/inscripcion/cuit-cdi/residentes-pais-dni-argentino.asp",
+     "publisher": "ARCA",
+     "title": "CUIT — Residentes en el país con DNI argentino",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7c9526e3c559.html.gz",
+     "quote": "Residentes en el país con DNI argentino Qué necesitás Clave fiscal nivel 3 o superior."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The CUIT (Clave Única de Identificación Tributaria), issued by ARCA. Residents with an Argentine DNI apply with fiscal key level 3 or higher and an image of their valid DNI (front and back), via the digital CUIT platform, the ARCA Móvil app or the 'Sistema Registral' service.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.arca.gob.ar/inscripcion/cuit-cdi/residentes-pais-dni-argentino.asp",
+     "publisher": "ARCA",
+     "title": "CUIT — Residentes en el país con DNI argentino",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7c9526e3c559.html.gz",
+     "quote": "DNI vigente (imagen color, legible: frente y dorso)."
+    }
+   ],
+   "notes": "That obtaining the CUIT is free was stated in search summaries (ARCA) but not in the captured quote."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (e.g. Argentine nationals living in Argentina, foreigners resident more than 12 months) are taxed on worldwide income with a foreign tax credit. Self-employed progressive rates run from 5% to 35% (FY2025: 35% above ARS 53,153,257). Monotributo replaces income tax and IVA with a fixed monthly fee by category. From 1 Aug 2026, category A (annual gross income up to ARS 12,009,410.45) pays ARS 49,527.18/month for services, and category K (up to ARS 126,610,838.75) pays ARS 1,614,446.04/month for services. Categories are updated twice a year.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/argentina/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Argentina — Taxes on personal income (reviewed 16 Jun 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d86b5e3be28e.html.gz",
+     "quote": "Individuals resident in Argentina are taxable on worldwide income and may obtain a foreign tax credit for taxes paid on income from foreign sources."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/argentina/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Argentina — self-employed scale",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-d86b5e3be28e.html.gz",
+     "quote": "The self-employed progressive scale for FY 2025 ranges from 5% (on the first ARS 1,749,902 of taxable income) up to 35% (on taxable income exceeding ARS 53,153,257)."
+    },
+    {
+     "url": "https://www.afip.gob.ar/monotributo/categorias.asp",
+     "publisher": "ARCA (Monotributo)",
+     "title": "Montos y categorías vigentes (desde 1/08/2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7e0274e51b29.html.gz",
+     "quote": "Valores de aplicación desde el 1/08/2026 Cuadro de categorías y valores del monotributo"
+    },
+    {
+     "url": "https://www.afip.gob.ar/monotributo/categorias.asp",
+     "publisher": "ARCA (Monotributo)",
+     "title": "Montos y categorías vigentes — categoría K",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7e0274e51b29.html.gz",
+     "quote": "K $126.610.838,75 Hasta 200 m2 Hasta 20000 Kw $8.378.658,45 $716.840,77 $1.368.514,20 $456.171,40 $158.049,02 $87.882,82 $1.614.446,04 $702.103,24"
+    },
+    {
+     "url": "https://www.afip.gob.ar/monotributo/categorias.asp",
+     "publisher": "ARCA (Monotributo)",
+     "title": "Montos y categorías vigentes (desde 1/08/2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7e0274e51b29.html.gz",
+     "quote": "A $12.009.410,45 Hasta 30 m2 Hasta 3330 Kw $2.792.886,15 $716.840,77 $5.585,77 $5.585,77 $18.246,86 $25.694,55 $49.527,18"
+    }
+   ],
+   "notes": "Column reading of the ARCA table: annual income cap, area, energy, rent, max unit price, integrated tax (services | goods), SIPA, health, total (services | goods). Category A total for services is ARS 49,527.18 (same table)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The general IVA rate is 21% (10.5% and 27% for specific items). Exports of goods and services are zero-rated, with input-VAT refund under art. 43 of the VAT Law. Monotributo taxpayers do not charge IVA separately, since the monotributo fee includes the IVA component (L1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/argentina/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Argentina — Other taxes (VAT)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0777c2b5e82f.html.gz",
+     "quote": "The VAT rate is 21%, although certain specific items are subject to a 27% or 10.5% rate."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/argentina/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Argentina — VAT export regime",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-0777c2b5e82f.html.gz",
+     "quote": "VAT export reimbursement regime Exports of goods and services are treated as zero-rated transactions."
+    },
+    {
+     "url": "https://www.afip.gob.ar/genericos/documentos/RecuperoImpuestoValorAgregadoExportaciones.pdf",
+     "publisher": "ARCA (AFIP)",
+     "title": "Recupero del Impuesto al Valor Agregado por Exportaciones",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-0cd8b1f38146.pdf.gz",
+     "quote": "a fin de contar con una base para la comprensión del beneficio normado por el artículo 43 de la Ley del Impuesto al Valor Agregado Nº 23.349."
+    }
+   ],
+   "notes": "The VAT law's definition of exported services (use or effective exploitation abroad) was not read from the statute (infoleg 403)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Ley 25.326 (Personal Data Protection), supervised by the AAIP. Files and databases that allow obtaining information about people must be registered in the National Register of Personal Databases, done online via TAD with a fiscal key. The controller must register first, and registration does not expire. Files for exclusively personal use are exempt. When collecting data, controllers must inform data subjects of the purpose, recipients, the database's existence, and the controller's identity and address.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.argentina.gob.ar/aaip/datospersonales/tramites",
+     "publisher": "AAIP (argentina.gob.ar)",
+     "title": "Trámites ante el Registro Nacional de Bases de Datos Personales",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-83c2ef744e39.html.gz",
+     "quote": "Los archivos y bases de datos que permitan obtener información sobre las personas deben estar inscriptos en el Registro Nacional de Bases de Datos"
+    },
+    {
+     "url": "https://www.argentina.gob.ar/aaip/datospersonales/responsables/obligaciones",
+     "publisher": "AAIP (argentina.gob.ar)",
+     "title": "Obligaciones de los responsables de bases de datos personales",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-3f278c8d00ae.html.gz",
+     "quote": "Los archivos de uso exclusivo personal están exceptuados de la obligación de inscripción (por ejemplo: computadora personal con direcciones de amistades y agendas)."
+    },
+    {
+     "url": "https://www.argentina.gob.ar/registrar-bases-de-datos-personales-privadas",
+     "publisher": "AAIP (argentina.gob.ar)",
+     "title": "Registrar bases de datos personales privadas",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-22a09fb13d85.html.gz",
+     "quote": "Las bases de datos privadas destinadas a dar informes deben estar inscriptas en el Registro Nacional de Bases de Datos."
+    }
+   ],
+   "notes": "Scope tension: AAIP pages use both 'bases ... que permitan obtener información sobre las personas' (broad) and 'destinadas a dar informes' (art. 21 wording). The guide should advise registering customer databases."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Ley 24.240 art. 34 and Civil and Commercial Code art. 1110: consumers in distance contracts may revoke acceptance within 10 calendar days from delivery or conclusion of the contract. Websites selling goods or services must include a 'botón de arrepentimiento' (repentance button), now governed by Disposición 954/2025, which repealed Res. 424/2020. The provider may not require prior registration or any extra step to use it.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.argentina.gob.ar/justicia/derechofacil/leysimple/boton-arrepentimiento",
+     "publisher": "Argentina.gob.ar (Derecho Fácil)",
+     "title": "Ley simple: Botón de arrepentimiento",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-d028263c45ef.html.gz",
+     "quote": "10 días corridos contados desde que te entregaron lo que compraste o desde que celebraste el contrato."
+    },
+    {
+     "url": "https://www.argentina.gob.ar/normativa/nacional/norma-417152/texto",
+     "publisher": "Argentina.gob.ar (Normativa) — Disposición 954/2025",
+     "title": "Disposición 954/2025 — Subsecretaría de Defensa del Consumidor",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-363274314db2.html.gz",
+     "quote": "Al momento de hacer uso del BOTÓN DE ARREPENTIMIENTO, el proveedor no podrá requerir al consumidor registración previa ni ningún otro trámite adicional."
+    }
+   ],
+   "notes": "Disposición 3/2026 reportedly allows reasonable identity-verification steps; not captured."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Monotributo: one fixed monthly payment covering IVA, income tax, pension and health, by billing category (L3). (2) FX liberalisation for individuals: export proceeds can stay in USD in a local account (Com. A 8417), with no own-bank fees on incoming transfers (A 8330). (3) Exports are zero-rated for IVA with refund (L4). The Knowledge Economy regime (Ley 27.506) was not researched for individuals.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.argentina.gob.ar/economia/inclusion-financiera/como-registrar-tu-emprendimiento/monotributista",
+     "publisher": "Argentina.gob.ar (Ministerio de Economía)",
+     "title": "Monotributista",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-897360828bfd.html.gz",
+     "quote": "Para ser monotributista se deben cumplir determinados parámetros en términos de facturación anual, superficie de locales, energía eléctrica consumida y monto de alquiler del local/es."
+    },
+    {
+     "url": "https://www.smartlog.com.ar/blog/exportacion-de-servicios-abril-2026-nueva-opcion-para-no-liquidar-divisas/",
+     "publisher": "Smartlog",
+     "title": "Exportación de servicios Abril 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-2375101d3330.html.gz",
+     "quote": "Con esta nueva disposición, se eliminan esas restricciones y el beneficio se universaliza para cualquier operación realizada por personas humanas que exporten servicios."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The DNI (Documento Nacional de Identidad) card, required (valid) for CUIT registration. The optional 'DNI en tu celular' (Mi Argentina app) has the same validity as the DNI card but does not replace it.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.argentina.gob.ar/interior/dni-en-tu-celular/preguntas-frecuentes-dni-en-tu-celular",
+     "publisher": "Argentina.gob.ar (Ministerio del Interior)",
+     "title": "DNI en tu celular — preguntas frecuentes",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-67c0b43aabf5.html.gz",
+     "quote": "Tiene la misma validez que el DNI tarjeta."
+    },
+    {
+     "url": "https://www.argentina.gob.ar/interior/dni-en-tu-celular/preguntas-frecuentes-dni-en-tu-celular",
+     "publisher": "Argentina.gob.ar (Ministerio del Interior)",
+     "title": "DNI en tu celular — reemplazo",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-67c0b43aabf5.html.gz",
+     "quote": "Tenerlo es opcional y no reemplaza al DNI tarjeta vigente."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (7) Local official channel: Keep service-export proceeds in your own local USD account without converting to pesos (BCRA Com. 'A' 8417); banks may not charge their own fees on incoming transfers (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Argentina: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://allende.com/bancario/el-banco-central-flexibiliza-el-regimen-cambiario-para-exportaciones-transferencias-en-moneda-extranjera-y-pagos-financieros-04-14-2026/",
+     "publisher": "Allende & Brea",
+     "title": "El Banco Central flexibiliza el régimen cambiario ... (14 Apr 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6a2c3f51b131.html.gz",
+     "quote": "(i) Las personas humanas quedan exceptuadas de la obligación de ingreso y liquidación de los cobros por exportaciones de bienes y servicios, siempre que se cumplan conjuntamente las siguientes condiciones: a."
+    },
+    {
+     "url": "https://allende.com/bancario/el-banco-central-flexibiliza-el-regimen-cambiario-para-exportaciones-transferencias-en-moneda-extranjera-y-pagos-financieros-04-14-2026/",
+     "publisher": "Allende & Brea",
+     "title": "Com. A 8417",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-6a2c3f51b131.html.gz",
+     "quote": "Que los fondos por esas exportaciones sean acreditados en cuentas en moneda extranjera de titularidad del exportador abiertas en entidades financieras locales"
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "bcra.gob.ar unreachable (timeout/502): Com. A 8330 and A 8417 not read directly (3 independent firms agree). Re-check the Texto Ordenado 'Exterior y Cambios' 2.2 for the current wording and any later changes.",
+  "infoleg.gob.ar 403: VAT law definition of exported services and Ley 24.240 art. 34 text read only via official summaries.",
+  "Whether receiving via Mercado Pago / PayPal requires CUIT/monotributo; how PayPal balances fit the A 8417 'local FX account' condition.",
+  "AAIP registration scope ('permitan obtener información' vs 'destinadas a dar informes').",
+  "Monotributo values change every Feb/Aug (current from 1 Aug 2026)."
+ ]
+}

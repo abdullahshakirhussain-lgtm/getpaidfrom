@@ -1,0 +1,559 @@
+{
+ "code": "PH",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, freely. BSP's Manual of Regulations on Foreign Exchange Transactions says residents may use FX receipts, acquisitions or earnings from non-trade sources (services count here) freely for any purpose. At their option they may sell them for pesos, keep them, or deposit them in foreign-currency accounts in the Philippines or abroad. There is no surrender or mandatory conversion.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "http://philippine-embassy.de/wp-content/uploads/2023/04/MORFXT.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas (copy hosted by the Philippine Embassy, Berlin)",
+     "title": "Manual of Regulations on Foreign Exchange Transactions (updated as of July 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-534d8ce1e265.pdf.gz",
+     "quote": "Foreign exchange receipts, acquisitions or earnings of residents from non-trade sources may be used freely for any purpose."
+    },
+    {
+     "url": "http://philippine-embassy.de/wp-content/uploads/2023/04/MORFXT.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas (copy hosted by the Philippine Embassy, Berlin)",
+     "title": "Manual of Regulations on Foreign Exchange Transactions (updated as of July 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-534d8ce1e265.pdf.gz",
+     "quote": "Such proceeds may, at the option of said residents, be sold for pesos , retained or deposited in foreign cur rency accounts, whether in the Philippines or abroad."
+    }
+   ],
+   "notes": "bsp.gov.ph returns 403 to scripts and a WAF 'under maintenance' block page in the browser (not bypassed). The copy used is BSP's Manual as updated to July 2022, hosted by a Philippine embassy; later BSP circulars (e.g. 1171/2023, 1192/2024) were not read. Re-check against the current MORFXT."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes. Residents may keep FX earnings or deposit them in foreign-currency accounts in the Philippines or abroad (BSP FX Manual). Banks operate Foreign Currency Deposit Units (FCDUs and EFCDUs) for this.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "http://philippine-embassy.de/wp-content/uploads/2023/04/MORFXT.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas (copy hosted by the Philippine Embassy, Berlin)",
+     "title": "Manual of Regulations on Foreign Exchange Transactions (updated as of July 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-534d8ce1e265.pdf.gz",
+     "quote": "Such proceeds may, at the option of said residents, be sold for pesos , retained or deposited in foreign cur rency accounts, whether in the Philippines or abroad."
+    },
+    {
+     "url": "http://philippine-embassy.de/wp-content/uploads/2023/04/MORFXT.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas (copy hosted by the Philippine Embassy, Berlin)",
+     "title": "Manual of Regulations on Foreign Exchange Transactions (updated as of July 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-534d8ce1e265.pdf.gz",
+     "quote": "Transactions with Foreign Currency Deposit Units (FCDUs)/ Expanded Foreign Currency Deposit Units (EFCDUs) Section 52."
+    }
+   ]
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Philippines (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Philippines is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Philippines is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "PayMongo states that it is regulated by the Bangko Sentral ng Pilipinas. Freelancers and social sellers NOT registered with DTI can open an 'Individual (Unregistered)' account, but that tier only gives QR Ph acceptance, a wallet and API keys. Online cards, GCash, Maya, GrabPay and similar, plus bank and e-wallet disbursements, need an upgrade to a registered type; sole proprietors need a DTI certificate. BSP's own register of operators of payment systems couldn't be read (blocked). Maya and Xendit were not checked. The licence claim is PayMongo's own; BSP's register (bsp.gov.ph) is blocked. Individual-tier wallet limits (₱50k) come from a search summary and are not verified."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "Fully available. The PayPal Payouts table lists the Philippines as 'Send, receive, and withdraw in local currency', and PayPal PH accounts can withdraw to a bank (Wallet then Transfer to your bank).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines row: 'Send, receive, and withdraw in local currency' (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://www.paypal.com/ph/cshelp/article/how-do-i-withdraw-money-to-my-bank-account-help394",
+     "publisher": "PayPal",
+     "title": "How do I withdraw money from my PayPal account? (PayPal PH)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6f57319ad84a.html.gz",
+     "quote": "To withdraw money from your PayPal account: Go to Wallet ."
+    }
+   ]
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Both available. Payoneer: withdraw to any Philippine bank account in your own name; the account holder name must match your Payoneer registration exactly (guide last modified 20 May 2026). Wise: the Philippines is on Wise's list of countries where you can hold money and is NOT on the list barred from USD account details, so residents can hold balances and get account details.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/withdraw-payoneer-earnings-in-the-philippines/",
+     "publisher": "Payoneer",
+     "title": "How to Withdraw Payoneer Earnings to Your Philippine Bank Account (Last Modified May 20, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-73e646aa22bb.html.gz",
+     "quote": "It lets you transfer your Payoneer balance directly to any Philippine bank account on your own schedule."
+    },
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/withdraw-payoneer-earnings-in-the-philippines/",
+     "publisher": "Payoneer",
+     "title": "How to Withdraw Payoneer Earnings to Your Philippine Bank Account",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-73e646aa22bb.html.gz",
+     "quote": "Enter your bank name, account holder name, and account number.The account holder name must match your Payoneer registration name exactly."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Norway Peru Philippines Poland Portugal"
+    },
+    {
+     "url": "https://wise.com/help/articles/2810318/can-i-get-usd-account-details",
+     "publisher": "Wise",
+     "title": "Can I get USD account details?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ac0f5ed24cc.html.gz",
+     "quote_type": "description",
+     "quote": "The Philippines is not in the list of addresses that can't get USD account details."
+    }
+   ]
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Yes, with BIR. BIR's Taxpayer's Guide for Online Sellers covers ALL online sellers 'doing business and earning income in any manner or form' through electronic platforms or their own website. They register with BIR as individuals (Form 1901) online via ORUS, or at the Revenue District Office, and pay ₱30 documentary stamp tax. A DTI business-name certificate is needed only if you use a business name: DTI defines that as any name different from your true name used in the business. DTI registration is online (BNRS). Local mayor's permits were not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TAXPAYERS%20GUIDE%20FOR%20ONLINE%20SELLERS.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Taxpayer's Guide for Online Sellers",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-d161f2b527eb.pdf.gz",
+     "quote": "This Taxpayer's Guide is for all online sellers doing business and earning income in any manner or form, specifically those who are into digital transactions either through the use of any electronic platforms or their own website"
+    },
+    {
+     "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TAXPAYERS%20GUIDE%20FOR%20ONLINE%20SELLERS.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Taxpayer's Guide for Online Sellers",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-d161f2b527eb.pdf.gz",
+     "quote": "Additional Documents, if applicable: -If with business name - DTI Certificate"
+    },
+    {
+     "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TAXPAYERS%20GUIDE%20FOR%20ONLINE%20SELLERS.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Taxpayer's Guide for Online Sellers",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-d161f2b527eb.pdf.gz",
+     "quote": "Registration through the BIR Online Registration and Update System (ORUS) Access the BIR Online Registration and Update System (ORUS) at https://orus.bir.gov.ph/home and create an account."
+    },
+    {
+     "url": "https://bnrs.dti.gov.ph/",
+     "publisher": "Department of Trade and Industry (BNRS)",
+     "title": "Business Name Registration System",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-28a884e5ac3e.html.gz",
+     "quote": "Business Name (BN) shall refer to ANY name that is different from THE TRUE NAME OF AN INDIVIDUAL WHICH IS USED OR SIGNED in connection with her/his business on any written or printed receipts"
+    }
+   ],
+   "notes": "The BIR guide is undated. DTI business-name fees, barangay clearance and mayor's permit requirements for home-based online sellers were not checked."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "TIN from the Bureau of Internal Revenue. Self-employed people and online sellers get it by registering (BIR Form 1901) online through ORUS or at their RDO. Registration also covers the Notice to Issue Invoice and invoices (BIR-printed or Authority to Print).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TAXPAYERS%20GUIDE%20FOR%20ONLINE%20SELLERS.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Taxpayer's Guide for Online Sellers",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-d161f2b527eb.pdf.gz",
+     "quote": "1901 (for individual) or 1903 for (non-individual) Notice to Issue Invoice (NIRI) BIR Printed Invoices (BPI) or Authority to Print( ATP), whichever is applicable Proof of payments"
+    },
+    {
+     "url": "https://bir-cdn.bir.gov.ph/BIR/pdf/TAXPAYERS%20GUIDE%20FOR%20ONLINE%20SELLERS.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Taxpayer's Guide for Online Sellers",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-d161f2b527eb.pdf.gz",
+     "quote": "Online Registration and Update System (ORUS) The Online Registration and Update System (ORUS) is a web-based system that provides an end-to-end process for registration of taxpayers and updating of their registration information."
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "A Filipino citizen residing in the Philippines is taxed on all income from sources inside and outside the Philippines (NIRC s.23(A)). Self-employed people and professionals whose gross sales or receipts don't exceed the ₱3,000,000 VAT threshold can choose an 8% tax on gross sales or receipts above ₱250,000, instead of graduated income tax rates AND the percentage tax. They elect it at registration (Form 1901) or on the first quarterly return; VAT-registered taxpayers can't use it. Otherwise graduated rates apply (Sec. 24(A)(2)(a)).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra1997/ra_8424_1997.html",
+     "publisher": "Lawphil (reproduces Republic Act No. 8424, National Internal Revenue Code)",
+     "title": "National Internal Revenue Code of 1997 (original text)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-dd0a3681e10d.html.gz",
+     "quote": "(A) A citizen of the Philippines residing therein is taxable on all income derived from sources within and without the Philippines;"
+    },
+    {
+     "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMO%20NO.23-2018.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Revenue Memorandum Order No. 23-2018 (8% income tax rate option)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e018d90d56d0.pdf.gz",
+     "quote": "Eight percent (8%) tax on gross sales or receipts and other non -operating income in excess of Two Hundred F ifty T housand Pesos (P 250,000.00) in lieu of the graduated income tax rates and percentage tax under Section 116 under the NIRC, as amended."
+    },
+    {
+     "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMO%20NO.23-2018.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Revenue Memorandum Order No. 23-2018",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e018d90d56d0.pdf.gz",
+     "quote": "-operating income does not exceed the Value-Added Tax ( VAT) threshold of Three Million Pesos (P 3,000,000.00) shall have the option to avail of the following:"
+    }
+   ],
+   "notes": "Section 23(A) is quoted from Lawphil's copy of the ORIGINAL 1997 Code; TRAIN, CREATE and later laws amended other sections, but the citizen-resident worldwide rule wasn't found to be changed (not re-verified on BIR's consolidated code). The 2026 graduated rate table was not extracted. RMO 23-2018 is from 2018 (TRAIN); later issuances (Ease of Paying Taxes Act, RA 11976) may affect procedures."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "VAT registration threshold: ₱3,000,000 in gross sales or receipts. Below it, self-employed people pay percentage tax under s.116 unless they chose the 8% option, which replaces both. For VAT-registered persons, services paid for in acceptable foreign currency and accounted for under BSP rules are zero-rated (NIRC s.108(B)). BIR's RMC 059-2026 (2 June 2026) reaffirmed that services by a Philippine entity to a nonresident foreign corporation are zero-rated under those conditions (KPMG summary). Since RA 12023 (RR 3-2025), FOREIGN digital service providers charge 12% VAT to Philippine customers; that affects buyers, not local exporters.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMO%20NO.23-2018.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Revenue Memorandum Order No. 23-2018",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e018d90d56d0.pdf.gz",
+     "quote": "e gross sales/receipts and other non -operating income did not exceed the P3,000,000 VAT threshold during the taxable year; c. Taxpayers registered and subject only to percentage tax under Section 116 of the NIRC, as amended;"
+    },
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra1997/ra_8424_1997.html",
+     "publisher": "Lawphil (reproduces RA 8424)",
+     "title": "National Internal Revenue Code of 1997 (original text)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-dd0a3681e10d.html.gz",
+     "quote": "(2) Services other than those mentioned in the preceding paragraph, the consideration for which is paid for in acceptable foreign currency and accounted for in accordance with the rules and regulations of the Bangko Sentral ng Pilipinas (BSP);"
+    },
+    {
+     "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/06/philippines-vat-digital-services.html",
+     "publisher": "KPMG",
+     "title": "Philippines: Guidance clarifying VAT on digital services (June 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-f2f533fb30d4.html.gz",
+     "quote": "The sale of services by a Philippine entity to a nonresident foreign corporation (NRFC) is subject to zero-rated (0%) VAT, provided payment is made in an acceptable foreign currency and is accounted for in accordance with the rules of the Bangko Sentral ng Pilipinas (BSP)."
+    }
+   ],
+   "notes": "The s.108(B)(2) wording is the ORIGINAL 1997 text; later amendments (TRAIN 2018 added conditions such as the recipient being engaged in business outside the Philippines; RA 12023 2024) were not read in consolidated form. RMC 059-2026 itself was not read (PwC's page 403). Whether non-VAT freelancers paying 3% percentage tax owe it on export receipts was NOT verified; the 8% option avoids the question. The standard VAT rate of 12% is inferred from the digital-services rule and was not quoted for domestic supplies."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Data Privacy Act of 2012 (Republic Act No. 10173), which created the National Privacy Commission (NPC). Anyone who controls the collection, holding, processing or use of personal information is a 'personal information controller', and that includes a person instructing others to process data for them.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "publisher": "Lawphil (reproduces RA 10173)",
+     "title": "Data Privacy Act of 2012",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-d9f00c3e7423.html.gz",
+     "quote": "This Act shall be known as the \"Data Privacy Act of 2012″."
+    },
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+     "publisher": "Lawphil (reproduces RA 10173)",
+     "title": "Data Privacy Act of 2012",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-d9f00c3e7423.html.gz",
+     "quote": "(a) Commission shall refer to the National Privacy Commission created by virtue of this Act."
+    },
+    {
+     "url": "https://cyrilla.org/en/entity/gnie5jk6b3p",
+     "publisher": "CYRILLA: Global Digital Rights Law",
+     "title": "Data Privacy Act of 2012 [Republic Act No. 10173]",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-37a5552a28c3.html.gz",
+     "quote": "10173] Law Status of Law Final/Active/Current Country Philippines"
+    }
+   ],
+   "notes": "privacy.gov.ph returned 403 to scripts. Two independent secondary sites (Lawphil statute text; Cyrilla status 'Final/Active/Current'). NPC registration thresholds for small controllers (NPC Circular 2022-04) were NOT checked."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Internet Transactions Act of 2023 (RA 11967). It applies to B2B and B2C internet transactions within DTI's mandate where one party is in the Philippines, or where the online merchant targets the Philippine market and has minimum contacts there. Online media content and consumer-to-consumer transactions are excluded. An 'online merchant' is anyone selling non-financial goods or services to online consumers through e-marketplaces or third-party platforms. The Act creates a DTI E-Commerce Bureau. It also sets up an Online Business Database and an E-Commerce Philippine Trustmark (KPMG). A secondary source says the Act took full effect on 20 June 2025 after an 18-month transition (not verified).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/96902",
+     "publisher": "Supreme Court of the Philippines E-Library",
+     "title": "Republic Act No. 11967 (Internet Transactions Act of 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b2b651cbed9c.html.gz",
+     "quote": "A person who engages in e-commerce, who avails of the Philippine market to the extent of establishing minimum contacts herein, shall be subject to applicable Philippine laws and regulations and cannot evade legal liability in the Philippines despite lack of legal presence in the country."
+    },
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra2023/ra_11967_2023.html",
+     "publisher": "Lawphil (reproduces RA 11967)",
+     "title": "Internet Transactions Act of 2023",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-9b00908ff202.html.gz",
+     "quote": "This Act shall apply to all business-to-business and business-to-consumer internet transactions within the mandate of the Department of Trade and Industry (DTI), where one (1) of the parties is situated in the Philippines or where the digital platform, e-retailer, or online merchant is availing of the Philippine market and has minimum contacts therein: Provided, That online media content, and consumer-to-consumer (C2C) transactions shall not be covered under the Act."
+    },
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra2023/ra_11967_2023.html",
+     "publisher": "Lawphil (reproduces RA 11967)",
+     "title": "Internet Transactions Act of 2023",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-9b00908ff202.html.gz",
+     "quote": "(j) Online Merchant refers to a person selling non-financial goods or services to online consumers through an e-marketplace or third-party digital platforms."
+    },
+    {
+     "url": "https://kpmg.com/ph/en/insights/2023/12/special-intax-december-2023-issue-1-volume-1.html",
+     "publisher": "KPMG Philippines",
+     "title": "Special InTax, December 2023",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-dc15e7eecc1e.html.gz",
+     "quote": "11967 provides for the creation of the E-Commerce Bureau (including its composition, functions, and referral and tracking of complaints), the establishment of an Online Business Database (OBD), and the development of an E-Commerce Philippine Trustmark to provide assurance of safety and security in internet transactions."
+    }
+   ],
+   "notes": "ecommerce.dti.gov.ph timed out for scripts and was refused in the browser. The IRR (24 May 2024) and DAO 25-12 online-business registration with the E-Commerce Bureau (deadline reportedly extended to 31 Dec 2025) were not read; online-merchant registration may now be mandatory. RE-CHECK."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) The 8% optional income tax on gross receipts above ₱250,000, for those within the ₱3m threshold: no percentage tax and simple computation (L3). (2) VAT zero-rating for services paid in foreign currency, for VAT-registered exporters (L4). (3) Free FX: earnings can be kept in foreign currency at home or abroad (P1). Government programmes for freelancers (DICT digital jobs, Philippine Innovation Act) were not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://bir-cdn.bir.gov.ph/local/pdf/RMO%20NO.23-2018.pdf",
+     "publisher": "Bureau of Internal Revenue",
+     "title": "Revenue Memorandum Order No. 23-2018",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e018d90d56d0.pdf.gz",
+     "quote": "Eight percent (8%) income tax rate based on gross sales/ receipts and other non-operating income in lieu of the graduated income tax rates and percentage tax under Section 116 of the NIRC, as amended."
+    },
+    {
+     "url": "http://philippine-embassy.de/wp-content/uploads/2023/04/MORFXT.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas (embassy-hosted copy)",
+     "title": "Manual of Regulations on Foreign Exchange Transactions (July 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-534d8ce1e265.pdf.gz",
+     "quote": "Foreign exchange receipts, acquisitions or earnings of residents from non-trade sources may be used freely for any purpose."
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The Philippine Identification (PhilID) under the Philippine Identification System (PhilSys), RA 11055. Its purpose is a valid proof of identity for all citizens and resident aliens; an ePhilID digital version also exists. Banks and remittance centres accept it.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://lawphil.net/statutes/repacts/ra2018/ra_11055_2018.html",
+     "publisher": "Lawphil (reproduces RA 11055)",
+     "title": "Philippine Identification System Act",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-cd8282e3f2e2.html.gz",
+     "quote": "The PhilSys shall primarily established to provide a valid proof of identity for all citizens and resident aliens as a means of simplifying public and private transactions."
+    },
+    {
+     "url": "https://philsys.gov.ph/",
+     "publisher": "Philippine Statistics Authority (PhilSys)",
+     "title": "Philippine Identification System",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-4f96169a2adb.html.gz",
+     "quote": "As a digital foundational ID system, National ID system will transform how services are delivered and accessed in the Philippines, and accelerate our transition to a digital economy, including to enable presenceless, paperless and cashless transactions."
+    }
+   ]
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw in local currency'). (7) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (8) Local official channel: Residents may keep foreign-currency earnings in FCDU accounts (BSP FX Manual), and both Wise and Payoneer are available (P2/P5). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Philippines: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "http://philippine-embassy.de/wp-content/uploads/2023/04/MORFXT.pdf",
+     "publisher": "Bangko Sentral ng Pilipinas (copy hosted by the Philippine Embassy, Berlin)",
+     "title": "Manual of Regulations on Foreign Exchange Transactions (updated as of July 2022)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-534d8ce1e265.pdf.gz",
+     "quote": "Such proceeds may, at the option of said residents, be sold for pesos , retained or deposited in foreign cur rency accounts, whether in the Philippines or abroad."
+    },
+    {
+     "url": "https://www.payoneer.com/resources/country-guides/withdraw-payoneer-earnings-in-the-philippines/",
+     "publisher": "Payoneer",
+     "title": "How to Withdraw Payoneer Earnings to Your Philippine Bank Account (Last Modified May 20, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-73e646aa22bb.html.gz",
+     "quote": "It lets you transfer your Payoneer balance directly to any Philippine bank account on your own schedule."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-17",
+ "completed": "2026-10-17",
+ "open_questions": [
+  "BSP FX Manual current version (bsp.gov.ph blocked; July 2022 copy used).",
+  "NIRC s.108(B) as amended by TRAIN/RA 12023 (conditions for zero-rating exported services); percentage tax on export receipts for non-VAT freelancers.",
+  "DTI E-Commerce Bureau online merchant registration (DAO 25-12) status and who must register.",
+  "NPC registration thresholds for small personal information controllers.",
+  "Mayor's permit / barangay clearance for home-based online sellers.",
+  "PayMongo / BSP register of operators of payment systems."
+ ]
+}

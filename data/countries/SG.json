@@ -1,0 +1,599 @@
+{
+ "code": "SG",
+ "un_name": "Singapore",
+ "m49_name": "Singapore",
+ "iso3": "SGP",
+ "m49": "702",
+ "region": "Asia",
+ "sub_region": "South-eastern Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": true,
+ "un_admitted": "21-09-1965",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency SGD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. Singapore has no exchange controls. There are no limits on repatriation, remittances or foreign-exchange transactions, and no surrender or conversion requirement for foreign receipts. MAS keeps some restrictions on non-residents' use of the Singapore dollar.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://trade.gov/country-commercial-guides/singapore-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Singapore Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-892c033f0cfb.html.gz",
+     "quote": "The country places no limitations on the reinvestment or repatriation of earnings and capital, and it has no significant restrictions on remittances, foreign exchange transactions, and capital movements."
+    },
+    {
+     "url": "https://www.rbcroyalbank.com/business/pdf/1152e-report-on-singapore.pdf",
+     "publisher": "RBC Royal Bank",
+     "title": "RBC — Report on Singapore (country payments report)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fe4fcb815f9c.pdf.gz",
+     "quote": "Exchange Arrangements and Controls Singapore applies no currency exchange controls, although the Monetary Authority of Singapore (MAS) does enforce some restrictions on the use of non-domestic transactions for SGD."
+    }
+   ],
+   "notes": "ACT Treasurers wiki (wiki.treasurers.org) blocked: expired TLS certificate on 2026-10-22, not bypassed."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Residents may hold foreign-currency accounts both in Singapore and abroad, and may also hold Singapore-dollar accounts abroad.",
+   "status": "unverified",
+   "note": "Single secondary source (RBC country report) captured on 2026-10-22; consistent with the official no-exchange-control statement (trade.gov) but not stated there.",
+   "sources": [
+    {
+     "url": "https://www.rbcroyalbank.com/business/pdf/1152e-report-on-singapore.pdf",
+     "publisher": "RBC Royal Bank",
+     "title": "RBC — Report on Singapore (country payments report)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fe4fcb815f9c.pdf.gz",
+     "quote": "Domestic and foreign currency account restrictions Residents are permitted to hold local currency (SGD) accounts outside Singapore and foreign currency accounts both within and outside Singapore."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Singapore (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Singapore is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Singapore is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways (e.g. HitPay, PayNow QR) not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Singapore is on PayPal's Payouts list as 'Fully localized' (send, receive and withdraw locally) and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Singapore is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json) and as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Singapore IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Singapore appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Sole proprietorships register with ACRA through BizFile+. Owners must be Singapore citizens, permanent residents or eligible FIN holders. Foreigners living overseas must use a corporate service provider and appoint a locally resident authorised representative. Registration costs $100 for one year or $160 for three years; the three-year option depends on CPF conditions. Renewal costs $30 a year. Self-employed owners must keep MediSave contributions up to date or ACRA cannot renew and may cancel the registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.acra.gov.sg/how-to-guides/starting-sole-proprietorships/who-can-set-up-a-sole-proprietorship-or-partnership-in-singapore",
+     "publisher": "ACRA",
+     "title": "Who can set up a sole proprietorship or partnership in Singapore",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f1f0f9fcb98c.html.gz",
+     "quote": "Residency requirement: Singapore citizen, Singapore permanent resident, or an eligible FIN holder."
+    },
+    {
+     "url": "https://www.acra.gov.sg/how-to-guides/starting-sole-proprietorships/who-can-set-up-a-sole-proprietorship-or-partnership-in-singapore",
+     "publisher": "ACRA",
+     "title": "Who can set up a sole proprietorship or partnership in Singapore",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f1f0f9fcb98c.html.gz",
+     "quote": "Foreigners who live overseas must meet these requirements: Age: 18 years or above Engage a corporate service provider to register on their behalf Appoint at least one authorised representative , who meets the local residency requirements"
+    },
+    {
+     "url": "https://acra.gov.sg/how-to-guides/starting-sole-proprietorships/submitting-your-application-to-acra",
+     "publisher": "ACRA",
+     "title": "Submitting your application to ACRA",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-34094b3cacde.html.gz",
+     "quote": "The registration fee depends on your registration period: $100 (one year) $160 (three years) - Only available if the conditions set by the CPF Board are met."
+    },
+    {
+     "url": "https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/key-requirements-common-offences/renewing-your-registration",
+     "publisher": "ACRA",
+     "title": "Renewing your registration for sole proprietorships or partnerships",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-97c6931adfa8.html.gz",
+     "quote": "Note: If you have outstanding MediSave payable, or have not arranged for a monthly instalment plan with the CPF Board for your MediSave payable, ACRA cannot process your renewal and may cancel your registration."
+    },
+    {
+     "url": "https://www.acra.gov.sg/manage/sole-proprietorship-partnerships/key-requirements-common-offences/renewing-your-registration",
+     "publisher": "ACRA",
+     "title": "Renewing your registration for sole proprietorships or partnerships",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-97c6931adfa8.html.gz",
+     "quote": "Fee (non-refundable) One-year renewal: $30"
+    }
+   ],
+   "notes": "TRAP: MediSave contributions are a renewal gate for self-employed owners. Whether freelancing under one's own full name requires registration was not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "No separate TIN is issued. Individuals are identified for tax by their NRIC (citizens and PRs) or FIN (foreigners). Registered businesses, including sole proprietorships, use the UEN issued at ACRA registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/resources/more/tax-identification-number-in-singapore",
+     "publisher": "Stripe",
+     "title": "Tax identification number in Singapore: What it is and how it works",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3b9e9b0082f9.html.gz",
+     "quote": "Instead, it relies on identifiers that already exist for other purposes: your National Registration Identity Card (NRIC) or Foreign Identification Number (FIN) if you’re an individual, and your Unique Entity Number (UEN) if you’re operating as a company, partnership, or other registered entity."
+    },
+    {
+     "url": "https://www.aseanbriefing.com/news/tax-identification-numbers-in-singapore-a-guide-for-foreign-investors/",
+     "publisher": "ASEAN Briefing (Dezan Shira)",
+     "title": "Tax Identification Numbers in Singapore: A Guide for Foreign Investors",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-15939e4e8b11.html.gz",
+     "quote": "National Registration Identity Card (NRIC) – for Singapore citizens and permanent residents, used as a tax identifier."
+    }
+   ],
+   "notes": "No IRAS page captured; two secondary domains."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Singapore taxes on a territorial, remittance basis. Since 1 January 2004, foreign-sourced income received in Singapore by resident individuals has been exempt, unless it comes through a Singapore partnership. Income from a business carried on in Singapore is Singapore-source even when the clients are abroad, so the exemption does not cover it. Resident rates are progressive from 0% on the first $20,000 to a top rate of 24% (from YA 2024).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mof.gov.sg/news-resources/newsroom/taxation-liability-for-singaporeans-with-businesses-and-investments-in-other-countries/",
+     "publisher": "Ministry of Finance Singapore",
+     "title": "Taxation liability for Singaporeans with businesses and investments in other countries",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-825cc85bcea8.html.gz",
+     "quote": "Singapore adopts a territorial, remittance-based income tax system."
+    },
+    {
+     "url": "https://www.iras.gov.sg/media/docs/default-source/e-tax/tax-exemption-for-foreign-sourced-income285e5d43d6af4001b3ce35da1e9005b5.pdf",
+     "publisher": "IRAS",
+     "title": "Tax Exemption for Foreign-Sourced Income (e-Tax Guide)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-70b8da4df784.pdf.gz",
+     "quote": "2.2 From 1 Jan 2004, all foreign- sourced income received in Singapore by resident individuals, except those received through a Singapore partnership, will be exempt from tax where the Comptroller is satisfied that the exemption will be beneficial to them."
+    },
+    {
+     "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/individual-income-tax-rates",
+     "publisher": "IRAS",
+     "title": "Individual income tax rates",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-95dbfebb4fd6.html.gz",
+     "quote": "The current highest personal income tax rate is at 24%."
+    }
+   ],
+   "notes": "TRAP: a freelancer living and working in Singapore is generally carrying on a business in Singapore, so the income is not 'foreign-sourced' just because clients pay from abroad (inference from the territorial rule; no IRAS page on this captured)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "GST is 9%. Registration is compulsory when taxable turnover exceeds S$1 million in a calendar year (retrospective view) or is expected to exceed it in the next 12 months (prospective view). Services count as international services, zero-rated at 0%, only if they fall within section 21(3) of the GST Act; many services contracted with and directly benefiting an overseas person qualify. A business whose taxable turnover is wholly or mainly zero-rated can apply for exemption from registration.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/current-gst-rates",
+     "publisher": "IRAS",
+     "title": "Current GST rates",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-3ce69253a9e0.html.gz",
+     "quote": "GST-registered businesses are required to charge and account for GST at 9% on all sales of goods and services in Singapore unless the sale can be zero-rated or exempted under the GST law."
+    },
+    {
+     "url": "https://www.iras.gov.sg/irashome/GST/Non-GST-registered-businesses/Registering-for-GST/Do-I-Need-to-Register-for-GST/",
+     "publisher": "IRAS",
+     "title": "Do I need to register for GST",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-db03738c5f61.html.gz",
+     "quote": "You must register for GST if your taxable turnover is: Under the retrospective view , more than $1 million at the end of the calendar year, or Under the prospective view , expected to be more than $1 million in the next 12 months"
+    },
+    {
+     "url": "https://www.iras.gov.sg/irashome/GST/Non-GST-registered-businesses/Registering-for-GST/Do-I-Need-to-Register-for-GST/",
+     "publisher": "IRAS",
+     "title": "Do I need to register for GST",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-db03738c5f61.html.gz",
+     "quote": "Your taxable turnover is derived wholly or mainly from zero-rated supplies and you apply for exemption from registration ."
+    },
+    {
+     "url": "https://www.iras.gov.sg/irashome/GST/GST-registered-businesses/Working-out-your-taxes/When-to-charge-0-GST/Providing-International-Services/",
+     "publisher": "IRAS",
+     "title": "Providing international services",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-85ccc909ad3d.html.gz",
+     "quote": "charge GST at 0%) only if it falls within the description of international services under Section 21(3) of the GST Act."
+    }
+   ],
+   "notes": "Zero-rated supplies count toward taxable turnover for the threshold."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Data Protection Act 2012 applies, enforced by the PDPC. Organisations have no registration requirement, but must appoint a data protection officer and make their data-protection policies available. Since 1 October 2022, penalties can reach S$1 million, or 10% of Singapore turnover for organisations with turnover above S$10 million, whichever is higher.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://connections.nortonrosefulbright.com/post/102hyck/with-new-financial-penalties-in-force-pdpc-updates-advisory-guidelines-and-guide",
+     "publisher": "Norton Rose Fulbright",
+     "title": "With new financial penalties in force, PDPC updates advisory guidelines and guide",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ad0b93093354.html.gz",
+     "quote": "This change to enhance the penalties was introduced in 2020 when the PDPA was amended but only came into force on 1 October 2022 to allow organisations time to prepare."
+    },
+    {
+     "url": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-data-protection-and-cyber-security-laws/singapore",
+     "publisher": "CMS",
+     "title": "CMS Expert Guide to data protection and cyber security laws — Singapore",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3448a79f9549.html.gz",
+     "quote": "Registration / notification / authorisation There is no requirement for organisations to register with the PDPC."
+    },
+    {
+     "url": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-data-protection-and-cyber-security-laws/singapore",
+     "publisher": "CMS",
+     "title": "CMS Expert Guide to data protection and cyber security laws — Singapore",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3448a79f9549.html.gz",
+     "quote": "and Accountability Obligation – implement policies and procedures to meet its obligations under the PDPA, and make information about its policies and practices publicly available and to appoint a data protection officer."
+    }
+   ],
+   "notes": "PDPC's own obligations page rendered as a JS shell (no body text) on 2026-10-22."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The Consumer Protection (Fair Trading) Act covers online sellers and prohibits unfair practices; CCCS enforces it. There is no general statutory cooling-off period for ordinary online purchases, so change-of-mind returns depend on the seller's own policy. The 5-working-day cancellation right applies to direct sales and timeshare contracts.",
+   "status": "unverified",
+   "note": "No-cooling-off statement from a single secondary domain (RecordingLaw); the official CCCS advisory only tells consumers to check each retailer's return/refund policy. CASE pages returned 403 on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://www.recordinglaw.com/singapore/consumer/online-shopping-disputes/",
+     "publisher": "RecordingLaw",
+     "title": "Online Shopping Disputes in Singapore",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-61072ec2a5c3.html.gz",
+     "quote": "There is no general statutory cooling-off period for ordinary online purchases."
+    },
+    {
+     "url": "https://cccs.gov.sg/media-and-consultation/newsroom/media-releases/case-and-cccs-advisory-on-online-consumer-transactions-2-sept-21",
+     "publisher": "CCCS",
+     "title": "CASE and CCCS Advisory on Online Consumer Transactions (2 Sep 2021)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-ff7310359608.html.gz",
+     "quote": "Check and understand the terms and conditions, and return/refund policy listed on the retailer’s website or advertisement."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched in depth on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Singapore accepts: Driver's license - scans of front and back are required National Registration Identity Card - scans of front and back are required Passport Work Pass or Long Term Pass - scans of front and back are required. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=SG",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Singapore",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-fcd1f2dd1770.html.gz",
+     "quote": "Acceptable forms of identification: Driver's license - scans of front and back are required National Registration Identity Card - scans of front and back are required Passport Work Pass or Long Term Pass - scans of front and back are required",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Singapore: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

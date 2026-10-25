@@ -1,0 +1,372 @@
+{
+ "code": "ML",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. Mali left ECOWAS in January 2025 but remains in the UEMOA/BCEAO monetary union and the CFA franc. Under Regulation 06/2024/CM/UEMOA, residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), and must repatriate all export proceeds for goods and services (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "Mali's continued UEMOA membership after the 2025 ECOWAS exit rests on press/secondary reports (AllAfrica Feb 2024, a March 2026 Ministry of Finance denial of an AES currency per Currency News); no 2026 UEMOA exit announcement found. Re-check if the AES launches its own currency."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation from the Minister of Finance after a binding BCEAO opinion (UEMOA Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Mali (automated collector snapshots, Oct 2026). Available: Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Polar (payouts); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country; Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Mali is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Mali is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Domestically, freelancers commonly use Wave or Orange Money payment links generated from a merchant dashboard (about 1% per collection, reportedly capped at FCFA 1,000,000 per link). These suit local CFA clients, not foreign card payments."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Not confirmed. Mali is a listed PayPal market but is not on the Payouts list. No source confirming receiving or withdrawal for Malian accounts was found. Xoom (PayPal-owned) handles inbound remittances to Malian banks and Orange Money wallets, which is a separate service.",
+   "status": "unverified",
+   "note": "Searched 2026-10-20 (same query as P3). Results: a travel/e-commerce guide (PayPal 'lists Mali, features vary', not captured as a quote), Xoom Mali pages (remittances), Payoneer/Nuvei blogs (no Mali specifics). Only Payouts-list absence is established.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Mali is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Mali is NOT on Wise's list of countries whose residents can hold money. Payoneer: no source confirming Payoneer accounts and withdrawals for Malian residents was found. Any receipts are subject to UEMOA surrender rules (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Mali."
+    }
+   ],
+   "notes": "Payoneer status for Mali is unknown (not confirmed either way)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the OHADA entreprenant / individual enterprise. In Mali, formalities run through the API-Mali one-stop shop, which delivers the RCCM and the tax number (NIF) in one file. A commercial guide estimates FCFA 25,000–45,000 and 48–72 hours for an individual enterprise.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA portant sur le droit commercial général (FAOLEX copy)",
+     "title": "AUDCG, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "Art.30.- L’entreprenant est un entrepreneur indi viduel, personne physique qui, sur simple déclaration prévue dans le présent Acte unifo rme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole."
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-mali-guichet-unique-bamako-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au Mali via le guichet unique (2026)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-6db31319794e.html.gz",
+     "quote": "En un dossier, l'entrepreneur obtient son RCCM , son NIF (numéro d'identification fiscale) et, s'il emploie, son immatriculation INPS."
+    }
+   ],
+   "notes": "API-Mali's official presentation PDF returned HTML instead of a PDF (not captured). Fees are from a commercial blog."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIF (numéro d'identification fiscale), issued by the DGI through the API-Mali one-stop flow together with RCCM registration. Having a NIF matters: buyers of commercial goods without a NIF or national identification number suffer a 5% prepayment (précompte) on purchases (CGI art. 98-F).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-mali-guichet-unique-bamako-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au Mali (2026) — NIF",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-6db31319794e.html.gz",
+     "quote": "L' immatriculation fiscale (NIF) et l'affiliation sociale sont intégrées au même parcours, pour un ordre de grandeur de 30 000 à 100 000 FCFA de frais en 2026."
+    },
+    {
+     "url": "https://www.dgi.gouv.ml/CGI/",
+     "publisher": "Direction Générale des Impôts du Mali — Code Général des Impôts",
+     "title": "CGI art. 98-F (précompte)",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-32cbd24e5cbd.html.gz",
+     "quote": "5 % pour les achats de biens à but commercial effectués sur le marché intérieurs par les personnes ne disposant pas d’un numéro d’identification fiscal ou d’un numéro d’identification national"
+    }
+   ],
+   "notes": "NIF issuance procedure rests on a commercial guide; the CGI shows the consequence of lacking a NIF."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Business income, including liberal professions, falls under IBIC (CGI art. 43). Enterprises with turnover under FCFA 50m excl. tax pay the impôt synthétique at 3% of annual turnover. It is exempt in the first calendar year and covers several taxes including VAT. Tax advisers, approved accountants and Investment-Code enterprises must use the real regime. At or above FCFA 50m, the real regime applies. The treatment of residents' foreign-source income was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dgi.gouv.ml/les-impots-a-payer/",
+     "publisher": "Direction Générale des Impôts du Mali",
+     "title": "Les impôts à payer",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-841911ad5fad.html.gz",
+     "quote": "Impôt synthétique – annuel Le régime de l’impôt synthétique est fixé à 3% du chiffre d’affaires annuel hors taxe"
+    },
+    {
+     "url": "https://www.dgi.gouv.ml/CGI/",
+     "publisher": "Direction Générale des Impôts du Mali — Code Général des Impôts",
+     "title": "CGI art. 70–71",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-32cbd24e5cbd.html.gz",
+     "quote": "En sont exonérées, pour la première année civile d’activité, les entreprises se trouvant dans son champ d’application."
+    },
+    {
+     "url": "https://www.dgi.gouv.ml/CGI/",
+     "publisher": "Direction Générale des Impôts du Mali — Code Général des Impôts",
+     "title": "CGI art. 43 (IBIC scope)",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-32cbd24e5cbd.html.gz",
+     "quote": "Art.43.- Sont imposés dans la catégorie des bénéfices industriels et commerciaux les bénéfices des professions commerciales, industrielles, artisanales, libérales, des titulaires de charges et offices"
+    }
+   ],
+   "notes": "The CGI on dgi.gouv.ml carries amendments up to about 2017 (LF 2014, Law 2016-10, LF 2017); later Finance Laws not checked."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 18% (5% for listed products) per CGI art. 229. Synthetic-tax payers (under FCFA 50m) pay VAT as part of the 3% synthetic tax instead of charging it. The VAT treatment of exported services was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dgi.gouv.ml/CGI/",
+     "publisher": "Direction Générale des Impôts du Mali — Code Général des Impôts",
+     "title": "CGI art. 229",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-32cbd24e5cbd.html.gz",
+     "quote": "18 % pour les autres produits et les services non exonérés"
+    },
+    {
+     "url": "https://www.dgi.gouv.ml/CGI/",
+     "publisher": "Direction Générale des Impôts du Mali — Code Général des Impôts",
+     "title": "CGI — allocation of the synthetic tax",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-32cbd24e5cbd.html.gz",
+     "quote": "Taxes sur le Chiffre d’affaires (TVA) : 33 %"
+    }
+   ],
+   "notes": "The second quote shows VAT's share of the synthetic tax's proceeds; edition ~2017."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2013-015 (amended 2017) on personal data, enforced by the APDP. Controllers, public or private, must complete mandatory declaration formalities. The APDP has issued formal notices to 100 bodies for failing to declare, and fines a company for obstructing inspections (FCFA 5–20m).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://droitmediasfinance.com/index.php/actualites/droit-tech-fintech/1026-mali-lautorite-de-protection-des-donnees-a-caractere-personnel-inflige-une-sanction-pecuniaire-a-la-societe-aminata-konate-sarl-sak",
+     "publisher": "Droit Médias Finance",
+     "title": "MALI : L’APDP inflige une sanction pécuniaire à la Société Aminata KONATE SARL",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-d0fad60a4fa4.html.gz",
+     "quote": "En rappel, l’APDP a mis en demeure 100 structures pour non conformité aux dispositions de la loi n°2013-015 portant protection des données à caractère personnel, notamment le défaut de formalités déclaratives auprès d’elle."
+    },
+    {
+     "url": "https://fr.apanews.net/?p=258784",
+     "publisher": "APAnews",
+     "title": "Mali : l’APDP examine 2 000 dossiers et un projet d’arrêté",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-7aec408805c1.html.gz",
+     "quote": "L’APDP, autorité administrative indépendante, veille à ce que les structures publiques ou privées respectent les principes de confidentialité, de finalité et de proportionnalité."
+    }
+   ],
+   "notes": "Law text not read."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 2016-012 of 6 May 2016 on electronic transactions, exchanges and services governs e-commerce, partly derived from ECOWAS Supplementary Act A/SA.2/01/10. Its consumer withdrawal and disclosure provisions were not read.",
+   "status": "unverified",
+   "note": "Searched 2026-10-20: 'Mali loi 2016-012 transactions échanges services électroniques droit de rétractation consommateur jours article'. Found only the law's listing (ICT Policy Africa) and a Lextenso commentary abstract; the text itself (PDF) was not opened.",
+   "sources": [
+    {
+     "url": "https://ictpolicyafrica.org/en/entity/f74jabga6q9",
+     "publisher": "ICT Policy Africa (CIPIT)",
+     "title": "Law No. 2016-012 of May 6, 2016 relating to transactions, exchanges and electronic services",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-a571fb685ec3.html.gz",
+     "quote": "LAW N ° 2016-012 / OF MAY 6, 2016 RELATING TO TRANSACTIONS, EXCHANGES AND ELECTRONIC SERVICES"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Synthetic tax of 3% of turnover under FCFA 50m, exempt for the first calendar year of activity (L3). (2) The individual enterprise needs no minimum capital (L1). No freelancer-specific incentive was found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dgi.gouv.ml/CGI/",
+     "publisher": "Direction Générale des Impôts du Mali — Code Général des Impôts",
+     "title": "CGI art. 71 — first-year exemption",
+     "retrieved": "2026-10-20",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-20-32cbd24e5cbd.html.gz",
+     "quote": "En sont exonérées, pour la première année civile d’activité, les entreprises se trouvant dans son champ d’application."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The secure biometric national identity card (ECOWAS standard; Decree 2022-0639 of 3 Nov 2022). It is mandatory from age 15, valid 5 years, and replaces the NINA card, the old national ID card and the consular card. Distribution began in April 2023.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.osiris.sn/Carte-d-identite-biometrique-du.html",
+     "publisher": "OSIRIS",
+     "title": "Carte d'identité biométrique du Mali",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-c3cffb8aa715.html.gz",
+     "quote": "Elle remplace de plein droit la carte NINA, la carte d’identité nationale et la carte consulaire."
+    },
+    {
+     "url": "https://fr.allafrica.com/stories/202304110515.html",
+     "publisher": "AllAfrica",
+     "title": "Mali: Lancement de la remise de la carte nationale biométrique (11 Apr 2023)",
+     "retrieved": "2026-10-20",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-20-c09df96732a9.html.gz",
+     "quote": "Débutée le 9 janvier 2023, la mise à jour des données du Numéro d’identification national (Nina) pour l’obtention de la carte nationale biométrique sécurisée a pris fin le 31 mars dernier."
+    }
+   ],
+   "notes": "Bank KYC specifics not consulted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Mali: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Mali: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Mali: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Mali: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-20",
+ "completed": "2026-10-20",
+ "open_questions": [
+  "Mali's UEMOA membership after the 2025 ECOWAS exit rests on secondary reports; re-check for any AES currency move.",
+  "Local gateways (Wave/Orange Money merchant links) single commercial source; PayPal and Payoneer status for Mali unconfirmed.",
+  "CGI on dgi.gouv.ml reflects amendments to ~2017; later Finance Laws (thresholds, rates) not checked.",
+  "VAT treatment of exported services; residents' foreign-source income treatment.",
+  "Law 2016-012 (e-transactions) consumer withdrawal provisions not read; Law 2013-015 text not read.",
+  "API-Mali official fees/procedure (presentation PDF not retrievable)."
+ ]
+}

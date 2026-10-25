@@ -1,0 +1,457 @@
+{
+ "code": "KH",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No surrender or conversion requirement. The 1997 Law on Foreign Exchange provides that there is no restriction on foreign-exchange operations through authorised banks (Art. 5). Banks must report each transfer of USD 10,000 or more to the National Bank of Cambodia (Art. 17). Travellers carrying USD 10,000 or more in cash must declare it to customs. The economy is heavily dollarised.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cdc.gov.kh/?p=1456",
+     "publisher": "Council for the Development of Cambodia",
+     "title": "Foreign Exchange (CDC investment guide)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-faf05929236e.html.gz",
+     "quote": "Restriction on the Foreign Exchange The “Law on the Foreign Exchange” of September 1997 stipulates that “there shall be no restriction on foreign exchange operations” through authorized banks (Article 5) but the authorized banks shall report to the National Bank of Cambodia the amount of each transfer equaling or exceeding 10,000 US dollars (Article 17)."
+    }
+   ],
+   "notes": "The official National Trade Repository page for the law (cambodiantr.gov.kh) captured without the article text. The 'dollarised' point is not in captured text. Art. 6 allows temporary restrictions in an FX crisis (search summary)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Residents are allowed to hold foreign currencies freely (Law on Foreign Exchange, Art. 7), and USD accounts are commonplace.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cdc.gov.kh/?p=1456",
+     "publisher": "Council for the Development of Cambodia",
+     "title": "Foreign Exchange (CDC investment guide)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-faf05929236e.html.gz",
+     "quote": "Residents are allowed to hold foreign currencies freely (Article 7)."
+    }
+   ],
+   "notes": "'USD accounts commonplace' not in captured text."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Cambodia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Cambodia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Cambodia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local options such as ABA PayWay and KHQR/Bakong were not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Cambodia is listed as a PayPal market but is not on the PayPal Payouts list; withdrawal terms were not captured.",
+   "status": "unverified",
+   "note": "No PayPal Cambodia help page captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Cambodia is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Cambodia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Cambodia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship registers online with the Ministry of Commerce through its Business Registration portal or the CamDX 'Single Portal'. Sign-in uses CamDigiKey, there is no minimum capital and liability is unlimited. Per Deel, foreign nationals aged 18+ with valid ID can also register. Registration with the General Department of Taxation is required within 15 working days of starting business or MoC registration (per a 2015 law-firm note). Current fees were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-cambodia/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Cambodia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4be8190b9316.html.gz",
+     "quote": "This structure is one of several business types recognized under Cambodia’s business registry, managed by the Ministry of Commerce (MoC) through its online Business Registration portal."
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-cambodia/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Cambodia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4be8190b9316.html.gz",
+     "quote": "Start at the Royal Government’s Online Business Registration portal and create or sign in with CamDigiKey, the state single sign-on used for all steps."
+    },
+    {
+     "url": "https://cambodianess.com/article/register-a-business-in-cambodia-a-practical-guide-for-2026",
+     "publisher": "Cambodianess",
+     "title": "Register a Business in Cambodia: A Practical Guide for 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-81fc0ec70ec6.html.gz",
+     "quote": "The MoC business registration website itself offers online services to incorporate sole proprietorships, companies and partnerships, with clearly defined steps for each type."
+    },
+    {
+     "url": "https://bnglegal.com/cn/wp-content/uploads/2015/03/March-2015.pdf",
+     "publisher": "BNG Legal",
+     "title": "Tax Registration in Cambodia (newsletter, March 2015)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3e4322134fe4.pdf.gz",
+     "quote": "Tax Registration in Cambodia Introduction Under Cambodian Tax law, any legal entity, business groups, sole proprietorships or any person including non-governmental organizations (NGO) must register at the Tax Administration Offi ce within 15 working days aft er beginning economic activity or registering at Ministry of Commerce (MoC) and other relevant Ministries."
+    }
+   ],
+   "notes": "Foreigner eligibility from one guide only. The 15-day rule is from 2015 (pre-2023 Law on Taxation). Fees not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A sole proprietor registers with the General Department of Taxation (GDT) through the e-Tax Services portal (e-registration) to get a taxpayer account and number, and registers for 10% VAT if applicable. This follows business registration with the Ministry of Commerce (Deel).",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-cambodia/",
+     "publisher": "Deel",
+     "title": "Sole proprietorship in Cambodia",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-e1e8729a3e2a.html.gz",
+     "quote": "Next, register with the General Department of Taxation (GDT) to obtain your taxpayer account via the e-Tax Services portal (e-registration/e-filing).",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel guide) captured on 2026-10-25; GDT pages not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Resident taxpayers are taxed on worldwide income; non-residents only on Cambodian-source income. Consulting and self-employment income is outside salary tax and falls under the tax on income (profit tax). Physical persons and sole proprietorships pay annual progressive rates of 0% up to KHR 18m, rising to 20% above KHR 150m. The same rates apply to small taxpayers, a classification that starts at KHR 250m annual turnover for sole proprietors in service sectors. Under the 2023 Law on Taxation regime there is a minimum tax of 1% of turnover.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/cambodia/corporate/taxes-on-corporate-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cambodia - Corporate - Taxes on corporate income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3d4f5dd6ebc7.html.gz",
+     "quote": "Resident taxpayers are subject to tax on worldwide income while non-residents are taxed on Cambodian-sourced income only."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/cambodia/corporate/taxes-on-corporate-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cambodia - Corporate - Taxes on corporate income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3d4f5dd6ebc7.html.gz",
+     "quote": "For companies who are classified as small taxpayers, the CIT rates are progressive rates from 0% to 20%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/cambodia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cambodia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-10b8a03c7d21.html.gz",
+     "quote": "General consulting income is excluded from salary tax but is subject to tax on income"
+    },
+    {
+     "url": "https://www.aseanbriefing.com/news/a-guide-to-taxation-in-cambodia/",
+     "publisher": "ASEAN Briefing (Dezan Shira)",
+     "title": "A Guide to Taxation in Cambodia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-cb9809a885f3.html.gz",
+     "quote": "The decree will determine the taxable income earned by physical persons, sole proprietorships, and the distributive share of partners in a partnership, as well as for determining the monthly taxable salaries received by resident employees."
+    },
+    {
+     "url": "https://www.aseanbriefing.com/news/a-guide-to-taxation-in-cambodia/",
+     "publisher": "ASEAN Briefing (Dezan Shira)",
+     "title": "A Guide to Taxation in Cambodia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-cb9809a885f3.html.gz",
+     "quote": "The minimum tax due is equal to one percent of total turnover, except value-added tax (VAT), irrespective of whether the taxpayer is in a profit or loss situation."
+    },
+    {
+     "url": "https://www.aseanbriefing.com/news/a-guide-to-taxation-in-cambodia/",
+     "publisher": "ASEAN Briefing (Dezan Shira)",
+     "title": "A Guide to Taxation in Cambodia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-cb9809a885f3.html.gz",
+     "quote": "Over 150,000,000 riel (US$36,214) 20"
+    }
+   ],
+   "notes": "TRAP: worldwide taxation of residents. Minimum-tax exemptions (e.g. proper accounting records) not captured. Bracket table from ASEAN Briefing (Sub-Decree 196, from 2023)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 10% for self-declaration-regime taxpayers. Exported goods and services rendered outside Cambodia are zero-rated. Per Emerhub, registration is triggered by turnover above KHR 60 million (about USD 14,600) in three consecutive months for services, or KHR 125 million for goods.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/cambodia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cambodia - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-de722a8164da.html.gz",
+     "quote": "VAT is applicable to self-declaration regime entities and is charged at 10% on the value of the supply of most goods and services."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/cambodia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cambodia - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-de722a8164da.html.gz",
+     "quote": "Exported goods and services rendered outside Cambodia are zero-rated."
+    },
+    {
+     "url": "https://emerhub.com/cambodia/vat-in-cambodia-guide-for-foreign-business-owners/",
+     "publisher": "Emerhub",
+     "title": "VAT in Cambodia: guide for foreign business owners",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2218da1157a4.html.gz",
+     "quote": "Services: KHR 60 million (~USD 14,600) within three consecutive months."
+    }
+   ],
+   "notes": "The KHR 60m three-month figure is consistent with PwC's small-taxpayer criteria. Whether online services to foreign clients count as 'rendered outside Cambodia' was not captured."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "No comprehensive data-protection law is in force. A draft Law on Personal Data Protection was released on 23 July 2025 and was still not enacted as of mid-February 2026. It is expected to apply after a two-year implementation period from promulgation. Sectoral rules, including the 2019 E-commerce Law's consumer-data provisions, apply meanwhile.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=KH&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in Cambodia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-fdb0ca7c651e.html.gz",
+     "quote": "However, as of mid-February 2026, the Law on Personal Data Protection has not yet been enacted."
+    },
+    {
+     "url": "https://www.hoganlovells.com/en/publications/cambodia-moves-to-enact-comprehensive-data-privacy-law",
+     "publisher": "Hogan Lovells",
+     "title": "Cambodia moves to enact comprehensive data privacy law",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8097d9e67b75.html.gz",
+     "quote": "On July 23, 2025, Cambodia released a draft of its first ever comprehensive personal data protection law, the Law on Personal Data Protection (“LPDP”)."
+    },
+    {
+     "url": "https://www.hoganlovells.com/en/publications/cambodia-moves-to-enact-comprehensive-data-privacy-law",
+     "publisher": "Hogan Lovells",
+     "title": "Cambodia moves to enact comprehensive data privacy law",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8097d9e67b75.html.gz",
+     "quote": "The LPDP is expected to come into effect after a two-year implementation period starting from its promulgation."
+    }
+   ],
+   "notes": "Re-check for promulgation after Feb 2026 (an ODM record lists a July 2026 draft version)."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The E-commerce Law and the Consumer Protection Law were both enacted on 2 November 2019. The E-commerce Law covers domestic and cross-border e-commerce, with consumer-protection provisions on information, scams and data protection, and may subject service providers and intermediaries to licensing. The Consumer Protection Law applies to anyone trading with consumers in Cambodia. A statutory cancellation or cooling-off right for online purchases was not found.",
+   "status": "unverified",
+   "note": "Single secondary domain (Tilleke & Gibbins) captured on 2026-10-22; e-commerce permit requirement (MoC Prakas) not captured.",
+   "sources": [
+    {
+     "url": "https://www.tilleke.com/insights/cambodia-enacts-new-e-commerce-law-and-consumer-protection-law/",
+     "publisher": "Tilleke & Gibbins",
+     "title": "Cambodia Enacts a New E-commerce Law and a Consumer Protection Law",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c71087a5b774.html.gz",
+     "quote": "E-commerce Law The E-commerce Law regulates domestic and cross-border e-commerce activities in Cambodia, establishes legal certainty for electronic transactions, and enacts a number of important protections for consumers."
+    },
+    {
+     "url": "https://www.tilleke.com/insights/cambodia-enacts-new-e-commerce-law-and-consumer-protection-law/",
+     "publisher": "Tilleke & Gibbins",
+     "title": "Cambodia Enacts a New E-commerce Law and a Consumer Protection Law",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c71087a5b774.html.gz",
+     "quote": "Furthermore, service providers and intermediaries, possibly including foreign entities making their platforms accessible in Cambodia, may be subject to a licensing regime and codes of conduct in Cambodia."
+    },
+    {
+     "url": "https://www.tilleke.com/insights/cambodia-enacts-new-e-commerce-law-and-consumer-protection-law/",
+     "publisher": "Tilleke & Gibbins",
+     "title": "Cambodia Enacts a New E-commerce Law and a Consumer Protection Law",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-c71087a5b774.html.gz",
+     "quote": "The Consumer Protection Law applies to any person who conducts any trading activities with consumers in Cambodia, regardless of whether the trading activities are for profit."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched in depth on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Khmer Identity Card (Wikipedia, compulsory-ID list). Compulsory and biometric since 2011. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Cambodia Khmer Identity Card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Cambodia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Current MoC/GDT fees; TIN process; whether freelancers must register at MoC.",
+  "Minimum-tax exemptions; treatment of services to foreign clients for VAT.",
+  "E-commerce permit Prakas; PDP law promulgation.",
+  "PayPal withdrawals; local gateways (ABA PayWay, Bakong/KHQR)."
+ ]
+}

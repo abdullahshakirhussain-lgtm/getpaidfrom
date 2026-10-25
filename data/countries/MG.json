@@ -1,0 +1,514 @@
+{
+ "code": "MG",
+ "un_name": "Madagascar",
+ "m49_name": "Madagascar",
+ "iso3": "MDG",
+ "m49": "450",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": true,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under strict exchange control. Every exporter of goods and every service provider under ordinary law must sell 70% of its export receipts on the foreign-exchange market upon repatriation, within 30 days at most. After that, local banks must sell the currency on the next working day at the best rate.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cnlegis.gov.mg/uploads/D2022-1183-VF%20%281%29.pdf",
+     "publisher": "Décret n° 2022-1183 (Code des changes / réglementation des changes) — cnlegis.gov.mg",
+     "title": "Décret 2022-1183 — cession des recettes d'exportation",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8b1b4fcce70c.pdf.gz",
+     "quote": "Tout exportateur de marchandises et tout prestataire de services régi par le droit commun doit céder 70% de ses recettes d'exportation sur le marché des changes dès rapatriement, sans excéder le délai de 30 jours."
+    },
+    {
+     "url": "https://www.lexpress.mg/2024/01/lutte-contre-les-fraudes-le.html",
+     "publisher": "L'Express de Madagascar",
+     "title": "Lutte contre les fraudes - Le rapatriement des devises remis sur le tapis (Jan 2024)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-8958ce0a8ef7.html.gz",
+     "quote": "exige la cession de 70% des recettes d'exportation sur le marché des changes dans un délai de trente jours"
+    }
+   ],
+   "notes": "TRAP: applies to service providers too (prestataire de services) - a freelancer billing abroad may have to convert 70%. Whether individuals are 'prestataires régis par le droit commun' in practice not confirmed."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes, regulated. Foreign-currency accounts can be funded by transfers received directly from abroad. Transfers between residents' FX accounts are not allowed except in listed cases (e.g. between accounts of the same holder). Holders may carry out current operations directly related to their activities.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cnlegis.gov.mg/uploads/D2022-1183-VF%20%281%29.pdf",
+     "publisher": "Décret n° 2022-1183 (Code des changes / réglementation des changes) — cnlegis.gov.mg",
+     "title": "Décret 2022-1183 — comptes en devises",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8b1b4fcce70c.pdf.gz",
+     "quote": "Un compte en devises peut être alimenté : - soit par des virements reçus directement de l'Etranger ;"
+    },
+    {
+     "url": "https://cnlegis.gov.mg/uploads/D2022-1183-VF%20%281%29.pdf",
+     "publisher": "Décret n° 2022-1183 (Code des changes / réglementation des changes) — cnlegis.gov.mg",
+     "title": "Décret 2022-1183 — virements",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8b1b4fcce70c.pdf.gz",
+     "quote": "Les virements d'un compte en devises à un autre compte en devises ne sont pas autorisés entre résidents sauf dans les cas limitatifs ci-après"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Madagascar (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Madagascar is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Madagascar is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Madagascar is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Madagascar is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Madagascar is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed. Repatriation/conversion rules (P1) apply.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Madagascar.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: an individual enterprise (EI), with no minimum capital and unlimited liability. Registration goes through the EDBM one-stop shop (Economic Development Board of Madagascar) / RCS, plus a NIF and a statistical number (INSTAT). Fees and timelines were not confirmed officially.",
+   "status": "unverified",
+   "note": "Single secondary domain (Africarrieres, itself marking costs unconfirmed); EDBM official page not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/madagascar/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise à Madagascar - Guide pratique 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ac5f5022b85a.html.gz",
+     "quote": "Entreprises individuelles Entreprise Individuelle (EI) : Statut le plus simple, sans capital minimum requis"
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A NIF (Numéro d'Identification Fiscale) from the DGI is mandatory; a guide says it is free and takes 2–3 days (NIFONLINE application). A statistical number from INSTAT is also required.",
+   "status": "unverified",
+   "note": "Single secondary domain (Africarrieres) on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/madagascar/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise à Madagascar - Guide pratique 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ac5f5022b85a.html.gz",
+     "quote": "Numéro d'Identification Fiscale (NIF) : Gratuit, délai de 2-3 jours Numéro statistique : Délivré par l'Institut National de la Statistique (INSTAT)"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "An individual business with annual turnover under MGA 400 million pays the 'synthetic tax' (impôt synthétique): 5% of turnover, with a possible 70% reduction (PwC). Taxpayers between MGA 200m and 400m may opt for the real income-tax regime (IR) without VAT; the option was reinstated by the 2026 Finance Act and requires certified financial statements. For salary tax (IRSA), residents are taxed on worldwide income; non-residents pay IR only on Malagasy-source income.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/madagascar/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Madagascar - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-22a07fc01b6f.html.gz",
+     "quote": "Individual business income tax (IR) An individual business having an annual turnover of less than MGA 400 million is subject to IR at a rate of 5% (with a possible reduction of 70%) of the annual turnover, called 'synthetic tax'."
+    },
+    {
+     "url": "https://www.madagascar-services.com/blog/en/2025/12/18/changes-introduced-by-the-2026-finance-act-in-madagascar/",
+     "publisher": "Madagascar Services",
+     "title": "Changes introduced by the 2026 Finance Act in Madagascar (18 Dec 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-789ed38e544a.html.gz",
+     "quote": "Taxpayers earning between Ar 200 million and Ar 400 million who wish to opt for the actual income regime (income tax) must submit a request to the department responsible for managing their tax files."
+    },
+    {
+     "url": "https://fr.allafrica.com/stories/202602200376.html",
+     "publisher": "AllAfrica (Midi Madagasikara)",
+     "title": "Loi de finances 2026 - Multiplication des séances d'information au profit des opérateurs (Feb 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ee9049f5205a.html.gz",
+     "quote": "Parmi les mesures les plus commentées figure la possibilité, pour certains contribuables réalisant un chiffre d'affaires compris entre 200 et 400 millions d'ariary, d'opter pour l'impôt sur le revenu (IR) sans assujettissement à la TVA."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/madagascar/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Madagascar - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-22a07fc01b6f.html.gz",
+     "quote": "For IRSA purposes, an individual resident in Madagascar, either Malagasy or of a foreign nationality, is liable on worldwide income."
+    }
+   ],
+   "notes": "Territoriality of IR for resident individual businesses (foreign-source fees) not established."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 20%, and exports are 0%. VAT applies to businesses with turnover of MGA 400 million or more. Those between MGA 200m and 400m may opt for IR without VAT (L3). Whether exported services qualify for 0% was not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/madagascar/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Madagascar - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-232b2a494e06.html.gz",
+     "quote": "The VAT rate is 20%, and the VAT rate on export is 0%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/madagascar/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Madagascar - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-232b2a494e06.html.gz",
+     "quote": "VAT is applicable to all transactions related to any services performed in Madagascar by a corporate entity with turnover equal to or more than MGA 400 million."
+    },
+    {
+     "url": "https://fr.allafrica.com/stories/202602200376.html",
+     "publisher": "AllAfrica (Midi Madagasikara)",
+     "title": "Loi de finances 2026 (Feb 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ee9049f5205a.html.gz",
+     "quote": "Une option encadrée : elle suppose notamment la présentation d'états financiers certifiés, condition qui vise à renforcer la fiabilité des déclarations et à limiter les zones grises dans l'assiette fiscale."
+    }
+   ],
+   "notes": "PwC's MGA 400m sentence refers to 'corporate entity'; threshold for individuals assumed the same (consistent with the synthetic tax ceiling)."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2014-038 on personal data protection exists, but per DLA Piper it is not yet effectively applied, as no implementing decree has been published. The CMIL authority was created by Decree 2023-1541 but is not fully operational until all members are appointed (MoFo: not yet established). On paper, processing requires prior declaration to the CMIL.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=MG",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Madagascar",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a151d82e2c49.html.gz",
+     "quote": "The Data Protection Law has been in force for nine (09) years, but its application is not yet effective, as no implementing decree has been published."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?t=law&c=MG",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Madagascar",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a151d82e2c49.html.gz",
+     "quote": "However, the CMIL will not be fully operational until all its members have been appointed, namely: a Member of the National Assembly elected at a plenary session;"
+    },
+    {
+     "url": "https://www.mofo.com/privacy-library/madagascar",
+     "publisher": "Morrison & Foerster — Privacy Library",
+     "title": "Madagascar",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b4038a1a3b38.html.gz",
+     "quote": "National Data Protection Authority - Other Government Agencies The Malagasy Commission on Information Technology and Liberties (CMIL) Not yet established"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Madagascar. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "450,Madagascar,Legislation,Legislation,Legislation,Legislation,No Legislation,1,0,0,1,0,1,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. The synthetic tax with a possible 70% reduction (L3) is the main simplification.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card (CIN) is required in business-creation files. Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Commercial guide only (Africarrieres); no ID-authority or bank KYC source captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://africarrieres.com/madagascar/fr/guide/employeur-entreprise/creer-entreprise",
+     "publisher": "Africarrieres",
+     "title": "Créer une entreprise à Madagascar - Guide pratique 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ac5f5022b85a.html.gz",
+     "quote": "Copie CIN des dirigeants"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Madagascar: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Madagascar: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Madagascar: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Madagascar: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Madagascar: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Madagascar: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

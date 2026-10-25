@@ -1,0 +1,596 @@
+{
+ "code": "EG",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Article 212 of the Central Bank and Banking System Law No. 194 of 2020 says every natural or legal person may keep all foreign currency they receive, own or hold, and may deal in it or carry out any foreign-currency operation, including transfers into and out of Egypt. Banks may carry out all foreign-currency operations (Art. 214). No mandatory conversion to EGP is stated. CBE leaves foreign-currency cash withdrawal limits to each bank's own policy (21 Aug 2024).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://masaar.net/ar/egypt_laws/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%88%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81%D9%8A/",
+     "publisher": "Masaar (Egyptian law database, reproduces statute text)",
+     "title": "قانون البنك المركزي والجهاز المصرفي (Law 194 of 2020)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-70f9fc4899a9.html.gz",
+     "quote": "مادة (٢١٢): لكل شخص طبيعي أو اعتباری أن يحتفظ بكل ما يئول إليه أو يملكه أو يحوزه من نقد أجنبي، وله الحق في التعامل أو القيام بأي عملية من عمليات النقد الأجنبي بما في ذلك التحويل للداخل والخارج."
+    },
+    {
+     "url": "https://www.aldhshan.com/2025/03/194-2020.html",
+     "publisher": "Aldhshan (legal blog, reproduces statute text)",
+     "title": "قانون البنك المركزي والجهاز المصرفي رقم 194 لسنة 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ba3ca5c310e.html.gz",
+     "quote": "مادة رقم 212 لكل شخص طبيعي أو اعتباري أن يحتفظ بكل ما يئول إليه أو يملكه أو يحوزه من نقد أجنبي، وله الحق في التعامل أو القيام بأي عملية من عمليات النقد الأجنبي بما في ذلك التحويل للداخل والخارج ."
+    },
+    {
+     "url": "https://www.cbe.org.eg/en/news-publications/news/2024/08/21/19/03/press-release-regarding-the-cash-withdrawal-limits-in-foreign-currencies",
+     "publisher": "Central Bank of Egypt",
+     "title": "Press Release Regarding the Cash Withdrawal Limits in Foreign Currencies (21 Aug 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-22a5ccad29a2.html.gz",
+     "quote": "As for foreign currency withdrawal limits, the CBE left it up to each bank’s policy, and after the approval of its respective Board of Directors."
+    }
+   ],
+   "notes": "English translation of Art. 212: 'Every natural or juristic person may keep all foreign currency that devolves to them or that they own or hold, and has the right to deal in or carry out any foreign-currency operation, including transfers in and out.' The law is published by CBE in Arabic only (a CBE SDDS document says so); the official gazette/CBE PDF wasn't located, so two independent legal-database copies are used. An Egyptian Banking Institute 'law' PDF turned out to be a training brochure and was not used. Whether the 2024-2026 FX liberalisation added documentation rules for freelancer inflows was not researched."
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes. Art. 212 gives natural persons the right to keep foreign currency, and Art. 214 lets banks accept foreign-currency deposits and transfers. Foreign-currency cash withdrawal limits are set by each bank (CBE, Aug 2024).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.aldhshan.com/2025/03/194-2020.html",
+     "publisher": "Aldhshan (legal blog, reproduces statute text)",
+     "title": "قانون البنك المركزي والجهاز المصرفي رقم 194 لسنة 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ba3ca5c310e.html.gz",
+     "quote": "مادة رقم 214 للبنوك القيام بجميع عمليات النقد الأجنبي، بما في ذلك قبول الودائع والتعامل والتحويل للداخل والخارج والتشغيل والتغطية فيما تحوزه من أرصدة بالنقد الأجنبي ."
+    },
+    {
+     "url": "https://masaar.net/ar/egypt_laws/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%88%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81%D9%8A/",
+     "publisher": "Masaar",
+     "title": "Law 194 of 2020",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-70f9fc4899a9.html.gz",
+     "quote": "مادة (٢١٢): لكل شخص طبيعي أو اعتباری أن يحتفظ بكل ما يئول إليه أو يملكه أو يحوزه من نقد أجنبي"
+    },
+    {
+     "url": "https://www.cbe.org.eg/en/news-publications/news/2024/08/21/19/03/press-release-regarding-the-cash-withdrawal-limits-in-foreign-currencies",
+     "publisher": "Central Bank of Egypt",
+     "title": "Press Release Regarding the Cash Withdrawal Limits in Foreign Currencies (21 Aug 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-22a5ccad29a2.html.gz",
+     "quote": "As for foreign currency withdrawal limits, the CBE left it up to each bank’s policy, and after the approval of its respective Board of Directors."
+    }
+   ]
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Egypt (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Egypt is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Egypt is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Paymob received the Central Bank of Egypt's Payments Facilitator licence in 2018, reported as the first fintech to do so; it serves about 390,000 merchants. Paymob's go-live step asks for the documents support requests, 'such as your commercial register or national ID', so an individual route with a national ID appears possible. Paymob's privacy policy lists personal ID or passport among onboarding data. CBE's own list of licensed PSPs could not be found on its site. Both licence reports derive from Paymob press releases. CBE's oversight page describes the licensing of PSOs/PSPs but no public list was found. Fawry, Kashier, Geidea and InstaPay were not checked. Whether Paymob actually activates individuals without a commercial register is not explicit; ask Paymob."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "PayPal lists Egypt as a market, but Egypt is NOT in the PayPal Payouts eligibility table, so platforms paying via PayPal Payouts can't pay Egyptian accounts. What receiving and withdrawal features Egyptian accounts have was not confirmed, because PayPal's Egypt help pages render client-side and their text didn't load.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal worldwide country list",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt appears among the 199 PayPal markets (data/sources/paypal_worldwide.json: paypal_market_listed)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Eligible countries and their feature sets: 93 rows; Egypt is not among them."
+    }
+   ],
+   "notes": "paypal.com/eg help pages help667 and help394 were snapshotted but contain no article text (client-side rendering); the browser is refused on paypal.com."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. It has an Egypt-specific page, and Etsy pays Egyptian sellers via Payoneer (automated Etsy collector). EGP withdrawal routes and fees were not confirmed. Wise: Egypt is NOT among the countries where you can hold money with Wise, so residents can't use Wise to receive or hold balances.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/payments/egypt/",
+     "publisher": "Payoneer",
+     "title": "All-in-One Global Payment Platform for Businesses (Egypt page)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-db1b9f115781.html.gz",
+     "quote": "Get started 01/05 Receive payments like a local Receiving Accounts Get paid like a local in 13 currencies."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy",
+     "title": "Etsy Payments eligible countries (automated collector, data/sources/etsy.json)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: seller_payments_eligible_via_payoneer (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt is not in the list of countries and territories where you can hold money in your Wise account (the list goes '... Denmark Estonia ...')."
+    }
+   ]
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Freelancers and content creators must REGISTER FOR TAX within 30 days of starting (Art. 25, Unified Tax Procedures Law 206/2020), per the Egyptian Tax Authority's statement on content creators (Aug 2026). Registration is at the local tax office or via ETA's e-portal. You need a copy of your national ID, a lease or ownership deed for the place of activity, and a recent utility bill. You receive a tax card and tax registration number. Since 29 July 2026 a temporary tax card valid for 8 months is available, but it can't be used for e-invoices or e-receipts. Whether a freelancer also needs a commercial register entry was NOT established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.masrawy.com/news/news_economy/details/2026/8/9/3030420/%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%AA%D9%88%D8%B6%D8%AD-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A9-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D9%84%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%88%D8%AA%D8%AD%D8%AF%D8%AF-%D8%A3%D9%83%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D9%86%D8%B4%D8%A7%D8%B7",
+     "publisher": "Masrawy (reporting an Egyptian Tax Authority statement)",
+     "title": "الضرائب توضح المعاملة الضريبية لصناع المحتوى وتحدد أكواد النشاط (9 Aug 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-2ece1487284e.html.gz",
+     "quote": "وشدّدت على ضرورة التسجيل وفقًا لقانون الضريبة على الدخل خلال 30 يومًا من تاريخ بدء مزاولة النشاط، وذلك طبقًا للمادة 25 من قانون الإجراءات الضريبية الموحد رقم 206 لسنة 2020."
+    },
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. كيف توفق أوضاعك الضريبية وتتجنب العقوبات؟ (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "كيف تسجل نشاطك؟ تنص المادة 25 من قانون الإجراءات الضريبية الموحد على ضرورة التسجيل خلال 30 يوما من تاريخ بدء ممارسة النشاط."
+    },
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "تقديم صورة من الرقم القومي وعقد إيجار أو ملكية لمقر النشاط وفاتورة مرافق حديثة (كهرباء أو مياه أو غاز)."
+    },
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "اعتبارا من 29 يوليو 2026، يمكنك طلب استخراج بطاقة ضريبية مؤقتة صالحة لمدة ثمانية أشهر، إلا أنه لا يمكن استخدامها في إصدار الفواتير أو الإيصالات الإلكترونية."
+    }
+   ],
+   "notes": "ETA's own announcement (eta.gov.eg) was not located; Masrawy and Al-Mohasben report it, and Ahram returned 403. Registration fees were not checked. The commercial-register question is open."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "A tax registration number on a tax card (البطاقة الضريبية) from the Egyptian Tax Authority. Apply within 30 days of starting activity at the local tax office or via ETA's e-portal, with your national ID copy, proof of premises and a utility bill (L1). Content creators can't deduct payments to other freelancers (e.g. editors) unless the payee's tax registration number appears on the documents (Enterprise, citing an April 2026 ETA warning).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "استلام البطاقة الضريبية ورقم التسجيل الضريبي."
+    },
+    {
+     "url": "https://almohasben.com/%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%AA%D9%8F%D9%88%D8%B6%D8%AD-%D8%A3%D8%AD%D9%83%D8%A7%D9%85-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D9%86%D8%B4%D8%A7%D8%B7/",
+     "publisher": "Al-Mohasben (accountants' newspaper, reporting ETA)",
+     "title": "الضرائب تُوضح أحكام الضريبة على نشاط «صناع المحتوى» وتدعو للتسجيل (12 Aug 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-7a1fbefb9ec8.html.gz",
+     "quote": "التسجيل الضريبي: استخراج بطاقة ضريبية والتسجيل بمصلحة الضرائب المصرية."
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "Income tax under Law 91 of 2005 as amended. The Egyptian Tax Authority states that content-creation income is taxable whether earned in Egypt or abroad, as long as Egypt is the centre of the activity; the same applies to freelancers paid by foreign clients. Small businesses and freelancers with annual turnover up to EGP 20 million may instead opt into Law 6 of 2025's simplified regime (since 1 March 2025): a final tax on turnover of 0.4% (up to EGP 500k), 0.5% (500k-2m), 0.75% (2-3m), 1% (3-10m) or 1.5% (10-20m). The regime does NOT cover professional consultancy businesses earning at least 90% of turnover from one or two clients.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.masrawy.com/news/news_economy/details/2026/8/9/3030420/%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%AA%D9%88%D8%B6%D8%AD-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A9-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D9%84%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%88%D8%AA%D8%AD%D8%AF%D8%AF-%D8%A3%D9%83%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D9%86%D8%B4%D8%A7%D8%B7",
+     "publisher": "Masrawy (reporting ETA)",
+     "title": "الضرائب توضح المعاملة الضريبية لصناع المحتوى (9 Aug 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-2ece1487284e.html.gz",
+     "quote": "وذكرت المصلحة أن إيرادات هذه الأنشطة تخضع للضريبة وفقًا لأحكام قانون الضريبة على الدخل رقم 91 لسنة 2005 وتعديلاته، موضحة أن الخضوع يشمل الإيرادات المحققة من النشاط في مصر أو الخارج، متى كانت مصر مركزًا لمزاولة المهنة أو النشاط."
+    },
+    {
+     "url": "https://almohasben.com/%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%AA%D9%8F%D9%88%D8%B6%D8%AD-%D8%A3%D8%AD%D9%83%D8%A7%D9%85-%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%A8%D8%A9-%D8%B9%D9%84%D9%89-%D9%86%D8%B4%D8%A7%D8%B7/",
+     "publisher": "Al-Mohasben (reporting ETA)",
+     "title": "الضرائب تُوضح أحكام الضريبة على نشاط «صناع المحتوى» (12 Aug 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-7a1fbefb9ec8.html.gz",
+     "quote": "أكدت مصلحة الضرائب المصرية أن كافة الإيرادات الناتجة عن نشاط صناعة المحتوى تخضع للضريبة وفق القوانين الضريبية السارية، سواء أُنجزت داخل مصر أو خارجها، طالما أن مصر هي مركز مزاولة النشاط أو المهنة."
+    },
+    {
+     "url": "https://www.mondaq.com/tax-authorities/1791346/new-tax-incentives-in-law-no-6-of-2025-for-small-businesses",
+     "publisher": "Mondaq (law firm article)",
+     "title": "New Tax Incentives In Law No. 6 Of 2025 For Small Businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8fdf08b01d9b.html.gz",
+     "quote": "(0,4%) : For projects with an annual turnover not exceeding EGP 500,000."
+    },
+    {
+     "url": "https://www.mondaq.com/tax-authorities/1791346/new-tax-incentives-in-law-no-6-of-2025-for-small-businesses",
+     "publisher": "Mondaq (law firm article)",
+     "title": "New Tax Incentives In Law No. 6 Of 2025 For Small Businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8fdf08b01d9b.html.gz",
+     "quote": "Projects not subject to the Law are as follows: Professional consultancy firms where at least 90% of annual turnover is derived from providing professional consultancy services to one or two clients."
+    },
+    {
+     "url": "https://www.ey.com/en_gl/technical/tax-alerts/egypt-introduces-tax-incentives-and-benefits-for-small-enterprises",
+     "publisher": "EY",
+     "title": "Egypt introduces tax incentives and benefits for small enterprises (28 Feb 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-36459d322627.html.gz",
+     "quote": "6, effective from 1 March 2025, introduces tax incentives for small enterprises with annual turnover not exceeding 20 million Egyptian Pounds (EGP20m), including various exemptions, reduced tax rates and simplified tax procedures."
+    },
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "0.4% لحجم أعمال حتى 500 ألف جنيه. 0.5% من 500 ألف إلى 2 مليون جنيه. 0.75% من 2 إلى 3 ملايين جنيه. 1% من 3 إلى 10 ملايين جنيه. 1.5% من 10 إلى 20 مليون جنيه."
+    }
+   ],
+   "notes": "The Law 6/2025 text and ETA's statement were not read from an official site. TRAP: a freelancer consultant with one big foreign client (90%+ of turnover) is excluded from the simplified regime. Normal progressive income-tax brackets were not extracted. Mondaq's 2026 article says Law 151 of 2026 repealed the old presumptive assessment; it is different from Law 6/2025 and was not researched."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "VAT Law 67 of 2016 (ETA English translation, updated 15 Jan 2023): standard rate 14% (since FY 2017/18); registration is required once 12-month sales reach EGP 500,000, BUT exporters must register regardless of turnover (Art. 16). Exported goods and services are zero-rated under conditions in the Executive Regulations (Art. 4 area). ETA's exported-services guideline (Nov 2025) confirms remote B2B services to non-resident business customers are zero-rated with input-VAT refund, and lists bank-transfer proof among the documents. A secondary source (Enterprise) says most freelancers must register for VAT from day one because professional services carry a 10% table tax.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.eta.gov.eg/sites/default/files/2024-02/Law-english-no.67-2016.pdf.pdf",
+     "publisher": "Egyptian Tax Authority",
+     "title": "Value Added Tax Law No. 67 of 2016 (English translation, updated January 15, 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-cdc8f45b93da.pdf.gz",
+     "quote": "Every natural or judicial person who sells a taxable commodity or provides a taxable service, and whose total sales of taxable and exempt goods and services during the preceding 12 months as of date of enforcement of this law reach or exceed 500,000 Egyptian Pounds, shall apply to ETA to register"
+    },
+    {
+     "url": "https://www.eta.gov.eg/sites/default/files/2024-02/Law-english-no.67-2016.pdf.pdf",
+     "publisher": "Egyptian Tax Authority",
+     "title": "Value Added Tax Law No. 67 of 2016 (English translation)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-cdc8f45b93da.pdf.gz",
+     "quote": "Importer of a taxable commodity or service for the purpose of trading, exporters or distribution agents shall apply to ETA for registration regardless of their transaction volume.."
+    },
+    {
+     "url": "https://www.eta.gov.eg/sites/default/files/2024-02/Law-english-no.67-2016.pdf.pdf",
+     "publisher": "Egyptian Tax Authority",
+     "title": "Value Added Tax Law No. 67 of 2016 (English translation)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-cdc8f45b93da.pdf.gz",
+     "quote": "Standard VAT rate on goods and services shall be (13%) for fiscal year 2016/2017, and shall be (14%) as of the beginning of fiscal year 2017/2018"
+    },
+    {
+     "url": "https://www.eta.gov.eg/sites/default/files/2024-02/Law-english-no.67-2016.pdf.pdf",
+     "publisher": "Egyptian Tax Authority",
+     "title": "Value Added Tax Law No. 67 of 2016 (English translation)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-cdc8f45b93da.pdf.gz",
+     "quote": "Such goods and services exported under the terms and conditions stipulated by the Executive Regulations shall be zero-rated."
+    },
+    {
+     "url": "https://www.eta.gov.eg/sites/default/files/2025-11/guidlines_for_exported_services_in_egypt_english.pdf",
+     "publisher": "Egyptian Tax Authority",
+     "title": "How Should Tax Registrant deal with Exported Services (First Edition, 2025-11)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f86880b60e23.pdf.gz",
+     "quote": "Exported services are zero-rated, with the entitlement to get a refund in respect of input tax on such exported services."
+    },
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "أما الخدمات التي تقدمها لعملاء خارج مصر فتعامل كصادرات وتخضع لضريبة بنسبة 0%."
+    }
+   ],
+   "notes": "TRAP: 'exporters ... register regardless of their transaction volume', so a freelancer exporting services may need VAT registration even below EGP 500k (zero-rated, but filings are required). The 14% rate is from the 2023-updated translation; PwC notes Law 157 of 2025 amended VAT rates and ETA Instruction 45 of 2025 unified exported-services treatment, neither read. The ETA guideline examples are B2B (company to non-resident business); B2C exports and individual sellers were not covered. The 10% table tax on professional services comes from Enterprise and Fonoa (search summary), not the statute schedule."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Personal Data Protection Law No. 151 of 2020. Its Executive Regulations were issued by Ministerial Decree No. 816 of 2025 on 1 November 2025, with a one-year grace period that ends 31 October 2026 (some sources say 1 November 2026), two weeks from today. The regulator is the Personal Data Protection Center (PDPC), which launched its electronic portal for accreditations, licences and permits in October 2026. The law sets up a LICENSING regime: general licences for controllers and processors (usually valid 3 years), plus permits for cross-border transfers and electronic direct marketing. Marketing requires prior consent.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bakermckenzie.com/en/insight/publications/2026/10/egypt-personal-data-protection-law-update",
+     "publisher": "Baker McKenzie",
+     "title": "Egypt: Personal Data Protection Law Update (October 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a799189623c8.html.gz",
+     "quote": "By 31 October 2026, all data users subject to the PDPL are required to reconcile their positions and be in full compliance with the provisions of the PDPL."
+    },
+    {
+     "url": "https://www.bakermckenzie.com/en/insight/publications/2026/10/egypt-personal-data-protection-law-update",
+     "publisher": "Baker McKenzie",
+     "title": "Egypt: Personal Data Protection Law Update (October 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-a799189623c8.html.gz",
+     "quote": "Earlier this month, the Personal Data Protection Center (PDPC) officially launched its electronic portal ."
+    },
+    {
+     "url": "https://cms.law/en/int/legal-updates/egypt-s-pdpl-executive-regulations-issued-one-year-compliance-countdown-begins",
+     "publisher": "CMS",
+     "title": "Egypt’s PDPL: Executive regulations issued, one-year compliance countdown begins",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-f76369ab96b7.html.gz",
+     "quote": "General licences for controllers, processors or combined roles, usually valid for three years."
+    },
+    {
+     "url": "https://cms.law/en/int/legal-updates/egypt-s-pdpl-executive-regulations-issued-one-year-compliance-countdown-begins",
+     "publisher": "CMS",
+     "title": "Egypt’s PDPL: Executive regulations issued",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-f76369ab96b7.html.gz",
+     "quote": "Electronic direct marketing Electronic direct marketing is subject to both strict substantive rules and licensing requirements: Marketing requires prior consent."
+    }
+   ],
+   "notes": "pdpc.gov.eg didn't respond to scripts. Whether very small or individual controllers are exempt from licensing, and the licence fees, were not verified; this matters greatly for one-person sellers. Re-check right after 31 Oct 2026."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Consumer Protection Law No. 181 of 2018, with Executive Regulations published April 2019 and amended by Law 20 of 2024 (amendment not reviewed). It covers distance contracting, including internet sales. Consumers may return or exchange goods within 14 days of receipt without giving reasons and without cost (Art. 17), or within 30 days if defective (Art. 21). Before a distance contract the supplier must disclose its identity: name, address, phone, email, commercial registration number and tax card (Art. 37). Practitioner guidance adds that product information must be in Arabic and prices must include VAT.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://consortiolawfirm.com/egyptian-consumer-protection-law-181-2018-english-translation/",
+     "publisher": "Consortio Law Firm (English translation)",
+     "title": "Egypt Consumer Protection Law No. 181 of 2018",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ff24bb993ba.html.gz",
+     "quote": "Article 17 The consumer shall have the right to exchange a good or return it and recover its monetary value, without giving any reasons and without bearing any expenses, within fourteen days from receipt thereof"
+    },
+    {
+     "url": "https://consortiolawfirm.com/egyptian-consumer-protection-law-181-2018-english-translation/",
+     "publisher": "Consortio Law Firm (English translation)",
+     "title": "Egypt Consumer Protection Law No. 181 of 2018",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ff24bb993ba.html.gz",
+     "quote": "Article 37 Prior to concluding a distance contract, the supplier shall be required to provide the consumer, clearly and expressly, with the information and data enabling the consumer to make the contracting decision, in particular: Data identifying the supplier, including the name, address, telephone number, and email address if any, the commercial registration number and tax card"
+    },
+    {
+     "url": "https://nilexdigitalsystems.com/articles/consumer-protection-law-egypt-online-stores",
+     "publisher": "Nilex Digital Systems",
+     "title": "Egypt's Consumer Protection Law and Online Stores: What Your Store Must Show",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-01cc41d2e319.html.gz",
+     "quote": "Consumers buying at a distance can withdraw within 14 days without giving reasons;"
+    }
+   ],
+   "notes": "Official CPA text (cpa.gov.eg) not fetched; Ahram returned 403. How the 14-day right applies to DIGITAL products (downloads) was not verified."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) Law 6 of 2025 simplified regime for turnover up to EGP 20m: a final 0.4-1.5% tax on turnover, plus exemptions from stamp tax, state development fees, capital gains tax on asset sales and dividend withholding tax, and no advance-payment system. The 90%-from-one-or-two-clients consultancy exclusion applies (L3). (2) VAT zero-rating of exported services with input-VAT refunds (L4). ITIDA programmes for IT exporters and freelancers were not researched.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ey.com/en_gl/technical/tax-alerts/egypt-introduces-tax-incentives-and-benefits-for-small-enterprises",
+     "publisher": "EY",
+     "title": "Egypt introduces tax incentives and benefits for small enterprises (28 Feb 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-36459d322627.html.gz",
+     "quote": "6 applies to businesses with an annual turnover not exceeding EGP20m irrespective of whether they are registered for tax purposes."
+    },
+    {
+     "url": "https://www.mondaq.com/tax-authorities/1791346/new-tax-incentives-in-law-no-6-of-2025-for-small-businesses",
+     "publisher": "Mondaq",
+     "title": "New Tax Incentives In Law No. 6 Of 2025 For Small Businesses",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-8fdf08b01d9b.html.gz",
+     "quote": "The Law also allows businesses to benefit from the simplified tax regime for commercial, industrial, service, and professional activities, subject to specific conditions."
+    },
+    {
+     "url": "https://www.eta.gov.eg/sites/default/files/2025-11/guidlines_for_exported_services_in_egypt_english.pdf",
+     "publisher": "Egyptian Tax Authority",
+     "title": "How Should Tax Registrant deal with Exported Services (2025-11)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f86880b60e23.pdf.gz",
+     "quote": "Exported services are zero-rated, with the entitlement to get a refund in respect of input tax on such exported services."
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The national ID card (بطاقة الرقم القومي), issued by the Civil Status Organisation of the Ministry of Interior. It is required for tax registration (L1) and accepted by Paymob for onboarding.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://enterpriseam.com/egypt-ar/2026/10/11/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D9%84%D9%88%D9%86-%D9%88%D8%B5%D9%86%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%83%D9%8A%D9%81-%D8%AA%D9%88%D9%81%D9%82-%D8%A3%D9%88%D8%B6%D8%A7/",
+     "publisher": "Enterprise (Egypt)",
+     "title": "المستقلون وصناع المحتوى .. (11 Oct 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-03aac117bea7.html.gz",
+     "quote": "تقديم صورة من الرقم القومي وعقد إيجار أو ملكية لمقر النشاط"
+    },
+    {
+     "url": "https://wizard.paymob.com/",
+     "publisher": "Paymob",
+     "title": "Integration Onboarding Planner",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0000adfab30e.html.gz",
+     "quote": "Attach what Paymob support asked for, such as your commercial register or national ID."
+    }
+   ],
+   "notes": "The issuer (Civil Status Organisation, Ministry of Interior) comes from a search summary of egypt.gov.eg, whose TLS certificate had expired when fetched (not bypassed); digital.gov.eg renders client-side and showed no text. The issuer is therefore not quoted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving). Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (6) Local official channel: Egyptian law lets every person keep the foreign currency they receive (Law 194/2020 art. 212), and banks offer foreign-currency accounts (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Egypt: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://www.cbe.org.eg/en/news-publications/news/2024/08/21/19/03/press-release-regarding-the-cash-withdrawal-limits-in-foreign-currencies",
+     "publisher": "Central Bank of Egypt",
+     "title": "Press Release Regarding the Cash Withdrawal Limits in Foreign Currencies (21 Aug 2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-22a5ccad29a2.html.gz",
+     "quote": "As for foreign currency withdrawal limits, the CBE left it up to each bank’s policy, and after the approval of its respective Board of Directors."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-17",
+ "completed": "2026-10-17",
+ "open_questions": [
+  "PDPL (151/2020): are one-person sellers exempt from licensing? Licence fees? Deadline 31 Oct 2026 (re-check after).",
+  "Does a freelancer also need a commercial register entry, or only tax registration?",
+  "VAT: Law 157/2025 rate changes and ETA Instruction 45/2025 on exported services (not read); 10% table tax on professional services (secondary only).",
+  "Official ETA statement on content creators (eta.gov.eg) not located; Law 6/2025 text not read from official source.",
+  "PayPal Egypt receive/withdraw features (help pages render client-side).",
+  "Payoneer EGP withdrawal routes and fees; Paymob individual onboarding in practice."
+ ]
+}

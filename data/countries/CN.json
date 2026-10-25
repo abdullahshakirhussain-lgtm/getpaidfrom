@@ -1,0 +1,578 @@
+{
+ "code": "CN",
+ "un_name": "China (the People's Republic of)",
+ "m49_name": "China",
+ "iso3": "CHN",
+ "m49": "156",
+ "region": "Asia",
+ "sub_region": "Eastern Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "24-10-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible_via_payoneer",
+   "label": "payoneer",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "not_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Partly restricted. Individual current-account FX transactions are convertible, but individuals' FX sales (settlement into RMB) and purchases are each managed under an annual facilitation quota of USD 50,000 per person. Within the quota, banks process with ID only; above it, the authenticity of transactions is examined and supporting documents (e.g. contracts) are needed. SAFE monitors split transactions through a bank-SAFE information system.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.safe.gov.cn/en/2007/0105/819.html",
+     "publisher": "State Administration of Foreign Exchange (SAFE)",
+     "title": "SAFE Q&A on the Measures for the Administration of Individual Foreign Exchange",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fd9492b5dac9.html.gz",
+     "quote": "Q: It is stipulated in the recently promulgated Measures for the Administration of Individual Foreign Exchange that management of an annual quota shall be applicable to individual foreign exchange sales and domestic individual foreign exchange purchases, and it is specified in the Detailed Rules that the respective annual quota shall be USD 50,000."
+    },
+    {
+     "url": "https://www.safe.gov.cn/en/2007/0105/819.html",
+     "publisher": "State Administration of Foreign Exchange (SAFE)",
+     "title": "SAFE Q&A on the Measures for the Administration of Individual Foreign Exchange",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fd9492b5dac9.html.gz",
+     "quote": "The related formalities and vouchers for foreign exchange sales and purchases within the quota will be drastically simplified and facilitated, and examination of the authenticity of transactions exceeding the quota shall be strengthened."
+    },
+    {
+     "url": "https://www.hsbc.com.cn/content/dam/hsbc/cn/docs/foreign-exchange/personal-foreign-exchange-business-handling-guide-en.pdf",
+     "publisher": "HSBC China",
+     "title": "HSBC China — Individual Foreign Exchange Services Guide",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2d70c19ca0b5.pdf.gz",
+     "quote": "Individual foreign exchange transactions under current account items are managed in accordance with the principle of convertibility, while those under capital account items are managed based on the ongoing process of convertibility."
+    }
+   ],
+   "notes": "TRAP: freelancers receiving more than USD 50k/yr must document the underlying services to convert. Specific documents for service-trade income not captured. SAFE Q&A dates from 2007."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Individuals can hold foreign-currency savings accounts at Chinese banks (bank guides describe account opening); conversion is subject to the quota above.",
+   "status": "unverified",
+   "note": "Captured HSBC text covers account opening for non-mainland individuals only (2026-10-22).",
+   "sources": [
+    {
+     "url": "https://www.hsbc.com.cn/content/dam/hsbc/cn/docs/foreign-exchange/personal-foreign-exchange-business-handling-guide-en.pdf",
+     "publisher": "HSBC China",
+     "title": "HSBC China — Individual Foreign Exchange Services Guide",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2d70c19ca0b5.pdf.gz",
+     "quote": "Individual Foreign Exchange Services Guide for Non-Chinese Mainland Individuals ᷂Ṓ⢮㯟ᶲ∹∶䎞㊟⋯ 徚䓀Ḧ⠛⢮᷂Ṓ䘜刚御 Foreign Exchange Services Guide for Non-Chinese Mainland Individuals Opening an Individual Foreign Currency Savings Account"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for China (the People's Republic of) (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "China is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; China (the People's Republic of) is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Domestic sales run on Alipay and WeChat Pay (not researched)."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes, with a restriction note. China is on PayPal's Payouts list as 'Fully localized' but flagged 'see PayPal restriction note'.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "China is listed on PayPal's Payouts country list as 'Fully localized' with a 'see PayPal restriction note' flag (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Content of the restriction note not captured."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: China IS on Wise's list of countries whose residents can hold money. Payoneer: Etsy pays Chinese sellers via Payoneer (collector data).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "China appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "The usual vehicle is an individual industrial and commercial household (个体工商户), registered with the market regulation authority. Only Chinese citizens, including permanent residents of Hong Kong and Macau and residents of Taiwan, may register one; foreigners cannot. E-commerce operators must register as market entities. Exceptions cover small sporadic transactions; under the 2021 Measures, individuals with cumulative annual online transactions up to RMB 100,000 need not register. Exempt operators must still register for tax once tax obligations arise and must display their exemption status.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://govt.chinadaily.com.cn/s/201803/21/WS5b78753b498e855160e8ebf3/foreigners-cannot-apply-for-individual-businesses-in-china.html",
+     "publisher": "China Daily / english.gov.cn (from legalinfo.gov.cn)",
+     "title": "Foreigners cannot apply for individual businesses in China (2018)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-6fc03d980ef7.html.gz",
+     "quote": "and Macau S.A.R., residents of Taiwan) are entitled to register under the industrial and commercial administrative department, engage in businesses or self-employed."
+    },
+    {
+     "url": "https://www.chinalawtranslate.com/en/p-r-c-e-commerce-law-2018/",
+     "publisher": "China Law Translate",
+     "title": "P.R.C. E-Commerce Law (2018)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5451d6ae2d0.html.gz",
+     "quote": "Article 10: E-commerce operators shall perform market entity registrations in accordance with law."
+    },
+    {
+     "url": "https://www.chinalawtranslate.com/en/p-r-c-e-commerce-law-2018/",
+     "publisher": "China Law Translate",
+     "title": "P.R.C. E-Commerce Law (2018)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5451d6ae2d0.html.gz",
+     "quote": "E-commerce operators that under the previous article need not perform market entity registrations, shall, after tax obligations first arise, perform tax registrations and make truthful tax declarations in accordance with the provisions of laws and regulations on tax collection administration."
+    },
+    {
+     "url": "https://appinchina.co/government-documents/measures-for-the-supervision-and-administration-of-online-transactions/",
+     "publisher": "App in China (translation)",
+     "title": "Measures for the Supervision and Administration of Online Transactions (2021)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-4d132c46cbda.html.gz",
+     "quote": "The individuals who engage in online transaction activities with an accumulated annual transaction amount not exceeding 100,000 yuan are not required to make registration in accordance with the provisions of Article 10 of the E-Commerce Law of the People’s Republic of China."
+    }
+   ],
+   "notes": "TRAP: foreigners cannot use the individual-household form. 2022 Regulations on Promoting Individual Businesses not captured; fees not captured."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by China (the People's Republic of) to the OECD: \"Entities: Generally TIN of an entity is the Uniform Social Credit Code which can be found on the entity’s Business Licence. If no Uniform Social Credit Code i s obtained by the entity , its TIN (18 digits) is assigned by local tax office according to relevant rules. During current transition period, the 15-digit old TIN is still in use for some entities, printed on the Tax Registration Certificate.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/china-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by China (the People's Republic of)'s tax administration)",
+     "title": "China (the People's Republic of) — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-ba4f42c4caef.pdf.gz",
+     "quote": "Entities: Generally TIN of an entity is the Uniform Social Credit Code which can be found on the entity’s Business Licence. If no Uniform Social Credit Code i s obtained by the entity , its TIN (18 digits) is assigned by local tax office according to relevant rules. During current transition period, the 15-digit old TIN is still in use for some entities, printed on the Tax Registration Certificate.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Residents (domiciled, or present 183+ days in a tax year) are taxed on worldwide income. Freelance labour-service remuneration is part of 'comprehensive income', taxed at 3%–45% on an annual basis. Income from individual businesses or sole proprietorships is taxed at 5%–35% (5% up to CNY 30,000, 35% above CNY 500,000). Foreigners resident fewer than six consecutive years are subject to special rules on foreign-source income.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "China - Individual - Residence",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-833d858a9f06.html.gz",
+     "quote": "Residents in general are subject to IIT on their worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "China - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0adf52ef5eaa.html.gz",
+     "quote": "For residents, employment income, remuneration for labour services, author’s remuneration, and royalties are combined as 'comprehensive income' for aggregate tax calculation purpose on an annual basis."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "China - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0adf52ef5eaa.html.gz",
+     "quote": "ietorship enterprises, or partnerships is generally subject to IIT at progressive rates from 5% to 35%"
+    },
+    {
+     "url": "https://www.forvismazars.com/cn/en/insights/our-publications/tax-publications/china-tax-newsletter/new-iit-laws-for-the-six-year-rule",
+     "publisher": "Forvis Mazars China",
+     "title": "New IIT laws for the six-year rule",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-bab788ef605f.html.gz",
+     "quote": "The six-year count will be reset if the non-domiciled individual spends more than 30 consecutive days outside of China during any tax year."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "China - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0adf52ef5eaa.html.gz",
+     "quote": "Over 300,000 to 500,000 30 Over 500,000 35"
+    }
+   ],
+   "notes": "Tax authorities intensified CRS-based enforcement on residents' offshore income from 2024 (search summary, not captured)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The VAT Law and its Implementation Regulations took effect on 1 January 2026. Small-scale taxpayers, generally those under RMB 5m annual sales, pay 3%, reduced to 1% until 31 December 2027. From 2026 to 2027 there is a statutory exemption for monthly sales of RMB 100,000 (quarterly RMB 300,000); whether exactly RMB 100,000 is inclusive is unclear. Qualifying exported services consumed entirely outside China (e.g. R&D, design and software services) are zero-rated for eligible taxpayers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.mondaq.com/china/sales-taxes-vat-gst/1748062/chinas-2026-vat-supporting-documents-and-what-enterprises-should-do-next",
+     "publisher": "Mondaq",
+     "title": "China's 2026 VAT supporting documents and what enterprises should do next",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-1fb4e06ee2ab.html.gz",
+     "quote": "On 30 January 2026, the Ministry of Finance and the State Taxation Administration issued seven key supporting announcements for China's Value-Added Tax Law and its Implementation Regulations, which took effect on 1 January 2026."
+    },
+    {
+     "url": "https://www.mondaq.com/china/sales-taxes-vat-gst/1748062/chinas-2026-vat-supporting-documents-and-what-enterprises-should-do-next",
+     "publisher": "Mondaq",
+     "title": "China's 2026 VAT supporting documents and what enterprises should do next",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-1fb4e06ee2ab.html.gz",
+     "quote": "Tax threshold solidified From 1 January 2026 to 31 December 2027, the tax-exempt threshold for small-scale taxpayers of monthly sales of RMB 100,000 (quarterly RMB 300,000) is elevated from a transitional preferential policy to a statutory threshold provision."
+    },
+    {
+     "url": "https://english.shanghai.gov.cn/en-FAQs-DoBusiness/20251119/1c08fc80b2aa46a9ba1ad672fbea2ecb.html",
+     "publisher": "Shanghai Municipal People's Government",
+     "title": "FAQs on VAT exemption for small-scale taxpayers",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-caabb9965e7f.html.gz",
+     "quote": "Those whose monthly sales are under 100,000 yuan ($14,000), or whose quarterly sales are under 300,000 yuan, qualify for the exemption."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "China - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-cc50d7a9f263.html.gz",
+     "quote": "From 1 January 2023 to 31 December 2027, the VAT rate for small-scale VAT payers is reduced from 3% to 1%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "China - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-cc50d7a9f263.html.gz",
+     "quote": "exported services that are completely consumed outside China, including: R&D services."
+    }
+   ],
+   "notes": "Small-scale taxpayers generally cannot use zero-rating (they may be exempt instead) - not captured. RMB 5m small-scale ceiling from search summaries."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Information Protection Law (PIPL), in force since 1 November 2021, works alongside the Cybersecurity Law and the Data Security Law. It has extraterritorial reach, and outbound transfers are subject to security-assessment rules. For serious violations, fines are up to RMB 50 million or 5% of annual revenue, plus possible business suspension.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=CN&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in China",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-7bab77002a1a.html.gz",
+     "quote": "Most significantly, the PIPL came into effect on November 1, 2021."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=CN&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in China",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-7bab77002a1a.html.gz",
+     "quote": "That said, the three main pillars of the personal information protection framework in the PRC are the Personal Information Protection Law (PIPL), the Cybersecurity Law (CSL), and the Data Security Law (DSL)."
+    },
+    {
+     "url": "https://digichina.stanford.edu/work/translation-personal-information-protection-law-of-the-peoples-republic-of-china-effective-nov-1-2021/",
+     "publisher": "DigiChina (Stanford University)",
+     "title": "Translation: Personal Information Protection Law of the PRC",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-df316b4b3110.html.gz",
+     "quote": "impose a fine of not more than 50 million Yuan, or 5% of annual revenue."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under Article 25 of the Consumer Rights Protection Law, consumers may return goods bought online, by TV, telephone or mail order within 7 days of receipt without giving a reason. Exceptions include custom-made goods, perishables, downloaded or unsealed digital products, and newspapers. Sellers must refund within 7 days of receiving the return; return shipping is borne by the consumer unless agreed otherwise. E-commerce operators must display licence or exemption information (E-Commerce Law art. 15).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://english.beijing.gov.cn/consuminginbeijing/faq/202306/t20230630_3151226.html",
+     "publisher": "Beijing Municipal Government",
+     "title": "What is the 7-day unconditional return policy?",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-8cac7a72ee87.html.gz",
+     "quote": "According to Article 25, Chapter III, of the Law of the People's Republic of China on Protection of Consumer Rights and Interests, consumers have the right to return products purchased through online shopping, television shopping, telephone shopping and postal shopping within 7 days (starting from the day they receive the product) without providing any reason."
+    },
+    {
+     "url": "https://cms.law/en/chn/publication/right-of-return-takes-effect-on-15-march-2014",
+     "publisher": "CMS",
+     "title": "Right of return takes effect on 15 March 2014",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-66b16b837392.html.gz",
+     "quote": "The final CPL now sets out the following exemptions where the right of return is excluded: (1) Products customised for the consumer (2) Fresh and perishable commodities (3) Audio-visual products, computer software and other digital products that are downloaded by the consumer online or where the packaging of said products has been opened by the consumer (4) Newspapers and magazines 2."
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Small-scale VAT relief (1% rate and RMB 100k/month exemption, see L4). No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched in depth on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Resident Identity Card (居民身份证 / Jūmín Shēnfèn Zhèng) (Wikipedia, compulsory-ID list). Normally this is first issued at school age, but it can be issued whenever the legal ascendant(s) request its issue. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "China Resident Identity Card (居民身份证 / Jūmín Shēnfèn Zhèng)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "China (the People's Republic of): not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "China (the People's Republic of): not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "China (the People's Republic of): on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "China (the People's Republic of): not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "China (the People's Republic of): listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "China (the People's Republic of): on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.cache/
+site/dist/
+playbook/dist/
+data/private/
+Thumbs.db
+.DS_Store
+
+# large snapshots (>2 MB gz): local only; sha256 + URL recorded in research files
+data/snapshots/_research_large/

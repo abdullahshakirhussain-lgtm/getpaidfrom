@@ -1,0 +1,59 @@
+{
+ "source": "upwork",
+ "route": "upwork",
+ "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+ "retrieved_at": "2026-10-25T03:36:38+00:00",
+ "sha256": "18b7a9eb8185",
+ "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+ "evidence": "official",
+ "lists": {
+  "restricted": {
+   "meaning": "freelancer_restricted",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector).",
+   "count": 6,
+   "entries": [
+    {
+     "code": "IR",
+     "raw": "Iran",
+     "label": null,
+     "meaning": "freelancer_restricted"
+    },
+    {
+     "code": "KP",
+     "raw": "North Korea",
+     "label": null,
+     "meaning": "freelancer_restricted"
+    },
+    {
+     "code": "CU",
+     "raw": "Cuba",
+     "label": null,
+     "meaning": "freelancer_restricted"
+    },
+    {
+     "code": "RU",
+     "raw": "Russia (operations suspended 1 May 2022)",
+     "label": null,
+     "meaning": "freelancer_restricted"
+    },
+    {
+     "code": "BY",
+     "raw": "Belarus (operations suspended 1 May 2022)",
+     "label": null,
+     "meaning": "freelancer_restricted"
+    },
+    {
+     "code": "SY",
+     "raw": "Syria (not supported due to payment partner restrictions)",
+     "label": null,
+     "meaning": "freelancer_restricted"
+    }
+   ],
+   "group_entries_not_expanded": [
+    "Crimea, region of Ukraine",
+    "Luhansk People's Republic (LPR)",
+    "Donetsk People's Republic (DPR)"
+   ]
+  }
+ }
+}

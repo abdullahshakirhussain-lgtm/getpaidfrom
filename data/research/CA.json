@@ -1,0 +1,445 @@
+{
+ "code": "CA",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No exchange controls: they ended in December 1951 (Bank of Canada), and there are no restrictions on borrowing from abroad, repatriating capital or remitting income (Deloitte 2026). Receiving foreign payments is unrestricted; FINTRAC reporting applies to large transfers (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bankofcanada.ca/wp-content/uploads/2010/07/appendixc.pdf",
+     "publisher": "Bank of Canada",
+     "title": "A History of the Canadian Dollar — Appendix C (chronology)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8fd53ad37471.pdf.gz",
+     "quote": "December 1951: Exchange controls end.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-canadahighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Canada Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-41bbc47ac6fb.pdf.gz",
+     "quote": "Foreign exchange control: None. No restrictions are imposed on borrowing from abroad; the repatriation of capital; or the ability to remit dividends, profits, interest, royalties, and similar payments from Canada.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Canadian banks offer personal U.S.-dollar accounts to residents. RBC's U.S. Personal Account is a U.S.-dollar account with chequing privileges, aimed at people who live in Canada (USD 3 monthly fee, 6 free debits). TD's Borderless Plan is a U.S. Dollar Account, and you can move money between your TD Canadian- and U.S.-dollar accounts online. Other currencies are less common at retail level (not researched).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://rbcroyalbank.com/products/deposits/onlineservices/us-personal-account.html",
+     "publisher": "RBC Royal Bank (product page)",
+     "title": "U.S. Personal Account",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-6d4f65a5514e.html.gz",
+     "quote": "A U.S. dollar account with chequing privileges, allowing you to save in U.S. dollars when exchange rates are favourable.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://rbcroyalbank.com/products/deposits/onlineservices/us-personal-account.html",
+     "publisher": "RBC Royal Bank (product page)",
+     "title": "U.S. Personal Account",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-6d4f65a5514e.html.gz",
+     "quote": "You reside in Canada and frequently travel to the U.S.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.td.com/ca/en/personal-banking/products/bank-accounts/us-dollar-accounts/borderless-plan",
+     "publisher": "TD Canada Trust (product page)",
+     "title": "Borderless Plan: U.S. Dollar Account",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-1903cc0eabb0.html.gz",
+     "quote": "Transfer funds between your TD Canada Trust Canadian and U.S. dollar accounts online through EasyWeb Online banking or using the TD app",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Canada (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Canada is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Canada is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Canada is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Canada is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Canada IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Canada appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Federally, a sole proprietor needs a CRA Business Number (BN) only when opening a CRA program account, such as GST/HST once over the small-supplier threshold (see L4). From 14 July 2026, Business Registration Online (BRO) works only by signing in to a CRA account. Business-name registration is provincial and was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html",
+     "publisher": "Canada Revenue Agency (CRA)",
+     "title": "When to register for and start charging the GST/HST",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-fc6a6a537094.txt.gz",
+     "quote": "Starting July 14, 2026, Business Registration Online (BRO), will only be available through your CRA account.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Canada to the OECD: \"Tax identification numbers (TINs) exist in Canada in various forms and are issued to residents and non- residents of Canada. The descriptions below focus on residents of Canada – the persons for which a TIN is required to be collected for exchange of information purposes under the Common Reporting Standard.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/canada-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Canada's tax administration)",
+     "title": "Canada — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-59e8f2c30f9e.pdf.gz",
+     "quote": "Tax identification numbers (TINs) exist in Canada in various forms and are issued to residents and non- residents of Canada. The descriptions below focus on residents of Canada – the persons for which a TIN is required to be collected for exchange of information purposes under the Common Reporting Standard.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Canadian residents are taxed on worldwide income, with foreign tax credits. Residence depends on residential ties: a home, spouse and dependants. 2026 federal rates are 14% (lowest bracket, reduced from 15%) up to 33%, plus provincial/territorial tax. Self-employed people report business income and pay both shares of CPP (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Canada - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-f6d315a22db1.html.gz",
+     "quote": "Individuals resident in Canada are subject to Canadian income tax on worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Canada - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-f6d315a22db1.html.gz",
+     "quote": "Recently enacted legislation reduces the lowest marginal PIT rate from 15% to 14.5% for 2025 and to 14% for 2026."
+    },
+    {
+     "url": "https://taxatlas.io/country/canada/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Canada Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-aa8cac1b4778.html.gz",
+     "quote": "Canada taxes residents on worldwide income."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Federal GST is 5%; harmonized HST applies in some provinces (rates not captured). Registration is required above CAD 30,000 of sales (small-supplier threshold). Most exports of goods and services are zero-rated, so services to foreign clients are generally GST-free. CRA rules: you are a small supplier while taxable supplies stay at or below CAD 30,000 over four consecutive calendar quarters. TRAP: a sole proprietor counts WORLDWIDE taxable supplies, including zero-rated ones, so income from foreign clients counts toward the CAD 30,000 even though it is generally GST-free. If you exceed CAD 30,000 in a single quarter, GST/HST applies from the supply that crossed it. If you exceed it over four quarters, you stop being a small supplier at the end of the month after that quarter.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/canada/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Canada - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-4c937533ead5.html.gz",
+     "quote": "The GST is a federal sales tax levied at a rate of 5% on the supply of most property and services made in Canada."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/canada/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Canada - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-4c937533ead5.html.gz",
+     "quote": "Examples of zero-rated supplies include basic groceries, qualifying medical devices, prescription drugs, feminine hygiene products, certain agriculture and fishing supplies and equipment, most exports of goods and services, and most international freight and passenger transportation services."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/canada/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Canada - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-4c937533ead5.html.gz",
+     "quote": "The GST registration threshold is CAD 30,000 of sales to Canadian consumers annually."
+    },
+    {
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html",
+     "publisher": "Canada Revenue Agency (CRA)",
+     "title": "When to register for and start charging the GST/HST",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-fc6a6a537094.txt.gz",
+     "quote": "You do not exceed the $30,000 threshold over four consecutive calendar quarters. You are a small supplier. You do not have to register.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html",
+     "publisher": "Canada Revenue Agency (CRA)",
+     "title": "When to register for and start charging the GST/HST",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-fc6a6a537094.txt.gz",
+     "quote": "If you are a sole proprietor, include the total amount of all revenues (before expenses) from your worldwide taxable supplies from all your businesses",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html",
+     "publisher": "Canada Revenue Agency (CRA)",
+     "title": "When to register for and start charging the GST/HST",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-fc6a6a537094.txt.gz",
+     "quote": "You exceed the $30,000 threshold in a single calendar quarter. You are no longer a small supplier and have to charge GST/HST on the supply that made you exceed $30,000 within the calendar quarter.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "PIPEDA applies to private-sector organisations across Canada that collect, use or disclose personal information in the course of commercial activity. Organisations must follow its 10 fair information principles. Some provinces (Quebec, Alberta, BC) have their own substantially similar laws (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/",
+     "publisher": "Office of the Privacy Commissioner of Canada",
+     "title": "PIPEDA requirements in brief",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-02a9b2f6e0fd.html.gz",
+     "quote": "PIPEDA applies to private-sector organizations across Canada that collect, use, or disclose personal information in the course of a commercial activity ."
+    },
+    {
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/",
+     "publisher": "Office of the Privacy Commissioner of Canada",
+     "title": "PIPEDA requirements in brief",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-02a9b2f6e0fd.html.gz",
+     "quote": "Key responsibilities under PIPEDA Businesses that are subject to the Act must follow these 10 fair information principles to protect personal information, which are set out in Schedule 1 of PIPEDA ."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Canada. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "124,Canada,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,0,1",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Canada accepts: Birth certificate / Acte de naissance Certificate of Indian Status card / Certificat du statut d’Indien Citizenship card / Carte de citoyenneté Driver’s licence / Permis de conduire Provincial or territorial issued photo identity cards (Except Health ID cards) / Cartes d’identité avec photo délivrées par une province ou un territoire (sauf les cartes d'identité médicale) Passport / Passeport Permanent Resident card …. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=CA",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Canada",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-034e9dccf814.html.gz",
+     "quote": "Acceptable forms of identification: Birth certificate / Acte de naissance Certificate of Indian Status card / Certificat du statut d’Indien Citizenship card / Carte de citoyenneté Driver’s licence / Permis de conduire Provincial or territorial issued photo identity cards (Except Health ID cards) / Cartes d’identité avec photo délivrées par une province ou un territoire (sauf les cartes d'identité médicale)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Canada: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "CRA official pages (timed out): small supplier, T2125, business number.",
+  "Provincial HST rates; CPP for self-employed.",
+  "Provincial consumer law (online cancellation)."
+ ]
+}

@@ -1,0 +1,666 @@
+{
+ "code": "CO",
+ "un_name": "Colombia",
+ "m49_name": "Colombia",
+ "iso3": "COL",
+ "m49": "170",
+ "region": "Americas",
+ "sub_region": "Latin America and the Caribbean",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "05-11-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency COP; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive",
+   "label": "Send, receive, and withdraw",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Under Banco de la República External Resolution 1 of 2018 (as compiled by DIAN), only the operations listed in art. 41 must be channelled through the FX market: goods imports and exports, external debt, foreign investment, Colombian investment abroad, financial investments abroad, guarantees and derivatives. Service exports are not on that list, so they are free-market operations. FX from them may be sold to other residents, used for permitted payments, kept abroad, or channelled voluntarily through the FX market (art. 82). Residents may freely hold bank accounts abroad (art. 81). Tax obligations still apply.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_banrepublica_jd-0001_2018.htm",
+     "publisher": "DIAN — Compilación Jurídica (Banco de la República, Resolución Externa 1 de 2018)",
+     "title": "Resolución Externa 1 de 2018, art. 41",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f7e237692b62.html.gz",
+     "quote": "ARTÍCULO 41. OPERACIONES. Las siguientes operaciones de cambio deberán canalizarse obligatoriamente a través del mercado cambiario: Concordancias 1. Importación y exportación de bienes."
+    },
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_banrepublica_jd-0001_2018.htm",
+     "publisher": "DIAN — Compilación Jurídica (Banco de la República, Resolución Externa 1 de 2018)",
+     "title": "Resolución Externa 1 de 2018, art. 36",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f7e237692b62.html.gz",
+     "quote": "También formarán parte del mercado cambiario las divisas que, no obstante estar exentas de esa obligación, se canalicen voluntariamente a través del mismo."
+    },
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_banrepublica_jd-0001_2018.htm",
+     "publisher": "DIAN — Compilación Jurídica (Banco de la República, Resolución Externa 1 de 2018)",
+     "title": "Resolución Externa 1 de 2018, art. 81",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f7e237692b62.html.gz",
+     "quote": "ARTÍCULO 81. CUENTAS EN MONEDA EXTRANJERA EN EL EXTERIOR. Los residentes podrán constituir libremente depósitos en cuentas bancarias en el exterior con divisas adquiridas en el mercado cambiario o a residentes que no deban canalizarlas a través del mercado cambiario."
+    }
+   ],
+   "notes": "That service exports fall outside art. 41 is a reading of the closed list in art. 41 (the list names goods, not services). The search summary agreed; no BanRep FAQ stating it explicitly was captured."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Generally no, not in Colombia. Art. 83 of Resolution 1/2018 states that deposits or other financial operations in foreign currency in the country are not authorised, unless special rules provide otherwise (local FX deposits are reserved for listed cases, e.g. non-residents, travel and port businesses). Residents may instead freely hold FX accounts ABROAD (art. 81). If those accounts are used for operations that must be channelled, they must be registered with BanRep as 'cuentas de compensación' (art. 37).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_banrepublica_jd-0001_2018.htm",
+     "publisher": "DIAN — Compilación Jurídica (Banco de la República, Resolución Externa 1 de 2018)",
+     "title": "Resolución Externa 1 de 2018, art. 83",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f7e237692b62.html.gz",
+     "quote": "ARTÍCULO 83. PROHIBICIÓN DE OPERACIONES EN MONEDA EXTRANJERA EN EL PAÍS. Salvo lo dispuesto en normas especiales de la presente resolución, no está autorizada la realización de depósitos o de cualquier otra operación financiera en moneda extranjera"
+    },
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_banrepublica_jd-0001_2018.htm",
+     "publisher": "DIAN — Compilación Jurídica (Banco de la República, Resolución Externa 1 de 2018)",
+     "title": "Resolución Externa 1 de 2018, art. 37",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f7e237692b62.html.gz",
+     "quote": "los residentes que utilicen cuentas bancarias en el exterior para operaciones que deban canalizarse a través del mercado cambiario deberán registrarlas en el Banco de la República bajo la modalidad de cuentas de compensación."
+    }
+   ],
+   "notes": "Colombian banks' offshore subsidiaries offering USD accounts were not researched."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Colombia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Colombia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Colombia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Wompi (Bancolombia group) accepts 'Persona Natural' merchants who receive payments under their RUT or national ID (cédula). It requires a Bancolombia account older than 30 days or a Nequi account, and the first payout to an individual comes 30 days after the first transaction. Bold, PayU and Mercado Pago not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. PayPal lists Colombia as 'Send, receive, and withdraw', and the CO merchant fee schedule includes Colombia among covered markets. Withdrawal from a business account to a Colombian bank costs COP 3,500 per withdrawal in COP. PayPal's developer notes add that COP accounts can only send and receive cross-border payouts (no domestic COP payouts).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/co/webapps/mpp/merchant-fees",
+     "publisher": "PayPal",
+     "title": "Comisiones para comercios (Colombia) — updated 28 Sep 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1f24dd403c67.html.gz",
+     "quote": "CO COP 3,500.00 (por retiro en COP)"
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Colombia COP Can only send and receive cross-border payouts."
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Colombia IS on Wise's list of countries whose residents can hold money. Payoneer: users can withdraw payments received from abroad directly to a Colombian bank account in Colombian pesos, in addition to existing USD withdrawals to Colombian accounts (2 independent press reports).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Chile China Colombia Costa Rica Croatia"
+    },
+    {
+     "url": "https://www.portafolio.co/innovacion/payoneer-incorpora-servicio-de-retiro-de-fondos-para-colombia-561513",
+     "publisher": "Portafolio",
+     "title": "Payoneer incorpora servicio de retiro de fondos para Colombia",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-809133573ed8.html.gz",
+     "quote": "habilitó el servicio de retiro de fondos en moneda local para que los usuarios puedan transferir los pagos que reciben desde cualquier parte del mundo directamente a su cuenta bancaria en Colombia, en pesos colombianos, de manera rápida y sencilla."
+    },
+    {
+     "url": "https://lanotaeconomica.com.co/movidas-empresarial/empresarios-podran-recibir-pagos-internacionales-y-disponer-de-esos-fondos-en-moneda-local/",
+     "publisher": "La Nota Económica",
+     "title": "Empresarios podrán recibir pagos internacionales y disponer de esos fondos en moneda local",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-69610b089279.html.gz",
+     "quote": "Esta nuevo opción de retirar los fondos en Pesos Colombianos se suma a otras alternativas que ya ofrece la empresa en Colombia: Hacer retiros en dólares USD a cuentas colombianas."
+    }
+   ],
+   "notes": "Both Payoneer articles appear to derive from the same Payoneer press release (publication date not captured)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "An individual (persona natural) can operate with a RUT (DIAN tax registration). Individuals with a Colombian cédula who do not carry on mercantile activities can register online, free, without a chamber-of-commerce process. Those doing mercantile activities register via the Chambers of Commerce or VUE. Gateways such as Wompi onboard 'Persona Natural' merchants on their RUT or cédula.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dian.gov.co/tramitesservicios/tramites-y-servicios/tributarios/Paginas/RUT.aspx",
+     "publisher": "DIAN",
+     "title": "RUT — trámites y servicios",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-51532ac30d9b.html.gz",
+     "quote": "Las personas naturales identificadas con cédula de ciudadanía colombiana que no realicen actividades mercantiles, previa verificación de la información que realizará el sistema."
+    },
+    {
+     "url": "https://micrositios.dian.gov.co/renta-personas-naturales-ag-2022/esta-inscrito-en-el-rut/",
+     "publisher": "DIAN",
+     "title": "¿Está inscrito en el RUT?",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-04d6d0c7f977.html.gz",
+     "quote": "Si aún NO está inscrito en el RUT, es mayor de 18 años, no requiere de apoderado o representante ni de trámite ante cámara de comercio, hágalo usted mismo, inscríbase a través de RUT Virtual ."
+    },
+    {
+     "url": "https://www.dian.gov.co/impuestos/Documents/Abece-Inscripcion-en-linea-RUT.pdf",
+     "publisher": "DIAN",
+     "title": "ABC Inscripción en línea RUT",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2d3fb94a1d3f.pdf.gz",
+     "quote": "Es un servicio gratuito que permite a las personas naturales, identiﬁcadas con cédula de ciudadanía colombiana, inscribirse al RUT."
+    }
+   ],
+   "notes": "Which digital activities count as 'mercantile' (requiring commercial registry) vs liberal professions was not researched from the Código de Comercio."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIT (Número de Identificación Tributaria), obtained through RUT registration with DIAN. It identifies each registrant for tax, customs and exchange-control purposes. Individuals with a cédula can register online free of charge (identity is validated against the Registraduría).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dian.gov.co/tramitesservicios/tramites-y-servicios/tributarios/Paginas/RUT.aspx",
+     "publisher": "DIAN",
+     "title": "¿Qué es el Número de Identificación Tributaria (NIT)?",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-51532ac30d9b.html.gz",
+     "quote": "El Número de Identificación Tributaria (NIT), es un número único, que se utiliza en Colombia por la UAE-DIAN para identificar a sus administrados y permite la individualización inequívoca de los inscritos, para todos los efectos, en materia tributaria, aduanera y de control cambiario"
+    },
+    {
+     "url": "https://www.dian.gov.co/impuestos/Documents/Abece-Inscripcion-en-linea-RUT.pdf",
+     "publisher": "DIAN",
+     "title": "ABC Inscripción en línea RUT",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2d3fb94a1d3f.pdf.gz",
+     "quote": "Recuerde que los trámites ante la DIAN son gratuitos y no necesita acudir a intermediarios."
+    }
+   ],
+   "notes": "The widely stated rule 'individual NIT = cédula number + check digit' was not found on a captured DIAN page; not claimed."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Fiscal residents (183+ days in any 365-day period, or nationals meeting tests such as 50%+ of income from Colombia) are taxed on worldwide income. Progressive rates are 0% up to 1,090 UVT, then 19%, 28%, 33%, 35%, 37% and 39% (UVT = COP 52,347 for 2026). Alternative: the Régimen Simple de Tributación (RST) for individuals and companies with annual income up to 100,000 UVT. Its unified rate for professional, consulting and liberal-profession services is 5.9% (0–6,000 UVT), 7.3% (6,000–15,000), 12% (15,000–30,000) and 14.5% (30,000–100,000).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/colombia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Colombia — Taxes on personal income (reviewed 21 Jul 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-26a5067e76ba.html.gz",
+     "quote": "Fiscal residents (nationals or foreign) are taxed on worldwide income and should report equity owned in Colombia and abroad."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/colombia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Colombia — UVT 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-26a5067e76ba.html.gz",
+     "quote": "The value of each UVT is equivalent to 52,347 Colombian pesos (COP) for fiscal year (FY) 2026."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/colombia/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Colombia — Residence",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-3ec4dce2fa0a.html.gz",
+     "quote": "A person is considered fiscally resident in Colombia if one remains in the country (continuously or not) for an aggregate period of time of 183 days within a period of 365 consecutive days."
+    },
+    {
+     "url": "https://micrositios.dian.gov.co/regimen-simple-tributacion/tarifas-rst/",
+     "publisher": "DIAN",
+     "title": "Tarifas RST",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-f720c604fe7b.html.gz",
+     "quote": "Servicios profesionales, de consultoría y científicos en los que predomine el factor intelectual sobre el material, incluidos los servicios de profesiones liberales: ​ ​ Ingresos brutos anuales ​ ​Igual o superior (UVT) Inferior (UVT) Tarifa Simple Consolidada ​ ​0 ​6.000 ​5.9% 6.000 15.000 7.3% ​​15.000 30.000 12%​ 30.000 100.000 14.5%"
+    },
+    {
+     "url": "https://micrositios.dian.gov.co/ruta-de-la-formalizacion/regimen-simple-de-tributacion/",
+     "publisher": "DIAN",
+     "title": "Régimen Simple de Tributación (RST)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1f8fbe8133a5.html.gz",
+     "quote": "El RST está disponible para personas naturales y jurídicas con ingresos anuales que no superen las 100,000 UVT."
+    }
+   ],
+   "notes": "The 39% top rate band is truncated in the captured PwC text (rate table shows up to 37% at 18,970–31,000 UVT); the dividend paragraph confirms the '0% to 39%' range."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The general IVA rate is 19%. Exported services are exempt with refund rights (ET art. 481(c)) when the service is provided in Colombia and used exclusively abroad by companies or persons with no business or activities in Colombia; formal requirements apply (Decree 1625/2016 rules). Individuals are 'not responsible' for IVA (no VAT obligations) if they meet all of: prior or current-year gross income from the activity below 3,500 UVT, no single taxed contract of 3,500 UVT or more, only one establishment, plus other conditions in ET art. 437 par. 3.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/colombia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Colombia — Other taxes (VAT)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-87eb17017d48.html.gz",
+     "quote": "VAT rates The general VAT rate is 19%."
+    },
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_11157_2025.htm",
+     "publisher": "DIAN (Concepto 11157 de 2025)",
+     "title": "Concepto 11157 de 2025 — artículo 481 literal c)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2114d7a52a4e.html.gz",
+     "quote": "establece que están exentos de impuesto sobre las ventas los servicios que sean prestados en el país y se utilicen exclusivamente en el exterior por empresas o personas sin negocios o actividades en Colombia."
+    },
+    {
+     "url": "https://cdn.actualicese.com/normatividad/2022/Conceptos/C603-22.pdf",
+     "publisher": "DIAN concept 603 of 2022 (hosted by Actualícese)",
+     "title": "No responsables de IVA — art. 437 par. 3 ET",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-7f9932a7c169.pdf.gz",
+     "quote": "Que en el año anterior o en el año en curso hubieren obtenido ingresos brutos totales provenientes de la actividad, inferiores a 3.500 UVT."
+    },
+    {
+     "url": "https://www.gerencie.com/responsables-del-iva-en-el-2022.html",
+     "publisher": "Gerencie.com",
+     "title": "Responsables y no responsables de IVA: requisitos y topes en 2026",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-07fdd341af44.html.gz",
+     "quote": "Contratos iguales o superiores a 3.500 UVT."
+    }
+   ],
+   "notes": "The ET's consolidated text (secretariasenado) was unreachable; art. 481(c) is quoted via DIAN doctrine. The 3,500 UVT figure was confirmed for 2026 by Gerencie's page title ('topes en 2026')."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Ley 1581 de 2012 (general personal-data regime) applies to processing of personal data by natural or legal persons in Colombia, supervised by the SIC. Registration of databases in the National Register (RNBD) is required ONLY for companies and non-profits with total assets above 100,000 UVT and public entities (Decree 090/2018). Natural persons and micro and small companies are not required to register, though the substantive duties (authorisation, privacy policy, data-subject rights) still apply.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://sic.gov.co/preguntas-frecuentes-rnbd",
+     "publisher": "Superintendencia de Industria y Comercio (SIC)",
+     "title": "Preguntas frecuentes RNBD",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-ebc56dd4eb13.html.gz",
+     "quote": "La Ley 1581 de 2012 o Régimen General de Protección de Datos Personales, aplicable al tratamiento de información personal contenida en cualquier base de datos realizado por personas naturales o jurídicas de naturaleza pública o privada."
+    },
+    {
+     "url": "https://sic.gov.co/preguntas-frecuentes-rnbd",
+     "publisher": "Superintendencia de Industria y Comercio (SIC)",
+     "title": "Preguntas frecuentes RNBD — obligados",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-ebc56dd4eb13.html.gz",
+     "quote": "Según lo establecido por el decreto 090 del 18 de enero de 2018, quienes están obligados a llevar a cabo el Registro son: Sociedades y entidades sin ánimo de lucro que tengan activos totales superiores a 100.000 Unidades de Valor Tributario (UVT) y las Personas jurídicas de naturaleza pública."
+    },
+    {
+     "url": "https://www.sic.gov.co/gobierno-nacional-reduce-universo-de-obligados-a-cumplir-el-registro-de-bases-de-datos-ante-superintendencia-de-industria-y-comercio",
+     "publisher": "Superintendencia de Industria y Comercio (SIC)",
+     "title": "Gobierno Nacional reduce universo de obligados ... RNBD",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-a1682ce0aea9.html.gz",
+     "quote": "NO están obligadas a hacer este registro las sociedades y entidades sin ánimo de lucro catalogadas como micro y pequeñas empresas, ni las personas naturales."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Estatuto del Consumidor (Ley 1480 de 2011), art. 47: in distance or non-traditional sales a right of withdrawal (retracto) is implied. The consumer has 5 business days from delivery of goods, or from conclusion of a services contract. The provider refunds all sums without deductions; return costs are borne by the consumer. Exceptions include services already started with the consumer's agreement, personalised goods, goods that cannot be returned or perish, bets and lotteries, and goods for personal use. E-commerce sellers must disclose payment means, delivery times, and the retracto right and procedure.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306",
+     "publisher": "Función Pública — Gestor Normativo",
+     "title": "Ley 1480 de 2011, art. 47",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ec7fe66abad.html.gz",
+     "quote": "El término máximo para ejercer el derecho de retracto será de cinco (5) días hábiles contados a partir de la entrega del bien o de la celebración del contrato en caso de la prestación de servicios."
+    },
+    {
+     "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306",
+     "publisher": "Función Pública — Gestor Normativo",
+     "title": "Ley 1480 de 2011, art. 47 — excepciones",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ec7fe66abad.html.gz",
+     "quote": "Se exceptúan del derecho de retracto, los siguientes casos: 1. En los contratos de prestación de servicios cuya prestación haya comenzado con el acuerdo del consumidor;"
+    },
+    {
+     "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=44306",
+     "publisher": "Función Pública — Gestor Normativo",
+     "title": "Ley 1480 de 2011, art. 50 (comercio electrónico)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-7ec7fe66abad.html.gz",
+     "quote": "Informar, en el medio de comercio electrónico utilizado, los medios de que disponen para realizar los pagos, el tiempo de entrega del bien o la prestación del servicio, el derecho de retracto que le asiste al consumidor y el procedimiento para ejercerlo"
+    }
+   ],
+   "notes": "The e-commerce disclosure duty is in art. 50 of Ley 1480 (article number inferred from the law's structure, not verified in the capture)."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Régimen Simple de Tributación: a unified 5.9% for professional and consulting services under 6,000 UVT (L3), with simplified filing. (2) IVA exemption with refund for services exported and used exclusively abroad (ET art. 481(c)). (3) IVA 'no responsable' status for individuals under 3,500 UVT (L4). (4) Service-export FX is outside mandatory channelling (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://micrositios.dian.gov.co/ruta-de-la-formalizacion/regimen-simple-de-tributacion/",
+     "publisher": "DIAN",
+     "title": "Régimen Simple de Tributación (RST)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-1f8fbe8133a5.html.gz",
+     "quote": "Este régimen ofrece tarifas más bajas y procedimientos más sencillos en comparación con el régimen ordinario."
+    },
+    {
+     "url": "https://normograma.dian.gov.co/dian/compilacion/docs/oficio_dian_11157_2025.htm",
+     "publisher": "DIAN (Concepto 11157 de 2025)",
+     "title": "Concepto 11157 de 2025",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2114d7a52a4e.html.gz",
+     "quote": "establece que están exentos de impuesto sobre las ventas los servicios que sean prestados en el país y se utilicen exclusivamente en el exterior por empresas o personas sin negocios o actividades en Colombia."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The cédula de ciudadanía (national ID card). DIAN's free online RUT registration is for persons identified with a Colombian cédula, and Wompi onboards individuals on their RUT or cédula.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dian.gov.co/impuestos/Documents/Abece-Inscripcion-en-linea-RUT.pdf",
+     "publisher": "DIAN",
+     "title": "ABC Inscripción en línea RUT",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2d3fb94a1d3f.pdf.gz",
+     "quote": "Personas naturales identiﬁcadas con cédula de ciudadanía colombiana que requieran la inscripción en el RUT."
+    },
+    {
+     "url": "https://wompi.com/es/co/ayuda/como-crear-cuenta",
+     "publisher": "Wompi (Bancolombia)",
+     "title": "Cómo crear una cuenta",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-12c5bc327461.html.gz",
+     "quote": "Persona natural Persona jurídica 1 Crea tu usuario y contraseña: Diligencia el formulario y crea tu usuario con el que accederas a Wompi."
+    }
+   ],
+   "notes": "registraduria.gov.co returned 403 to scripts (cédula digital details not captured)."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Colombia: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

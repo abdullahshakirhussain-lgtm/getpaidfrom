@@ -1,0 +1,447 @@
+{
+ "code": "RS",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established from a captured source (no restrictive FX controls are generally reported).",
+   "status": "unverified",
+   "note": "trade.gov page lacked FX text (or served another country's page) on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Serbian banks take deposits from individuals in dinars or foreign currency: Banca Intesa's general deposit terms define a deposit as money in dinars or in a foreign currency placed in a deposit account, with specific rules for individual (natural-person) clients, and require the bank to explain the risks when a service is in a foreign currency (Banca Intesa). Foreign-currency (devizni) accounts are standard; specific fees were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bancaintesa.rs/document/termsConditions/documents/BIB/Documents/Vazeci-OUP/Depoziti/OUP_za_depozitne_poslove_u_primeni_od_010725/OUP%20za%20depozitne%20poslove%20u%20primeni%20od%2001.07.2025.pdf",
+     "publisher": "Banca Intesa Beograd (general terms)",
+     "title": "Opšti uslovi poslovanja za depozitne poslove (od 01.07.2025)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-67bf58e23c57.pdf.gz",
+     "quote": "Depozit je novac, izražen u dinarima ili u stranoj valuti, koji klijent – deponent polaže u Banku na odgovarajući račun depozita",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.bancaintesa.rs/document/termsConditions/documents/BIB/Documents/Vazeci-OUP/Depoziti/OUP_za_depozitne_poslove_u_primeni_od_010725/OUP%20za%20depozitne%20poslove%20u%20primeni%20od%2001.07.2025.pdf",
+     "publisher": "Banca Intesa Beograd (general terms)",
+     "title": "Opšti uslovi poslovanja za depozitne poslove (od 01.07.2025)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-67bf58e23c57.pdf.gz",
+     "quote": "Banka je dužna da pri prijemu depozita indeksiranog u stranoj valuti primenjuje zvanični sr ednji kurs koji se primenjuje i pri isplati depozita.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Serbia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments via Payoneer); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Serbia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Serbia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Serbia is on PayPal's Payouts list as 'Send, receive, and withdraw' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Serbia is listed on PayPal's Payouts country list as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Serbia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Serbia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Per Deel's sole-proprietorship guide for Serbia (updated June 10, 2026), registration is handled by: Serbian Business Registers Agency (APR) via e-Registration or in person, with automatic linking to Tax Administration, Statistical Office and Social Security via the “one-stop-shop” system. Steps, documents, fees and timing were not captured from an official source.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-serbia/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Preduzetnik) in Serbia Special Offer Get 3 months free of PEO",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-1aeb3fb743d1.html.gz",
+     "quote": "Registration body Serbian Business Registers Agency (APR) via e-Registration or in person, with automatic linking to Tax Administration, Statistical Office and Social Security via the “one-stop-shop” system",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Deel) captured on 2026-10-25; confirm with the named authority."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The PIB (poreski identifikacioni broj). Entrepreneurs (preduzetnici), legal entities and non-residents get a 9-digit PIB, usually through registration with the Business Registers Agency (APR). For resident individuals who are not entrepreneurs, the PIB is their 13-digit JMBG, the citizen's unique master number (Rulebook on the tax identification number). Taxpayers who do not register with the APR can apply for a PIB electronically on the Tax Administration's ePorezi portal (Biznis.rs, citing the Tax Administration).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paragraf.rs/propisi_download/pravilnik_o_poreskom_identifikacionom_broju.pdf",
+     "publisher": "Paragraf (text of the Pravilnik o poreskom identifikacionom broju)",
+     "title": "Pravilnik o poreskom identifikacionom broju",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-a7979492c7c9.pdf.gz",
+     "quote": "PIB za rezidentna fizička lica koja nisu preduzetnici i za obveznike poreza i doprinosa na prihode od poljoprivrede i šumarstva, sastoji se od 13 cifara i predstavlja jedinstveni matični broj građana",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.paragraf.rs/propisi_download/pravilnik_o_poreskom_identifikacionom_broju.pdf",
+     "publisher": "Paragraf (text of the Pravilnik o poreskom identifikacionom broju)",
+     "title": "Pravilnik o poreskom identifikacionom broju",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-a7979492c7c9.pdf.gz",
+     "quote": "PIB za poreske obveznike - pravna lica, preduzetnike, stalne poslovne jedinice nerezidentnog pravnog lica i nerezidentna fizička lica, sastoji se od devet cifara",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://biznis.rs/vesti/srbija/pogodnosti-na-eporezima-za-poreske-obveznike-koji-se-ne-registruju-u-apr/",
+     "publisher": "Biznis.rs",
+     "title": "Pogodnosti na ePorezima za poreske obveznike koji se ne registruju u APR",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-44c2d2649032.html.gz",
+     "quote": "poreskim obveznicima koji se ne registruju u Agenciji za privredne registre na portalu Poreske uprave (ePorezi) omogućeno elektronsko podnošenje registracionih prijava za dodelu PIB",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Flat 10%-20% by income type; lump-sum (pausal) regime for entrepreneurs not researched. Residents are generally taxed on worldwide income (see quoted rules). Work performed while living in Serbia for foreign clients is generally taxable there. Since 1 January 2023, unregistered freelancers paid from abroad self-assess quarterly (returns within 30 days after each quarter) and choose between two normative-expense models. One reduces quarterly gross income by a fixed RSD 96,000 per an updated source. Registered entrepreneurs can use the flat-rate (paušal) regime below about RSD 6 million turnover.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/serbia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Serbia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-1567b01f475c.html.gz",
+     "quote": "Residents are taxable on their worldwide income, whereas non-residents are taxable on their Serbian-sourced income and worldwide income related to their work in/for the Republic of Serbia."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/serbia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Serbia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-1567b01f475c.html.gz",
+     "quote": "Tax rates are flat, range from 10% to 20%, and the definition of the taxable base depends on the type of income."
+    },
+    {
+     "url": "https://tmconsulting.co.rs/new-taxation-rules-for-freelancers-in-serbia/",
+     "publisher": "HLB TM Consulting",
+     "title": "New Taxation Rules for Freelancers in Serbia (updated 08.11.2025)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-aa707ff6b211.html.gz",
+     "quote": "Changes include: Determining the responsibility for self-assessment, Freelancers are required to calculate, file a tax return, and pay taxes themselves, Tax returns must be submitted within 30 days from the end of the quarter in which the income was earned, Freelancers can choose between two tax options (two different methods of taxing their earnings)."
+    }
+   ],
+   "notes": "Freelancer taxation rules (2023 model) not researched."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The standard VAT rate is 20%. Mandatory VAT registration applies at RSD 8 million of total turnover in the previous 12 months, or expected turnover in the next year for new businesses. 2026 draft amendments to the VAT law do not raise it; a proposal to lift it to RSD 12 million has not been adopted. The paušal limit (RSD 6 million) is a separate test (see L7). Treatment of services to foreign clients was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://biznis.rs/vesti/srbija/kada-prekoracenje-limita-menja-poreski-status-preduzetnika/",
+     "publisher": "Biznis.rs",
+     "title": "Novim izmenama zakona nema povećanja PDV praga, ali paušalci ne odustaju od zahteva (Biznis.rs, 26 Aug 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-dbccc63154f3.html.gz",
+     "quote": "Granica i dalje ostaje osam miliona dinara ukupnog prometa ostvarenog u prethodnih 12 meseci, odnosno procenjenog prometa u narednih godinu dana za one koji tek započinju poslovanje."
+    },
+    {
+     "url": "https://biznis.rs/vesti/srbija/kada-prekoracenje-limita-menja-poreski-status-preduzetnika/",
+     "publisher": "Biznis.rs",
+     "title": "Novim izmenama zakona nema povećanja PDV praga, ali paušalci ne odustaju od zahteva (Biznis.rs, 26 Aug 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-dbccc63154f3.html.gz",
+     "quote": "Limit od šest miliona dinara odnosi se na promet koji je relevantan za paušalno oporezivanje, dok se kod utvrđivanja obaveze za PDV primenjuje drugačije pravilo."
+    },
+    {
+     "url": "https://wiki.private.law/en/serbia-tax",
+     "publisher": "private.law",
+     "title": "Taxes in Serbia (private.law wiki, updated 6 Sep 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-0457be181ce5.html.gz",
+     "quote": "VAT registration at RSD 8m over 365 days"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Serbia. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "688,Serbia,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Serbia. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "688,Serbia,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Paušal (lump-sum) entrepreneur, the main regime for IT contractors: a fixed monthly payment of tax plus contributions, set by a Tax Administration decision based on the activity code and municipality, with bookkeeping reduced to an invoice register. The ceiling is RSD 6 million of revenue per calendar year (unchanged since 2013). A business opened mid-year gets the full RSD 6 million, not a pro-rated limit. Exceeding it ends paušal status and means switching to bookkeeping, but no extra tax on the excess. Existing bookkeeping entrepreneurs can apply to switch by the end of October for the next year. TRAP, the independence test: work for one permanent client is checked against nine dependency criteria (client's instructions and equipment, ban on other customers, etc.). Failing five or more reclassifies the income as 'other income', taxed at the payer's level (Art. 85(1)(17) ZPDG).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wiki.private.law/en/serbia-tax",
+     "publisher": "private.law",
+     "title": "Taxes in Serbia (private.law wiki, updated 6 Sep 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-0457be181ce5.html.gz",
+     "quote": "a fixed monthly payment (tax plus contributions) set by a tax administration decision based on the activity code and municipality, with bookkeeping reduced to an invoice register."
+    },
+    {
+     "url": "https://wiki.private.law/en/serbia-tax",
+     "publisher": "private.law",
+     "title": "Taxes in Serbia (private.law wiki, updated 6 Sep 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-0457be181ce5.html.gz",
+     "quote": "failing five or more reclassifies the paušal income as \"other income\" taxed at the paying party's level (Art. 85 para. 1 item 17 ZPDG)."
+    },
+    {
+     "url": "https://biznis.rs/vesti/srbija/kada-prekoracenje-limita-menja-poreski-status-preduzetnika/",
+     "publisher": "Biznis.rs",
+     "title": "Novim izmenama zakona nema povećanja PDV praga, ali paušalci ne odustaju od zahteva (Biznis.rs, 26 Aug 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-dbccc63154f3.html.gz",
+     "quote": "Poseban problem, kako ukazuju, predstavlja činjenica da je granica od šest miliona dinara za paušalno oporezivanje nepromenjena još od 2013."
+    },
+    {
+     "url": "https://biznis.rs/vesti/srbija/kada-prekoracenje-limita-menja-poreski-status-preduzetnika/",
+     "publisher": "Biznis.rs",
+     "title": "Novim izmenama zakona nema povećanja PDV praga, ali paušalci ne odustaju od zahteva (Biznis.rs, 26 Aug 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-dbccc63154f3.html.gz",
+     "quote": "Ako paušalac ipak pređe granicu od šest miliona dinara, prestaje da bude paušalac i prelazi na vođenje poslovnih knjiga."
+    },
+    {
+     "url": "https://biznis.rs/vesti/srbija/kada-prekoracenje-limita-menja-poreski-status-preduzetnika/",
+     "publisher": "Biznis.rs",
+     "title": "Novim izmenama zakona nema povećanja PDV praga, ali paušalci ne odustaju od zahteva (Biznis.rs, 26 Aug 2026)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-dbccc63154f3.html.gz",
+     "quote": "Preduzetnik koji, na primer, otvori radnju u junu ne dobija limit od tri miliona dinara do kraja godine, već mu se primenjuje puni propisani limit od šest miliona dinara."
+    },
+    {
+     "url": "https://biznis.rs/vesti/srbija/preduzetnicima-rok-do-kraja-oktobra-za-prelazak-na-pausalno-oporezivanje/",
+     "publisher": "Biznis.rs",
+     "title": "Preduzetnicima rok do kraja oktobra za prelazak na paušalno oporezivanje (Biznis.rs)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-7df62f25bf1d.html.gz",
+     "quote": "Preduzetnici koji u narednoj godini očekuju da njihov ukupan prihod od prodaje proizvoda i usluga neće preći šest miliona dinara mogu da podnesu zahtev za prelazak na paušalni režim."
+    }
+   ],
+   "notes": "Monthly paušal amounts vary by municipality and activity (not captured). Per search summary, growth in the paušal base is capped at 10% a year until the end of 2027 (not captured)."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Лична карта (Identity card) (Wikipedia, compulsory-ID list). Compulsory for citizens 16 and older permanently residing in Serbia, and compulsory for non-citizens residing in Serbia. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Serbia Лична карта (Identity card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Serbia: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN; self-employed regimes.",
+  "Second sources for tax/VAT; services export VAT.",
+  "Data protection and consumer law.",
+  "FX/FCY specifics where unverified."
+ ]
+}

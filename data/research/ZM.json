@@ -1,0 +1,417 @@
+{
+ "code": "ZM",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Zambia abolished exchange-control monitoring in March 2014, and funds move freely. Since 26 Dec 2025, the Bank of Zambia Currency Directives require domestic transactions (payments to Zambian residents) to be settled in kwacha, though contracts may still be denominated in foreign currency. Payments from foreign clients to a Zambian freelancer are not domestic transactions under that definition.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/zambia/individual/other-issues",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Zambia - Individual - Other issues",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-6a786d66b5fc.html.gz",
+     "quote": "Exchange controls Regulations requiring the monitoring of cross border and foreign currency transactions were abolished in March 2014."
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/zambia-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Zambia Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-da0fe2e086de.html.gz",
+     "quote": "Foreign Exchange Controls Bank accounts may be held in local or foreign currency, and funds are easily transferred out of the country or held offshore."
+    },
+    {
+     "url": "https://www.iflr.com/article/2gjw2n5ocpr2orkmyddo1/iflr1000/zambia-the-bank-of-zambia-mandates-kwacha-settlement-for-domestic-transactions",
+     "publisher": "IFLR (IFLR1000)",
+     "title": "Zambia: The Bank of Zambia Mandates Kwacha Settlement for Domestic Transactions",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-80973383e27c.html.gz",
+     "quote": "A domestic transaction is defined as any private or public transaction within Zambia involving payment to a person resident in the country, except for specified exemptions."
+    },
+    {
+     "url": "https://www.iflr.com/article/2gjw2n5ocpr2orkmyddo1/iflr1000/zambia-the-bank-of-zambia-mandates-kwacha-settlement-for-domestic-transactions",
+     "publisher": "IFLR (IFLR1000)",
+     "title": "Zambia: The Bank of Zambia Mandates Kwacha Settlement for Domestic Transactions",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-80973383e27c.html.gz",
+     "quote": "Critically, contracts denominated in foreign currency remain permissible, but settlement must occur in Kwacha at the market exchange rate."
+    }
+   ],
+   "notes": "Export Proceeds Tracking Framework (from 1 Jan 2024) reportedly requires exporters of goods and/or services to route earnings through a Zambian bank account within 90 days (search summary, not captured) - may apply to service exporters; not verified. Directives text not read; RSM and BIS pages behind Cloudflare challenges (not bypassed)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Bank accounts may be held in local or foreign currency. Over-the-counter cash withdrawals are capped at USD 5,000 per transaction, and cash over USD 5,000 must be declared when carried across the border.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/zambia-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Zambia Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-da0fe2e086de.html.gz",
+     "quote": "Foreign Exchange Controls Bank accounts may be held in local or foreign currency, and funds are easily transferred out of the country or held offshore."
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/zambia-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Zambia Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-da0fe2e086de.html.gz",
+     "quote": "Commercial banks and bureau de change operators restrict issuance of over-the-counter cash to $5,000 per transaction."
+    }
+   ],
+   "notes": "trade.gov page undated; may predate the Dec 2025 Currency Directives."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Zambia (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Zambia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Zambia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Zambia is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Zambia is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Zambia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Zambia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: register a business name with PACRA (Patents and Companies Registration Agency) as a sole proprietor, using BN Form III, online or at a PACRA office. There is no minimum capital and liability is unlimited. Fees were not confirmed officially.",
+   "status": "unverified",
+   "note": "Single secondary domain (Deel) captured; PACRA fee schedule not captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://deel.com/blog/register-as-sole-trader-in-zambia",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship (business name) in Zambia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ed5f8acc242a.html.gz",
+     "quote": "In Zambia, a sole proprietorship is commonly registered as a business name under the Patents and Companies Registration Agency (PACRA) ."
+    }
+   ],
+   "notes": "A 2024 guide cited K166 for business-name registration (search summary; not captured)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "A TPIN (Taxpayer Identification Number) from the Zambia Revenue Authority, obtained online or at a ZRA office with the National Registration Card (NRC). It is separate from PACRA registration.",
+   "status": "unverified",
+   "note": "Only search summaries of commercial guides; no ZRA page captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Zambia taxes on a source basis: Zambian-source income is taxable, and residents are also taxed on foreign interest and dividends. Small businesses with turnover up to K5m can pay turnover tax at 5% of gross sales; the late-payment penalty is cut to 0.5% under the 2026 Budget. Personal income tax runs up to 37% for 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/zambia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Zambia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-99ae3c1ef139.html.gz",
+     "quote": "Income deemed to be from a Zambian source is generally subject to Zambian income tax."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/zambia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Zambia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-99ae3c1ef139.html.gz",
+     "quote": "Zambian residents are also subject to income tax on interest and dividends from a source outside Zambia."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/zambia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Zambia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-99ae3c1ef139.html.gz",
+     "quote": "Over 110,400 37"
+    },
+    {
+     "url": "https://beancount.io/blog/2026/09/17/zambia-2026-budget-turnover-tax-small-business-guide",
+     "publisher": "Beancount",
+     "title": "Zambia's 2026 Budget Rewrites Turnover Tax (17 Sep 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b2a3a0ebbf7b.html.gz",
+     "quote": "Every month you send the Zambia Revenue Authority 5% of your gross sales — whether you made a profit or not."
+    },
+    {
+     "url": "https://beancount.io/blog/2026/09/17/zambia-2026-budget-turnover-tax-small-business-guide",
+     "publisher": "Beancount",
+     "title": "Zambia's 2026 Budget Rewrites Turnover Tax (17 Sep 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b2a3a0ebbf7b.html.gz",
+     "quote": "The late-payment penalty collapses from 5% to 0.5%"
+    },
+    {
+     "url": "https://beancount.io/blog/2026/09/17/zambia-2026-budget-turnover-tax-small-business-guide",
+     "publisher": "Beancount",
+     "title": "Zambia's 2026 Budget Rewrites Turnover Tax (17 Sep 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b2a3a0ebbf7b.html.gz",
+     "quote": "This was a sixfold jump from the old K800,000 ceiling, and it pulled thousands of mid-sized SMEs into the simpler system."
+    }
+   ],
+   "notes": "TRAP: older guides give a K800,000 turnover-tax ceiling and 4% rate. Source rules for remote services to foreign clients not read in the Income Tax Act."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 16%. Registration is required when taxable turnover exceeds K800,000 a year or K200,000 in any three consecutive months, so turnover-tax payers above K800,000 may also need VAT registration. Exports of goods and services are typically zero-rated, EXCEPT services physically performed in Zambia, which are standard-rated whatever the customer's residence. Smart Invoice e-invoicing applies.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://afrotools.com/blog/zambia-vat-registration-2026/",
+     "publisher": "Afrotools",
+     "title": "Zambia VAT Registration 2026 (11 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d85f1dee97db.html.gz",
+     "quote": "The Zambia Revenue Authority guidance makes the registration trigger more precise: VAT becomes a live issue when taxable turnover exceeds K800,000 per year or K200,000 in any three consecutive months ."
+    },
+    {
+     "url": "https://afrotools.com/blog/zambia-vat-registration-2026/",
+     "publisher": "Afrotools",
+     "title": "Zambia VAT Registration 2026 (11 Aug 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d85f1dee97db.html.gz",
+     "quote": "Zambia VAT Snapshot Topic Current ZRA position verified August 11, 2026 Business control Standard VAT rate 16% on standard-rated taxable supplies."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/zambia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Zambia - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3bf95d52e34c.html.gz",
+     "quote": "Notably, goods and services exported from Zambia are typically zero-rated, with the exception of services physically performed in Zambia, which are taxed at the standard rate regardless of the customer's residency."
+    }
+   ],
+   "notes": "TRAP: a freelancer working from Zambia for foreign clients performs services physically in Zambia - per PwC these are standard-rated, not zero-rated, once VAT-registered."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Data Protection Act No. 3 of 2021. Anyone controlling or processing personal data must register as a data controller or processor (s. 19). The Office of the Data Protection Commissioner is operational and set a registration deadline of 30 April 2025. Failing to register is an offence (fine up to ZMW 200,000 and/or up to 5 years' imprisonment). Cross-border transfers are regulated (Part X).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commons.laws.africa/akn/zm/act/2021/3/media/publication/zm-act-2021-3-publication-document.pdf",
+     "publisher": "Data Protection Act No. 3 of 2021 (Laws.Africa commons copy)",
+     "title": "Data Protection Act 2021, s. 19",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f72a0cf0dab3.pdf.gz",
+     "quote": "19. (1) A person shall not control or process personal data without registering as a data controller or a data processor under this Act."
+    },
+    {
+     "url": "https://bowmanslaw.com/insights/zambia-office-of-the-data-protection-commissioner-operational/",
+     "publisher": "Bowmans",
+     "title": "Zambia: Office of the Data Protection Commissioner operational (2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f8179cc74173.html.gz",
+     "quote": "The ODPC has also initiated the online registration process for data controllers and processors, requiring all data processors and controllers to register by 30 April 2025."
+    },
+    {
+     "url": "https://bowmanslaw.com/insights/zambia-office-of-the-data-protection-commissioner-operational/",
+     "publisher": "Bowmans",
+     "title": "Zambia: ODPC operational (2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f8179cc74173.html.gz",
+     "quote": "Failing to register by the stated date is an offence punishable by a fine of ZMW 200 000 (approximately USD 7 186) and/ or imprisonment of up to five years."
+    }
+   ],
+   "notes": "zambialii.org pages behind a Cloudflare challenge (not bypassed); text taken from the Laws.Africa commons publication PDF. Transfer conditions (ss. 70-71) not read."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Under the Electronic Communications and Transactions Act 2021, consumers may cancel an electronic transaction without reason or penalty within seven days of receiving goods, or within seven days of concluding a services agreement (s. 66). Exceptions include personalised goods and goods that deteriorate quickly. If the supplier fails its information duties, the consumer may cancel within fourteen days of receipt (s. 65(3)). Orders not executed within 30 days can be cancelled on seven days' notice (s. 67).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commons.laws.africa/akn/zm/act/2021/4/media/publication/zm-act-2021-4-publication-document.pdf",
+     "publisher": "Electronic Communications and Transactions Act No. 4 of 2021 (Laws.Africa commons copy)",
+     "title": "ECTA 2021, s. 66",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-38aa63f18622.pdf.gz",
+     "quote": "66. (1) A consumer may cancel, without giving any reason and without incurring any penalty, a transaction and a related credit agreement for the supply of (a) goods within seven days after the date of the receipt of the goods; or (b) services within seven days after the date of the conclusion of the agreement."
+    },
+    {
+     "url": "https://commons.laws.africa/akn/zm/act/2021/4/media/publication/zm-act-2021-4-publication-document.pdf",
+     "publisher": "Electronic Communications and Transactions Act No. 4 of 2021 (Laws.Africa commons copy)",
+     "title": "ECTA 2021, information duties",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-38aa63f18622.pdf.gz",
+     "quote": "fails to comply with the provisions of subsection (1) or (2), the consumer may cancel the transaction within fourteen days of receiving the goods or services under the transaction."
+    }
+   ],
+   "notes": "Section number of the 14-day rule inferred as s. 65 (immediately precedes s. 66); verify."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found. Turnover tax at 5% up to K5m (L3) is the main simplification.",
+   "status": "unverified",
+   "note": "No incentive source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The National Registration Card (NRC), or a passport, is used for PACRA business-name registration (and reportedly for TPIN registration). Bank KYC requirements were not sourced.",
+   "status": "unverified",
+   "note": "Commercial guide only (Deel); no ID-authority or bank source captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://deel.com/blog/register-as-sole-trader-in-zambia",
+     "publisher": "Deel",
+     "title": "How to register a sole proprietorship (business name) in Zambia",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ed5f8acc242a.html.gz",
+     "quote": "Copy of National Registration Card (NRC) or passport/identification for the proprietor"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Zambia: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Zambia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Zambia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Zambia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Zambia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-21",
+ "open_questions": [
+  "Bank of Zambia Currency Directives 2025 text and the Export Proceeds Tracking Framework (90-day routing for service exporters?) not read; RSM/BIS/zambialii behind Cloudflare.",
+  "Source rule for remote services performed in Zambia for foreign clients (Income Tax Act) not read.",
+  "PACRA fee, ZRA TPIN procedure, PayPal withdrawals, Payoneer, local gateways, KYC ID.",
+  "DPA transfer conditions (ss. 70-71) and registration fee categories not read."
+ ]
+}

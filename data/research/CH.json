@@ -1,0 +1,419 @@
+{
+ "code": "CH",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No restrictive exchange controls on receiving foreign income (see quoted source); banks apply normal AML/KYC checks.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/switzerland-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Switzerland Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-b2d4d0144c2b.html.gz",
+     "quote": "The Swiss franc is freely convertible."
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/switzerland-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Switzerland Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-b2d4d0144c2b.html.gz",
+     "quote": "Bank accounts may be maintained in local or foreign currencies either within or outside Switzerland without restriction."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Accounts may be held in local or foreign currencies, in Switzerland or abroad, without restriction.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/switzerland-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Switzerland Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-b2d4d0144c2b.html.gz",
+     "quote": "Bank accounts may be maintained in local or foreign currencies either within or outside Switzerland without restriction."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Switzerland (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Switzerland is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Switzerland is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Switzerland is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Switzerland is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Switzerland IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Switzerland appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship (Einzelunternehmen) must be entered in the commercial register when it operates in a commercial form and annual revenue exceeds CHF 100,000; below that, registration is voluntary. Liberal professions are exempt unless commercially organised. Unregistered sole proprietorships still appear in the UID register. The owner has unlimited personal liability. Self-employed people must also register with the cantonal AHV/OASI compensation office (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.kmu.admin.ch/en/legal-form-sole-proprietorships",
+     "publisher": "KMU portal (Swiss Confederation)",
+     "title": "Legal form: sole proprietorships",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-c3bdfe84177f.html.gz",
+     "quote": "Registration in the commercial register It is compulsory to register the business in the commercial register when: professional activities are run in a commercial form, annual income exceeds CHF 100,000."
+    },
+    {
+     "url": "https://www.kmu.admin.ch/en/legal-form-sole-proprietorships",
+     "publisher": "KMU portal (Swiss Confederation)",
+     "title": "Legal form: sole proprietorships",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-c3bdfe84177f.html.gz",
+     "quote": "Sole proprietorships without an entry in the commercial register are also published in the UID register."
+    },
+    {
+     "url": "https://www.infoproff.com/en/open-data/switzerland/243/business-register-in-switzerland",
+     "publisher": "Infoproff",
+     "title": "Business register in Switzerland",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-a1ad3abe47f7.html.gz",
+     "quote": "members of the liberal professions and farmers are exempt unless they run a commercially organised business, and any sole proprietorship or branch that is not obliged to register has the right to register voluntarily."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Switzerland to the OECD: \"Entities Article 2 paragraph 1 letter g of the Federal Act on international Automatic Exchange of Information in Tax Matters designates the Swiss „Unternehmens -Identifikationsnummer“ (UID-number) as the tax identification number for entities in the context of AEOI. The UID-number has been introduced in\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/switzerland-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Switzerland's tax administration)",
+     "title": "Switzerland — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-d37cd9ac540d.pdf.gz",
+     "quote": "Entities Article 2 paragraph 1 letter g of the Federal Act on international Automatic Exchange of Information in Tax Matters designates the Swiss „Unternehmens -Identifikationsnummer“ (UID-number) as the tax identification number for entities in the context of AEOI. The UID-number has been introduced in",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Federal, cantonal and municipal progressive rates; residents also pay wealth tax. Residents are generally taxed on worldwide income (see quoted rules). Work performed while living in Switzerland for foreign clients is generally taxable there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/switzerland/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Switzerland - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-9bc0463b6589.html.gz",
+     "quote": "All tax-resident individuals are taxed on their worldwide income and wealth."
+    },
+    {
+     "url": "https://taxatlas.io/country/switzerland/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Switzerland Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-54c2cf8eb335.html.gz",
+     "quote": "Residents are taxed on worldwide income, excluding income from foreign real estate and foreign permanent establishments, which are exempt but considered for rate progression."
+    }
+   ],
+   "notes": "VAT registration threshold (CHF 100,000 worldwide turnover) not captured."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 8.1% (reduced 2.6%; accommodation 3.8%). A Swiss business becomes VAT-liable at CHF 100,000 of turnover from supplies in Switzerland and abroad that are not exempt without credit — worldwide turnover counts, including exports. Services to foreign customers are generally not subject to Swiss VAT (place-of-supply rules, not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/switzerland/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Switzerland - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-6480070a920e.html.gz",
+     "quote": "As a matter of principle, proceeds of sales made and services provided in Switzerland are subject to VAT at the standard rate of 8.1%."
+    },
+    {
+     "url": "https://www.estv.admin.ch/en/vat-tax-liability",
+     "publisher": "Swiss Federal Tax Administration (FTA)",
+     "title": "Tax liability VAT",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-f25fc0f9a080.html.gz",
+     "quote": "For businesses not yet mentioned: at least CHF 100 000 turnover from goods and services in Switzerland and abroad which are not exempt from tax without credit."
+    }
+   ],
+   "notes": "TRAP: foreign-client turnover counts toward the CHF 100,000 VAT threshold."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The revised Federal Act on Data Protection (nFADP/revDSG) has applied since 1 September 2023, with no transition period, overseen by the Federal Data Protection and Information Commissioner (FDPIC). Duties include extended information obligations, information on automated individual decisions, data-subject access and portability, documentation, and reporting data breaches to the FDPIC as soon as possible. A DPO is recommended, not mandatory. TRAP for sole traders: fines of up to CHF 250,000 are criminal sanctions on the responsible individual (e.g. for breaching information, access or cooperation duties), not administrative fines on the company. Only in exceptional cases up to CHF 50,000 can the company itself be fined.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cms.law/en/media/local/cms-vep/files/publications/publications/revision-of-the-swiss-federal-act-on-data-protection-final",
+     "publisher": "CMS",
+     "title": "Revision of the Swiss Federal Act on Data Protection (CMS)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-efc57bb7d107.pdf.gz",
+     "quote": "fines of up to 250,000 Swiss Francs will be threatened, which will not (as in the GDPR, for example) be designed as an administrative penalty, but will be imposed as a criminal sanction on the responsible individuals involved within a company"
+    },
+    {
+     "url": "https://cms.law/en/media/local/cms-vep/files/publications/publications/revision-of-the-swiss-federal-act-on-data-protection-final",
+     "publisher": "CMS",
+     "title": "Revision of the Swiss Federal Act on Data Protection (CMS)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-efc57bb7d107.pdf.gz",
+     "quote": "sanctioned with a fine not exceeding 50,000 Swiss Francs, the competent authority may sentence the company directly to the payment of the fine"
+    },
+    {
+     "url": "https://www.adnovum.ch/blog/swiss-data-protection-law-how-the-new-fadp-differs-from-the-gdpr",
+     "publisher": "Adnovum",
+     "title": "7 Major Differences Between the New FADP and GDPR (Adnovum)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-6e28e12a9cf9.html.gz",
+     "quote": "The new Federal Act on Data Protection (FADP) went into effect on 1 September 2023 and the biggest difference between FADP and GDPR is that private data controllers can be fined up to 250,000 CHF"
+    },
+    {
+     "url": "https://www.adnovum.ch/blog/swiss-data-protection-law-how-the-new-fadp-differs-from-the-gdpr",
+     "publisher": "Adnovum",
+     "title": "7 Major Differences Between the New FADP and GDPR (Adnovum)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-6e28e12a9cf9.html.gz",
+     "quote": "Data breach notifications New FADP: Any data breaches must be reported to the FDPIC as soon as possible."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Switzerland. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "756,Switzerland,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Switzerland accepts: Führerschein / Permis de conduire / Licenza di condurre (Driver license) Identitäskarte / Carte d'identité / Carta d'identità (National ID) - scans of front and back are required Reisepass / Passeport / Passaporto (Passport) Aufenthaltsbewilligung / Permis de séjour / Libretto per stranieri (Residence permit). Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=CH",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Switzerland",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8d44b1667e5a.html.gz",
+     "quote": "Acceptable forms of identification: Führerschein / Permis de conduire / Licenza di condurre (Driver license) Identitäskarte / Carte d'identité / Carta d'identità (National ID) - scans of front and back are required Reisepass / Passeport / Passaporto (Passport) Aufenthaltsbewilligung / Permis de séjour / Libretto per stranieri (Residence permit)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Switzerland: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN; self-employed regimes.",
+  "Second sources for tax/VAT; services export VAT.",
+  "Data protection and consumer law.",
+  "FX/FCY specifics where unverified."
+ ]
+}

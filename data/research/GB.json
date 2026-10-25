@@ -1,0 +1,419 @@
+{
+ "code": "GB",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No restrictive exchange controls on receiving foreign income (see quoted source); banks apply normal AML/KYC checks.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/united-kingdom-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "United Kingdom Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-836089411a93.html.gz",
+     "quote": "Foreign Exchange Controls There are no exchange controls restricting the transfer of funds into or out of the UK, although anyone carrying the equivalent of £10,000 or more in cash when entering the UK must declare it."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. UK banks offer personal foreign-currency accounts. HSBC UK's Currency Account lets you choose from 14 major currencies, with a separate account for each, to store, send and receive money; there is no monthly fee, and an HSBC UK current account is required (HSBC). Wise's comparison also lists HSBC's Global Money Account (18 currencies), NatWest's Cash Management Account and Barclays' Foreign Currency Account.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.hsbc.co.uk/1/2/currency-account",
+     "publisher": "HSBC UK (product page)",
+     "title": "Currency Account",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-c646c655410c.html.gz",
+     "quote": "You can choose from 14 major currencies and open a separate account for each one to store, send and receive money.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://wise.com/gb/blog/multi-currency-accounts-you-can-open-in-the-uk",
+     "publisher": "Wise",
+     "title": "Best multi-currency accounts you can open in the UK",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-f6517b3535c8.html.gz",
+     "quote": "To apply for the account, you’ll need to have an active HSBC UK current account .",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for United Kingdom of Great Britain and Northern Ireland (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "United Kingdom is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; United Kingdom of Great Britain and Northern Ireland is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. United Kingdom is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "United Kingdom is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: United Kingdom IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "United Kingdom appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "You can start trading as a sole trader straight away without registering. You must register with HMRC for Self Assessment once you earn more than £1,000 in a tax year (6 April to 5 April) — the trading allowance — and then file Self Assessment returns.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gov.uk/set-up-sole-trader",
+     "publisher": "GOV.UK",
+     "title": "Set up as a sole trader",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-61d1f7418c60.html.gz",
+     "quote": "Registering as a sole trader You can start trading straight away without registering."
+    },
+    {
+     "url": "https://www.gov.uk/set-up-sole-trader",
+     "publisher": "GOV.UK",
+     "title": "Set up as a sole trader",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-61d1f7418c60.html.gz",
+     "quote": "However, you must register for Self Assessment as a sole trader if you earn more than £1,000 in a tax year (from 6 April to 5 April)."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by United Kingdom of Great Britain and Northern Ireland to the OECD: \"The United K ingdom does not issue TINs in a strict sense, but it does have two TIN -like numbers, which are not reported on official documents of identification: 1. The unique taxpayer reference (UTR). The format is a unique set of 10 numerals allocated automatically by HMRC for both individuals and entities who have to submit a tax return.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/uk-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by United Kingdom of Great Britain and Northern Ireland's tax administration)",
+     "title": "United Kingdom of Great Britain and Northern Ireland — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-ad9d17a9b26a.pdf.gz",
+     "quote": "The United K ingdom does not issue TINs in a strict sense, but it does have two TIN -like numbers, which are not reported on official documents of identification: 1. The unique taxpayer reference (UTR). The format is a unique set of 10 numerals allocated automatically by HMRC for both individuals and entities who have to submit a tax return.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Graduated rates with a GBP 12,570 personal allowance (2026/27); statutory residence test; remittance basis abolished. Residents are generally taxed on worldwide income (see quoted rules). Work performed while living in United Kingdom for foreign clients is generally taxable there. Self-employed people also pay Class 4 National Insurance: 6% on profits from £12,570 to £50,270 and 2% above (2026/27).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/united-kingdom/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United Kingdom - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-fee75eaa6a95.html.gz",
+     "quote": "Most individuals can claim a personal allowance, unless their income is over GBP 125,140."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/united-kingdom/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United Kingdom - Individual - Residence",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-3dd4bba22523.html.gz",
+     "quote": "The application of this test is of even greater relevance following the abolition of the remittance basis of taxation and a move to a residence-based regime."
+    },
+    {
+     "url": "https://www.gov.uk/self-employed-national-insurance-rates",
+     "publisher": "GOV.UK",
+     "title": "Self-employed National Insurance rates",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-b71465b39038.html.gz",
+     "quote": "For tax year 2026 to 2027 you’ll pay: 6% on profits over £12,570 up to £50,270 2% on profits over £50,270 You can see National Insurance rates for past tax years ."
+    }
+   ],
+   "notes": "Self-employed register with HMRC for Self Assessment (not captured)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 20% (5% reduced). Registration is compulsory when VAT-taxable turnover goes over £90,000; zero-rated sales count toward it. Register within 30 days of the end of the month you went over. Voluntary registration is possible below the threshold. Small traders (under £150,000) may use the flat-rate scheme. Services to overseas business customers are generally outside the scope of UK VAT (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/united-kingdom/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United Kingdom - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-0010b586d45d.html.gz",
+     "quote": "The standard VAT rate of 20% applies to most goods and services, apart from domestic fuel and power and certain other reduced-rate supplies, which are subject to VAT at 5%."
+    },
+    {
+     "url": "https://www.gov.uk/vat-registration",
+     "publisher": "GOV.UK",
+     "title": "Register for VAT",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-657cc33ecc4c.html.gz",
+     "quote": "You can choose to register for VAT if your turnover is less than £90,000 (‘voluntary registration’)."
+    },
+    {
+     "url": "https://www.gov.uk/vat-registration",
+     "publisher": "GOV.UK",
+     "title": "Register for VAT",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-657cc33ecc4c.html.gz",
+     "quote": "You have to register within 30 days of the end of the month when you went over the threshold."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Data protection is governed by the UK GDPR and the Data Protection Act 2018, regulated by the ICO. Most businesses processing personal data must pay the ICO data protection fee (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gov.uk/data-protection",
+     "publisher": "GOV.UK",
+     "title": "Data protection",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-4b00638b6fe4.html.gz",
+     "quote": "In the UK, data protection is governed by the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018 ."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "For distance (online) sales, consumers can cancel within 14 days of receiving goods, then have another 14 days to return them. The seller must refund within 14 days of receiving the item back.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gov.uk/accepting-returns-and-giving-refunds",
+     "publisher": "GOV.UK",
+     "title": "Accepting returns and giving refunds",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-d2b1beb6ea67.html.gz",
+     "quote": "You must offer a refund to customers if they’ve told you within 14 days of receiving their item that they want to cancel."
+    },
+    {
+     "url": "https://www.gov.uk/accepting-returns-and-giving-refunds",
+     "publisher": "GOV.UK",
+     "title": "Accepting returns and giving refunds",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-d2b1beb6ea67.html.gz",
+     "quote": "They have another 14 days to return the item once they’ve told you."
+    }
+   ],
+   "notes": "Digital content/services exceptions not captured."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "The £1,000 trading allowance means small side income under £1,000 a year needs no registration or tax (see L1). The VAT flat-rate scheme is available for small traders (see L4).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gov.uk/set-up-sole-trader",
+     "publisher": "GOV.UK",
+     "title": "Set up as a sole trader",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-61d1f7418c60.html.gz",
+     "quote": "However, you must register for Self Assessment as a sole trader if you earn more than £1,000 in a tax year (from 6 April to 5 April)."
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for United Kingdom of Great Britain and Northern Ireland accepts: Citizen Card Driver license (including provisional) Electoral ID Passport. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=GB",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — United Kingdom of Great Britain and Northern Ireland",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8895fa7fddc7.html.gz",
+     "quote": "Acceptable forms of identification: Citizen Card Driver license (including provisional) Electoral ID Passport",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "United Kingdom of Great Britain and Northern Ireland: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN; self-employed regimes.",
+  "Second sources for tax/VAT; services export VAT.",
+  "Data protection and consumer law.",
+  "FX/FCY specifics where unverified."
+ ]
+}

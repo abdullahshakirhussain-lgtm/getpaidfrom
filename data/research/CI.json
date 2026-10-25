@@ -1,0 +1,427 @@
+{
+ "code": "CI",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but foreign currency must be surrendered. As a UEMOA member, Côte d'Ivoire applies Regulation 06/2024/CM/UEMOA. Residents must surrender all foreign-currency income received outside the UEMOA or paid by a non-resident to an approved intermediary (art. 5), meaning conversion to CFA francs. Resident economic operators must collect and repatriate all export proceeds for goods and services through an approved intermediary (art. 11).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (text hosted by Lextenso)",
+     "title": "Règlement 06/2024/CM/UEMOA, art. 5",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les résidents sont tenus de céder à un intermédiaire agréé tous les revenus ou produits en devises encaissés en dehors de l'UEMOA ou versés par un non-résident."
+    },
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 11",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Les opérateurs économiques résidents sont tenus d'encaisser et de rapatrier dans le pays d’exportation, auprès d'un intermédiaire agréé, l’intégralité des sommes provenant des exportations de biens et services à l’étranger"
+    }
+   ],
+   "notes": "Annex II (deadlines/thresholds) not read. Same regime as Senegal (SN.json)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Only with authorisation. Residents opening domestic foreign-currency accounts, or accounts abroad, need prior authorisation from the Minister of Finance after a binding BCEAO opinion (Reg. 06/2024 art. 7).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.labase-lextenso.fr/sites/lextenso/files/lextenso_upload/l_regl._ndeg_062024cmuemoa.pdf",
+     "publisher": "Règlement N° 06/2024/CM/UEMOA (Lextenso copy)",
+     "title": "Règlement 06/2024, art. 7",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c688706c0de1.pdf.gz",
+     "quote": "Article 7 : Détention de comptes en devises par les résidents L’ouverture par les résidents de comptes intérieurs en devises ou de comptes à l'étranger est soumise à l'autorisation préalable du Ministre chargé des Finances, après avis conforme de la BCEAO"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Côte D'Ivoire (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Google Play (developer registration). Not listed: Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Côte D'Ivoire is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Côte D'Ivoire is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Unregistered individuals can open a Starter Business with a government ID (national ID card or passport), a personal mobile-money or bank account with RIB proof, and proof of address. Registered businesses add their RCCM. A lifetime collection cap applies to Starter accounts (XOF 3,000,000 per search summaries of Paystack's Starter page, which was blocked). The Starter lifetime cap (XOF 3m) is from a search summary of support2.paystack.com, which returned Cloudflare errors elsewhere in this session; not quoted. Local aggregators (CinetPay etc.) not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Limited. Côte d'Ivoire is a listed PayPal market but not on the Payouts list. A 2026 Ivorian guide describes PayPal as 'limited (send only)', with no direct withdrawal to Ivorian banks.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Côte d'Ivoire is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market (paypal_worldwide.json)."
+    },
+    {
+     "url": "https://blog.iambeezy.app/fr/payoneer-cote-divoire-paiement-freelance-2026/",
+     "publisher": "I am Beezy",
+     "title": "Payoneer en Côte d'Ivoire (13 Feb 2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e37a618e38eb.html.gz",
+     "quote": "Disponibilite en CI Officiel Limite (envoi uniquement) Officiel"
+    }
+   ],
+   "notes": "The same table claims PayPal receiving 'Oui (restrictions)'; internally inconsistent. Treat PayPal as not usable for income."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: serves Côte d'Ivoire. Freelancers receive platform payouts and withdraw in CFA to an Ivorian bank account, with direct Orange Money/Wave withdrawal reported. Wise: Côte d'Ivoire is NOT on Wise's list of countries whose residents can hold money, despite guides calling Wise 'official' there. All receipts remain subject to UEMOA surrender rules (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://blog.iambeezy.app/fr/payoneer-cote-divoire-paiement-freelance-2026/",
+     "publisher": "I am Beezy",
+     "title": "Payoneer en Côte d'Ivoire (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-e37a618e38eb.html.gz",
+     "quote": "Ensuite, tu retires tes fonds en FCFA sur ton compte bancaire ivoirien ou tu les utilises avec la carte Payoneer."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Côte d'Ivoire."
+    }
+   ],
+   "notes": "TRAP: the Beezy comparison table lists Wise as 'Officiel' in CI; Wise's residency list excludes CI. Payoneer is single-source (fintech blog)."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest: the OHADA entreprenant status, a simple declaration of activity for an individual exercising a civil, commercial, craft or agricultural professional activity. In Côte d'Ivoire formalities go through the CEPICI one-stop shop, which also issues the tax existence declaration (DFE) and taxpayer account. Commercial guides cite 24–48 hours and about FCFA 15,000–40,000 for an individual enterprise.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://faolex.fao.org/docs/pdf/oha195620.pdf",
+     "publisher": "Acte uniforme OHADA portant sur le droit commercial général (FAOLEX copy)",
+     "title": "AUDCG, art. 30",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-c2a89eff359f.pdf.gz",
+     "quote": "Art.30.- L’entreprenant est un entrepreneur indi viduel, personne physique qui, sur simple déclaration prévue dans le présent Acte unifo rme, exerce une activité professionnelle civile, commerciale, artisanale ou agricole."
+    },
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-cepici-cote-ivoire-2026",
+     "publisher": "Kolonell",
+     "title": "Créer son entreprise au CEPICI (2026)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a3ef72502b39.html.gz",
+     "quote": "Le guichet unique annonce 24 à 72 heures pour un dossier complet."
+    }
+   ],
+   "notes": "CEPICI's own fee schedule not captured; costs are from a commercial blog."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The taxpayer account (compte contribuable), obtained with the tax existence declaration (DFE) through the CEPICI one-stop shop. The DFE is required for investment declarations, and a national ID card or passport copy is part of CEPICI dossiers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://kolonell.com/fr/blog/creer-entreprise-cepici-cote-ivoire-2026",
+     "publisher": "Kolonell",
+     "title": "CEPICI vs APIX — identifiant fiscal",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-a3ef72502b39.html.gz",
+     "quote": "Identifiant fiscal DFE / Compte contribuable NINEA"
+    },
+    {
+     "url": "https://cotedivoire.eregulations.org/media/DOSSIER%20DECLARATION_2.pdf",
+     "publisher": "eRegulations Côte d'Ivoire (CEPICI dossier)",
+     "title": "Dossier de déclaration d'investissement",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2875c02079f0.pdf.gz",
+     "quote": "- 1 copie de la déclaration fiscale d’existence, - 1 code import export si l’activité l’exige."
+    }
+   ],
+   "notes": "DGI's own e-impots registration procedure not captured."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Small businesses are taxed on turnover under the entreprenant regime (Finance Law 2021). The communal tax (TCE) applies at or below FCFA 5m TTC (2.5% for services, 2% for trade, per DGI). The State tax (TEE) applies from FCFA 5,000,001 to 50m at 5% (4% for trade), halved with an approved management centre, and replaces the business licence, profit tax and VAT. Above that, micro-enterprise and real regimes apply. Liberal and non-commercial professions are taxed under BNC, which micro-entrepreneurs may opt into. The treatment of residents' foreign-source income was not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dgi.gouv.ci/assets/documents/LE%20SYSTEME%20FISCAL%20IVOIRIEN.pdf",
+     "publisher": "Direction Générale des Impôts (Côte d'Ivoire)",
+     "title": "Le système fiscal ivoirien — régime de l'entreprenant",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-582c758f869b.pdf.gz",
+     "quote": "Le taux de la taxe est fixé à 5 %. Pour les contribuabl es exerçant des activités de commerce ou de négoce, ce taux est ramené à 4 %. Ces taux sont réduits de moitié en cas d’adhésion du contribuable à un Centre de Gestion agréé (CGA)."
+    },
+    {
+     "url": "https://www.dgi.gouv.ci/assets/documents/LE%20SYSTEME%20FISCAL%20IVOIRIEN.pdf",
+     "publisher": "Direction Générale des Impôts (Côte d'Ivoire)",
+     "title": "Le système fiscal ivoirien — TEE scope",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-582c758f869b.pdf.gz",
+     "quote": "Cette taxe s e substitue à la patente, à l’impôt sur les bénéfices et à la taxe sur la valeur ajoutée."
+    },
+    {
+     "url": "https://www.dgi.gouv.ci/assets/documents/LE%20SYSTEME%20FISCAL%20IVOIRIEN.pdf",
+     "publisher": "Direction Générale des Impôts (Côte d'Ivoire)",
+     "title": "Le système fiscal ivoirien — TCE rates",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-582c758f869b.pdf.gz",
+     "quote": "- 2 % pour les activités de commerce ou de négoce ; - 2,5 % pour les autres types d’activités, y compris les prestations de services."
+    }
+   ],
+   "notes": "TRAP: Ivoire-Juriste swaps the TCE rates (2.5% trade / 2% services); the DGI document gives 2% trade / 2.5% other incl. services and is used. PwC's Côte d'Ivoire pages returned 404. The DGI document's date was not established."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Entreprenant-regime taxpayers (up to FCFA 50m) do not charge VAT, since the TEE replaces it. For VAT-registered businesses, the tax code treats certain services not used in Côte d'Ivoire, supplied to companies without a local establishment, as exports. Since Finance Law 2024, services of online platform operators are excluded from that export treatment.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dgi.gouv.ci/assets/documents/LE%20SYSTEME%20FISCAL%20IVOIRIEN.pdf",
+     "publisher": "Direction Générale des Impôts (Côte d'Ivoire)",
+     "title": "TEE replaces VAT",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-582c758f869b.pdf.gz",
+     "quote": "Cette taxe s e substitue à la patente, à l’impôt sur les bénéfices et à la taxe sur la valeur ajoutée."
+    },
+    {
+     "url": "https://blog.avocats.deloitte.fr/cote-divoire-quelles-sont-les-nouveautes-apportees-par-lordonnance-n2023-719-et-par-la-loi-de-finances-pour-2024/",
+     "publisher": "Deloitte Société d'Avocats",
+     "title": "Côte d'Ivoire : nouveautés de l'ordonnance 2023-719 et de la LF 2024",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-f3ab6a02cabb.html.gz",
+     "quote": "Le CGI assimile à des exportations certaines prestations de services non utilisées en Côte d’Ivoire pour le compte de sociétés n’ayant pas d’installation professionnelle sur le territoire, lorsqu’elles ne sont pas imposables en Côte d’Ivoire."
+    }
+   ],
+   "notes": "The standard VAT rate (18% in UEMOA practice) was not captured from a Côte d'Ivoire source; not stated as a fact."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 2013-450 on personal data, with ARTCI as the protection authority. Processing must be declared to ARTCI, or authorised for sensitive categories such as biometrics. ARTCI has asked public and private bodies to declare customer files, direct marketing (SMS/email) and biometric systems.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://cio-mag.com/cote-divoire-artci-le-traitement-des-donnees-personnelles-desormais-soumis-a-une-autorisation-prealable",
+     "publisher": "CIO Mag (citing ARTCI)",
+     "title": "ARTCI – Le traitement des données personnelles désormais soumis à une autorisation préalable",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-eb4723dc9681.html.gz",
+     "quote": "Dans cette perspective, l’Autorité de régulation demande aux responsables des organismes publics et privés de procéder dans les meilleurs délais auprès de ses services aux déclarations des traitements portant sur les données telles que les fichiers ou les bases de données (personnels, clientèles, usagers, patients, abonnés, élèves ou étudiants, etc.), le marketing direct (SMS, courrier électronique, etc.) et les systèmes biométriques (photos, empruntes digitales, ADN, etc.)"
+    },
+    {
+     "url": "https://www.digitalbusiness.africa/cote-divoire-l-artci-met-en-garde-contre-les-prets-en-ligne-via-easy-cash-cote-divoire-money-rapide-money/",
+     "publisher": "Digital Business Africa",
+     "title": "Côte d’Ivoire : L’ARTCI met en garde contre les prêts en ligne (Aug 2023)",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-9bc59125659f.html.gz",
+     "quote": "L’article 5 de cette loi stipule clairement que « le traitement des données à caractère personnel est soumis à une déclaration préalable auprès de l’ Autorité de protection des données »."
+    }
+   ],
+   "notes": "Law 2013-450 and Decree 2015-79 texts not read; art. 5 quoted via Digital Business Africa."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Not verified. A Digital Mag article quotes an 'article 11' giving buyers in distance and off-premises sales 10 working days from delivery to return a product for exchange or refund (return costs aside), extended to 3 months if the seller's mandatory information is missing. Articles 11–12 of the e-commerce law 2013-546 (official text) cover promotions and fraud penalties, so the rule must come from the consumer law 2016-412, whose text could not be retrieved.",
+   "status": "unverified",
+   "note": "Searched 2026-10-18: 'Côte d'Ivoire loi 2013-546 transactions électroniques droit de rétractation', 'loi n° 2016-412 relative à la consommation vente à distance délai de rétractation', '\"dix jours ouvrables\" \"vente à distance\" Côte d'Ivoire'. Read: official Law 2013-546 (SHERLOC), whose arts. 11–12 do not contain the rule; Digital Mag (press). CIVLII copies of Law 2016-412 returned 404 (script and browser).",
+   "sources": [
+    {
+     "url": "https://digitalmag.ci/commerce-electronique-consommer-en-ligne-sans-se-faire-pieger/?amp=1",
+     "publisher": "Digital Mag (Côte d'Ivoire)",
+     "title": "Commerce électronique / Consommer en ligne sans se faire piéger",
+     "retrieved": "2026-10-18",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-18-96df232defb0.html.gz",
+     "quote": "L’article 11 prévoit que « pour toutes les opérations de vente à distance ou de vente hors établissement, l’acheteur d’un produit dispose d’un délai de dix jours ouvrables, à compter de la livraison de sa commande, pour faire retour de ce produit au vendeur pour échange ou remboursement, sans pénalités, à l’exception des frais de retour »."
+    },
+    {
+     "url": "https://sherloc.unodc.org/cld/uploads/res/document/civ/a/Loi_transactions_electroniques.pdf",
+     "publisher": "Loi n° 2013-546 relative aux transactions électroniques (UNODC SHERLOC copy)",
+     "title": "Loi 2013-546, art. 11 (actual content)",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-18-f9e84d4c7706.pdf.gz",
+     "quote": "Article 11 : Les conditions auxquelles sont soumises la possibilité de bénéficier d'offres promotionnelles ainsi que celle de participer à des concours ou à des jeux promotionnels"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Entreprenant turnover taxes (TCE ≤ FCFA 5m; TEE 5% up to FCFA 50m, halved via an approved management centre), replacing profit tax, the business licence and VAT (L3). (2) Paystack Starter accounts for unregistered individuals (P3). (3) Export treatment for qualifying services not used in Côte d'Ivoire (L4; excludes online platform operators since 2024). 2026 Finance Law (Deloitte): labelled digital startups operating outside the ZBTIC free zone are exempt for three years after labelling from profit tax, the micro-enterprise tax or the taxe d'État de l'Entreprenant. The entreprenant taxes themselves remain in the 2026 law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dgi.gouv.ci/assets/documents/LE%20SYSTEME%20FISCAL%20IVOIRIEN.pdf",
+     "publisher": "Direction Générale des Impôts (Côte d'Ivoire)",
+     "title": "Régime de l'entreprenant",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-582c758f869b.pdf.gz",
+     "quote": "I- REGIME DE L’ENTREPRENANT Le régime de l’entreprenant est institué par l’annexe fiscale à la loi de Finances n° 2020-972 du 23 décembre 2020 portant Budget de l’Etat pour la gestion 2021."
+    },
+    {
+     "url": "https://blog.avocats.deloitte.fr/cote-divoire-les-principales-mesures-de-la-loi-de-finances-pour-2026/",
+     "publisher": "Deloitte Société d'Avocats",
+     "title": "Côte d'Ivoire : les principales mesures de la loi de finances pour 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-10acda272521.html.gz",
+     "quote": "Les startups numériques labellisées exerçant en dehors de la zone franche ZBTIC bénéficient désormais d’une exonération des impôts suivants durant les trois années suivant leur labellisation : L’impôt sur les bénéfices / l’impôt des microentreprises ou la taxe d’État de l’Entreprenant.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The national identity card (CNI) or a passport, accepted by Paystack and required in CEPICI dossiers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://support.paystack.com/en/articles/2124354",
+     "publisher": "Paystack",
+     "title": "Compliance requirements for Côte d’Ivoire — ID",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2dc92f5c8ac8.html.gz",
+     "quote": "Requirements for Starter Businesses A government-issued identification — National ID card or valid Passport."
+    },
+    {
+     "url": "https://cotedivoire.eregulations.org/media/DOSSIER%20DECLARATION_2.pdf",
+     "publisher": "eRegulations Côte d'Ivoire (CEPICI dossier)",
+     "title": "CEPICI dossier — ID",
+     "retrieved": "2026-10-18",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-18-2875c02079f0.pdf.gz",
+     "quote": "- 1 copie de la carte nationale d’identité ou du passeport du déclarant."
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) Card payments on your own site through Paystack (a Stripe company). Stripe lists this country under its extended network. (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Côte D'Ivoire: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Côte D'Ivoire: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Côte D'Ivoire: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Côte D'Ivoire: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Côte D'Ivoire: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Côte D'Ivoire: listed in Stripe's extended network (via Paystack) (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "UEMOA Regulation 06/2024 Annex II (deadlines/thresholds) not read.",
+  "Distance-selling withdrawal right (10 working days / 3 months) rests on one press article; Law 2016-412 text unreachable (CIVLII 404).",
+  "Paystack Starter lifetime cap (XOF 3m) not captured from an accessible Paystack page.",
+  "Residents' foreign-source income treatment and standard VAT rate not captured from Ivorian sources (PwC CI pages 404).",
+  "CEPICI official fees/procedure for entreprenant; DGI compte contribuable procedure.",
+  "Payoneer single-source (fintech blog)."
+ ]
+}

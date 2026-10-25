@@ -1,0 +1,455 @@
+{
+ "code": "IS",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Generally free. The capital controls imposed after the 2008 banking collapse were largely lifted in 2017 (trade.gov).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/iceland-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Iceland Country Commercial Guide — Trade Financing",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-f1c1b830cebb.html.gz",
+     "quote": "Capital controls imposed following the collapse of Iceland’s financial sector in 2008 were largely lifted in 2017.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Icelandic banks offer unrestricted foreign-currency accounts (gjaldeyrisreikningur óbundinn): Arion banki publishes a consumer payment-account fee schedule for one, dated 7 May 2026, covering deposits into and withdrawals from the account in krónur or foreign notes (Arion banki). The capital controls imposed in 2008 were largely lifted in 2017 (see P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.Arionbanki.is/themes/arionbanki/arionbanki/documents/05_Bankinn/Fleira/Vextir-og-verdskra/Gjaldskrar-greidslureikninga/Gjaldskr%c3%a1%20grei%c3%b0slureikninga%20-%20gjaldeyrisreikningur%20%c3%b3bundinn.pdf",
+     "publisher": "Arion banki (fee schedule)",
+     "title": "Gjaldskrá greiðslureikninga – gjaldeyrisreikningur óbundinn",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-28810b200e30.pdf.gz",
+     "quote": "Heiti reiknings: Gjaldeyrisreikningur- óbundinn Dagsetning gjaldskrár/verðskrár: 07.05.2026",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.Arionbanki.is/themes/arionbanki/arionbanki/documents/05_Bankinn/Fleira/Vextir-og-verdskra/Gjaldskrar-greidslureikninga/Gjaldskr%c3%a1%20grei%c3%b0slureikninga%20-%20gjaldeyrisreikningur%20%c3%b3bundinn.pdf",
+     "publisher": "Arion banki (fee schedule)",
+     "title": "Gjaldskrá greiðslureikninga – gjaldeyrisreikningur óbundinn",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-28810b200e30.pdf.gz",
+     "quote": "Útborgun af gjaldeyrisreikningi í íslenskum seðlum 0 kr.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Iceland (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Iceland is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Iceland is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Iceland is on PayPal's Payouts list as 'Send, receive, and withdraw' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Iceland is listed on PayPal's Payouts country list as 'Send, receive, and withdraw' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Iceland IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Iceland appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship (einstaklingsfyrirtæki) is recorded in the Business Register at Skatturinn (Directorate of Internal Revenue). You first need an Icelandic ID number (kennitala) from the National Registry (Þjóðskrá). Then register with Skatturinn for income tax, and for VAT once turnover passes ISK 2,000,000 in 12 months (see L4). Registration can usually be completed online through the government portal. With no business name (trading under your own name) there is usually no registration fee. EEA/EFTA nationals can register without special authorisation; others need residence and work permits first. No minimum capital; unlimited personal liability.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-iceland/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Einstaklingsfyrirtæki) in Iceland",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-20a887e163bc.html.gz",
+     "quote": "Registration body The Business Register at the Directorate of Internal Revenue (Ríkisskattstjóri / RSK – Skatturinn)",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-iceland/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Einstaklingsfyrirtæki) in Iceland",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-20a887e163bc.html.gz",
+     "quote": "To register as a sole proprietor, you must have an Icelandic identification number (kennitala).",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.deel.com/blog/sole-proprietorship-iceland/",
+     "publisher": "Deel",
+     "title": "How to Register a Sole Proprietorship (Einstaklingsfyrirtæki) in Iceland",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-20a887e163bc.html.gz",
+     "quote": "If you operate only under your own name, there’s usually no registration fee.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.expatfocus.com/iceland/guide/iceland-self-employment",
+     "publisher": "Expat Focus",
+     "title": "Iceland self-employment guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-f5f216aed841.html.gz",
+     "quote": "Get an Icelandic identification number, the kennitala, from the National Registry first, as you'll need it to register a business and for tax.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.expatfocus.com/iceland/guide/iceland-self-employment",
+     "publisher": "Expat Focus",
+     "title": "Iceland self-employment guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-f5f216aed841.html.gz",
+     "quote": "Register with Skatturinn, the tax authority, to pay income tax, and register for VAT once your turnover goes over the threshold.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.expatfocus.com/iceland/guide/iceland-self-employment",
+     "publisher": "Expat Focus",
+     "title": "Iceland self-employment guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-f5f216aed841.html.gz",
+     "quote": "If you're from outside the EEA, EFTA or the Faroe Islands, get both a residence permit and a work permit before you start any work.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "Skatturinn/island.is pages not captured; two independent secondary sources."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Iceland to the OECD: \"The Icelandic Identification Number (kennitala) is used as a TIN in Iceland. This number is a unique number issued to both individuals and entities. The TIN has a special structure depending on the type of taxpayer. Register Iceland issues the identification number for individuals and Fyrirtækjaskrá issues the identification number for entities. TINs are used for all taxes in Iceland.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/iceland-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Iceland's tax administration)",
+     "title": "Iceland — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-6b638e872d76.pdf.gz",
+     "quote": "The Icelandic Identification Number (kennitala) is used as a TIN in Iceland. This number is a unique number issued to both individuals and entities. The TIN has a special structure depending on the type of taxpayer. Register Iceland issues the identification number for individuals and Fyrirtækjaskrá issues the identification number for entities. TINs are used for all taxes in Iceland.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Progressive national plus municipal tax (rates not captured). Residents are generally taxed on worldwide income (see quoted rules). Work performed while living in Iceland for foreign clients is generally taxable there. 2026 income tax brackets (monthly income, incl. municipal tax): 31.49% up to ISK 498,122, 37.99% up to ISK 1,398,450, and 46.29% above. Self-employed people must also pay themselves a deemed salary (reiknað endurgjald) at no less than the Director of Internal Revenue's reference amounts for their sector (2026 amounts not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://island.is/en/personal-tax-credit-and-income-tax-brackets/personal-tax-credit-and-tax-bracket-examples",
+     "publisher": "Ísland.is (Government of Iceland)",
+     "title": "Personal tax credit and income tax brackets (Ísland.is)",
+     "retrieved": "2026-10-24",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-5570b63fcf68.html.gz",
+     "quote": "Tax Bracket 1 0 - 498.122 ISK 31,49% Tax Bracket 2 498.123 - 1.398.450 ISK 37,99% Tax Bracket3 yfir 1.398.450 ISK 46,29%"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/iceland/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Iceland - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-66f121ea2003.html.gz",
+     "quote": "Resident individuals are fully liable for tax payments in Iceland on their worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/iceland/individual/residence",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Iceland - Individual - Residence",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-7f40af92e87a.html.gz",
+     "quote": "Any individual who stays in Iceland for more than 183 days during any 12-month period is considered a resident from the date of arrival."
+    },
+    {
+     "url": "https://taxatlas.io/country/iceland/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Iceland Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-0c5cf3479d5f.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": "EEA member. Reiknað endurgjald rule from search summaries (beancount.io, Skatturinn guidance not captured)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 24% standard and 11% reduced, with exports zero-rated. Self-employed business owners selling taxable goods and services must register for VAT. They are exempt from registering if sales are ISK 2,000,000 or less in each twelve-month period from the start of their activity (raised from ISK 1,000,000 in 2017). Foreign taxable persons follow the same rules; foreign e-service suppliers to Icelandic consumers can use the simplified VOES scheme.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.skatturinn.is/english/companies/value-added-tax/",
+     "publisher": "Skatturinn (Iceland Revenue and Customs)",
+     "title": "Value Added Tax (VAT) (Skatturinn — Iceland Revenue and Customs)",
+     "retrieved": "2026-10-24",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-33ea5efc0c25.html.gz",
+     "quote": "In general, all foreign as well as domestic companies and self-employed business owners selling taxable goods and services in Iceland needs to register their business for VAT."
+    },
+    {
+     "url": "https://www.skatturinn.is/english/companies/value-added-tax/",
+     "publisher": "Skatturinn (Iceland Revenue and Customs)",
+     "title": "Value Added Tax (VAT) (Skatturinn — Iceland Revenue and Customs)",
+     "retrieved": "2026-10-24",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-33ea5efc0c25.html.gz",
+     "quote": "those who sell taxable goods and services for 2.000.000 ISK or less in each twelve-month period from the beginning of their business activity"
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/iceland.md",
+     "publisher": "Kintsugi",
+     "title": "Iceland VAT (VSK) Guide for 2026 (Kintsugi)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-a680bbdd3420.html.gz",
+     "quote": "A business registers once taxable sales reach ISK 2,000,000 over any 12-month period [1]."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The GDPR applies in Iceland through the EEA Agreement (incorporated by the EEA Joint Committee in July 2018). Act No. 90/2018 on Data Protection implements the GDPR; supervisor: Persónuvernd.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://natlawreview.com/article/gdpr-now-eea-wide",
+     "publisher": "National Law Review",
+     "title": "GDPR is Now EEA Wide! (National Law Review / Squire Patton Boggs, 17 Sep 2018)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-754e0059264b.html.gz",
+     "quote": "The General Data Protection Regulation (GDPR) was incorporated into the EEA Agreement by the EEA Joint Committee in Brussels and entered into force in mid-July."
+    },
+    {
+     "url": "https://natlawreview.com/article/gdpr-now-eea-wide",
+     "publisher": "National Law Review",
+     "title": "GDPR is Now EEA Wide! (National Law Review / Squire Patton Boggs, 17 Sep 2018)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-754e0059264b.html.gz",
+     "quote": "The European Economic Area (EEA) currently includes all EU Member States, including, for the time being, the UK, as well as the three out of four EFTA States meaning Iceland, Liechtenstein and Norway(the fourth one being Switzerland)."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/index.html?c=IS&t=law",
+     "publisher": "DLA Piper",
+     "title": "Data protection laws in Iceland",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-6b283154dbd4.html.gz",
+     "quote": "The Act No. 90/2018 on Data Protection and the Processing of Personal Data (the ‘ DPA ’) implements the GDPR in Iceland."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Iceland. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "352,Iceland,Legislation,Legislation,Legislation,Legislation,No Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Registers Iceland (Þjóðskrá) issues a voluntary national identity card (Nafnskírteini) to citizens, but it is uncommon; most people use a driving licence or passport (Wikipedia). Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Registers Iceland ( Þjóðskrá ) voluntarily issues Icelandic national identity cards ( Nafnskírteini ) to Icelandic citizens.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw'). (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Iceland: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Registration/TIN; self-employed regimes.",
+  "Second sources for tax/VAT; services export VAT.",
+  "Data protection and consumer law.",
+  "FX/FCY specifics where unverified."
+ ]
+}

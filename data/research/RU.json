@@ -1,0 +1,386 @@
+{
+ "code": "RU",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Restricted and sanctions-affected. From 8 December 2025 the Bank of Russia lifted its limits on outbound foreign-currency transfers for Russian citizens and non-residents from 'friendly' countries. Restrictions for non-residents from 'unfriendly' states continued to 7 June 2026. Western sanctions (US, EU, UK and others) cut many Russian banks from international payment networks, and most Western platforms do not serve Russia. This guide covers only lawful routes; it does not describe ways around sanctions.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.intellinews.com/russia-s-central-bank-lifts-limits-on-foreign-currency-transfers-abroad-from-december-8-415362",
+     "publisher": "bne IntelliNews",
+     "title": "Russia's central bank lifts limits on foreign currency transfers abroad from December 8 (bne IntelliNews)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-f616fafb3841.html.gz",
+     "quote": "\"Given the stable situation in the foreign exchange market, from December 8, 2025, the Bank of Russia is lifting the previously established limits on foreign currency transfers abroad for Russian citizens and individuals who are non-residents from friendly countries,\" the central bank said."
+    },
+    {
+     "url": "https://www.lidings.com/media/legalupdates/transfers_abroad/",
+     "publisher": "Lidings",
+     "title": "The Bank of Russia Has Partially Lifted Limits on Foreign Currency Transfers Abroad (Lidings, 15 Dec 2025)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-dd8cd1461baf.html.gz",
+     "quote": "From December 8, 2025, to June 7, 2026, inclusive, the current restrictions on international transfers remain in place: For non-resident individuals working in Russia, transfers exceeding their salary."
+    },
+    {
+     "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions",
+     "publisher": "U.S. Treasury — OFAC",
+     "title": "Russian Harmful Foreign Activities Sanctions",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-e0615e12b153.html.gz",
+     "quote": "Important Advisories and Information Alerts and Advisories OFAC Alert: Sanctions Risk for Foreign Financial Institutions that Join Russian Financial Messaging System, System for Transfer of Financial Messages (November 21, 2024)"
+    }
+   ],
+   "notes": "HIGH-RISK / SANCTIONS. Status after June 2026 not confirmed."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Russian Federation (automated collector snapshots, Oct 2026). Available: Google Play (developer registration). Not listed: Stripe (merchant sign-up); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program. Restricted: Paddle lists it as an unsupported seller country; Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Russia is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Russian Federation is on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Russia is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Russia is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Russia is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Russia.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest route for a freelancer: register as 'self-employed' (professional income tax, NPD) in the FNS mobile app 'Мой налог' ('My Tax'), which takes a few minutes. Alternatively, use a verified Gosuslugi (state services portal) account. Without registration you cannot use the regime or issue receipts. The self-employed do not file reports or buy a cash register; the app records income and calculates the tax (FNS). For income above the NPD limit (see L7), register as an individual entrepreneur (IP) with the FNS instead.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nalog.gov.ru/rn58/news/activities_fts/13754173/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "Как зарегистрироваться в качестве «самозанятого» налогоплательщика",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-94681cc86e1b.html.gz",
+     "quote": "Без регистрации применение налогового режима и формирование чеков невозможно.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.nalog.gov.ru/rn58/news/activities_fts/13754173/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "Как зарегистрироваться в качестве «самозанятого» налогоплательщика",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-94681cc86e1b.html.gz",
+     "quote": "Для регистрации можно выбрать один из следующих способов: Первый - скачать мобильное приложение « Мой налог ».",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.nalog.gov.ru/rn58/news/activities_fts/13754173/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "Как зарегистрироваться в качестве «самозанятого» налогоплательщика",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-94681cc86e1b.html.gz",
+     "quote": "Самозанятому не нужно сдавать отчетность и покупать кассу, приложение само ведет учет доходов, рассчитывает налог и др.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Russian Federation to the OECD: \"In accordance with paragraph 7 of Article 84 of the Russian Federation Tax Code all Russian taxpayers whether individuals or businesses are assigned a unique Taxpayer Personal Identification Number known as INN (Russian analog for TIN). The INN refers for all types of taxes in the Russian Federation.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/russia-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Russian Federation's tax administration)",
+     "title": "Russian Federation — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-aa04f3b77a7c.pdf.gz",
+     "quote": "In accordance with paragraph 7 of Article 84 of the Russian Federation Tax Code all Russian taxpayers whether individuals or businesses are assigned a unique Taxpayer Personal Identification Number known as INN (Russian analog for TIN). The INN refers for all types of taxes in the Russian Federation.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Since 2025, residents' main income is taxed on a five-band progressive scale: 13% up to 2.4 million roubles a year, 15% from 2.4 to 5 million, 18% from 5 to 20 million, 20% from 20 to 50 million and 22% above 50 million. Each rate applies only to the part above its threshold, so tax on the first 2.4 million is a fixed 312,000 roubles (FNS). Residence (183+ days in 12 months) and worldwide taxation of residents are the general rule (search summary, not captured). Many freelancers instead use the self-employed professional income tax (NPD); see L7. Sanctions sharply limit foreign platforms and payments (see W1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nalog.gov.ru/rn87/news/activities_fts/15632255/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "Как с 2025 года применять новые ставки по НДФЛ и прогрессивную шкалу",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-3c86afaed870.html.gz",
+     "quote": "По основным доходам резидентов установлена новая прогрессивная шкала – пять ставок вместо применяемых в настоящее время двух: - 13% - для доходов до 2,4 млн руб.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.nalog.gov.ru/rn87/news/activities_fts/15632255/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "Как с 2025 года применять новые ставки по НДФЛ и прогрессивную шкалу",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-3c86afaed870.html.gz",
+     "quote": "- 22% - свыше 50 млн руб.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.nalog.gov.ru/rn87/news/activities_fts/15632255/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "Как с 2025 года применять новые ставки по НДФЛ и прогрессивную шкалу",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-3c86afaed870.html.gz",
+     "quote": "Например, ставка в размере 15% применяется для доходов свыше 2,4 млн руб., но не более 5 млн рублей.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "From 1 January 2026, the standard VAT rate is 22% (up from 20%; 10% still applies to essential goods) under Law 425-FZ. Simplified-regime (USN) businesses with 2025 income of 20 million roubles or more must pay VAT in 2026. They can choose 22% with input credit, or special rates of 5% (income 20–272.5 million roubles) or 7% (FNS). The threshold falls to 15 million roubles in 2027 and 10 million from 2028 (VATupdate). Sanctions limit foreign platforms and payments for Russian residents (see W1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.nalog.gov.ru/rn92/news/tax_doc_news/16586778/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "С 1 января 2026 года изменятся условия для применения спецрежимов",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-9233d318ba17.html.gz",
+     "quote": "В 2026 году плательщиками НДС обязаны стать субъекты хозяйствования, достигшие дохода в 20 миллионов рублей по итогам 2025 года.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.nalog.gov.ru/rn92/news/tax_doc_news/16586778/",
+     "publisher": "Federal Tax Service of Russia (FNS)",
+     "title": "С 1 января 2026 года изменятся условия для применения спецрежимов",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-9233d318ba17.html.gz",
+     "quote": "Законом № 425-ФЗ с 1 января 2026 года базовая ставка НДС увеличена до 22%",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.vatupdate.com/2026/01/16/russia-raises-standard-vat-to-22-and-lowers-thresholds-for-simplified-and-patent-tax-regimes/",
+     "publisher": "VATupdate",
+     "title": "Russia Raises Standard VAT to 22% and Lowers Thresholds for Simplified and Patent Tax Regimes",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-439b65c68f9f.html.gz",
+     "quote": "New, lower annual income thresholds for VAT liability under Simplified (УСН) and Patent (ПСН) regimes: 20 million RUB (2026), 15 million RUB (2027), 10 million RUB (2028+).",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Russian Federation. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "643,Russian Federation,Legislation,No Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Russian Federation. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "643,Russian Federation,Legislation,No Legislation,Legislation,Legislation,Legislation,0,0,0,0,1,0,0,0,1,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Professional income tax (NPD, the 'self-employed' regime): 4% on income from individuals and 6% on income from companies and individual entrepreneurs, up to 2.4 million roubles a year. Status is lost automatically above the limit. A one-off tax deduction of RUB 10,000 is applied automatically in the 'Moi nalog' app: 1% of income taxed at 4% and 2% of income taxed at 6%, giving effective rates of 3% and 4% until it is used up. Treatment of income from foreign clients and payment routing under sanctions were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://glavkniga.ru/ts/222455",
+     "publisher": "Glavnaya Kniga (ConsultantPlus)",
+     "title": "Налог на самозанятых: основные правила (Главная книга / КонсультантПлюс)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-c70ff58aca42.html.gz",
+     "quote": "Ставки НПД - 4% с доходов, полученных от физлиц, и 6% с доходов от организаций и ИП."
+    },
+    {
+     "url": "https://glavkniga.ru/ts/222455",
+     "publisher": "Glavnaya Kniga (ConsultantPlus)",
+     "title": "Налог на самозанятых: основные правила (Главная книга / КонсультантПлюс)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-c70ff58aca42.html.gz",
+     "quote": "Лимит дохода - 2,4 млн руб."
+    },
+    {
+     "url": "https://glavkniga.ru/ts/222455",
+     "publisher": "Glavnaya Kniga (ConsultantPlus)",
+     "title": "Налог на самозанятых: основные правила (Главная книга / КонсультантПлюс)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-c70ff58aca42.html.gz",
+     "quote": "По НПД предусмотрен однократный вычет 10 000 руб."
+    },
+    {
+     "url": "https://pay.yandex.ru/business/calculators/kalkulyator-npd",
+     "publisher": "Yandex Pay",
+     "title": "Калькулятор налога самозанятых — расчёт НПД онлайн 2026 (Яндекс Пэй)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-c644ae050b38.html.gz",
+     "quote": "Он снижает налоговую ставку на 1%: с 4 до 3% и с 6 до 4%."
+    },
+    {
+     "url": "https://harant.ru/blog/nalogi/npd-stavki-naloga-i-limity-kto-mozhet-byt-samozanyatym-strahovye-vznosy/",
+     "publisher": "Harant",
+     "title": "НПД: ставки налога и лимиты (Harant)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-897c633365a7.html.gz",
+     "quote": "Статус теряется автоматически, если доход превышает лимит в 2,4 миллиона рублей."
+    }
+   ],
+   "notes": "Harant states the deduction cuts 6% to 5%; Glavnaya Kniga and Yandex say 6% to 4% (2 percentage points), so the latter is used. The NPD experiment's end date (law 422-FZ) was not captured."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Internal passport of Russia (Wikipedia, compulsory-ID list). A Russian identity document is issued to any citizen on request at the age of 14 and reissued at ages 20 and 45. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Russia Internal passport of Russia",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money; major freelance and payment platforms exclude residents (sanctions or payment-partner restrictions). No clean workaround: these platforms exclude residents, for sanctions or payment-partner reasons depending on the country. Using someone else's account, a foreign address or a VPN to appear elsewhere breaches their terms, risks frozen funds, and can breach sanctions law. Do not do it. Legal options are limited to what local banks and licensed local channels allow (see P1/P2), and they change with sanctions policy, so check the current status before relying on any route.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Russian Federation: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Russian Federation: on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Russian Federation: on Paddle's unsupported-country list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists. Editorial guidance on what not to do is ours, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Tax for self-employed (NPD 4%/6%) and individual entrepreneurs.",
+  "Currency control on residents' inbound service income.",
+  "Data localisation law (152-FZ)."
+ ]
+}

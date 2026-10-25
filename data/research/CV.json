@@ -1,0 +1,292 @@
+{
+ "code": "CV",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Not established. Cabo Verde has a foreign-exchange law (escudo pegged to the euro) defining exchange operations as foreign-currency settlement of dealings with non-residents, but the current rules for residents' service receipts were not captured.",
+   "status": "unverified",
+   "note": "Only a search summary of an undated Boletim Oficial FX diploma; not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Not established in a captured source. A Boletim Oficial FX diploma (per search summary) regulates residents' foreign-currency accounts at authorised domestic institutions.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Cabo Verde (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Cabo Verde is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Cabo Verde is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Cape Verde is listed as a PayPal market but is not on the PayPal Payouts list; no source on withdrawals was found.",
+   "status": "unverified",
+   "note": "No PayPal help page or local testimony captured on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Cabo Verde is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market ('Cape Verde', paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Cabo Verde is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Cabo Verde.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "The quickest route for companies is 'Empresa no Dia' (company in a day) at the Casa do Cidadão: hand in identification and business documents with a fee of about USD 100, usually completed in one day. Whether sole traders (empresário em nome individual) use the same route was not confirmed; Empresa no Dia lists company forms (quota and joint-stock companies).",
+   "status": "unverified",
+   "note": "Single domain captured (trade.gov, official US guide but not Cabo Verdean); Vendus guide 404 on 2026-10-22; sole-trader route not confirmed.",
+   "sources": [
+    {
+     "url": "https://trade.gov/country-commercial-guides/cabo-verde-distribution-sales-channels",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Cabo Verde Country Commercial Guide — Distribution & Sales Channels",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-a41c0273cb96.html.gz",
+     "quote": "The simplest and quickest process to establish a business is “Empresa no Dia” (“company in a day”), which is done through the Casa do Cidadão and involves delivering identification and relevant business/investment documents along with a fee of approximately $100."
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "No NIF source captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Resident individuals are taxed on all income, in Cabo Verde or abroad (PwC). Micro and small businesses can opt for REMPE (Law 70/VIII/2014): a Special Unified Tax (TEU) of 4% of gross sales, paid quarterly, replacing income tax, VAT and employer social security. Thresholds (a blog cites up to CVE 5m turnover for micro, CVE 5–10m for small) were not verified officially.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/cabo-verde/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cabo Verde - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-d65b5ff9e6f0.html.gz",
+     "quote": "resident individuals are subject to tax on all income, regardless of whether it is earned within the Cabo Verdean territory or overseas)."
+    },
+    {
+     "url": "https://caboverde.un.org/pt/download/163637/272767",
+     "publisher": "United Nations Cabo Verde",
+     "title": "UN Cabo Verde document on REMPE and the informal-to-formal transition",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a62f7ff43e79.pdf.gz",
+     "quote": "70/VIII/2014, of 26 August, more specifically to its articles 28 and 31."
+    },
+    {
+     "url": "https://beancount.io/blog/2026/10/08/cabo-verde-rempe-simplified-regime-micro-small-business-tax-guide",
+     "publisher": "Beancount",
+     "title": "Cabo Verde's 4% Simplified Business Tax: REMPE (8 Oct 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-9cfd296c3c39.html.gz",
+     "quote": "But if your company is small enough, the law lets you replace all of that with a single payment: 4% of gross sales, paid once a quarter."
+    }
+   ],
+   "notes": "REMPE eligibility for an individual freelancer and exact thresholds need the consolidated Law 70/VIII/2014. 2025 Budget excluded MPEs exceeding the turnover limit by >30% (PwC.pt, 403 on 2026-10-22)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "Standard VAT 15% (8% on electricity and water for private consumers). The registration threshold and treatment of exported services were not established; REMPE taxpayers pay the 4% TEU instead of VAT.",
+   "status": "unverified",
+   "note": "Single secondary domain (PwC) for the rate; threshold not found on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/cabo-verde/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Cabo Verde - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-431ee7b59abf.html.gz",
+     "quote": "The standard VAT rate of 15% is a general tax on consumption, applicable to the import and sale of goods and services in Cabo Verde territory."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "A data-protection regime exists and is supervised by the CNPD (Comissão Nacional de Proteção de Dados), an independent administrative authority attached to the National Assembly. Its statute (Law 42/VIII/2013) was amended in 2021 alongside an update of the general personal-data regime aligned with Convention 108+. Notification or registration duties for small businesses were not read.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://boe.incv.cv/Bulletins/Download/3672",
+     "publisher": "Boletim Oficial de Cabo Verde (I Série, 2021)",
+     "title": "Lei que altera a Lei nº 42/VIII/2013 (CNPD)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f9aef8552157.pdf.gz",
+     "quote": "A CNPD é uma entidade administrativa independente, com personalidade jurídica de direito público e poderes de autoridade, dotada de autonomia administrativa e financeira, que funciona junto da Assembleia Nacional."
+    },
+    {
+     "url": "https://boe.incv.cv/Bulletins/Download/3672",
+     "publisher": "Boletim Oficial de Cabo Verde (I Série, 2021)",
+     "title": "Lei que altera a Lei nº 42/VIII/2013 (CNPD) — preamble",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-f9aef8552157.pdf.gz",
+     "quote": "Contudo, estando na forja a alteração do nosso atual regime jurídico geral de proteção de dados pessoais das pessoas singulares com vista à sua atualização face aos novos desafios que se colocam hodiernamente"
+    }
+   ],
+   "notes": "General regime commonly cited as Law 133/V/2001 (amended 2013, 2021) - text not read."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Cabo Verde. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "132,Cabo Verde,Legislation,No Legislation,Legislation,Legislation,No Legislation,1,0,0,1,0,0,0,1,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "REMPE (4% unified tax on gross sales for micro/small businesses) is the main simplification (L3). The 2026 Budget reportedly introduced a special regime for new residents (Bloomberg Tax); not captured.",
+   "status": "unverified",
+   "note": "No captured source on incentives beyond REMPE on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Cartão Nacional de Identificação (CNI) [National Identity Card] (Wikipedia, compulsory-ID list). The Cape Verdian national identity card (referred as \"Citizen card\") is an electronic biometric ID card, compulsory for all Cape Verdian nationals. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Cape Verde Cartão Nacional de Identificação (CNI) [National Identity Card]",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Cabo Verde: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Cabo Verde: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Cabo Verde: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Cabo Verde: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "FX law (Boletim Oficial) on residents' service receipts and FX accounts.",
+  "Sole-trader registration route (Empresa no Dia lists company forms) and NIF procedure.",
+  "REMPE thresholds, eligibility of individual freelancers; VAT threshold; exported services.",
+  "Data-protection regime text and CNPD notification; consumer rules; gateways; KYC."
+ ]
+}

@@ -1,0 +1,616 @@
+{
+ "code": "US",
+ "un_name": "United States of America",
+ "m49_name": "United States of America",
+ "iso3": "USA",
+ "m49": "840",
+ "region": "Americas",
+ "sub_region": "Northern America",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "24-10-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency USD",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_fully_localized",
+   "label": "Fully localized",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "not_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No general exchange controls: there are no general restrictions on remittances to or from abroad, but sanctions and embargoes (OFAC) restrict payments involving listed countries and entities (Deloitte 2026). Reporting applies: US persons with foreign financial accounts whose combined value exceeds USD 10,000 at any time in the year must file an FBAR (IRS); banks file reports on cash transactions above USD 10,000 (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-unitedstateshighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "United States of America Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-8d438512da87.pdf.gz",
+     "quote": "Foreign exchange control: While there are no general restrictions on remittances of profits, dividends, interest, royalties, or fees to nonresidents, sanctions and embargoes apply to listed countries and entities",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.irs.gov/FBAR",
+     "publisher": "Internal Revenue Service",
+     "title": "Report of Foreign Bank and Financial Accounts (FBAR)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-0eb1221c7c32.html.gz",
+     "quote": "a financial interest in or signature or other authority over at least one financial account located outside the United States if the aggregate value of those foreign financial accounts exceeded $10,000",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Legal, but rare for ordinary consumers. Large US retail banks such as Bank of America design personal accounts to hold USD only and do not offer personal foreign-currency accounts; foreign-currency options exist mainly for business and treasury clients (Exiap). Residents who need EUR or GBP balances usually use fintech multi-currency accounts (see P5) or a premium bank product.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://www.exiap.com/guides/bank-of-america-foreign-currency-account-alternatives",
+     "publisher": "Exiap",
+     "title": "Bank of America Foreign Currency Account Alternatives [2026]",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-437fd0956d6d.html.gz",
+     "quote": "Bank of America does not promote any multi-currency accounts or foreign currency accounts to personal customers.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.exiap.com/guides/bank-of-america-foreign-currency-account-alternatives",
+     "publisher": "Exiap",
+     "title": "Bank of America Foreign Currency Account Alternatives [2026]",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-437fd0956d6d.html.gz",
+     "quote": "Business, corporate or enterprise level customers may find some foreign currency options around treasury management – but account options for individuals are designed to manage USD only.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (Exiap guide) captured on 2026-10-25; no bank or regulator text captured."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for United States of America (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "United States is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; United States of America is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. United States is on PayPal's Payouts list as 'Fully localized' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "United States is listed on PayPal's Payouts country list as 'Fully localized' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: the United States IS on Wise's list of countries whose residents can hold money, except residents of Nevada. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "United States appears in Wise's list with the note 'You can't hold money if you live in Nevada.'",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "TRAP: Nevada residents cannot hold balances."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Someone who owns an unincorporated business alone is a sole proprietor, with no federal registration needed beyond tax filing. They report on Form 1040 with Schedule C (profit or loss), Schedule SE (self-employment tax) and quarterly Form 1040-ES estimated tax. State/local business licences, DBA filings and sales-tax permits vary (not captured). A single-member LLC electing corporate treatment is not a sole proprietorship.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/sole-proprietorships",
+     "publisher": "Internal Revenue Service",
+     "title": "Sole proprietorships",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-e37e04a73d75.html.gz",
+     "quote": "A sole proprietor is someone who owns an unincorporated business by themselves."
+    },
+    {
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/sole-proprietorships",
+     "publisher": "Internal Revenue Service",
+     "title": "Sole proprietorships",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-e37e04a73d75.html.gz",
+     "quote": "Income tax 1040, U.S. Individual Income Tax Return and Schedule C (Form 1040 or 1040-SR), Profit or Loss from Business Self-employment tax Schedule SE (Form 1040), Self-Employment Tax Estimated tax 1040-ES, Estimated Tax for Individuals"
+    }
+   ],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by United States of America to the OECD: \"U.S. taxpayer identification numbers include a Social Security Number (SSN) , which is issued to individuals, and an Employer Identification Number (EIN), which is issued to individuals or entities. In addition, an Individual Taxpayer Identification Number (ITIN) is issued to individuals who are required to have a U.S. taxpayer identification number but who do not have and are not eligible to obtain an SSN.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/united-states-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by United States of America's tax administration)",
+     "title": "United States of America — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-994b11a44fe6.pdf.gz",
+     "quote": "U.S. taxpayer identification numbers include a Social Security Number (SSN) , which is issued to individuals, and an Employer Identification Number (EIN), which is issued to individuals or entities. In addition, an Individual Taxpayer Identification Number (ITIN) is issued to individuals who are required to have a U.S. taxpayer identification number but who do not have and are not eligible to obtain an SSN.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "The US taxes citizens and residents (green-card holders or substantial-presence test) on worldwide income. Federal rates run from 10% to 37% (2025 brackets; TCJA rates made permanent by the OBBBA). Self-employed people also pay 15.3% self-employment tax (12.4% Social Security up to the wage base plus 2.9% Medicare). State and local income taxes apply in most states.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/united-states/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United States - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-ae3d2d1e0680.html.gz",
+     "quote": "The United States levies tax on its citizens and residents on their worldwide income."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/united-states/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United States - Individual - Taxes on personal income",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-ae3d2d1e0680.html.gz",
+     "quote": "For individuals, the top federal income tax rate for 2025 is 37%, except for long-term capital gains and qualified dividends ( discussed below )."
+    },
+    {
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes",
+     "publisher": "Internal Revenue Service",
+     "title": "Self-Employment Tax (Social Security and Medicare Taxes)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-22d5a8262367.html.gz",
+     "quote": "Self-employment tax rate The self-employment tax rate is 15.3%."
+    },
+    {
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes",
+     "publisher": "Internal Revenue Service",
+     "title": "Self-Employment Tax (Social Security and Medicare Taxes)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-22d5a8262367.html.gz",
+     "quote": "The rate consists of two parts: 12.4% for social security (old-age, survivors, and disability insurance) and 2.9% for Medicare (hospital insurance)."
+    }
+   ],
+   "notes": "TRAP: US citizens living abroad remain taxable on worldwide income (FEIE/FTC relief not captured)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "There is no federal VAT or sales tax. 45 states and DC impose sales and use taxes (state rates about 2.9%-7.25%, plus local add-ons), mainly on tangible goods and some digital products and services. Since South Dakota v. Wayfair (2018), remote sellers can have nexus through economic thresholds, typically more than USD 100,000 of sales into a state. Taxability of freelance services varies by state. Deloitte 2026 confirms there is no federal VAT or sales tax; states and localities levy sales tax.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/united-states/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United States - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-da22461e0e4d.html.gz",
+     "quote": "Sales taxes No provisions exist for a sales tax or value-added tax (VAT) at the federal level; however, sales and use taxes constitute a major revenue source for the 45 states that impose such taxes and the District of Columbia."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/united-states/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "United States - Corporate - Other taxes",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-da22461e0e4d.html.gz",
+     "quote": "That decision voided the physical presence nexus standard and upheld South Dakota's statutory nexus standard of delivery into the state of more than USD 100,000 of sales or 200 or more transactions."
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-unitedstateshighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "United States of America Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-8d438512da87.pdf.gz",
+     "quote": "Sales tax Taxable transactions: The US does not levy a federal value added tax or sales tax.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "There is no single comprehensive federal privacy law (sectoral federal laws apply; not captured). State laws apply above thresholds. California's CCPA/CPRA covers for-profit businesses doing business in California that meet at least one test: annual gross revenue above USD 26.625 million (inflation-adjusted figure for 2025–2026, counting revenue from all sources); buying, selling or sharing the personal information of 100,000 or more California consumers or households a year; or deriving at least 50% of annual revenue from selling or sharing personal information. Most solo freelancers fall below all three, but other state privacy laws have their own thresholds (not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.jacksonlewis.com/insights/navigating-california-consumer-privacy-act-30-essential-faqs-covered-businesses-including-clarifying-regulations-effective-1126",
+     "publisher": "Jackson Lewis",
+     "title": "Navigating the California Consumer Privacy Act: 30 Essential FAQs",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4c4927ccf487.html.gz",
+     "quote": "Satisfies at least one of the following: Annual gross revenue in excess of $25 million ($26.625 million effective Jan.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.jacksonlewis.com/insights/navigating-california-consumer-privacy-act-30-essential-faqs-covered-businesses-including-clarifying-regulations-effective-1126",
+     "publisher": "Jackson Lewis",
+     "title": "Navigating the California Consumer Privacy Act: 30 Essential FAQs",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4c4927ccf487.html.gz",
+     "quote": "annually buys, sells, or shares the personal information of 100,000 or more consumers or households.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.clym.io/blog/ccpa-applicability-guide",
+     "publisher": "Clym",
+     "title": "CCPA applicability guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4a897aafb1c4.html.gz",
+     "quote": "For the 2026 compliance year, your business is covered if its annual gross revenues exceed $26,625,000 .",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.clym.io/blog/ccpa-applicability-guide",
+     "publisher": "Clym",
+     "title": "CCPA applicability guide",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-4a897aafb1c4.html.gz",
+     "quote": "Derive > 50% of annual revenue from selling/sharing data",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "CCPA thresholds from two independent legal/compliance sources; CPPA/OAG pages not captured."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "The FTC Mail, Internet, or Telephone Order Merchandise Rule ('30-day Rule') governs online sales of merchandise. You need a reasonable basis for any shipping time you state; with no stated time, you must reasonably expect to ship within 30 days. If you learn you cannot ship on time, you must get the customer's consent to the delay. Without consent, you must promptly refund all money paid for the unshipped goods, without being asked. There is no general federal cooling-off right for online purchases; the FTC Cooling-Off Rule covers door-to-door and off-premises sales (not captured). State laws add further rules.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
+     "publisher": "U.S. Federal Trade Commission",
+     "title": "Business Guide to the FTC's Mail, Internet, or Telephone Order Merchandise Rule",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-d612681dc204.txt.gz",
+     "quote": "If you make no shipment statement, you must have a reasonable basis for believing that you can ship within 30 days.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule",
+     "publisher": "U.S. Federal Trade Commission",
+     "title": "Business Guide to the FTC's Mail, Internet, or Telephone Order Merchandise Rule",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-d612681dc204.txt.gz",
+     "quote": "you must, without being asked, promptly refund all the money the customer paid you for the unshipped merchandise.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "FTC page read in the built-in browser (the fetch script receives 404) and saved with save_browser_text.py as an excerpt."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "Qualified business income (QBI) deduction, section 199A: sole proprietors (Schedule C freelancers) may deduct up to 20% of net QBI, limited to 20% of taxable income before the deduction minus net capital gain (IRS Form 8995 instructions). For specified service businesses (SSTBs: consulting, law, health and similar), the deduction phases out above a taxable-income threshold ($197,300–$247,300 for single filers in the 2025 instructions). The One Big Beautiful Bill Act kept the deduction beyond 2025 and, from tax years starting after 31 December 2025, adds a $400 minimum deduction for taxpayers with at least $1,000 of QBI (IRS Rev. Proc. 2025-32).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.irs.gov/pub/irs-pdf/i8995.pdf",
+     "publisher": "Internal Revenue Service",
+     "title": "Instructions for Form 8995 (2025)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-875843baead6.pdf.gz",
+     "quote": "Individual taxpayers and some trusts and estates may be entitled to a deduction of up to 20% of their net QBI from a trade or business, including income from a pass-through entity, but not from a C corporation",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.irs.gov/pub/irs-pdf/i8995.pdf",
+     "publisher": "Internal Revenue Service",
+     "title": "Instructions for Form 8995 (2025)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-875843baead6.pdf.gz",
+     "quote": "is more than $197,300 but not more than $247,300 for all other returns, an applicable percentage of your SSTB is treated as a qualified trade or business",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+     "publisher": "Internal Revenue Service",
+     "title": "Revenue Procedure 2025-32",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-e9ada115fb43.pdf.gz",
+     "quote": ".12 Section 70105 of the OBBBA amended § 199A(i) to add a minimum deduction of $400.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+     "publisher": "Internal Revenue Service",
+     "title": "Revenue Procedure 2025-32",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-e9ada115fb43.pdf.gz",
+     "quote": "Additionally, a taxpayer will be required to have a minimum of $1,000 of qualified business income to be eligible for the deduction, effective for taxable years beginning after December 31, 2025.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for United States of America accepts: Border crossing card Child ID card Consular ID Card Driver license NYC card Passport Passport card Resident permit ID / U.S. Green Card State issued ID card Tribal ID Card U.S. visa. Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=US",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — United States of America",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-021077549962.html.gz",
+     "quote": "Acceptable forms of identification: Border crossing card Child ID card Consular ID Card Driver license NYC card Passport Passport card Resident permit ID / U.S. Green Card State issued ID card Tribal ID Card U.S. visa",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Fully localized'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "United States of America: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

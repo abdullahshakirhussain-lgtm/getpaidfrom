@@ -1,0 +1,3891 @@
+{
+ "built_at": "2026-10-17T04:37:26+00:00",
+ "count": 193,
+ "sources": [
+  {
+   "id": "un_members",
+   "url": "https://www.un.org/en/about-us/member-states",
+   "sha256": "a86defce756ac5a015610dcdba6e2aa0072956be755820070cadbfb1de4c2771",
+   "snapshot": "data/snapshots/un_members/2026-10-17-a86defce756a.html.gz",
+   "evidence": "official"
+  },
+  {
+   "id": "un_m49",
+   "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+   "sha256": "b9048114f6e7f2abda83bf03d4263c9d7cd1bd7230e3d0461025ee7839a7a1fb",
+   "snapshot": "data/snapshots/un_m49/2026-10-17-b9048114f6e7.html.gz",
+   "evidence": "official"
+  },
+  {
+   "id": "cldr_en_territories",
+   "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+   "version": "48.2.3",
+   "sha256": "158c1d575308f7e46912edbeda435c8fe2ef5dad280798231f3a432e406b1807",
+   "snapshot": "data/snapshots/cldr_en_territories/2026-10-17-158c1d575308.html.gz",
+   "evidence": "standard",
+   "use": "name-to-code verification only"
+  }
+ ],
+ "countries": [
+  {
+   "code": "AF",
+   "un_name": "Afghanistan",
+   "admitted": "19-11-1946",
+   "m49_name": "Afghanistan",
+   "m49": "004",
+   "iso3": "AFG",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AF",
+    "m49_iso2": "AF",
+    "library_code": "AF",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AL",
+   "un_name": "Albania",
+   "admitted": "14-12-1955",
+   "m49_name": "Albania",
+   "m49": "008",
+   "iso3": "ALB",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AL",
+    "m49_iso2": "AL",
+    "library_code": "AL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "DZ",
+   "un_name": "Algeria",
+   "admitted": "08-10-1962",
+   "m49_name": "Algeria",
+   "m49": "012",
+   "iso3": "DZA",
+   "region": "Africa",
+   "sub_region": "Northern Africa",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "DZ",
+    "m49_iso2": "DZ",
+    "library_code": "DZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AD",
+   "un_name": "Andorra",
+   "admitted": "28-07-1993",
+   "m49_name": "Andorra",
+   "m49": "020",
+   "iso3": "AND",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AD",
+    "m49_iso2": "AD",
+    "library_code": "AD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AO",
+   "un_name": "Angola",
+   "admitted": "01-12-1976",
+   "m49_name": "Angola",
+   "m49": "024",
+   "iso3": "AGO",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AO",
+    "m49_iso2": "AO",
+    "library_code": "AO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AG",
+   "un_name": "Antigua and Barbuda",
+   "admitted": "11-11-1981",
+   "m49_name": "Antigua and Barbuda",
+   "m49": "028",
+   "iso3": "ATG",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "AG",
+    "m49_iso2": "AG",
+    "library_code": "AG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AR",
+   "un_name": "Argentina",
+   "admitted": "24-10-1945",
+   "m49_name": "Argentina",
+   "m49": "032",
+   "iso3": "ARG",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AR",
+    "m49_iso2": "AR",
+    "library_code": "AR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AM",
+   "un_name": "Armenia",
+   "admitted": "02-03-1992",
+   "m49_name": "Armenia",
+   "m49": "051",
+   "iso3": "ARM",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AM",
+    "m49_iso2": "AM",
+    "library_code": "AM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AU",
+   "un_name": "Australia",
+   "admitted": "01-11-1945",
+   "m49_name": "Australia",
+   "m49": "036",
+   "iso3": "AUS",
+   "region": "Oceania",
+   "sub_region": "Australia and New Zealand",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AU",
+    "m49_iso2": "AU",
+    "library_code": "AU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AT",
+   "un_name": "Austria",
+   "admitted": "14-12-1955",
+   "m49_name": "Austria",
+   "m49": "040",
+   "iso3": "AUT",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AT",
+    "m49_iso2": "AT",
+    "library_code": "AT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AZ",
+   "un_name": "Azerbaijan",
+   "admitted": "02-03-1992",
+   "m49_name": "Azerbaijan",
+   "m49": "031",
+   "iso3": "AZE",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AZ",
+    "m49_iso2": "AZ",
+    "library_code": "AZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BS",
+   "un_name": "Bahamas (The)",
+   "admitted": "18-09-1973",
+   "m49_name": "Bahamas",
+   "m49": "044",
+   "iso3": "BHS",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "BS",
+    "m49_iso2": "BS",
+    "library_code": "BS",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BH",
+   "un_name": "Bahrain",
+   "admitted": "21-09-1971",
+   "m49_name": "Bahrain",
+   "m49": "048",
+   "iso3": "BHR",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BH",
+    "m49_iso2": "BH",
+    "library_code": "BH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BD",
+   "un_name": "Bangladesh",
+   "admitted": "17-09-1974",
+   "m49_name": "Bangladesh",
+   "m49": "050",
+   "iso3": "BGD",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BD",
+    "m49_iso2": "BD",
+    "library_code": "BD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BB",
+   "un_name": "Barbados",
+   "admitted": "09-12-1966",
+   "m49_name": "Barbados",
+   "m49": "052",
+   "iso3": "BRB",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "BB",
+    "m49_iso2": "BB",
+    "library_code": "BB",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BY",
+   "un_name": "Belarus",
+   "admitted": "24-10-1945",
+   "m49_name": "Belarus",
+   "m49": "112",
+   "iso3": "BLR",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BY",
+    "m49_iso2": "BY",
+    "library_code": "BY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BE",
+   "un_name": "Belgium",
+   "admitted": "27-12-1945",
+   "m49_name": "Belgium",
+   "m49": "056",
+   "iso3": "BEL",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BE",
+    "m49_iso2": "BE",
+    "library_code": "BE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BZ",
+   "un_name": "Belize",
+   "admitted": "25-09-1981",
+   "m49_name": "Belize",
+   "m49": "084",
+   "iso3": "BLZ",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "BZ",
+    "m49_iso2": "BZ",
+    "library_code": "BZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BJ",
+   "un_name": "Benin",
+   "admitted": "20-09-1960",
+   "m49_name": "Benin",
+   "m49": "204",
+   "iso3": "BEN",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BJ",
+    "m49_iso2": "BJ",
+    "library_code": "BJ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BT",
+   "un_name": "Bhutan",
+   "admitted": "21-09-1971",
+   "m49_name": "Bhutan",
+   "m49": "064",
+   "iso3": "BTN",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BT",
+    "m49_iso2": "BT",
+    "library_code": "BT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BO",
+   "un_name": "Bolivia (Plurinational State of)",
+   "admitted": "14-11-1945",
+   "m49_name": "Bolivia (Plurinational State of)",
+   "m49": "068",
+   "iso3": "BOL",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BO",
+    "m49_iso2": "BO",
+    "library_code": "BO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BA",
+   "un_name": "Bosnia and Herzegovina",
+   "admitted": "22-05-1992",
+   "m49_name": "Bosnia and Herzegovina",
+   "m49": "070",
+   "iso3": "BIH",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BA",
+    "m49_iso2": "BA",
+    "library_code": "BA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BW",
+   "un_name": "Botswana",
+   "admitted": "17-10-1966",
+   "m49_name": "Botswana",
+   "m49": "072",
+   "iso3": "BWA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Southern Africa",
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BW",
+    "m49_iso2": "BW",
+    "library_code": "BW",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BR",
+   "un_name": "Brazil",
+   "admitted": "24-10-1945",
+   "m49_name": "Brazil",
+   "m49": "076",
+   "iso3": "BRA",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BR",
+    "m49_iso2": "BR",
+    "library_code": "BR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BN",
+   "un_name": "Brunei Darussalam",
+   "admitted": "21-09-1984",
+   "m49_name": "Brunei Darussalam",
+   "m49": "096",
+   "iso3": "BRN",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BN",
+    "m49_iso2": "BN",
+    "library_code": "BN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BG",
+   "un_name": "Bulgaria",
+   "admitted": "14-12-1955",
+   "m49_name": "Bulgaria",
+   "m49": "100",
+   "iso3": "BGR",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BG",
+    "m49_iso2": "BG",
+    "library_code": "BG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BF",
+   "un_name": "Burkina Faso",
+   "admitted": "20-09-1960",
+   "m49_name": "Burkina Faso",
+   "m49": "854",
+   "iso3": "BFA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BF",
+    "m49_iso2": "BF",
+    "library_code": "BF",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "BI",
+   "un_name": "Burundi",
+   "admitted": "18-09-1962",
+   "m49_name": "Burundi",
+   "m49": "108",
+   "iso3": "BDI",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "BI",
+    "m49_iso2": "BI",
+    "library_code": "BI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CV",
+   "un_name": "Cabo Verde",
+   "admitted": "16-09-1975",
+   "m49_name": "Cabo Verde",
+   "m49": "132",
+   "iso3": "CPV",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "CV",
+    "m49_iso2": "CV",
+    "library_code": "CV",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KH",
+   "un_name": "Cambodia",
+   "admitted": "14-12-1955",
+   "m49_name": "Cambodia",
+   "m49": "116",
+   "iso3": "KHM",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KH",
+    "m49_iso2": "KH",
+    "library_code": "KH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CM",
+   "un_name": "Cameroon",
+   "admitted": "20-09-1960",
+   "m49_name": "Cameroon",
+   "m49": "120",
+   "iso3": "CMR",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CM",
+    "m49_iso2": "CM",
+    "library_code": "CM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CA",
+   "un_name": "Canada",
+   "admitted": "09-11-1945",
+   "m49_name": "Canada",
+   "m49": "124",
+   "iso3": "CAN",
+   "region": "Americas",
+   "sub_region": "Northern America",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CA",
+    "m49_iso2": "CA",
+    "library_code": "CA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CF",
+   "un_name": "Central African Republic",
+   "admitted": "20-09-1960",
+   "m49_name": "Central African Republic",
+   "m49": "140",
+   "iso3": "CAF",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CF",
+    "m49_iso2": "CF",
+    "library_code": "CF",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TD",
+   "un_name": "Chad",
+   "admitted": "20-09-1960",
+   "m49_name": "Chad",
+   "m49": "148",
+   "iso3": "TCD",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TD",
+    "m49_iso2": "TD",
+    "library_code": "TD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CL",
+   "un_name": "Chile",
+   "admitted": "24-10-1945",
+   "m49_name": "Chile",
+   "m49": "152",
+   "iso3": "CHL",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CL",
+    "m49_iso2": "CL",
+    "library_code": "CL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CN",
+   "un_name": "China (the People's Republic of)",
+   "admitted": "24-10-1945",
+   "m49_name": "China",
+   "m49": "156",
+   "iso3": "CHN",
+   "region": "Asia",
+   "sub_region": "Eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CN",
+    "m49_iso2": "CN",
+    "library_code": "CN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CO",
+   "un_name": "Colombia",
+   "admitted": "05-11-1945",
+   "m49_name": "Colombia",
+   "m49": "170",
+   "iso3": "COL",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CO",
+    "m49_iso2": "CO",
+    "library_code": "CO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KM",
+   "un_name": "Comoros",
+   "admitted": "12-11-1975",
+   "m49_name": "Comoros",
+   "m49": "174",
+   "iso3": "COM",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "KM",
+    "m49_iso2": "KM",
+    "library_code": "KM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CG",
+   "un_name": "Congo",
+   "admitted": "20-09-1960",
+   "m49_name": "Congo",
+   "m49": "178",
+   "iso3": "COG",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CG",
+    "m49_iso2": "CG",
+    "library_code": "CG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CR",
+   "un_name": "Costa Rica",
+   "admitted": "02-11-1945",
+   "m49_name": "Costa Rica",
+   "m49": "188",
+   "iso3": "CRI",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CR",
+    "m49_iso2": "CR",
+    "library_code": "CR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "HR",
+   "un_name": "Croatia",
+   "admitted": "22-05-1992",
+   "m49_name": "Croatia",
+   "m49": "191",
+   "iso3": "HRV",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "HR",
+    "m49_iso2": "HR",
+    "library_code": "HR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CU",
+   "un_name": "Cuba",
+   "admitted": "24-10-1945",
+   "m49_name": "Cuba",
+   "m49": "192",
+   "iso3": "CUB",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "CU",
+    "m49_iso2": "CU",
+    "library_code": "CU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CY",
+   "un_name": "Cyprus",
+   "admitted": "20-09-1960",
+   "m49_name": "Cyprus",
+   "m49": "196",
+   "iso3": "CYP",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CY",
+    "m49_iso2": "CY",
+    "library_code": "CY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CZ",
+   "un_name": "Czechia",
+   "admitted": "19-01-1993",
+   "m49_name": "Czechia",
+   "m49": "203",
+   "iso3": "CZE",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CZ",
+    "m49_iso2": "CZ",
+    "library_code": "CZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CI",
+   "un_name": "Côte D'Ivoire",
+   "admitted": "20-09-1960",
+   "m49_name": "Côte d’Ivoire",
+   "m49": "384",
+   "iso3": "CIV",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CI",
+    "m49_iso2": "CI",
+    "library_code": "CI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KP",
+   "un_name": "Democratic People's Republic of Korea",
+   "admitted": "17-09-1991",
+   "m49_name": "Democratic People's Republic of Korea",
+   "m49": "408",
+   "iso3": "PRK",
+   "region": "Asia",
+   "sub_region": "Eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KP",
+    "m49_iso2": "KP",
+    "library_code": "KP",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CD",
+   "un_name": "Democratic Republic of the Congo",
+   "admitted": "20-09-1960",
+   "m49_name": "Democratic Republic of the Congo",
+   "m49": "180",
+   "iso3": "COD",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CD",
+    "m49_iso2": "CD",
+    "library_code": "CD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "DK",
+   "un_name": "Denmark",
+   "admitted": "24-10-1945",
+   "m49_name": "Denmark",
+   "m49": "208",
+   "iso3": "DNK",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "DK",
+    "m49_iso2": "DK",
+    "library_code": "DK",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "DJ",
+   "un_name": "Djibouti",
+   "admitted": "20-09-1977",
+   "m49_name": "Djibouti",
+   "m49": "262",
+   "iso3": "DJI",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "DJ",
+    "m49_iso2": "DJ",
+    "library_code": "DJ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "DM",
+   "un_name": "Dominica",
+   "admitted": "18-12-1978",
+   "m49_name": "Dominica",
+   "m49": "212",
+   "iso3": "DMA",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "DM",
+    "m49_iso2": "DM",
+    "library_code": "DM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "DO",
+   "un_name": "Dominican Republic",
+   "admitted": "24-10-1945",
+   "m49_name": "Dominican Republic",
+   "m49": "214",
+   "iso3": "DOM",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "DO",
+    "m49_iso2": "DO",
+    "library_code": "DO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "EC",
+   "un_name": "Ecuador",
+   "admitted": "21-12-1945",
+   "m49_name": "Ecuador",
+   "m49": "218",
+   "iso3": "ECU",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "EC",
+    "m49_iso2": "EC",
+    "library_code": "EC",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "EG",
+   "un_name": "Egypt",
+   "admitted": "24-10-1945",
+   "m49_name": "Egypt",
+   "m49": "818",
+   "iso3": "EGY",
+   "region": "Africa",
+   "sub_region": "Northern Africa",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "EG",
+    "m49_iso2": "EG",
+    "library_code": "EG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SV",
+   "un_name": "El Salvador",
+   "admitted": "24-10-1945",
+   "m49_name": "El Salvador",
+   "m49": "222",
+   "iso3": "SLV",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SV",
+    "m49_iso2": "SV",
+    "library_code": "SV",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GQ",
+   "un_name": "Equatorial Guinea",
+   "admitted": "12-11-1968",
+   "m49_name": "Equatorial Guinea",
+   "m49": "226",
+   "iso3": "GNQ",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GQ",
+    "m49_iso2": "GQ",
+    "library_code": "GQ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ER",
+   "un_name": "Eritrea",
+   "admitted": "28-05-1993",
+   "m49_name": "Eritrea",
+   "m49": "232",
+   "iso3": "ERI",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ER",
+    "m49_iso2": "ER",
+    "library_code": "ER",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "EE",
+   "un_name": "Estonia",
+   "admitted": "17-09-1991",
+   "m49_name": "Estonia",
+   "m49": "233",
+   "iso3": "EST",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "EE",
+    "m49_iso2": "EE",
+    "library_code": "EE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SZ",
+   "un_name": "Eswatini",
+   "admitted": "24-09-1968",
+   "m49_name": "Eswatini",
+   "m49": "748",
+   "iso3": "SWZ",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Southern Africa",
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SZ",
+    "m49_iso2": "SZ",
+    "library_code": "SZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ET",
+   "un_name": "Ethiopia",
+   "admitted": "13-11-1945",
+   "m49_name": "Ethiopia",
+   "m49": "231",
+   "iso3": "ETH",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ET",
+    "m49_iso2": "ET",
+    "library_code": "ET",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "FJ",
+   "un_name": "Fiji",
+   "admitted": "13-10-1970",
+   "m49_name": "Fiji",
+   "m49": "242",
+   "iso3": "FJI",
+   "region": "Oceania",
+   "sub_region": "Melanesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "FJ",
+    "m49_iso2": "FJ",
+    "library_code": "FJ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "FI",
+   "un_name": "Finland",
+   "admitted": "14-12-1955",
+   "m49_name": "Finland",
+   "m49": "246",
+   "iso3": "FIN",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "FI",
+    "m49_iso2": "FI",
+    "library_code": "FI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "FR",
+   "un_name": "France",
+   "admitted": "24-10-1945",
+   "m49_name": "France",
+   "m49": "250",
+   "iso3": "FRA",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "FR",
+    "m49_iso2": "FR",
+    "library_code": "FR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GA",
+   "un_name": "Gabon",
+   "admitted": "20-09-1960",
+   "m49_name": "Gabon",
+   "m49": "266",
+   "iso3": "GAB",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GA",
+    "m49_iso2": "GA",
+    "library_code": "GA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GM",
+   "un_name": "Gambia (Republic of The)",
+   "admitted": "21-09-1965",
+   "m49_name": "Gambia",
+   "m49": "270",
+   "iso3": "GMB",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GM",
+    "m49_iso2": "GM",
+    "library_code": "GM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GE",
+   "un_name": "Georgia",
+   "admitted": "31-07-1992",
+   "m49_name": "Georgia",
+   "m49": "268",
+   "iso3": "GEO",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GE",
+    "m49_iso2": "GE",
+    "library_code": "GE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "DE",
+   "un_name": "Germany",
+   "admitted": "18-09-1973",
+   "m49_name": "Germany",
+   "m49": "276",
+   "iso3": "DEU",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "DE",
+    "m49_iso2": "DE",
+    "library_code": "DE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GH",
+   "un_name": "Ghana",
+   "admitted": "08-03-1957",
+   "m49_name": "Ghana",
+   "m49": "288",
+   "iso3": "GHA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GH",
+    "m49_iso2": "GH",
+    "library_code": "GH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GR",
+   "un_name": "Greece",
+   "admitted": "25-10-1945",
+   "m49_name": "Greece",
+   "m49": "300",
+   "iso3": "GRC",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GR",
+    "m49_iso2": "GR",
+    "library_code": "GR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GD",
+   "un_name": "Grenada",
+   "admitted": "17-09-1974",
+   "m49_name": "Grenada",
+   "m49": "308",
+   "iso3": "GRD",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "GD",
+    "m49_iso2": "GD",
+    "library_code": "GD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GT",
+   "un_name": "Guatemala",
+   "admitted": "21-11-1945",
+   "m49_name": "Guatemala",
+   "m49": "320",
+   "iso3": "GTM",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GT",
+    "m49_iso2": "GT",
+    "library_code": "GT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GN",
+   "un_name": "Guinea",
+   "admitted": "12-12-1958",
+   "m49_name": "Guinea",
+   "m49": "324",
+   "iso3": "GIN",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GN",
+    "m49_iso2": "GN",
+    "library_code": "GN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GW",
+   "un_name": "Guinea Bissau",
+   "admitted": "17-09-1974",
+   "m49_name": "Guinea-Bissau",
+   "m49": "624",
+   "iso3": "GNB",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "GW",
+    "m49_iso2": "GW",
+    "library_code": "GW",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GY",
+   "un_name": "Guyana",
+   "admitted": "20-09-1966",
+   "m49_name": "Guyana",
+   "m49": "328",
+   "iso3": "GUY",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "GY",
+    "m49_iso2": "GY",
+    "library_code": "GY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "HT",
+   "un_name": "Haiti",
+   "admitted": "24-10-1945",
+   "m49_name": "Haiti",
+   "m49": "332",
+   "iso3": "HTI",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "HT",
+    "m49_iso2": "HT",
+    "library_code": "HT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "HN",
+   "un_name": "Honduras",
+   "admitted": "17-12-1945",
+   "m49_name": "Honduras",
+   "m49": "340",
+   "iso3": "HND",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "HN",
+    "m49_iso2": "HN",
+    "library_code": "HN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "HU",
+   "un_name": "Hungary",
+   "admitted": "14-12-1955",
+   "m49_name": "Hungary",
+   "m49": "348",
+   "iso3": "HUN",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "HU",
+    "m49_iso2": "HU",
+    "library_code": "HU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IS",
+   "un_name": "Iceland",
+   "admitted": "19-11-1946",
+   "m49_name": "Iceland",
+   "m49": "352",
+   "iso3": "ISL",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IS",
+    "m49_iso2": "IS",
+    "library_code": "IS",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IN",
+   "un_name": "India",
+   "admitted": "30-10-1945",
+   "m49_name": "India",
+   "m49": "356",
+   "iso3": "IND",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IN",
+    "m49_iso2": "IN",
+    "library_code": "IN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ID",
+   "un_name": "Indonesia",
+   "admitted": "28-09-1950",
+   "m49_name": "Indonesia",
+   "m49": "360",
+   "iso3": "IDN",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ID",
+    "m49_iso2": "ID",
+    "library_code": "ID",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IR",
+   "un_name": "Iran (Islamic Republic of)",
+   "admitted": "24-10-1945",
+   "m49_name": "Iran (Islamic Republic of)",
+   "m49": "364",
+   "iso3": "IRN",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IR",
+    "m49_iso2": "IR",
+    "library_code": "IR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IQ",
+   "un_name": "Iraq",
+   "admitted": "21-12-1945",
+   "m49_name": "Iraq",
+   "m49": "368",
+   "iso3": "IRQ",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IQ",
+    "m49_iso2": "IQ",
+    "library_code": "IQ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IE",
+   "un_name": "Ireland",
+   "admitted": "14-12-1955",
+   "m49_name": "Ireland",
+   "m49": "372",
+   "iso3": "IRL",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IE",
+    "m49_iso2": "IE",
+    "library_code": "IE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IL",
+   "un_name": "Israel",
+   "admitted": "11-05-1949",
+   "m49_name": "Israel",
+   "m49": "376",
+   "iso3": "ISR",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IL",
+    "m49_iso2": "IL",
+    "library_code": "IL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "IT",
+   "un_name": "Italy",
+   "admitted": "14-12-1955",
+   "m49_name": "Italy",
+   "m49": "380",
+   "iso3": "ITA",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "IT",
+    "m49_iso2": "IT",
+    "library_code": "IT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "JM",
+   "un_name": "Jamaica",
+   "admitted": "18-09-1962",
+   "m49_name": "Jamaica",
+   "m49": "388",
+   "iso3": "JAM",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "JM",
+    "m49_iso2": "JM",
+    "library_code": "JM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "JP",
+   "un_name": "Japan",
+   "admitted": "18-12-1956",
+   "m49_name": "Japan",
+   "m49": "392",
+   "iso3": "JPN",
+   "region": "Asia",
+   "sub_region": "Eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "JP",
+    "m49_iso2": "JP",
+    "library_code": "JP",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "JO",
+   "un_name": "Jordan",
+   "admitted": "14-12-1955",
+   "m49_name": "Jordan",
+   "m49": "400",
+   "iso3": "JOR",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "JO",
+    "m49_iso2": "JO",
+    "library_code": "JO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KZ",
+   "un_name": "Kazakhstan",
+   "admitted": "02-03-1992",
+   "m49_name": "Kazakhstan",
+   "m49": "398",
+   "iso3": "KAZ",
+   "region": "Asia",
+   "sub_region": "Central Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KZ",
+    "m49_iso2": "KZ",
+    "library_code": "KZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KE",
+   "un_name": "Kenya",
+   "admitted": "16-12-1963",
+   "m49_name": "Kenya",
+   "m49": "404",
+   "iso3": "KEN",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KE",
+    "m49_iso2": "KE",
+    "library_code": "KE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KI",
+   "un_name": "Kiribati",
+   "admitted": "14-09-1999",
+   "m49_name": "Kiribati",
+   "m49": "296",
+   "iso3": "KIR",
+   "region": "Oceania",
+   "sub_region": "Micronesia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "KI",
+    "m49_iso2": "KI",
+    "library_code": "KI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KW",
+   "un_name": "Kuwait",
+   "admitted": "14-05-1963",
+   "m49_name": "Kuwait",
+   "m49": "414",
+   "iso3": "KWT",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KW",
+    "m49_iso2": "KW",
+    "library_code": "KW",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KG",
+   "un_name": "Kyrgyzstan",
+   "admitted": "02-03-1992",
+   "m49_name": "Kyrgyzstan",
+   "m49": "417",
+   "iso3": "KGZ",
+   "region": "Asia",
+   "sub_region": "Central Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KG",
+    "m49_iso2": "KG",
+    "library_code": "KG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LA",
+   "un_name": "Lao People’s Democratic Republic",
+   "admitted": "14-12-1955",
+   "m49_name": "Lao People's Democratic Republic",
+   "m49": "418",
+   "iso3": "LAO",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LA",
+    "m49_iso2": "LA",
+    "library_code": "LA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LV",
+   "un_name": "Latvia",
+   "admitted": "17-09-1991",
+   "m49_name": "Latvia",
+   "m49": "428",
+   "iso3": "LVA",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LV",
+    "m49_iso2": "LV",
+    "library_code": "LV",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LB",
+   "un_name": "Lebanon",
+   "admitted": "24-10-1945",
+   "m49_name": "Lebanon",
+   "m49": "422",
+   "iso3": "LBN",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LB",
+    "m49_iso2": "LB",
+    "library_code": "LB",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LS",
+   "un_name": "Lesotho",
+   "admitted": "17-10-1966",
+   "m49_name": "Lesotho",
+   "m49": "426",
+   "iso3": "LSO",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Southern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LS",
+    "m49_iso2": "LS",
+    "library_code": "LS",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LR",
+   "un_name": "Liberia",
+   "admitted": "02-11-1945",
+   "m49_name": "Liberia",
+   "m49": "430",
+   "iso3": "LBR",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LR",
+    "m49_iso2": "LR",
+    "library_code": "LR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LY",
+   "un_name": "Libya",
+   "admitted": "14-12-1955",
+   "m49_name": "Libya",
+   "m49": "434",
+   "iso3": "LBY",
+   "region": "Africa",
+   "sub_region": "Northern Africa",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LY",
+    "m49_iso2": "LY",
+    "library_code": "LY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LI",
+   "un_name": "Liechtenstein",
+   "admitted": "18-09-1990",
+   "m49_name": "Liechtenstein",
+   "m49": "438",
+   "iso3": "LIE",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LI",
+    "m49_iso2": "LI",
+    "library_code": "LI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LT",
+   "un_name": "Lithuania",
+   "admitted": "17-09-1991",
+   "m49_name": "Lithuania",
+   "m49": "440",
+   "iso3": "LTU",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LT",
+    "m49_iso2": "LT",
+    "library_code": "LT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LU",
+   "un_name": "Luxembourg",
+   "admitted": "24-10-1945",
+   "m49_name": "Luxembourg",
+   "m49": "442",
+   "iso3": "LUX",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LU",
+    "m49_iso2": "LU",
+    "library_code": "LU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MG",
+   "un_name": "Madagascar",
+   "admitted": "20-09-1960",
+   "m49_name": "Madagascar",
+   "m49": "450",
+   "iso3": "MDG",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MG",
+    "m49_iso2": "MG",
+    "library_code": "MG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MW",
+   "un_name": "Malawi",
+   "admitted": "01-12-1964",
+   "m49_name": "Malawi",
+   "m49": "454",
+   "iso3": "MWI",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MW",
+    "m49_iso2": "MW",
+    "library_code": "MW",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MY",
+   "un_name": "Malaysia",
+   "admitted": "17-09-1957",
+   "m49_name": "Malaysia",
+   "m49": "458",
+   "iso3": "MYS",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MY",
+    "m49_iso2": "MY",
+    "library_code": "MY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MV",
+   "un_name": "Maldives",
+   "admitted": "21-09-1965",
+   "m49_name": "Maldives",
+   "m49": "462",
+   "iso3": "MDV",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "MV",
+    "m49_iso2": "MV",
+    "library_code": "MV",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ML",
+   "un_name": "Mali",
+   "admitted": "28-09-1960",
+   "m49_name": "Mali",
+   "m49": "466",
+   "iso3": "MLI",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ML",
+    "m49_iso2": "ML",
+    "library_code": "ML",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MT",
+   "un_name": "Malta",
+   "admitted": "01-12-1964",
+   "m49_name": "Malta",
+   "m49": "470",
+   "iso3": "MLT",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MT",
+    "m49_iso2": "MT",
+    "library_code": "MT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MH",
+   "un_name": "Marshall Islands",
+   "admitted": "17-09-1991",
+   "m49_name": "Marshall Islands",
+   "m49": "584",
+   "iso3": "MHL",
+   "region": "Oceania",
+   "sub_region": "Micronesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "MH",
+    "m49_iso2": "MH",
+    "library_code": "MH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MR",
+   "un_name": "Mauritania",
+   "admitted": "27-10-1961",
+   "m49_name": "Mauritania",
+   "m49": "478",
+   "iso3": "MRT",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MR",
+    "m49_iso2": "MR",
+    "library_code": "MR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MU",
+   "un_name": "Mauritius",
+   "admitted": "24-04-1968",
+   "m49_name": "Mauritius",
+   "m49": "480",
+   "iso3": "MUS",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "MU",
+    "m49_iso2": "MU",
+    "library_code": "MU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MX",
+   "un_name": "Mexico",
+   "admitted": "07-11-1945",
+   "m49_name": "Mexico",
+   "m49": "484",
+   "iso3": "MEX",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MX",
+    "m49_iso2": "MX",
+    "library_code": "MX",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "FM",
+   "un_name": "Micronesia (Federated States of)",
+   "admitted": "17-09-1991",
+   "m49_name": "Micronesia (Federated States of)",
+   "m49": "583",
+   "iso3": "FSM",
+   "region": "Oceania",
+   "sub_region": "Micronesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "FM",
+    "m49_iso2": "FM",
+    "library_code": "FM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MC",
+   "un_name": "Monaco",
+   "admitted": "28-05-1993",
+   "m49_name": "Monaco",
+   "m49": "492",
+   "iso3": "MCO",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MC",
+    "m49_iso2": "MC",
+    "library_code": "MC",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MN",
+   "un_name": "Mongolia",
+   "admitted": "27-10-1961",
+   "m49_name": "Mongolia",
+   "m49": "496",
+   "iso3": "MNG",
+   "region": "Asia",
+   "sub_region": "Eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MN",
+    "m49_iso2": "MN",
+    "library_code": "MN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ME",
+   "un_name": "Montenegro",
+   "admitted": "28-06-2006",
+   "m49_name": "Montenegro",
+   "m49": "499",
+   "iso3": "MNE",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ME",
+    "m49_iso2": "ME",
+    "library_code": "ME",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MA",
+   "un_name": "Morocco",
+   "admitted": "12-11-1956",
+   "m49_name": "Morocco",
+   "m49": "504",
+   "iso3": "MAR",
+   "region": "Africa",
+   "sub_region": "Northern Africa",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MA",
+    "m49_iso2": "MA",
+    "library_code": "MA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MZ",
+   "un_name": "Mozambique",
+   "admitted": "16-09-1975",
+   "m49_name": "Mozambique",
+   "m49": "508",
+   "iso3": "MOZ",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MZ",
+    "m49_iso2": "MZ",
+    "library_code": "MZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MM",
+   "un_name": "Myanmar",
+   "admitted": "19-04-1948",
+   "m49_name": "Myanmar",
+   "m49": "104",
+   "iso3": "MMR",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MM",
+    "m49_iso2": "MM",
+    "library_code": "MM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NA",
+   "un_name": "Namibia",
+   "admitted": "23-04-1990",
+   "m49_name": "Namibia",
+   "m49": "516",
+   "iso3": "NAM",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Southern Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NA",
+    "m49_iso2": "NA",
+    "library_code": "NA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NR",
+   "un_name": "Naoero",
+   "admitted": "14-09-1999",
+   "m49_name": "Naoero",
+   "m49": "520",
+   "iso3": "NRU",
+   "region": "Oceania",
+   "sub_region": "Micronesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "NR",
+    "m49_iso2": "NR",
+    "library_code": "NR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NP",
+   "un_name": "Nepal",
+   "admitted": "14-12-1955",
+   "m49_name": "Nepal",
+   "m49": "524",
+   "iso3": "NPL",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NP",
+    "m49_iso2": "NP",
+    "library_code": "NP",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NL",
+   "un_name": "Netherlands (Kingdom of the)",
+   "admitted": "10-12-1945",
+   "m49_name": "Netherlands (Kingdom of the)",
+   "m49": "528",
+   "iso3": "NLD",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NL",
+    "m49_iso2": "NL",
+    "library_code": "NL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NZ",
+   "un_name": "New Zealand",
+   "admitted": "24-10-1945",
+   "m49_name": "New Zealand",
+   "m49": "554",
+   "iso3": "NZL",
+   "region": "Oceania",
+   "sub_region": "Australia and New Zealand",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NZ",
+    "m49_iso2": "NZ",
+    "library_code": "NZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NI",
+   "un_name": "Nicaragua",
+   "admitted": "24-10-1945",
+   "m49_name": "Nicaragua",
+   "m49": "558",
+   "iso3": "NIC",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NI",
+    "m49_iso2": "NI",
+    "library_code": "NI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NE",
+   "un_name": "Niger",
+   "admitted": "20-09-1960",
+   "m49_name": "Niger",
+   "m49": "562",
+   "iso3": "NER",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NE",
+    "m49_iso2": "NE",
+    "library_code": "NE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NG",
+   "un_name": "Nigeria",
+   "admitted": "07-10-1960",
+   "m49_name": "Nigeria",
+   "m49": "566",
+   "iso3": "NGA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NG",
+    "m49_iso2": "NG",
+    "library_code": "NG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MK",
+   "un_name": "North Macedonia",
+   "admitted": "08-04-1993",
+   "m49_name": "North Macedonia",
+   "m49": "807",
+   "iso3": "MKD",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MK",
+    "m49_iso2": "MK",
+    "library_code": "MK",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "NO",
+   "un_name": "Norway",
+   "admitted": "27-11-1945",
+   "m49_name": "Norway",
+   "m49": "578",
+   "iso3": "NOR",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "NO",
+    "m49_iso2": "NO",
+    "library_code": "NO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "OM",
+   "un_name": "Oman",
+   "admitted": "07-10-1971",
+   "m49_name": "Oman",
+   "m49": "512",
+   "iso3": "OMN",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "OM",
+    "m49_iso2": "OM",
+    "library_code": "OM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PK",
+   "un_name": "Pakistan",
+   "admitted": "30-09-1947",
+   "m49_name": "Pakistan",
+   "m49": "586",
+   "iso3": "PAK",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PK",
+    "m49_iso2": "PK",
+    "library_code": "PK",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PW",
+   "un_name": "Palau",
+   "admitted": "15-12-1994",
+   "m49_name": "Palau",
+   "m49": "585",
+   "iso3": "PLW",
+   "region": "Oceania",
+   "sub_region": "Micronesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "PW",
+    "m49_iso2": "PW",
+    "library_code": "PW",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PA",
+   "un_name": "Panama",
+   "admitted": "13-11-1945",
+   "m49_name": "Panama",
+   "m49": "591",
+   "iso3": "PAN",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Central America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PA",
+    "m49_iso2": "PA",
+    "library_code": "PA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PG",
+   "un_name": "Papua New Guinea",
+   "admitted": "10-10-1975",
+   "m49_name": "Papua New Guinea",
+   "m49": "598",
+   "iso3": "PNG",
+   "region": "Oceania",
+   "sub_region": "Melanesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "PG",
+    "m49_iso2": "PG",
+    "library_code": "PG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PY",
+   "un_name": "Paraguay",
+   "admitted": "24-10-1945",
+   "m49_name": "Paraguay",
+   "m49": "600",
+   "iso3": "PRY",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PY",
+    "m49_iso2": "PY",
+    "library_code": "PY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PE",
+   "un_name": "Peru",
+   "admitted": "31-10-1945",
+   "m49_name": "Peru",
+   "m49": "604",
+   "iso3": "PER",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PE",
+    "m49_iso2": "PE",
+    "library_code": "PE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PH",
+   "un_name": "Philippines",
+   "admitted": "24-10-1945",
+   "m49_name": "Philippines",
+   "m49": "608",
+   "iso3": "PHL",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PH",
+    "m49_iso2": "PH",
+    "library_code": "PH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PL",
+   "un_name": "Poland",
+   "admitted": "24-10-1945",
+   "m49_name": "Poland",
+   "m49": "616",
+   "iso3": "POL",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PL",
+    "m49_iso2": "PL",
+    "library_code": "PL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "PT",
+   "un_name": "Portugal",
+   "admitted": "14-12-1955",
+   "m49_name": "Portugal",
+   "m49": "620",
+   "iso3": "PRT",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "PT",
+    "m49_iso2": "PT",
+    "library_code": "PT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "QA",
+   "un_name": "Qatar",
+   "admitted": "21-09-1971",
+   "m49_name": "Qatar",
+   "m49": "634",
+   "iso3": "QAT",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "QA",
+    "m49_iso2": "QA",
+    "library_code": "QA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KR",
+   "un_name": "Republic of Korea",
+   "admitted": "17-09-1991",
+   "m49_name": "Republic of Korea",
+   "m49": "410",
+   "iso3": "KOR",
+   "region": "Asia",
+   "sub_region": "Eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "KR",
+    "m49_iso2": "KR",
+    "library_code": "KR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "MD",
+   "un_name": "Republic of Moldova",
+   "admitted": "02-03-1992",
+   "m49_name": "Republic of Moldova",
+   "m49": "498",
+   "iso3": "MDA",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "MD",
+    "m49_iso2": "MD",
+    "library_code": "MD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "RO",
+   "un_name": "Romania",
+   "admitted": "14-12-1955",
+   "m49_name": "Romania",
+   "m49": "642",
+   "iso3": "ROU",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "RO",
+    "m49_iso2": "RO",
+    "library_code": "RO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "RU",
+   "un_name": "Russian Federation",
+   "admitted": "24-10-1945",
+   "m49_name": "Russian Federation",
+   "m49": "643",
+   "iso3": "RUS",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "RU",
+    "m49_iso2": "RU",
+    "library_code": "RU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "RW",
+   "un_name": "Rwanda",
+   "admitted": "18-09-1962",
+   "m49_name": "Rwanda",
+   "m49": "646",
+   "iso3": "RWA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "RW",
+    "m49_iso2": "RW",
+    "library_code": "RW",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "KN",
+   "un_name": "Saint Kitts and Nevis",
+   "admitted": "23-09-1983",
+   "m49_name": "Saint Kitts and Nevis",
+   "m49": "659",
+   "iso3": "KNA",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "KN",
+    "m49_iso2": "KN",
+    "library_code": "KN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LC",
+   "un_name": "Saint Lucia",
+   "admitted": "18-09-1979",
+   "m49_name": "Saint Lucia",
+   "m49": "662",
+   "iso3": "LCA",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "LC",
+    "m49_iso2": "LC",
+    "library_code": "LC",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "VC",
+   "un_name": "Saint Vincent and the Grenadines",
+   "admitted": "16-09-1980",
+   "m49_name": "Saint Vincent and the Grenadines",
+   "m49": "670",
+   "iso3": "VCT",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "VC",
+    "m49_iso2": "VC",
+    "library_code": "VC",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "WS",
+   "un_name": "Samoa",
+   "admitted": "15-12-1976",
+   "m49_name": "Samoa",
+   "m49": "882",
+   "iso3": "WSM",
+   "region": "Oceania",
+   "sub_region": "Polynesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "WS",
+    "m49_iso2": "WS",
+    "library_code": "WS",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SM",
+   "un_name": "San Marino",
+   "admitted": "02-03-1992",
+   "m49_name": "San Marino",
+   "m49": "674",
+   "iso3": "SMR",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SM",
+    "m49_iso2": "SM",
+    "library_code": "SM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ST",
+   "un_name": "Sao Tome and Principe",
+   "admitted": "16-09-1975",
+   "m49_name": "Sao Tome and Principe",
+   "m49": "678",
+   "iso3": "STP",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Middle Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "ST",
+    "m49_iso2": "ST",
+    "library_code": "ST",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SA",
+   "un_name": "Saudi Arabia",
+   "admitted": "24-10-1945",
+   "m49_name": "Saudi Arabia",
+   "m49": "682",
+   "iso3": "SAU",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SA",
+    "m49_iso2": "SA",
+    "library_code": "SA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SN",
+   "un_name": "Senegal",
+   "admitted": "28-09-1960",
+   "m49_name": "Senegal",
+   "m49": "686",
+   "iso3": "SEN",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SN",
+    "m49_iso2": "SN",
+    "library_code": "SN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "RS",
+   "un_name": "Serbia",
+   "admitted": "01-11-2000",
+   "m49_name": "Serbia",
+   "m49": "688",
+   "iso3": "SRB",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "RS",
+    "m49_iso2": "RS",
+    "library_code": "RS",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SC",
+   "un_name": "Seychelles",
+   "admitted": "21-09-1976",
+   "m49_name": "Seychelles",
+   "m49": "690",
+   "iso3": "SYC",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "SC",
+    "m49_iso2": "SC",
+    "library_code": "SC",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SL",
+   "un_name": "Sierra Leone",
+   "admitted": "27-09-1961",
+   "m49_name": "Sierra Leone",
+   "m49": "694",
+   "iso3": "SLE",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SL",
+    "m49_iso2": "SL",
+    "library_code": "SL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SG",
+   "un_name": "Singapore",
+   "admitted": "21-09-1965",
+   "m49_name": "Singapore",
+   "m49": "702",
+   "iso3": "SGP",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "SG",
+    "m49_iso2": "SG",
+    "library_code": "SG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SK",
+   "un_name": "Slovakia",
+   "admitted": "19-01-1993",
+   "m49_name": "Slovakia",
+   "m49": "703",
+   "iso3": "SVK",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SK",
+    "m49_iso2": "SK",
+    "library_code": "SK",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SI",
+   "un_name": "Slovenia",
+   "admitted": "22-05-1992",
+   "m49_name": "Slovenia",
+   "m49": "705",
+   "iso3": "SVN",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SI",
+    "m49_iso2": "SI",
+    "library_code": "SI",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SB",
+   "un_name": "Solomon Islands",
+   "admitted": "19-09-1978",
+   "m49_name": "Solomon Islands",
+   "m49": "090",
+   "iso3": "SLB",
+   "region": "Oceania",
+   "sub_region": "Melanesia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "SB",
+    "m49_iso2": "SB",
+    "library_code": "SB",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SO",
+   "un_name": "Somalia",
+   "admitted": "20-09-1960",
+   "m49_name": "Somalia",
+   "m49": "706",
+   "iso3": "SOM",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SO",
+    "m49_iso2": "SO",
+    "library_code": "SO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ZA",
+   "un_name": "South Africa",
+   "admitted": "07-11-1945",
+   "m49_name": "South Africa",
+   "m49": "710",
+   "iso3": "ZAF",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Southern Africa",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ZA",
+    "m49_iso2": "ZA",
+    "library_code": "ZA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SS",
+   "un_name": "South Sudan",
+   "admitted": "14-07-2011",
+   "m49_name": "South Sudan",
+   "m49": "728",
+   "iso3": "SSD",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SS",
+    "m49_iso2": "SS",
+    "library_code": "SS",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ES",
+   "un_name": "Spain",
+   "admitted": "14-12-1955",
+   "m49_name": "Spain",
+   "m49": "724",
+   "iso3": "ESP",
+   "region": "Europe",
+   "sub_region": "Southern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ES",
+    "m49_iso2": "ES",
+    "library_code": "ES",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "LK",
+   "un_name": "Sri Lanka",
+   "admitted": "14-12-1955",
+   "m49_name": "Sri Lanka",
+   "m49": "144",
+   "iso3": "LKA",
+   "region": "Asia",
+   "sub_region": "Southern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "LK",
+    "m49_iso2": "LK",
+    "library_code": "LK",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SD",
+   "un_name": "Sudan",
+   "admitted": "12-11-1956",
+   "m49_name": "Sudan",
+   "m49": "729",
+   "iso3": "SDN",
+   "region": "Africa",
+   "sub_region": "Northern Africa",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SD",
+    "m49_iso2": "SD",
+    "library_code": "SD",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SR",
+   "un_name": "Suriname",
+   "admitted": "04-12-1975",
+   "m49_name": "Suriname",
+   "m49": "740",
+   "iso3": "SUR",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "SR",
+    "m49_iso2": "SR",
+    "library_code": "SR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SE",
+   "un_name": "Sweden",
+   "admitted": "19-11-1946",
+   "m49_name": "Sweden",
+   "m49": "752",
+   "iso3": "SWE",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SE",
+    "m49_iso2": "SE",
+    "library_code": "SE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "CH",
+   "un_name": "Switzerland",
+   "admitted": "10-09-2002",
+   "m49_name": "Switzerland",
+   "m49": "756",
+   "iso3": "CHE",
+   "region": "Europe",
+   "sub_region": "Western Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "CH",
+    "m49_iso2": "CH",
+    "library_code": "CH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "SY",
+   "un_name": "Syrian Arab Republic",
+   "admitted": "24-10-1945",
+   "m49_name": "Syrian Arab Republic",
+   "m49": "760",
+   "iso3": "SYR",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "SY",
+    "m49_iso2": "SY",
+    "library_code": "SY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TJ",
+   "un_name": "Tajikistan",
+   "admitted": "02-03-1992",
+   "m49_name": "Tajikistan",
+   "m49": "762",
+   "iso3": "TJK",
+   "region": "Asia",
+   "sub_region": "Central Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TJ",
+    "m49_iso2": "TJ",
+    "library_code": "TJ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TH",
+   "un_name": "Thailand",
+   "admitted": "15-12-1946",
+   "m49_name": "Thailand",
+   "m49": "764",
+   "iso3": "THA",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TH",
+    "m49_iso2": "TH",
+    "library_code": "TH",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TL",
+   "un_name": "Timor-Leste",
+   "admitted": "27-09-2002",
+   "m49_name": "Timor-Leste",
+   "m49": "626",
+   "iso3": "TLS",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "TL",
+    "m49_iso2": "TL",
+    "library_code": "TL",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TG",
+   "un_name": "Togo",
+   "admitted": "20-09-1960",
+   "m49_name": "Togo",
+   "m49": "768",
+   "iso3": "TGO",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Western Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TG",
+    "m49_iso2": "TG",
+    "library_code": "TG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TO",
+   "un_name": "Tonga",
+   "admitted": "14-09-1999",
+   "m49_name": "Tonga",
+   "m49": "776",
+   "iso3": "TON",
+   "region": "Oceania",
+   "sub_region": "Polynesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "TO",
+    "m49_iso2": "TO",
+    "library_code": "TO",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TT",
+   "un_name": "Trinidad and Tobago",
+   "admitted": "18-09-1962",
+   "m49_name": "Trinidad and Tobago",
+   "m49": "780",
+   "iso3": "TTO",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "Caribbean",
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "TT",
+    "m49_iso2": "TT",
+    "library_code": "TT",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TN",
+   "un_name": "Tunisia",
+   "admitted": "12-11-1956",
+   "m49_name": "Tunisia",
+   "m49": "788",
+   "iso3": "TUN",
+   "region": "Africa",
+   "sub_region": "Northern Africa",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TN",
+    "m49_iso2": "TN",
+    "library_code": "TN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TM",
+   "un_name": "Turkmenistan",
+   "admitted": "02-03-1992",
+   "m49_name": "Turkmenistan",
+   "m49": "795",
+   "iso3": "TKM",
+   "region": "Asia",
+   "sub_region": "Central Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TM",
+    "m49_iso2": "TM",
+    "library_code": "TM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TV",
+   "un_name": "Tuvalu",
+   "admitted": "05-09-2000",
+   "m49_name": "Tuvalu",
+   "m49": "798",
+   "iso3": "TUV",
+   "region": "Oceania",
+   "sub_region": "Polynesia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "TV",
+    "m49_iso2": "TV",
+    "library_code": "TV",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TR",
+   "un_name": "Türkiye",
+   "admitted": "24-10-1945",
+   "m49_name": "Türkiye",
+   "m49": "792",
+   "iso3": "TUR",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TR",
+    "m49_iso2": "TR",
+    "library_code": "TR",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "UG",
+   "un_name": "Uganda",
+   "admitted": "25-10-1962",
+   "m49_name": "Uganda",
+   "m49": "800",
+   "iso3": "UGA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "UG",
+    "m49_iso2": "UG",
+    "library_code": "UG",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "UA",
+   "un_name": "Ukraine",
+   "admitted": "24-10-1945",
+   "m49_name": "Ukraine",
+   "m49": "804",
+   "iso3": "UKR",
+   "region": "Europe",
+   "sub_region": "Eastern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "UA",
+    "m49_iso2": "UA",
+    "library_code": "UA",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "AE",
+   "un_name": "United Arab Emirates",
+   "admitted": "09-12-1971",
+   "m49_name": "United Arab Emirates",
+   "m49": "784",
+   "iso3": "ARE",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "AE",
+    "m49_iso2": "AE",
+    "library_code": "AE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "GB",
+   "un_name": "United Kingdom of Great Britain and Northern Ireland",
+   "admitted": "24-10-1945",
+   "m49_name": "United Kingdom of Great Britain and Northern Ireland",
+   "m49": "826",
+   "iso3": "GBR",
+   "region": "Europe",
+   "sub_region": "Northern Europe",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "GB",
+    "m49_iso2": "GB",
+    "library_code": "GB",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "TZ",
+   "un_name": "United Republic of Tanzania",
+   "admitted": "14-12-1961",
+   "m49_name": "United Republic of Tanzania",
+   "m49": "834",
+   "iso3": "TZA",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "TZ",
+    "m49_iso2": "TZ",
+    "library_code": "TZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "US",
+   "un_name": "United States of America",
+   "admitted": "24-10-1945",
+   "m49_name": "United States of America",
+   "m49": "840",
+   "iso3": "USA",
+   "region": "Americas",
+   "sub_region": "Northern America",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "US",
+    "m49_iso2": "US",
+    "library_code": "US",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "UY",
+   "un_name": "Uruguay",
+   "admitted": "18-12-1945",
+   "m49_name": "Uruguay",
+   "m49": "858",
+   "iso3": "URY",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "UY",
+    "m49_iso2": "UY",
+    "library_code": "UY",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "UZ",
+   "un_name": "Uzbekistan",
+   "admitted": "02-03-1992",
+   "m49_name": "Uzbekistan",
+   "m49": "860",
+   "iso3": "UZB",
+   "region": "Asia",
+   "sub_region": "Central Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "UZ",
+    "m49_iso2": "UZ",
+    "library_code": "UZ",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "VU",
+   "un_name": "Vanuatu",
+   "admitted": "15-09-1981",
+   "m49_name": "Vanuatu",
+   "m49": "548",
+   "iso3": "VUT",
+   "region": "Oceania",
+   "sub_region": "Melanesia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": true,
+   "verification": {
+    "un_flag_code": "VU",
+    "m49_iso2": "VU",
+    "library_code": "VU",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "VE",
+   "un_name": "Venezuela, Bolivarian Republic of",
+   "admitted": "15-11-1945",
+   "m49_name": "Venezuela (Bolivarian Republic of)",
+   "m49": "862",
+   "iso3": "VEN",
+   "region": "Americas",
+   "sub_region": "Latin America and the Caribbean",
+   "intermediate_region": "South America",
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "VE",
+    "m49_iso2": "VE",
+    "library_code": "VE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "VN",
+   "un_name": "Viet Nam",
+   "admitted": "20-09-1977",
+   "m49_name": "Viet Nam",
+   "m49": "704",
+   "iso3": "VNM",
+   "region": "Asia",
+   "sub_region": "South-eastern Asia",
+   "intermediate_region": null,
+   "ldc": false,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "VN",
+    "m49_iso2": "VN",
+    "library_code": "VN",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "YE",
+   "un_name": "Yemen",
+   "admitted": "30-09-1947",
+   "m49_name": "Yemen",
+   "m49": "887",
+   "iso3": "YEM",
+   "region": "Asia",
+   "sub_region": "Western Asia",
+   "intermediate_region": null,
+   "ldc": true,
+   "lldc": false,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "YE",
+    "m49_iso2": "YE",
+    "library_code": "YE",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ZM",
+   "un_name": "Zambia",
+   "admitted": "01-12-1964",
+   "m49_name": "Zambia",
+   "m49": "894",
+   "iso3": "ZMB",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": true,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ZM",
+    "m49_iso2": "ZM",
+    "library_code": "ZM",
+    "library_agrees": true
+   }
+  },
+  {
+   "code": "ZW",
+   "un_name": "Zimbabwe",
+   "admitted": "25-08-1980",
+   "m49_name": "Zimbabwe",
+   "m49": "716",
+   "iso3": "ZWE",
+   "region": "Africa",
+   "sub_region": "Sub-Saharan Africa",
+   "intermediate_region": "Eastern Africa",
+   "ldc": false,
+   "lldc": true,
+   "sids": false,
+   "verification": {
+    "un_flag_code": "ZW",
+    "m49_iso2": "ZW",
+    "library_code": "ZW",
+    "library_agrees": true
+   }
+  }
+ ]
+}

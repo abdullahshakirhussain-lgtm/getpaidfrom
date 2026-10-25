@@ -1,0 +1,576 @@
+{
+ "code": "LK",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Proceeds from services provided to foreign clients must be repatriated to Sri Lanka within 180 days of providing the service, but they are NOT subject to mandatory conversion to rupees. CBSL withdrew the conversion requirement for service export receipts from 12 August 2022 (Gazette 2292/50). Repatriated proceeds may be used for permitted purposes. Goods exporters remain under conversion rules (Rules No. 01 of 2024).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dfe.lk/web/index.php?option=com_content&view=article&id=402&Itemid=742&lang=en",
+     "publisher": "Department of Foreign Exchange, Central Bank of Sri Lanka",
+     "title": "FAQs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fb936968a751.html.gz",
+     "quote": "Proceeds received from export of services/services provided to non-residents are also required to repatriated to Sri Lanka within 180 days."
+    },
+    {
+     "url": "https://www.dfe.lk/web/index.php?option=com_content&view=article&id=402&Itemid=742&lang=en",
+     "publisher": "Department of Foreign Exchange, CBSL",
+     "title": "FAQs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fb936968a751.html.gz",
+     "quote": "However, they are not subject to the mandatory conversion."
+    },
+    {
+     "url": "https://www.cbsl.gov.lk/en/news/relaxation-of-the-mandatory-conversion-requirement-on-service-export-receipts-proceeds",
+     "publisher": "Central Bank of Sri Lanka",
+     "title": "Relaxation of the Mandatory Conversion Requirement on Service Export Receipts/Proceeds",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-851894375bd5.html.gz",
+     "quote": "The mandatory requirement to receive proceeds of service exports to the country within 180 days from the date of provision of services remains unchanged."
+    }
+   ]
+  },
+  "P2_fcy_account": {
+   "question": "Can individuals hold a foreign-currency bank account?",
+   "answer": "Yes: the Personal Foreign Currency Account (PFCA). Under Foreign Exchange Act Direction No. 04 of 2021 (amended by Direction No. 01 of 2026 regarding government FX debt securities), Sri Lankan nationals, including resident individuals, may hold PFCAs. These can be credited with foreign-exchange remittances received from outside Sri Lanka through the banking system, and debited for outward remittances for current transactions.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/laws/cdg/Foreign_Exchange_Act_Direction_No_4_of_2021_e.pdf",
+     "publisher": "Department of Foreign Exchange, Central Bank of Sri Lanka",
+     "title": "Foreign Exchange Act Directions No. 04 of 2021: Personal Foreign Currency Accounts",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f1382d1bc183.pdf.gz",
+     "quote": "1.1 Eligible Persons (a) An individual including a minor who is a Sri Lankan National;"
+    },
+    {
+     "url": "https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/laws/cdg/Foreign_Exchange_Act_Direction_No_4_of_2021_e.pdf",
+     "publisher": "Department of Foreign Exchange, CBSL",
+     "title": "Foreign Exchange Act Directions No. 04 of 2021",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f1382d1bc183.pdf.gz",
+     "quote": "1.3 Permitted Credits (a) remittances in foreign exchange received from outside Sri Lanka in favour of the account holder through the banking system;"
+    }
+   ],
+   "notes": "The 2026 amending Direction (No. 01 of 2026, 03.03.2026) is described by CBSL's 2025 annual report (search summary) as relating to government FX debt securities; its text was not read."
+  },
+  "P3_local_gateways": {
+   "question": "Licensed local online payment gateways, and whether individuals or sole proprietors can sign up",
+   "answer": "Global platform availability for Sri Lanka (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Sri Lanka is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Sri Lanka is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "PayHere describes itself as Sri Lanka's first Central Bank-approved aggregated internet payment gateway, operating with licensed local banks under CBSL PSD Direction No. 1 of 2018. It accepts LKR, USD, GBP, EUR and AUD. Business registration is NOT required for freelance or home-based businesses: instead you show proof of business, e.g. a Fiverr or Upwork profile or an active social-media page. USD payouts without conversion to LKR need a registered business entity and a Seylan Bank USD account. The approval claim is PayHere's own; CBSL's list was not read. An older PayHere blog (search summary) said unregistered businesses only got limited payment methods; the current knowledge base doesn't say this, so check at sign-up. Stripe does not list Sri Lanka."
+  },
+  "P4_paypal": {
+   "question": "PayPal capability in the country",
+   "answer": "Receiving now works through partner banks. PayPal's Sri Lanka page says receiving and withdrawals are provided with licensed local providers. With Sampath Bank and Commercial Bank, signup and linking, withdrawal, and 'receive money for goods and services' are LIVE for PERSONAL accounts. Business accounts, invoicing and PayPal Checkout are 'coming soon'; Bank of Ceylon is 'coming soon'. A PayPal account must be linked to at least one partner bank to receive money. Withdrawal fee to a Sri Lankan bank: 2.9% + 2.50 USD, plus third-party charges. Sri Lanka is NOT in PayPal's Payouts table, so platforms paying via PayPal Payouts may not reach Sri Lankan accounts.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/lk/business/banking-partners",
+     "publisher": "PayPal",
+     "title": "Receive and Withdraw via PayPal Partner Banks (PayPal LK)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c07325ae9e14.html.gz",
+     "quote": "Access PayPal with Sampath Bank Account signup and linking Live for Personal Accounts. Coming soon for Business Accounts. Withdrawal Live for Personal Accounts. Coming soon for Business Accounts Receive money for goods and services Live for Personal Accounts."
+    },
+    {
+     "url": "https://www.paypal.com/lk/business/banking-partners",
+     "publisher": "PayPal",
+     "title": "Receive and Withdraw via PayPal Partner Banks (PayPal LK)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c07325ae9e14.html.gz",
+     "quote": "In Sri Lanka, PayPal services such as withdrawals and receiving payments are provided in partnership with a licensed local provider."
+    },
+    {
+     "url": "https://www.paypal.com/lk/business/banking-partners",
+     "publisher": "PayPal",
+     "title": "Receive and Withdraw via PayPal Partner Banks (PayPal LK)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-c07325ae9e14.html.gz",
+     "quote": "The PayPal account needs to only be linked with at least one local partner bank/wallet to start receiving money."
+    },
+    {
+     "url": "https://www.paypal.com/lk/digital-wallet/paypal-consumer-fees",
+     "publisher": "PayPal",
+     "title": "PayPal Consumer Fees (PayPal LK)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-ffe547e912e7.html.gz",
+     "quote": "LK 2.9% + 2.50 USD* * Additional fees will be charged by your third-party service provider resulting in less than full amount being credited to your account."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Countries and supported features (Payouts)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Eligible countries and their feature sets: 93 rows; Sri Lanka is not among them."
+    }
+   ],
+   "notes": "RESOLVES the earlier 'conflicting' LK PayPal item (Day 1 log): official PayPal page now documents live receiving via Sampath/Commercial Bank for personal accounts. A search summary said Sri Lankan accounts can receive only from overseas PayPal users, not local ones; not quoted."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available. You can withdraw directly from Payoneer to an eZ Cash e-wallet in Sri Lankan rupees (page last modified 23 Sep 2026); bank-withdrawal specifics for Sri Lanka were not confirmed. Wise: residents can't get USD account details (Sri Lanka is on Wise's exclusion list) and Sri Lanka isn't among the countries where you can hold money with Wise.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.payoneer.com/resources/how-to-use-payoneer/how-to-integrate-ez-cash-with-payoneer/",
+     "publisher": "Payoneer",
+     "title": "How to Integrate eZ Cash with Payoneer (Last Modified September 23rd, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6b4522856aff.html.gz",
+     "quote": "You can now withdraw funds directly from your Payoneer account to your eZ Cash account in Sri Lankan rupees, easily and quickly."
+    },
+    {
+     "url": "https://wise.com/help/articles/2810318/can-i-get-usd-account-details",
+     "publisher": "Wise",
+     "title": "Can I get USD account details?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-8ac0f5ed24cc.html.gz",
+     "quote": "South Sudan, Sri Lanka, Sudan, Syria"
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka is not in the list of countries and territories where you can hold money in your Wise account (the list goes '... South Korea Spain Sweden ...')."
+    }
+   ]
+  },
+  "L1_registration": {
+   "question": "Must an individual selling digital products or services register a business? How (sole proprietor), cost, online?",
+   "answer": "Only if you use a trade name. Divisional Secretariat guidance: trading under your full legal name requires no registration, but a trade name must be registered at the Divisional Secretariat within 14 days of starting, under the Business Names Ordinance (Western Province has its own 1990 statute). Registration is in person with a Grama Niladhari report, premises documents and NIC copies. The Colombo DS fee starts at Rs. 500 for start-up capital up to Rs. 300,000. PayHere accepts freelancers without registration (P3); USD payouts need a registered business.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "http://www.welipitiya.ds.gov.lk/index.php/en/business-registration.html",
+     "publisher": "Divisional Secretariat - Welipitiya (Government of Sri Lanka)",
+     "title": "Business Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-609170c6b8c5.html.gz",
+     "quote": "Kamal Perera\"), registration is not legally required ."
+    },
+    {
+     "url": "http://www.welipitiya.ds.gov.lk/index.php/en/business-registration.html",
+     "publisher": "Divisional Secretariat - Welipitiya",
+     "title": "Business Registration",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-609170c6b8c5.html.gz",
+     "quote": "However, if you use a trade name (e.g., \"Welipitiya Hardware Suppliers\"), you must register that name at this DS office within 14 days of starting business under the Business Names Ordinance."
+    },
+    {
+     "url": "http://colombo.ds.gov.lk/images/PDF/new_upload_admin_divistio/English_Instructions_For_Registration_of_Business_Name.pdf",
+     "publisher": "Divisional Secretariat - Colombo",
+     "title": "Instructions for Registration of a Business Name",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-37fdd53ed94b.pdf.gz",
+     "quote": "Business Registration must be done within 14 days or within the time period allowed by the Divisional Sec retary, after starting a business and will charge a late fee for applications submitted after the deadline."
+    },
+    {
+     "url": "http://colombo.ds.gov.lk/images/PDF/new_upload_admin_divistio/English_Instructions_For_Registration_of_Business_Name.pdf",
+     "publisher": "Divisional Secretariat - Colombo",
+     "title": "Instructions for Registration of a Business Name",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-37fdd53ed94b.pdf.gz",
+     "quote": "a fee of Rs.500.00 will be charged"
+    }
+   ],
+   "notes": "The Welipitiya page quote starts mid-sentence ('If you operate under your full legal name (e.g., \"W.K. Kamal Perera\"), registration is not legally required'). The Western Province Business Names Statute No. 4 of 1990 text (lawnet) returned 404/TLS errors, so it was not read. Rules may differ by province."
+  },
+  "L2_tax_id": {
+   "question": "Tax identification number requirement and how to get it",
+   "answer": "TIN from the Inland Revenue Department. Since 1 January 2024 every individual aged 18 or over must register and get a TIN (Inland Revenue Act s.102). Non-registrants can be registered by the IRD and penalised. Registration is online through IRD e-Services ('Taxpayer Registration', Individual Local) by uploading your NIC; an address proof is needed if your address differs from the NIC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/555/CMN27122023_E%20-%20Registration.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Registration of Resident Persons in Sri Lanka under Section 102 of Inland Revenue Act (27.12.2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f66b9ec89510.pdf.gz",
+     "quote": "With effect from January 01, 2024, any individual who is at the age 18 years or more, or who attains the age of 18 years on or after January 01, 2024, it is mandatory to register with the Inland Revenue Department and obtain a TIN (Taxpayer Identification Number)."
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Shared%20Documents/TPR_Guidelines_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Obtaining a Taxpayer Identification Number (TIN) - guidelines",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-5c574e6febef.pdf.gz",
+     "quote": "Application Form for Taxpayer Registration - Individual and Proprietorship TPR_002_E (Not required for e-services)"
+    }
+   ]
+  },
+  "L3_income_tax_foreign": {
+   "question": "How residents' foreign-sourced or digital income is taxed",
+   "answer": "From 1 April 2025 the income-tax EXEMPTIONS on service exports and foreign-source income were removed (IRD notice PN/IT/2025-01). Instead, a MAXIMUM rate of 15% applies to gains from services rendered in or outside Sri Lanka to anyone, used outside Sri Lanka, where payment is received in foreign currency AND remitted through a bank to Sri Lanka. The same 15% applies to foreign-source income remitted through a bank. Otherwise individuals pay progressive rates: 6% on the first Rs 1,000,000, then 18/24/30%, and 36% on the balance. Personal relief is Rs 1,800,000 from Y/A 2025/26.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/666/PN_IT_2025-01_26032025_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice to the Taxpayers PN/IT/2025-01 (26.03.2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b0faa89a2588.pdf.gz",
+     "quote": "Removal of Income Tax Exemptions Effective from April 1 st 2025, i ncome tax exemptions on service exports and foreign sources income have been removed."
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/666/PN_IT_2025-01_26032025_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice to the Taxpayers PN/IT/2025-01",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b0faa89a2588.pdf.gz",
+     "quote": "The gains and profits earned or derived from any service rendered in or outside Sri Lanka to any person to be utilized outside Sri Lanka, where the payment for such services is received in foreign currency and remitted through a bank to Sri Lanka (Service Exports)."
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/666/PN_IT_2025-01_26032025_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice to the Taxpayers PN/IT/2025-01",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b0faa89a2588.pdf.gz",
+     "quote": "Taxable Income (LKR) Tax Rate (%) First 1,000,000 6 Next 500,000 18 Next 500,000 24 Next 500,000 30 Balance 36 (b) Maximum income tax rate applicable for following gains and profits is 15%"
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/666/PN_IT_2025-01_26032025_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice to the Taxpayers PN/IT/2025-01",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b0faa89a2588.pdf.gz",
+     "quote": "ment (commencing from the Y/A 2025/2026) has been increased to Rs. 1,800,000."
+    }
+   ],
+   "notes": "Key condition: money must be received in foreign currency and remitted through a bank to Sri Lanka. Income kept abroad, or received via channels that don't count as bank remittance, may not get the 15% cap; how Payoneer→eZ Cash or PayPal→partner bank receipts are treated was NOT verified. Later amendments after March 2025 were not checked."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST rate, registration threshold, treatment of exported services and digital services",
+   "answer": "VAT 18% (since 1 Jan 2024). Registration is required only above LKR 15 million in a quarter or LKR 60 million in 12 months; a proposed threshold reduction was ABANDONED (IRD notice, 3 Jul 2026). Zero-rated supplies under s.7 of the VAT Act require payment in foreign currency through a licensed Sri Lankan bank. The SVAT scheme was abolished from 1 Oct 2025. From 1 Jul 2026, foreign platforms supplying services electronically to Sri Lankan customers must charge VAT.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/577/PN_VAT_2024_-_01_26032024%20_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice PN/VAT/2024-01 (26.03.2024)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-2a88b86f0be9.pdf.gz",
+     "quote": "VAT rate on import and / or taxable supply of goods or taxable supply of services has been revised to eighteen per centum ( 18%) from fifteen per centum ( 15%) with effect from January 01, 2024"
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/799/PN_VAT_2026-03_New_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice SEC/PN/VAT/2026-03 (03.07.2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0bdfc8e35394.pdf.gz",
+     "quote": "Continuation of VAT Registration thresholds The proposed reduction in the VAT registration threshold has been abandoned."
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/799/PN_VAT_2026-03_New_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice SEC/PN/VAT/2026-03",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-0bdfc8e35394.pdf.gz",
+     "quote": "VAT on Services Supplied through Electronic Platforms by Non-Resident Persons With effect from 1 July 2026, VAT will apply to services supplied by non-resident persons through electronic platforms to customers in Sri Lanka."
+    },
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/677/PN_VAT_2025-01_11042025_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice PN/VAT/2025-01 (Revised) (17.04.2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f0cff4b71eee.pdf.gz",
+     "quote": "Zero Rated Supplies Zero-rated supplies of goods or services, in terms of the provisions of Section 7 of the VAT Act (as amended), are subject to the condition that payment must be received in foreign currency through a bank in Sri Lanka licensed under the Banking Act, No."
+    }
+   ],
+   "notes": "The exact list of zero-rated services in s.7 (whether all services to non-residents qualify) was NOT read from the Act. The 'LKR 15m / 60m' figures appear in the 2026 notice (snapshot). SVAT abolition comes from the IRD FAQ title in search results (not snapshotted). Below the threshold a freelancer has no VAT obligation."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law: name, year, in force?, regulator",
+   "answer": "Personal Data Protection Act No. 9 of 2022, amended by Act No. 22 of 2025 (certified 30 Oct 2025). The amendment made remaining provisions start on dates the Minister appoints by Gazette order. The Data Protection Authority (Part V) has operated since 2023. A Gazette order of 22 July 2026 (No. 2498/16) appoints 1 JANUARY 2027 for Part I (processing of personal data, including a data protection management programme) and Part III (controllers and processors). Data-subject rights (Part II) and penalties (Part VII) await a further order.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.parliament.lk/uploads/acts/gbills/english/6384.pdf",
+     "publisher": "Parliament of Sri Lanka",
+     "title": "Personal Data Protection (Amendment) Act, No. 22 of 2025",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6186f402309b.pdf.gz",
+     "quote": "“(3) All other provisions of this Act except this section, shall come into operation on such date or dates as the Minister may appoint, by Order published in the Gazette.”;"
+    },
+    {
+     "url": "https://adaderana.lk/news/cmsjsp2vt0005356q4pjfv4ih",
+     "publisher": "Ada Derana (quoting a Data Protection Authority statement)",
+     "title": "DPA issues new circular ahead of personal data protection law (Aug 08, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-79ebac72e7e4.html.gz",
+     "quote": "The Circular follows the recent Extraordinary Gazette Order issued by the President on 22nd July 2026, which appoints 1 January 2027 as the date on which Sections 2 and 3, Part I (Processing of Personal Data) and Part III (Controllers and Processors) of the Personal Data Protection Act will come into operation, according to a statement issued by the Data Protection Authority."
+    },
+    {
+     "url": "https://concentric.ai/sri-lankas-pdpa-takes-effect-january-1-2027-what-global-enterprises-need-to-know/",
+     "publisher": "Concentric AI",
+     "title": "Sri Lanka’s PDPA Takes Effect January 1, 2027 (August 20, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-ccd4d4d8f987.html.gz",
+     "quote": "2498/16 set January 1, 2027 as the operational date for Part I (Processing of Personal Data) and Part III (Controllers and Processors), while data subject rights under Part II and the penalty regime under Part VII wait on a further order."
+    }
+   ],
+   "notes": "TRAP: the DPA website (dpa.gov.lk/est.php, snapshotted) still announces 'Enforcement Begins on March 18, 2025'. That schedule was superseded (search summaries cite Gazette 2427/34 repealing it; the 2025 amendment replaced the commencement clause). The 22 Jul 2026 Gazette itself was not read; the 1 Jan 2027 date rests on two independent secondary sources (one quoting the DPA)."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "E-commerce / consumer-protection law relevant to online sales",
+   "answer": "Electronic Transactions Act No. 19 of 2006, in operation since 1 Oct 2007 and amended in 2017 to align with the UN Electronic Communications Convention: legal recognition of electronic contracts and records. Consumer Affairs Authority Act No. 9 of 2003: protects consumers against unfair trade practices and gives the Consumer Affairs Authority (CAA) powers over labelling, pricing and complaints. No online-sales-specific consumer rules were found.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.icta.lk/act",
+     "publisher": "Information and Communication Technology Agency of Sri Lanka",
+     "title": "Acts (Electronic Transactions Act)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-d539abf3bb15.html.gz",
+     "quote": "The Electronic Transactions Act was brought into operation with effect from 1st October 2007 (vide Gazette Extraordinary No."
+    },
+    {
+     "url": "https://caa.gov.lk/web/images/Act/CAA_Act_E.pdf",
+     "publisher": "Consumer Affairs Authority",
+     "title": "Consumer Affairs Authority Act, No. 9 of 2003",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7c7d1bdaa4ff.pdf.gz",
+     "quote": "(b) to protect consumers against unfair trade practices and guarantee that consumers interest shall be given due consideration ;"
+    }
+   ],
+   "notes": "A 2018 CAA statement (search summary) said the Act was being amended for e-commerce; no enacted amendment found. The 2017 amendment wording comes from ICTA's page (not quoted)."
+  },
+  "L7_incentives": {
+   "question": "Government incentives or schemes for IT/digital exporters or freelancers",
+   "answer": "(1) 15% maximum income-tax rate on service exports paid in foreign currency and remitted through a bank, versus up to 36% normal rates, with personal relief of Rs 1.8m (L3). (2) No mandatory conversion of service-export proceeds to LKR, and earnings can be kept in a PFCA (P1/P2). (3) No VAT registration below LKR 60m a year (L4). (4) Freelancers can use PayHere without business registration (P3).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ird.gov.lk/en/Lists/Latest%20News%20%20Notices/Attachments/666/PN_IT_2025-01_26032025_E.pdf",
+     "publisher": "Inland Revenue Department",
+     "title": "Notice to the Taxpayers PN/IT/2025-01",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-b0faa89a2588.pdf.gz",
+     "quote": "The gains and profits earned or derived from any service rendered in or outside Sri Lanka to any person to be utilized outside Sri Lanka, where the payment for such services is received in foreign currency and remitted through a bank to Sri Lanka (Service Exports)."
+    },
+    {
+     "url": "https://www.dfe.lk/web/index.php?option=com_content&view=article&id=402&Itemid=742&lang=en",
+     "publisher": "Department of Foreign Exchange, CBSL",
+     "title": "FAQs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fb936968a751.html.gz",
+     "quote": "However, they are not subject to the mandatory conversion."
+    }
+   ]
+  },
+  "D1_id_document": {
+   "question": "Name of the national identity document residents use for identity checks",
+   "answer": "The National Identity Card (NIC), issued by the Department for Registration of Persons to Sri Lankan citizens of eligible age (15 per DRP, via search summary). DRP is moving to an electronic NIC (e-NIC). The NIC is required for IRD TIN registration (L2) and business-name registration (L1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://drp.gov.lk/en/overview.php",
+     "publisher": "Department for Registration of Persons",
+     "title": "Overview",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9aa6c211ac2e.html.gz",
+     "quote": "Registration of every Sri Lankan citizen who has completed the eligible age and issue National Identity Cards."
+    },
+    {
+     "url": "https://drp.gov.lk/en/overview.php",
+     "publisher": "Department for Registration of Persons",
+     "title": "Overview",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9aa6c211ac2e.html.gz",
+     "quote": "Objective Establishment of a National Personal Registry by collecting information of all Sri Lankan citizens in an electronic central data base, and issuing electronic National Identity cards"
+    }
+   ],
+   "notes": "The age 15 and fees (Rs. 200 first card) come from a search summary of drp.gov.lk; not quoted."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving). Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (6) Local official channel: Hold a Personal Foreign Currency Account (PFCA). Service-export proceeds must be repatriated within 180 days but are not force-converted, and Payoneer withdraws to an eZ Cash wallet (P1/P2/P5). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Sri Lanka: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://www.dfe.lk/web/index.php?option=com_content&view=article&id=402&Itemid=742&lang=en",
+     "publisher": "Department of Foreign Exchange, Central Bank of Sri Lanka",
+     "title": "FAQs",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-fb936968a751.html.gz",
+     "quote": "Proceeds received from export of services/services provided to non-residents are also required to repatriated to Sri Lanka within 180 days."
+    },
+    {
+     "url": "https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/laws/cdg/Foreign_Exchange_Act_Direction_No_4_of_2021_e.pdf",
+     "publisher": "Department of Foreign Exchange, Central Bank of Sri Lanka",
+     "title": "Foreign Exchange Act Directions No. 04 of 2021: Personal Foreign Currency Accounts",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f1382d1bc183.pdf.gz",
+     "quote": "1.1 Eligible Persons (a) An individual including a minor who is a Sri Lankan National;"
+    },
+    {
+     "url": "https://www.payoneer.com/resources/how-to-use-payoneer/how-to-integrate-ez-cash-with-payoneer/",
+     "publisher": "Payoneer",
+     "title": "How to Integrate eZ Cash with Payoneer (Last Modified September 23rd, 2026)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-6b4522856aff.html.gz",
+     "quote": "You can now withdraw funds directly from your Payoneer account to your eZ Cash account in Sri Lankan rupees, easily and quickly."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "Does income received via Payoneer→eZ Cash or PayPal→partner bank count as 'foreign currency remitted through a bank' for the 15% cap?",
+  "VAT Act s.7: exact scope of zero-rated services to non-residents.",
+  "PDPA Gazette 2498/16 text; dates for Part II (rights) and Part VII (penalties).",
+  "Western Province Business Names Statute 1990 text; provincial differences.",
+  "Payoneer bank-withdrawal route to Sri Lankan banks."
+ ]
+}

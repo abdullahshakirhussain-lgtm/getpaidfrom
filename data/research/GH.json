@@ -1,0 +1,602 @@
+{
+ "code": "GH",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Residents may invoice non-residents (and expatriates) in foreign currency, and the proceeds must be paid into a Foreign Exchange Account (FEA) with a licensed bank (BoG Notice BG/GOV/SEC/2025/26). Pricing, invoicing or receiving foreign currency for goods or services from residents is prohibited: the cedi is the only legal tender. Inward remittances terminated into mobile-money wallets via payment service providers are paid out in cedis. Exporters must repatriate export proceeds (Foreign Exchange Act 2006, Act 723). For goods, under Letters of Commitment, the deadline is 120 days from shipment (BG/GOV/SEC/2025/34), with fines up to 5,000 penalty units and/or up to 10 years' imprisonment for unjustified non-repatriation.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/08/NOTICE-NO.-BG-GOV-SEC-2025-26-NOTICE-ON-UNAUTHORISED-FOREIGN-EXCHANGE-TRANSACTIONS.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/26 — Unauthorised Foreign Exchange Transactions",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fb309b46a41.pdf.gz",
+     "quote": "Foreign currency invoices may be issued only to expatriates (foreign nationals) or non-residents and proceeds from such transactions shall be paid into a Foreign Exchange Account (FEA) with any licensed bank."
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/08/NOTICE-NO.-BG-GOV-SEC-2025-26-NOTICE-ON-UNAUTHORISED-FOREIGN-EXCHANGE-TRANSACTIONS.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/26 — legal tender",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fb309b46a41.pdf.gz",
+     "quote": "The Ghana Cedi remains the only legal tender in Ghana , accordingly, no resident of Ghana, unless duly licensed or authorised by the Bank of Ghana shall price, advertise, invoice, receive or make payment in any foreign currency for goods and/or services"
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/10/NOTICE-NO.-BG-GOV-SEC-2025-34-NOTICE-Notice-on-Extension-Period-for-Letter-of-Commitment-LOC.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/34 — Extension Period for Letter of Commitment",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-41fdc82b05b9.pdf.gz",
+     "quote": "Repatriation Period Export proceeds shall be repatriated through the exporter’s nominated bank within one hundred and twenty ( 120) days from the date of shipment."
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2024/01/Updated-Guidelines-for-PSP-Inward-Remittance_November2023.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Updated Guidelines for Inward Remittance Services by PSPs (Nov 2023)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f2a6162df84b.pdf.gz",
+     "quote": "credit the local settlement account of the DEMI or EPSP with the Ghana Cedi equivalent of inward remittances payable to beneficiaries within twenty-four (24) hours"
+    }
+   ],
+   "notes": "The operational rulebook for service-export repatriation (Notice BG/GOV/SEC/2016/03) was not found online; the LOC notice cites it. The 120-day/LOC rule is tied to shipment (goods)."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Banks operate Foreign Exchange Accounts (FEA, credited with FX earnings/transfers) and Foreign Currency Accounts (FCA, FX cash). The BoG confirmed in 2025 that over-the-counter FX cash withdrawals from FEAs and FCAs are allowed, and cheques may be issued on them. Earnings from non-residents must go into an FEA (P1).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/05/NOTICE-NO.-BG-GOV-SEC-2025-14-NOTICE-ON-FOREIGN-EXCHANGE-WITHDRAWALS.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/14 — Foreign Exchange Withdrawals",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e5eb9a9a2c87.pdf.gz",
+     "quote": "Over-the-counter (OTC) cash withdrawals in foreign currency from Foreign Exchange Accounts (FEA) and Foreign Currency Accounts (FCA) are allowed."
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/05/NOTICE-NO.-BG-GOV-SEC-2025-14-NOTICE-ON-FOREIGN-EXCHANGE-WITHDRAWALS.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/14 — cheques",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e5eb9a9a2c87.pdf.gz",
+     "quote": "Cheques and cheque books may continue to be issued on FEA and FCA accounts."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Ghana (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration); YouTube Partner Program. Not listed: Etsy seller payments.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Ghana is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Ghana is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "In Ghana it has a lifetime collection limit of GHS 30,000 and no Transfers or identity-verification features. Upgrading to a Registered Business, which requires a registered business, removes the limit. Paystack's Ghana Starter document list (support2.paystack.com) returned 403 to scripts; search summaries mention Ghana Card/passport, TIN and a personal bank or MoMo account. Not relied on. Hubtel and others not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No local PayPal. Ghana is absent from PayPal's official worldwide markets list (199 markets) and from PayPal's Payouts country table. A 2026 guide confirms a PayPal account cannot be created with Ghana as the country. Workarounds via foreign accounts or exchangers are not recommended (terms of service and exchange-control risk).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal worldwide markets list (automated collector)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of 199 PayPal markets (data/sources/paypal_worldwide.json) does not include Ghana; Ghana is also absent from data/sources/paypal_payouts.json."
+    },
+    {
+     "url": "https://survivezeal.com/paypal-ghana/",
+     "publisher": "Survive Zeal",
+     "title": "PayPal Ghana: All You Need to Know In 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-64622378fd33.html.gz",
+     "quote": "In 2026, you cannot create a PayPal account using Ghana as your country during normal sign-up."
+    }
+   ],
+   "notes": "paypal.com/gh/home geo-redirected to PayPal LK from this environment (unusable). The snapshot data/snapshots/_research/2026-10-17-6299f55c7438 is NOT Ghana evidence."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Payoneer: available in Ghana for receiving client and marketplace payments, with withdrawals to Ghanaian bank accounts in GHS (two independent guides; no official Payoneer Ghana page found). Mobile money is reached via the bank. Proceeds from non-residents should land in an FEA or be converted per BoG rules. Wise: Ghana is NOT on Wise's list of countries whose residents can hold money.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.progigfinder.com/blog/how-to-receive-upwork-payments-in-uganda-kenya-nigeria-and-ghana-in-2026",
+     "publisher": "ProGigFinder",
+     "title": "How to Receive Upwork Payments in Uganda, Kenya, Nigeria, and Ghana in 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-6b30445c2cc2.html.gz",
+     "quote": "Payoneer has good coverage in Ghana, and most major banks process withdrawals within 2-3 days."
+    },
+    {
+     "url": "https://www.onesafe.io/blog/does-payoneer-work-in-ghana",
+     "publisher": "OneSafe",
+     "title": "Does Payoneer Work In Ghana? (updated Feb 2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-491d98314efa.html.gz",
+     "quote": "Payoneer is available in Ghana, allowing users to receive payments from clients and marketplaces."
+    },
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote_type": "description",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Ghana."
+    }
+   ],
+   "notes": "Payoneer GHS withdrawal fees not confirmed."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Simplest form: a sole proprietorship (business name) registered with the Office of the Registrar of Companies (ORC). It costs GHS 130, with a mandatory annual renewal of GHS 70 (payable by USSD *222# or on ghana.gov.gh). Tax registration uses the Ghana Card PIN (L2). Note: under the new VAT Act every SERVICE provider must register for VAT within 30 days of starting (L4).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://orc.gov.gh/index.php/services/registrations/business-names",
+     "publisher": "Office of the Registrar of Companies (ORC)",
+     "title": "Business Names/Sole Prop",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-a4102034d6e2.html.gz",
+     "quote": "Business Registration Register your Business Names also known as a sole proprietorship (one-man business)"
+    },
+    {
+     "url": "https://orc.gov.gh/fees.php",
+     "publisher": "Office of the Registrar of Companies (ORC)",
+     "title": "Fees & Charges",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-80ec099f19d4.html.gz",
+     "quote": "Business Name / Sole Proprietorship / Subsidiary Business Name Registration of Business Name/Subsidiary GHS 130.00"
+    },
+    {
+     "url": "https://orc.gov.gh/fees.php",
+     "publisher": "Office of the Registrar of Companies (ORC)",
+     "title": "Fees & Charges — renewal",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-80ec099f19d4.html.gz",
+     "quote": "Filing of Annual Renewal (Business Names) GHS 70.00"
+    }
+   ],
+   "notes": "Whether an individual trading under their own name must register a business name (Registration of Business Names Act, Act 151) was not verified from the statute."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Since 1 April 2021 the Ghana Card Personal Identification Number (PIN) is the individual taxpayer identification number, replacing GRA-issued TINs (transition ended 31 Dec 2021). It is quoted on returns, tax payments and business registrations. Companies keep their own TINs.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://gra.gov.gh/commencement-of-the-use-of-ghana-card-personal-identification-number-as-taxpayer-identification-number/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Commencement of the use of Ghana Card PIN as TIN",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-664ebd18f00e.html.gz",
+     "quote": "There will be a transition period from April 1, 2021 to December 31, 2021 where both the TIN and Ghana Card PIN may be used simultaneously as the unique number for tax identification purposes."
+    },
+    {
+     "url": "https://gra.gov.gh/commencement-of-the-use-of-ghana-card-personal-identification-number-as-taxpayer-identification-number/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Commencement of the use of Ghana Card PIN as TIN — use",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-664ebd18f00e.html.gz",
+     "quote": "It must be noted that, for transactions such as the filing of returns, payment of taxes, clearing of goods, registering of businesses, the Ghana card PIN should be quoted on the documentation"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "A resident's assessable income is worldwide income from all sources. 2026 annual bands for resident individuals (Income Tax (Amendment) Act 2026, Act 1178; GRA says effective 1 Sept 2026): first GHS 7,056 at 0%, then 5%, 10%, 17.5%, 25% and 30%, and 35% above GHS 600,000. Simplified regime (Modified Taxation Scheme) for informal-sector individuals: annual sales up to GHS 20,000 pay a fixed instalment (PTI). Sales of GHS 20,000–500,000 pay a flat 3% of turnover (PTT). Formally qualified professionals (lawyers, engineers, accountants) are excluded.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://gra.gov.gh/domestic-tax/personal-income-tax/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Personal Income Tax",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-60ceb45dd53c.html.gz",
+     "quote": "A resident person’s assessable income is that person’s worldwide income from all sources."
+    },
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/paye/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Pay As You Earn (PAYE) — annual bands 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-60cdd30165d3.html.gz",
+     "quote": "Year of Assessment 2026 Chargeable Income GH¢ Rate % First 7,056.00 – Next 960.00 5.00 Next 1,200.00 10.00 Next 34,800.00 17.50 Next 192,000.00 25.00 Next 363,984.00 30.00 Exceeding 600,000.00 35.00 These rates took effect September 1st, 2026."
+    },
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/individual/modified-taxation-scheme/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Modified Taxation Scheme",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-05d18008b1f6.html.gz",
+     "quote": "Presumptive Tax Based on Turnover (PTT) For whom: Businesses with annual sales of more than GHC 20,000 but not exceeding GHC 500,000."
+    },
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/individual/modified-taxation-scheme/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Modified Taxation Scheme — rate",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-05d18008b1f6.html.gz",
+     "quote": "How it works: You pay a flat rate of 3% on your total annual sales (turnover)."
+    }
+   ],
+   "notes": "The PAYE page labels the table 'Year of Assessment 2026' but says the rates took effect 1 Sept 2026 (Act 1178), so Jan–Aug 2026 may have used earlier bands. The Modified Taxation Scheme's professional exclusion was seen in GRA search summaries; confirm on GRA's /modified-taxation/ page."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT Act 2025 (Act 1151), from 1 Jan 2026: 15% VAT plus 2.5% NHIL plus 2.5% GETFund, all on the price (effective 20%; COVID levy abolished; flat-rate scheme removed). Registration: suppliers of taxable SERVICES must register within 30 days of starting a taxable activity, with NO turnover threshold. Goods suppliers register above GHS 750,000. Exported services: consulting, professional, data-processing, information, advertising and IP-licensing services take place where the recipient uses them (s.42(2)). If used outside Ghana they are 'considered as exported' (s.42(4)), so no Ghana VAT is charged. But the Second Schedule's zero-rated services list covers only land and property abroad, IP for use abroad, and freight or transit items, not general services to foreign customers.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/vat/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Value Added Tax (after reforms)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9dffb0133e35.html.gz",
+     "quote": "VAT is now calculated as 15% of the total price of an item, in addition to the 2.5% NHIL, and 2.5% GETFund Levy, also calculated on the total price."
+    },
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/vat/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Value Added Tax — threshold",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9dffb0133e35.html.gz",
+     "quote": "The threshold for businesses that deal in goods has been raised from GHS 200,000 to GHS 750,000"
+    },
+    {
+     "url": "https://gra.gov.gh/wp-content/uploads/2026/01/VALUE-ADDED-TAX-ACT-2025-ACT-1151.pdf",
+     "publisher": "Ghana Revenue Authority (Act 1151, scanned)",
+     "title": "Value Added Tax Act, 2025 (Act 1151), s.6(1)(a) — page 8",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-abd9a885575e.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "6. (1) Except as otherwise provided in this Act, a person who engages in a taxable activity and is not registered for the Tax shall, in the case of (a) a taxable supply of services, register within thirty days after engaging in the taxable activity, unless otherwise directed by the Commissioner-General"
+    },
+    {
+     "url": "https://gra.gov.gh/wp-content/uploads/2026/01/VALUE-ADDED-TAX-ACT-2025-ACT-1151.pdf",
+     "publisher": "Ghana Revenue Authority (Act 1151, scanned)",
+     "title": "Act 1151, s.42(2) and (4) — pages 26-27",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-abd9a885575e.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "(2) The supply of the following services takes place where the recipient uses the service: ... (b) the service of a consultant, engineer, lawyer, architect, accountant or any other professional; (c) the processing of data or supplying information, or any similar service; (d) an advertising service; ... (4) A service supplied from a place of business in the country which would be treated as supplied outside the country under subsections (2) and (3) is considered as exported from the country."
+    },
+    {
+     "url": "https://gra.gov.gh/wp-content/uploads/2026/01/VALUE-ADDED-TAX-ACT-2025-ACT-1151.pdf",
+     "publisher": "Ghana Revenue Authority (Act 1151, scanned)",
+     "title": "Act 1151, Second Schedule para 3 'Supply of services' — page 81",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-17-abd9a885575e.pdf.gz",
+     "quote_type": "rendered_reading",
+     "quote": "3. SUPPLY OF SERVICES (1) A supply of services directly in connection with land or any improvement to land situated outside the country. ... (3) ... licensing or enforcement of any intellectual property rights for use outside the country. (4) A supply of freight and insurance directly attributable to the export of goods."
+    },
+    {
+     "url": "https://www.crowe.com/gh/news/ghana-vat-reform-2026",
+     "publisher": "Crowe Ghana",
+     "title": "Ghana VAT reform 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-f7593f0e76f3.html.gz",
+     "quote": "All service providers are required to register for VAT, irrespective of turnover."
+    }
+   ],
+   "notes": "CONFLICT RESOLVED BY STATUTE: PwC (reviewed 11 Mar 2026) says 'Exports of goods and services are zero-rated', but Act 1151's Second Schedule lists only specific services (read from the scanned PDF, stored large; quote_type rendered_reading because the PDF has no text layer). TaxLawGH reached the same reading. OPEN: whether a provider whose services are ALL used abroad (s.42(4)) makes 'taxable supplies' that trigger s.6 registration, and whether input VAT is recoverable."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Data Protection Act 2012 (Act 843). Every data controller that intends to process personal data must register with the Data Protection Commission, and an unregistered controller may not process personal data. Registration is renewed every two years. Processing needs the data subject's prior consent unless an exception applies, e.g. it is necessary for a contract with them.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dataprotection.org.gh/wp-content/uploads/2025/05/Data-Protection-Act-2012-Act-843.pdf",
+     "publisher": "Data Protection Commission (Ghana)",
+     "title": "Data Protection Act, 2012 (Act 843) — s.27",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7f12c2730862.pdf.gz",
+     "quote": "(1) A data controller who intends to process personal data shall register with the Commission."
+    },
+    {
+     "url": "https://dataprotection.org.gh/wp-content/uploads/2025/05/Data-Protection-Act-2012-Act-843.pdf",
+     "publisher": "Data Protection Commission (Ghana)",
+     "title": "Data Protection Act, 2012 (Act 843) — s.53",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7f12c2730862.pdf.gz",
+     "quote": "A data controller who has not been registered under this Act shall not process personal data."
+    },
+    {
+     "url": "https://dataprotection.org.gh/wp-content/uploads/2025/05/Data-Protection-Act-2012-Act-843.pdf",
+     "publisher": "Data Protection Commission (Ghana)",
+     "title": "Data Protection Act, 2012 (Act 843) — s.50",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7f12c2730862.pdf.gz",
+     "quote": "A registration shall be renewed every two years."
+    },
+    {
+     "url": "https://dataprotection.org.gh/wp-content/uploads/2025/05/Data-Protection-Act-2012-Act-843.pdf",
+     "publisher": "Data Protection Commission (Ghana)",
+     "title": "Data Protection Act, 2012 (Act 843) — s.20",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-7f12c2730862.pdf.gz",
+     "quote": "(1) A person shall not process personal data without the prior con- sent of the data subject unless the purpose for which the personal data is processed is (a) necessary for the purpose of a contract to which the data subject is a party;"
+    }
+   ],
+   "notes": "The DPC registration page returned only 210 characters to scripts (site under maintenance). Fees not verified."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Electronic Transactions Act 2008 (Act 772), s.49: consumers may cancel within 14 days of receiving goods, or within 7 days of concluding a services agreement, without reason or penalty. The only charge allowed is the direct cost of returning goods. Exceptions include unsealed audio or video recordings or computer software. A general Consumer Protection Bill has been pending since 2014 and was not enacted as of 2025.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ictpolicyafrica.org/fr/document/x6dx4fyl9b9?page=23",
+     "publisher": "ICT Policy Africa (CIPIT) — hosted text of Act 772",
+     "title": "Electronic Transactions Act, 2008 (Act 772), p.23",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-9b97d03bbbf4.html.gz",
+     "quote": "(1) A consumer is entitled to cancel a transaction and any related credit agreement for the supply (a) of goods within fourteen days after the date of the receipt of the goods, or (b) of services within seven days after the date of the conclusion of the agreement, without reason and without penalty."
+    },
+    {
+     "url": "https://cyrilla.org/pt/entity/ev6gjrliya?page=23",
+     "publisher": "CYRILLA — hosted text of Act 772",
+     "title": "Electronic Transactions Act, 2008 (Act 772), p.23",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-4efbd585d780.html.gz",
+     "quote": "(2) The only charge that may be levied on the consumer is the direct cost of returning the goods."
+    },
+    {
+     "url": "https://cyrilla.org/pt/entity/ev6gjrliya?page=23",
+     "publisher": "CYRILLA — hosted text of Act 772",
+     "title": "Electronic Transactions Act, 2008 (Act 772), s.49 exceptions",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-4efbd585d780.html.gz",
+     "quote": "(g) where audio or video recordings or computer software were unsealed by the consumer;"
+    }
+   ],
+   "notes": "Consumer Protection Bill status from news/advocacy (citinewsroom Mar 2025, thebftonline Aug 2024) via search only; not snapshotted. Not used as a fact claim beyond 'pending'."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "(1) Modified Taxation Scheme: a flat 3% of turnover for annual sales of GHS 20,000–500,000, or fixed instalments below GHS 20,000, instead of full bookkeeping. (2) A 0% band on the first GHS 7,056 of annual chargeable income (2026). (3) Paystack Starter lets unregistered sellers collect up to GHS 30,000 before formalising. (4) The VAT reform removed cascading levies (effective 20%) and lets NHIL and GETFund be deducted as input tax by registered businesses. No digital-specific tax holiday for individuals was verified.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/individual/modified-taxation-scheme/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Modified Taxation Scheme",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-05d18008b1f6.html.gz",
+     "quote": "(The Informal Sector) This scheme is for resident individuals who earn a living through their skills, crafts, or sales without a formal corporate employment contract."
+    },
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/individual/modified-taxation-scheme/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Modified Taxation Scheme — PTI",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-05d18008b1f6.html.gz",
+     "quote": "Presumptive Tax Based on Installment (PTI) For whom : Businesses with average annual sales not exceeding GHC 20,000 over three consecutive years."
+    },
+    {
+     "url": "https://www.crowe.com/gh/news/ghana-vat-reform-2026",
+     "publisher": "Crowe Ghana",
+     "title": "Ghana VAT reform 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-17-f7593f0e76f3.html.gz",
+     "quote": "Key reforms include the removal of cascading taxes, a reduction in the effective VAT burden to 20% , an increase in the VAT registration threshold for suppliers of taxable goods, the abolition of the VAT Flat Rate Scheme (VFRS), and significantly stricter compliance obligations."
+    },
+    {
+     "url": "https://gra.gov.gh/domestic-tax/tax-types/paye/",
+     "publisher": "Ghana Revenue Authority (GRA)",
+     "title": "Pay As You Earn (PAYE) — annual bands 2026",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-60cdd30165d3.html.gz",
+     "quote": "Year of Assessment 2026 Chargeable Income GH¢ Rate % First 7,056.00"
+    }
+   ],
+   "notes": "Free Zones (Act 504) incentives apply to licensed export-oriented enterprises; not researched for individuals."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "The Ghana Card (National Identification Authority). From 1 July 2022 it is the ONLY identification card accepted for transactions at all Bank of Ghana-licensed financial institutions: banks, payment service providers, forex bureaus and others. Ghanaians abroad without access to it may use passports. Its PIN is also the tax ID (L2). NIA registration officials are stationed at GRA offices.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2022/01/BOG-Notice-BG-GOV-SEC-2022-01-Notice-on-Use-of-Ghana-Card-for-all-Financial-Transactions.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice BG/GOV/SEC/2022/01 — Use of Ghana Card for all Financial Transactions",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-f055318e0201.pdf.gz",
+     "quote": "hereby directs that with effect from 1st July, 2022, the Ghana Card shall be the only identification card that will be used to undertake transactions at all Bank of Ghana licensed and regulated financial institutions"
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2026/01/SUPERVISORY-GUIDANCE-NOTE-2025.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Supervisory Guidance Note on the Use of the Ghana Card (2025)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9aed49a589f6.pdf.gz",
+     "quote": "Ghanaians abroad who do not have access to attain/acquire Ghana Card in their country of residence should be allowed to use their passports to access banking transactions"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Card payments on your own site through Paystack (a Stripe company). Stripe lists this country under its extended network. (6) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. (7) Local official channel: Payments from non-residents must go into a Foreign Exchange Account (FEA) at a licensed bank (Bank of Ghana notice) (P1/P2). Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Ghana: listed in Stripe's extended network (via Paystack) (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/08/NOTICE-NO.-BG-GOV-SEC-2025-26-NOTICE-ON-UNAUTHORISED-FOREIGN-EXCHANGE-TRANSACTIONS.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/26 — Unauthorised Foreign Exchange Transactions",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-9fb309b46a41.pdf.gz",
+     "quote": "Foreign currency invoices may be issued only to expatriates (foreign nationals) or non-residents and proceeds from such transactions shall be paid into a Foreign Exchange Account (FEA) with any licensed bank."
+    },
+    {
+     "url": "https://www.bog.gov.gh/wp-content/uploads/2025/05/NOTICE-NO.-BG-GOV-SEC-2025-14-NOTICE-ON-FOREIGN-EXCHANGE-WITHDRAWALS.pdf",
+     "publisher": "Bank of Ghana",
+     "title": "Notice No. BG/GOV/SEC/2025/14 — Foreign Exchange Withdrawals",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-e5eb9a9a2c87.pdf.gz",
+     "quote": "Over-the-counter (OTC) cash withdrawals in foreign currency from Foreign Exchange Accounts (FEA) and Foreign Currency Accounts (FCA) are allowed."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-18",
+ "completed": "2026-10-18",
+ "open_questions": [
+  "VAT Act 1151: does a provider whose services are ALL used abroad (s.42(4) 'considered as exported', not zero-rated in Second Schedule) still have to register under s.6(1)(a), and can it recover input VAT? Needs GRA practice note.",
+  "BoG Notice BG/GOV/SEC/2016/03 (repatriation rules) not found online; how it applies to individual service exporters (deadline) unconfirmed.",
+  "2026 income-tax bands 'took effect September 1st, 2026' (Act 1178) - bands for Jan-Aug 2026 not captured.",
+  "Payoneer Ghana evidence is secondary only (2 domains); fees unverified.",
+  "Whether an individual trading under their own name must register a business name (Act 151) not verified from statute.",
+  "Consumer Protection Bill pending; re-check status."
+ ]
+}

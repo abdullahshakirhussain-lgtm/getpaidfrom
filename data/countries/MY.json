@@ -1,0 +1,588 @@
+{
+ "code": "MY",
+ "un_name": "Malaysia",
+ "m49_name": "Malaysia",
+ "iso3": "MYS",
+ "m49": "458",
+ "region": "Asia",
+ "sub_region": "South-eastern Asia",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "17-09-1957",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency MYR; footnote [1]: Developers in these countries will be paid in USD or EUR, depending on their location.",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive_local",
+   "label": "Send, receive, and withdraw in local currency",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes. Malaysia's Foreign Exchange Policy (BNM) is liberal for current transactions. The export-proceeds conversion rule was removed, so resident exporters manage conversion to suit their cash flow. Goods export proceeds must still be repatriated within six months, extendable in exceptional circumstances. Resident individuals may freely invest foreign-currency funds sourced from abroad (other than goods export proceeds).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.theedgemarkets.com/article/removal-export-conversion-rule-among-five-liberalisation-measures-announced-today-which",
+     "publisher": "The Edge Malaysia",
+     "title": "Removal of export conversion rule among five liberalisation measures",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2e72f7426bcd.html.gz",
+     "quote": "This means that resident exporters may now manage the conversion of export proceeds according to their foreign currency cash flow needs."
+    },
+    {
+     "url": "https://www.theedgemarkets.com/article/removal-export-conversion-rule-among-five-liberalisation-measures-announced-today-which",
+     "publisher": "The Edge Malaysia",
+     "title": "Removal of export conversion rule among five liberalisation measures",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-2e72f7426bcd.html.gz",
+     "quote": "BNM also said that resident exporters can now extend the period of repatriation of export proceeds by more than six months under exceptional circumstances."
+    },
+    {
+     "url": "https://www.rhbgroup.com/others/highlights/foreign-exchange-administration-rules/index.html",
+     "publisher": "RHB Bank (summarising BNM FEP Notices)",
+     "title": "Foreign Exchange Policy (FEP)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-72640da2286f.html.gz",
+     "quote": "sourced from: outside Malaysia except proceeds of Export of Goods ; or an approved Borrowing in FC in accordance with Part A of Notice 2;"
+    }
+   ],
+   "notes": "Repatriation rule text refers to export of goods; services not separately addressed in captured sources."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Yes. Individuals, resident or non-resident, are free to open foreign-currency accounts (FCAs); banks classify individuals' FCAs as Investment FCAs under BNM's Foreign Exchange Policy Notices (Hong Leong Bank FEP fact sheet). Limits apply to converting ringgit into foreign currency for investment (see notes).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.rhbgroup.com/others/highlights/foreign-exchange-administration-rules/index.html",
+     "publisher": "RHB Bank (summarising BNM FEP Notices)",
+     "title": "Foreign Exchange Policy (FEP)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-72640da2286f.html.gz",
+     "quote": "Ringgit into FC; Trade Foreign Currency Account (FCA); and Swapping of a Ringgit-denominated financial asset in Malaysia for a financial asset in Labuan Entity or outside Malaysia.",
+     "retrieved": "2026-10-22"
+    },
+    {
+     "url": "https://hlb.com.my/FEN-FCA",
+     "publisher": "Hong Leong Bank (FEP fact sheet)",
+     "title": "Foreign Exchange Policy Notices Fact Sheet — Foreign Currency Account (Individuals)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8dc322e62e54.pdf.gz",
+     "quote": "Individuals are free to open Foreign Currency Accounts (“FCA”) with Hong Leong Bank (HLB).",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://hlb.com.my/FEN-FCA",
+     "publisher": "Hong Leong Bank (FEP fact sheet)",
+     "title": "Foreign Exchange Policy Notices Fact Sheet — Foreign Currency Account (Individuals)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-8dc322e62e54.pdf.gz",
+     "quote": "The Bank classifies all FCAs belonging to individual customers and Multi-Currency Feature Enabled accounts as Investment FCAs.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "Ringgit-funded foreign-currency investment by resident individuals is capped (reported RM1 million a year in a 2020 HSBC notice; not captured)."
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Malaysia (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Malaysia is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Malaysia is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Several global platforms serve Malaysia. Local gateways (e.g. iPay88, Billplz) not captured. Local gateway onboarding for sole proprietors not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes, with a restriction note. Malaysia is on PayPal's Payouts list as 'Send, receive, and withdraw in local currency' (PayPal flags a restriction note for Malaysia).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Malaysia is listed on PayPal's Payouts country list as 'Send, receive, and withdraw in local currency' with a 'see PayPal restriction note' flag (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Content of the restriction note not captured."
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Malaysia IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Malaysia appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship is registered with SSM (Companies Commission of Malaysia), online via EzBiz or at a counter. The fee is RM30 a year using your personal name, or RM60 a year with a trade name (which needs Registrar approval). Registration runs 1–5 years per application. Sole proprietorships are generally for Malaysian citizens/PRs.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ssm.com.my/Documents/guidelines_for_registration_of_new_business_05062018_0.pdf",
+     "publisher": "SSM",
+     "title": "Suruhanjaya Syarikat Malaysia (SSM) — Guidelines for registration of new business",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-3951000d44f6.pdf.gz",
+     "quote": "Sole proprietorship using a personal name as stated in the identity card – RM30.00 2."
+    },
+    {
+     "url": "https://www.ssm.com.my/Documents/guidelines_for_registration_of_new_business_05062018_0.pdf",
+     "publisher": "SSM",
+     "title": "Suruhanjaya Syarikat Malaysia (SSM) — Guidelines for registration of new business",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-3951000d44f6.pdf.gz",
+     "quote": "Sole proprietorship or partnership using trade name - RM60.00 3."
+    },
+    {
+     "url": "https://www.ssm.com.my/Documents/guidelines_for_registration_of_new_business_05062018_0.pdf",
+     "publisher": "SSM",
+     "title": "Suruhanjaya Syarikat Malaysia (SSM) — Guidelines for registration of new business",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-3951000d44f6.pdf.gz",
+     "quote": "A new business registration may valid for a period of one (1) year and does not exceed five (5) years on each registration."
+    }
+   ],
+   "notes": "SSM guideline dated 2018; confirm current fees on EzBiz. Citizen/PR restriction from search summary."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Malaysia to the OECD: \"Tax Identification Number (TIN) or functional equivalent In Malaysia, both individuals and entities who are registered taxpayers with the Inland Revenue Board of Malaysia (IRBM) are assigned with a Tax Identification Number (TIN) known as “Nombor Pengenalan Cukai”. TIN will be issued to all Malaysian citizens who attained the age of 18 years old and above.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/malaysia-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Malaysia's tax administration)",
+     "title": "Malaysia — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-672fb717a7ad.pdf.gz",
+     "quote": "Tax Identification Number (TIN) or functional equivalent In Malaysia, both individuals and entities who are registered taxpayers with the Inland Revenue Board of Malaysia (IRBM) are assigned with a Tax Identification Number (TIN) known as “Nombor Pengenalan Cukai”. TIN will be issued to all Malaysian citizens who attained the age of 18 years old and above.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Malaysia taxes income derived from Malaysia. Work done while physically in Malaysia counts as Malaysian-source even if the client or employer is abroad and pay goes to a foreign account. So a freelancer working from Malaysia for foreign clients is taxable at resident rates (0% to 30%). Foreign-sourced income received by resident individuals is exempt (from 2022, originally to 31 Dec 2026, reportedly extended to 2036), except income via a Malaysian partnership.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://ringgitplus.com/en/blog/tax/how-much-tax-you-pay-when-you-work-for-an-overseas-employer.html",
+     "publisher": "RinggitPlus",
+     "title": "How much tax you pay when you work for an overseas employer",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-9a31132d6308.html.gz",
+     "quote": "If you live in Shah Alam or Penang and work from home for a company in New York, LHDN treats your salary as income from Malaysia."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/malaysia/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Malaysia - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-114ae93d7408.html.gz",
+     "quote": "Resident individuals are also subject to tax on foreign-sourced income received in Malaysia ( see the Income determination section )."
+    },
+    {
+     "url": "https://kpmg.com/my/en/insights/2022/07/exemption-orders-for-foreign-sourced-income-received-in-malaysia.html",
+     "publisher": "KPMG Malaysia",
+     "title": "Exemption Orders for Foreign Sourced Income Received in Malaysia (Jul 2022)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-12ec9d562fe4.html.gz",
+     "quote": "The following FSI which is brought into Malaysia from 1 January 2022 to 31 December 2026 will remain exempt from Malaysian income tax: Item Category of Resident Taxpayers Type of Foreign Income Exempted (a) Individuals All classes of income under Section 4 of the Income Tax Act, 1967 (excluding a source of income from a partnership business in Malaysia)"
+    }
+   ],
+   "notes": "TRAP: the FSI exemption does NOT cover remote work performed in Malaysia. 2036 extension single-sourced (RinggitPlus)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "No VAT/GST. Malaysia levies Sales and Service Tax (SST): service tax is generally 8% on taxable services (6% for some sectors such as F&B, telecoms, construction, healthcare, education), and sales tax on goods is 5% or 10%. A service provider registers once annual taxable turnover exceeds RM500,000 for its category. The scope expanded from 1 July 2025. Whether a given freelance service is a 'taxable service' depends on the prescribed list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/malaysia/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Malaysia - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-7c8a816bd6b1.html.gz",
+     "quote": "The rate of service tax is generally at 8% for all taxable services, except certain services, such a food and beverage services, construction services, telecommunication services, private healthcare services, and education services, which are subject to a service tax rate of 6%."
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/apac/malaysia",
+     "publisher": "Kintsugi",
+     "title": "Malaysia SST Guide for 2026",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-0aa446614079.html.gz",
+     "quote": "A manufacturer registers for sales tax once annual taxable turnover exceeds RM500,000, and a service provider registers for service tax at the same threshold for its category."
+    },
+    {
+     "url": "https://www.grantthornton.com.my/insights/Tax/revision-of-sales-tax-rates-and-expansion-of-scope-for-service-tax/",
+     "publisher": "Grant Thornton Malaysia",
+     "title": "Revision of sales tax rates and expansion of scope for service tax (2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-409fd8eeaf41.html.gz",
+     "quote": "Exemptions will be granted for micro and small enterprises with annual turnover less than RM500,000."
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The Personal Data Protection Act 2010, as amended in 2024, applies in phases. From 1 April 2025, 'data user' became 'data controller', processors gained direct security duties, and the cross-border transfer whitelist was removed. From 1 June 2025, data controllers and processors must appoint a data protection officer and notify the Commissioner of breaches, plus data subjects where significant harm is likely; data portability also applies.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.dfdl.com/insights/legal-and-tax-updates/malaysia-implementation-of-the-personal-data-protection-amendment-act-2024/",
+     "publisher": "DFDL",
+     "title": "Malaysia: Implementation of the Personal Data Protection (Amendment) Act 2024",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f10421723f46.html.gz",
+     "quote": "Third phase Sections 6 and 9 of the PDPA Amendment Act to be effective on 1 June 2025 (a) Mandatory appointment of data protection officer Both data controllers and data processors must appoint a data protection officer to oversee compliance with the PDPA."
+    },
+    {
+     "url": "https://www.dfdl.com/insights/legal-and-tax-updates/malaysia-implementation-of-the-personal-data-protection-amendment-act-2024/",
+     "publisher": "DFDL",
+     "title": "Malaysia: Implementation of the PDPA Amendment Act 2024",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f10421723f46.html.gz",
+     "quote": "(b) Mandatory data breach notification Data controllers are required to notify the Personal Data Commissioner (“ Commissioner ”) of personal data breaches."
+    },
+    {
+     "url": "https://datamatters.sidley.com/2024/08/07/important-changes-to-malaysias-data-protection-laws/",
+     "publisher": "Sidley Austin — Data Matters",
+     "title": "Important Changes to Malaysia’s Data Protection Laws (7 Aug 2024)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-348daa9fbfe6.html.gz",
+     "quote": "Mandatory obligation to appoint a Data Protection Officer (DPO): Data controllers and processors must appoint at least one DPO, and data controllers must notify the appointment to the Commissioner."
+    }
+   ],
+   "notes": "PDPA applies to commercial transactions; registration with the Commissioner only for prescribed classes of data users."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Malaysia. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "458,Malaysia,Legislation,Legislation,Legislation,Legislation,Legislation,0,0,1,1,0,0,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific tax incentive captured. DE Rantau is a digital-nomad pass, not a tax exemption for residents.",
+   "status": "unverified",
+   "note": "Not researched in depth on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "MyKad (national identity card); SSM personal-name registration uses the name as stated in the identity card. Stripe's official KYC list for Malaysia accepts: Kad Pengenalan / MyKad (Identity Card) Pasport (Passport).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.ssm.com.my/Documents/guidelines_for_registration_of_new_business_05062018_0.pdf",
+     "publisher": "SSM",
+     "title": "Suruhanjaya Syarikat Malaysia (SSM) — Guidelines for registration of new business",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-3951000d44f6.pdf.gz",
+     "quote": "Sole proprietorship using a personal name as stated in the identity card – RM30.00 2."
+    },
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=MY",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Malaysia",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-64925e1869ac.html.gz",
+     "quote": "Acceptable forms of identification: Kad Pengenalan / MyKad (Identity Card) Pasport (Passport)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw in local currency'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Malaysia: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

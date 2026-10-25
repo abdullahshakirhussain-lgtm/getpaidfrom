@@ -1,0 +1,547 @@
+{
+ "code": "CG",
+ "un_name": "Congo",
+ "m49_name": "Congo",
+ "iso3": "COG",
+ "m49": "178",
+ "region": "Africa",
+ "sub_region": "Sub-Saharan Africa",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "20-09-1960",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "not_listed",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "not_listed",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "not_listed",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "not_listed",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "not_listed",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "unverified",
+   "reason": "Whop's payout list contains exactly one Congo entry, 'Republic of the Congo'. That string is also a substring of 'Democratic Republic of the Congo' (CD), and Whop lists no other Congo, so the page alone does not prove which member is meant. The UN uses the short name 'Congo' for CG; no official source fetched so far gives 'Republic of the Congo' with its code (EU style guide renders via JavaScript; UNCTAD PDF did not respond).",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "not_listed",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under CEMAC exchange control (Regulation 02/18/CEMAC/UMAC/CM). Service-export receipts must be collected and repatriated by the exporter through its domiciliary bank via the BEAC (art. 70). Service transactions of FCFA 5m or more must be domiciled with a CEMAC credit institution (art. 68) and backed by a contract, purchase order or invoice (art. 69). Foreign currency received by banks is surrendered to the BEAC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM portant réglementation des changes",
+     "title": "Règlement 02/18/CEMAC, art. 70",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 70. Les recettes d'exportation des services sont recouvrées et rapatriées par I'exportateur à travers sa banque domiciliataire par I'entremise de la Banque Centrale."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 68",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 68. Les transactions avec I'extérieur liées aux services d'un montant égal ou supérieur à 5 millions de Francs CFA sont domiciliées auprès d'un établissement de crédit de la CEMAC."
+    }
+   ],
+   "notes": "OCR text of the BEAC PDF (e.g. 'I'extérieur'); quotes copied as extracted. No specific repatriation deadline for services found (goods: 150 days). Later BEAC instructions not checked. Applies in all six CEMAC states."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "No. Opening a foreign-currency account within CEMAC for a resident is not authorised (art. 43). Only resident legal persons may be authorised by the BEAC. Resident individuals' accounts abroad must be declared to the BEAC (art. 42).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 43",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 43. L'ouverture d'un compte en devises dans la CEMAC au profit d'un résident n'est pas autorisée."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 42",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 42. Les comptes des personnes physiques résidentes ouverts à l'étranger sont déclarés à la Banque Centrale."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Congo (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Dodo Payments (sellers); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Congo is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Congo is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established. MTN MoMo and Airtel Money are the mobile-money operators; no gateway that onboards individuals or sole traders for online card or mobile-money acceptance was sourced."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Unclear. Congo-Brazzaville is listed as a PayPal market but is not on the PayPal Payouts list. No source on receiving or withdrawing was found.",
+   "status": "unverified",
+   "note": "Searched 2026-10-21 for PayPal withdrawal in Congo-Brazzaville; no PayPal help page or local testimony captured.",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Republic of the Congo is absent from PayPal's Payouts country list (data/sources/paypal_payouts.json), though listed as a PayPal market ('Congo - Brazzaville', paypal_worldwide.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: the Republic of the Congo is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed. Under CEMAC rules, individuals must declare foreign accounts to the BEAC (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include the Republic of the Congo.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Businesses, including individual traders, register through the ACPCE (Agence congolaise pour la création des entreprises). It succeeded the Centre de formalités des entreprises as a one-stop shop where all declarations are made on one document. Since 2025 it also offers online creation for Congolese and foreigners. Fees and timelines were not confirmed from an official schedule.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://fr.allafrica.com/stories/202604260063.html",
+     "publisher": "AllAfrica (Les Dépêches de Brazzaville)",
+     "title": "Congo-Brazzaville: ACPCE - Le budget exercice 2026 s'élève à plus de trois milliards FCFA (25 Apr 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-80a9e7b3ce37.html.gz",
+     "quote": "Créée sur les cendres du Centre de formalités des entreprises, l'ACPCE a pour mission de faciliter et de simplifier les formalités administratives des entreprises en ce qui concerne la création des entreprises, permettant ainsi aux entrepreneurs d'effectuer en lieu unique et sur un même document les déclarations auxquelles ils sont tenus par les lois et règlements."
+    },
+    {
+     "url": "https://fr.allafrica.com/stories/202604260063.html",
+     "publisher": "AllAfrica (Les Dépêches de Brazzaville)",
+     "title": "Congo-Brazzaville: ACPCE - Le budget exercice 2026 (25 Apr 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-80a9e7b3ce37.html.gz",
+     "quote": "« L'autre résultat, c'est la possibilité qui est offerte aux Congolais et aux étrangers de créer leur entreprise en ligne partout où ils se trouvent », a-t-il relevé."
+    },
+    {
+     "url": "https://cio-mag.com/congo-un-guichet-unique-numerique-va-reduire-les-delais-et-cout-de-creation-dune-entreprise",
+     "publisher": "CIO Mag",
+     "title": "Congo : un guichet unique numérique va réduire les délais et coût de création des entreprises (undated)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-eb0870e4b8da.html.gz",
+     "quote": "« Nous avons mis en place un guichet unique ou se déroule toutes les opérations de création d’entreprise, et tout ce qui concerne les autorisations temporaires d’exercice », a-t-elle ajouté."
+    }
+   ],
+   "notes": "Blog claims (iambeezy: FCFA 15,000–50,000, ~48h) not relied on. CIO Mag article undated (c. 2021). OHADA entreprenant status also available in principle (AUDCG art. 30)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "The NIU (Numéro d'Identification Unique), issued by the Direction générale des impôts et des domaines (DGID). A person can only claim VAT-registered status after being registered and given a NIU; the tax administration publishes NIUs online. The NIU must appear on invoices.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://sgg.cg/JO/2026/congo-jo-2026-2-4.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 2 (5 Jan 2026) — Loi n° 41-2025 (loi de finances 2026)",
+     "title": "Loi de finances 2026 (annex)",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-8299349a39cc.pdf.gz",
+     "quote": "le numéro d’identification unique (NIU) délivré par la direction générale des impôts et des domaines"
+    },
+    {
+     "url": "https://www.sgg.cg/JO/2023/congo-jo-2023-06-sp.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 6-2023 — Loi n° 39-2023 (loi de finances 2024)",
+     "title": "Loi TVA as restated in LF 2024, art. 30",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-7fb393582473.pdf.gz",
+     "quote": "Article 30 : 1) Un redevable ne peut se prévaloir de la qualité d’assujetti qu’après enregistrement et attribution d’un numéro d’identiﬁ cation unique (NIU) ;"
+    }
+   ],
+   "notes": "Online NIU procedure for individuals not sourced. LF2024 PDF text uses an 'ﬁ' ligature; quote copied as extracted."
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Individuals domiciled in the Republic of the Congo are taxed on worldwide income (PwC). Treaties may exempt some foreign income, which is still used to set the rate. Small businesses with declared annual turnover under FCFA 100m fall under the flat-rate regime: two registers only, taxed by the Impôt Global Forfaitaire (IGF) instead of income or profit tax.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-congo/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Congo, Republic of - Individual - Taxes on personal income",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-049826ea6f98.html.gz",
+     "quote": "An individual domiciled in the Republic of Congo, whether of Congolese or foreign nationality, is liable for personal income tax (PIT) on one’s worldwide income."
+    },
+    {
+     "url": "https://sgg.cg/JO/2026/congo-jo-2026-2-4.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 2 (5 Jan 2026) — Loi n° 41-2025 (loi de finances 2026)",
+     "title": "Loi de finances 2026 (budget-execution annex)",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-8299349a39cc.pdf.gz",
+     "quote": "le chiffre d’affaires maximum annuel du vendeur ou fournisseur est inférieur à 100 millions de FCFA tel que déclaré par le contribuable"
+    },
+    {
+     "url": "https://sgg.cg/JO/2026/congo-jo-2026-2-4.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 2 (5 Jan 2026) — Loi n° 41-2025 (loi de finances 2026)",
+     "title": "Loi de finances 2026 (budget-execution annex)",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-8299349a39cc.pdf.gz",
+     "quote": "l’impôt sur le revenu ou l’impôt sur le bénéfice est l’impôt global forfaitaire (IGF)."
+    }
+   ],
+   "notes": "The 100m forfait definition sits in the LF annex on public-spending execution (supplier tax regimes), not the CGI article itself; the same wording appears in LF2024. IGF rate not captured; older CGI text cites lower ceilings (30m goods / 10m services) — superseded? not confirmed against current CGI."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The general VAT rate is 18%, plus a 5% surtax on the VAT amount, giving 18.9% overall; a reduced 5% rate applies to listed goods. Natural persons become liable from FCFA 100m turnover excluding VAT; legal persons are liable regardless of turnover. Zero rate covers exports of goods with a customs declaration and international transport; no zero rate for exported services was found. Since 2025, certified e-invoicing (SFEC) is mandatory for VAT-registered businesses.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sgg.cg/JO/2023/congo-jo-2023-06-sp.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 6-2023 — Loi n° 39-2023 (loi de finances 2024)",
+     "title": "Loi TVA as restated in LF 2024, art. 5",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-7fb393582473.pdf.gz",
+     "quote": "Les personnes physiques sont assujetties à la TVA lorsque leur chiffre d’affaires hors taxes est supérieur ou égal à 100 000 000 de francs."
+    },
+    {
+     "url": "https://www.sgg.cg/JO/2023/congo-jo-2023-06-sp.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 6-2023 — Loi n° 39-2023 (loi de finances 2024)",
+     "title": "Loi TVA as restated in LF 2024 — rates",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-7fb393582473.pdf.gz",
+     "quote": "a) Taux général : 18 % applicable à toutes les opérations taxables à l’exclusion des opérations soumises aux taux réduit et zéro ;"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-congo/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Congo, Republic of - Corporate - Other taxes",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-94bb40539337.html.gz",
+     "quote": "Therefore, the VAT rate is globally 18.9%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-congo/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Congo, Republic of - Corporate - Other taxes",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-94bb40539337.html.gz",
+     "quote": "A reduced VAT at the rate of 5% is levied on some listed products, gas oil products, and lubricants imported from border countries by forestry companies registered in the Congo."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/republic-of-congo/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Congo, Republic of - Corporate - Other taxes",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-94bb40539337.html.gz",
+     "quote": "VAT administration The 2025 Finance Law establishes the Certified Electronic Invoicing System (SFEC) for VAT management."
+    },
+    {
+     "url": "https://www.sgg.cg/JO/2023/congo-jo-2023-06-sp.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 6-2023 — Loi n° 39-2023 (loi de finances 2024)",
+     "title": "Loi TVA as restated in LF 2024 — zero rate",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-7fb393582473.pdf.gz",
+     "quote": "b) Taux zéro (0 %), applicable aux exportations des produits taxables ayant fait l’objet de déclaration"
+    },
+    {
+     "url": "https://sgg.cg/JO/2026/congo-jo-2026-2-4.pdf",
+     "publisher": "Journal officiel de la République du Congo, éd. spéciale n° 2 (5 Jan 2026) — Loi n° 41-2025 (loi de finances 2026)",
+     "title": "Loi de finances 2026 — VAT amendments",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-8299349a39cc.pdf.gz",
+     "quote": "22.- Modification de la loi TVA 12-97 du 12 mai 1997 telle que harmonisée avec la Directive n° 11/22-CEMAC- UEAC-010A-CM-38 relative à la TVA (articles 1, 7, 31, 34 bis et 34 ter)."
+    }
+   ],
+   "notes": "LF2026 amends VAT arts 1, 7, 31, 34 bis/ter only, so the art. 5 threshold (100m) appears unchanged. TRAP: calculators/blogs give 30m or 90m thresholds. Export-of-services treatment not confirmed."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 29-2019 of 10 Oct 2019 on personal data protection applies. Processing must be declared to the commission (art. 33, with exceptions). Transfers abroad require adequate protection in the destination country, and the commission must be informed beforehand (art. 23). Fines run from FCFA 1m to 100m. The National Personal Data Protection Commission was approved in July 2024 and established by January 2026.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.sgg.cg/JO/2019/congo-jo-2019-45.pdf",
+     "publisher": "Journal officiel de la République du Congo n° 45-2019 — Loi n° 29-2019 portant protection des données à caractère personnel",
+     "title": "Loi n° 29-2019, art. 33",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-64e572069788.pdf.gz",
+     "quote": "Article 33 : En dehors des cas prévus aux articles 31, 35 et 38 de la présente loi, les traitements de données à caractère personnel font l’objet d’une déclaration auprès de la commission."
+    },
+    {
+     "url": "https://www.sgg.cg/JO/2019/congo-jo-2019-45.pdf",
+     "publisher": "Journal officiel de la République du Congo n° 45-2019 — Loi n° 29-2019 portant protection des données à caractère personnel",
+     "title": "Loi n° 29-2019, art. 23",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-64e572069788.pdf.gz",
+     "quote": "Le responsable du traitement informe préalablement la commission de tout transfert de données à caractère personnel vers un pays tiers."
+    },
+    {
+     "url": "https://itweb.africa/article/congo-brazzaville-intros-data-protection-commission/nWJadvbNzxkvbjO1",
+     "publisher": "ITWeb Africa",
+     "title": "Congo-Brazzaville intros data protection commission (22 Jan 2026)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-6eb58e69f7a3.html.gz",
+     "quote": "Congo-Brazzaville has established National Personal Data Protection Commission in a bid to increase vigilance and regulation amidst digital transformation."
+    },
+    {
+     "url": "https://www.wearetech.africa/fr/fils/actualites/tech/le-congo-renforce-sa-legislation-sur-la-protection-des-donnees-personnelles",
+     "publisher": "We Are Tech Africa",
+     "title": "Le Congo renforce sa législation sur la protection des données personnelles (4 Jul 2024)",
+     "retrieved": "2026-10-21",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-21-d2fa6b448de2.html.gz",
+     "quote": "L’avant-projet de loi présenté par le ministre des Postes, des Télécommunications et de l'Economie numérique, Léon-Juste Ibombo (photo), a été approuvé en Conseil des ministres le mercredi 3 juillet."
+    }
+   ],
+   "notes": "Commission-creation law number/date not captured; declaration process in practice unknown."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "Law 37-2019 of 12 Dec 2019 on electronic transactions exists and is cited as a legal basis in 2025 decrees, but its text (including any withdrawal right) was not found. One index reportedly flags it as unpublished in the Journal officiel. The CEMAC consumer-protection directive (02/19) also applies.",
+   "status": "unverified",
+   "note": "Searched 2026-10-21 'sgg.cg \"transactions électroniques\" loi' and e-commerce/rétractation queries; only citations of Law 37-2019 found, not its text.",
+   "sources": [
+    {
+     "url": "https://sgg.cg/JO/2026/congo-jo-2026-16-2.pdf",
+     "publisher": "Journal officiel de la République du Congo (2026)",
+     "title": "Decree preamble citing Law 37-2019",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-21-d278470a66cc.pdf.gz",
+     "quote": "Vu la loi n° 37-2019 du 12 décembre 2019 relative aux transactions électroniques ;"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was confirmed. The IGF flat-rate regime below FCFA 100m (L3) is the main simplification. A blog claims newly formalised businesses get a two-year exemption from patente and profit tax; this was not verified against the finance law.",
+   "status": "unverified",
+   "note": "Only a promotional blog (iambeezy) mentions a formalisation exemption; finance-law text not located for it on 2026-10-21.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Carte nationale d'identité (national identity card) (Wikipedia, compulsory-ID list). Compulsory at the age of 18. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Congo, Republic of the Carte nationale d'identité (national identity card)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; platforms that pay out through PayPal Payouts cannot pay PayPal accounts here (not on PayPal's Payouts list, see P4 for ordinary PayPal receiving); Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed). The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Congo: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Congo: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Congo: not on Upwork's restricted list (data/sources/upwork.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

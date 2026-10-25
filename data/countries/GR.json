@@ -1,0 +1,635 @@
+{
+ "code": "GR",
+ "un_name": "Greece",
+ "m49_name": "Greece",
+ "iso3": "GRC",
+ "m49": "300",
+ "region": "Europe",
+ "sub_region": "Southern Europe",
+ "ldc": false,
+ "lldc": false,
+ "sids": false,
+ "un_admitted": "25-10-1945",
+ "built_at": "2026-10-25T10:16:13+00:00",
+ "research_status": "complete",
+ "platforms": {
+  "dodo.accepted": {
+   "status": "seller_accepted",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Eligibility is decided by the country that issued your government ID (every director/owner for companies)."
+  },
+  "dodo.grandfathered": {
+   "status": "not_listed",
+   "source_url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+   "retrieved_at": "2026-10-16T18:18:59+00:00",
+   "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+   "evidence": "official",
+   "caveat": "Only merchants already onboarded before the country was prohibited may continue (enhanced monitoring); no new sign-ups."
+  },
+  "etsy.eligible": {
+   "status": "seller_payments_eligible",
+   "source_url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+   "retrieved_at": "2026-10-16T18:21:04+00:00",
+   "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+   "evidence": "official",
+   "caveat": "Countries marked * on Etsy's page accept Etsy Payments through a Payoneer Payment Account."
+  },
+  "gplay.developer_registration": {
+   "status": "developer_registration",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official"
+  },
+  "gplay.merchant_registration": {
+   "status": "merchant_registration",
+   "label": "default currency EUR",
+   "source_url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+   "retrieved_at": "2026-10-17T16:04:52+00:00",
+   "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+   "evidence": "official",
+   "caveat": "Merchant registration is required to sell paid apps, in-app purchases or subscriptions."
+  },
+  "lemon.bank_payouts": {
+   "status": "payout_supported_bank",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal payouts are documented separately ('200+ countries' per PayPal's list) and are not confirmed per country here. Lemon Squeezy is migrating merchants to Stripe Managed Payments."
+  },
+  "lemon.purchases_blocked": {
+   "status": "not_excluded",
+   "source_url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+   "retrieved_at": "2026-10-17T04:38:29+00:00",
+   "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+   "evidence": "official"
+  },
+  "paddle.unsupported": {
+   "status": "not_excluded",
+   "source_url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+   "retrieved_at": "2026-10-16T18:21:26+00:00",
+   "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+   "evidence": "official",
+   "caveat": "Paddle states it 'works with software businesses anywhere in the world with the exception of' these countries. Software only; every seller and product is reviewed before sales are enabled."
+  },
+  "paypal_payouts.eligible": {
+   "status": "paypal_payouts_send_receive_local",
+   "label": "Send, receive, and withdraw in local currency",
+   "source_url": "https://developer.paypal.com/payouts/supported-features",
+   "retrieved_at": "2026-10-17T03:52:13+00:00",
+   "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+   "evidence": "official",
+   "caveat": "PayPal Payouts is how many platforms (e.g. creator platforms) send earnings to PayPal accounts. A country missing here may still have PayPal accounts that can buy or send."
+  },
+  "paypal_worldwide.markets": {
+   "status": "paypal_market_listed",
+   "source_url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+   "retrieved_at": "2026-10-17T03:52:32+00:00",
+   "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+   "evidence": "official",
+   "caveat": "Listed = PayPal operates a site for this market. It does NOT say whether accounts there can receive money."
+  },
+  "polar.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+   "retrieved_at": "2026-10-16T18:18:58+00:00",
+   "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+   "evidence": "official",
+   "caveat": "Payouts run on Stripe Connect Express; individuals need Stripe Express to support the 'individual' business type in your country (check per Polar's FAQ)."
+  },
+  "stripe.available": {
+   "status": "merchant_signup_available",
+   "source_url": "https://stripe.com/global",
+   "retrieved_at": "2026-10-16T18:18:57+00:00",
+   "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+   "evidence": "official"
+  },
+  "upwork.restricted": {
+   "status": "not_excluded",
+   "source_url": "https://support.upwork.com/hc/en-us/articles/211067778",
+   "retrieved_at": "2026-10-25T03:36:38+00:00",
+   "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+   "evidence": "official",
+   "caveat": "Upwork: 'We support a thriving network of global freelancers in over 180 countries, but we're not available everywhere.' Also excluded: Crimea, DPR, LPR, individual nationals of Cuba, SDN-listed persons, and 'any other country or region restricted by law (this changes occasionally)'. Hand-curated from the help article (not an automated collector)."
+  },
+  "whop.payouts": {
+   "status": "payout_supported",
+   "source_url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+   "retrieved_at": "2026-10-16T18:19:00+00:00",
+   "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+   "evidence": "official",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen."
+  },
+  "youtube_ypp.signup_areas": {
+   "status": "ypp_signup_available",
+   "source_url": "https://support.google.com/youtube/answer/7101720?hl=en",
+   "retrieved_at": "2026-10-17T04:59:40+00:00",
+   "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+   "evidence": "official",
+   "caveat": "Availability is by the channel's country. The page also carries a 10 March 2022 note pausing new Russian AdSense/AdMob/Ad Manager accounts."
+  }
+ },
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No. As an EU member state, Greece applies Article 63 TFEU, which prohibits restrictions on capital movements and payments between EU countries and with non-EU countries. Banks still apply AML/KYC checks and may ask for the source of funds.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "Article 63 TFEU prohibits all restrictions on the movement of capital and payments between EU countries, as well as between EU and non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Very likely yes: Article 63 TFEU removes capital-movement restrictions, and EU banks and e-money institutions commonly offer foreign-currency or multi-currency accounts. No Greece-specific source on account rules was captured.",
+   "status": "unverified",
+   "note": "Only the general EU capital-movement source captured; no national bank/regulator source on FCY accounts (2026-10-23).",
+   "sources": [
+    {
+     "url": "https://www.europarl.europa.eu/factsheets/en/sheet/39/free-movement-of-capital",
+     "publisher": "European Parliament",
+     "title": "Free movement of capital (European Parliament Fact Sheet)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-1068f78eac67.html.gz",
+     "quote": "ensuring that payments in relation to those capital movements can be executed without restrictions, so that individuals and businesses can use, invest and/or save their money or financial assets anywhere within the EU as well as in non-EU countries."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Greece (automated collector snapshots, Oct 2026). Available: Stripe (merchant sign-up); Paddle (not on its exclusion list; software sellers only, each seller reviewed); Lemon Squeezy (bank payouts); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy (seller payments); Google Play (developer registration); YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Greece is listed among Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Greece is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Local gateways not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "Yes. Greece is on PayPal's Payouts list as 'Send, receive, and withdraw in local currency' and is a listed PayPal market.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "PayPal Developer",
+     "title": "Payouts — supported features (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote": "Greece is listed on PayPal's Payouts country list as 'Send, receive, and withdraw in local currency' (data/sources/paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Greece IS on Wise's list of countries whose residents can hold money. Payoneer: not confirmed from a captured source.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "Greece appears in Wise's list of countries/territories whose residents can hold money.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "A sole proprietorship can be started fully online through gov.gr/myAADE with Taxisnet credentials. Prior GEMI or eEFKA sign-up is not needed. Conditions for the online service: an active Greek tax number (AFM), age over 18, a registered seat in Greece, and no existing sole proprietorship. You provide the office details (ATAK or e-lease number), bookkeeping category, VAT status and activity code (KAD). The result is a Business Commencement Certificate, after which you register with eEFKA as a non-salaried professional (done ex officio if you skip it). TRAP: the online service is limited to Greek or other EU nationals; non-EU residents need another route (tax office, not captured).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.gov.gr/en/services/1000997/enarxe-atomikes-epikheireses",
+     "publisher": "Gov.gr / Independent Authority for Public Revenue (AADE)",
+     "title": "Start a sole proprietorship (gov.gr, updated 10 March 2026)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-7ab47d9e2999.txt.gz",
+     "quote": "you can digitally start your own business, without having to sign up in advance to the General Commercial Registry (GEMI) and the National Social Insurance Agency (eEFKA).",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.gov.gr/en/services/1000997/enarxe-atomikes-epikheireses",
+     "publisher": "Gov.gr / Independent Authority for Public Revenue (AADE)",
+     "title": "Start a sole proprietorship (gov.gr, updated 10 March 2026)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-7ab47d9e2999.txt.gz",
+     "quote": "you must be a Greek national or a national of another EU member state, and be over 18",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.gov.gr/en/services/1000997/enarxe-atomikes-epikheireses",
+     "publisher": "Gov.gr / Independent Authority for Public Revenue (AADE)",
+     "title": "Start a sole proprietorship (gov.gr, updated 10 March 2026)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-7ab47d9e2999.txt.gz",
+     "quote": "you need to have a valid and active Greek Tax Identification Number (AFM)",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://www.gov.gr/en/services/1000997/enarxe-atomikes-epikheireses",
+     "publisher": "Gov.gr / Independent Authority for Public Revenue (AADE)",
+     "title": "Start a sole proprietorship (gov.gr, updated 10 March 2026)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-7ab47d9e2999.txt.gz",
+     "quote": "If you skip this step, the registration will be carried out ex officio, by the competent insurance institution.",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "gov.gr returns 403 to the fetch script; read in browser and saved as an excerpt."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Greece to the OECD: \"According to art. 11 of the Greek Tax Procedure Code (L. 4174/2013), the Tax Administration assigns a unique taxpayer identification number to every taxpayer. The Tax Administration assigns a Taxpayer Identification Number to a person who is not a taxpayer, if this is required by other law provisions.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/greece-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Greece's tax administration)",
+     "title": "Greece — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-b78a7e6ab4ab.pdf.gz",
+     "quote": "According to art. 11 of the Greek Tax Procedure Code (L. 4174/2013), the Tax Administration assigns a unique taxpayer identification number to every taxpayer. The Tax Administration assigns a Taxpayer Identification Number to a person who is not a taxpayer, if this is required by other law provisions.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Tax residents of Greece are taxed on worldwide income (see quoted rules for exceptions such as remittance-basis regimes). General scale for employment, pensions and business profits (rates not captured). Inference (general source principle, not quoted): work performed while living in Greece for foreign clients is normally taxable in Greece. The 2026 scale for salaries, pensions and business profits: 9% on the first EUR 10,000, then 20%, 26% and 34% on each next EUR 10,000, 39% on EUR 40,000–60,000, and 44% above EUR 60,000.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/greece/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Greece - Individual - Taxes on personal income",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-53fb2a1f74f2.html.gz",
+     "quote": "Income tax scale (salaries, pensions, and business profits) Amount of income (EUR*) Tax rate (%) Corresponding tax (EUR) Total income (EUR) Total tax (EUR) First 10,000 9 900 10,000 900 Next 10,000 20 2,000 20,000 2,900 Next 10,000 26 2,600 30,000 5,500 Next 10,000 34 3,400 40,000 8,900 Next 20,000 39 7,800 60,000 16,700 Above 60,000 44"
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/greece/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Greece - Individual - Taxes on personal income",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-53fb2a1f74f2.html.gz",
+     "quote": "Permanent residents are taxed on their worldwide income in Greece."
+    },
+    {
+     "url": "https://taxatlas.io/country/greece/income-tax",
+     "publisher": "TaxAtlas",
+     "title": "Greece Personal Income Tax Rates (2026)",
+     "retrieved": "2026-10-23",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-23-765a927c0c78.html.gz",
+     "quote": "Residents are taxed on worldwide income."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "National: Greece's domestic small-business VAT exemption is available only to Greek-established businesses. The amount (reported as EUR 10,000 of turnover in the current and previous year) was not captured from a fetchable source. Non-established businesses have no threshold. The standard VAT rate is 24%. Under the EU SME scheme, small businesses below a national threshold (at most EUR 85,000) can be exempt on domestic sales. Where services are taxed (EU-wide rules, illustrated by Irish Revenue guidance): (1) B2B, meaning services to business customers in other EU countries or outside the EU, are taxed where the customer is established, so no Greece VAT is charged; EU business customers self-account under the reverse charge. (2) B2C services to private individuals are, as a rule, taxed where the supplier is established, so Greece VAT applies once you are VAT-registered. (3) Exception: consultancy, legal, accounting, engineering, data-processing, advertising, licensing and electronically supplied services to private customers outside the EU are outside EU VAT, subject to 'use and enjoyment' rules. Electronically supplied services to private customers in other EU countries follow special OSS rules (not captured here).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/europe/greece.md",
+     "publisher": "Kintsugi",
+     "title": "Greece VAT (FPA) Guide for 2026 (Kintsugi)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-9669c989d2ff.html.gz",
+     "quote": "The domestic small-business exemption applies only to Greek-established businesses."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/greece/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Greece - Corporate - Other taxes",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-efe41f88a133.html.gz",
+     "quote": "The standard VAT rate is 24% (applicable to all goods and services that are not subject to the reduced or super-reduced VAT rate, which are explicitly enumerated in the law)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/vat-exemptions/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "VAT exemptions for SMEs in cross-border and domestic sales (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-348d2dc786c3.html.gz",
+     "quote": "Domestic VAT Rules If your SME has an annual turnover under EUR 85 000 or lower if set by the EU country , you can apply for a VAT exemption on domestic sales ."
+    },
+    {
+     "url": "https://europa.eu/youreurope/business/taxation/vat/cross-border-vat/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Cross-border VAT (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-31a2fc91eb48.html.gz",
+     "quote": "Selling services to businesses based in another EU country If you sell services to businesses based in another EU country you don't usually need to charge your customers VAT."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "Supply of services to a business (B2B) For supplies of business to business services (B2B), the place of supply is the place where the business receiving the services is established."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "This applies whether the business customer is in the European Union (EU) or not."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/when-is-vat-charged-on-services/general-place-of-supply-rules-for-services.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "General place of supply rules for services (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-63c432255b38.html.gz",
+     "quote": "For supplies of business to consumer services (B2C), the place of supply is the place where the supplier: has established their business"
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "If the following services are provided to non-business customers established outside the European Union (EU), the place of supply is outside the EU."
+    },
+    {
+     "url": "https://www.revenue.ie/en/vat/vat-on-services/exceptions-general-place-supply-rules-services/supplies-to-non-business-customers-outside-the-eu/index.aspx",
+     "publisher": "Irish Revenue (implementing the common EU VAT Directive rules)",
+     "title": "Supplies of services to non-business customers outside the EU (Revenue.ie)",
+     "retrieved": "2026-10-23",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-23-0eceaf332fb2.html.gz",
+     "quote": "This includes the provision of other services directly linked thereto telecommunications services radio and television broadcasting services and electronically supplied services."
+    }
+   ],
+   "notes": "National SME threshold not captured unless stated. EY, vatcalc, To Vima and Eurofast pages on the Greek SME scheme failed to load (disconnect/403/empty) on 2026-10-24."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "The EU General Data Protection Regulation (GDPR) applies directly in Greece, supervised by the national data protection authority. It covers EU businesses and non-EU businesses offering goods or services to people in the EU.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://commission.europa.eu/law/law-topic/data-protection_en",
+     "publisher": "European Commission",
+     "title": "Data protection (European Commission)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-67745d447c93.html.gz",
+     "quote": "EU data protection legislation is comprised of the General Data Protection Regulation (GDPR), the Law Enforcement Directive (LED), and the Data Protection Regulation for EU institutions, bodies, offices and agencies (EUDPR)."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Data protection and online privacy (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-d5529929a174.html.gz",
+     "quote": "These rules apply to both companies and organisations (public and private) in the EU and those based outside the EU who offer goods or services in the EU , such as Facebook or Amazon, whenever these companies request or re-use the personal data of individuals in the EU."
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "EU consumer law gives a 14-day withdrawal right for online and distance purchases without justification: 14 days from delivery for goods, and from conclusion of the contract for services. Exceptions include personalised goods, perishables and date-specific services.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "This means you can cancel the contract within 14 days without providing any justification (the \"cooling-off period\")."
+    },
+    {
+     "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+     "publisher": "European Commission (Your Europe)",
+     "title": "Returns and the right of withdrawal (Your Europe)",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-fae1a137cbd6.html.gz",
+     "quote": "For goods this means 14 days from the date of delivery, for services 14 days after the day the contract was agreed."
+    }
+   ],
+   "notes": "National implementations may add detail."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No flat-rate incentive was captured. TRAP: minimum imputed income. Since Law 5073/2023 (income from 2023 on), freelancers and sole proprietors are taxed on at least a minimum imputed net income of up to EUR 50,000. It is built from three factors, starting with the higher of the minimum wage (raised over the years of activity) or the top employee's salary, up to EUR 30,000. You can rebut it (for example by proving declining activity or requesting a tax audit), and newly established freelancers get special arrangements. Whether the regime applies unchanged in 2026 was not confirmed.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://assets.kpmg.com/content/dam/kpmg/gr/pdf/2024/01/gr-tax-updates-04012024-en.pdf",
+     "publisher": "KPMG Greece",
+     "title": "Greek tax updates, 4 January 2024 (KPMG Greece)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-3d9fc91ef1b8.pdf.gz",
+     "quote": "A minimum imputed net income from business activity is introduced for freelancers and personal businesses, which should be up to EUR 50 000."
+    },
+    {
+     "url": "https://assets.kpmg.com/content/dam/kpmg/gr/pdf/2024/01/gr-tax-updates-04012024-en.pdf",
+     "publisher": "KPMG Greece",
+     "title": "Greek tax updates, 4 January 2024 (KPMG Greece)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-3d9fc91ef1b8.pdf.gz",
+     "quote": "In any case, taxpayers have the right to request a tax audit of their business in order to prove that the income they declare, when lower than the imputed income, is real."
+    },
+    {
+     "url": "https://assets.kpmg.com/content/dam/kpmg/gr/pdf/2024/01/gr-tax-updates-04012024-en.pdf",
+     "publisher": "KPMG Greece",
+     "title": "Greek tax updates, 4 January 2024 (KPMG Greece)",
+     "retrieved": "2026-10-24",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-24-3d9fc91ef1b8.pdf.gz",
+     "quote": "while special arrangements are provided for freelancers with newly established business activity."
+    }
+   ],
+   "notes": "",
+   "note": "Single secondary domain (KPMG Greece, Jan 2024) captured on 2026-10-24; 2026 status not confirmed."
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "Stripe's official KYC list for Greece accepts: Άδεια οδήγησης (Driver's license) Δελτίο Ταυτότητας (Identity card) - scans of front and back are required Διαβατήριο (Passport) Βεβαίωση Διαμονής (Residence Certificate). Banks, Wise, PayPal and other platforms usually ask for the same national ID card or passport, but their exact lists were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://docs.stripe.com/acceptable-verification-documents?country=GR",
+     "publisher": "Stripe (official documentation)",
+     "title": "Acceptable verification documents by country — Greece",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-acf338ec2e01.html.gz",
+     "quote": "Acceptable forms of identification: Άδεια οδήγησης (Driver's license) Δελτίο Ταυτότητας (Identity card) - scans of front and back are required Διαβατήριο (Passport) Βεβαίωση Διαμονής (Residence Certificate)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: none of the major platform barriers apply. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed), Lemon Squeezy (bank payouts), Polar, Dodo Payments. The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) Physical or digital goods on Etsy (Etsy seller payments are available here). (6) Client payments by PayPal (on PayPal's Payouts list as 'Send, receive, and withdraw in local currency'). (7) Stripe accepts merchants here, so you can take card payments directly on your own site. (8) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+     "publisher": "Lemon (official list)",
+     "title": "lemon availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/lemon/2026-10-17-dd2592e3c9d2.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: listed for Lemon Squeezy bank payouts (data/sources/lemon.json)."
+    },
+    {
+     "url": "https://polar.sh/docs/merchant-of-record/supported-countries",
+     "publisher": "Polar (official list)",
+     "title": "polar availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/polar/2026-10-16-d12ad91c55b8.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: listed for Polar payouts (data/sources/polar.json)."
+    },
+    {
+     "url": "https://docs.dodopayments.com/miscellaneous/accepted-countries-and-territories",
+     "publisher": "Dodo (official list)",
+     "title": "dodo availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/dodo/2026-10-16-ec953343d374.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: on Dodo Payments' accepted-seller list (data/sources/dodo.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: listed for Google Play merchant registration (data/sources/gplay.json)."
+    },
+    {
+     "url": "https://help.etsy.com/hc/en-us/articles/115015710408",
+     "publisher": "Etsy (official list)",
+     "title": "etsy availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/etsy/2026-10-16-4d7395251ec4.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: on Etsy's seller-payments list (data/sources/etsy.json)."
+    },
+    {
+     "url": "https://developer.paypal.com/payouts/supported-features",
+     "publisher": "Paypal Payouts (official list)",
+     "title": "paypal_payouts availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_payouts/2026-10-17-1fdbd4ae39c3.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: on PayPal's Payouts country list (data/sources/paypal_payouts.json)."
+    },
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Greece: listed for Stripe merchant sign-up (data/sources/stripe.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ }
+}

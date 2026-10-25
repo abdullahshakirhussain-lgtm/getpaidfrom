@@ -1,0 +1,343 @@
+{
+ "code": "LB",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "No surrender rule, but the banking system is impaired. Since 2019, banks have imposed informal capital controls through Central Bank circulars, with no formal capital-controls law, and pre-October 2019 dollar deposits remain largely frozen (about USD 93bn per July 2026 reports). Newly transferred 'fresh dollar' accounts and cards function. Keep foreign income in fresh-dollar accounts or regulated channels.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/lebanon-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Lebanon Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-19d8a7602d1f.html.gz",
+     "quote": "Following the 2019 economic crisis, banks imposed withdrawal restrictions on pre-October 2019 USD-denominated accounts."
+    },
+    {
+     "url": "https://www.trade.gov/country-commercial-guides/lebanon-trade-financing",
+     "publisher": "U.S. International Trade Administration",
+     "title": "Lebanon Country Commercial Guide — Trade Financing",
+     "retrieved": "2026-10-22",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-22-19d8a7602d1f.html.gz",
+     "quote": "While cash remains the primary payment method, since 2022, “fresh dollar” credit cards linked to accounts regained their function."
+    },
+    {
+     "url": "https://www.thenationalnews.com/news/mena/2026/07/28/seven-years-is-enough-protesters-light-fires-at-lebanese-banks-over-frozen-savings/",
+     "publisher": "The National",
+     "title": "'Seven years is enough': Protesters light fires at Lebanese banks over frozen savings (28 Jul 2026)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-52e979f81b71.html.gz",
+     "quote": "An estimated $93 billion remains frozen in Lebanese banks, with financial analysts saying depositors gaining access to their funds remains \"slim to none\"."
+    }
+   ],
+   "notes": "HIGH-RISK: never deposit foreign earnings into legacy ('lollar') accounts. Renewed conflict in 2026 per press."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "Fresh-dollar accounts exist (see P1); rules not captured.",
+   "status": "unverified",
+   "note": "Not captured on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Lebanon (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Google Play (developer registration); YouTube Partner Program. Not listed: Stripe (merchant sign-up); Polar (payouts); Whop (payouts); Dodo Payments (sellers); Etsy seller payments. Restricted: Lemon Squeezy blocks buyers there.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Lebanon is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Lebanon is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Money-transfer operators (OMT, Whish) not researched."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Lebanon is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Lebanon is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Lebanon is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Lebanon.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Not established.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Official TIN description supplied by Lebanon to the OECD: \"As per Article 34 of the Tax Procedure Code and article 59 of the Decision number 453/1 dated 22/4/2009 , the conditions for giving TIN are as follows: -The tax administration issue a single tax identification number for all types of taxes, including customs and real estate fees.\" How a freelancer applies (forms, online portal, fees) was not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/lebanon-tin.pdf",
+     "publisher": "OECD AEOI portal (information supplied by Lebanon's tax administration)",
+     "title": "Lebanon — Information on Tax Identification Numbers (OECD)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-c1e7765c208b.pdf.gz",
+     "quote": "As per Article 34 of the Tax Procedure Code and article 59 of the Decision number 453/1 dated 22/4/2009 , the conditions for giving TIN are as follows: -The tax administration issue a single tax identification number for all types of taxes, including customs and real estate fees.",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Lebanon applies territoriality. Salaries are taxable if the beneficiary is resident in Lebanon, or if the services are performed on Lebanese territory even when paid from abroad. Profits of individuals (business and professional income) are taxed at progressive rates of 4% to 25%; payroll tax brackets run from 2% to 25% (2022 Budget Law). Deloitte 2026 confirms business-income rates from 4% (up to LBP 540 million) to 25% (over LBP 13.5 billion).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/lebanon/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Lebanon - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f92df782869f.html.gz",
+     "quote": "According to the principle of territoriality, taxes on salaries are due in Lebanon if one of the following conditions is met: The beneficiary of the salary is resident in Lebanon, regardless of the source of funding."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/lebanon/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Lebanon - Individual - Taxes on personal income",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-f92df782869f.html.gz",
+     "quote": "The annual progressive brackets for income tax profits became between 4% and 25%, instead of between 4% and 21%, as per Article 24 of Budget Law 2019, which amended Article 32 of the Income Tax Law."
+    },
+    {
+     "url": "https://www.deloitte.com/content/dam/assets-shared/docs/services/tax/2026/dttl-tax-lebanonhighlights-2026.pdf",
+     "publisher": "Deloitte",
+     "title": "Lebanon Highlights 2026",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-cee4d8c13545.pdf.gz",
+     "quote": "Individual income tax rate (business income) Taxable income (LBP) Rate Up to 540,000,000 4%",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "TRAP: services performed in Lebanon are taxable even if paid from abroad (salary rule; likely analogous for professional income)."
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "VAT is 11%. Exports of goods and services and export-related services are zero-rated, and banking, financial and insurance services are exempt. The registration threshold was not captured. Kintsugi (2026): registration is mandatory once taxable turnover exceeds LBP 5 billion (2024 Budget Law), measured over one to four consecutive quarters; importers and exporters register regardless of turnover.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/lebanon/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Lebanon - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a21b42d4e933.html.gz",
+     "quote": "The standard VAT rate in Lebanon is 11%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/lebanon/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Lebanon - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-a21b42d4e933.html.gz",
+     "quote": "Export of goods and services and export-related services, international transport, and some of the intermediate operations are zero-rated."
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/middle-east/lebanon.md",
+     "publisher": "Kintsugi",
+     "title": "Lebanon VAT Guide for 2026 (Kintsugi)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-2a53a0c78a8f.html.gz",
+     "quote": "Lebanon's standard VAT is 11%.",
+     "retrieved": "2026-10-25"
+    },
+    {
+     "url": "https://trykintsugi.com/sales-tax-guides/middle-east/lebanon.md",
+     "publisher": "Kintsugi",
+     "title": "Lebanon VAT Guide for 2026 (Kintsugi)",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-2a53a0c78a8f.html.gz",
+     "quote": "Registration is mandatory once taxable turnover exceeds the LBP 5 billion threshold set by the 2024 Budget Law, measured over one to four consecutive quarters; importers and exporters must register regardless of turnover [1].",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": ""
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records data-protection/privacy legislation as enacted in Lebanon. The specific law, regulator, registration duties and penalties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "422,Lebanon,Legislation,Legislation,Legislation,Legislation,No Legislation,0,0,1,1,0,0,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records online consumer-protection legislation as enacted in Lebanon. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "422,Lebanon,Legislation,Legislation,Legislation,Legislation,No Legislation,0,0,1,1,0,0,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": ""
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "Not researched on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: بطاقة هوية Lebanese identity card (Wikipedia, compulsory-ID list). There is a compulsory identity document issued in Lebanon. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Lebanon بطاقة هوية Lebanese identity card",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed). The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Creator income through the YouTube Partner Program (available here). (4) Paid apps and in-app sales through Google Play (merchant registration available here). (5) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Lebanon: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Lebanon: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Lebanon: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/youtube/answer/7101720?hl=en",
+     "publisher": "Youtube Ypp (official list)",
+     "title": "youtube_ypp availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/youtube_ypp/2026-10-17-8e99f845a472.html.gz",
+     "quote_type": "description",
+     "quote": "Lebanon: listed where the YouTube Partner Program is available (data/sources/youtube_ypp.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Lebanon: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-22",
+ "open_questions": [
+  "Fresh-dollar account rules; OMT/Whish channels.",
+  "Registration/TIN; VAT threshold.",
+  "Law 81/2018 data protection; consumer law.",
+  "Current conflict impact on banking."
+ ]
+}

@@ -1,0 +1,1320 @@
+{
+ "source": "whop",
+ "route": "whop",
+ "url": "https://docs.whop.com/manage-your-business/manage-payouts/set-up-payouts",
+ "retrieved_at": "2026-10-16T18:19:00+00:00",
+ "sha256": "3c1e4f0c3d0af30c0a9803879a101b57ce09dde9f8f7e07ef17ee48bf9e86f5e",
+ "snapshot": "data/snapshots/whop/2026-10-16-3c1e4f0c3d0a.html.gz",
+ "evidence": "official",
+ "lists": {
+  "payouts": {
+   "meaning": "payout_supported",
+   "caveat": "Payout methods (bank, PayPal, crypto) vary by country and are shown in your Whop balance screen.",
+   "count": 217,
+   "entries": [
+    {
+     "code": "AL",
+     "raw": "Albania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DZ",
+     "raw": "Algeria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AS",
+     "raw": "American Samoa",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AD",
+     "raw": "Andorra",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AO",
+     "raw": "Angola",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AI",
+     "raw": "Anguilla",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AQ",
+     "raw": "Antarctica",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AG",
+     "raw": "Antigua and Barbuda",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AR",
+     "raw": "Argentina",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AM",
+     "raw": "Armenia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AW",
+     "raw": "Aruba",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AU",
+     "raw": "Australia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AT",
+     "raw": "Austria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AZ",
+     "raw": "Azerbaijan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BS",
+     "raw": "Bahamas",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BH",
+     "raw": "Bahrain",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BD",
+     "raw": "Bangladesh",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BB",
+     "raw": "Barbados",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BE",
+     "raw": "Belgium",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BZ",
+     "raw": "Belize",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BJ",
+     "raw": "Benin",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BM",
+     "raw": "Bermuda",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BT",
+     "raw": "Bhutan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BO",
+     "raw": "Bolivia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BA",
+     "raw": "Bosnia and Herzegovina",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BW",
+     "raw": "Botswana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BR",
+     "raw": "Brazil",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IO",
+     "raw": "British Indian Ocean Territory",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VG",
+     "raw": "British Virgin Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BN",
+     "raw": "Brunei",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BG",
+     "raw": "Bulgaria",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BF",
+     "raw": "Burkina Faso",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KH",
+     "raw": "Cambodia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CM",
+     "raw": "Cameroon",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CA",
+     "raw": "Canada",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CV",
+     "raw": "Cape Verde",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KY",
+     "raw": "Cayman Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TD",
+     "raw": "Chad",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CL",
+     "raw": "Chile",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CN",
+     "raw": "China",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CX",
+     "raw": "Christmas Island",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CC",
+     "raw": "Cocos (Keeling) Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CO",
+     "raw": "Colombia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CK",
+     "raw": "Cook Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CR",
+     "raw": "Costa Rica",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HR",
+     "raw": "Croatia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CW",
+     "raw": "Curaçao",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CY",
+     "raw": "Cyprus",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CZ",
+     "raw": "Czech Republic",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CI",
+     "raw": "Côte d’Ivoire",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DK",
+     "raw": "Denmark",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DJ",
+     "raw": "Djibouti",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DM",
+     "raw": "Dominica",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DO",
+     "raw": "Dominican Republic",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EC",
+     "raw": "Ecuador",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EG",
+     "raw": "Egypt",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SV",
+     "raw": "El Salvador",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GQ",
+     "raw": "Equatorial Guinea",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SZ",
+     "raw": "Eswatini",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EE",
+     "raw": "Estonia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ET",
+     "raw": "Ethiopia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FK",
+     "raw": "Falkland Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FO",
+     "raw": "Faroe Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FJ",
+     "raw": "Fiji",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FI",
+     "raw": "Finland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FR",
+     "raw": "France",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GF",
+     "raw": "French Guiana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PF",
+     "raw": "French Polynesia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GA",
+     "raw": "Gabon",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GM",
+     "raw": "Gambia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GE",
+     "raw": "Georgia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "DE",
+     "raw": "Germany",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GH",
+     "raw": "Ghana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GI",
+     "raw": "Gibraltar",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GR",
+     "raw": "Greece",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GL",
+     "raw": "Greenland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GD",
+     "raw": "Grenada",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GP",
+     "raw": "Guadeloupe",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GU",
+     "raw": "Guam",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GT",
+     "raw": "Guatemala",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GG",
+     "raw": "Guernsey",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GN",
+     "raw": "Guinea",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GW",
+     "raw": "Guinea-Bissau",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GY",
+     "raw": "Guyana",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HN",
+     "raw": "Honduras",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HK",
+     "raw": "Hong Kong",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "HU",
+     "raw": "Hungary",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IS",
+     "raw": "Iceland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IN",
+     "raw": "India",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ID",
+     "raw": "Indonesia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IE",
+     "raw": "Ireland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IM",
+     "raw": "Isle of Man",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IL",
+     "raw": "Israel",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "IT",
+     "raw": "Italy",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JM",
+     "raw": "Jamaica",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JP",
+     "raw": "Japan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JE",
+     "raw": "Jersey",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "JO",
+     "raw": "Jordan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KZ",
+     "raw": "Kazakhstan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KE",
+     "raw": "Kenya",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KI",
+     "raw": "Kiribati",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "XK",
+     "raw": "Kosovo",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KW",
+     "raw": "Kuwait",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KG",
+     "raw": "Kyrgyzstan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LA",
+     "raw": "Laos",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LV",
+     "raw": "Latvia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LI",
+     "raw": "Liechtenstein",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LT",
+     "raw": "Lithuania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LU",
+     "raw": "Luxembourg",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MO",
+     "raw": "Macau",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MG",
+     "raw": "Madagascar",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MW",
+     "raw": "Malawi",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MY",
+     "raw": "Malaysia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MV",
+     "raw": "Maldives",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ML",
+     "raw": "Mali",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MT",
+     "raw": "Malta",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MH",
+     "raw": "Marshall Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MQ",
+     "raw": "Martinique",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MR",
+     "raw": "Mauritania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MU",
+     "raw": "Mauritius",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "YT",
+     "raw": "Mayotte",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MX",
+     "raw": "Mexico",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "FM",
+     "raw": "Micronesia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MD",
+     "raw": "Moldova",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MC",
+     "raw": "Monaco",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MN",
+     "raw": "Mongolia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ME",
+     "raw": "Montenegro",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MS",
+     "raw": "Montserrat",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MA",
+     "raw": "Morocco",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MZ",
+     "raw": "Mozambique",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NA",
+     "raw": "Namibia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NR",
+     "raw": "Nauru",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NP",
+     "raw": "Nepal",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NL",
+     "raw": "Netherlands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AN",
+     "raw": "Netherlands Antilles",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NC",
+     "raw": "New Caledonia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NZ",
+     "raw": "New Zealand",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NI",
+     "raw": "Nicaragua",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NE",
+     "raw": "Niger",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NU",
+     "raw": "Niue",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MK",
+     "raw": "North Macedonia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MP",
+     "raw": "Northern Mariana Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "NO",
+     "raw": "Norway",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "OM",
+     "raw": "Oman",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PK",
+     "raw": "Pakistan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PW",
+     "raw": "Palau",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PA",
+     "raw": "Panama",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PY",
+     "raw": "Paraguay",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PE",
+     "raw": "Peru",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PH",
+     "raw": "Philippines",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PN",
+     "raw": "Pitcairn Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PL",
+     "raw": "Poland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PT",
+     "raw": "Portugal",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PR",
+     "raw": "Puerto Rico",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "QA",
+     "raw": "Qatar",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CG",
+     "raw": "Republic of the Congo",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RO",
+     "raw": "Romania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RW",
+     "raw": "Rwanda",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RE",
+     "raw": "Réunion",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "BL",
+     "raw": "Saint Barthélemy",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SH",
+     "raw": "Saint Helena",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KN",
+     "raw": "Saint Kitts and Nevis",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LC",
+     "raw": "Saint Lucia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "MF",
+     "raw": "Saint Martin",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "PM",
+     "raw": "Saint Pierre and Miquelon",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VC",
+     "raw": "Saint Vincent and the Grenadines",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "WS",
+     "raw": "Samoa",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SM",
+     "raw": "San Marino",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SA",
+     "raw": "Saudi Arabia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SN",
+     "raw": "Senegal",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "RS",
+     "raw": "Serbia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SC",
+     "raw": "Seychelles",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SL",
+     "raw": "Sierra Leone",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SG",
+     "raw": "Singapore",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SX",
+     "raw": "Sint Maarten",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SK",
+     "raw": "Slovakia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SI",
+     "raw": "Slovenia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SB",
+     "raw": "Solomon Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ZA",
+     "raw": "South Africa",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "KR",
+     "raw": "South Korea",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ES",
+     "raw": "Spain",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "LK",
+     "raw": "Sri Lanka",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SR",
+     "raw": "Suriname",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SJ",
+     "raw": "Svalbard and Jan Mayen",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "SE",
+     "raw": "Sweden",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "CH",
+     "raw": "Switzerland",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ST",
+     "raw": "São Tomé and Príncipe",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TW",
+     "raw": "Taiwan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TJ",
+     "raw": "Tajikistan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TZ",
+     "raw": "Tanzania",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TH",
+     "raw": "Thailand",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TL",
+     "raw": "Timor-Leste",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TG",
+     "raw": "Togo",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TK",
+     "raw": "Tokelau",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TO",
+     "raw": "Tonga",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TT",
+     "raw": "Trinidad and Tobago",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TN",
+     "raw": "Tunisia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TR",
+     "raw": "Turkey",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TM",
+     "raw": "Turkmenistan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TC",
+     "raw": "Turks and Caicos Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "TV",
+     "raw": "Tuvalu",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UM",
+     "raw": "U.S. Minor Outlying Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VI",
+     "raw": "U.S. Virgin Islands",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UG",
+     "raw": "Uganda",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UA",
+     "raw": "Ukraine",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "AE",
+     "raw": "United Arab Emirates",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "GB",
+     "raw": "United Kingdom",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "US",
+     "raw": "United States",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UY",
+     "raw": "Uruguay",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "UZ",
+     "raw": "Uzbekistan",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VU",
+     "raw": "Vanuatu",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VA",
+     "raw": "Vatican City",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "VN",
+     "raw": "Vietnam",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "WF",
+     "raw": "Wallis and Futuna",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "EH",
+     "raw": "Western Sahara",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ZM",
+     "raw": "Zambia",
+     "label": null,
+     "meaning": "payout_supported"
+    },
+    {
+     "code": "ZW",
+     "raw": "Zimbabwe",
+     "label": null,
+     "meaning": "payout_supported"
+    }
+   ]
+  }
+ }
+}

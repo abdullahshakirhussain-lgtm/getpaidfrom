@@ -1,0 +1,335 @@
+{
+ "code": "GQ",
+ "status": "complete",
+ "facts": {
+  "P1_fx_receipts": {
+   "question": "Can resident individuals receive foreign currency for services or digital exports? Any conversion or repatriation rule?",
+   "answer": "Yes, but under CEMAC exchange control (Regulation 02/18/CEMAC/UMAC/CM). Service-export receipts must be collected and repatriated by the exporter through its domiciliary bank via the BEAC (art. 70). Service transactions of FCFA 5m or more must be domiciled with a CEMAC credit institution (art. 68) and backed by a contract, purchase order or invoice (art. 69). Foreign currency received by banks is surrendered to the BEAC.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM portant réglementation des changes",
+     "title": "Règlement 02/18/CEMAC, art. 70",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 70. Les recettes d'exportation des services sont recouvrées et rapatriées par I'exportateur à travers sa banque domiciliataire par I'entremise de la Banque Centrale."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 68",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 68. Les transactions avec I'extérieur liées aux services d'un montant égal ou supérieur à 5 millions de Francs CFA sont domiciliées auprès d'un établissement de crédit de la CEMAC."
+    }
+   ],
+   "notes": "OCR text of the BEAC PDF (e.g. 'I'extérieur'); quotes copied as extracted. No specific repatriation deadline for services found (goods: 150 days). Later BEAC instructions not checked. Applies in all six CEMAC states."
+  },
+  "P2_fcy_account": {
+   "question": "Can resident individuals hold a foreign-currency account locally?",
+   "answer": "No. Opening a foreign-currency account within CEMAC for a resident is not authorised (art. 43). Only resident legal persons may be authorised by the BEAC. Resident individuals' accounts abroad must be declared to the BEAC (art. 42).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 43",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 43. L'ouverture d'un compte en devises dans la CEMAC au profit d'un résident n'est pas autorisée."
+    },
+    {
+     "url": "https://www.beac.int/wp-content/uploads/2020/06/REGLEMENT-02-18-CEMAC-UMAC-CM_001.pdf",
+     "publisher": "BEAC — Règlement n°02/18/CEMAC/UMAC/CM",
+     "title": "Règlement 02/18/CEMAC, art. 42",
+     "retrieved": "2026-10-21",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research_large/2026-10-21-1bc855ded404.pdf.gz",
+     "quote": "Article 42. Les comptes des personnes physiques résidentes ouverts à l'étranger sont déclarés à la Banque Centrale."
+    }
+   ],
+   "notes": ""
+  },
+  "P3_local_gateways": {
+   "question": "Which local payment gateways can an individual or sole trader use to accept online payments?",
+   "answer": "Global platform availability for Equatorial Guinea (automated collector snapshots, Oct 2026). Available: Paddle (not on its exclusion list; software sellers only, each seller reviewed); Whop (payouts); Dodo Payments (sellers); Google Play (developer registration). Not listed: Stripe (merchant sign-up); Lemon Squeezy payouts; Polar (payouts); Etsy seller payments; YouTube Partner Program.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe",
+     "title": "Stripe global availability (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote": "Equatorial Guinea is absent from Stripe's supported merchant countries (data/sources/stripe.json).",
+     "quote_type": "description"
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle",
+     "title": "Which countries are supported by Paddle? (automated collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Paddle works with software businesses anywhere except a listed set of countries; Equatorial Guinea is not on that exclusion list (data/sources/paddle.json)."
+    }
+   ],
+   "notes": "Not established."
+  },
+  "P4_paypal": {
+   "question": "Can residents receive money via PayPal?",
+   "answer": "No. Equatorial Guinea is not on PayPal's list of supported countries/markets, nor on the Payouts list.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://www.paypal.com/us/webapps/mpp/country-worldwide",
+     "publisher": "PayPal",
+     "title": "PayPal Worldwide — country list (automated collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paypal_worldwide/2026-10-17-6fbfc3c63328.html.gz",
+     "quote": "Equatorial Guinea is absent from PayPal's worldwide country list (data/sources/paypal_worldwide.json; the list runs El Salvador -> Eritrea, and 'Guinea' there is Guinea-Conakry) and from the Payouts list (paypal_payouts.json).",
+     "quote_type": "description"
+    }
+   ],
+   "notes": ""
+  },
+  "P5_payoneer_wise": {
+   "question": "Payoneer / Wise availability for residents",
+   "answer": "Wise: Equatorial Guinea is NOT on Wise's list of countries whose residents can hold money. Payoneer: not confirmed. Under CEMAC rules, individuals must declare foreign accounts to the BEAC (P2).",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://wise.com/help/articles/2813542/where-do-i-need-to-live-to-hold-money-with-wise",
+     "publisher": "Wise",
+     "title": "Where do I need to live to hold money with Wise?",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-17-815eb5a8c524.html.gz",
+     "quote": "The complete list of countries/territories whose residents can hold money (Andorra ... Uruguay) does not include Equatorial Guinea.",
+     "quote_type": "description"
+    }
+   ],
+   "notes": "Payoneer unknown."
+  },
+  "L1_registration": {
+   "question": "Must an individual register a business to sell digital services/products? Simplest legal form?",
+   "answer": "Businesses register through the one-stop shop for business creation (Ventanilla Única Empresarial, VUE), set up under the 2019 reform programme together with a 90% cut in minimum capital. It integrates post-registration steps with the Ministry of Labour and INSESO. The simplest form for an individual, and its fees, were not confirmed.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://blogs.worldbank.org/en/africacan/equatorial-guinea-investment-climate-reforms-facilitating-growth",
+     "publisher": "World Bank Blogs (Africa Can End Poverty)",
+     "title": "Equatorial Guinea: investment climate reforms facilitating growth",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-b230d424fb31.html.gz",
+     "quote": "Through the reform program, the Equatorial Guinea government simplified the process of starting a business by establishing a one-stop shop and reducing the minimum capital requirement by 90%."
+    },
+    {
+     "url": "https://www.merca2.es/2019/01/16/guinea-ecuatorial-avanza-para-apoyar-a-emprendedores-y-fomentar-la-creacion-de-empresas-100672/",
+     "publisher": "Merca2",
+     "title": "Guinea Ecuatorial avanza para apoyar a emprendedores y fomentar la creación de empresas (16 Jan 2019)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-3c9b9aeb75d7.html.gz",
+     "quote": "Así, la Ventanilla Única ayudará a la obtención de permisos y realización de todos los procedimientos necesarios en una sola oficina, reduciendo la burocracia y el número de gestiones a realizar."
+    }
+   ],
+   "notes": "Consulting blogs say a sole trader (persona física) needs no minimum capital and must get a NIF; not captured/relied on. OHADA entreprenant status applies in principle (GQ is an OHADA member)."
+  },
+  "L2_tax_id": {
+   "question": "Tax ID: who needs one, how to get it?",
+   "answer": "Not established from a reliable source. Consulting blogs say a NIF must be requested from the tax administration.",
+   "status": "unverified",
+   "note": "Only commercial blogs (not captured) mention the NIF; no tax-administration source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "L3_income_tax_foreign": {
+   "question": "Income tax on foreign-source income for residents; rates or special regimes",
+   "answer": "Per PwC (reviewed Nov 2025), residents are taxed on worldwide income and non-residents only on Equatorial Guinea-source income. No small-business regime was sourced.",
+   "status": "unverified",
+   "note": "Single secondary domain (PwC); top rate differs across aggregators (25% vs 35%); EG Tax Code not read on 2026-10-22.",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/equatorial-guinea/individual/taxes-on-personal-income",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Equatorial Guinea - Individual - Taxes on personal income (last reviewed 21 Nov 2025)",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-396096d5f788.html.gz",
+     "quote": "Residents are taxed on worldwide income, whereas non-residents are only taxed on their Equatorial Guinea-source income."
+    }
+   ],
+   "notes": ""
+  },
+  "L4_vat_gst": {
+   "question": "VAT/GST: rate, registration threshold, treatment of exported digital services",
+   "answer": "The standard VAT (IVA) rate is 15%, with 0% on a specific list of products and equipment and 5% on a limited list of basic consumables and books (PwC, Nov 2025). The registration threshold and treatment of exported services were not established.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://taxsummaries.pwc.com/equatorial-guinea/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Equatorial Guinea - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-34b6427b61d3.html.gz",
+     "quote": "The standard VAT rate is 15%."
+    },
+    {
+     "url": "https://taxsummaries.pwc.com/equatorial-guinea/corporate/other-taxes",
+     "publisher": "PwC Worldwide Tax Summaries",
+     "title": "Equatorial Guinea - Corporate - Other taxes",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-34b6427b61d3.html.gz",
+     "quote": "A reduced rate of 5% is applicable to a limited list of basic consumables and books."
+    },
+    {
+     "url": "https://tradingeconomics.com/equatorial-guinea/sales-tax-rate",
+     "publisher": "Trading Economics",
+     "title": "Equatorial Guinea Sales Tax Rate - VAT",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-310265d5f668.html.gz",
+     "quote": "Sales Tax Rate in Equatorial Guinea averaged 15.00 percent from 2014 until 2026, reaching an all time high of 15.00 percent in 2015 and a record low of 15.00 percent in 2015."
+    }
+   ],
+   "notes": "TRAP: older guides (Healy, IPIM) give a 6% reduced rate; PwC Nov 2025 says 5%."
+  },
+  "L5_data_protection": {
+   "question": "Data-protection law applicable to a small online business",
+   "answer": "Law 1/2016 of 22 July on personal data protection (Spanish only). It creates a Governing Body for the Protection of Personal Data (Órgano Rector) as the authority, but that body is not yet operational, so enforcement is limited.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://dataprotection.africa/equatorial-guinea/",
+     "publisher": "Data Protection Africa",
+     "title": "Equatorial Guinea — Fact Sheet",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-02bce9a5307c.html.gz",
+     "quote": "The Law creates the Governing Body for the Protection of Personal Data ( el Órgano Rector de Protección de Datos Personales ) as the data protection authority, but it is not yet operational."
+    },
+    {
+     "url": "https://www.dlapiperdataprotection.com/?c=GQ&t=law",
+     "publisher": "DLA Piper — Data Protection Laws of the World",
+     "title": "Data protection laws in Equatorial Guinea",
+     "retrieved": "2026-10-22",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-22-ef5f26089e63.html.gz",
+     "quote": "1/2016 dated 22 July."
+    }
+   ],
+   "notes": "Law text not read; transfer rules (reported prior authorisation, arts. 27-28) not verified."
+  },
+  "L6_consumer_ecommerce": {
+   "question": "Consumer-protection / e-commerce rules for online sales (refunds, disclosures)",
+   "answer": "UNCTAD's Global Cyberlaw Tracker (2026 dataset) records no online consumer-protection legislation in Equatorial Guinea. Specific refund or withdrawal periods and disclosure duties were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://storage.unctad.org/2026-cyberlaw_tracker/assets/data/data.csv",
+     "publisher": "UNCTAD (UN Trade and Development)",
+     "title": "Global Cyberlaw Tracker — 2026 dataset (data.csv)",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-24-13cfc791f6b7.html.gz",
+     "quote": "226,Equatorial Guinea,No Legislation,No Legislation,Legislation,No Legislation,No Legislation,1,0,0,1,0,0,0,0,0,0",
+     "retrieved": "2026-10-24"
+    }
+   ],
+   "notes": "",
+   "note": "Single dataset (UNCTAD). The tracker has missed recently enacted laws in other countries (e.g. Brunei 2025, Rwanda 2026), so 'no legislation' needs a national check."
+  },
+  "L7_incentives": {
+   "question": "Legal incentives / tax holidays / special zones relevant to small digital businesses",
+   "answer": "No freelancer-specific incentive was found.",
+   "status": "unverified",
+   "note": "No source found on 2026-10-22.",
+   "sources": [],
+   "notes": ""
+  },
+  "D1_id_document": {
+   "question": "Identity documents residents use for KYC (gateways, banks, platforms)",
+   "answer": "National identity card: Documento de Identidad Personal (Personal Identity Document) (Wikipedia, compulsory-ID list). Compulsory to all citizens. Banks and payment platforms usually also accept a passport; their exact lists were not captured.",
+   "status": "unverified",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country",
+     "publisher": "Wikipedia",
+     "title": "List of national identity card policies by country",
+     "evidence": "secondary",
+     "snapshot": "data/snapshots/_research/2026-10-25-0b4814cdc9ea.html.gz",
+     "quote": "Equatorial Guinea Documento de Identidad Personal (Personal Identity Document)",
+     "retrieved": "2026-10-25"
+    }
+   ],
+   "notes": "",
+   "note": "Single tertiary source (Wikipedia list of identity-card policies) captured on 2026-10-25; issuing-authority page not captured."
+  },
+  "W1_workarounds": {
+   "question": "Simple, legal routes around payment barriers for a beginner (no misrepresentation, nominees or sanctions evasion)",
+   "answer": "Barriers: Stripe does not accept merchants here; PayPal is not available; Wise does not let residents hold money. Simple legal routes: (1) Sell digital products or software through a merchant of record: Paddle (software/SaaS only; each seller reviewed). The platform is the legal seller to your customers, handles card payments and consumer VAT/sales tax, and pays you out. You still declare the payouts as your income at home (see L3). (2) Sell services on Upwork, which is available here (not on its restricted list). Which withdrawal methods you get (bank, PayPal, Payoneer, etc.) depends on the country and shows in your account. (3) Paid apps and in-app sales through Google Play (merchant registration available here). (4) For direct clients, a bank transfer (SWIFT) into your own local account always works. Follow the local foreign-exchange rules (see P1) and keep invoices. Avoid: opening accounts with a foreign address, a relative's or friend's identity, or a VPN to look like you are elsewhere. It breaches platform terms (accounts and funds get frozen) and can break anti-money-laundering or sanctions law.",
+   "status": "verified",
+   "sources": [
+    {
+     "url": "https://stripe.com/global",
+     "publisher": "Stripe (official list)",
+     "title": "stripe availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/stripe/2026-10-16-db26509e88c5.html.gz",
+     "quote_type": "description",
+     "quote": "Equatorial Guinea: not on Stripe's merchant-country list (data/sources/stripe.json)."
+    },
+    {
+     "url": "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+     "publisher": "Paddle (official list)",
+     "title": "paddle availability list (collector snapshot)",
+     "retrieved": "2026-10-16",
+     "evidence": "official",
+     "snapshot": "data/snapshots/paddle/2026-10-16-0631b5ce8fb9.html.gz",
+     "quote_type": "description",
+     "quote": "Equatorial Guinea: not on Paddle's exclusion list (data/sources/paddle.json)."
+    },
+    {
+     "url": "https://support.upwork.com/hc/en-us/articles/211067778",
+     "publisher": "Upwork (official list)",
+     "title": "upwork availability list (collector snapshot)",
+     "retrieved": "2026-10-25",
+     "evidence": "official",
+     "snapshot": "data/snapshots/_research/2026-10-25-18b7a9eb8185.html.gz",
+     "quote_type": "description",
+     "quote": "Equatorial Guinea: not on Upwork's restricted list (data/sources/upwork.json)."
+    },
+    {
+     "url": "https://support.google.com/googleplay/android-developer/answer/9306917?hl=en",
+     "publisher": "Gplay (official list)",
+     "title": "gplay availability list (collector snapshot)",
+     "retrieved": "2026-10-17",
+     "evidence": "official",
+     "snapshot": "data/snapshots/gplay/2026-10-17-e9b92cfcb4c2.html.gz",
+     "quote_type": "description",
+     "quote": "Equatorial Guinea: listed for Google Play merchant registration (data/sources/gplay.json)."
+    }
+   ],
+   "notes": "Built from the platforms' official country lists on the dates shown. Availability changes, so re-check the platform's page before signing up. The 'Avoid' guidance is editorial, not a quoted source."
+  }
+ },
+ "started": "2026-10-22",
+ "completed": "2026-10-21",
+ "open_questions": [
+  "CEMAC: no explicit repatriation deadline for services in Reg. 02/18; later BEAC instructions not checked.",
+  "EG Tax Code not read: VAT threshold, export of services, small-business regime, NIF procedure; worldwide-income rule single-domain (PwC).",
+  "Law 1/2016 text (transfers arts. 27-28) not read; Órgano Rector not operational.",
+  "E-commerce/consumer law, local gateways, Payoneer, VUE fees and individual-trader form, KYC ID all unsourced."
+ ]
+}
