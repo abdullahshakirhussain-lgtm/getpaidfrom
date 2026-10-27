@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register through the CFE one-stop shop; individual enterprise cost not confirmed.",
+  "L2_tax_id": "Reportedly a NIF from the DGCI at the CFE; not confirmed.",
+  "L3_income_tax_foreign": "Not confirmed yet.",
+  "L4_vat_gst": "19% VAT since January 2025; threshold and export services not confirmed.",
+  "L5_data_protection": "No data protection law confirmed; a bill was approved in May 2026.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Not confirmed; presumably the national identity card (bilhete de identidade)."
+ },
+ "watch_out": []
+}

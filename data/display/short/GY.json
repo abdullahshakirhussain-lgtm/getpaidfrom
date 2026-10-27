@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register a business name with DCRA and tax with GRA; steps not confirmed.",
+  "L2_tax_id": "TIN from the GRA, applied for online or in person.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income.",
+  "L4_vat_gst": "14% VAT; exports zero-rated; threshold not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Guyana national identity card."
+ },
+ "watch_out": []
+}

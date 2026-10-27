@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with Revenue within 30 days using Form TR1 on ROS.",
+  "L2_tax_id": "Your PPS number is your tax reference.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 20% and 40%, plus USC and PRSI.",
+  "L4_vat_gst": "23% VAT above €42,500 a year for services.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Passport or driving licence."
+ },
+ "watch_out": [
+  {
+   "text": "File your tax return (Form 11) by 31 October each year.",
+   "fact": "L1_registration"
+  }
+ ]
+}

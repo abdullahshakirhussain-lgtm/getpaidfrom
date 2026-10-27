@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but under CEMAC exchange control; repatriate earnings through your bank.",
+  "P2_fcy_account": "No: residents can't open foreign-currency accounts locally; declare accounts abroad.",
+  "P3_local_gateways": "Orange Money is the main wallet; no online gateway sign-up was confirmed.",
+  "L1_registration": "Register an individual enterprise at the GUFE one-stop shop in Bangui.",
+  "L2_tax_id": "NIF from the tax administration (DGI).",
+  "L3_income_tax_foreign": "Reported: a basic flat regime under FCFA 30m turnover.",
+  "L4_vat_gst": "19% VAT from FCFA 30m turnover; exports are zero-rated.",
+  "L5_data_protection": "Law 24-001 on personal data; transfers abroad need equivalent protection.",
+  "L6_consumer_ecommerce": "No e-commerce law found; the CEMAC consumer directive applies.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card (CNI)."
+ },
+ "watch_out": [
+  {
+   "text": "Declare any accounts you hold abroad to the BEAC.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

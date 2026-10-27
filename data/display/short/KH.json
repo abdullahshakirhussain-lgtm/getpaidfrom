@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; banks report transfers of USD 10,000 or more.",
+  "P2_fcy_account": "Yes: residents may hold foreign currencies freely; USD accounts are common.",
+  "P3_local_gateways": "Local options like ABA PayWay and KHQR weren't researched yet.",
+  "L1_registration": "Register online with the Ministry of Commerce, then with the tax department.",
+  "L2_tax_id": "Taxpayer number from the GDT e-Tax portal, after business registration.",
+  "L3_income_tax_foreign": "Worldwide income taxed 0–20%, plus a 1% minimum tax on turnover.",
+  "L4_vat_gst": "10% VAT above KHR 60m in three months for services; exports zero-rated.",
+  "L5_data_protection": "No data protection law yet; a draft was released in July 2025.",
+  "L6_consumer_ecommerce": "E-commerce and consumer laws exist; no cooling-off right was found.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Khmer Identity Card (biometric)."
+ },
+ "watch_out": [
+  {
+   "text": "There's a 1% minimum tax on turnover, even without profit.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

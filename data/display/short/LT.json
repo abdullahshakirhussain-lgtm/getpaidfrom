@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register individual activity free online with VMI before your first invoice.",
+  "L2_tax_id": "Your Lithuanian personal code.",
+  "L3_income_tax_foreign": "From 2026, individual-activity income up to €42,500 is taxed at 5–20%.",
+  "L4_vat_gst": "21% VAT; exempt while domestic supplies stay under €45,000.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Asmens tapatybės kortelė (ID card) or passport."
+ },
+ "watch_out": []
+}

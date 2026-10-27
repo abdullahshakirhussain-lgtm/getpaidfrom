@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; only receipts of USD 1 million or more must be brought home.",
+  "P2_fcy_account": "Yes: foreign-currency deposit (FCD) accounts at Thai banks.",
+  "P3_local_gateways": "Local gateways like Omise and 2C2P weren't researched yet.",
+  "L1_registration": "A sole proprietorship needs no official registration, but you need a taxpayer number.",
+  "L2_tax_id": "Apply for a Tax Identification Number within 60 days of first income.",
+  "L3_income_tax_foreign": "Foreign income earned since 2024 is taxed when brought into Thailand.",
+  "L4_vat_gst": "7% VAT above THB 1.8 million; services used abroad can be zero-rated.",
+  "L5_data_protection": "PDPA 2019, fully in force since June 2022.",
+  "L6_consumer_ecommerce": "Online buyers may cancel in writing within 7 days of receiving goods.",
+  "L7_incentives": "No resident-freelancer incentive found yet.",
+  "D1_id_document": "Thai national ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign income from 2024 onward is taxed when you bring it in, any year.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Platforms paying via PayPal Payouts may not reach Thai accounts.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Yes: banks like Santander and Banco de Chile offer dollar current accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "File \"inicio de actividades\" with the SII online within 2 months of starting.",
+  "L2_tax_id": "RUT, the national tax registry number.",
+  "L3_income_tax_foreign": "Worldwide income taxed under the progressive Global Complementary Tax.",
+  "L4_vat_gst": "19% VAT; you register with the SII when you start, with no threshold.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund periods not confirmed yet.",
+  "L7_incentives": "No special freelancer discount; boleta withholding is 15.25% in 2026, settled yearly.",
+  "D1_id_document": "Cédula de identidad (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "Fee withholding rises to 16% in 2027 and 17% in 2028.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

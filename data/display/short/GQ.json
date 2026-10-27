@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but under CEMAC exchange control; repatriate earnings through your bank.",
+  "P2_fcy_account": "No: residents can't open foreign-currency accounts locally; declare accounts abroad.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register through the VUE one-stop shop; the simplest form for individuals isn't confirmed.",
+  "L2_tax_id": "Reportedly a NIF from the tax administration; not confirmed.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income.",
+  "L4_vat_gst": "15% VAT; threshold and export rules not confirmed yet.",
+  "L5_data_protection": "Law 1/2016 on personal data; its authority isn't operational yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Documento de Identidad Personal (DIP)."
+ },
+ "watch_out": [
+  {
+   "text": "Declare any accounts you hold abroad to the BEAC.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

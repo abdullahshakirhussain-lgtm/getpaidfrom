@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; no restrictive currency controls are generally reported.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Commercial Register (Office of Justice); steps not confirmed yet.",
+  "L2_tax_id": "PEID number, your personal identification number.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income and net wealth.",
+  "L4_vat_gst": "8.1% Swiss VAT; exempt below CHF 100,000 domestic turnover.",
+  "L5_data_protection": "GDPR applies through the EEA.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Identitätskarte (ID card) or passport."
+ },
+ "watch_out": []
+}

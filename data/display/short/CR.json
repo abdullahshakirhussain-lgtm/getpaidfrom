@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as an independent professional with Hacienda on the TRIBU-CR platform.",
+  "L2_tax_id": "No TIN as such; anyone earning income must register with the Tax Administration.",
+  "L3_income_tax_foreign": "Only Costa Rican-source income taxed, including work done there for foreign clients.",
+  "L4_vat_gst": "13% VAT; domestic threshold and export treatment not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Cédula de identidad (identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "Services you perform from Costa Rica are taxable, even for foreign clients.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; up to $20,000 can arrive without a formal declaration.",
+  "P2_fcy_account": "Yes: keep up to 50% of earnings in an ERQ foreign-currency account (ICT freelancers).",
+  "P3_local_gateways": "SSLCOMMERZ onboards sole proprietors and Facebook sellers; it asks for TIN or NID.",
+  "L1_registration": "No company needed, but online sellers must hold an ID like a TIN.",
+  "L2_tax_id": "TIN (e-TIN), registered online with the NBR using your National ID.",
+  "L3_income_tax_foreign": "Freelancing and content creation income is tax-free until June 2027 if paid through banks.",
+  "L4_vat_gst": "15% VAT; registration needed only above BDT 5 million turnover a year.",
+  "L5_data_protection": "Personal Data Protection Act 2026; you need explicit consent to collect data.",
+  "L6_consumer_ecommerce": "Show your ID number, full terms and refund rules on your sales page.",
+  "L7_incentives": "Freelance income is tax-free until June 2027; keep up to 50% in dollars.",
+  "D1_id_document": "National ID (NID) smart card."
+ },
+ "watch_out": [
+  {
+   "text": "The tax exemption needs all business money to move through bank transfer.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Payment gateways (OPGSPs) can bring in at most US$10,000 per transaction.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Selling online without a TIN or trade licence breaks the digital commerce rules.",
+   "fact": "L1_registration"
+  }
+ ]
+}

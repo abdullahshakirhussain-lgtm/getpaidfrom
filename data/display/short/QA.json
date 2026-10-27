@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; the riyal is pegged to the USD and no controls are reported.",
+  "P2_fcy_account": "Yes: banks like QNB offer local accounts in selected foreign currencies.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Ministry of Commerce and Industry; steps not confirmed yet.",
+  "L2_tax_id": "TIN from the General Tax Authority; how to apply isn't confirmed.",
+  "L3_income_tax_foreign": "Only Qatar-source income taxed; self-employed business income can pay 10%.",
+  "L4_vat_gst": "No VAT yet; 5% is expected eventually.",
+  "L5_data_protection": "Law No. 13 of 2016 on Personal Data Protection.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Qatari ID Card."
+ },
+ "watch_out": []
+}

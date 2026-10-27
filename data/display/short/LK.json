@@ -1,0 +1,20 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Bring earnings home within 180 days; you don't have to convert them to rupees.",
+  "P2_fcy_account": "Yes: open a Personal Foreign Currency Account (PFCA).",
+  "P3_local_gateways": "PayHere accepts freelancers without business registration; USD payouts need a registered business.",
+  "L1_registration": "Not needed under your own name; register a trade name within 14 days.",
+  "L2_tax_id": "Everyone 18 or older needs a TIN; register online with your NIC.",
+  "L3_income_tax_foreign": "Maximum 15% tax on foreign-currency earnings sent home through a bank.",
+  "L4_vat_gst": "VAT is 18%, but only above LKR 60 million a year.",
+  "L5_data_protection": "Data protection rules start applying on 1 January 2027.",
+  "L6_consumer_ecommerce": "No online-specific rules; general consumer and e-contract laws apply.",
+  "L7_incentives": "15% tax cap on service exports, and no VAT below LKR 60 million.",
+  "D1_id_document": "National Identity Card (NIC)."
+ },
+ "watch_out": [
+  {"text": "Bring foreign earnings home within 180 days of doing the work.", "fact": "P1_fx_receipts"},
+  {"text": "The 15% tax cap applies only if paid in foreign currency through a bank.", "fact": "L3_income_tax_foreign"},
+  {"text": "PayPal receiving works only with a Sampath or Commercial Bank account.", "fact": "P4_paypal"}
+ ]
+}

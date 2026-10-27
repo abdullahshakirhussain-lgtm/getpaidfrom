@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Restricted by sanctions; most Western platforms don't serve Russia.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as self-employed (NPD) in the \"Мой налог\" app in minutes.",
+  "L2_tax_id": "INN, your taxpayer identification number.",
+  "L3_income_tax_foreign": "Progressive 13–22% on income since 2025; many freelancers use NPD instead.",
+  "L4_vat_gst": "22% VAT from 2026; simplified-regime businesses below 20 million roubles are exempt.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Self-employed NPD: 4% from individuals, 6% from companies, up to 2.4 million roubles.",
+  "D1_id_document": "Internal passport of Russia."
+ },
+ "watch_out": [
+  {
+   "text": "We only cover lawful routes; we don't describe ways around sanctions.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

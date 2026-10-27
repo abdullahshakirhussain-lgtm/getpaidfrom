@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, through Ethiopian banks; service exporters keep 100% in a retention account.",
+  "P2_fcy_account": "Yes, for qualifying income; FX savings accounts no longer need a USD 100 minimum.",
+  "P3_local_gateways": "Chapa is a licensed gateway; whether individuals can sign up is unconfirmed.",
+  "L1_registration": "Formal route: trade registration and a business licence via eTrade, plus a TIN.",
+  "L2_tax_id": "TIN from the Ministry of Revenues, linked to your Fayda digital ID.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 0–35%; small sellers may pay 2–9% on sales.",
+  "L4_vat_gst": "15% VAT above ETB 2 million a year; qualifying exports are zero-rated.",
+  "L5_data_protection": "Register with the Ethiopian Communications Authority before processing personal data.",
+  "L6_consumer_ecommerce": "Buyers can return within 7 days for a full refund.",
+  "L7_incentives": "Keep 100% of service-export earnings in foreign currency since February 2026.",
+  "D1_id_document": "Fayda national digital ID."
+ },
+ "watch_out": [
+  {
+   "text": "Without a TIN and licence, payers withhold 30% instead of 3%.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Banks may ask for a TIN and business licence for a retention account.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "PayPal accounts in Ethiopia can only send and shop, not receive.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

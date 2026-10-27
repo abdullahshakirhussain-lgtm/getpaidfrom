@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, under exchange control; keep earnings in a foreign-currency account at a bank.",
+  "P2_fcy_account": "Yes: individuals may hold a foreign currency account with an Authorised Dealer.",
+  "P3_local_gateways": "Paystack Starter takes unregistered sellers, with a limit until you register a business.",
+  "L1_registration": "No company needed; register with SARS within 21 business days of starting.",
+  "L2_tax_id": "SARS income tax reference number, via eFiling or the SARS MobiApp.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 18–45%; Turnover Tax excludes most professional services.",
+  "L4_vat_gst": "15% VAT above R2.3m a year; services to non-residents are zero-rated.",
+  "L5_data_protection": "POPIA: register your Information Officer with the Information Regulator.",
+  "L6_consumer_ecommerce": "Online buyers can cancel within 7 days without reason or penalty.",
+  "L7_incentives": "Turnover Tax 0% up to R600,000, if under 20% professional services.",
+  "D1_id_document": "Green bar-coded ID book or Smart ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Remote work done from South Africa doesn't get the foreign-income exchange exemption.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Over 20% income from IT or consulting rules out Turnover Tax.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "PayPal withdrawals go through FNB's withdraw service and take 4–6 business days.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

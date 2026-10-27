@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Likely yes; currency controls were reportedly removed in 2009.",
+  "P2_fcy_account": "Likely yes; residents may reportedly hold foreign currency freely.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register with the Registrar of Businesses and get a licence; needs a NIN.",
+  "L2_tax_id": "TIN from the Seychelles Revenue Commission when you register.",
+  "L3_income_tax_foreign": "Under SCR 1 million turnover, a flat 1.5% presumptive tax on turnover.",
+  "L4_vat_gst": "15% VAT above SCR 2 million; voluntary from SCR 100,000.",
+  "L5_data_protection": "Data Protection Act 2023, enforced by the Information Commission.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "The 1.5% presumptive tax below SCR 1m is the main simplification.",
+  "D1_id_document": "National ID card (NIN) or passport."
+ },
+ "watch_out": []
+}

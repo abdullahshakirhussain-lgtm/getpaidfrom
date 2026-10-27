@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Yes: banks offer an FC I foreign-currency savings account for residents.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Ministry of Industry, Commerce and Employment; steps not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Reported bands: 0% to BTN 300,000, rising to 25%.",
+  "L4_vat_gst": "5% GST since January 2026; exports are exempt.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Bhutanese citizenship card (electronic national ID)."
+ },
+ "watch_out": []
+}

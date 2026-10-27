@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; most foreign-exchange controls were abolished in the 1990s.",
+  "P2_fcy_account": "Not confirmed yet, though foreign-currency accounts are common at banks.",
+  "P3_local_gateways": "Local providers like Tranzila and Cardcom weren't researched yet.",
+  "L1_registration": "Open a file with the Tax Authority as osek patur or osek murshe.",
+  "L2_tax_id": "Your Mispar Zehut (ID number); how to register isn't confirmed.",
+  "L3_income_tax_foreign": "Worldwide income taxed up to 47%, plus a 3% surtax at high incomes.",
+  "L4_vat_gst": "18% VAT; osek patur freelancers below the ceiling don't charge it.",
+  "L5_data_protection": "Privacy Protection Law; most small businesses needn't register databases since 2025.",
+  "L6_consumer_ecommerce": "Reportedly 14 days to cancel distance sales, with a small fee.",
+  "L7_incentives": "Osek patur: no VAT below the turnover ceiling.",
+  "D1_id_document": "Teudat Zehut (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "The 2026 osek patur ceiling is unclear (₪120,000 or ₪122,833); confirm on gov.il.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Invoices above ₪5,000 before VAT need a Tax Authority allocation number.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

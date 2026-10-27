@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; no restrictive currency controls are generally reported.",
+  "P2_fcy_account": "Yes: banks offer foreign-currency (devizni) accounts to individuals.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as an entrepreneur with APR online; tax and social security link automatically.",
+  "L2_tax_id": "JMBG for individuals; entrepreneurs get a 9-digit PIB.",
+  "L3_income_tax_foreign": "Unregistered freelancers paid from abroad self-assess quarterly; entrepreneurs can use paušal.",
+  "L4_vat_gst": "20% VAT above RSD 8 million in 12 months.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Paušal: fixed monthly tax and contributions, up to RSD 6 million a year.",
+  "D1_id_document": "Лична карта (identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "Working for one client can fail the independence test and raise your tax.",
+   "fact": "L7_incentives"
+  },
+  {
+   "text": "Unregistered freelancers must file within 30 days after each quarter.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register as an entreprenant at the Maison de l'Entreprise in Niamey, about 72 hours.",
+  "L2_tax_id": "NIF, reportedly issued with your registration at the Maison de l'Entreprise.",
+  "L3_income_tax_foreign": "Under FCFA 50m turnover, a synthetic tax applies; no start-up exemption since 2025.",
+  "L4_vat_gst": "19% VAT; platform sales are taxable since 2025.",
+  "L5_data_protection": "Law 2022-59: notify the HAPDP, unless you appoint a data protection officer.",
+  "L6_consumer_ecommerce": "Electronic transactions law 2019-03 exists; refund rules not confirmed.",
+  "L7_incentives": "No small-business tax holiday since 2025; the synthetic regime is the simplified option.",
+  "D1_id_document": "National identity card; AES biometric cards rolling out since 2026."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

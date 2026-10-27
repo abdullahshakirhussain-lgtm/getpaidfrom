@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes; exporters must receive by bank within 180 days and sell some currency.",
+  "P2_fcy_account": "Yes: banks like BCEL offer USD and THB accounts; cash dollars can be scarce.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register an individual enterprise with the Ministry of Industry and Commerce.",
+  "L2_tax_id": "TIN on your enterprise certificate, or from the tax office via taxservice.mof.gov.la.",
+  "L3_income_tax_foreign": "Worldwide income taxed; services pay 3% of turnover at LAK 50–400 million.",
+  "L4_vat_gst": "10% VAT, and services to foreign clients are not zero-rated.",
+  "L5_data_protection": "Electronic Data Protection Law: consent needed to send data abroad.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Services for foreign clients still pay 10% VAT, despite some guides' claims.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Using foreign software for customer data needs consent to transfer it abroad.",
+   "fact": "L5_data_protection"
+  }
+ ]
+}

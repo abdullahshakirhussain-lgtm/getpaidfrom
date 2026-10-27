@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; no forced sale of foreign currency, and service exports have no settlement deadline.",
+  "P2_fcy_account": "Yes: sole proprietors (FOPs) receive payments into a foreign-currency bank account.",
+  "P3_local_gateways": "LiqPay and WayForPay need FOP status or a company.",
+  "L1_registration": "Register as a FOP (sole proprietor), free and online in Diia in minutes.",
+  "L2_tax_id": "РНОКПП taxpayer number from the State Tax Service, shown in Diia.",
+  "L3_income_tax_foreign": "FOP group 3: 5% of revenue plus 1% military levy, up to UAH 10.09m.",
+  "L4_vat_gst": "20% VAT above UAH 1m; most services to foreign clients are outside VAT.",
+  "L5_data_protection": "Law 2297-VI; notify the Ombudsman only for sensitive data like health.",
+  "L6_consumer_ecommerce": "Buyers can cancel within 14 days, but not after digital delivery they agreed to.",
+  "L7_incentives": "FOP single tax (5% plus 1%) instead of 18% plus a 5% levy.",
+  "D1_id_document": "Ukrainian ID card passport, also usable digitally in Diia."
+ },
+ "watch_out": [
+  {
+   "text": "Move Payoneer money to your FOP account within the quarter, or pay 18% plus levy.",
+   "fact": "P5_payoneer_wise"
+  },
+  {
+   "text": "Services not on the Tax Code list may be charged 20% VAT.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "PayPal may change its Ukraine services at any time because of the war.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Local accounts are in US dollars since 2001.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "NIT, NRC and DUI; how to get them isn't confirmed yet.",
+  "L3_income_tax_foreign": "Only Salvadoran-source income taxed: 0% to USD 6,600, then 10–30%.",
+  "L4_vat_gst": "13% VAT; registration generally required, no threshold stated.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "DUI (Documento Único de Identidad)."
+ },
+ "watch_out": []
+}

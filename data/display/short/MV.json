@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register through the Ministry of Economic Development's Business Portal; steps not confirmed.",
+  "L2_tax_id": "TIN from MIRA, covering all taxes you're registered for.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income; 0% up to MVR 720,000.",
+  "L4_vat_gst": "GST 8% general, 16% tourism, above MVR 1 million; rates may have changed.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National Identity Card."
+ },
+ "watch_out": [
+  {
+   "text": "The Maldives taxes individuals since 2020, despite older guides saying otherwise.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

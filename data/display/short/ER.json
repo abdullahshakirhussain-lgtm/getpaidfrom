@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed; strict exchange control and a fixed official rate are reported.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Reported: 2% to 30% progressive tax; small businesses pay a presumptive tax.",
+  "L4_vat_gst": "No VAT; sales tax rates are reported inconsistently.",
+  "L5_data_protection": "No data protection law; the Constitution's privacy right is the only protection.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Unauthorised use of foreign currency can be penalised; check with the Bank of Eritrea.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls.",
+  "P2_fcy_account": "Mostly not needed: Montenegro uses the euro.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Central Register of Business Entities (CRPS); steps not confirmed.",
+  "L2_tax_id": "PIB, an 8-digit tax number assigned when you register as an entrepreneur.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income; entrepreneurs have a separate scale.",
+  "L4_vat_gst": "21% VAT above €30,000 in 12 months; exports are 0%.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Lična karta (identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "Once VAT-registered, you can't deregister for at least three years.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

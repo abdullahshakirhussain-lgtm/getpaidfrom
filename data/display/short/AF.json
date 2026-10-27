@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Severely limited: banking channels are frozen and sanctions screening applies.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Business licences come from AISA or the Ministry of Commerce.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Residents are taxed on foreign income too, at progressive rates.",
+  "L4_vat_gst": "10% VAT since 2020; current application not confirmed.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Tazkira (national identity document)."
+ },
+ "watch_out": [
+  {
+   "text": "Check sanctions licences and bank channels before accepting any payment.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

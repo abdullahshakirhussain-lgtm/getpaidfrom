@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no foreign-exchange controls.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Ministry of Industry, Commerce and Tourism; steps not confirmed yet.",
+  "L2_tax_id": "No TIN is issued for information exchange; your CPR number identifies you.",
+  "L3_income_tax_foreign": "No personal income tax.",
+  "L4_vat_gst": "10% VAT above BHD 37,500 a year.",
+  "L5_data_protection": "Personal Data Protection Law (Law 30 of 2018), in force since 2019.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "CPR card (nine-digit personal number)."
+ },
+ "watch_out": [
+  {
+   "text": "Wise in Bahrain is for personal accounts only, not business.",
+   "fact": "P5_payoneer_wise"
+  }
+ ]
+}

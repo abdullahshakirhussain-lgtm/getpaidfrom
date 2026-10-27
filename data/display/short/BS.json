@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Exchange controls apply to residents; conversion rules not confirmed.",
+  "P2_fcy_account": "Restricted: resident foreign-currency accounts have limited uses and need approvals.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "No income tax.",
+  "L4_vat_gst": "10% VAT above BSD 100,000 in any 12 months.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "No national ID card; passports and driving licences are used."
+ },
+ "watch_out": [
+  {
+   "text": "You can't simply keep USD earnings locally for general use; get Central Bank approval.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Yes: dollar accounts are standard, e.g. BCP with no minimum.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register in the RUC with SUNAT, online with your DNI via App Personas.",
+  "L2_tax_id": "RUC, the Single Taxpayers' Registry number from SUNAT.",
+  "L3_income_tax_foreign": "Worldwide income taxed on a bracket scale starting at 8%.",
+  "L4_vat_gst": "18% IGV; export rules for services not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund periods not confirmed yet.",
+  "L7_incentives": "Nuevo RUS: a fixed monthly quota from S/ 20 for small businesses.",
+  "D1_id_document": "DNI, issued by RENIEC."
+ },
+ "watch_out": [
+  {
+   "text": "Banks may close personal accounts used for business flows; consider a business account.",
+   "fact": "P2_fcy_account"
+  },
+  {
+   "text": "Freelance professional income usually can't use Nuevo RUS.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

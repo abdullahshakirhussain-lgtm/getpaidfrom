@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register a sole proprietorship at the one-stop shop with certified ID copies.",
+  "L2_tax_id": "Reportedly a NIF from the one-stop shop; not confirmed.",
+  "L3_income_tax_foreign": "Under MRU 3 million turnover, pay 3% of turnover (forfait regime).",
+  "L4_vat_gst": "16% VAT from MRU 3 million turnover; exported services are zero-rated.",
+  "L5_data_protection": "Law 2017-020 on personal data protection, with a data authority (APD).",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID card or passport."
+ },
+ "watch_out": []
+}

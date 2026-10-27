@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; individuals can keep export earnings in dollars at a local bank since April 2026.",
+  "P2_fcy_account": "Yes: USD accounts at local banks, with no bank fees on incoming transfers.",
+  "P3_local_gateways": "Mercado Pago payment links work with a free account, no website needed.",
+  "L1_registration": "Register with ARCA for a CUIT and join the Monotributo.",
+  "L2_tax_id": "CUIT, from ARCA, using fiscal key level 3 and your DNI.",
+  "L3_income_tax_foreign": "Monotributo replaces income tax and IVA with one monthly fee by category.",
+  "L4_vat_gst": "21% IVA; exports are zero-rated; Monotributo already includes IVA.",
+  "L5_data_protection": "Ley 25.326: register customer databases online with the AAIP.",
+  "L6_consumer_ecommerce": "Buyers can cancel within 10 days; your site needs a \"repentance button\".",
+  "L7_incentives": "Monotributo's single monthly payment, and dollars kept in your own local account.",
+  "D1_id_document": "DNI (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "To avoid forced conversion, earnings must land in your own local dollar account.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Monotributo categories are updated twice a year; check yours each time.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Websites must show a cancel (\"repentance\") button without forcing a login.",
+   "fact": "L6_consumer_ecommerce"
+  }
+ ]
+}

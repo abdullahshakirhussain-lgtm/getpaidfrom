@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; no restrictive currency controls are generally reported.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with your municipality (Federation) or APIF (Republika Srpska); steps not confirmed.",
+  "L2_tax_id": "JIB (ID number); a 12-digit PDV number for VAT.",
+  "L3_income_tax_foreign": "Worldwide income taxed at a flat 10%; rules differ by entity.",
+  "L4_vat_gst": "17% VAT above BAM 100,000; exports are zero-rated.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Lična karta (identity card), mandatory from age 18."
+ },
+ "watch_out": [
+  {
+   "text": "Older guides show BAM 50,000; the VAT threshold is now BAM 100,000.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

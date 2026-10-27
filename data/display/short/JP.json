@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; large payments only need an after-the-fact report.",
+  "P2_fcy_account": "Yes: hold foreign deposit accounts freely, even abroad.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "File a business-opening notice (kaigyō todoke) at your tax office within a month.",
+  "L2_tax_id": "My Number, your 12-digit individual number.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 5–45%, plus surtax and about 10% local tax.",
+  "L4_vat_gst": "10% consumption tax above ¥10 million sales; exports zero-rated.",
+  "L5_data_protection": "APPI applies to all businesses, including sole traders.",
+  "L6_consumer_ecommerce": "Online goods can be cancelled within 8 days unless your terms say otherwise.",
+  "L7_incentives": "Blue Return: up to ¥650,000 deduction with double-entry bookkeeping.",
+  "D1_id_document": "My Number Card, driver's licence or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Japanese clients may need your invoice registration number, even below ¥10 million.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "File the Blue Return application within two months to get the deduction.",
+   "fact": "L1_registration"
+  }
+ ]
+}

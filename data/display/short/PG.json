@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Restricted: funds held in PNG must be in kina; transfers abroad can be slow.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "TIN from the Internal Revenue Commission; banks need it to open accounts.",
+  "L3_income_tax_foreign": "Residents taxed on worldwide income; reported bands 22–42%.",
+  "L4_vat_gst": "10% VAT; exports zero-rated; threshold not confirmed yet.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National identity card (e-ID since 2015)."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign currency shortages can delay converting and sending money abroad.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

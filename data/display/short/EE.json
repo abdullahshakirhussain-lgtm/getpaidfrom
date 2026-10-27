@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as a sole proprietor (FIE) online for €13; you must live in Estonia.",
+  "L2_tax_id": "Your personal identification code.",
+  "L3_income_tax_foreign": "Worldwide income taxed at a flat 22%, plus social tax for the self-employed.",
+  "L4_vat_gst": "24% VAT once turnover in Estonia passes €40,000 a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Entrepreneur account at LHV: flat 20% on receipts, no bookkeeping, up to €40,000.",
+  "D1_id_document": "ID-kaart (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "e-Residency doesn't let you work as an FIE from abroad.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "The entrepreneur account taxes gross receipts; no expenses are deducted.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

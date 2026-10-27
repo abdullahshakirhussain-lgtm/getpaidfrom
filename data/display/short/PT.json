@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Yes, but terms vary by bank; check each bank's currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Open activity with Finanças using your NIF, then register with Social Security separately.",
+  "L2_tax_id": "NIF, from the Tax and Customs Authority, needed before opening activity.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 12.5–48%, plus 21.4% social security on 70% of service income.",
+  "L4_vat_gst": "23% VAT; exempt if last year's turnover was under €15,000.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No VAT under €15,000, and no Social Security for your first 12 months.",
+  "D1_id_document": "Cartão de Cidadão or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Social Security registration isn't automatic; do it in Segurança Social Direta.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Passing €18,750 in the year means charging VAT from that invoice.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

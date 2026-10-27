@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; all exchange controls were abolished by 1999.",
+  "P2_fcy_account": "Very likely, since exchange controls are gone; not confirmed.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register with CIPA; steps not confirmed yet.",
+  "L2_tax_id": "Register for tax with BURS; TIN steps not confirmed yet.",
+  "L3_income_tax_foreign": "Botswana-source income taxed: 0% up to BWP 48,000, up to 25%.",
+  "L4_vat_gst": "14% VAT above BWP 1 million a year.",
+  "L5_data_protection": "Data Protection Act 2024: notify the Commissioner before automated processing.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Omang (national identity card)."
+ },
+ "watch_out": []
+}

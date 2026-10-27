@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Mostly not needed: Monaco uses the euro.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Trade and Industry Registry (RCI); steps not confirmed yet.",
+  "L2_tax_id": "Monaco doesn't issue tax identification numbers.",
+  "L3_income_tax_foreign": "No personal income tax, except for French nationals.",
+  "L4_vat_gst": "French VAT rules and rates apply (20% standard).",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Monégasque identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Selling mainly abroad (over 25% of turnover) can trigger business profit tax.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

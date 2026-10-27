@@ -1,0 +1,20 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, into a domiciliary (USD) account; no prior approval needed.",
+  "P2_fcy_account": "Yes: a domiciliary account at a Nigerian bank.",
+  "P3_local_gateways": "Paystack lets you sign up as a Starter Business without CAC registration.",
+  "L1_registration": "Not needed under your own name; register a business name with CAC.",
+  "L2_tax_id": "Every taxable person needs a Tax ID, and banks will ask for it.",
+  "L3_income_tax_foreign": "Foreign income is taxable; the first ₦800,000 is tax-free, then 15–25%.",
+  "L4_vat_gst": "VAT is 7.5%; exported services are zero-rated.",
+  "L5_data_protection": "Nigeria Data Protection Act 2023, enforced by the NDPC.",
+  "L6_consumer_ecommerce": "Consumer law (FCCPA) covers online sellers; complaints go to the FCCPC.",
+  "L7_incentives": "First ₦800,000 of income is tax-free; small companies pay 0% company tax.",
+  "D1_id_document": "National Identification Number (NIN); payment apps also use your BVN."
+ },
+ "watch_out": [
+  {"text": "Paystack Starter accounts are capped at ₦8 million (USD 5,000 for dollars).", "fact": "P3_local_gateways"},
+  {"text": "Platforms that pay through PayPal Payouts can't pay Nigerian accounts.", "fact": "P4_paypal"},
+  {"text": "All your foreign income is taxable, even if you keep it abroad.", "fact": "L3_income_tax_foreign"}
+ ]
+}

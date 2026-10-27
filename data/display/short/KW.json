@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; the dinar is freely convertible.",
+  "P2_fcy_account": "Yes: banks like Boubyan and NBK offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Ministry of Commerce and Industry; steps not confirmed yet.",
+  "L2_tax_id": "Civil ID number; how tax registration works isn't confirmed.",
+  "L3_income_tax_foreign": "No personal income tax.",
+  "L4_vat_gst": "No VAT.",
+  "L5_data_protection": "No comprehensive data protection law; telecom-sector rules apply.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Civil ID card."
+ },
+ "watch_out": []
+}

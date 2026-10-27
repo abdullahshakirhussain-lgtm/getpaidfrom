@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Exchange controls apply; transactions go through authorised banks. Specific rules not confirmed.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Reserve a name with the Registrar of Companies, then get a TIN from ERS.",
+  "L2_tax_id": "Not confirmed; register for tax with the Eswatini Revenue Service.",
+  "L3_income_tax_foreign": "Eswatini-source income taxed, starting at 20%; remote work treatment unconfirmed.",
+  "L4_vat_gst": "15% VAT above E500,000 a year.",
+  "L5_data_protection": "Data Protection Act 2022, with fines and breach notification duties.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID card."
+ },
+ "watch_out": []
+}

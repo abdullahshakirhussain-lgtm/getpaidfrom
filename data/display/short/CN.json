@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but converting over USD 50,000 a year needs documents.",
+  "P2_fcy_account": "Yes: banks offer foreign-currency savings accounts; the conversion quota applies.",
+  "P3_local_gateways": "Domestic sales run on Alipay and WeChat Pay; not researched yet.",
+  "L1_registration": "Register an individual household business; tiny online sellers under RMB 100,000 may be exempt.",
+  "L2_tax_id": "Entities use the Uniform Social Credit Code; individuals' number not confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed; freelance fees 3–45%, business income 5–35%.",
+  "L4_vat_gst": "Small-scale VAT 1% until 2027; exempt up to RMB 100,000 a month.",
+  "L5_data_protection": "PIPL since 2021; fines up to RMB 50 million or 5% of revenue.",
+  "L6_consumer_ecommerce": "Online buyers can return goods within 7 days without reason.",
+  "L7_incentives": "Small-scale VAT relief: 1% rate and a monthly exemption.",
+  "D1_id_document": "Resident Identity Card (居民身份证)."
+ },
+ "watch_out": [
+  {
+   "text": "Over USD 50,000 a year, you need contracts to convert foreign income.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Foreigners can't register an individual household business.",
+   "fact": "L1_registration"
+  }
+ ]
+}

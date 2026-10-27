@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; you may keep all foreign currency you receive, with no forced conversion.",
+  "P2_fcy_account": "Yes: banks hold foreign-currency deposits; each bank sets cash withdrawal limits.",
+  "P3_local_gateways": "Paymob is licensed and may accept individuals with a national ID; ask them first.",
+  "L1_registration": "Register for tax within 30 days of starting, at the tax office or online.",
+  "L2_tax_id": "A tax registration number on a tax card from the Egyptian Tax Authority.",
+  "L3_income_tax_foreign": "Foreign-client income is taxed; under EGP 20m, a simplified 0.4–1.5% turnover tax.",
+  "L4_vat_gst": "14% VAT; exporters must register for VAT whatever their turnover.",
+  "L5_data_protection": "Data law 151/2020: licences required from November 2026, when the grace period ends.",
+  "L6_consumer_ecommerce": "Buyers can return goods within 14 days; show your tax card details online.",
+  "L7_incentives": "Simplified turnover tax (0.4–1.5%) and zero VAT on exported services.",
+  "D1_id_document": "National ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Consultants earning 90% from one or two clients can't use the simplified regime.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Exporters must register for VAT even below EGP 500,000 a year.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Platforms paying through PayPal Payouts can't pay Egyptian accounts.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

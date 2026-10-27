@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Local accounts are effectively in US dollars, Panama's legal tender.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with MICI and the DGI; steps not confirmed yet.",
+  "L2_tax_id": "RUC, the single taxpayer registry number.",
+  "L3_income_tax_foreign": "Only Panamanian-source income taxed: 0% up to USD 11,000, then 15–25%.",
+  "L4_vat_gst": "7% ITBMS (VAT) above USD 36,000 a year.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Cédula de identidad (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "Whether work done in Panama for foreign clients is untaxed isn't confirmed.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

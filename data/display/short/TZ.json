@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, through a local bank; foreign clients may pay in foreign currency.",
+  "P2_fcy_account": "Yes: keep foreign-currency accounts locally; accounts abroad need central bank approval.",
+  "P3_local_gateways": "Selcom Pesa lets small businesses receive local QR payments instantly.",
+  "L1_registration": "Get a TIN within 15 days of starting, then a business licence.",
+  "L2_tax_id": "TIN from TRA, online with your NIN, sometimes within 24 hours.",
+  "L3_income_tax_foreign": "Worldwide income taxed; presumptive 4% up to TZS 200m, but professionals excluded.",
+  "L4_vat_gst": "18% VAT above TZS 200m; licensed professionals register regardless; exports zero-rated.",
+  "L5_data_protection": "Register with the Personal Data Protection Commission before processing personal data.",
+  "L6_consumer_ecommerce": "Buyers can cancel within 7 days if they haven't benefited materially.",
+  "L7_incentives": "First-year tax holiday for new businesses, and 4% presumptive tax.",
+  "D1_id_document": "National ID (NIDA card)."
+ },
+ "watch_out": [
+  {
+   "text": "Keeping a bank account abroad needs the central bank Governor's approval.",
+   "fact": "P2_fcy_account"
+  },
+  {
+   "text": "Invoice local clients in TZS; foreign currency only for genuine foreign clients.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Not registering with the data commission can bring fines up to TZS 5m.",
+   "fact": "L5_data_protection"
+  }
+ ]
+}

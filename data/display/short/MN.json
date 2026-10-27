@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes; no surrender rule found for individuals.",
+  "P2_fcy_account": "Yes: banks like Golomt offer USD accounts.",
+  "P3_local_gateways": "Local wallets like QPay and SocialPay weren't researched yet.",
+  "L1_registration": "Register with the Mongolian Tax Administration; steps not confirmed yet.",
+  "L2_tax_id": "Taxpayer number and register number; how to apply isn't confirmed.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 10%, 15% and 20%.",
+  "L4_vat_gst": "10% VAT once sales reach MNT 50 million in 12 months.",
+  "L5_data_protection": "Law on Personal Data Protection (2021): consent and breach notification.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Citizen Identity Card."
+ },
+ "watch_out": []
+}

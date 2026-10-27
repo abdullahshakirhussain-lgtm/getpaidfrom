@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Fragmented: two central banks with competing rules; foreign banks often reject transfers.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Residents taxed on worldwide income, 0–20%; which authority applies depends where you live.",
+  "L4_vat_gst": "5% general sales tax; register above YER 50 million turnover.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Dealing with Houthi-controlled institutions can create sanctions exposure.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

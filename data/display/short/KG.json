@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes; no surrender rule found, but limits have been imposed before.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as an individual entrepreneur with Form 163, choosing a tax regime.",
+  "L2_tax_id": "14-digit personal identification number (PIN/INN).",
+  "L3_income_tax_foreign": "Worldwide income taxed at a flat 10%; entrepreneurs choose a tax regime.",
+  "L4_vat_gst": "12% VAT; the domestic registration threshold is reported inconsistently.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "High Technology Park: IT exporters pay about 1% of revenue instead of taxes.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": []
+}

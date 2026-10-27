@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange restrictions, and the franc is pegged to the dollar.",
+  "P2_fcy_account": "Very likely, with no exchange controls; not confirmed.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Pay the yearly business licence fee (patente); registration steps not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Business profits are taxed only on activity in Djibouti; personal rules unconfirmed.",
+  "L4_vat_gst": "10% VAT for turnover above DJF 10–20m; exports are exempt.",
+  "L5_data_protection": "Digital Code 2025 covers personal data; its commission isn't set up yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": []
+}

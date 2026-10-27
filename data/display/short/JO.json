@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; the dinar is convertible and no surrender rule was found.",
+  "P2_fcy_account": "Yes: banks open accounts in major currencies from USD 300.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Jordan-source income taxed 5–30%; work done in Jordan likely counts.",
+  "L4_vat_gst": "16% sales tax above JOD 30,000 a year for services; exports zero-rated.",
+  "L5_data_protection": "Personal Data Protection Law No. 24 of 2023.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Don't assume foreign-client income is tax-free if you work from Jordan.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

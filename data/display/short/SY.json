@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Sanctions are being lifted, but bank links and platform support remain limited.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Not confirmed yet.",
+  "L4_vat_gst": "Not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Platform support changes fast as sanctions lift; check each service directly.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

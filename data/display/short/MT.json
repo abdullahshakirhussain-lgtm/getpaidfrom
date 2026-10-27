@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Declare self-employment to Jobsplus and register for VAT before trading.",
+  "L2_tax_id": "Your ID card number (Maltese nationals); others get a 9-digit tax number.",
+  "L3_income_tax_foreign": "Worldwide income taxed: 0% to €12,000, rising to 35%, plus 15% social security.",
+  "L4_vat_gst": "18% VAT; small undertakings under about €35,000 (services) can register exempt.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Part-time self-employment can qualify for a 10% rate up to €12,000.",
+  "D1_id_document": "Karta tal-Identità (ID card) or passport."
+ },
+ "watch_out": []
+}

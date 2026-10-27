@@ -1,0 +1,20 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; keep USD 5,000 a month or half your earnings in foreign currency.",
+  "P2_fcy_account": "Yes: banks open an export dollar account (ESFCA) alongside your rupee account.",
+  "P3_local_gateways": "Local gateways like Safepay and PayFast ask for an NTN and business bank account.",
+  "L1_registration": "No business registration needed; just register with FBR for an NTN.",
+  "L2_tax_id": "Your NTN is your CNIC number; enrol free online on FBR Iris.",
+  "L3_income_tax_foreign": "Export income: 0.25% final tax if PSEB-registered, otherwise 1%.",
+  "L4_vat_gst": "Services are taxed by provinces; Sindh exempts exported IT services.",
+  "L5_data_protection": "No data protection law in force yet; your clients' laws (like GDPR) matter.",
+  "L6_consumer_ecommerce": "Online contracts are legal; consumer protection is mainly provincial.",
+  "L7_incentives": "Register with PSEB (Rs 1,000 a year) to cut export tax to 0.25%.",
+  "D1_id_document": "Computerised National Identity Card (CNIC)."
+ },
+ "watch_out": [
+  {"text": "The low export tax counts as final only if you file your tax return.", "fact": "L3_income_tax_foreign"},
+  {"text": "Register with PSEB to pay 0.25% instead of 1% on export income.", "fact": "L7_incentives"},
+  {"text": "You can't withdraw foreign-currency cash inside Pakistan.", "fact": "P2_fcy_account"}
+ ]
+}

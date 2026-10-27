@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; you may keep or freely sell foreign currency earned from foreign clients.",
+  "P2_fcy_account": "Yes: you can keep service earnings in a foreign-currency bank account.",
+  "P3_local_gateways": "iyzico's pay-by-link needs no company; its virtual POS needs a sole proprietorship.",
+  "L1_registration": "Register with your tax office within 10 days, unless you qualify for the creator exemption.",
+  "L2_tax_id": "Your 11-digit T.C. kimlik (national ID) number is your tax ID.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 15–40%; creators and app developers pay a flat 15% withholding.",
+  "L4_vat_gst": "20% KDV; services for customers abroad are exempt.",
+  "L5_data_protection": "KVKK (Law 6698); controllers under 50 staff needn't register in VERBIS.",
+  "L6_consumer_ecommerce": "Buyers have 14 days to withdraw, except for instantly delivered digital goods.",
+  "L7_incentives": "15% final tax for creators, 80% deduction on exported services, young-entrepreneur exemption.",
+  "D1_id_document": "Chip-based national ID card (TCKK)."
+ },
+ "watch_out": [
+  {
+   "text": "Selling from your own site or a foreign platform needs ETBİS registration first.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "The 15% creator regime needs all income through a dedicated Turkish bank account.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "The 80% export deduction needs the profit brought into Türkiye by the tax deadline.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

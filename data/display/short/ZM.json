@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; foreign clients' payments aren't domestic transactions under kwacha rules.",
+  "P2_fcy_account": "Yes: hold accounts in local or foreign currency; cash withdrawals capped.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register a business name with PACRA as a sole proprietor.",
+  "L2_tax_id": "TPIN from the Zambia Revenue Authority, using your NRC.",
+  "L3_income_tax_foreign": "Zambian-source income taxed; turnover tax of 5% up to K5 million.",
+  "L4_vat_gst": "16% VAT above K800,000 a year; services performed in Zambia aren't zero-rated.",
+  "L5_data_protection": "Register with the Data Protection Commissioner; not registering is an offence.",
+  "L6_consumer_ecommerce": "Buyers can cancel online purchases within seven days.",
+  "L7_incentives": "No freelancer incentive; 5% turnover tax up to K5 million.",
+  "D1_id_document": "National Registration Card (NRC) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Work done in Zambia for foreign clients still carries 16% VAT once registered.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Older guides say K800,000 and 4%; turnover tax is now 5% up to K5m.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

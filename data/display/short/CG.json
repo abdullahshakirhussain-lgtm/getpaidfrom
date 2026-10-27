@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but under CEMAC exchange control; repatriate earnings through your bank.",
+  "P2_fcy_account": "No: residents can't open foreign-currency accounts locally; declare accounts abroad.",
+  "P3_local_gateways": "MTN MoMo and Airtel Money dominate; no gateway for individuals found.",
+  "L1_registration": "Register through ACPCE, the one-stop shop, now also online.",
+  "L2_tax_id": "NIU from the tax directorate (DGID), shown on your invoices.",
+  "L3_income_tax_foreign": "Worldwide income taxed; under FCFA 100m turnover, a flat-rate IGF regime applies.",
+  "L4_vat_gst": "18.9% VAT above FCFA 100m turnover; no zero rate for exported services found.",
+  "L5_data_protection": "Law 29-2019: declare data processing to the protection commission.",
+  "L6_consumer_ecommerce": "E-commerce law 37-2019 exists, but its refund rules weren't found.",
+  "L7_incentives": "No freelancer incentive; the IGF flat regime is the main simplification.",
+  "D1_id_document": "National identity card (CNI)."
+ },
+ "watch_out": [
+  {
+   "text": "Declare any accounts you hold abroad to the BEAC.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

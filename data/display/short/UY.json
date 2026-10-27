@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Yes: BROU offers savings accounts in pesos, dollars or euros.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the DGI (RUT) and BPS social security; steps not confirmed.",
+  "L2_tax_id": "RUT, the single taxpayer register number.",
+  "L3_income_tax_foreign": "Mainly Uruguayan-source income taxed (IRPF).",
+  "L4_vat_gst": "22% VAT; domestic threshold and export rules not confirmed.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Monotributo: one payment for taxes and social security, for small sole businesses.",
+  "D1_id_document": "Documento de identidad (cédula)."
+ },
+ "watch_out": []
+}

@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register a toiminimi with PRH via ytj.fi for €75; often optional now.",
+  "L2_tax_id": "Your Finnish Social Security number; businesses get a Business ID.",
+  "L3_income_tax_foreign": "Worldwide income taxed at progressive national rates plus municipal tax.",
+  "L4_vat_gst": "25.5% VAT; exempt while turnover stays at or below €20,000 a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Henkilökortti (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "YEL pension insurance is required once your income passes the minimum.",
+   "fact": "L1_registration"
+  }
+ ]
+}

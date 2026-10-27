@@ -11,10 +11,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 INCLUDE = [
-    ".github/workflows/pages.yml", ".gitignore", "README.md", "requirements.txt",
+    ".github/workflows/pages.yml", ".gitignore", "README.md", "requirements.txt", "wrangler.toml",
     "data/countries", "data/countries.json", "data/research", "data/sources", "data/reference", "data/manual",
-    "data/mapping_audit.json", "docs/RESEARCH_PROTOCOL.md",
-    "scripts", "site/templates", "site/static", "tests",
+    "data/mapping_audit.json", "data/display", "docs/RESEARCH_PROTOCOL.md", "docs/BLUEPRINT.md", "docs/DESIGN.md",
+    "scripts", "site/templates", "site/static", "site/logos", "tests",
 ]
 SKIP = {"__pycache__", "dist"}
 

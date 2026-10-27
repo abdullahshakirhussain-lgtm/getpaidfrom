@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Yes: banks offer US-dollar accounts; you'll need a DPI and NIT.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Registro Mercantil and SAT; steps not confirmed yet.",
+  "L2_tax_id": "NIT (tax number) and CUI (personal ID number).",
+  "L3_income_tax_foreign": "Only Guatemalan-source income taxed, including services you perform there.",
+  "L4_vat_gst": "12% VAT; threshold and export rules not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Pequeño Contribuyente: flat 5% of gross income up to Q500,285 in 2026.",
+  "D1_id_document": "DPI (Documento Personal de Identificación)."
+ },
+ "watch_out": []
+}

@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; the US dollar is the official currency.",
+  "P2_fcy_account": "Accounts are in US dollars by default.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as a sole trader (ENIN) with SERVE, free in 1–5 days.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed: 0% up to $6,000 a year, then 10%.",
+  "L4_vat_gst": "No VAT yet; a 5% services tax covers only hospitality and telecoms.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Bilhete de Identidade (identity card)."
+ },
+ "watch_out": []
+}

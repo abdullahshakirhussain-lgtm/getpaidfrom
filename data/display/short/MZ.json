@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but repatriate within 90 days and convert 50% to meticais.",
+  "P2_fcy_account": "Yes, if you have proven foreign-currency income such as exports.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register a sole proprietorship at the BAU one-stop shop, typically 7–15 days.",
+  "L2_tax_id": "NUIT, the tax number from the Tax Authority.",
+  "L3_income_tax_foreign": "Worldwide income taxed up to 32%; small taxpayers under MZN 4m can use ISPC.",
+  "L4_vat_gst": "16% VAT; threshold reportedly MZN 2.5 million, needs official confirmation.",
+  "L5_data_protection": "No general data protection law yet; a bill was submitted in 2026.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within seven working days for off-premises purchases.",
+  "L7_incentives": "No freelancer incentive; ISPC is limited to 5 years for liberal professions.",
+  "D1_id_document": "Bilhete de identidade (identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "Half of foreign earnings must currently be converted to meticais.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Consultants pay 15% under ISPC and can stay at most 5 years.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with CIPO and the Inland Revenue Division; steps not confirmed yet.",
+  "L2_tax_id": "TIN; how to get it isn't confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed: XCD 30,000 allowance, then 15–35%.",
+  "L4_vat_gst": "15% VAT above XCD 250,000 a year; exports are zero-rated.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National multipurpose ID card, optional for nationals."
+ },
+ "watch_out": []
+}

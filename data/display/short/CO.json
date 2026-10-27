@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; service exports don't have to go through the official FX market.",
+  "P2_fcy_account": "No: dollar accounts in Colombia aren't allowed, but accounts abroad are.",
+  "P3_local_gateways": "Wompi accepts individuals on their RUT or cédula with a Bancolombia or Nequi account.",
+  "L1_registration": "Register in the RUT with DIAN, free online with your cédula.",
+  "L2_tax_id": "NIT, assigned when you register in the RUT.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 0–39%; Régimen Simple starts at 5.9% for services.",
+  "L4_vat_gst": "19% IVA; services used only abroad are exempt; below 3,500 UVT, no IVA duties.",
+  "L5_data_protection": "Ley 1581 applies; individuals and small firms needn't register databases.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within 5 business days of delivery (retracto).",
+  "L7_incentives": "Régimen Simple at 5.9%, IVA exemption on exports, and no IVA under 3,500 UVT.",
+  "D1_id_document": "Cédula de ciudadanía (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "Wompi pays individuals their first payout 30 days after the first sale.",
+   "fact": "P3_local_gateways"
+  },
+  {
+   "text": "The export IVA exemption needs a client with no business in Colombia.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

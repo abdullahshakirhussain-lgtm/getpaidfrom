@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; bring export earnings home within nine months of the invoice date.",
+  "P2_fcy_account": "Yes: an EEFC account keeps 100% of your foreign earnings in currency.",
+  "P3_local_gateways": "Razorpay accepts unregistered individuals with a personal bank account, PAN and Aadhaar.",
+  "L1_registration": "No separate registration needed; free Udyam (MSME) registration is optional.",
+  "L2_tax_id": "PAN; get a free instant e-PAN online with Aadhaar.",
+  "L3_income_tax_foreign": "Residents pay tax on worldwide income; professionals can use a simplified presumptive scheme.",
+  "L4_vat_gst": "GST: exports are zero-rated; no registration needed below ₹20 lakh turnover.",
+  "L5_data_protection": "DPDP Act 2023 applies; its rules phase in over 18 months from November 2025.",
+  "L6_consumer_ecommerce": "Selling from your own site? Appoint a grievance officer and acknowledge complaints within 48 hours.",
+  "L7_incentives": "No GST on exports, a foreign-currency EEFC account, and simplified presumptive tax.",
+  "D1_id_document": "Aadhaar, plus your PAN card for payment platforms."
+ },
+ "watch_out": [
+  {
+   "text": "Bring export earnings home within nine months; the rule changed in September 2026.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "PayPal India receives export payments only, up to USD 10,000 per transaction.",
+   "fact": "P4_paypal"
+  },
+  {
+   "text": "Wise converts everything to rupees; you can't hold money in Wise.",
+   "fact": "P5_payoneer_wise"
+  }
+ ]
+}

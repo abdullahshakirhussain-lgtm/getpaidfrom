@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "No local gateway's sign-up requirements were found.",
+  "L1_registration": "Set up an individual enterprise at a CEFORE one-stop shop, usually in 48–72 hours.",
+  "L2_tax_id": "IFU (Identifiant Financier Unique), issued through CEFORE.",
+  "L3_income_tax_foreign": "Under FCFA 15m turnover, a fixed annual micro-enterprise contribution (CME) covers all taxes.",
+  "L4_vat_gst": "18% VAT; exported services are exempt; small taxpayers don't charge VAT.",
+  "L5_data_protection": "Law 001-2021: declare personal data processing to the CIL beforehand.",
+  "L6_consumer_ecommerce": "Service buyers can withdraw within 7 working days.",
+  "L7_incentives": "Low fixed CME tax, and a 2-year business-licence exemption for RSI businesses.",
+  "D1_id_document": "National ID card (CNIB), being replaced by the AES biometric card."
+ },
+ "watch_out": [
+  {
+   "text": "All foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

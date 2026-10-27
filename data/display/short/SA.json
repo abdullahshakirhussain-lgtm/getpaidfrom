@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no limits on inflows or outflows.",
+  "P2_fcy_account": "Yes: banks open accounts in any available foreign currency.",
+  "P3_local_gateways": "Local gateways like Moyasar, HyperPay and Tap weren't researched yet.",
+  "L1_registration": "Saudi nationals can get a freelance licence online; expatriates need commercial registration.",
+  "L2_tax_id": "TIN from the General Authority for Zakat and Tax (GAZT).",
+  "L3_income_tax_foreign": "No personal income tax, but business income faces zakat (Saudis) or 20% tax (others).",
+  "L4_vat_gst": "15% VAT above SAR 375,000 a year; exported services are zero-rated.",
+  "L5_data_protection": "Personal Data Protection Law, in force since 2023, regulated by SDAIA.",
+  "L6_consumer_ecommerce": "Online buyers can return unused goods within 7 days.",
+  "L7_incentives": "Freelance licence for Saudi nationals.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Freelance business income isn't simply tax-free; zakat or 20% tax applies.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Expatriates can't use the freelance licence.",
+   "fact": "L1_registration"
+  }
+ ]
+}

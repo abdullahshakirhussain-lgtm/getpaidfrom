@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "PayDunya offers mobile money and card collection; individual eligibility not confirmed.",
+  "L1_registration": "Declare as an entreprenant at the RCCM and get a NINEA before starting.",
+  "L2_tax_id": "NINEA, issued by the tax administration before you start.",
+  "L3_income_tax_foreign": "Worldwide income taxed 0–43%; the CGU simplified regime excludes many freelance services.",
+  "L4_vat_gst": "18% VAT; services taxed outside Senegal aren't taxable there.",
+  "L5_data_protection": "Law 2008-12: declare personal data processing to the CDP.",
+  "L6_consumer_ecommerce": "Electronic transactions law 2008-08 sets seller disclosure duties; no cooling-off confirmed.",
+  "L7_incentives": "Entreprenant status and the CGU simplified tax for non-BNC activities.",
+  "D1_id_document": "ECOWAS biometric identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Many freelance intellectual services count as BNC and can't use the CGU.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "PayPal withdrawals to local banks are limited and fees are high.",
+   "fact": "P4_paypal"
+  },
+  {
+   "text": "Foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Where does {{ p.name }} work? Country by country | Get Paid From{% endblock %}
+{% block description %}{{ p.name }} works in {{ p.counts.works }} of {{ p.rows|length }} countries we cover. Check yours, with the reason and source.{% endblock %}
+{% block main %}
+<p class="back"><a href="../">All countries</a></p>
+<h1 class="sentence with-logo">{{ p.logo }}Where {{ p.name }} works</h1>
+<p class="intro">Works in {{ p.counts.works }} of {{ p.rows|length }} countries{{ "" if p.rows|length == 193 else " written up so far" }}. Select a country for the reason and source.</p>
+{% for s, (label, tone), rows in p.groups if rows %}
+<section class="sec">
+  <h2><span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span> <span class="count">{{ rows|length }}</span></h2>
+  <ul class="plist">
+    {% for r in rows %}<li><a href="../{{ r.slug }}/#{{ p.slug }}"><span class="pc">{{ r.country }}</span><span class="pr">{{ r.reason }}</span></a></li>{% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

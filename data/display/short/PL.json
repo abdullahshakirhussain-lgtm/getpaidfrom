@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Yes: banks like PKO BP offer foreign-currency accounts in many currencies.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register a sole proprietorship (JDG) online through CEIDG, usually within a day.",
+  "L2_tax_id": "PESEL, if you don't run a business or pay VAT.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 12% up to PLN 120,000, then 32%.",
+  "L4_vat_gst": "23% VAT; exempt below PLN 240,000 a year from 2026.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Ryczałt lump-sum tax (12% for IT) and reduced ZUS contributions for new businesses.",
+  "D1_id_document": "Dowód osobisty (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Your ryczałt rate depends on the exact service code; mistakes are common.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

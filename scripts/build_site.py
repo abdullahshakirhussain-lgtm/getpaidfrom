@@ -1,110 +1,83 @@
-"""Build the Get Paid From static site (home + one page per country + method page) from data/countries/*.json.
+"""Build the Get Paid From static site from data/countries/*.json + data/display/ (blueprint: docs/BLUEPRINT.md).
 
-    python scripts/build_site.py                          # writes site/dist/ for the default SITE_URL
+    python scripts/build_site.py                 # countries that have short answers (data/display/short/<CC>.json)
+    python scripts/build_site.py --only LK,PK    # just these
     SITE_URL=https://getpaidfrom.com python scripts/build_site.py
 
-Country pages live at /<slug>/ (e.g. /sri-lanka/), so the address reads as the search: "get paid from sri lanka".
-No framework, no tracking, no external requests: plain HTML + one CSS file + a few lines of optional JS for search.
-Pages with fewer than MIN_SOURCED facts that have a sourced answer get noindex (docs/PLAN.md stage 6).
+Pages: home (search), /<country>/, /<platform>/ (e.g. /paypal/), /about/, 404. Search runs in the browser from
+search.json: country, platform and topic words ("paypal nepal", "vat kenya") answered from the data, no AI.
+Plain HTML + one CSS file + one small JS file; no framework, tracking or external requests.
 """
+import hashlib
 import json
 import os
 import re
 import shutil
+import sys
 import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
-from markupsafe import Markup, escape
+from markupsafe import Markup
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "site"
 OUT = SRC / "dist"
-MIN_SOURCED = 8
+DISPLAY = ROOT / "data" / "display"
 SITE_URL = os.environ.get("SITE_URL", "https://abdullahshakirhussain-lgtm.github.io/getpaidfrom").rstrip("/")
 
-# Everyday names for UN formal names (the formal name is still shown on the page).
 SHORT = {"BO": "Bolivia", "BS": "Bahamas", "BN": "Brunei", "CD": "DR Congo", "CG": "Republic of the Congo", "CI": "Côte d'Ivoire",
          "CN": "China", "FM": "Micronesia", "GB": "United Kingdom", "GM": "Gambia", "GW": "Guinea-Bissau", "IR": "Iran",
          "KP": "North Korea", "KR": "South Korea", "LA": "Laos", "MD": "Moldova", "NL": "Netherlands", "NR": "Nauru",
          "RU": "Russia", "SY": "Syria", "TZ": "Tanzania", "US": "United States", "VE": "Venezuela", "VN": "Vietnam",
          "ST": "São Tomé and Príncipe"}
-# Other names people search for.
 ALIASES = {"TR": ["Turkey"], "CI": ["Ivory Coast"], "CZ": ["Czech Republic"], "MM": ["Burma"], "SZ": ["Swaziland"],
            "TL": ["East Timor"], "CV": ["Cape Verde"], "GB": ["UK", "Britain", "England"], "US": ["USA", "America"],
            "AE": ["UAE", "Dubai"], "MK": ["Macedonia"], "CD": ["Congo-Kinshasa"], "CG": ["Congo-Brazzaville"], "NL": ["Holland"]}
+SANCTIONED = {"BY", "CU", "IR", "KP", "RU", "SY"}
 
-FACTS = {
-    "W1_workarounds": "Simple legal routes for beginners",
-    "P1_fx_receipts": "Receiving foreign payments",
-    "P2_fcy_account": "Foreign-currency bank account",
-    "P3_local_gateways": "Local payment gateways",
-    "P4_paypal": "PayPal",
-    "P5_payoneer_wise": "Payoneer and Wise",
-    "L1_registration": "Registering as a business",
-    "L2_tax_id": "Tax ID",
-    "L3_income_tax_foreign": "Income tax on foreign income",
-    "L4_vat_gst": "VAT / GST",
-    "L7_incentives": "Incentives and simplified regimes",
-    "L5_data_protection": "Data protection",
-    "L6_consumer_ecommerce": "Consumer and e-commerce rules",
-    "D1_id_document": "ID for verification",
+STATUS = {  # status -> (label, tone); the page draws a shape per tone next to the label (docs/DESIGN.md)
+    "works": ("Works", "ok"), "likely": ("Likely", "likely"), "limited": ("Limited", "warn"),
+    "unconfirmed": ("Not confirmed", "muted"), "no": ("Not available", "bad"),
 }
-SECTIONS = [
-    ("start", "Start here", ["W1_workarounds"]),
-    ("paid", "Getting paid", ["P1_fx_receipts", "P2_fcy_account", "P3_local_gateways", "P4_paypal", "P5_payoneer_wise"]),
-    ("tax", "Registering and tax", ["L1_registration", "L2_tax_id", "L3_income_tax_foreign", "L4_vat_gst", "L7_incentives"]),
-    ("rules", "Rules for selling online", ["L5_data_protection", "L6_consumer_ecommerce"]),
-    ("id", "Identity checks", ["D1_id_document"]),
-]
-STATUS = {  # fact status -> (badge text, css class)
-    "verified": ("Verified", "ok"),
-    "unverified": ("Single source", "warn"),
-    "conflicting": ("Sources disagree", "bad"),
-    "not_applicable": ("Not applicable", "muted"),
-    "gap": ("Not yet researched", "muted"),
-}
-# platform list key -> (group, platform name, {status: (plain label, tone)}); tones: ok / bad / warn / muted
+# platform slug -> display name, group; logos in site/logos/<slug>.svg (sources: site/logos/SOURCES.md)
 PLATFORMS = {
-    "stripe.available": ("Take card payments", "Stripe", {
-        "merchant_signup_available": ("Accepts merchants", "ok"), "extended_network_via_paystack": ("Through Paystack (Stripe's extended network)", "ok"),
-        "preview_contact_sales": ("Preview: contact Stripe sales", "warn"), "not_listed": ("Does not accept merchants here", "bad")}),
-    "paypal_worldwide.markets": ("PayPal", "PayPal (market)", {
-        "paypal_market_listed": ("PayPal operates here", "ok"), "not_listed": ("No PayPal market", "bad")}),
-    "paypal_payouts.eligible": ("PayPal", "PayPal Payouts (platform payouts)", {
-        "paypal_payouts_send_receive": ("Can receive Payouts", "ok"), "paypal_payouts_fully_localized": ("Can receive Payouts (fully localized)", "ok"),
-        "paypal_payouts_send_receive_local": ("Can receive Payouts (local currency)", "ok"), "paypal_payouts_receive_only": ("Receive only", "ok"),
-        "not_listed": ("Not on the Payouts list", "bad")}),
-    "paddle.unsupported": ("Sell software and digital products", "Paddle", {
-        "not_excluded": ("Not excluded (software sellers, reviewed case by case)", "ok"), "seller_unsupported": ("Sellers not supported", "bad")}),
-    "lemon.bank_payouts": ("Sell software and digital products", "Lemon Squeezy payouts", {
-        "payout_supported_bank": ("Bank payouts supported", "ok"), "payout_supported_bank_restricted": ("Bank payouts (restricted)", "warn"),
-        "not_listed": ("No bank payouts listed", "bad")}),
-    "polar.payouts": ("Sell software and digital products", "Polar", {
-        "payout_supported": ("Payouts supported", "ok"), "not_listed": ("Payouts not listed", "bad")}),
-    "dodo.accepted": ("Sell software and digital products", "Dodo Payments", {
-        "seller_accepted": ("Accepts sellers", "ok"), "not_listed": ("Not on the accepted list", "bad")}),
-    "dodo.grandfathered": ("Sell software and digital products", "Dodo Payments (existing sellers)", {
-        "grandfathered_only": ("Existing sellers only, no new sign-ups", "warn")}),
-    "whop.payouts": ("Sell software and digital products", "Whop", {
-        "payout_supported": ("Payouts supported", "ok"), "not_listed": ("Payouts not listed", "bad"), "unverified": ("Unclear", "warn")}),
-    "lemon.purchases_blocked": ("Sell software and digital products", "Lemon Squeezy (buyers here)", {
-        "buyers_blocked": ("Buyers in this country are blocked", "bad")}),
-    "upwork.restricted": ("Marketplaces and creator income", "Upwork", {
-        "not_excluded": ("Open to freelancers", "ok"), "freelancer_restricted": ("Freelancers restricted", "bad")}),
-    "etsy.eligible": ("Marketplaces and creator income", "Etsy", {
-        "seller_payments_eligible": ("Etsy Payments available", "ok"), "seller_payments_eligible_via_payoneer": ("Etsy Payments through a Payoneer account", "ok"),
-        "not_listed": ("Not on the Etsy Payments list", "bad")}),
-    "youtube_ypp.signup_areas": ("Marketplaces and creator income", "YouTube Partner Program", {
-        "ypp_signup_available": ("Available", "ok"), "not_listed": ("Not available", "bad")}),
-    "gplay.merchant_registration": ("Marketplaces and creator income", "Google Play (paid apps)", {
-        "merchant_registration": ("Merchant registration available", "ok"), "not_listed": ("Free apps only", "bad")}),
+    "paypal": ("PayPal", "clients"), "payoneer": ("Payoneer", "clients"), "wise": ("Wise", "clients"),
+    "gumroad": ("Gumroad", "selling"), "lemon-squeezy": ("Lemon Squeezy", "selling"), "payhip": ("Payhip", "selling"),
+    "polar": ("Polar", "selling"), "paddle": ("Paddle", "selling"), "stripe": ("Stripe", "selling"),
 }
-GROUP_ORDER = ["Take card payments", "PayPal", "Sell software and digital products", "Marketplaces and creator income"]
-REF = re.compile(r"\b(P[1-5]|L[1-7]|D1|W1)\b")
-CODE = {k.split("_")[0]: k for k in FACTS}
+CLIENT_ORDER = ["paypal", "payoneer", "wise"]                                            # owner decision 2026-10-25
+SELL_ORDER = ["gumroad", "lemon-squeezy", "payhip", "polar", "paddle", "stripe"]
+PLATFORM_LIST = {  # sell platforms read from the official-list collectors: key -> {status code: (status, reason)}
+    "lemon-squeezy": ("lemon.bank_payouts", {"payout_supported_bank": ("works", "Bank payouts supported."),
+                                             "payout_supported_bank_restricted": ("limited", "Bank payouts with restrictions."),
+                                             "not_listed": ("no", "No bank payouts to this country.")}),
+    "polar": ("polar.payouts", {"payout_supported": ("works", "Payouts supported (through Stripe Connect)."),
+                                "not_listed": ("no", "Payouts not available here.")}),
+    "paddle": ("paddle.unsupported", {"not_excluded": ("limited", "Software and digital products only; each seller is reviewed."),
+                                      "seller_unsupported": ("no", "Sellers here are not supported.")}),
+    "stripe": ("stripe.available", {"merchant_signup_available": ("works", "Accepts businesses here; needs your own website."),
+                                    "extended_network_via_paystack": ("works", "Available through Paystack, a Stripe company."),
+                                    "preview_contact_sales": ("limited", "Preview only: you must contact Stripe sales."),
+                                    "not_listed": ("no", "Stripe doesn't accept businesses here.")}),
+}
+BEFORE = [("L2_tax_id", "Tax ID"), ("L1_registration", "Registering"), ("L4_vat_gst", "VAT / GST"), ("L3_income_tax_foreign", "Income tax")]
+MORE = [("P1_fx_receipts", "Receiving foreign money"), ("P2_fcy_account", "Dollar / foreign-currency account"),
+        ("P3_local_gateways", "Local payment gateways"), ("L7_incentives", "Tax breaks and simple regimes"),
+        ("L5_data_protection", "Data protection"), ("L6_consumer_ecommerce", "Selling to consumers online"), ("D1_id_document", "ID for sign-ups")]
+ANCHOR = {k: k.split("_", 1)[1].replace("_", "-") for k, _ in BEFORE + MORE}
+ANCHOR.update({"P4_paypal": "paypal", "P5_payoneer_wise": "payoneer"})  # these facts are shown as platform tiles
+TOPICS = {  # search words -> fact anchor
+    "tax": "L3_income_tax_foreign", "income": "L3_income_tax_foreign", "vat": "L4_vat_gst", "gst": "L4_vat_gst",
+    "register": "L1_registration", "registration": "L1_registration", "business": "L1_registration", "tin": "L2_tax_id",
+    "ntn": "L2_tax_id", "id": "D1_id_document", "kyc": "D1_id_document", "dollar": "P2_fcy_account", "usd": "P2_fcy_account",
+    "account": "P2_fcy_account", "bank": "P2_fcy_account", "gateway": "P3_local_gateways", "privacy": "L5_data_protection",
+    "data": "L5_data_protection", "refund": "L6_consumer_ecommerce", "consumer": "L6_consumer_ecommerce",
+    "exchange": "P1_fx_receipts", "repatriate": "P1_fx_receipts", "incentive": "L7_incentives",
+}
+BANNED = re.compile(r"\b(TRAP|not captured|search summary|Single source)\b|\b[PLDW]\d\b")
 
 
 def load(p):
@@ -116,103 +89,174 @@ def slugify(name):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+def logo(slug):
+    """The company's mark as inline SVG drawn in currentColor (ink), so it needs no extra request."""
+    svg = (SRC / "logos" / f"{slug}.svg").read_text(encoding="utf-8")
+    box = re.search(r'viewBox="([^"]+)"', svg).group(1)
+    inner = re.search(r"<svg[^>]*>(.*)</svg>", svg, re.S).group(1)
+    inner = re.sub(r'\sfill="[^"]*"', "", re.sub(r"<title>.*?</title>", "", inner))
+    return Markup(f'<svg class="logo" viewBox="{box}" fill="currentColor" aria-hidden="true" focusable="false">{inner}</svg>')
+
+
+LOGOS = {slug: logo(slug) for slug in PLATFORMS}
+
+
 def day(ts):
     return (ts or "")[:10]
 
 
-def rich(text):
-    """Escape, then emphasise TRAP warnings and turn fact codes (e.g. 'see L3') into in-page links."""
-    s = str(escape(text))
-    s = re.sub(r"\bTRAP\b( for [a-z ]+)?:?", lambda m: f"<strong class=trap>{m.group(0)}</strong>", s)
-    s = REF.sub(lambda m: f'<a href="#{m.group(1)}" title="{FACTS[CODE[m.group(1)]]}">{m.group(1)}</a>', s)
-    return Markup(s)
+def clean_long(text):
+    """Research text for the 'more' panels: drop internal fact codes and labels."""
+    text = re.sub(r"\s*\((?:see |per )?(?:[PLDW]\d)(?:\s*(?:/|,|and)\s*[PLDW]\d)*\)", "", text)
+    text = re.sub(r"\b(see|per) [PLDW]\d\b", "", text)
+    return re.sub(r"\bTRAP( for [a-z ]+)?:\s*", "Watch out: ", text).strip()
 
 
-def routes_view(answer):
-    """Split the generated W1 text ('Barriers: a; b. Simple legal routes: (1) .. (2) .. Avoid: ..') into lists.
-    Returns None when the text does not have that shape, and the page then shows it as plain text."""
-    m = re.match(r"Barriers: (.*?)\. (?:Simple legal routes: (.*?) )?(Avoid: .*|No clean workaround: .*)$", answer, re.S)
-    if not m:
-        return None
-    barriers = [b.strip() for b in m.group(1).split("; ") if b.strip()]
-    routes = [r.strip() for r in re.split(r"\(\d+\) ", m.group(2) or "") if r.strip()]
-    return {"barriers": barriers, "routes": routes, "closing": m.group(3)}
+def sources(f):
+    """One entry per URL: a page quoted several times (one source per quote) is listed once, with its latest date."""
+    seen = {}
+    for s in f.get("sources", []):
+        prev = seen.get(s["url"])
+        if prev is None or day(s.get("retrieved")) > prev["retrieved"]:
+            seen[s["url"]] = {"publisher": s.get("publisher") or "", "title": s.get("title") or "", "url": s["url"],
+                              "official": s.get("evidence") == "official", "retrieved": day(s.get("retrieved"))}
+    return list(seen.values())
 
 
-def fact_view(key, f):
-    gap = f["answer"].startswith("Not established") or not f["answer"].strip()
-    badge, tone = STATUS["gap" if gap else f["status"]]
-    sources = [{"publisher": s.get("publisher") or "", "title": s.get("title") or s.get("url"), "url": s["url"],
-                "official": s.get("evidence") == "official", "retrieved": day(s.get("retrieved")),
-                "quote": s.get("quote") or "", "summary": s.get("quote_type") == "description"} for s in f.get("sources", [])]
-    return {"code": key.split("_")[0], "key": key, "title": FACTS[key], "question": f["question"], "answer": f["answer"],
-            "gap": gap, "badge": badge, "tone": tone, "notes": f.get("notes") or "", "note": f.get("note") or "", "sources": sources,
-            "routes": routes_view(f["answer"]) if key == "W1_workarounds" else None}
+def tile(slug, status, reason, src, fact=None):
+    name, group = PLATFORMS[slug]
+    label, tone = STATUS[status]
+    return {"slug": slug, "name": name, "group": group, "logo": LOGOS[slug], "status": status, "label": label, "tone": tone,
+            "reason": reason, "sources": src, "fact": fact}
 
 
-def platform_view(platforms):
-    groups = defaultdict(list)
-    for key, (group, name, labels) in PLATFORMS.items():
-        p = platforms.get(key)
-        if not p or p["status"] not in labels:
-            continue  # e.g. 'not_listed' on a list that only flags exceptions
-        label, tone = labels[p["status"]]
-        groups[group].append({"name": name, "label": label, "tone": tone, "caveat": p.get("caveat") or "",
-                              "url": p["source_url"], "retrieved": day(p.get("retrieved_at")), "official": p.get("evidence") == "official"})
-    return [(g, groups[g]) for g in GROUP_ORDER if groups[g]]
+def tiles_for(c, acc):
+    out = {}
+    for slug in ("paypal", "payoneer", "wise", "gumroad", "payhip"):
+        a = acc[slug.replace("-", "")]
+        src = sources(c["facts"][a["fact"]]) if a.get("fact") else []
+        if a.get("source"):
+            s = a["source"]
+            src = src + [{"publisher": s["publisher"], "title": s["title"], "url": s["url"], "official": True, "retrieved": s["retrieved"]}]
+        out[slug] = tile(slug, a["status"], a["reason"], src, a.get("fact"))
+    for slug, (key, mapping) in PLATFORM_LIST.items():
+        p = c["platforms"].get(key)
+        st, reason = mapping.get(p["status"], ("unconfirmed", "Not confirmed.")) if p else ("unconfirmed", "Not confirmed.")
+        src = [{"publisher": PLATFORMS[slug][0], "title": "Official country list", "url": p["source_url"], "official": True,
+                "retrieved": day(p.get("retrieved_at"))}] if p else []
+        out[slug] = tile(slug, st, reason, src)
+    return out
 
 
-def country_view(c):
-    facts = {k: fact_view(k, c["facts"][k]) for k in FACTS if k in c["facts"]}
-    sourced = [f for f in facts.values() if f["sources"] and not f["gap"]]
-    dates = [s["retrieved"] for f in facts.values() for s in f["sources"] if s["retrieved"]]
-    name = SHORT.get(c["code"], c["un_name"])
-    return {"code": c["code"], "name": name, "official": c["un_name"] if c["un_name"] != name else "", "slug": slugify(name),
-            "search": " ".join([name] + ALIASES.get(c["code"], []) + ([c["un_name"]] if c["un_name"] != name else [])).lower(),
+def verdict(code, tiles, order, kind):
+    """One plain sentence per question, picked by the fixed order (owner decision 2026-10-25)."""
+    if code in SANCTIONED:
+        return {"tone": "bad", "headline": "Not through the big platforms.", "detail": "Sanctions stop them serving residents."}
+    for want, tone, head in (("works", "ok", "Yes, through {}."), ("likely", "likely", "Probably, through {}."),
+                             ("limited", "warn", "Yes, with limits, through {}.")):
+        hit = next((tiles[s] for s in order if tiles[s]["status"] == want), None)
+        if hit:
+            return {"tone": tone, "headline": head.format(hit["name"]), "detail": hit["reason"], "slug": hit["slug"]}
+    if kind == "clients":
+        return {"tone": "warn", "headline": "No platform confirmed.", "detail": "Ask clients to pay by international bank transfer (SWIFT)."}
+    return {"tone": "bad", "headline": "No platform confirmed.", "detail": "None of these confirm payouts here yet."}
+
+
+def country_view(c, acc, short):
+    code = c["code"]
+    name = SHORT.get(code, c["un_name"])
+    t = tiles_for(c, acc)
+    F = c["facts"]
+
+    def line(key, label):
+        f = F[key]
+        return {"key": key, "anchor": ANCHOR[key], "label": label, "short": short["facts"].get(key, ""),
+                "long": clean_long(f["answer"]), "notes": clean_long(f.get("notes") or ""), "status": f["status"], "sources": sources(f)}
+
+    watch = [{"text": w["text"], "anchor": ANCHOR[w["fact"]]} for w in short.get("watch_out", [])]
+    dates = [s["retrieved"] for f in F.values() for s in sources(f) if s["retrieved"]]
+    return {"code": code, "name": name, "official": c["un_name"] if c["un_name"] != name else "", "slug": slugify(name),
             "region": c.get("sub_region") or c.get("region") or "",
-            "sections": [(sid, title, [facts[k] for k in keys if k in facts]) for sid, title, keys in SECTIONS],
-            "platforms": platform_view(c["platforms"]),
-            "n_verified": sum(f["tone"] == "ok" for f in facts.values()), "n_facts": len(facts),
-            "n_gaps": sum(f["gap"] for f in facts.values()), "noindex": len(sourced) < MIN_SOURCED,
-            "checked": max(dates) if dates else "", "first": min(dates) if dates else ""}
+            "clients": verdict(code, t, CLIENT_ORDER, "clients"), "selling": verdict(code, t, SELL_ORDER, "selling"),
+            "client_tiles": [t[s] for s in CLIENT_ORDER], "sell_tiles": [t[s] for s in SELL_ORDER], "tiles": t,
+            "watch": watch, "before": [line(k, l) for k, l in BEFORE], "more": [line(k, l) for k, l in MORE],
+            "checked": max(dates) if dates else "", "search": " ".join([name] + ALIASES.get(code, []) + [c["un_name"]]).lower()}
+
+
+def check_short(code, short):
+    problems = []
+    texts = list(short["facts"].values()) + [w["text"] for w in short.get("watch_out", [])]
+    for t in texts:
+        if len(t.split()) > 15:
+            problems.append(f"{code}: over 15 words: {t}")
+        if BANNED.search(t):
+            problems.append(f"{code}: banned wording: {t}")
+    if len(short.get("watch_out", [])) > 3:
+        problems.append(f"{code}: more than 3 watch-outs")
+    return problems
 
 
 def main():
+    only = None
+    if "--only" in sys.argv:
+        only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+    acc_all = load(DISPLAY / "accounts.json")
+    shorts = {p.stem: load(p) for p in (DISPLAY / "short").glob("*.json")}
+    codes = sorted(only or shorts)
+    problems = [p for cc in codes for p in check_short(cc, shorts.get(cc, {"facts": {}}))]
+    missing = [cc for cc in codes if cc not in shorts]
+    if problems or missing:
+        sys.exit("\n".join(problems + [f"{cc}: no short answers yet" for cc in missing]))
+    all_countries = {p.stem: load(p) for p in sorted((ROOT / "data" / "countries").glob("*.json"))}
+    views = [country_view(all_countries[cc], acc_all[cc], shorts[cc]) for cc in codes]
+    assert len({v["slug"] for v in views}) == len(views)
+
     env = Environment(loader=FileSystemLoader(SRC / "templates"), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
-    env.filters["rich"] = rich
-    countries = [country_view(load(p)) for p in sorted((ROOT / "data" / "countries").glob("*.json"))]
     built = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    slugs = [c["slug"] for c in countries]
-    assert len(set(slugs)) == len(slugs), "duplicate country slugs"
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     shutil.copytree(SRC / "static", OUT / "static")
-    by_region = defaultdict(list)
-    for c in countries:
-        by_region[c["region"]].append(c)
-    stats = {"countries": len(countries), "verified": sum(c["n_verified"] for c in countries),
-             "facts": sum(c["n_facts"] for c in countries), "built": built,
-             "sources": sum(len(f["sources"]) for c in countries for _, _, fs in c["sections"] for f in fs)}
-    common = {"stats": stats, "site_url": SITE_URL}
+    ver = hashlib.sha256(b"".join(p.read_bytes() for p in sorted((SRC / "static").rglob("*")) if p.is_file())).hexdigest()[:8]  # cache-busting
+    common = {"site_url": SITE_URL, "built": built, "n_countries": len(views), "statuses": STATUS, "ver": ver}
 
     def write(outfile, template, **ctx):
         (OUT / outfile).parent.mkdir(parents=True, exist_ok=True)
         (OUT / outfile).write_text(env.get_template(template).render(**common, **ctx), encoding="utf-8")
 
-    write("index.html", "index.html", regions=sorted(by_region.items()), root="", path="")
+    # platform pages: every built country's tile for that platform
+    platform_pages = {}
+    for slug, (name, group) in PLATFORMS.items():
+        rows = sorted(({"country": v["name"], "slug": v["slug"], **v["tiles"][slug]} for v in views),
+                      key=lambda r: (list(STATUS).index(r["status"]), r["country"]))
+        platform_pages[slug] = {"name": name, "slug": slug, "group": group, "logo": LOGOS[slug], "rows": rows,
+                                "groups": [(s, STATUS[s], [r for r in rows if r["status"] == s]) for s in STATUS],
+                                "counts": {s: sum(r["status"] == s for r in rows) for s in STATUS}}
+    by_letter = defaultdict(list)
+    for v in sorted(views, key=lambda v: slugify(v["name"])):
+        by_letter[slugify(v["name"])[0].upper()].append(v)
+    write("index.html", "index.html", letters=sorted(by_letter.items()), platforms=platform_pages, root="", path="")
     write("about/index.html", "about.html", root="../", path="about/")
     write("404.html", "404.html", root=f"{SITE_URL}/", path="404.html")
-    for c in countries:
-        write(f"{c['slug']}/index.html", "country.html", c=c, root="../", path=f"{c['slug']}/")
-    urls = [""] + ["about/"] + [f"{c['slug']}/" for c in countries if not c["noindex"]]
+    for v in views:
+        write(f"{v['slug']}/index.html", "country.html", c=v, root="../", path=f"{v['slug']}/")
+    for slug, p in platform_pages.items():
+        write(f"{slug}/index.html", "platform.html", p=p, root="../", path=f"{slug}/")
+
+    search = {"countries": [{"n": v["name"], "s": v["slug"], "k": v["search"],
+                             "t": {k: [x["status"], x["reason"]] for k, x in v["tiles"].items()},
+                             "a": {ANCHOR[l["key"]]: l["short"] for l in v["before"] + v["more"] if l["short"]}} for v in views],
+              "platforms": {k: v[0] for k, v in PLATFORMS.items()},
+              "topics": {w: ANCHOR[k] for w, k in TOPICS.items()},
+              "status": {k: [v[0], v[1]] for k, v in STATUS.items()}}
+    (OUT / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    urls = ["", "about/"] + [f"{v['slug']}/" for v in views] + [f"{s}/" for s in PLATFORMS]
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "".join(f"<url><loc>{SITE_URL}/{u}</loc><lastmod>{built}</lastmod></url>\n" for u in urls)
                                      + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"built {len(countries)} country pages + index + about + 404 + sitemap into {OUT.relative_to(ROOT)} "
-          f"for {SITE_URL} ({sum(c['noindex'] for c in countries)} noindex)")
+    print(f"built {len(views)} country pages, {len(platform_pages)} platform pages, home, about, 404 for {SITE_URL}")
 
 
 if __name__ == "__main__":

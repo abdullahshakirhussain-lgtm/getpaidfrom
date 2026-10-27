@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "Wave and Orange Money payment links suit local CFA clients, not foreign cards.",
+  "L1_registration": "Register an individual enterprise at the API-Mali one-stop shop (RCCM and NIF).",
+  "L2_tax_id": "NIF from the tax administration, issued with your API-Mali registration.",
+  "L3_income_tax_foreign": "Under FCFA 50m turnover, a 3% synthetic tax, exempt in your first year.",
+  "L4_vat_gst": "18% VAT; synthetic-tax payers under FCFA 50m don't charge it.",
+  "L5_data_protection": "Law 2013-015: declare data processing to the APDP.",
+  "L6_consumer_ecommerce": "Electronic transactions law 2016-012 exists; refund rules not confirmed.",
+  "L7_incentives": "3% synthetic tax, with your first calendar year exempt.",
+  "D1_id_document": "Biometric national identity card (ECOWAS standard)."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

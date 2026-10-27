@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; capital controls were largely lifted in 2017.",
+  "P2_fcy_account": "Yes: banks offer unrestricted foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Get a kennitala, then register with Skatturinn; VAT above ISK 2 million.",
+  "L2_tax_id": "Kennitala, your Icelandic ID number.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 31.49–46.29% including municipal tax.",
+  "L4_vat_gst": "24% VAT above ISK 2 million in 12 months; exports zero-rated.",
+  "L5_data_protection": "GDPR applies through the EEA, supervised by Persónuvernd.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Driving licence or passport; ID cards are uncommon."
+ },
+ "watch_out": [
+  {
+   "text": "Self-employed people must pay themselves a minimum deemed salary.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

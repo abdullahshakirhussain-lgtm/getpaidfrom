@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; no exchange controls since 1995, and you can invoice in any currency.",
+  "P2_fcy_account": "Yes: foreign currency can go into a foreign-currency bank account.",
+  "P3_local_gateways": "Paystack accepts individuals with a national ID; KES 600,000 limit until you register.",
+  "L1_registration": "Register a business name with BRS (KES 950) only if not using your own name.",
+  "L2_tax_id": "KRA PIN, registered online on iTax.",
+  "L3_income_tax_foreign": "Work done from Kenya is taxable; Turnover Tax is 1.5% for KES 1m–25m sales.",
+  "L4_vat_gst": "16% VAT; exported services are zero-rated; register above KES 5 million a year.",
+  "L5_data_protection": "Data Protection Act 2019; register with ODPC above KES 5m turnover or 10 staff.",
+  "L6_consumer_ecommerce": "Consumer Protection Act 2012 and the Competition Authority protect online buyers.",
+  "L7_incentives": "Turnover Tax: a flat 1.5% final tax with simple records.",
+  "D1_id_document": "Kenyan National ID card (new version: the Maisha card)."
+ },
+ "watch_out": [
+  {
+   "text": "KRA pages disagree on the Turnover Tax ceiling (KES 25m or 50m); confirm with KRA.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "PayPal to M-PESA works in USD only and costs 3% on the exchange rate.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

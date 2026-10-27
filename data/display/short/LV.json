@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as self-employed with VID through EDS, choosing general regime or micro-enterprise tax.",
+  "L2_tax_id": "A TIN from the tax administration; how to apply isn't confirmed.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 25.5% up to €105,300, then 33%.",
+  "L4_vat_gst": "21% VAT above €50,000; EU B2B services may need registration immediately.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Micro-enterprise tax: 25% of turnover replaces income tax and social contributions.",
+  "D1_id_document": "Personas apliecība (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Selling services to EU businesses can require a VAT number from the first sale.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

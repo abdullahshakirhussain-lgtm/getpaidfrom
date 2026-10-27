@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed; conflict and a huge official-vs-parallel rate gap disrupt banking.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register a business name with a notarised form; wartime procedures not confirmed.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Top personal income tax reportedly 15%; other rules not found.",
+  "L4_vat_gst": "VAT reportedly 17%; threshold and export rules not confirmed.",
+  "L5_data_protection": "No general data protection law; the Constitution protects privacy.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Don't use informal channels to get around currency rules.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but you must bring all foreign service earnings back to Tunisia.",
+  "P2_fcy_account": "Yes: a PPR account holds service fees in foreign currency or convertible dinars.",
+  "P3_local_gateways": "Konnect lets freelancers take international card payments, paid to a Tunisian bank.",
+  "L1_registration": "Auto-entrepreneur up to TND 75,000 a year, registered online, for listed activities.",
+  "L2_tax_id": "Matricule fiscal, from your local tax office with your CIN.",
+  "L3_income_tax_foreign": "Auto-entrepreneurs pay one small yearly contribution covering income tax, VAT and social security.",
+  "L4_vat_gst": "19% VAT, but services used by clients abroad are outside Tunisian VAT.",
+  "L5_data_protection": "Declare any personal data processing to the INPDP first.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within 10 working days.",
+  "L7_incentives": "Auto-entrepreneur single contribution, nothing due in year one, and the PPR currency account.",
+  "D1_id_document": "National identity card (CIN)."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign wallet balances aren't a lawful place to keep your earnings.",
+   "fact": "P5_payoneer_wise"
+  },
+  {
+   "text": "Processing personal data without declaring it to INPDP can mean prison.",
+   "fact": "L5_data_protection"
+  },
+  {
+   "text": "Check your activity is on the auto-entrepreneur list before registering.",
+   "fact": "L1_registration"
+  }
+ ]
+}

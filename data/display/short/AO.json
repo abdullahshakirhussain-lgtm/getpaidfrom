@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes, through a bank authorised to deal in foreign exchange.",
+  "P2_fcy_account": "Yes, in practice; transfers abroad are capped yearly since 2026.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register as a sole trader at the GUE with your BI; fee about AOA 21,380.",
+  "L2_tax_id": "Your NIF is the same as your identity card (BI) number.",
+  "L3_income_tax_foreign": "Freelance income: 6.5% withheld by local companies, otherwise 25% on assessed income.",
+  "L4_vat_gst": "14% VAT; no VAT under AOA 25 million; 7% simplified regime up to AOA 350m.",
+  "L5_data_protection": "Law 22/11: notify the Data Protection Agency about your data processing.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within seven working days for off-premises purchases.",
+  "L7_incentives": "No freelancer incentive; flat 6.5% for small traders and no VAT under AOA 25m.",
+  "D1_id_document": "Identity card (Bilhete de Identidade, BI)."
+ },
+ "watch_out": [
+  {
+   "text": "Individuals can transfer at most about USD 150,000 abroad a year.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

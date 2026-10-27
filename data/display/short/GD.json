@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "TIN; how to get it isn't confirmed yet.",
+  "L3_income_tax_foreign": "Grenada-derived income taxed: XCD 36,000 allowance, then 10% and 28%.",
+  "L4_vat_gst": "15% VAT; the registration threshold conflicts (XCD 120,000 or 300,000).",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Voter ID card, optional except for some government transactions."
+ },
+ "watch_out": []
+}

@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Open a sole proprietorship online via myAADE with your AFM, then register with eEFKA.",
+  "L2_tax_id": "AFM tax number, assigned by the Tax Administration.",
+  "L3_income_tax_foreign": "Worldwide income taxed from 9% up to 44% above €60,000.",
+  "L4_vat_gst": "24% VAT; a small-business exemption exists for Greek businesses, amount unconfirmed.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No flat-rate incentive; freelancers face a minimum imputed income rule.",
+  "D1_id_document": "Δελτίο Ταυτότητας (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "You may be taxed on a minimum imputed income even if you earn less.",
+   "fact": "L7_incentives"
+  },
+  {
+   "text": "The online registration is only for Greek or other EU nationals.",
+   "fact": "L1_registration"
+  }
+ ]
+}

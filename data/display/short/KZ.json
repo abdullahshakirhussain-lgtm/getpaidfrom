@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; contracts over USD 50,000 need registration and repatriation.",
+  "P2_fcy_account": "Yes: hold foreign bank accounts without notifying the National Bank.",
+  "P3_local_gateways": "Local providers like Kaspi Pay weren't researched yet.",
+  "L1_registration": "File a free notice as an individual entrepreneur online via eGov with an EDS.",
+  "L2_tax_id": "An identification number in the national register; how freelancers apply isn't confirmed.",
+  "L3_income_tax_foreign": "From 2026: 10% income tax, 15% above about KZT 33.4m.",
+  "L4_vat_gst": "16% VAT from 2026, above about KZT 43 million turnover.",
+  "L5_data_protection": "Law on Personal Data No. 94-V; data localisation is widely reported.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Simplified declaration: 4% tax (2% in some areas), but not for all activities.",
+  "D1_id_document": "ID card or passport, plus an electronic digital signature (EDS)."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign contracts above USD 50,000 must be registered with your bank.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Some IT and consulting activities may be banned from the simplified regime.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

@@ -1,49 +1,34 @@
 {% extends "base.html" %}
+{% block topsearch %}{% endblock %}
 {% block main %}
-<section class="hero">
-  <h1>Get paid from your country</h1>
-  <p class="lede">Payment platforms, foreign-currency accounts, tax ID, VAT and registration for {{ stats.countries }} countries, with a source and a check date for every answer.</p>
-  <form class="search" role="search" action="#countries" onsubmit="return false">
-    <label for="q">Find your country</label>
-    <input id="q" type="search" placeholder="Type a country, e.g. Sri Lanka" autocomplete="off" list="names">
-    <datalist id="names">{% for _, cs in regions %}{% for c in cs %}<option value="{{ c.name }}">{% endfor %}{% endfor %}</datalist>
-  </form>
-  <ul class="legend">
-    <li><span class="badge ok">Verified</span> an official source, or two independent ones</li>
-    <li><span class="badge warn">Single source</span> one source only, treat with care</li>
-    <li><span class="badge bad">Sources disagree</span> both sides shown</li>
-    <li><span class="badge muted">Not yet researched</span> a gap, never a guess</li>
-  </ul>
+<section class="ask">
+  <h1 class="sentence">
+    <label for="home-q">Get paid from</label>
+    <span class="search home-search" data-search>
+      <input id="home-q" type="search" placeholder="your country" autocomplete="off" autofocus>
+      <span class="results" role="listbox" hidden></span>
+    </span>
+  </h1>
+  <p class="intro">Which payment services work where you live, what catches people out, and the paperwork. Every line links to a public source.</p>
+  <p class="eg">Or ask: {% for q in ["paypal pakistan", "vat nigeria", "wise sri lanka"] %}<button type="button" class="linkish" data-try="{{ q }}">{{ q }}</button>{{ ", " if not loop.last }}{% endfor %}</p>
 </section>
 
-<section id="countries">
-  <h2>Countries</h2>
-  <p class="small">The figure after each name is how many of its {{ 14 }} answers are verified.</p>
-  {% for region, cs in regions %}
-  <div class="region">
-    <h3>{{ region }}</h3>
-    <ul class="clist">
-      {% for c in cs|sort(attribute="name") %}
-      <li data-name="{{ c.search }}" data-exact="{{ c.name|lower }}"><a href="{{ c.slug }}/">{{ c.name }}</a> <span class="score" title="{{ c.n_verified }} of {{ c.n_facts }} answers verified">{{ c.n_verified }}/{{ c.n_facts }}</span></li>
+<div class="split">
+  <section>
+    <h2>Countries</h2>
+    <p class="note">{{ "All 193 UN member states." if n_countries == 193 else n_countries ~ " so far. More are being written." }}</p>
+    {% for letter, cs in letters %}
+    <div class="az"><span class="letter">{{ letter }}</span><ul>{% for c in cs %}<li><a href="{{ c.slug }}/">{{ c.name }}</a></li>{% endfor %}</ul></div>
+    {% endfor %}
+  </section>
+  <section>
+    <h2>Services</h2>
+    <p class="note">How many of those countries each one works in.</p>
+    <ul class="svc">
+      {% for slug, p in platforms.items() %}
+      <li><a href="{{ slug }}/">{{ p.logo }}<span class="svc-name">{{ p.name }}</span><span class="svc-n">{{ p.counts.works }} of {{ p.rows|length }}</span></a></li>
       {% endfor %}
     </ul>
-  </div>
-  {% endfor %}
-  <p id="none" class="small" hidden>No country matches that name.</p>
-</section>
-
-<script>
-(function () {
-  var q = document.getElementById('q'), items = document.querySelectorAll('.clist li'), none = document.getElementById('none');
-  var byName = {};
-  items.forEach(function (li) { byName[li.dataset.exact] = li.querySelector('a').getAttribute('href'); });
-  q.addEventListener('input', function () {
-    var v = q.value.trim().toLowerCase(), shown = 0;
-    if (byName[v]) { location.href = byName[v]; return; }
-    items.forEach(function (li) { var m = !v || li.dataset.name.indexOf(v) !== -1; li.hidden = !m; shown += m; });
-    document.querySelectorAll('.region').forEach(function (r) { r.hidden = !r.querySelector('li:not([hidden])'); });
-    none.hidden = shown > 0;
-  });
-})();
-</script>
+  </section>
+</div>
 {% endblock %}

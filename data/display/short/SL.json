@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Possible, but foreign currency is scarce and official rates differ from market rates.",
+  "P2_fcy_account": "Yes, but getting dollars out can be slow when reserves are short.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register with the Office of the Administrator and Registrar General (OARG), mostly in person.",
+  "L2_tax_id": "TIN from the National Revenue Authority, using your National Identification Number.",
+  "L3_income_tax_foreign": "Not confirmed; sole proprietors reportedly pay 15–30% on profits.",
+  "L4_vat_gst": "15% GST; domestic threshold and export rules not confirmed.",
+  "L5_data_protection": "No data protection law yet; a bill is in progress.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID or passport."
+ },
+ "watch_out": []
+}

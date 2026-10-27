@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, under Common Monetary Area exchange control, through commercial banks.",
+  "P2_fcy_account": "Yes: banks offer foreign-currency accounts; individual eligibility not separately confirmed.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register with BIPA; steps not confirmed yet.",
+  "L2_tax_id": "TIN from NamRA, issued on registration.",
+  "L3_income_tax_foreign": "Namibian-source income taxed: 0% to NAD 100,000, rising to 37%.",
+  "L4_vat_gst": "15% VAT above N$1 million in any 12 months.",
+  "L5_data_protection": "No data protection law yet; a bill was tabled in 2025.",
+  "L6_consumer_ecommerce": "E-commerce consumer rights exist on paper but aren't in force yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID card."
+ },
+ "watch_out": [
+  {
+   "text": "The 7-day cooling-off right some guides cite isn't in force yet.",
+   "fact": "L6_consumer_ecommerce"
+  },
+  {
+   "text": "Older pages say N$500,000; the VAT threshold is now N$1 million.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

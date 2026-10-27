@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register an obrt online via e-Obrt, then with the Tax Administration within 8 days.",
+  "L2_tax_id": "OIB, your personal identification number.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income.",
+  "L4_vat_gst": "25% VAT once annual receipts pass €60,000.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Paušalni obrt: fixed yearly tax from €203.40, if receipts stay under €60,000.",
+  "D1_id_document": "Osobna iskaznica (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Flat-rate costs rise in 2027 for receipts above €40,000.",
+   "fact": "L7_incentives"
+  },
+  {
+   "text": "Some liberal professions can't use flat-rate taxation.",
+   "fact": "L1_registration"
+  }
+ ]
+}

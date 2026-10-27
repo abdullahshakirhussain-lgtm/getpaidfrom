@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Mostly not needed: San Marino uses the euro.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register through the Chamber of Commerce; steps not confirmed yet.",
+  "L2_tax_id": "Social Security (SSI) number for individuals.",
+  "L3_income_tax_foreign": "Reported progressive income tax from 12% to 35%.",
+  "L4_vat_gst": "Not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "San Marino identity card."
+ },
+ "watch_out": []
+}

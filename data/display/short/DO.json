@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; you can buy and sell foreign currency at banks.",
+  "P2_fcy_account": "Yes: banks offer dollar and euro accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register in the RNC with the DGII, like every taxpayer.",
+  "L2_tax_id": "RNC; for Dominicans it's your cédula number, registered free online.",
+  "L3_income_tax_foreign": "Territorial system: rates from 0% to 25%; foreign investment gains taxed after year three.",
+  "L4_vat_gst": "18% ITBIS; register through general tax registration; exports are 0%.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Cédula de identidad y electoral."
+ },
+ "watch_out": []
+}

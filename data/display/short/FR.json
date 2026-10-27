@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: major banks offer dollar accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as a micro-entrepreneur online through the INPI guichet unique, free.",
+  "L2_tax_id": "Numéro fiscal (SPI), given when you're first registered for tax.",
+  "L3_income_tax_foreign": "Worldwide income taxed at progressive rates with family-quotient splitting.",
+  "L4_vat_gst": "20% VAT; no VAT under €37,500 a year of services (franchise en base).",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Micro-entreprise: simple turnover-based tax and social charges, up to €83,600 for services.",
+  "D1_id_document": "Carte d'identité or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Above €37,500 in services you must charge VAT, even as a micro-entrepreneur.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

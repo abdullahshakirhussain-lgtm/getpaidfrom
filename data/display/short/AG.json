@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with ABIPCO, the commerce office; steps not confirmed yet.",
+  "L2_tax_id": "TIN from the Inland Revenue Department, issued on registration.",
+  "L3_income_tax_foreign": "No income tax, but self-employed residents pay unincorporated business tax up to 25%.",
+  "L4_vat_gst": "17% ABST; professional service providers must register, with no threshold.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Electoral national ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Self-employment income is taxed (UBT) despite \"no income tax\" claims.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Professional freelancers must charge 17% ABST from the start.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; you can even keep export earnings abroad without converting them.",
+  "P2_fcy_account": "Abroad, yes; local foreign-currency accounts for individuals aren't confirmed.",
+  "P3_local_gateways": "Mercado Pago opens a business account with just your CPF, no company needed.",
+  "L1_registration": "Not required: work as an autônomo, or open an MEI if your job qualifies.",
+  "L2_tax_id": "CPF, the taxpayer number from Receita Federal.",
+  "L3_income_tax_foreign": "Pay carnê-leão monthly on foreign income; up to R$5,000 a month is effectively tax-free.",
+  "L4_vat_gst": "No VAT yet; exported services pay no ISS if the result happens abroad.",
+  "L5_data_protection": "LGPD, supervised by the ANPD; fines up to R$50 million per violation.",
+  "L6_consumer_ecommerce": "Buyers can cancel online purchases within 7 days; show your CPF or CNPJ online.",
+  "L7_incentives": "Keep earnings abroad, no ISS on exports, and zero tax up to R$5,000 monthly.",
+  "D1_id_document": "National ID card (CIN), which uses your CPF number."
+ },
+ "watch_out": [
+  {
+   "text": "Services whose result happens in Brazil are taxed, even if paid from abroad.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "MEI only covers listed jobs; many professional occupations are reportedly excluded.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Declare foreign assets over US$1 million to the Central Bank (CBE).",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

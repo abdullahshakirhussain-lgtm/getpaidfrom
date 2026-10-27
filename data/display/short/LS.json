@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet; exchange control applies, with the loti pegged to the rand.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Get a trader's licence at the One-Stop Business Facilitation Centre, renewed yearly.",
+  "L2_tax_id": "TIN from Revenue Services Lesotho, registered online.",
+  "L3_income_tax_foreign": "Reported: 20% on a first band, then 30%, less a personal credit.",
+  "L4_vat_gst": "VAT registration above M2 million (older pages say M850,000).",
+  "L5_data_protection": "Data Protection Act applies; its commission isn't set up yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID card."
+ },
+ "watch_out": []
+}

@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls since the dollar floated in 1983.",
+  "P2_fcy_account": "Yes, but bank foreign-currency accounts can need AUD 50,000 to open.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Get a free ABN as a sole trader; register a business name only if needed.",
+  "L2_tax_id": "Tax File Number (TFN); your business uses an ABN.",
+  "L3_income_tax_foreign": "Worldwide income taxed: nil to AUD 18,200, up to 45%, plus 2% Medicare levy.",
+  "L4_vat_gst": "10% GST; register once turnover reaches AUD 75,000; exports are GST-free.",
+  "L5_data_protection": "Privacy Act 1988 covers larger businesses and some smaller ones.",
+  "L6_consumer_ecommerce": "Consumer guarantees apply online; change-of-mind refunds are up to you.",
+  "L7_incentives": "Up to AUD 1,000 small business tax offset; personal services income usually excluded.",
+  "D1_id_document": "Driver licence or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Register for GST within 21 days of knowing you'll pass AUD 75,000.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Solo contractors' personal services income often doesn't qualify for the tax offset.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

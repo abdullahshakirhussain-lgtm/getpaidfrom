@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; service exporters don't have to surrender their foreign earnings.",
+  "P2_fcy_account": "Yes: banks open foreign-currency accounts freely; USD accounts are common.",
+  "P3_local_gateways": "Mobile money is widespread; no gateway for individual online sellers found.",
+  "L1_registration": "Register through the GUCE one-stop shop; real cost and time vary widely.",
+  "L2_tax_id": "Tax number assigned at the GUCE during business registration.",
+  "L3_income_tax_foreign": "Since 2026 worldwide income is taxed; micro-enterprises under CDF 25m pay USD 30 flat.",
+  "L4_vat_gst": "16% VAT above CDF 80m turnover; treatment of exported services not confirmed.",
+  "L5_data_protection": "Digital Code: declare data processing before starting; the regulator isn't set up yet.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within just 72 hours.",
+  "L7_incentives": "No freelancer incentive; micro-enterprises pay a flat USD 30.",
+  "D1_id_document": "Voter card (no national ID card since 1997)."
+ },
+ "watch_out": [
+  {
+   "text": "Old guides say foreign income is untaxed; that changed in January 2026.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "The refund window is only 72 hours, not 14 days.",
+   "fact": "L6_consumer_ecommerce"
+  }
+ ]
+}

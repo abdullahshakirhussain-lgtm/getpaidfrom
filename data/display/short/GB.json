@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls on foreign income.",
+  "P2_fcy_account": "Yes: banks like HSBC offer personal foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Start as a sole trader at once; register with HMRC above £1,000 a year.",
+  "L2_tax_id": "Your UTR, issued by HMRC when you register for Self Assessment.",
+  "L3_income_tax_foreign": "Worldwide income taxed above a £12,570 allowance, plus Class 4 National Insurance.",
+  "L4_vat_gst": "20% VAT; register once turnover passes £90,000 a year.",
+  "L5_data_protection": "UK GDPR; most businesses pay the ICO data protection fee.",
+  "L6_consumer_ecommerce": "Online buyers can cancel within 14 days of receiving goods.",
+  "L7_incentives": "£1,000 trading allowance: tiny side income needs no registration or tax.",
+  "D1_id_document": "Passport or driving licence."
+ },
+ "watch_out": [
+  {
+   "text": "Zero-rated sales count toward the £90,000 VAT threshold.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Register for Self Assessment once you earn over £1,000 in a tax year.",
+   "fact": "L1_registration"
+  }
+ ]
+}

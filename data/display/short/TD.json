@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but under CEMAC exchange control; repatriate earnings through your bank.",
+  "P2_fcy_account": "No: residents can't open foreign-currency accounts locally; declare accounts abroad.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register an individual enterprise at the ANIE one-stop shop, target 72 hours.",
+  "L2_tax_id": "NIF from the tax administration; unregistered operators face a 15% prepayment.",
+  "L3_income_tax_foreign": "Residents taxed on worldwide income; small businesses pay the IGL.",
+  "L4_vat_gst": "18% VAT; exports are 0%; threshold not confirmed.",
+  "L5_data_protection": "Law 007/PR/2015: declare data processing to ANSICE.",
+  "L6_consumer_ecommerce": "E-commerce law requires clear seller information; no refund period found.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card from ANATS, with your NNI number."
+ },
+ "watch_out": [
+  {
+   "text": "Declare any accounts you hold abroad to the BEAC.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

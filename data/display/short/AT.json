@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Trades register free online via GISA or USP; others register with the tax office.",
+  "L2_tax_id": "A tax number from your local tax office, issued when you first need it.",
+  "L3_income_tax_foreign": "Worldwide income taxed from 0% up to €13,539, rising to 55%.",
+  "L4_vat_gst": "20% VAT; small businesses under €55,000 a year are exempt.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Kleinunternehmer: no VAT under €55,000 turnover, with 10% tolerance once.",
+  "D1_id_document": "Personalausweis (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Your tax number can change when you move to another tax office area.",
+   "fact": "L2_tax_id"
+  }
+ ]
+}

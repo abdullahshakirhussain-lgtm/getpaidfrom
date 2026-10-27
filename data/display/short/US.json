@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; but report foreign accounts over USD 10,000 (FBAR).",
+  "P2_fcy_account": "Rare: big banks offer few personal foreign-currency accounts; fintechs fill the gap.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Sole proprietors need no federal registration; state licences vary.",
+  "L2_tax_id": "Your SSN, or an EIN from the IRS for your business.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 10–37%, plus 15.3% self-employment tax and state taxes.",
+  "L4_vat_gst": "No federal VAT; state sales taxes apply, often above $100,000 sales per state.",
+  "L5_data_protection": "No single federal law; California's CCPA covers only big or data-heavy businesses.",
+  "L6_consumer_ecommerce": "Ship within your stated time or 30 days, or offer a refund (FTC).",
+  "L7_incentives": "Deduct up to 20% of business income (QBI, section 199A).",
+  "D1_id_document": "Driver licence, state ID card or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Self-employment tax adds 15.3% on top of income tax.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Pay estimated tax quarterly (Form 1040-ES), not just once a year.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Nevada residents can't hold Wise balances.",
+   "fact": "P5_payoneer_wise"
+  }
+ ]
+}

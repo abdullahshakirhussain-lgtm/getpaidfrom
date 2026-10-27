@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; Mexico has no foreign-exchange controls.",
+  "P2_fcy_account": "Rarely: dollar accounts are limited to border-area residents and companies.",
+  "P3_local_gateways": "Stripe accepts individuals with a personal RFC; payouts go to an MXN bank account.",
+  "L1_registration": "No company needed; register in the RFC as a persona física.",
+  "L2_tax_id": "RFC; get it online with your CURP if you're 18 or older.",
+  "L3_income_tax_foreign": "Worldwide income taxed; under MXN 3.5m a year, RESICO charges just 1–2.5%.",
+  "L4_vat_gst": "16% IVA; only listed exported services get 0%, others pay 16%.",
+  "L5_data_protection": "New data law (March 2025): privacy notice and consent required.",
+  "L6_consumer_ecommerce": "Buyers can cancel within 5 business days of delivery (PROFECO).",
+  "L7_incentives": "RESICO's 1–2.5% income tax and 0% IVA on qualifying exported services.",
+  "D1_id_document": "INE voter credential, or your passport."
+ },
+ "watch_out": [
+  {
+   "text": "Exported services outside the official list still pay 16% IVA.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Most people can't hold dollars in a Mexican bank account.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

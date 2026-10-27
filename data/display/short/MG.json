@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but service providers must sell 70% of export receipts within 30 days.",
+  "P2_fcy_account": "Yes: foreign-currency accounts can receive transfers from abroad, with limits.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register an individual enterprise through the EDBM one-stop shop; fees not confirmed.",
+  "L2_tax_id": "NIF from the DGI, reportedly free in 2–3 days via NIFONLINE.",
+  "L3_income_tax_foreign": "Under MGA 400m turnover, the synthetic tax is 5%, possibly cut by 70%.",
+  "L4_vat_gst": "20% VAT from MGA 400 million turnover; exports are 0%.",
+  "L5_data_protection": "A data protection law exists, but it isn't applied in practice yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "The reducible 5% synthetic tax is the main simplification.",
+  "D1_id_document": "National identity card (CIN)."
+ },
+ "watch_out": [
+  {
+   "text": "Freelancers billing abroad may have to convert 70% of earnings.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

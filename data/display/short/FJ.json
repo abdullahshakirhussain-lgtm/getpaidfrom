@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes; foreign exchange controls may affect conversion and transfers.",
+  "P2_fcy_account": "Yes: banks offer foreign-currency accounts; approval rules not confirmed.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Registrar of Companies and FRCS for tax; steps not confirmed.",
+  "L2_tax_id": "TIN from FRCS, applied for online via TPOS; needed for a bank account.",
+  "L3_income_tax_foreign": "Reported: 0% up to FJD 30,000, then 18–20%.",
+  "L4_vat_gst": "12.5% VAT above FJD 100,000; register within 21 days of becoming liable.",
+  "L5_data_protection": "No data protection law recorded in UNCTAD's tracker.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "No compulsory ID; a voter ID card is available on request."
+ },
+ "watch_out": []
+}

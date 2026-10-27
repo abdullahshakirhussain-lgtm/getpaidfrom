@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Exporters must repatriate proceeds within 120–180 days; sources conflict.",
+  "P2_fcy_account": "Reportedly yes; accounts abroad need only notification.",
+  "P3_local_gateways": "Local providers like Payme, Click and Uzum weren't researched yet.",
+  "L1_registration": "Register as an individual entrepreneur online via my.gov.uz, about two days.",
+  "L2_tax_id": "PINFL for individuals; entrepreneurs use the STIR taxpayer number.",
+  "L3_income_tax_foreign": "Flat 12% income tax; turnover tax available, and exports aren't 0% since 2025.",
+  "L4_vat_gst": "12% VAT; turnover-tax payers are outside VAT.",
+  "L5_data_protection": "Law ZRU-547 on Personal Data, in force since 2019.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "IT Park gives tax exemptions; whether individuals qualify is unclear.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Export income is taxed under turnover tax since January 2025.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

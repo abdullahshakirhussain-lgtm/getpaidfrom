@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; Canada has had no exchange controls since 1951.",
+  "P2_fcy_account": "Yes: banks like RBC and TD offer personal US-dollar accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "A sole proprietor needs a CRA Business Number only for GST/HST.",
+  "L2_tax_id": "Canada issues tax numbers to residents; which one freelancers use isn't confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 14–33% federally, plus provincial tax.",
+  "L4_vat_gst": "5% GST; register above CAD 30,000 a year, foreign sales included.",
+  "L5_data_protection": "PIPEDA applies to businesses handling personal information.",
+  "L6_consumer_ecommerce": "Online consumer protection laws exist; specific refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Driver's licence, provincial photo ID or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign clients' payments count toward the CAD 30,000 GST threshold.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

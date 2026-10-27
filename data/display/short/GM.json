@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes: receive foreign currency into a bank FCD account.",
+  "P2_fcy_account": "Yes: foreign currency deposit (FCD) accounts at banks.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register a sole proprietorship at the Single Window for D500, within a day.",
+  "L2_tax_id": "TIN from the Gambia Revenue Authority, needed before registering a business.",
+  "L3_income_tax_foreign": "Turnover under D500,000: pay 3% of turnover.",
+  "L4_vat_gst": "15% VAT above 2 million dalasi a year.",
+  "L5_data_protection": "Personal Data Protection and Privacy Act 2025; report breaches within 72 hours.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer incentive; 3% turnover tax under D500,000 is the main simplification.",
+  "D1_id_document": "National ID card, passport or driving licence."
+ },
+ "watch_out": []
+}

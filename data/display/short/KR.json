@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes; no conversion rule found; banks may ask about large receipts.",
+  "P2_fcy_account": "Yes: banks offer foreign-currency deposit accounts; foreigners use external accounts.",
+  "P3_local_gateways": "Domestic gateways like Toss Payments weren't researched yet.",
+  "L1_registration": "Register as a sole proprietor on Hometax within 20 days of starting, free.",
+  "L2_tax_id": "Resident Registration Number, or a Business Registration Number for your business.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 6–45%, plus 10% local income tax.",
+  "L4_vat_gst": "10% VAT; under ₩104 million you can use the simplified regime.",
+  "L5_data_protection": "PIPA applies; penalties up to 10% of revenue from September 2026.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 7 days of receiving goods.",
+  "L7_incentives": "Simplified VAT under ₩104 million; no VAT payable under ₩48 million.",
+  "D1_id_document": "Resident registration card, or Alien Registration Card for foreigners."
+ },
+ "watch_out": [
+  {
+   "text": "Foreigners must check their visa allows business activity.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Zero-rated export services need a listed service and payment in foreign currency.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

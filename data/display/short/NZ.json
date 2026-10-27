@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls.",
+  "P2_fcy_account": "Yes: banks like ANZ offer personal foreign currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "No registration needed; your IRD number is your business ID.",
+  "L2_tax_id": "IRD number from Inland Revenue.",
+  "L3_income_tax_foreign": "Worldwide income taxed from 10.5% to 39% above NZD 180,000.",
+  "L4_vat_gst": "15% GST once turnover reaches NZD 60,000 in 12 months.",
+  "L5_data_protection": "Privacy Act 2020 applies.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Driver licence or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Don't charge GST until you have a GST number.",
+   "fact": "L1_registration"
+  }
+ ]
+}

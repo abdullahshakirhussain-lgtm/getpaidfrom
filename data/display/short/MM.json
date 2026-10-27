@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but 15% of foreign earnings must be converted to kyat at official rates.",
+  "P2_fcy_account": "Partly: foreign currency must be deposited at local banks, with part converted.",
+  "P3_local_gateways": "Local wallets like KBZPay and Wave Money weren't researched yet.",
+  "L1_registration": "Not confirmed for sole proprietors; individual businesses usually need township licences.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 1–25%; tax on foreign-currency income is paid in that currency.",
+  "L4_vat_gst": "No VAT; commercial tax of 5% on services above MMK 50 million.",
+  "L5_data_protection": "No personal data law; the 2025 Cybersecurity Law requires platforms to keep user data.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Citizenship Scrutiny Card."
+ },
+ "watch_out": [
+  {
+   "text": "Sanctions and FATF listing mean foreign banks apply extra checks.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

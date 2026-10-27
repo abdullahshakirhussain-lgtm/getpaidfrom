@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; Liberian and US dollars are both legal tender.",
+  "P2_fcy_account": "Not confirmed yet, though USD accounts are common.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register at the Liberia Business Registry and renew every 12 months.",
+  "L2_tax_id": "TIN, issued when you register your business.",
+  "L3_income_tax_foreign": "Worldwide income taxed: nil to LRD 70,000, up to 25%.",
+  "L4_vat_gst": "13% GST on services; a full VAT starts January 2027.",
+  "L5_data_protection": "No data protection law yet; a bill was before the Legislature.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Biometric national identification card."
+ },
+ "watch_out": [
+  {
+   "text": "Trading without a valid yearly registration risks fines.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "GST becomes VAT on 1 January 2027; registration opened July 2026.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

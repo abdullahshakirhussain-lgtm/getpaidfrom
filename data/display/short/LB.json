@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "No surrender rule, but banks are impaired; use fresh-dollar accounts.",
+  "P2_fcy_account": "Fresh-dollar accounts exist; rules not confirmed yet.",
+  "P3_local_gateways": "Transfer operators like OMT and Whish weren't researched yet.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "A single tax identification number from the tax administration.",
+  "L3_income_tax_foreign": "Services performed in Lebanon are taxable, at 4–25% for business income.",
+  "L4_vat_gst": "11% VAT above LBP 5 billion; exports are zero-rated.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Lebanese identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Never put foreign earnings into old frozen dollar accounts.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

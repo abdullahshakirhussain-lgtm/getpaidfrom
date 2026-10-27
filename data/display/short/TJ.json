@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes, but dollar liquidity is limited and can delay transactions.",
+  "P2_fcy_account": "Not confirmed; foreign accounts reportedly must be notified to the National Bank.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as an individual entrepreneur with the tax authority; unregistered income is double-taxed.",
+  "L2_tax_id": "TIN; entrepreneurs get a single identification number on registration.",
+  "L3_income_tax_foreign": "Worldwide income taxed; entrepreneurs often pay 6% of turnover.",
+  "L4_vat_gst": "14% VAT above TJS 1 million income (13% from 2027).",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Passport or ID card."
+ },
+ "watch_out": [
+  {
+   "text": "Earning regularly without registering doubles your tax rates.",
+   "fact": "L1_registration"
+  }
+ ]
+}

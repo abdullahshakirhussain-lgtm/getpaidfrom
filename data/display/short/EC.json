@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Not needed: Ecuador uses the US dollar, so local accounts are in dollars.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the SRI (Servicio de Rentas Internas); steps not confirmed yet.",
+  "L2_tax_id": "RUC (Taxpayer's Unique Registry) from the SRI.",
+  "L3_income_tax_foreign": "Residents are taxed on foreign income too, with a credit.",
+  "L4_vat_gst": "15% VAT; domestic threshold and export rules not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "RIMPE: a simplified regime for income up to USD 300,000.",
+  "D1_id_document": "Cédula de identidad (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "Sending money abroad costs a 5% capital exit tax (ISD).",
+   "fact": "P2_fcy_account"
+  },
+  {
+   "text": "The SRI moves taxpayers between RIMPE categories yearly; check your RUC.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive exchange controls.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the National Business Center (QKB) to get a NIPT tax ID.",
+  "L2_tax_id": "Your NID personal number; self-employed people also get a NIPT.",
+  "L3_income_tax_foreign": "0% income tax until 2029 for self-employed turnover up to ALL 14 million.",
+  "L4_vat_gst": "20% VAT above ALL 10 million; voluntary from ALL 5 million.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "0% tax until 2029, or flat deemed expenses up to ALL 10 million.",
+  "D1_id_document": "Letërnjoftimi (biometric ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "The 0% rate needs a NIPT and client payments through a business bank account.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "A single-client rule can remove the 0% benefit.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

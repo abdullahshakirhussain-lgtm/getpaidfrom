@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; you never have to convert foreign earnings to pesos.",
+  "P2_fcy_account": "Yes: banks offer foreign-currency deposit accounts (FCDUs).",
+  "P3_local_gateways": "PayMongo takes unregistered sellers for QR Ph only; cards and GCash need DTI registration.",
+  "L1_registration": "Register with BIR (Form 1901, online via ORUS); DTI only for a business name.",
+  "L2_tax_id": "TIN from the BIR, issued when you register with Form 1901.",
+  "L3_income_tax_foreign": "Taxed on worldwide income; under ₱3m sales, choose 8% on receipts above ₱250,000.",
+  "L4_vat_gst": "VAT only above ₱3m a year; services paid in foreign currency are zero-rated.",
+  "L5_data_protection": "Data Privacy Act 2012, enforced by the National Privacy Commission.",
+  "L6_consumer_ecommerce": "Internet Transactions Act 2023 covers online sellers; DTI runs an E-Commerce Bureau.",
+  "L7_incentives": "The 8% flat tax option, and zero VAT on foreign-currency services.",
+  "D1_id_document": "PhilID (national ID), or its digital ePhilID."
+ },
+ "watch_out": [
+  {
+   "text": "All online sellers must register with BIR, whatever their size.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Choose the 8% option at registration or on your first quarterly return.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

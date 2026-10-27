@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "PayDunya offers mobile money and card collection; individual eligibility not confirmed.",
+  "L1_registration": "Register an individual enterprise at the CFE, reportedly online via entreprendre.gouv.tg.",
+  "L2_tax_id": "NIF from the OTR, reportedly free in 3–5 working days.",
+  "L3_income_tax_foreign": "TPU synthetic tax: 8.5% for services, up to FCFA 60m (some say 30m).",
+  "L4_vat_gst": "VAT only above FCFA 100 million turnover since 2025.",
+  "L5_data_protection": "Law 2019-014: processing sensitive data without consent risks prison.",
+  "L6_consumer_ecommerce": "If sellers skip required information, buyers can cancel within 14 days.",
+  "L7_incentives": "TPU synthetic regime with online filing; VAT only above FCFA 100m.",
+  "D1_id_document": "Free e-ID card with a unique identification number (NIU)."
+ },
+ "watch_out": [
+  {
+   "text": "Import or export operators can't use the TPU; services unclear.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no legal limits on transfers or currency exchange.",
+  "P2_fcy_account": "Very likely, with no limits on currency transactions; not confirmed for individuals.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Central Registry; steps not confirmed yet.",
+  "L2_tax_id": "EMBG personal number and EDB tax number; how to apply isn't confirmed.",
+  "L3_income_tax_foreign": "Flat 10% income tax, plus about 28% social contributions for sole proprietors.",
+  "L4_vat_gst": "18% VAT once turnover reaches MKD 2 million a year.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Лична карта (identity card)."
+ },
+ "watch_out": []
+}

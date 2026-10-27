@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Sanctions limit banking channels and platform access; currency rules not confirmed.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "UNP (taxpayer account number); how to get it isn't confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed; individual entrepreneurs pay 16% on business income.",
+  "L4_vat_gst": "20% VAT; register once you make taxable supplies.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National identity card (since 2021)."
+ },
+ "watch_out": [
+  {
+   "text": "Sanctions block many platforms; we only cover lawful routes.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

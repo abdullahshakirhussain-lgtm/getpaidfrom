@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Get a trade licence (živnostenský list) for CZK 1,000 and become an OSVČ.",
+  "L2_tax_id": "Your personal identification number, until you register for VAT.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 15%, and 23% above about CZK 1.76 million.",
+  "L4_vat_gst": "21% VAT once turnover in Czechia exceeds CZK 2 million a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Flat-rate regime: one monthly payment covers income tax and insurance, up to CZK 2m.",
+  "D1_id_document": "Občanský průkaz (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Passing CZK 2,536,500 makes you a VAT payer the very next day.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

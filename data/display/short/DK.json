@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register on Virk.dk for a CVR number; you need a CPR number.",
+  "L2_tax_id": "Your CPR number is your tax ID.",
+  "L3_income_tax_foreign": "Worldwide income taxed, up to about 57% (60.5% with labour market tax).",
+  "L4_vat_gst": "25% VAT once revenue passes DKK 50,000 a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Passport or driving licence."
+ },
+ "watch_out": []
+}

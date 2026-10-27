@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls.",
+  "P2_fcy_account": "Yes: accounts in any currency, in Switzerland or abroad.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register in the commercial register only above CHF 100,000 revenue; also register with AHV.",
+  "L2_tax_id": "UID number for entities; individuals' tax number not confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed at federal, cantonal and municipal rates, plus wealth tax.",
+  "L4_vat_gst": "8.1% VAT once worldwide turnover reaches CHF 100,000.",
+  "L5_data_protection": "Revised FADP since 2023; fines up to CHF 250,000 hit individuals personally.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Swiss identity card or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign clients' payments count toward the CHF 100,000 VAT threshold.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Data protection fines target you personally, not your business.",
+   "fact": "L5_data_protection"
+  }
+ ]
+}

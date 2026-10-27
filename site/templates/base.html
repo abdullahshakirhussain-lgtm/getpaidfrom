@@ -4,24 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}Get Paid From: how to get paid from your country{% endblock %}</title>
-<meta name="description" content="{% block description %}How to get paid from your country: payment platforms, foreign-currency accounts, tax ID, VAT and registration, with a source for every answer.{% endblock %}">
+<meta name="description" content="{% block description %}Which payment services work in your country, and what to watch out for. Every answer has a source.{% endblock %}">
 <link rel="canonical" href="{{ site_url }}/{{ path }}">
 {% block robots %}{% endblock %}
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5ea8'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="{{ root }}static/style.css">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Crect x='4' y='19' width='24' height='7' fill='%23ffe45c'/%3E%3Cpath d='M4 26h24' stroke='%2315171c' stroke-width='2.5'/%3E%3C/svg%3E">
+<link rel="preload" href="{{ root }}static/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}static/fonts/newsreader-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ root }}static/style.css?v={{ ver }}">
+<script src="{{ root }}static/app.js?v={{ ver }}" defer data-root="{{ root }}"></script>
 </head>
 <body>
-<header class="top">
-  <a class="brand" href="{{ root }}">Get Paid From</a>
-  <nav><a href="{{ root }}#countries">Countries</a><a href="{{ root }}about/">How we check</a></nav>
+<header class="mast">
+  <a class="wordmark" href="{{ root or './' }}">Get paid from<span class="blank" aria-hidden="true"></span></a>
+  {% block topsearch %}
+  <div class="search mast-search" data-search>
+    <label class="vh" for="q">Search</label>
+    <input id="q" type="search" placeholder="Search a country or service" autocomplete="off">
+    <div class="results" role="listbox" hidden></div>
+  </div>
+  {% endblock %}
 </header>
 <main>
 {% block main %}{% endblock %}
 </main>
 <footer class="foot">
-  <p><strong>Not legal, tax or financial advice.</strong> This is general information from the public sources linked on each page. Rules and platform lists change, so check the source before you act.</p>
-  <p>Legitimate routes only: no borrowed identities, foreign addresses, VPN tricks or sanctions evasion.</p>
-  <p class="small">Data built {{ stats.built }} · {{ stats.countries }} countries · {{ stats.sources }} sources · no tracking, no cookies.</p>
+  <p>Not legal, tax or financial advice. Every line links to its public source, and rules change, so check before you act.</p>
+  <p><a href="{{ root }}about/">How we check</a> · Legitimate routes only · No tracking · Updated {{ built }}</p>
 </footer>
 </body>
 </html>

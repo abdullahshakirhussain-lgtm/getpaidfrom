@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; Armenia has a liberal currency regime.",
+  "P2_fcy_account": "Yes: residents can hold foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as an Individual Entrepreneur with the State Register, often within a day.",
+  "L2_tax_id": "TIN issued by the State Register when you register.",
+  "L3_income_tax_foreign": "Flat 20% income tax; small businesses can use turnover tax instead.",
+  "L4_vat_gst": "20% VAT above AMD 115 million; exported services are zero-rated.",
+  "L5_data_protection": "Law on Protection of Personal Data (2015), overseen by a Justice Ministry agency.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Turnover tax and micro-entrepreneur regimes for small businesses.",
+  "D1_id_document": "Not confirmed yet."
+ },
+ "watch_out": []
+}

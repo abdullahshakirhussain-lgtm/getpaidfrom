@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Partly confirmed; individuals' foreign receipts are historically \"free funds\" in Nostro accounts.",
+  "P2_fcy_account": "Yes: foreign-currency (Nostro FCA) accounts are standard.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "No company registration; register for tax with ZIMRA on the TaRMS portal.",
+  "L2_tax_id": "TIN from ZIMRA's TaRMS portal, replacing the old BP number.",
+  "L3_income_tax_foreign": "Work done in Zimbabwe is likely taxable there, up to 40%.",
+  "L4_vat_gst": "15.5% VAT since 2026, above US$25,000 in 12 months.",
+  "L5_data_protection": "Processing data of 50+ people needs a yearly POTRAZ licence from US$50.",
+  "L6_consumer_ecommerce": "Buyers can cancel online purchases within seven days.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Older pages say 15%; VAT is 15.5% from January 2026.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "You need a certified Data Protection Officer and a POTRAZ licence.",
+   "fact": "L5_data_protection"
+  }
+ ]
+}

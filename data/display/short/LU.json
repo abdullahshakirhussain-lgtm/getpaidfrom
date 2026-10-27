@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Get a business permit online via MyGuichet.lu; most freelancers need one.",
+  "L2_tax_id": "Your national identification number is your tax number.",
+  "L3_income_tax_foreign": "Worldwide income taxed at progressive rates by tax class.",
+  "L4_vat_gst": "17% VAT; small businesses under €50,000 a year are exempt.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Carte d'identité or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Consultants, IT and design freelancers usually need a commercial business permit.",
+   "fact": "L1_registration"
+  }
+ ]
+}

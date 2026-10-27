@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; the rial is convertible and capital moves without restriction.",
+  "P2_fcy_account": "Yes: banks offer personal accounts in USD, GBP, EUR and more.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Ministry of Commerce (MOCIIP); steps not confirmed yet.",
+  "L2_tax_id": "No personal tax, so TINs are for businesses (VAT, corporate tax).",
+  "L3_income_tax_foreign": "No personal income tax until 2028; then 5% above OMR 42,000.",
+  "L4_vat_gst": "5% VAT above OMR 38,500 turnover a year.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card."
+ },
+ "watch_out": [
+  {
+   "text": "From 2028, residents pay 5% on worldwide income above OMR 42,000.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

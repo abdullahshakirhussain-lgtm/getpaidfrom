@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Rules for individual service exporters aren't confirmed; repatriation rules apply to exporters.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Companies form at the investment agency's one-stop shop; sole-trader route not confirmed.",
+  "L2_tax_id": "NIF; how to get it isn't confirmed yet.",
+  "L3_income_tax_foreign": "Not confirmed yet.",
+  "L4_vat_gst": "18% VAT; registration threshold cut to BIF 25m from July 2026.",
+  "L5_data_protection": "A data protection bill passed the National Assembly in January 2026.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National identity card (CNI)."
+ },
+ "watch_out": [
+  {
+   "text": "Older brochures say BIF 100m; the VAT threshold is BIF 25m since July 2026.",
+   "fact": "L4_vat_gst"
+  }
+ ]
+}

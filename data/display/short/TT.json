@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register a business name with the Registrar General's Department; steps not confirmed.",
+  "L2_tax_id": "BIR file number, registered online through e-TAX with form IA-001.",
+  "L3_income_tax_foreign": "Residents taxed on worldwide income; 25% below TTD 1 million.",
+  "L4_vat_gst": "12.5% VAT once supplies reach TTD 600,000 in 12 months.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National Identification Card from the EBC."
+ },
+ "watch_out": []
+}

@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictions on converting or transferring currency.",
+  "P2_fcy_account": "Yes: banks take US-dollar deposits from individuals.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the State Tax Service; steps not confirmed yet.",
+  "L2_tax_id": "A taxpayer number from the tax authorities; how to apply isn't confirmed.",
+  "L3_income_tax_foreign": "Worldwide income taxed; the simplified tax for entrepreneurs isn't confirmed yet.",
+  "L4_vat_gst": "18% VAT above AZN 200,000 a year; exports are zero-rated.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Şəxsiyyət vəsiqəsi (national ID card)."
+ },
+ "watch_out": []
+}

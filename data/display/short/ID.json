@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; you may freely own and use foreign currency.",
+  "P2_fcy_account": "Yes: you may hold foreign-currency deposits at Indonesian banks.",
+  "P3_local_gateways": "Midtrans accepts individuals with a KTP; Xendit needs a registered company.",
+  "L1_registration": "Businesses get an NIB online through OSS; individuals register with NIK and NPWP.",
+  "L2_tax_id": "Your NIK (national ID number) is your tax ID (NPWP).",
+  "L3_income_tax_foreign": "Worldwide income taxed; 0.5% final tax on turnover up to Rp4.8bn, first Rp500m free.",
+  "L4_vat_gst": "VAT 11% effective; register only above Rp4.8 billion; listed exported services are 0%.",
+  "L5_data_protection": "PDP Law 27/2022 applies fully since October 2024; its agency isn't confirmed yet.",
+  "L6_consumer_ecommerce": "E-commerce rules (PP 80/2019) apply; licence needs for your own website are unclear.",
+  "L7_incentives": "0.5% final tax with no time limit, and the first Rp500m a year untaxed.",
+  "D1_id_document": "KTP-el electronic ID card, carrying your NIK."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign income counts toward the Rp4.8 billion limit for the 0.5% tax.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Xendit doesn't accept individuals; you'd need a single-person company (PT Perorangan).",
+   "fact": "P3_local_gateways"
+  }
+ ]
+}

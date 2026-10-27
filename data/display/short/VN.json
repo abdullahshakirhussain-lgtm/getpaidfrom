@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; individuals can receive foreign money into a foreign-currency bank account.",
+  "P2_fcy_account": "Yes: licensed banks open foreign-currency accounts for individuals.",
+  "P3_local_gateways": "VNPAY, MoMo, OnePay and Ngân Lượng are licensed; individual sign-up isn't confirmed.",
+  "L1_registration": "Usually register a household business; low-income service providers may be exempt by province.",
+  "L2_tax_id": "Your 12-digit personal ID number is your tax code since July 2025.",
+  "L3_income_tax_foreign": "No income tax or VAT on business revenue up to VND 1 billion a year.",
+  "L4_vat_gst": "Services exported to foreign clients are 0% VAT with a contract and bank payment.",
+  "L5_data_protection": "Personal Data Protection Law 91/2025, in force since 1 January 2026.",
+  "L6_consumer_ecommerce": "E-Commerce Law (from July 2026): sellers must verify identity and show return policies.",
+  "L7_incentives": "Tax-free up to VND 1 billion revenue a year, among the highest thresholds we've found.",
+  "D1_id_document": "Căn cước card, with your 12-digit personal ID number."
+ },
+ "watch_out": [
+  {
+   "text": "Old articles say VND 500 million; the threshold is VND 1 billion from 2026.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "0% VAT needs a contract with the foreign client and non-cash payment.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Above VND 1 billion revenue you must issue e-invoices.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

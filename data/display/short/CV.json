@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet; the escudo is pegged to the euro.",
+  "P2_fcy_account": "Not confirmed yet; rules for residents' foreign-currency accounts exist.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Companies form in a day at Casa do Cidadão (about USD 100); sole-trader route unconfirmed.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Worldwide income taxed; small businesses may pay a 4% unified tax (REMPE).",
+  "L4_vat_gst": "15% VAT; REMPE taxpayers pay the 4% unified tax instead.",
+  "L5_data_protection": "Data protection regime supervised by the CNPD.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "REMPE's 4% unified tax on sales is the main simplification.",
+  "D1_id_document": "Cartão Nacional de Identificação (CNI)."
+ },
+ "watch_out": []
+}

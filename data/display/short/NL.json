@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register an eenmanszaak at KVK online with DigiD, then visit a KVK office.",
+  "L2_tax_id": "A tax number allocated at birth or when you register with your municipality.",
+  "L3_income_tax_foreign": "Worldwide income taxed under Box 1 progressive rates.",
+  "L4_vat_gst": "21% VAT; optional KOR exemption up to €20,000 turnover a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "KOR: no VAT charged or reclaimed under €20,000 a year.",
+  "D1_id_document": "National ID card or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Register for KOR at least four weeks before the return period starts.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

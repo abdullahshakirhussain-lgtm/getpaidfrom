@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with Skatteverket and apply for F-tax via verksamt.se, free.",
+  "L2_tax_id": "Personnummer, or a co-ordination number if you're not in the population register.",
+  "L3_income_tax_foreign": "Worldwide income taxed: about 32% municipal, plus 20% national above SEK 643,000.",
+  "L4_vat_gst": "25% VAT; exempt while turnover stays under SEK 120,000 a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Nationellt ID-kort or passport."
+ },
+ "watch_out": []
+}

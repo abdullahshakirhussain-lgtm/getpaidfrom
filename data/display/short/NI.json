@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Not confirmed yet.",
+  "L2_tax_id": "RUC, a 14-digit number from the DGI, registered with your cédula.",
+  "L3_income_tax_foreign": "Only Nicaraguan-source income taxed, at rates up to 30%.",
+  "L4_vat_gst": "15% VAT; all traders must register, no threshold stated.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Fixed monthly quota regime for income up to C$480,000 a year (older figure).",
+  "D1_id_document": "Cédula de identidad (national ID card)."
+ },
+ "watch_out": []
+}

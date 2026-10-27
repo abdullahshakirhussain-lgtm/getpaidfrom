@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; convert and transfer at market rates.",
+  "P2_fcy_account": "Yes: hold foreign-currency deposits, with no limit on accounts.",
+  "P3_local_gateways": "Local banks like TBC and Bank of Georgia offer acquiring; not researched.",
+  "L1_registration": "Register as an Individual Entrepreneur, then apply for Small Business Status on rs.ge.",
+  "L2_tax_id": "A permanent ID number, assigned when you register.",
+  "L3_income_tax_foreign": "Small Business Status: 1% of turnover up to GEL 500,000.",
+  "L4_vat_gst": "18% VAT above GEL 100,000 in any 12 months.",
+  "L5_data_protection": "Personal Data Protection Law 2023, GDPR-aligned, now overseen by the State Audit Office.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "1% Small Business tax, and micro-businesses under GEL 30,000 are tax-exempt.",
+  "D1_id_document": "National identity card or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Consulting is excluded from the 1% regime; check your activity code.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "Work done in Georgia for foreign clients still counts as Georgian income.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

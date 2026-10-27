@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls, though currency movements are monitored.",
+  "P2_fcy_account": "Not confirmed yet; with no exchange controls, foreign-currency accounts are likely allowed.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Citizens and PRs register a business name with ROCBN online via OCP.",
+  "L2_tax_id": "No TIN for individuals; only companies are taxed.",
+  "L3_income_tax_foreign": "No personal income tax, including on freelance earnings.",
+  "L4_vat_gst": "No VAT, GST or sales tax.",
+  "L5_data_protection": "Personal Data Protection Order 2025, mostly in force since January 2026.",
+  "L6_consumer_ecommerce": "Consumer Protection (Fair Trading) Act; online cancellation rights not confirmed.",
+  "L7_incentives": "No personal income tax is the main advantage.",
+  "D1_id_document": "NRIC (national registration identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "Foreigners without PR can't register a sole proprietorship.",
+   "fact": "L1_registration"
+  }
+ ]
+}

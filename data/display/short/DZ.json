@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but bring export earnings to an Algerian bank within 120 days.",
+  "P2_fcy_account": "Yes: a professional FX account holds 100% of repatriated service earnings.",
+  "P3_local_gateways": "Chargily Pay accepts local CIB and EDAHABIA cards; international cards not yet.",
+  "L1_registration": "Auto-entrepreneur: register online with ANAE, turnover under about DZD 5m a year.",
+  "L2_tax_id": "NIF tax number, plus CASNOS registration for auto-entrepreneurs.",
+  "L3_income_tax_foreign": "Auto-entrepreneurs pay a 0.5% IFU on turnover instead of income tax and VAT.",
+  "L4_vat_gst": "19% VAT; auto-entrepreneurs' 0.5% IFU covers it.",
+  "L5_data_protection": "Law 18-07: declare data processing to the ANPDP beforehand.",
+  "L6_consumer_ecommerce": "Law 18-05: show your registration number; returns allowed for late deliveries.",
+  "L7_incentives": "0.5% auto-entrepreneur tax and 100% foreign-currency retention for service exports.",
+  "D1_id_document": "Biometric national ID card (CNI) with your NIN."
+ },
+ "watch_out": [
+  {
+   "text": "Repatriate within 120 days; guides from before August 2026 still say 360.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Withdrawing PayPal funds in Algeria is unclear; there's no official list of working cards.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

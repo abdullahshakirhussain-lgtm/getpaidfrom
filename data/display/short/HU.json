@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the State Tax Authority (NAV) via Client Gate; steps not confirmed.",
+  "L2_tax_id": "Adóazonosító jel, your personal tax ID.",
+  "L3_income_tax_foreign": "Flat 15% income tax on nearly all income.",
+  "L4_vat_gst": "27% VAT; exemption available under HUF 20 million turnover in 2026.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "KATA flat tax, but only if you sell solely to private individuals.",
+  "D1_id_document": "Személyazonosító igazolvány (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Freelancers invoicing businesses, including foreign clients, can't use KATA.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

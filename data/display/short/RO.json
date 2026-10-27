@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Yes: banks like BCR open foreign-currency current accounts for individuals.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register a PFA at the trade register (ONRC), online or in person, before starting.",
+  "L2_tax_id": "Your CNP (personal code) is your tax ID.",
+  "L3_income_tax_foreign": "PFA: 10% income tax, plus pension (CAS) and health (CASS) contributions above thresholds.",
+  "L4_vat_gst": "21% VAT; exempt below 395,000 lei, and foreign B2B services don't count.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Income norm: 10% tax on a fixed amount, if receipts stayed under €25,000.",
+  "D1_id_document": "Carte de identitate (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Earning over €25,000 moves you to real-income taxation the next year.",
+   "fact": "L7_incentives"
+  },
+  {
+   "text": "CAS pension contributions are due once net income reaches 48,600 lei.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

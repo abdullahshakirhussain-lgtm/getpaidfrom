@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Restrictive: foreign currency access is very limited and rates differ widely.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Reportedly register with the tax office as an individual entrepreneur.",
+  "L2_tax_id": "Taxpayer number (HSB); register within 10 days of a tax obligation.",
+  "L3_income_tax_foreign": "Worldwide income taxed; sole proprietor rate reported at 2% or 10%.",
+  "L4_vat_gst": "Not confirmed; VAT reported at 15%.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "Internal citizenship passport."
+ },
+ "watch_out": []
+}

@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "KKiaPay and FedaPay are local aggregators; individual eligibility not confirmed.",
+  "L1_registration": "Create an individual enterprise online at monentreprise.bj for FCFA 10,000 in hours.",
+  "L2_tax_id": "IFU, delivered with your online business registration.",
+  "L3_income_tax_foreign": "Under FCFA 50m turnover, the TPS synthetic tax applies; current rate unconfirmed.",
+  "L4_vat_gst": "Not confirmed yet; small TPS taxpayers reportedly can't charge VAT.",
+  "L5_data_protection": "Declare data processing to the APDP before it starts.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within 15 working days.",
+  "L7_incentives": "New individual enterprises skip the business licence tax for 12 months.",
+  "D1_id_document": "Biometric national ID card or CIP."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

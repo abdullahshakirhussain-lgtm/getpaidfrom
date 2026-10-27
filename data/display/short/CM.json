@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but under CEMAC exchange control; repatriate earnings through your bank.",
+  "P2_fcy_account": "No: residents can't open foreign-currency accounts locally; declare accounts abroad.",
+  "P3_local_gateways": "Mobile-money merchant accounts reportedly need RCCM and NIU registration.",
+  "L1_registration": "Register an individual enterprise at the CFCE one-stop shop, about FCFA 46,500.",
+  "L2_tax_id": "NIU taxpayer number, online-only via the DGI using your ID card number.",
+  "L3_income_tax_foreign": "Up to FCFA 50m turnover, the IGS single tax replaces income tax and VAT.",
+  "L4_vat_gst": "19.25% VAT; IGS taxpayers don't charge it; exports are zero-rated.",
+  "L5_data_protection": "Data protection law 2024/017, in force since June 2026.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within 15 days of receiving goods.",
+  "L7_incentives": "The IGS single tax up to FCFA 50m is the main simplification.",
+  "D1_id_document": "National identity card (CNI)."
+ },
+ "watch_out": [
+  {
+   "text": "PayPal balances can't be withdrawn to Cameroonian banks.",
+   "fact": "P4_paypal"
+  },
+  {
+   "text": "Declare any accounts you hold abroad to the BEAC.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but bring earnings home within 90 days and convert most to dirhams.",
+  "P2_fcy_account": "Yes: keep up to 70% of repatriated foreign income in an FX account.",
+  "P3_local_gateways": "CMI needs a commercial register entry and patente; unregistered freelancers can't use it.",
+  "L1_registration": "Auto-entrepreneur: register online, validate at Barid Al-Maghrib; services capped at MAD 200,000.",
+  "L2_tax_id": "A tax ID (IF) and ICE, issued automatically for auto-entrepreneurs.",
+  "L3_income_tax_foreign": "Auto-entrepreneurs pay a final 1% of service turnover instead of income tax.",
+  "L4_vat_gst": "20% VAT; exported services are exempt; auto-entrepreneurs don't charge VAT.",
+  "L5_data_protection": "Law 09-08: notify the CNDP before collecting personal data on your website.",
+  "L6_consumer_ecommerce": "Buyers can withdraw within 7 days of receiving the product.",
+  "L7_incentives": "1% auto-entrepreneur tax, 70% currency retention, and VAT-free exported services.",
+  "D1_id_document": "Electronic national ID card (CNIE)."
+ },
+ "watch_out": [
+  {
+   "text": "PayPal requires withdrawing to a Moroccan bank within 30 days.",
+   "fact": "P4_paypal"
+  },
+  {
+   "text": "Over MAD 80,000 a year from one client is taxed at 30%.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "Leaving earnings on PayPal or Payoneer has been penalised; bring them home within 90 days.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

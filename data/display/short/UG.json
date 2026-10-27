@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls on individuals' service income.",
+  "P2_fcy_account": "Yes: banks offer USD, GBP and EUR accounts, opened with a national ID.",
+  "P3_local_gateways": "Pesapal onboards sole proprietors with a registered business name and URA TIN.",
+  "L1_registration": "No registration needed if you trade under your own surname.",
+  "L2_tax_id": "TIN from URA, instantly online with your NIN.",
+  "L3_income_tax_foreign": "Worldwide income taxed: nil to UGX 4.02m, up to 30%, plus 10% above UGX 120m.",
+  "L4_vat_gst": "18% VAT above UGX 300m a year; exports are zero-rated.",
+  "L5_data_protection": "Register with the Personal Data Protection Office; not registering is an offence.",
+  "L6_consumer_ecommerce": "Buyers can cancel online purchases within 7 days of receipt.",
+  "L7_incentives": "New citizen-owned businesses: three years without income tax.",
+  "D1_id_document": "National ID card with your NIN, from NIRA."
+ },
+ "watch_out": [
+  {
+   "text": "Collecting customer data without PDPO registration can mean a fine or prison.",
+   "fact": "L5_data_protection"
+  },
+  {
+   "text": "Old guides say UGX 150m; the VAT threshold is UGX 300m since July 2026.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Platforms paying through PayPal Payouts can't pay Ugandan accounts.",
+   "fact": "P4_paypal"
+  }
+ ]
+}

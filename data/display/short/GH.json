@@ -1,0 +1,29 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; foreign payments must go into a Foreign Exchange Account (FEA) at a bank.",
+  "P2_fcy_account": "Yes: banks offer FEA and FCA accounts, and you can withdraw FX cash.",
+  "P3_local_gateways": "Paystack Starter takes unregistered sellers up to GHS 30,000 lifetime.",
+  "L1_registration": "A sole proprietorship costs GHS 130 at ORC, plus GHS 70 yearly renewal.",
+  "L2_tax_id": "Your Ghana Card PIN is your tax ID.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 0–35%; small traders can pay a flat 3% of turnover.",
+  "L4_vat_gst": "VAT effectively 20%; service providers must register within 30 days, with no threshold.",
+  "L5_data_protection": "Data Protection Act 2012: register with the Data Protection Commission before processing data.",
+  "L6_consumer_ecommerce": "Buyers can cancel within 14 days of goods, or 7 days for services.",
+  "L7_incentives": "Flat 3% turnover tax for small sellers, and the first GHS 7,056 tax-free.",
+  "D1_id_document": "Ghana Card, the only ID banks accept."
+ },
+ "watch_out": [
+  {
+   "text": "Every service provider must register for VAT within 30 days, even small ones.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Qualified professionals can't use the flat 3% scheme.",
+   "fact": "L3_income_tax_foreign"
+  },
+  {
+   "text": "You can't legally process customer data until you register with the Commission.",
+   "fact": "L5_data_protection"
+  }
+ ]
+}

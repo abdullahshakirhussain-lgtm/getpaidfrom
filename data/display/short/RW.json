@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, through authorised channels; pricing in foreign currency to Rwandans is banned.",
+  "P2_fcy_account": "Yes: licensed foreign-currency accounts are permitted.",
+  "P3_local_gateways": "IremboPay and Paystack need RDB business registration and a TIN.",
+  "L1_registration": "Register an individual enterprise free and instantly online at RDB, with automatic TIN.",
+  "L2_tax_id": "TIN from the Rwanda Revenue Authority, issued automatically with RDB registration.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 0–30%; turnover under RWF 2m is exempt.",
+  "L4_vat_gst": "18% VAT above RWF 20m a year; exports are zero-rated.",
+  "L5_data_protection": "Law 058/2021: register with the National Cyber Security Authority as a data controller.",
+  "L6_consumer_ecommerce": "Buyers can withdraw from online purchases within 7 days (Law 011/2026).",
+  "L7_incentives": "No income tax under RWF 2m; simple flat or 3% taxes up to RWF 20m.",
+  "D1_id_document": "National ID card or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Quoting prices in foreign currency to Rwandan customers can bring heavy fines.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Online businesses face new disclosure duties under Law 011/2026.",
+   "fact": "L1_registration"
+  }
+ ]
+}

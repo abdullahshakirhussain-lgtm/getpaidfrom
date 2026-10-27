@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Yes: BBVA, Santander and neobanks offer dollar accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as autónomo with the tax agency (modelo 036) and Social Security before starting.",
+  "L2_tax_id": "NIF: a nine-character tax number ending in a control letter.",
+  "L3_income_tax_foreign": "Worldwide income taxed at progressive state and regional rates.",
+  "L4_vat_gst": "21% VAT from your first invoice: Spain has no small-business exemption.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "New autónomos pay €80 a month Social Security for the first year.",
+  "D1_id_document": "DNI (national ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "No VAT threshold: charge 21% VAT from your first invoice.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Register with Social Security (RETA) before you start working.",
+   "fact": "L1_registration"
+  }
+ ]
+}

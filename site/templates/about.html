@@ -1,32 +1,40 @@
 {% extends "base.html" %}
 {% block title %}How we check | Get Paid From{% endblock %}
 {% block main %}
-<h1>How we check</h1>
-<p class="lede">Every answer on this site links to the sources it comes from, with the date we checked them. If we could not find a reliable source, the answer stays blank instead of being guessed.</p>
+<h1 class="sentence">How we check</h1>
+<p class="intro">Every line links to where it came from. If we can't find a reliable source, we say so instead of guessing.</p>
 
-<h2>What the badges mean</h2>
-<ul class="legend wide">
-  <li><span class="badge ok">Verified</span> At least one official source (a government, central bank, tax authority, or the platform's own page), or two independent secondary sources that agree.</li>
-  <li><span class="badge warn">Single source</span> Only one secondary source, for example a tax firm's guide or a news article. Usable as a lead, but confirm it before relying on it.</li>
-  <li><span class="badge bad">Sources disagree</span> Sources conflict. We show both sides and, where possible, what the difference means for you in practice.</li>
-  <li><span class="badge muted">Not yet researched</span> We could not find or reach a reliable source. Many small states publish little online, and some government sites block automated access or have expired security certificates.</li>
-</ul>
+<section class="sec">
+  <h2>What the labels mean</h2>
+  <dl class="facts legend">
+    {% for tone, label, text in [
+      ("ok", "Works", "The service's own list, or a reliable source, confirms it for your country."),
+      ("likely", "Likely", "The service says it covers almost every country, but nothing confirms yours by name."),
+      ("warn", "Limited", "It works with conditions, like a partner bank or a registered business."),
+      ("muted", "Not confirmed", "The service operates there, but we couldn't confirm you can get paid."),
+      ("bad", "Not available", "The service doesn't serve your country.")] %}
+    <div class="fact"><dt><span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span></dt><dd><p class="short">{{ text }}</p></dd></div>
+    {% endfor %}
+  </dl>
+</section>
 
-<h2>How a source is checked</h2>
-<ol>
-  <li>We find the page through search, a sitemap or an official index, never by guessing addresses.</li>
-  <li>We save a copy of the page with its capture date, so the answer can be traced even if the page later changes.</li>
-  <li>Each answer quotes the exact sentence that supports it. An automated check confirms that every quote still matches the saved copy.</li>
-  <li>Key figures (rates, thresholds) need an official source or two independent sources before an answer is marked verified.</li>
-  <li>We never bypass bot checks, logins or broken security certificates. Those pages are recorded as blocked.</li>
-</ol>
+<section class="sec">
+  <h2>Where answers come from</h2>
+  <div class="prose"><p>Service pages, government sites, central banks and tax offices first. Guides and news only when official pages say nothing, and then the line says it rests on one source.</p></div>
+</section>
 
-<h2>Platform lists</h2>
-<p>The platform table on each country page comes from each platform's published country list (Stripe, PayPal, Paddle, Lemon Squeezy, Polar, Dodo Payments, Whop, Upwork, Etsy, YouTube, Google Play). Being on a list means the platform says it supports your country. It does not guarantee your own account will be approved.</p>
+<section class="sec">
+  <h2>The short answer</h2>
+  <div class="prose"><p>For clients paying you, we name the first that works in this order: PayPal, Payoneer, Wise. For selling online: Gumroad, Lemon Squeezy, Payhip, Polar, Paddle, Stripe. Same rule for every country.</p></div>
+</section>
 
-<h2>Workarounds</h2>
-<p>The "Simple legal routes" section only suggests legitimate options, such as merchant-of-record platforms, local official channels and bank transfers. It never suggests using someone else's account, a foreign address or a VPN to look like you are somewhere else. Those breach platform terms, get funds frozen and can break anti-money-laundering or sanctions law. For sanctioned countries we say plainly when there is no clean route.</p>
+<section class="sec">
+  <h2>Legitimate routes only</h2>
+  <div class="prose"><p>We never suggest borrowed accounts, foreign addresses or VPN tricks. They break the services' rules, get money frozen and can break the law.</p></div>
+</section>
 
-<h2>Not advice</h2>
-<p>This is general information, not legal, tax or financial advice. Rules change, so check the linked source or a qualified local adviser before you act.</p>
+<section class="sec">
+  <h2>Logos and fonts</h2>
+  <div class="prose"><p>Logos belong to their companies and are shown only to say which service a line is about. We're not affiliated with any of them, and nobody pays to be listed. Logo files come from Simple Icons and Polar's own site. Type is Newsreader and Atkinson Hyperlegible Next, both under the SIL Open Font License, served from this site.</p></div>
+</section>
 {% endblock %}

@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no exchange controls.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register through the Public Services Agency's online business registry; steps not confirmed.",
+  "L2_tax_id": "IDNP, your personal identification number.",
+  "L3_income_tax_foreign": "Flat 12% income tax; work done in Moldova for foreign clients is taxed.",
+  "L4_vat_gst": "20% VAT once turnover reaches MDL 1.7 million in 12 months.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "IT Park: 7% single tax on turnover, but only for companies.",
+  "D1_id_document": "Buletin de identitate (identity card)."
+ },
+ "watch_out": []
+}

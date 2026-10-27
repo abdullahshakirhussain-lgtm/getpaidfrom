@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register as a samostojni podjetnik (s.p.) online through SPOT.",
+  "L2_tax_id": "Slovenian tax number (TIN) from the Financial Administration.",
+  "L3_income_tax_foreign": "Worldwide income taxed in five brackets starting at 16%.",
+  "L4_vat_gst": "22% VAT above €60,000 turnover a year.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Normirani s.p.: 80% deemed expenses on revenue up to €60,000.",
+  "D1_id_document": "Osebna izkaznica (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Flat-rate limits for 2026 depend on a pending referendum; check FURS.",
+   "fact": "L7_incentives"
+  }
+ ]
+}

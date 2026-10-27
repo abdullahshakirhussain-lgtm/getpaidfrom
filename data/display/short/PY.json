@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Yes: banks operate in both local and foreign currency.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register for a RUC with the DNIT, online for individuals.",
+  "L2_tax_id": "Not confirmed yet.",
+  "L3_income_tax_foreign": "Only Paraguayan-source income taxed; purely foreign-client income may owe 0%.",
+  "L4_vat_gst": "10% VAT; RESIMPLE taxpayers are outside VAT.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "RESIMPLE: fixed quarterly payments for annual billing up to PYG 80 million.",
+  "D1_id_document": "Cédula de identidad civil (national ID card)."
+ },
+ "watch_out": [
+  {
+   "text": "Services to Paraguayan clients are taxable; confirm foreign-source treatment with SET.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

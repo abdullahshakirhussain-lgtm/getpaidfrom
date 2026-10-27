@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register in BULSTAT within 7 days, then with the NRA within another 7.",
+  "L2_tax_id": "Your UCN (10-digit civil number), or LNCH for foreign residents.",
+  "L3_income_tax_foreign": "Flat 10% income tax, plus about 27.8% self-insured social contributions.",
+  "L4_vat_gst": "20% VAT; register within 7 days of passing €51,130 turnover.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Freelancers deduct a flat 25% as expenses, so tax is about 7.5%.",
+  "D1_id_document": "Лична карта (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Register in BULSTAT within 7 days of starting work.",
+   "fact": "L1_registration"
+  }
+ ]
+}

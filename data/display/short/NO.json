@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably freely; no restrictive currency controls are generally reported.",
+  "P2_fcy_account": "Yes: some banks offer currency accounts (valutakonto) to private customers.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register your enkeltpersonforetak with Brønnøysund via Altinn for an organisation number.",
+  "L2_tax_id": "National identity number, or a D-number for foreign nationals.",
+  "L3_income_tax_foreign": "Worldwide income taxed, plus 10.8% social security on business income.",
+  "L4_vat_gst": "25% VAT once supplies exceed NOK 50,000 in 12 months.",
+  "L5_data_protection": "GDPR applies through the EEA, supervised by Datatilsynet.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "ID-kort, driving licence or passport."
+ },
+ "watch_out": []
+}

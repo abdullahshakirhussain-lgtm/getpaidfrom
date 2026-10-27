@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Very likely: EU banks commonly offer foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Tax Department and Social Insurance Service; steps not confirmed yet.",
+  "L2_tax_id": "TIN from the Tax Department; you must register yourself, it isn't automatic.",
+  "L3_income_tax_foreign": "Worldwide income taxed; 0% up to €22,000, up to 35%, plus social insurance.",
+  "L4_vat_gst": "19% VAT above €15,600, but EU B2B services need registration from the start.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "No freelancer-specific incentive researched yet.",
+  "D1_id_document": "Identity card or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Selling B2B services to EU clients requires VAT registration regardless of turnover.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Self-employed social insurance is 16.6% of insurable income.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

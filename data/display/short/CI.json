@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but foreign currency must be surrendered to an approved bank.",
+  "P2_fcy_account": "Only with Finance Minister authorisation after a BCEAO opinion.",
+  "P3_local_gateways": "Paystack Starter accepts unregistered individuals with ID and a mobile-money or bank account.",
+  "L1_registration": "Declare as an entreprenant at the CEPICI one-stop shop, typically 24–48 hours.",
+  "L2_tax_id": "Taxpayer account, issued with your tax existence declaration (DFE) at CEPICI.",
+  "L3_income_tax_foreign": "Entreprenant turnover tax: 2.5% for services up to FCFA 5m, 5% to FCFA 50m.",
+  "L4_vat_gst": "Entreprenant taxpayers under FCFA 50m don't charge VAT.",
+  "L5_data_protection": "Law 2013-450: declare personal data processing to ARTCI.",
+  "L6_consumer_ecommerce": "Reported: 10 working days to return goods; not confirmed from the law.",
+  "L7_incentives": "Low turnover taxes replacing VAT and profit tax; startups may get three-year exemptions.",
+  "D1_id_document": "National identity card (CNI) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign-currency income from abroad must be surrendered to an approved bank.",
+   "fact": "P1_fx_receipts"
+  },
+  {
+   "text": "Wise isn't available to residents, despite guides calling it official.",
+   "fact": "P5_payoneer_wise"
+  }
+ ]
+}

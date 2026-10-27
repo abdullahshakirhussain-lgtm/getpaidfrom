@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; no restrictive controls on foreign income.",
+  "P2_fcy_account": "Yes: banks like Scotiabank offer USD, CAD, EUR and GBP accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register a business name with COJ and tax with TAJ; steps not confirmed.",
+  "L2_tax_id": "TRN, a nine-digit number from Tax Administration Jamaica.",
+  "L3_income_tax_foreign": "Residents and domiciliaries are taxed on worldwide income.",
+  "L4_vat_gst": "15% GCT above JMD 15 million turnover a year.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National ID card, optional; new biometric cards since 2022."
+ },
+ "watch_out": [
+  {
+   "text": "Foreign-currency cash deposits above USD 500 a day cost 2.3%.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

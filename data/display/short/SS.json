@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed; dollar use is restricted and large transfers need central bank approval.",
+  "P2_fcy_account": "Not confirmed; dollar transactions are reportedly restricted.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register through the Ministry of Justice's online platform; requirements not confirmed.",
+  "L2_tax_id": "Not confirmed; taxes are run by the South Sudan Revenue Authority.",
+  "L3_income_tax_foreign": "Nationals taxed on worldwide income, 0–20%, with the bracket rate on all income.",
+  "L4_vat_gst": "No VAT yet; sales tax applies to specified services, not named freelance work.",
+  "L5_data_protection": "No data protection law yet; a bill is expected in 2026.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National ID."
+ },
+ "watch_out": [
+  {
+   "text": "Your bracket's rate applies to all your taxable income, not just the excess.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Restricted on paper: you may need consent to keep foreign currency.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with ROCIP and the Inland Revenue Department; steps not confirmed.",
+  "L2_tax_id": "TIN from the Inland Revenue Department, issued on application.",
+  "L3_income_tax_foreign": "Residents are taxed on worldwide income.",
+  "L4_vat_gst": "12.5% VAT above XCD 400,000 a year.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Passport or identity card."
+ },
+ "watch_out": [
+  {
+   "text": "Ask your bank whether you need consent to hold USD earnings.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

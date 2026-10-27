@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes; no forced conversion, and you can keep foreign earnings in foreign currency.",
+  "P2_fcy_account": "Yes: individuals can freely open foreign-currency accounts.",
+  "P3_local_gateways": "Local gateways like iPay88 and Billplz weren't researched yet.",
+  "L1_registration": "Register a sole proprietorship with SSM via EzBiz: RM30 a year in your name.",
+  "L2_tax_id": "TIN from the Inland Revenue Board, issued to citizens aged 18 and over.",
+  "L3_income_tax_foreign": "Work done in Malaysia is taxed at 0–30%, even for foreign clients.",
+  "L4_vat_gst": "No VAT; 8% service tax applies only above RM500,000 of taxable services.",
+  "L5_data_protection": "PDPA 2010 (amended 2024): appoint a DPO and report data breaches.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund periods not confirmed yet.",
+  "L7_incentives": "No freelancer-specific tax incentive found.",
+  "D1_id_document": "MyKad (national identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "The foreign-income exemption doesn't cover remote work done from Malaysia.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Yes: many banks offer foreign-currency sub-accounts (Fremdwährungskonto).",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Freelancers register with the Finanzamt via ELSTER within a month; traders also register a Gewerbe.",
+  "L2_tax_id": "Tax ID (Steuer-ID) from the Federal Central Tax Office.",
+  "L3_income_tax_foreign": "Worldwide income taxed, progressive up to 45% plus solidarity surcharge.",
+  "L4_vat_gst": "19% VAT; no VAT under €25,000 last year with the Kleinunternehmer scheme.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Kleinunternehmer scheme: no VAT on invoices under €25,000 a year.",
+  "D1_id_document": "Personalausweis (ID card) or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Opting out of the Kleinunternehmer scheme binds you for five years.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Register with the Finanzamt within about a month of starting.",
+   "fact": "L1_registration"
+  }
+ ]
+}

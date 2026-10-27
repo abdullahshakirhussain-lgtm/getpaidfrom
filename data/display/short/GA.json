@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, but under CEMAC exchange control; repatriate earnings through your bank.",
+  "P2_fcy_account": "No: residents can't open foreign-currency accounts locally; declare accounts abroad.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register an individual enterprise at the ANPI-Gabon one-stop shop (RCCM and NIF together).",
+  "L2_tax_id": "NIF from the tax administration (DGI), issued at ANPI registration.",
+  "L3_income_tax_foreign": "Under FCFA 30m turnover, the ISL synthetic tax applies, online sellers included.",
+  "L4_vat_gst": "18% VAT above about FCFA 60m turnover; sources conflict on the threshold.",
+  "L5_data_protection": "Law 025/2023: declare automated data processing to the APDPVP.",
+  "L6_consumer_ecommerce": "Buyers can withdraw from online purchases within 14 calendar days.",
+  "L7_incentives": "No freelancer incentive; the ISL regime under FCFA 30m is the main simplification.",
+  "D1_id_document": "National identity card (CNI)."
+ },
+ "watch_out": [
+  {
+   "text": "Declare any accounts you hold abroad to the BEAC.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

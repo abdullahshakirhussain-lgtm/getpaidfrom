@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Hard: a dollar shortage limits withdrawals and international transfers.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with SEPREC, the commerce registry; steps not confirmed yet.",
+  "L2_tax_id": "NIT; how to get it isn't confirmed yet.",
+  "L3_income_tax_foreign": "Only Bolivian-source income taxed; work done in Bolivia counts, usually 13% RC-IVA.",
+  "L4_vat_gst": "13% VAT; register with the SIN, no threshold stated.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Cédula de identidad (identity card)."
+ },
+ "watch_out": [
+  {
+   "text": "Keep foreign earnings somewhere you can actually access during the dollar shortage.",
+   "fact": "P1_fx_receipts"
+  }
+ ]
+}

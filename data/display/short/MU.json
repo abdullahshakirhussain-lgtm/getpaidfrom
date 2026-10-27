@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; exchange control was suspended in 1994.",
+  "P2_fcy_account": "Very likely, with no exchange control; not confirmed.",
+  "P3_local_gateways": "Local gateways not confirmed yet; see the services listed above.",
+  "L1_registration": "Register with the CBRD for a Business Registration Number, then with the MRA.",
+  "L2_tax_id": "TAN (Tax Account Number) from the Mauritius Revenue Authority.",
+  "L3_income_tax_foreign": "Mauritius-derived income and remitted foreign income taxed at 0–20%.",
+  "L4_vat_gst": "15% VAT above MUR 3 million; consultants must register regardless of turnover.",
+  "L5_data_protection": "Data Protection Act 2017: register with the Data Protection Office.",
+  "L6_consumer_ecommerce": "Online consumer protection law exists; refund rules not confirmed yet.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "National Identity Card."
+ },
+ "watch_out": [
+  {
+   "text": "Freelance consultants may have to register for VAT from the first rupee.",
+   "fact": "L4_vat_gst"
+  },
+  {
+   "text": "Processing personal data without registering is an offence.",
+   "fact": "L5_data_protection"
+  }
+ ]
+}

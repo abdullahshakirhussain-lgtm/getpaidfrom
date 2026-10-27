@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; EU rules ban restrictions on payments.",
+  "P2_fcy_account": "Yes: banks like UniCredit offer foreign-currency current accounts.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Open a partita IVA with the Agenzia delle Entrate; INPS contributions are separate.",
+  "L2_tax_id": "A tax identification number used in all dealings with public administration.",
+  "L3_income_tax_foreign": "Worldwide income taxed at 23–43% IRPEF, plus regional and municipal surcharges.",
+  "L4_vat_gst": "22% VAT; flat-rate (forfettario) sole traders under €85,000 don't charge VAT.",
+  "L5_data_protection": "GDPR applies.",
+  "L6_consumer_ecommerce": "Online buyers can withdraw within 14 days.",
+  "L7_incentives": "Regime forfettario: 15% flat tax up to €85,000, or 5% for new activities.",
+  "D1_id_document": "Carta d'identità or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Passing €100,000 in a year ends the flat-rate regime immediately.",
+   "fact": "L1_registration"
+  }
+ ]
+}

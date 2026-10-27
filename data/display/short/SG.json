@@ -1,0 +1,25 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Yes, freely; Singapore has no exchange controls.",
+  "P2_fcy_account": "Yes: hold foreign-currency accounts in Singapore and abroad.",
+  "P3_local_gateways": "Local gateways like HitPay and PayNow QR weren't researched yet.",
+  "L1_registration": "Register a sole proprietorship with ACRA via BizFile+ ($100 a year).",
+  "L2_tax_id": "NRIC or FIN for individuals; businesses use the UEN from ACRA.",
+  "L3_income_tax_foreign": "Business carried on in Singapore is taxed at 0–24%, even for foreign clients.",
+  "L4_vat_gst": "9% GST above S$1 million a year; many overseas services are zero-rated.",
+  "L5_data_protection": "PDPA: appoint a data protection officer; fines up to S$1 million.",
+  "L6_consumer_ecommerce": "No general cooling-off for online purchases; returns follow the seller's policy.",
+  "L7_incentives": "No freelancer-specific incentive found.",
+  "D1_id_document": "NRIC, driver's licence or passport."
+ },
+ "watch_out": [
+  {
+   "text": "Keep MediSave contributions up to date, or ACRA won't renew your registration.",
+   "fact": "L1_registration"
+  },
+  {
+   "text": "The foreign-income exemption doesn't cover freelance work done in Singapore.",
+   "fact": "L3_income_tax_foreign"
+  }
+ ]
+}

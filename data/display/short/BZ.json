@@ -1,0 +1,21 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Probably yes; foreign exchange controls may affect conversion and transfers.",
+  "P2_fcy_account": "Restricted: you need permission, and small earners may not qualify.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with BCCAR; steps not confirmed yet.",
+  "L2_tax_id": "TIN from the Belize Tax Service Department.",
+  "L3_income_tax_foreign": "Only Belize-source income taxed; reported 0% up to BZD 26,000, then 25%.",
+  "L4_vat_gst": "Not confirmed yet.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "Not confirmed yet.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "National ID card, optional but needed for government transactions."
+ },
+ "watch_out": [
+  {
+   "text": "Under US$50,000 a year you'll likely have to convert earnings to BZD.",
+   "fact": "P2_fcy_account"
+  }
+ ]
+}

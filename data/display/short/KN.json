@@ -1,0 +1,16 @@
+{
+ "facts": {
+  "P1_fx_receipts": "Not confirmed yet.",
+  "P2_fcy_account": "Not confirmed yet.",
+  "P3_local_gateways": "Local gateways not researched yet; see the services listed above.",
+  "L1_registration": "Register with the Inland Revenue Department; steps not confirmed yet.",
+  "L2_tax_id": "TIN from the Inland Revenue Department, issued when you register.",
+  "L3_income_tax_foreign": "No personal income tax.",
+  "L4_vat_gst": "17% VAT above XCD 96,000 for professional services.",
+  "L5_data_protection": "A data protection law exists; details not confirmed yet.",
+  "L6_consumer_ecommerce": "No online consumer protection law recorded in UNCTAD's tracker.",
+  "L7_incentives": "Not confirmed yet.",
+  "D1_id_document": "Optional national identity card."
+ },
+ "watch_out": []
+}
