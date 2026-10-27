@@ -89,13 +89,29 @@ def slugify(name):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+BRAND = json.loads((SRC / "logos" / "colors.json").read_text(encoding="utf-8"))  # official hex per Simple Icons; Polar has none (ink)
+
+
+def contrast_on_white(hexcode):
+    """WCAG contrast ratio of a colour against white."""
+    def channel(v):
+        v /= 255
+        return v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+    r, g, b = (channel(int(hexcode[i:i + 2], 16)) for i in (0, 2, 4))
+    return 1.05 / (0.2126 * r + 0.7152 * g + 0.0722 * b + 0.05)
+
+
 def logo(slug):
-    """The company's mark as inline SVG drawn in currentColor (ink), so it needs no extra request."""
+    """The company's mark as inline SVG in its brand colour. Colours too pale to see on white (under 3:1)
+    keep their exact hex but sit on a small ink square, so the mark is never recoloured."""
     svg = (SRC / "logos" / f"{slug}.svg").read_text(encoding="utf-8")
     box = re.search(r'viewBox="([^"]+)"', svg).group(1)
     inner = re.search(r"<svg[^>]*>(.*)</svg>", svg, re.S).group(1)
     inner = re.sub(r'\sfill="[^"]*"', "", re.sub(r"<title>.*?</title>", "", inner))
-    return Markup(f'<svg class="logo" viewBox="{box}" fill="currentColor" aria-hidden="true" focusable="false">{inner}</svg>')
+    colour = BRAND.get(slug)
+    cls = "logo on-ink" if colour and contrast_on_white(colour) < 3 else "logo"
+    style = f' style="color:#{colour}"' if colour else ""
+    return Markup(f'<svg class="{cls}"{style} viewBox="{box}" fill="currentColor" aria-hidden="true" focusable="false">{inner}</svg>')
 
 
 LOGOS = {slug: logo(slug) for slug in PLATFORMS}

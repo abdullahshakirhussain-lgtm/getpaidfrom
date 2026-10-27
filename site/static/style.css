@@ -81,6 +81,7 @@ main { padding-bottom: 56px; }
 .svc-name { flex: 1; }
 .svc-n { color: var(--grey); font-size: .9rem; font-variant-numeric: tabular-nums; }
 .logo { width: 20px; height: 20px; flex: none; }
+.logo.on-ink { background: var(--ink); border-radius: .28em; padding: .18em; } /* pale brand colours (Wise, Gumroad, Lemon Squeezy, Paddle) */
 
 /* sections: heading in the margin column on wide screens */
 .sec { display: grid; grid-template-columns: var(--margin) 1fr; gap: 0 var(--gap); padding: 22px 0; border-top: 1px solid var(--rule); }

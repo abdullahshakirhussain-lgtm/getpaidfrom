@@ -36,7 +36,7 @@ works `#17784a`, likely `#17784a` (hollow mark), limited `#a85400`, not confirme
 
 **Type.** Headings and the short answer: Newsreader 600 (serif, editorial). Everything else: Atkinson Hyperlegible Next 400/700, designed for legibility, which suits readers on cheap phones in a second language. Self-hosted (no Google requests). Sentence case everywhere; no letter-spaced capitals.
 
-**Shape.** No cards, no shadows, no gradients. Content is grouped by whitespace and 1px rules. Radius only on the search input (6px). Logos are the companies' real marks, drawn in ink so they read evenly on white.
+**Shape.** No cards, no shadows, no gradients. Content is grouped by whitespace and 1px rules. Radius only on the search input (6px). Logos are the companies' real marks in their official colours (owner request, 2026-10-27). Marks whose colour is under 3:1 contrast on white sit on a small ink square; the colour itself is never changed.
 
 **Layout.** Left-aligned. On wide screens each section has its heading in a 168px margin column and content on the right. On phones the heading sits above. Max content width 920px.
 
