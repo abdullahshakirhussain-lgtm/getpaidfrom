@@ -18,6 +18,8 @@ binding = "SIGNUPS"
 id = "SIGNUPS_KV_ID"
 
 # Page views per page and visitor country (no cookies, no IP addresses). Created on first write.
-[[analytics_engine_datasets]]
-binding = "VIEWS"
-dataset = "getpaidfrom_views"
+# Off until Analytics Engine is enabled for the account (Cloudflare dashboard > Workers > Analytics Engine);
+# deploys fail with code 10089 otherwise. The Worker skips counting while the binding is missing.
+# [[analytics_engine_datasets]]
+# binding = "VIEWS"
+# dataset = "getpaidfrom_views"
