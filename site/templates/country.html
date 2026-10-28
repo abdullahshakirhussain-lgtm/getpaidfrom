@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Get paid from {{ c.name }}: PayPal, Payoneer, Wise and more | Get Paid From{% endblock %}
+{% block title %}Get paid from {{ c.name }}: PayPal, Payoneer, Wise, Upwork and legal ways | Get Paid From{% endblock %}
 {% block description %}Can you get paid from {{ c.name }}? Clients abroad: {{ c.clients.headline }} Selling online: {{ c.selling.headline }} With sources.{% endblock %}
 {% block main %}
 {% macro srclist(srcs) %}
@@ -44,7 +44,7 @@
 
 <p class="back"><a href="../">All countries</a></p>
 <h1 class="sentence">Get paid from <mark>{{ c.name }}</mark></h1>
-<p class="intro">{% if c.official %}{{ c.official }}. {% endif %}Checked up to {{ c.checked }}. Every line links to its source.</p>
+<p class="intro">{% if c.official %}{{ c.official }}. {% endif %}Checked up to {{ c.checked }}. Every line links to its source. <a href="#alerts">Get an email when it changes</a>.</p>
 
 <section class="sec">
   <h2>The short answer</h2>
@@ -69,6 +69,26 @@
 </section>
 {% endif %}
 
+{% if c.ways %}
+<section class="sec" id="ways">
+  <h2>Ways to get paid, legally</h2>
+  <div>
+    {% if c.ways.blocked %}<p class="blocked"><b>Blocked here:</b> {{ c.ways.blocked }}</p>{% endif %}
+    {% if c.ways.routes %}
+    <ol class="routes">
+      {% for r in c.ways.routes %}
+      <li>{% if r.detail %}<details><summary><b>{{ r.title }}</b>{% if r.line %}<span>{{ r.line }}</span>{% endif %}<em>more</em></summary><p>{{ r.detail }}</p></details>
+        {% else %}<b>{{ r.title }}</b>{% if r.line %}<span>{{ r.line }}</span>{% endif %}{% endif %}</li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+    {% if c.ways.closing %}<p class="closing">{{ c.ways.closing }}</p>{% endif %}
+    <p class="dont"><b>Don't</b> borrow someone else's account, use a foreign address or a VPN to look like you live elsewhere. It breaks the platforms' rules, money gets frozen, and it can break the law.</p>
+    <details class="src-block"><summary>Sources</summary>{{ srclist(c.ways.sources) }}<p class="note">Built from each platform's official country list on the dates shown. The "don't" advice is ours.</p></details>
+  </div>
+</section>
+{% endif %}
+
 <section class="sec">
   <h2>Every option</h2>
   <div>
@@ -89,5 +109,20 @@
 <section class="sec">
   <h2>Also good to know</h2>
   {{ lines(c.more) }}
+</section>
+
+<section class="sec" id="alerts">
+  <h2>Get alerts</h2>
+  <div>
+    <p class="intro">Get one email when anything on this page changes for {{ c.name }}: a service opens or closes, a tax rule moves, a new legal route appears.</p>
+    <form class="alert-form" method="post" action="{{ root }}api/subscribe" data-alerts>
+      <input type="hidden" name="country" value="{{ c.code }}">
+      <label class="vh" for="alert-email">Email address</label>
+      <input id="alert-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email">
+      <span class="hp" aria-hidden="true"><label>Leave empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></span>
+      <button type="submit">Email me changes</button>
+      <p class="note" data-alerts-msg>Only for {{ c.name }}. No spam, no sharing; unsubscribe any time. <a href="{{ root }}about/#privacy">Privacy</a>.</p>
+    </form>
+  </div>
 </section>
 {% endblock %}

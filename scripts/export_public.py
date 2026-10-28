@@ -14,7 +14,7 @@ INCLUDE = [
     ".github/workflows/pages.yml", ".gitignore", "README.md", "requirements.txt", "wrangler.toml",
     "data/countries", "data/countries.json", "data/research", "data/sources", "data/reference", "data/manual",
     "data/mapping_audit.json", "data/display", "docs/RESEARCH_PROTOCOL.md", "docs/BLUEPRINT.md", "docs/DESIGN.md",
-    "scripts", "site/templates", "site/static", "site/logos", "tests",
+    "scripts", "site/templates", "site/static", "site/logos", "site/indexnow-key.txt", "worker", "tests",
 ]
 SKIP = {"__pycache__", "dist"}
 

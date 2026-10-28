@@ -33,6 +33,20 @@
   <div class="prose"><p>We never suggest borrowed accounts, foreign addresses or VPN tricks. They break the services' rules, get money frozen and can break the law.</p></div>
 </section>
 
+<section class="sec" id="privacy">
+  <h2>Privacy</h2>
+  <div class="prose">
+    <p><b>No cookies, no ad trackers, no IP addresses kept.</b> We count page views by page and by visitor country (the country comes from the network, not from you), so we know which pages people need. That's all we record about visits.</p>
+    <p><b>Email alerts.</b> If you sign up, we keep your email address and the countries you picked, only to email you when those pages change. We never share or sell it. To stop, use the unsubscribe link in any email, or the form below.</p>
+    <form class="alert-form" method="post" action="{{ root }}api/unsubscribe" data-alerts data-unsub>
+      <label class="vh" for="unsub-email">Email address</label>
+      <input id="unsub-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email">
+      <button type="submit">Unsubscribe and delete</button>
+      <p class="note" data-alerts-msg>Removes your address and all your countries.</p>
+    </form>
+  </div>
+</section>
+
 <section class="sec">
   <h2>Logos and fonts</h2>
   <div class="prose"><p>Logos belong to their companies and are shown only to say which service a line is about. We're not affiliated with any of them, and nobody pays to be listed. Logo files come from Simple Icons and Polar's own site. Type is Newsreader and Atkinson Hyperlegible Next, both under the SIL Open Font License, served from this site.</p></div>

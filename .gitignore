@@ -13,3 +13,6 @@ Thumbs.db
 
 # large snapshots (>2 MB gz): local only; sha256 + URL recorded in research files
 data/snapshots/_research_large/
+
+# wrangler local dev state
+.wrangler/

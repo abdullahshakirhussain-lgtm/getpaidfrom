@@ -3,6 +3,7 @@
     python tests/test_build_site.py
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -59,6 +60,47 @@ def test_sources_listed_once_per_url():
 def test_clean_long_hides_internal_codes():
     out = clean_long("TRAP: rate changed (see L3). Use the account (P2 and P5).")
     assert "TRAP" not in out and "L3" not in out and "P2" not in out, out
+
+
+def country(cc):
+    return json.loads((ROOT / "data" / "countries" / f"{cc}.json").read_text(encoding="utf-8"))
+
+
+def accounts():
+    return json.loads((ROOT / "data" / "display" / "accounts.json").read_text(encoding="utf-8"))
+
+
+def test_ways_follow_paypal_and_wise_tiles():
+    from build_site import tiles_for, ways_view
+    acc = accounts()
+    for cc in ("TR", "PK"):  # PayPal not available: no PayPal route, and the blocked line says so
+        c = country(cc)
+        w = ways_view(c, tiles_for(c, acc[cc]))
+        assert w["routes"] and not any("PayPal" in r["title"] for r in w["routes"]), (cc, w["routes"])
+        assert "PayPal (not available)" in w["blocked"] and "Wise" in w["blocked"], (cc, w["blocked"])
+    c = country("CN")
+    w = ways_view(c, tiles_for(c, acc["CN"]))
+    assert any(r["title"] == "PayPal, with limits" for r in w["routes"]), w["routes"]
+
+
+def test_ways_sanctioned_has_no_routes():
+    from build_site import tiles_for, ways_view
+    c = country("IR")
+    w = ways_view(c, tiles_for(c, accounts()["IR"]))
+    assert not w["routes"] and w["closing"] and "sanctions" in w["blocked"], w
+
+
+def test_every_country_ways_parse():
+    from build_site import tiles_for, ways_view
+    acc = accounts()
+    for p in sorted((ROOT / "data" / "countries").glob("*.json")):
+        c = json.loads(p.read_text(encoding="utf-8"))
+        w = ways_view(c, tiles_for(c, acc[p.stem]))
+        if w is None:
+            assert p.stem == "KP"
+            continue
+        for r in w["routes"]:
+            assert r["title"] and not re.search(r"\b[PLDW]\d\b", r["title"] + r["line"] + r["detail"]), (p.stem, r)
 
 
 def test_logos_are_inline_ink():

@@ -54,13 +54,17 @@
     } else if (p.topic && cs.length) {
       cs.forEach(function (c) {
         var a = d.topics[p.topic], line = c.a[a];
-        out.push({href: root + c.s + '/#' + a, html: '<b>' + esc(p.topic.toUpperCase().length <= 3 ? p.topic.toUpperCase() : p.topic) + ' in ' + esc(c.n) + '</b><span class="r">' + esc(line || 'See the details on the country page.') + '</span>'});
+        var label = p.topic === 'upwork' ? 'Upwork' : a === 'ways' ? 'Legal ways to get paid' : p.topic.length <= 3 ? p.topic.toUpperCase() : p.topic;
+        out.push({href: root + c.s + '/#' + a, html: '<b>' + esc(label) + ' in ' + esc(c.n) + '</b><span class="r">' + esc(line || 'See the details on the country page.') + '</span>'});
       });
     } else if (cs.length) {
       cs.forEach(function (c) {
         var mini = ['paypal', 'payoneer', 'wise'].map(function (k) { return esc(d.platforms[k]) + ' ' + chip(d, c.t[k][0]); }).join(' ');
         out.push({href: root + c.s + '/', html: '<b>' + esc(c.n) + '</b><span class="r">' + mini + '</span>'});
       });
+    }
+    if (p.topic === 'upwork' && !p.rest) {
+      out.unshift({href: root + 'upwork/', html: '<b>Getting paid from Upwork</b><span class="r">Where it’s open, and how to receive the money</span>'});
     }
     if (p.platform && !p.rest) {
       out.unshift({href: root + p.platform + '/', html: '<b>Where does ' + esc(d.platforms[p.platform]) + ' work?</b><span class="r">Every country, with reasons</span>'});
@@ -98,6 +102,28 @@
       e.preventDefault();
       var input = document.querySelector('.home-search input'); input.value = b.getAttribute('data-try');
       input.dispatchEvent(new Event('input')); input.focus();
+    });
+  });
+
+  // email alerts: post to our own Worker (worker/index.js); without JS the form posts normally
+  document.querySelectorAll('form[data-alerts]').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var msg = form.querySelector('[data-alerts-msg]'), btn = form.querySelector('button');
+      var data = {}; new FormData(form).forEach(function (v, k) { data[k] = v; });
+      btn.disabled = true;
+      fetch(form.getAttribute('action'), {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(data)})
+        .then(function (r) { return r.json().catch(function () { return {ok: false}; }); })
+        .then(function (d) {
+          if (d.ok) {
+            msg.textContent = form.hasAttribute('data-unsub') ? 'Done. Your address and countries are deleted.' : 'Done. We’ll email you when this page changes.';
+            form.querySelector('input[type=email]').value = '';
+          } else {
+            msg.textContent = d.error || 'That didn’t work. Check the address and try again.';
+          }
+        })
+        .catch(function () { msg.textContent = 'Couldn’t reach the server. Try again later.'; })
+        .then(function () { btn.disabled = false; });
     });
   });
 

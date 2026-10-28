@@ -1,8 +1,23 @@
-# Cloudflare Workers static-assets site (no Worker script): serves the built site/dist folder.
-# Deployed by .github/workflows/pages.yml once the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets exist.
+# Cloudflare Worker + static assets: worker/index.js handles /api/* (email alerts) and counts page views;
+# everything else is the built site in site/dist. Deployed by .github/workflows/pages.yml once the
+# CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets exist.
 name = "getpaidfrom"
+main = "worker/index.js"
 compatibility_date = "2026-10-27"
 
 [assets]
 directory = "./site/dist/"
+binding = "ASSETS"
 not_found_handling = "404-page"
+# Run the Worker only for the API and for HTML pages (paths ending in "/"); fonts, CSS and JS stay plain static assets.
+run_worker_first = ["/api/*", "/", "/*/"]
+
+# Email alert sign-ups. scripts/ensure_kv.py finds or creates the namespace in CI and fills in the id before deploy.
+[[kv_namespaces]]
+binding = "SIGNUPS"
+id = "SIGNUPS_KV_ID"
+
+# Page views per page and visitor country (no cookies, no IP addresses). Created on first write.
+[[analytics_engine_datasets]]
+binding = "VIEWS"
+dataset = "getpaidfrom_views"

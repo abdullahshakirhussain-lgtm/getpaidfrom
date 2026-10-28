@@ -28,6 +28,7 @@
       {% for slug, p in platforms.items() %}
       <li><a href="{{ slug }}/">{{ p.logo }}<span class="svc-name">{{ p.name }}</span><span class="svc-n">{{ p.counts.works }} of {{ p.rows|length }}</span></a></li>
       {% endfor %}
+      <li><a href="upwork/">{{ upwork.logo }}<span class="svc-name">Upwork (getting paid as a freelancer)</span><span class="svc-n">open in {{ upwork.open|length }}</span></a></li>
     </ul>
   </section>
 </div>
