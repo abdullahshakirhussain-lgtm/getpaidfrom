@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 {% block topsearch %}{% endblock %}
+{% block head %}
+<script type="application/ld+json">{{ website_ld }}</script>
+{% endblock %}
 {% block main %}
 <section class="ask">
   <h1 class="sentence">
@@ -29,6 +32,13 @@
       <li><a href="{{ slug }}/">{{ p.logo }}<span class="svc-name">{{ p.name }}</span><span class="svc-n">{{ t('n_of_total', n=p.counts.works, total=p.rows|length) }}</span></a></li>
       {% endfor %}
       <li><a href="upwork/">{{ upwork.logo }}<span class="svc-name">{{ t('upwork_link') }}</span><span class="svc-n">{{ t('open_in_n', n=upwork.open|length) }}</span></a></li>
+    </ul>
+    <h2>{{ t('compare_h') }}</h2>
+    <ul class="guides">
+      <li><a href="stripe-alternatives/">{{ t('stripe_alt_h1') }}</a></li>
+      <li><a href="dollar-accounts/">{{ t('fcy_h1') }}</a></li>
+      <li><a href="freelancer-tax/">{{ t('tax_h1') }}</a></li>
+      <li><a href="stats/">{{ t('stats_h1') }}</a></li>
     </ul>
   </section>
 </div>

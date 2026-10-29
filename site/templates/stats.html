@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ t('stats_title') }} | Get Paid From{% endblock %}
+{% block description %}{{ t('stats_desc', total=n_countries) }}{% endblock %}
+{% block main %}
+<h1 class="sentence">{{ t('stats_h1') }}</h1>
+<p class="intro">{{ t('stats_intro', date=checked) }}</p>
+<section class="sec">
+  <h2>{{ t('stats_h2') }}</h2>
+  <ol class="stats">
+    {% for s in stats %}<li><a href="{{ s.href }}"><b>{{ s.n }}</b><span>{{ s.text }}</span></a></li>{% endfor %}
+  </ol>
+</section>
+<section class="sec">
+  <h2>{{ t('stats_method_h') }}</h2>
+  <div class="prose"><p>{{ t('stats_method') }}</p><p><a href="../data/">{{ t('stats_data_link') }}</a></p></div>
+</section>
+{% endblock %}

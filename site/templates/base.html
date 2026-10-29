@@ -5,12 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}{{ t('meta_title_default') }}{% endblock %}</title>
 <meta name="description" content="{% block description %}{{ t('meta_desc_default') }}{% endblock %}">
+{% if not is_404 %}
 <link rel="canonical" href="{{ site_url }}/{{ prefix }}{{ path }}">
-{% if path != "404.html" %}
 {% for code in langs %}<link rel="alternate" hreflang="{{ code }}" href="{{ site_url }}/{{ '' if code == 'en' else code ~ '/' }}{{ path }}">
 {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site_url }}/{{ path }}">
 {% endif %}
 {% block robots %}{% endblock %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Get Paid From">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ site_url }}/{{ prefix }}{{ path }}">
+<meta property="og:image" content="{{ site_url }}/static/og/{{ lang }}.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ t('og_image_alt') }}">
+<meta property="og:locale" content="{{ og_locale }}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Crect x='4' y='19' width='24' height='7' fill='%23ffe45c'/%3E%3Cpath d='M4 26h24' stroke='%2315171c' stroke-width='2.5'/%3E%3C/svg%3E">
 {% if lang in ("ar",) %}<link rel="preload" href="{{ root }}static/fonts/noto-sans-arabic-arabic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -21,8 +32,10 @@
 {% endif %}
 <link rel="stylesheet" href="{{ root }}static/style.css?v={{ ver }}">
 <script src="{{ root }}static/app.js?v={{ ver }}" defer data-root="{{ base }}"></script>
+{% block head %}{% endblock %}
 </head>
 <body>
+<a class="skip" href="#main">{{ t('skip') }}</a>
 <header class="mast">
   <a class="wordmark" href="{{ base or './' }}" lang="en" dir="ltr">Get paid from<span class="blank" aria-hidden="true"></span></a>
   {% block topsearch %}
@@ -33,19 +46,19 @@
   </div>
   {% endblock %}
   {% if langs|length > 1 %}
-  <details class="lang-pick">
+  <details class="lang-pick" data-close="{{ t('close') }}">
     <summary><span class="vh">{{ t('language') }}: </span>{{ langs[lang] }}</summary>
-    <ul>{% for code, name in langs.items() %}<li><a href="{{ root }}{{ '' if code == 'en' else code ~ '/' }}{{ path }}" hreflang="{{ code }}" lang="{{ code }}"{% if code == lang %} aria-current="true"{% endif %}>{{ name }}</a></li>{% endfor %}</ul>
+    <ul>{% for code, name in langs.items() %}<li><a href="{{ root }}{{ '' if code == 'en' else code ~ '/' }}{{ path }}" hreflang="{{ code }}" lang="{{ code }}" dir="{{ dirs[code] }}" data-suggest="{{ suggest[code] }}"{% if code == lang %} aria-current="true"{% endif %}>{{ name }}</a></li>{% endfor %}</ul>
   </details>
   {% endif %}
 </header>
-<main>
+<main id="main" tabindex="-1">
 {% block main %}{% endblock %}
 </main>
 <footer class="foot">
   <p>{{ t('footer_advice') }}</p>
   {% if lang != "en" %}<p>{{ t('translated_note') }} <a href="{{ root }}{{ path }}" hreflang="en">{{ t('english_version') }}</a>.</p>{% endif %}
-  <p><a href="{{ base }}about/">{{ t('footer_how') }}</a> · {{ t('footer_legit') }} · {{ t('footer_privacy') }} (<a href="{{ base }}about/#privacy">{{ t('privacy') }}</a>) · {{ t('updated', date=built) }}</p>
+  <p><a href="{{ base }}about/">{{ t('footer_how') }}</a> · {{ t('footer_legit') }} · {{ t('footer_privacy') }} (<a href="{{ base }}about/#privacy">{{ t('privacy') }}</a>) · <a href="{{ base }}stats/">{{ t('footer_stats') }}</a> · <a href="{{ base }}data/">{{ t('footer_data') }}</a> · {{ t('updated', date=built) }}</p>
 </footer>
 </body>
 </html>

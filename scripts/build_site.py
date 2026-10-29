@@ -9,7 +9,9 @@ search.json: country, platform and topic words ("paypal nepal", "vat kenya") ans
 Plain HTML + one CSS file + one small JS file; no framework, tracking or external requests.
 """
 import copy
+import csv
 import hashlib
+import io
 import json
 import os
 import re
@@ -28,7 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "site"
 OUT = SRC / "dist"
 DISPLAY = ROOT / "data" / "display"
-SITE_URL = os.environ.get("SITE_URL", "https://abdullahshakirhussain-lgtm.github.io/getpaidfrom").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://getpaidfrom.getpaidfrom.workers.dev").rstrip("/")
 
 SHORT = {"BO": "Bolivia", "BS": "Bahamas", "BN": "Brunei", "CD": "DR Congo", "CG": "Republic of the Congo", "CI": "Côte d'Ivoire",
          "CN": "China", "FM": "Micronesia", "GB": "United Kingdom", "GM": "Gambia", "GW": "Guinea-Bissau", "IR": "Iran",
@@ -151,7 +153,38 @@ def clean_long(text):
     text = re.sub(r"\b(see|per) [PLDW]\d\b", "", text)
     # any code left mid-sentence ("the regime in L3") -> the line's plain name on the page
     text = re.sub(r"\b([PLDW]\d)\b", lambda m: f"the {CODE_LABEL.get(m.group(1), 'related')} line", text)
-    return re.sub(r"\bTRAP( for [a-z ]+)?:\s*", "Watch out: ", text).strip()
+    text = re.sub(r"\bTRAP( for [a-z ]+)?:\s*", "Watch out: ", text).strip()
+    return public_wording(text)
+
+
+# Research shorthand -> reader wording. Facts are unchanged; only how we describe our own process changes.
+PROCESS_SENTENCE = re.compile(r"[^.;]*\b(timed out|returned \d{3}|from this environment|bot[- ]protection|bot check|"
+                              r"JavaScript challenge|text layer|didn't extract|doesn't extract|wouldn't load)\b[^.;]*[.;]\s*", re.I)
+
+
+def public_wording(text):
+    text = re.sub(r"\(automated collector snapshots?,? ([A-Z][a-z]+ \d{4})\)", r"(official platform country lists, checked \1)", text)
+    text = re.sub(r"\bautomated collector snapshots?\b", "official platform country lists", text)
+    text = PROCESS_SENTENCE.sub("", text)
+    text = re.sub(r"\bnot established from a captured source\b", "not confirmed from the sources we checked", text, flags=re.I)
+    text = re.sub(r"\b(from|in) (?:the |a )?captured sources?\b", r"\1 the sources we checked", text)
+    text = re.sub(r"\bTRAP\b,?\s*", "Watch out: ", text)
+    text = re.sub(r"\b(?:the )?captured quote\b", "the quoted source", text)
+    text = re.sub(r"\bnot captured here\b", "not covered here", text)
+    text = re.sub(r"\b(was|were) not captured\b", r"\1 not confirmed", text)
+    text = re.sub(r"\bnot captured\b", "not confirmed", text)
+    text = re.sub(r"\b(was|were) captured\b", r"\1 found", text)
+    text = re.sub(r"\(search summar(?:y|ies)\)", "(secondary source, not verified)", text, flags=re.I)
+    text = re.sub(r"\bper search summar(?:y|ies)\b", "per secondary sources (not verified)", text, flags=re.I)
+    text = re.sub(r"\b(?:a |the )?search(?:-engine)? summar(?:y|ies)\b", "secondary sources (not verified)", text, flags=re.I)
+    text = re.sub(r"(^|\.\s+)secondary sources", r"\1Secondary sources", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+
+def source_title(title):
+    """Titles for readers: "stripe availability list (collector snapshot)" -> "Stripe availability list"."""
+    title = re.sub(r"\s*\((?:automated collector|collector snapshot|source snapshot)[^)]*\)", "", title).strip()
+    return title[:1].upper() + title[1:]
 
 
 def sources(f):
@@ -160,7 +193,7 @@ def sources(f):
     for s in f.get("sources", []):
         prev = seen.get(s["url"])
         if prev is None or day(s.get("retrieved")) > prev["retrieved"]:
-            seen[s["url"]] = {"publisher": s.get("publisher") or "", "title": s.get("title") or "", "url": s["url"],
+            seen[s["url"]] = {"publisher": s.get("publisher") or "", "title": source_title(s.get("title") or ""), "url": s["url"],
                               "official": s.get("evidence") == "official", "retrieved": day(s.get("retrieved"))}
     return list(seen.values())
 
@@ -376,6 +409,140 @@ def check_short(code, short):
     return problems
 
 
+CONFIRMED = ("works", "limited")  # what the statistics count as a confirmed route ("likely" is not)
+OG_LOCALE = {"en": "en_US", "es": "es_ES", "fr": "fr_FR", "pt": "pt_BR", "ar": "ar_AR", "ur": "ur_PK", "bn": "bn_BD",
+             "id": "id_ID", "vi": "vi_VN"}
+
+
+def ld_json(obj):
+    """JSON-LD for a <script> block: '<' escaped so the data can never close the tag."""
+    return Markup(json.dumps(obj, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c"))
+
+
+def site_stats(views):
+    """Headline numbers, computed from the English views (statuses don't depend on language)."""
+    tile = lambda v, s: v["tiles"][s]["status"]  # noqa: E731
+    return {
+        "stripe": sum(tile(v, "stripe") == "works" for v in views),
+        "paypal": sum(tile(v, "paypal") == "works" for v in views),
+        "wise": sum(tile(v, "wise") == "works" for v in views),
+        "payoneer": sum(tile(v, "payoneer") == "works" for v in views),
+        "payoneer_likely": sum(tile(v, "payoneer") == "likely" for v in views),
+        "no_client": sum(not any(tile(v, s) in CONFIRMED for s in CLIENT_ORDER) for v in views),
+        "no_sell": sum(not any(tile(v, s) in CONFIRMED for s in SELL_ORDER) for v in views),
+        "upwork": sum(bool(v["upwork"] and v["upwork"]["open"]) for v in views),
+        "ways": sum(v["ways_n"] > 0 for v in views),
+    }
+
+
+def stats_rows(st, tr, total):
+    return [
+        {"n": st["stripe"], "text": tr.t("stat_stripe", n=st["stripe"], total=total), "href": "../stripe/"},
+        {"n": st["paypal"], "text": tr.t("stat_paypal", n=st["paypal"], total=total), "href": "../paypal/"},
+        {"n": st["wise"], "text": tr.t("stat_wise", n=st["wise"], total=total), "href": "../wise/"},
+        {"n": st["payoneer"], "text": tr.t("stat_payoneer", n=st["payoneer"], m=st["payoneer_likely"]), "href": "../payoneer/"},
+        {"n": st["no_client"], "text": tr.t("stat_no_client", n=st["no_client"]), "href": "../"},
+        {"n": st["no_sell"], "text": tr.t("stat_no_sell", n=st["no_sell"]), "href": "../stripe-alternatives/"},
+        {"n": st["upwork"], "text": tr.t("stat_upwork", n=st["upwork"], total=total), "href": "../upwork/"},
+        {"n": st["ways"], "text": tr.t("stat_ways", n=st["ways"]), "href": "../"},
+    ]
+
+
+def answer_group(english_short):
+    """yes / no / unclear, read from the English short answer (the same for every language)."""
+    s = (english_short or "").strip().lower()
+    if s.startswith(("yes", "very likely", "likely yes", "probably yes", "abroad, yes")):
+        return "yes"
+    if s.startswith(("no:", "no ", "no,", "rarely", "restricted", "not needed")):
+        return "no"
+    return "unclear"
+
+
+def compare_pages(views, lviews, tr, lang, st, total, checked):
+    by_code = {v["code"]: v for v in views}
+    srt = lambda rows: sorted(rows, key=lambda r: sort_key(r["country"], lang))  # noqa: E731
+    pages = {}
+
+    # Stripe alternatives: every country where Stripe doesn't (fully) accept businesses
+    groups = []
+    for status in ("limited", "no"):
+        rows = []
+        for v in lviews:
+            if v["tiles"]["stripe"]["status"] != status:
+                continue
+            chips = [{"logo": v["tiles"][s]["logo"], "name": v["tiles"][s]["name"], "tone": v["tiles"][s]["tone"],
+                      "label": v["tiles"][s]["label"]}
+                     for s in SELL_ORDER if s != "stripe" and v["tiles"][s]["status"] in ("works", "limited", "likely")]
+            rows.append({"country": v["name"], "slug": v["slug"], "cells": [{"chips": chips}]})
+        groups.append({"label": "Stripe: " + tr.t(f"status_{status}"), "tone": STATUS[status][1], "rows": srt(rows)})
+    pages["stripe-alternatives"] = {
+        "title": tr.t("stripe_alt_title"), "desc": tr.t("stripe_alt_desc", n=st["stripe"], total=total),
+        "h1": tr.t("stripe_alt_h1"), "intro": tr.t("stripe_alt_intro", n=st["stripe"], total=total),
+        "cols": [tr.t("col_alternatives")], "anchor": "#stripe", "none": tr.t("stripe_alt_none"),
+        "note": tr.t("compare_note"), "groups": groups}
+
+    # Dollar / foreign-currency accounts, grouped by the answer
+    line = lambda v, key: next(ln for ln in v["before"] + v["more"] if ln["key"] == key)  # noqa: E731
+    grouped = defaultdict(list)
+    for v in lviews:
+        en_short = line(by_code[v["code"]], "P2_fcy_account")["short"]
+        grouped[answer_group(en_short)].append({"country": v["name"], "slug": v["slug"],
+                                                "cells": [{"text": line(v, "P2_fcy_account")["short"]}]})
+    pages["dollar-accounts"] = {
+        "title": tr.t("fcy_title"), "desc": tr.t("fcy_desc", total=total), "h1": tr.t("fcy_h1"), "intro": tr.t("fcy_intro"),
+        "cols": [tr.t("label_fcy")], "anchor": "#fcy-account", "none": "", "note": tr.t("compare_note"),
+        "groups": [{"label": tr.t(f"grp_{g}"), "tone": tone, "rows": srt(grouped[g])}
+                   for g, tone in (("yes", "ok"), ("no", "bad"), ("unclear", "muted")) if grouped[g]]}
+
+    # Freelancer tax: income tax + VAT short answers for every country
+    rows = [{"country": v["name"], "slug": v["slug"],
+             "cells": [{"text": line(v, "L3_income_tax_foreign")["short"]}, {"text": line(v, "L4_vat_gst")["short"]}]}
+            for v in lviews]
+    pages["freelancer-tax"] = {
+        "title": tr.t("tax_title", year=checked[:4]), "desc": tr.t("tax_desc", total=total, date=checked),
+        "h1": tr.t("tax_h1"), "intro": tr.t("tax_intro"), "cols": [tr.t("label_income_tax"), tr.t("label_vat")],
+        "anchor": "#income-tax-foreign", "none": "", "note": tr.t("compare_note"),
+        "groups": [{"label": tr.t("countries"), "tone": None, "rows": srt(rows)}]}
+    return pages
+
+
+def export_data(views, out_dir, checked):
+    """The open dataset (CC BY 4.0): our statuses and short answers plus source links. No third-party quotes or long text."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    rows, records = [], []
+    facts = [k for k, _ in BEFORE + MORE]
+    for v in sorted(views, key=lambda v: v["en_name"]):
+        lines = {ln["key"]: ln for ln in v["before"] + v["more"]}
+        rec = {"code": v["code"], "country": v["en_name"], "checked": v["checked"],
+               "services": {s: {"status": v["tiles"][s]["status"], "reason": v["tiles"][s]["reason"],
+                                "sources": [x.get("url") for x in v["tiles"][s].get("sources") or [] if x.get("url")]}
+                            for s in PLATFORMS},
+               "upwork_open": bool(v["upwork"] and v["upwork"]["open"]),
+               "legal_ways": v["ways_n"],
+               "topics": {ANCHOR[k]: {"short": lines[k]["short"], "evidence": lines[k]["status"],
+                                      "sources": [x.get("url") for x in lines[k].get("sources") or [] if x.get("url")]}
+                          for k in facts if k in lines}}
+        records.append(rec)
+        row = {"code": rec["code"], "country": rec["country"], "checked": rec["checked"], "upwork_open": rec["upwork_open"],
+               "legal_ways": rec["legal_ways"]}
+        for s, d in rec["services"].items():
+            row[f"{s}_status"], row[f"{s}_reason"] = d["status"], d["reason"]
+        for a, d in rec["topics"].items():
+            row[f"{a}_short"], row[f"{a}_evidence"], row[f"{a}_sources"] = d["short"], d["evidence"], " ".join(d["sources"])
+        rows.append(row)
+    meta = {"name": "Get Paid From", "licence": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+            "credit": "Get Paid From", "checked_up_to": checked, "countries": len(records),
+            "note": "Not legal, tax or financial advice. Statuses: works, likely, limited, unconfirmed, no. Evidence: verified, unverified, conflicting."}
+    (out_dir / "getpaidfrom.json").write_text(json.dumps({"meta": meta, "countries": records}, ensure_ascii=False, indent=1),
+                                              encoding="utf-8")
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=list(rows[0]), lineterminator="\n")
+    w.writeheader()
+    w.writerows(rows)
+    (out_dir / "getpaidfrom.csv").write_text("﻿" + buf.getvalue(), encoding="utf-8")  # BOM so Excel reads UTF-8
+    return [round((out_dir / f).stat().st_size / 1024) for f in ("getpaidfrom.csv", "getpaidfrom.json")]
+
+
 def load_views(only=None):
     acc_all = load(DISPLAY / "accounts.json")
     shorts = {p.stem: load(p) for p in (DISPLAY / "short").glob("*.json")}
@@ -424,18 +591,23 @@ def main():
     built_langs = list(translators)
     latest = max(v["checked"] for v in views)
     sitemap = []
+    st = site_stats(views)
+    suggest = {code: translators[code][0].t("suggest_lang") for code in built_langs}
+    csv_kb, json_kb = export_data(views, OUT / "data", latest)
 
     for lang, (tr, names) in translators.items():
         prefix = "" if lang == "en" else f"{lang}/"
         out = OUT / prefix if prefix else OUT
         lviews = [localize(v, tr, names) for v in views]
         common = {"site_url": SITE_URL, "built": built, "n_countries": len(lviews), "ver": ver, "t": tr.t, "lang": lang,
-                  "dir": LANGS[lang][1], "langs": {k: LANGS[k][0] for k in built_langs}, "prefix": prefix}
+                  "dir": LANGS[lang][1], "langs": {k: LANGS[k][0] for k in built_langs}, "prefix": prefix,
+                  "dirs": {k: LANGS[k][1] for k in built_langs}, "suggest": suggest, "og_locale": OG_LOCALE[lang],
+                  "is_404": False}
 
         def write(outfile, template, depth, path, **ctx):
             (out / outfile).parent.mkdir(parents=True, exist_ok=True)
             ctx = {"root": "../" * (depth + (1 if prefix else 0)), "base": "../" * depth, "path": path, **ctx}
-            (out / outfile).write_text(env.get_template(template).render(**common, **ctx), encoding="utf-8")
+            (out / outfile).write_text(env.get_template(template).render(**{**common, **ctx}), encoding="utf-8")
 
         platform_pages = {}
         for slug, (name, group) in PLATFORMS.items():
@@ -454,16 +626,29 @@ def main():
         upwork_page = {"logo": logo("upwork"), "open": [r for r in up_rows if r["up"]["open"]],
                        "closed": [r for r in up_rows if not r["up"]["open"]], "source": up_rows[0]["up"]["source"] if up_rows else None}
 
-        write("index.html", "index.html", 0, "", letters=list(by_letter.items()), platforms=platform_pages, upwork=upwork_page)
+        website_ld = ld_json({"@context": "https://schema.org", "@type": "WebSite", "name": "Get Paid From",
+                              "url": f"{SITE_URL}/{prefix}", "inLanguage": lang, "description": tr.t("meta_desc_default")})
+        write("index.html", "index.html", 0, "", letters=list(by_letter.items()), platforms=platform_pages, upwork=upwork_page,
+              website_ld=website_ld)
         write("about/index.html", "about.html", 1, "about/")
-        if lang == "en":  # served for any unknown URL, so its links must be absolute
-            write("404.html", "404.html", 0, "404.html")
-            page = (OUT / "404.html").read_text(encoding="utf-8")
-            (OUT / "404.html").write_text(page.replace('href="static/', f'href="{SITE_URL}/static/')
-                                          .replace('src="static/', f'src="{SITE_URL}/static/')
-                                          .replace('data-root=""', f'data-root="{SITE_URL}/"')
-                                          .replace('href="about/', f'href="{SITE_URL}/about/')
-                                          .replace('href="./"', f'href="{SITE_URL}/"'), encoding="utf-8")
+        # Not-found page: served for any unknown URL (the Worker picks the language), so every link is absolute.
+        # English at /404.html (Cloudflare's not_found_handling); other languages at /<lang>/404/.
+        write("404.html" if lang == "en" else "404/index.html", "404.html", 0, "", root=f"{SITE_URL}/",
+              base=f"{SITE_URL}/{prefix}", is_404=True)
+        write("stats/index.html", "stats.html", 1, "stats/", stats=stats_rows(st, tr, len(lviews)), checked=latest)
+        dataset_ld = ld_json({
+            "@context": "https://schema.org", "@type": "Dataset", "name": "Get Paid From: payment services, tax and paperwork by country",
+            "description": tr.t("data_desc", total=len(lviews)) + " " + tr.t("data_fields_text", total=len(lviews)),
+            "url": f"{SITE_URL}/{prefix}data/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": True,
+            "creator": {"@type": "Organization", "name": "Get Paid From", "url": f"{SITE_URL}/"},
+            "dateModified": latest, "spatialCoverage": "Worldwide", "inLanguage": "en",
+            "keywords": ["PayPal", "Payoneer", "Wise", "Stripe", "freelancers", "payments", "VAT", "income tax"],
+            "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"{SITE_URL}/data/getpaidfrom.csv"},
+                             {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/data/getpaidfrom.json"}]})
+        write("data/index.html", "data.html", 1, "data/", checked=latest, csv_kb=csv_kb, json_kb=json_kb, dataset_ld=dataset_ld)
+        cmp_pages = compare_pages(views, lviews, tr, lang, st, len(lviews), latest)
+        for slug, page in cmp_pages.items():
+            write(f"{slug}/index.html", "compare.html", 1, f"{slug}/", page=page)
         for v in lviews:
             write(f"{v['slug']}/index.html", "country.html", 1, f"{v['slug']}/", c=v)
         for slug, p in platform_pages.items():
@@ -485,7 +670,8 @@ def main():
         (out / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
         # sitemap: lastmod is when the page's facts were last checked, not the build date
-        sitemap += [(prefix + u, d) for u, d in [("", latest), ("about/", None), ("upwork/", latest)]
+        sitemap += [(prefix + u, d) for u, d in [("", latest), ("about/", None), ("upwork/", latest), ("stats/", latest),
+                                                  ("data/", latest)] + [(f"{s}/", latest) for s in cmp_pages]
                     + [(f"{v['slug']}/", v["checked"]) for v in lviews] + [(f"{s}/", latest) for s in PLATFORMS]]
 
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

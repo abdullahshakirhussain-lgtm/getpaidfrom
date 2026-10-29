@@ -9,8 +9,9 @@ compatibility_date = "2026-10-27"
 directory = "./site/dist/"
 binding = "ASSETS"
 not_found_handling = "404-page"
-# Run the Worker only for the API and for HTML pages (paths ending in "/"); fonts, CSS and JS stay plain static assets.
-run_worker_first = ["/api/*", "/", "/*/"]
+# Run the Worker only for the API, HTML pages (paths ending in "/") and language folders (for their not-found page);
+# fonts, CSS and JS stay plain static assets.
+run_worker_first = ["/api/*", "/", "/*/", "/es/*", "/fr/*", "/pt/*", "/ar/*", "/ur/*", "/bn/*", "/id/*", "/vi/*"]
 
 # Email alert sign-ups. scripts/ensure_kv.py finds or creates the namespace in CI and fills in the id before deploy.
 [[kv_namespaces]]

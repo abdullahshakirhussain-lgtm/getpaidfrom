@@ -1,0 +1,38 @@
+name: Weekly source re-check
+
+# Re-reads the official platform country lists and a quarter of the quoted research sources every week
+# (so every source is re-read once a month) and opens a GitHub issue when something needs review.
+# Nothing is changed or deployed automatically: a person (or Claude) reviews each flagged fact first.
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Re-check sources
+        run: python scripts/recheck.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: recheck-report
+          path: recheck-report.md
+      - name: Open an issue if anything needs review
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "$(cat recheck-attention.txt)" != "0" ]; then
+            gh issue create --title "Source re-check $(date -u +%F): $(cat recheck-attention.txt) item(s) to review" --body-file recheck-report.md
+          fi

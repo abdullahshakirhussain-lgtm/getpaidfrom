@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ t('data_title') }} | Get Paid From{% endblock %}
+{% block description %}{{ t('data_desc', total=n_countries) }}{% endblock %}
+{% block head %}
+<script type="application/ld+json">{{ dataset_ld }}</script>
+{% endblock %}
+{% block main %}
+<h1 class="sentence">{{ t('data_h1') }}</h1>
+<p class="intro">{{ t('data_intro') }}</p>
+<section class="sec">
+  <h2>{{ t('data_files') }}</h2>
+  <div>
+    <ul class="files">
+      <li><a href="{{ root }}data/getpaidfrom.csv" download>getpaidfrom.csv</a> <span class="note">{{ t('data_csv') }} · {{ csv_kb }} KB</span></li>
+      <li><a href="{{ root }}data/getpaidfrom.json" download>getpaidfrom.json</a> <span class="note">{{ t('data_json') }} · {{ json_kb }} KB</span></li>
+    </ul>
+    <p class="note">{{ t('data_updated', date=checked) }}</p>
+  </div>
+</section>
+<section class="sec">
+  <h2>{{ t('data_fields') }}</h2>
+  <div class="prose"><p>{{ t('data_fields_text', total=n_countries) }}</p></div>
+</section>
+<section class="sec">
+  <h2>{{ t('data_cite_h') }}</h2>
+  <div class="prose"><p lang="en" dir="ltr"><code>Get Paid From ({{ checked[:4] }}). Payment services, tax and paperwork for freelancers in {{ n_countries }} countries. {{ site_url }}/data/ (checked {{ checked }}). CC BY 4.0.</code></p></div>
+</section>
+{% endblock %}

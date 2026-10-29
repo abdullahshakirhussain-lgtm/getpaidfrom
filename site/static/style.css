@@ -251,3 +251,44 @@ html:lang(ar) .sentence, html:lang(ur) .sentence, html:lang(bn) .sentence { lett
 .lang-pick a { display: block; padding: 7px 12px; text-decoration: none; }
 .lang-pick a:hover { background: #fff7c7; }
 .lang-pick a[aria-current] { font-weight: 700; }
+
+/* skip link: hidden until focused */
+.skip { position: absolute; inset-inline-start: 8px; top: -60px; z-index: 50; padding: 8px 14px; background: var(--ink); color: var(--paper); border-radius: 6px; text-decoration: none; }
+.skip:focus { top: 8px; }
+main:focus { outline: none; }
+
+/* language suggestion */
+.suggest { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 8px 16px; background: #fff7c7; border-bottom: 1px solid var(--rule); font-size: .95rem; }
+.suggest button { font: inherit; background: none; border: 0; cursor: pointer; padding: 2px 8px; color: var(--grey); font-size: 1.2rem; line-height: 1; }
+
+/* home: compare links */
+.guides { list-style: none; margin: 8px 0 0; padding: 0; }
+.guides li { border-bottom: 1px solid var(--rule); }
+.guides a { display: block; padding: 9px 0; text-decoration: none; font-weight: 700; }
+.guides a:hover { text-decoration: underline; }
+
+/* statistics */
+.stats { list-style: none; margin: 0; padding: 0; }
+.stats li { border-bottom: 1px solid var(--rule); }
+.stats a { display: grid; grid-template-columns: 4.5em 1fr; gap: 0 16px; align-items: baseline; padding: 10px 0; text-decoration: none; }
+.stats b { font: 600 1.9rem/1 var(--serif); }
+.stats a:hover span { text-decoration: underline; }
+
+/* comparison tables */
+.cmp td { color: var(--ink); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; font-weight: 700; }
+.chip .st { font-weight: 400; font-size: .85rem; color: var(--grey); }
+.cmp .none { color: var(--grey); }
+@media (max-width: 720px) {
+  .cmp thead { display: none; }
+  .cmp tbody tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+  .cmp tbody th, .cmp tbody td { display: block; border: 0; padding: 0; }
+  .cmp tbody td::before { content: attr(data-label); display: block; color: var(--grey); font-size: .8rem; margin-top: 4px; }
+}
+
+/* data downloads */
+.files { list-style: none; margin: 0; padding: 0; }
+.files li { padding: 8px 0; border-bottom: 1px solid var(--rule); }
+.files a { font-weight: 700; }
+code { font-size: .88rem; overflow-wrap: anywhere; }

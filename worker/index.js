@@ -1,10 +1,27 @@
 // Get Paid From: Cloudflare Worker in front of the static site (site/dist).
 // - /api/subscribe, /api/unsubscribe: email alerts per country, stored in KV (binding SIGNUPS).
 // - Page views: counted per page and visitor country in Analytics Engine (binding VIEWS). No cookies, no IP addresses.
+// - Unknown pages under /<lang>/ get that language's not-found page (status 404).
+// - Security headers on everything the Worker returns.
 // Everything else is served from the static assets unchanged.
 
 const EMAIL = /^[^\s@]{1,64}@[^\s@]+\.[^\s@]{2,}$/;
 const COUNTRY = /^[A-Z]{2}$/;
+const LANG_PATH = /^\/(es|fr|pt|ar|ur|bn|id|vi)\//;
+// Pages use no inline scripts or third-party resources; logos set their brand colour with a style attribute.
+const SECURITY = {
+  'content-security-policy': "default-src 'self'; img-src 'self' data:; style-src 'self'; style-src-attr 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; form-action 'self'; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+  'x-content-type-options': 'nosniff',
+  'referrer-policy': 'strict-origin-when-cross-origin',
+  'permissions-policy': 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
+  'strict-transport-security': 'max-age=31536000',
+};
+
+function secured(response) {
+  const r = new Response(response.body, response);
+  for (const [k, v] of Object.entries(SECURITY)) r.headers.set(k, v);
+  return r;
+}
 
 function json(body, status = 200) {
   return new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
@@ -68,11 +85,16 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname.startsWith('/api/')) {
-      if (url.pathname === '/api/subscribe' || url.pathname === '/api/unsubscribe') return handleApi(request, env, url.pathname);
-      return json({ ok: false, error: 'Not found.' }, 404);
+      if (url.pathname === '/api/subscribe' || url.pathname === '/api/unsubscribe') return secured(await handleApi(request, env, url.pathname));
+      return secured(json({ ok: false, error: 'Not found.' }, 404));
     }
-    const response = await env.ASSETS.fetch(request);
+    let response = await env.ASSETS.fetch(request);
+    const lang = url.pathname.match(LANG_PATH);
+    if (response.status === 404 && lang && request.method === 'GET') {
+      const page = await env.ASSETS.fetch(new Request(new URL(`/${lang[1]}/404/`, url), request));
+      if (page.status === 200) response = new Response(page.body, { status: 404, headers: page.headers });
+    }
     if (response.status === 200 && (response.headers.get('content-type') || '').includes('text/html')) countView(request, env, url);
-    return response;
+    return secured(response);
   },
 };

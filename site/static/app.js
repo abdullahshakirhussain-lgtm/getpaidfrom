@@ -145,6 +145,34 @@
     });
   });
 
+  // suggest the reader's own language once, if this page exists in it (choice remembered in this browser only)
+  (function () {
+    var pick = document.querySelector('.lang-pick');
+    if (!pick || !navigator.languages) return;
+    var dismissed = null;
+    try { dismissed = localStorage.getItem('gpf-lang'); } catch (e) { return; }
+    if (dismissed) return;
+    var wanted = navigator.languages.map(function (l) { return l.slice(0, 2).toLowerCase(); });
+    for (var i = 0; i < wanted.length; i++) {
+      if (wanted[i] === lang) return;  // the reader already prefers this page's language
+      var link = pick.querySelector('a[hreflang="' + wanted[i] + '"]');
+      if (!link) continue;
+      var bar = document.createElement('div');
+      bar.className = 'suggest';
+      var a = document.createElement('a');
+      a.href = link.getAttribute('href'); a.lang = wanted[i]; a.dir = link.dir; a.textContent = link.getAttribute('data-suggest');
+      var close = document.createElement('button');
+      close.type = 'button'; close.setAttribute('aria-label', pick.getAttribute('data-close')); close.textContent = '×';
+      function remember() { try { localStorage.setItem('gpf-lang', '1'); } catch (e) { /* private mode: just hide */ } }
+      close.addEventListener('click', function () { remember(); bar.remove(); });
+      a.addEventListener('click', remember);
+      bar.appendChild(a); bar.appendChild(close);
+      var skip = document.querySelector('.skip');
+      if (skip) skip.after(bar); else document.body.prepend(bar);
+      return;
+    }
+  })();
+
   // rows in the options table open to show their sources
   function toggleRow(row, open) {
     var extra = row.nextElementSibling;

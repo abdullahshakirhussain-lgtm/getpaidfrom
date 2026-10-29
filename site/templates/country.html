@@ -33,7 +33,6 @@
         <summary>{{ t('details_sources') if lang == 'en' else t('details_sources_en') }}</summary>
         <div lang="en" dir="ltr">
         <p>{{ l.long }}</p>
-        {% if l.notes %}<p>{{ l.notes }}</p>{% endif %}
         </div>
         {% if l.status == "unverified" %}<p class="caveat">{{ t('one_source') }}</p>{% elif l.status == "conflicting" %}<p class="caveat">{{ t('sources_disagree') }}</p>{% endif %}
         {% if l.sources %}{{ srclist(l.sources) }}{% endif %}

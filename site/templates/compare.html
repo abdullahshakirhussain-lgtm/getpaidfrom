@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} | Get Paid From{% endblock %}
+{% block description %}{{ page.desc }}{% endblock %}
+{% block main %}
+{% macro mark(tone, label) %}<span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span>{% endmacro %}
+<p class="back"><a href="../">{{ t('all_countries') }}</a></p>
+<h1 class="sentence">{{ page.h1 }}</h1>
+<p class="intro">{{ page.intro }}</p>
+{% for group in page.groups %}
+<section class="sec">
+  <h2>{% if group.tone %}{{ mark(group.tone, group.label) }}{% else %}{{ group.label }}{% endif %} <span class="count">{{ group.rows|length }}</span></h2>
+  <div>
+    <table class="options cmp">
+      <caption class="vh">{{ page.h1 }}: {{ group.label }}</caption>
+      <thead><tr><th scope="col">{{ t('upwork_country') }}</th>{% for c in page.cols %}<th scope="col">{{ c }}</th>{% endfor %}</tr></thead>
+      <tbody>
+        {% for r in group.rows %}
+        <tr>
+          <th scope="row"><a href="../{{ r.slug }}/{{ page.anchor }}">{{ r.country }}</a></th>
+          {% for cell in r.cells %}
+          <td data-label="{{ page.cols[loop.index0] }}">{% if cell.chips is defined %}{% if cell.chips %}<span class="chips">{% for ch in cell.chips %}<span class="chip">{{ ch.name }}{% if ch.tone != "ok" %} <span class="st {{ ch.tone }}"><i aria-hidden="true"></i>{{ ch.label }}</span>{% endif %}</span>{% endfor %}</span>{% else %}<span class="none">{{ page.none }}</span>{% endif %}{% else %}{{ cell.text or t('not_researched') }}{% endif %}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endfor %}
+<p class="note">{{ page.note }}</p>
+{% endblock %}

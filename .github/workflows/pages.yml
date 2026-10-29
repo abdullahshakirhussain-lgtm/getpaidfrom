@@ -2,9 +2,10 @@ name: Build and deploy site
 
 # Builds and tests the static site, then deploys it:
 # - to Cloudflare (Workers static assets, see wrangler.toml) when the CLOUDFLARE_API_TOKEN and
-#   CLOUDFLARE_ACCOUNT_ID repository secrets are set;
+#   CLOUDFLARE_ACCOUNT_ID repository secrets are set; GitHub Pages then serves only redirects to the live host,
+#   so the old copy can't compete with it in search results;
 # - otherwise to GitHub Pages, as before.
-# Set the SITE_URL repository variable to the public address (workers.dev or your own domain).
+# Set the SITE_URL repository variable to the public address (your own domain, once you have one).
 
 on:
   push:
@@ -26,8 +27,8 @@ jobs:
     outputs:
       cloudflare: ${{ steps.target.outputs.cloudflare }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - run: pip install Jinja2==3.1.6 MarkupSafe==3.0.4
@@ -43,10 +44,14 @@ jobs:
           if [ -n "$CF_TOKEN" ]; then echo "cloudflare=true" >> "$GITHUB_OUTPUT"; else echo "cloudflare=false" >> "$GITHUB_OUTPUT"; fi
       # canonical links, sitemap and robots.txt must name the host the site is really served from
       - name: Build
-        run: python scripts/build_site.py
+        run: |
+          python scripts/build_site.py
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
         env:
           SITE_URL: ${{ vars.SITE_URL || (steps.target.outputs.cloudflare == 'true' && 'https://getpaidfrom.getpaidfrom.workers.dev' || 'https://abdullahshakirhussain-lgtm.github.io/getpaidfrom') }}
       - run: python tests/test_site_links.py
+      - run: python tests/test_production.py
+      - run: node tests/test_worker.mjs
       - name: Find or create the sign-ups KV namespace
         if: steps.target.outputs.cloudflare == 'true'
         env:
@@ -66,18 +71,24 @@ jobs:
       - name: Tell IndexNow which pages changed
         if: steps.target.outputs.cloudflare == 'true' && vars.SITE_URL != ''
         run: python scripts/indexnow.py /tmp/old-sitemap.xml site/dist/sitemap.xml
+      - name: Redirect-only copy for GitHub Pages
+        if: steps.target.outputs.cloudflare == 'true'
+        run: python scripts/make_redirects.py site/dist _redirect_site "${{ vars.SITE_URL || 'https://getpaidfrom.getpaidfrom.workers.dev' }}"
+      - if: steps.target.outputs.cloudflare == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _redirect_site
       - if: steps.target.outputs.cloudflare != 'true'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site/dist
 
   deploy:
     needs: build
-    if: needs.build.outputs.cloudflare != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
