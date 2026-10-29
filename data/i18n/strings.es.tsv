@@ -122,7 +122,7 @@ f5fb79e0c0	Se paga a tu banco en ARS.
 beea522674	Retira en pesos, o en USD a una cuenta argentina.
 1112a74d48	Para evitar la conversión obligatoria, los ingresos deben llegar a tu propia cuenta local en dólares.
 674d0e293e	Las categorías del Monotributo se actualizan dos veces al año; revisa la tuya cada vez.
-60f2440e04	Las webs deben mostrar un botón de baja («botón de arrepentimiento») sin obligar a iniciar sesión.
+60f2440e04	Las webs deben mostrar un botón para cancelar la compra («botón de arrepentimiento») sin obligar a iniciar sesión.
 e3775e2f23	CUIT, de ARCA, con clave fiscal de nivel 3 y tu DNI.
 5d6239cbfe	Inscríbete en ARCA para obtener el CUIT y adhiérete al Monotributo.
 26f2cb1b9f	IVA del 21 %; las exportaciones tributan a tipo cero; el Monotributo ya incluye el IVA.
@@ -1388,7 +1388,7 @@ db779d7a2c	NIF, de la Autoridad Tributaria y Aduanera, necesario antes de inicia
 6d823a2b8c	Sí, pero las condiciones varían según el banco; revisa las cuentas en divisas de cada uno.
 b39de99315	Sin IVA por debajo de 15.000 €, y sin Seguridad Social durante los primeros 12 meses.
 f8b06f66a6	Cartão de Cidadão (documento de identidad) o pasaporte.
-3021d327c7	Date de alta en la Bureau of Revenue and Taxation; los pasos aún no están confirmados.
+3021d327c7	Date de alta en el Bureau of Revenue and Taxation; los pasos aún no están confirmados.
 b4684013af	PGST del 10 % por encima de 300.000 USD al año.
 b835382665	Impuesto sobre salarios del 6 al 12 %; el impuesto sobre los ingresos brutos empresariales no está confirmado.
 963d2033ed	Los ciudadanos usan el pasaporte o el permiso de conducir.
@@ -1716,7 +1716,7 @@ ac7ae085be	No hace falta registrarse si operas con tu propio apellido.
 5c596ced6c	Sí, libremente; no hay controles de cambio sobre los ingresos por servicios de los particulares.
 28fc316c96	Sí: los bancos ofrecen cuentas en USD, GBP y EUR, que se abren con el documento nacional de identidad.
 ca15767fee	Pesapal admite a empresarios individuales con un nombre comercial registrado y un TIN de la URA.
-26dbbc0965	Negocios nuevos de propiedad nacional: tres años sin impuesto sobre la renta.
+26dbbc0965	Negocios nuevos cuyos dueños son ciudadanos: tres años sin impuesto sobre la renta.
 fd298b0a3e	Regístrate en la Personal Data Protection Office; no registrarse es una infracción.
 7d1a554cb0	Los compradores pueden cancelar las compras en línea en un plazo de 7 días desde que las reciben.
 485663e0f5	Documento nacional de identidad con tu NIN, de la NIRA.
