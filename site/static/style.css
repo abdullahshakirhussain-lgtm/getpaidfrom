@@ -234,6 +234,7 @@ html:lang(ar) { --serif: "Newsreader", "Noto Naskh Arabic", serif; --sans: "Atki
 html:lang(ur) { --serif: "Newsreader", "Noto Nastaliq Urdu", serif; --sans: "Atkinson", "Noto Nastaliq Urdu", "Segoe UI", sans-serif; font-synthesis: none; }
 html:lang(ur) body { line-height: 2.1; }
 html:lang(ur) .sentence, html:lang(ur) .answer .a, html:lang(ur) .sec > h2 { line-height: 1.9; }
+html:lang(ur) .results, html:lang(ur) .split h2 { line-height: 2; }
 html:lang(bn) { --serif: "Newsreader", "Noto Sans Bengali", serif; --sans: "Atkinson", "Noto Sans Bengali", "Nirmala UI", sans-serif; }
 html:lang(bn) body { line-height: 1.7; }
 html:lang(vi) { --sans: "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif; }

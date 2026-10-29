@@ -1,0 +1,1834 @@
+1c174ce61d	Có, qua PayPal.
+311bd65134	Nhận tiền từ khách hàng và rút về ngân hàng của bạn.
+5c146bb23a	Có, qua Gumroad.
+d1d1651abf	Thanh toán qua PayPal (phí 2%); ở đây không chuyển khoản về ngân hàng.
+a0f54922e7	Payoneer phục vụ hơn 190 quốc gia; hãy xác nhận khi đăng ký.
+78dab28a6c	Giữ tiền và nhận thông tin tài khoản để nhận thanh toán.
+850e09713b	Kết nối PayPal hoặc Stripe để nhận tiền.
+ad6a6aaa61	Không chi trả về ngân hàng ở quốc gia này.
+01a0eb0109	Ở đây không có khoản chi trả.
+de319e634a	Chỉ phần mềm và sản phẩm số; mỗi người bán đều được xét duyệt.
+6046c1e622	Stripe không chấp nhận doanh nghiệp ở đây.
+b0a6b0ba42	NRT (Mã số đăng ký thuế), dùng cho mọi giao dịch thuế tại Andorra.
+fef2a8fcb8	Đăng ký với cơ quan thuế và bảo hiểm xã hội CASS; các bước chưa được xác nhận.
+4753b2f6bb	IGI (thuế GTGT) là 4,5%; mọi doanh nghiệp kinh doanh tại Andorra đều phải đăng ký.
+7dc9296aa9	Thuế thu nhập là 0% đến €24.000, sau đó 5%, và 10% trên €40.000.
+537caa35fd	Chưa được xác nhận.
+143dcd70e2	Chưa nghiên cứu các cổng thanh toán trong nước; xem các dịch vụ liệt kê ở trên.
+6f2bda902d	Có luật bảo vệ dữ liệu; chi tiết chưa được xác nhận.
+985c3850cd	Bộ theo dõi của UNCTAD không ghi nhận luật bảo vệ người tiêu dùng trực tuyến nào.
+74777a6ab9	Không có thẻ căn cước quốc gia; dùng hộ chiếu và giấy phép lái xe.
+b21a748dd3	Stripe (không chấp nhận doanh nghiệp ở đây).
+1448cca703	Bán sản phẩm số qua một merchant of record (đơn vị bán hàng thay bạn)
+37d42ff566	Họ bán cho khách hàng của bạn, xử lý thuế và chi trả cho bạn.
+aa291e3103	Bán sản phẩm số hoặc phần mềm qua một merchant of record (đơn vị bán hàng thay bạn): Paddle (chỉ phần mềm/SaaS; mỗi người bán đều được xét duyệt), Dodo Payments. Nền tảng là người bán hợp pháp đối với khách hàng của bạn, xử lý thanh toán thẻ và thuế GTGT/thuế bán hàng đối với người tiêu dùng, rồi chi trả cho bạn. Bạn vẫn phải khai báo các khoản chi trả là thu nhập của mình tại quốc gia của bạn.
+6cc903f20a	Bán dịch vụ trên Upwork
+a3b2eae9ab	Upwork mở cho freelancer ở đây; các lựa chọn rút tiền hiện trong tài khoản của bạn.
+51de4ff3a2	Bán dịch vụ trên Upwork, nền tảng có ở đây (không nằm trong danh sách hạn chế). Bạn có những phương thức rút tiền nào (ngân hàng, PayPal, Payoneer, v.v.) tùy thuộc vào quốc gia và hiện trong tài khoản của bạn.
+290a2b70e7	Nhận thanh toán từ khách hàng qua PayPal
+58e64eea2d	Khách hàng thanh toán qua PayPal (có trong danh sách Payouts của PayPal với trạng thái 'Send, receive, and withdraw').
+1a9e4ee480	Đề nghị khách hàng trực tiếp chuyển khoản ngân hàng
+1b708a0397	Chuyển khoản SWIFT vào tài khoản của chính bạn luôn khả thi; hãy giữ hóa đơn.
+7855717bae	Với khách hàng trực tiếp, chuyển khoản ngân hàng (SWIFT) vào tài khoản trong nước của chính bạn luôn khả thi. Hãy tuân thủ quy định ngoại hối trong nước và giữ hóa đơn.
+b3158e9d56	Chi trả về ngân hàng của bạn bằng AED.
+a39ae4a49a	Etsy chi trả cho người bán ở đây qua Payoneer.
+ca5cd98ba2	Wise không cho phép người cư trú ở đây giữ hoặc nhận tiền.
+7e14a4c8ed	Hỗ trợ chi trả về ngân hàng.
+0b328a25a6	Hỗ trợ chi trả (qua Stripe Connect).
+b0a1a2b384	Chấp nhận doanh nghiệp ở đây; cần có trang web riêng.
+51be2088bf	Doanh thu trên AED 1 triệu thì bạn phải đăng ký và khai thuế, kể cả khi thuế bằng 0.
+a31e128a26	Doanh thu xuất khẩu thuế suất 0% vẫn được tính vào ngưỡng thuế GTGT AED 375.000.
+82a2c319c6	UAE không cấp TIN; bạn có thể xin giấy chứng nhận cư trú thuế.
+071113a5e6	Xin giấy phép hành nghề tự do từ một khu tự do, hoặc giấy phép thương mại trong đất liền.
+8f94a771d6	Thuế GTGT 5% trên AED 375.000 mỗi năm; dịch vụ xuất khẩu chịu thuế suất 0%.
+1faf502f58	Không có thuế thu nhập cá nhân; thu nhập kinh doanh trên AED 1 triệu chịu thuế doanh nghiệp 9%.
+6d8eb2161e	Có, tự do; UAE không hạn chế tiền tệ.
+fb4a3c6fd9	Có: tài khoản bằng dirham hoặc ngoại tệ, trong nước hoặc ở nước ngoài.
+0e4cbf1b60	Không có thuế thu nhập cá nhân, và thuế doanh nghiệp 0% cho AED 375.000 lợi nhuận đầu tiên.
+8e47473aca	Áp dụng PDPL (Nghị định-Luật 45/2021); ngày bắt đầu hiệu lực chưa được xác nhận.
+e3f0700cf8	Có luật bảo vệ người tiêu dùng trực tuyến; quy định hoàn tiền chưa được xác nhận.
+bfb82f1bae	Emirates ID hoặc hộ chiếu.
+1e96b37422	Số dư Wise (người cư trú không được giữ tiền).
+16535e62ac	Bán sản phẩm số hoặc phần mềm qua một merchant of record (đơn vị bán hàng thay bạn): Paddle (chỉ phần mềm/SaaS; mỗi người bán đều được xét duyệt), Lemon Squeezy (chi trả về ngân hàng), Polar, Dodo Payments. Nền tảng là người bán hợp pháp đối với khách hàng của bạn, xử lý thanh toán thẻ và thuế GTGT/thuế bán hàng đối với người tiêu dùng, rồi chi trả cho bạn. Bạn vẫn phải khai báo các khoản chi trả là thu nhập của mình tại quốc gia của bạn.
+d048093c24	Kiếm tiền từ YouTube
+402cb0a2e2	Chương trình Đối tác YouTube mở ở đây.
+5fc56da056	Thu nhập nhà sáng tạo qua Chương trình Đối tác YouTube (có ở đây).
+bdc6d9133b	Bán ứng dụng trên Google Play
+5a19bd5a7a	Đăng ký người bán Google Play mở ở đây.
+acd6a24c07	Ứng dụng trả phí và bán hàng trong ứng dụng qua Google Play (có đăng ký người bán ở đây).
+e1fc5d5722	Nhận thanh toán thẻ bằng Stripe
+d3be2c0818	Stripe chấp nhận doanh nghiệp ở đây, cho trang web riêng của bạn.
+b27f6ac094	Stripe chấp nhận người bán ở đây, nên bạn có thể nhận thanh toán thẻ trực tiếp trên trang web của mình.
+3399b09641	Có thể, qua Payoneer.
+73c3b45a58	Không có nền tảng nào được xác nhận.
+de959d24ca	Chưa dịch vụ nào trong số này xác nhận chi trả ở đây.
+c9bb878c1e	PayPal không hoạt động ở đây.
+d9ede0800c	Ở đây không có cách chi trả (không chuyển về ngân hàng hay PayPal).
+2e91e47164	Cần một đơn vị xử lý thanh toán trong nước mà Payhip hỗ trợ; chưa được xác nhận ở đây.
+afdbfcc65c	Không hỗ trợ người bán ở đây.
+3bc8026d39	Kiểm tra giấy phép liên quan đến lệnh trừng phạt và kênh ngân hàng trước khi nhận bất kỳ khoản thanh toán nào.
+0b121decaf	Giấy phép kinh doanh do AISA hoặc Bộ Thương mại cấp.
+195c907c05	Thuế GTGT 10% từ năm 2020; việc áp dụng hiện nay chưa được xác nhận.
+4c71f6ed9f	Người cư trú cũng bị đánh thuế thu nhập nước ngoài, theo biểu thuế lũy tiến.
+3c0d4446e6	Bị hạn chế nghiêm trọng: các kênh ngân hàng bị đóng băng và có sàng lọc trừng phạt.
+3e6ae2cf97	Không tìm thấy ưu đãi riêng cho freelancer.
+646bc9b5a2	Bộ theo dõi của UNCTAD không ghi nhận luật bảo vệ dữ liệu nào.
+331860eaaf	Tazkira (giấy tờ tùy thân quốc gia).
+b393c3218f	Stripe (không chấp nhận doanh nghiệp ở đây); PayPal (không khả dụng); số dư Wise (người cư trú không được giữ tiền).
+a4801ccd2c	Chi trả về ngân hàng của bạn bằng XCD.
+07a37921f0	PayPal hoạt động ở đây, nhưng việc nhận thanh toán chưa được xác nhận.
+f4148cce7d	Thu nhập tự kinh doanh vẫn bị đánh thuế (UBT), dù có những tuyên bố "không có thuế thu nhập".
+692060a7d4	Freelancer hành nghề chuyên môn phải thu ABST 17% ngay từ đầu.
+28e2746718	TIN do Inland Revenue Department cấp khi đăng ký.
+fb94f1691d	Đăng ký với ABIPCO, cơ quan thương mại; các bước chưa được xác nhận.
+bce3c85649	ABST 17%; người cung cấp dịch vụ chuyên môn phải đăng ký, không có ngưỡng.
+0fef9dbcf9	Không có thuế thu nhập, nhưng người cư trú tự kinh doanh trả thuế kinh doanh không thành lập pháp nhân lên đến 25%.
+6ae7b89848	Thẻ căn cước cử tri quốc gia.
+3ca4e7242c	Stripe (không chấp nhận doanh nghiệp ở đây); khoản chi trả từ các trang trả tiền qua PayPal Payouts (PayPal không liệt kê quốc gia này); số dư Wise (người cư trú không được giữ tiền).
+d9ca89ace3	Chi trả về ngân hàng của bạn bằng ALL.
+92058eb0a1	Mức 0% cần có NIPT và khách hàng phải thanh toán qua tài khoản ngân hàng doanh nghiệp.
+3c4e11cdf7	Quy định về một khách hàng duy nhất có thể làm mất ưu đãi 0%.
+3d4611abdc	Số cá nhân NID của bạn; người tự kinh doanh cũng được cấp NIPT.
+bf4607957e	Đăng ký tại Trung tâm Kinh doanh Quốc gia (QKB) để nhận mã số thuế NIPT.
+787fe7a29d	Thuế GTGT 20% trên ALL 10 triệu; tự nguyện từ ALL 5 triệu.
+eeff444203	Thuế thu nhập 0% đến năm 2029 cho người tự kinh doanh có doanh thu đến ALL 14 triệu.
+03c7701f88	Có, tự do; không có kiểm soát ngoại hối hạn chế.
+6e35ccec16	Thuế 0% đến năm 2029, hoặc chi phí khoán cố định đến ALL 10 triệu.
+6fefc9def3	Letërnjoftimi (thẻ căn cước sinh trắc học).
+a444874fcd	Chi trả về ngân hàng của bạn bằng AMD.
+80912d6d43	TIN do Cơ quan Đăng ký Nhà nước cấp khi bạn đăng ký.
+05447d233a	Đăng ký làm Doanh nhân cá thể với Cơ quan Đăng ký Nhà nước, thường trong một ngày.
+e5bc5d5dfd	Thuế GTGT 20% trên AMD 115 triệu; dịch vụ xuất khẩu chịu thuế suất 0%.
+60082da441	Thuế thu nhập cố định 20%; doanh nghiệp nhỏ có thể dùng thuế doanh thu thay thế.
+a32ca87ec2	Có, tự do; Armenia có chế độ tiền tệ tự do.
+9b6bc3155c	Có: người cư trú có thể giữ tài khoản ngoại tệ.
+0e1ad38104	Chế độ thuế doanh thu và chế độ doanh nhân siêu nhỏ cho doanh nghiệp nhỏ.
+eafe560588	Luật Bảo vệ Dữ liệu Cá nhân (2015), do một cơ quan thuộc Bộ Tư pháp giám sát.
+68a9b16fc3	Chi trả về ngân hàng của bạn bằng AOA.
+9760500b92	Cá nhân chỉ được chuyển tối đa khoảng USD 150.000 ra nước ngoài mỗi năm.
+79390c1f90	NIF của bạn trùng với số thẻ căn cước (BI).
+daf1b93843	Đăng ký kinh doanh cá thể tại GUE bằng BI của bạn; phí khoảng AOA 21.380.
+35c5a5b7d5	Thuế GTGT 14%; không có thuế GTGT dưới AOA 25 triệu; chế độ đơn giản 7% đến AOA 350 triệu.
+6c659c545e	Thu nhập freelance: các công ty trong nước khấu trừ 6,5%, nếu không thì 25% trên thu nhập được ấn định.
+74049d7b95	Có thể có, qua một ngân hàng được phép kinh doanh ngoại hối.
+ea631e46df	Có, trên thực tế; việc chuyển tiền ra nước ngoài bị giới hạn hằng năm từ năm 2026.
+48c70d51ca	Các cổng thanh toán trong nước chưa được xác nhận; xem các dịch vụ liệt kê ở trên.
+a5de244f05	Không có ưu đãi cho freelancer; mức cố định 6,5% cho tiểu thương và không có thuế GTGT dưới AOA 25 triệu.
+fa919ae34b	Luật 22/11: thông báo cho Cơ quan Bảo vệ Dữ liệu về việc xử lý dữ liệu của bạn.
+1921eb975e	Người mua có thể rút lại trong vòng bảy ngày làm việc đối với giao dịch mua ngoài cơ sở kinh doanh.
+bdd179be56	Thẻ căn cước (Bilhete de Identidade, BI).
+dfa8a67cc8	Bán sản phẩm số hoặc phần mềm qua một merchant of record (đơn vị bán hàng thay bạn): Paddle (chỉ phần mềm/SaaS; mỗi người bán đều được xét duyệt), Lemon Squeezy (chi trả về ngân hàng), Polar. Nền tảng là người bán hợp pháp đối với khách hàng của bạn, xử lý thanh toán thẻ và thuế GTGT/thuế bán hàng đối với người tiêu dùng, rồi chi trả cho bạn. Bạn vẫn phải khai báo các khoản chi trả là thu nhập của mình tại quốc gia của bạn.
+f5fb79e0c0	Chi trả về ngân hàng của bạn bằng ARS.
+beea522674	Rút bằng peso, hoặc bằng USD về một tài khoản tại Argentina.
+1112a74d48	Để tránh bị buộc quy đổi, thu nhập phải về tài khoản đô la trong nước của chính bạn.
+674d0e293e	Các hạng Monotributo được cập nhật hai lần mỗi năm; hãy kiểm tra hạng của bạn mỗi lần.
+60f2440e04	Trang web phải có nút hủy ("nút hối hận") mà không bắt buộc đăng nhập.
+e3775e2f23	CUIT, từ ARCA, dùng khóa thuế cấp 3 và DNI của bạn.
+5d6239cbfe	Đăng ký với ARCA để nhận CUIT và tham gia Monotributo.
+26f2cb1b9f	IVA (thuế GTGT) 21%; hàng xuất khẩu chịu thuế suất 0%; Monotributo đã bao gồm IVA.
+56d1b9ad99	Monotributo thay thế thuế thu nhập và IVA bằng một khoản phí hằng tháng theo hạng.
+89564e3594	Có; từ tháng 4 năm 2026, cá nhân có thể giữ thu nhập xuất khẩu bằng đô la tại ngân hàng trong nước.
+5731864a25	Có: tài khoản USD tại ngân hàng trong nước, không mất phí ngân hàng cho tiền chuyển đến.
+0a5719a6f3	Liên kết thanh toán Mercado Pago dùng được với tài khoản miễn phí, không cần trang web.
+4f20dc14ee	Một khoản đóng duy nhất hằng tháng của Monotributo, và đô la được giữ trong tài khoản trong nước của chính bạn.
+6f1461f809	Ley 25.326: đăng ký trực tuyến cơ sở dữ liệu khách hàng với AAIP.
+e51c48e840	Người mua có thể hủy trong vòng 10 ngày; trang web của bạn cần có "nút hối hận".
+3a0fb5b803	DNI (thẻ căn cước quốc gia).
+fea6df6279	Dùng kênh chính thức của quốc gia bạn
+e1617ac577	Giữ tiền thu từ xuất khẩu dịch vụ trong tài khoản USD trong nước của chính bạn mà không quy đổi sang peso (BCRA Com. 'A' 8417).
+f022f55791	Giữ tiền thu từ xuất khẩu dịch vụ trong tài khoản USD trong nước của chính bạn mà không quy đổi sang peso (BCRA Com. 'A' 8417); ngân hàng không được thu phí riêng đối với tiền chuyển đến.
+afb2ae5d5e	Chi trả về ngân hàng của bạn bằng EUR.
+3617cb9da2	Mã số thuế của bạn có thể thay đổi khi bạn chuyển đến khu vực của một cơ quan thuế khác.
+686f8df0b6	Mã số thuế do cơ quan thuế địa phương cấp khi bạn cần lần đầu.
+6840cb737e	Ngành nghề thủ công-thương mại đăng ký trực tuyến miễn phí qua GISA hoặc USP; các ngành khác đăng ký với cơ quan thuế.
+0e3a8789f5	Thuế GTGT 20%; doanh nghiệp nhỏ dưới €55.000 mỗi năm được miễn.
+e889ff3497	Thu nhập toàn cầu chịu thuế từ 0% đến €13.539, tăng dần lên 55%.
+2738a9d1b8	Có, tự do; quy định của EU cấm hạn chế thanh toán.
+f6987c625b	Rất có thể: ngân hàng EU thường cung cấp tài khoản ngoại tệ.
+75f1b6867d	Kleinunternehmer: không có thuế GTGT dưới doanh thu €55.000, được dung sai 10% một lần.
+dc867b9c22	Áp dụng GDPR.
+aaf0092ccf	Người mua trực tuyến có thể rút lại trong vòng 14 ngày.
+d1678fa646	Personalausweis (thẻ căn cước) hoặc hộ chiếu.
+d4dcf68f1c	Bán trên Etsy
+d4596e738c	Etsy chi trả cho người bán ở đây.
+dd73152c17	Hàng hóa vật lý hoặc sản phẩm số trên Etsy (có chi trả cho người bán Etsy ở đây).
+fda682ede4	Khách hàng thanh toán qua PayPal (có trong danh sách Payouts của PayPal với trạng thái 'Fully localized').
+443591e289	Chi trả về ngân hàng của bạn bằng AUD.
+8b68075398	Đăng ký GST trong vòng 21 ngày kể từ khi biết bạn sẽ vượt AUD 75.000.
+0928cc1ea9	Thu nhập dịch vụ cá nhân của nhà thầu độc lập thường không đủ điều kiện nhận khoản giảm thuế.
+2ee9f3fc1f	Tax File Number (TFN); doanh nghiệp của bạn dùng ABN.
+a4eb1e6c1b	Nhận ABN miễn phí với tư cách kinh doanh cá thể; chỉ đăng ký tên doanh nghiệp khi cần.
+e9285aeb20	GST 10%; đăng ký khi doanh thu đạt AUD 75.000; hàng xuất khẩu không chịu GST.
+a3d4c26f56	Thu nhập toàn cầu chịu thuế: 0 đến AUD 18.200, lên đến 45%, cộng thêm 2% phí Medicare.
+41d08fd54b	Có, tự do; không có kiểm soát ngoại hối từ khi đồng đô la được thả nổi năm 1983.
+42f844e12d	Có, nhưng tài khoản ngoại tệ tại ngân hàng có thể cần AUD 50.000 để mở.
+703a3e16fe	Giảm thuế cho doanh nghiệp nhỏ đến AUD 1.000; thu nhập dịch vụ cá nhân thường bị loại trừ.
+5a159c08a6	Privacy Act 1988 áp dụng cho các doanh nghiệp lớn hơn và một số doanh nghiệp nhỏ.
+5ad254c1a7	Các bảo đảm cho người tiêu dùng áp dụng cả khi mua trực tuyến; hoàn tiền vì đổi ý là do bạn quyết định.
+642bffe317	Giấy phép lái xe hoặc hộ chiếu.
+f9bf878045	Chi trả về ngân hàng của bạn bằng AZN.
+42dc54ee82	Mã số người nộp thuế do cơ quan thuế cấp; cách nộp hồ sơ chưa được xác nhận.
+6b3a360c86	Đăng ký với Cơ quan Thuế Nhà nước; các bước chưa được xác nhận.
+28c8f8dade	Thuế GTGT 18% trên AZN 200.000 mỗi năm; hàng xuất khẩu chịu thuế suất 0%.
+1064ae5bc3	Thu nhập toàn cầu chịu thuế; thuế đơn giản cho doanh nhân chưa được xác nhận.
+a888a93647	Có, tự do; không hạn chế quy đổi hay chuyển tiền tệ.
+d12c574d6d	Có: ngân hàng nhận tiền gửi bằng đô la Mỹ từ cá nhân.
+284ca4bbdf	Şəxsiyyət vəsiqəsi (thẻ căn cước quốc gia).
+fc06c44bb9	Chi trả về ngân hàng của bạn bằng BAM.
+8a34edfc8c	Hướng dẫn cũ ghi BAM 50.000; ngưỡng thuế GTGT nay là BAM 100.000.
+c44df6c039	JIB (số định danh); số PDV 12 chữ số cho thuế GTGT.
+6d6ca2cde9	Đăng ký với chính quyền thành phố (Liên bang) hoặc APIF (Republika Srpska); các bước chưa được xác nhận.
+fa0510619f	Thuế GTGT 17% trên BAM 100.000; hàng xuất khẩu chịu thuế suất 0%.
+d1e588368c	Thu nhập toàn cầu chịu thuế cố định 10%; quy định khác nhau giữa các thực thể.
+a1f3464c6e	Có thể tự do; nhìn chung không có báo cáo về kiểm soát tiền tệ hạn chế.
+22abb0fbc9	Lična karta (thẻ căn cước), bắt buộc từ 18 tuổi.
+6c838b4b8b	Có, có giới hạn, qua Paddle.
+7e0fada1f3	Chỉ qua PayPal, điều chưa được xác nhận ở đây.
+d71375a54c	Dùng số dư ngoại tệ của bạn trước khi mua thêm ngoại tệ trong nước.
+ac93fe079d	TIN; cách nhận chưa được xác nhận.
+72ada01dcf	Đăng ký với CAIPO; các bước chưa được xác nhận.
+5955045c3c	Thuế GTGT 17,5% trên BBD 200.000; tăng lên BBD 350.000 từ tháng 10 năm 2026.
+2d1a4ffe1c	Thu nhập toàn cầu chịu thuế 0%, 12,5% hoặc 28,5%.
+fdc5bb1f0b	Có thể có; kiểm soát ngoại hối có thể ảnh hưởng đến việc quy đổi và chuyển tiền.
+f4ffa68710	Có: mở tài khoản ngoại tệ tự do tại ngân hàng từ năm 2019.
+e09a6f294f	Thẻ căn cước quốc gia, không bắt buộc nhưng cần cho các giao dịch với nhà nước.
+d43e5cfb36	Mở tài khoản ngoại tệ tại một ngân hàng thương mại (không hạn chế từ tháng 8 năm 2019) và giữ thu nhập USD của bạn ở đó.
+8377f83aba	Mở tài khoản ngoại tệ tại một ngân hàng thương mại (không hạn chế từ tháng 8 năm 2019) và giữ thu nhập USD của bạn ở đó. Hãy dùng số dư đó trước khi mua ngoại tệ trong nước (Ngân hàng Trung ương Barbados).
+2c42ff36f6	Có, qua Payoneer.
+66ddb93b86	Rút về ngân hàng của bạn hoặc bKash.
+19560a6ba9	Chi trả về ngân hàng của bạn bằng BDT.
+ba3ea00aa6	Để được miễn thuế, mọi khoản tiền kinh doanh phải đi qua chuyển khoản ngân hàng.
+c87155200b	Cổng thanh toán (OPGSP) chỉ được đưa về tối đa US$10.000 mỗi giao dịch.
+a449d7eb11	Bán hàng trực tuyến mà không có TIN hoặc giấy phép kinh doanh là vi phạm quy định thương mại số.
+a2ba1ecf49	TIN (e-TIN), đăng ký trực tuyến với NBR bằng thẻ căn cước quốc gia của bạn.
+a1580d7545	Không cần thành lập công ty, nhưng người bán trực tuyến phải có một mã số định danh như TIN.
+9cc4c7eba0	Thuế GTGT 15%; chỉ cần đăng ký khi doanh thu trên BDT 5 triệu mỗi năm.
+ef099101ef	Thu nhập từ freelance và sáng tạo nội dung được miễn thuế đến tháng 6 năm 2027 nếu nhận qua ngân hàng.
+e316afeef2	Có; đến $20.000 có thể chuyển đến mà không cần khai báo chính thức.
+c0214b2170	Có: giữ đến 50% thu nhập trong tài khoản ngoại tệ ERQ (freelancer ngành ICT).
+0cd4e63c39	SSLCOMMERZ nhận hộ kinh doanh cá thể và người bán trên Facebook; yêu cầu TIN hoặc NID.
+48752e4efc	Thu nhập freelance được miễn thuế đến tháng 6 năm 2027; giữ đến 50% bằng đô la.
+7483eb72b5	Luật Bảo vệ Dữ liệu Cá nhân 2026; bạn cần sự đồng ý rõ ràng để thu thập dữ liệu.
+1eb596563f	Hiển thị số định danh, điều khoản đầy đủ và quy định hoàn tiền trên trang bán hàng của bạn.
+fad50d4e05	Thẻ căn cước quốc gia thông minh (NID).
+17405b42fd	Thông tư tháng 7 năm 2026 của Bangladesh Bank chấp nhận bằng chứng điện tử (sao kê nền tảng, email) cho các khoản thu của freelancer.
+cac01efcf8	Thông tư tháng 7 năm 2026 của Bangladesh Bank chấp nhận bằng chứng điện tử (sao kê nền tảng, email) cho các khoản thu của freelancer. Bạn có thể giữ đến 50% thu nhập xuất khẩu ICT trong tài khoản ngoại tệ ERQ, và Payoneer cho rút về bKash.
+02dc9b7089	Số định danh quốc gia của bạn; doanh nghiệp của bạn được cấp mã số doanh nghiệp.
+341c649836	Đăng ký qua một quầy doanh nghiệp (khoảng €111,50) và tham gia một quỹ bảo hiểm xã hội.
+84382bf038	Thuế GTGT 21%; doanh nghiệp nhỏ dưới €25.000 mỗi năm được miễn.
+1676b2ff56	Thu nhập toàn cầu chịu thuế 25–50%, cộng thêm phụ thu của thành phố.
+57d430a05b	Chưa nghiên cứu ưu đãi riêng cho freelancer.
+b0467ce72e	eID (thẻ căn cước điện tử) hoặc hộ chiếu.
+b6ac6cfe34	Đề nghị khách hàng thanh toán bằng chuyển khoản ngân hàng quốc tế (SWIFT).
+c6cc04f2d7	Chưa được xác nhận cho người cư trú ở đây.
+85f9a909c9	Mọi thu nhập ngoại tệ từ nước ngoài phải được bán lại cho một ngân hàng được chấp thuận.
+720169fde2	IFU (Identifiant Financier Unique, mã định danh tài chính duy nhất), cấp qua CEFORE.
+265ae557e0	Thành lập doanh nghiệp cá thể tại một điểm một cửa CEFORE, thường trong 48–72 giờ.
+0ca4c32687	Thuế GTGT 18%; dịch vụ xuất khẩu được miễn; người nộp thuế nhỏ không thu thuế GTGT.
+11ebf55cd4	Dưới doanh thu FCFA 15 triệu, một khoản đóng góp cố định hằng năm cho doanh nghiệp siêu nhỏ (CME) bao gồm mọi loại thuế.
+d1b238d8e9	Có, nhưng ngoại tệ phải được bán lại cho một ngân hàng được chấp thuận.
+37bb1f1e00	Chỉ khi được Bộ trưởng Tài chính cho phép sau ý kiến của BCEAO.
+18562442d9	Không tìm thấy yêu cầu đăng ký của cổng thanh toán trong nước nào.
+f142e15283	Thuế CME cố định thấp, và miễn thuế môn bài 2 năm cho doanh nghiệp RSI.
+0ecec1cdba	Luật 001-2021: khai báo trước việc xử lý dữ liệu cá nhân với CIL.
+f367f1d4d5	Người mua dịch vụ có thể rút lại trong vòng 7 ngày làm việc.
+78ea380490	Thẻ căn cước quốc gia (CNIB), đang được thay bằng thẻ sinh trắc học AES.
+9e281f72d9	Đăng ký vào BULSTAT trong vòng 7 ngày kể từ khi bắt đầu làm việc.
+7b102287d0	UCN của bạn (số công dân 10 chữ số), hoặc LNCH đối với người nước ngoài cư trú.
+1c33535d38	Đăng ký vào BULSTAT trong vòng 7 ngày, sau đó với NRA trong 7 ngày tiếp theo.
+24fd25b12c	Thuế GTGT 20%; đăng ký trong vòng 7 ngày kể từ khi vượt doanh thu €51.130.
+dbaf0cdedf	Thuế thu nhập cố định 10%, cộng thêm khoảng 27,8% đóng góp xã hội tự đóng.
+b703dce054	Freelancer được trừ chi phí khoán 25%, nên thuế khoảng 7,5%.
+83ff59e13d	Лична карта (thẻ căn cước) hoặc hộ chiếu.
+34fba3d848	Chi trả về ngân hàng của bạn bằng BHD.
+a397bfe03a	Chỉ tài khoản cá nhân.
+c5967a1bef	Wise tại Bahrain chỉ dành cho tài khoản cá nhân, không dành cho doanh nghiệp.
+bfb1f93148	Không cấp TIN cho mục đích trao đổi thông tin; số CPR dùng để định danh bạn.
+8f14b6c380	Đăng ký với Bộ Công nghiệp, Thương mại và Du lịch; các bước chưa được xác nhận.
+fd0282cc22	Thuế GTGT 10% trên BHD 37.500 mỗi năm.
+fa1dd77f6d	Không có thuế thu nhập cá nhân.
+9755d018dc	Có, tự do; không có kiểm soát ngoại hối.
+3f2ce22619	Luật Bảo vệ Dữ liệu Cá nhân (Luật 30 năm 2018), có hiệu lực từ năm 2019.
+ea9050d5d1	Thẻ CPR (số cá nhân chín chữ số).
+880f7a8b51	Tài liệu cũ ghi BIF 100 triệu; ngưỡng thuế GTGT là BIF 25 triệu từ tháng 7 năm 2026.
+dca6d7059e	NIF; cách nhận chưa được xác nhận.
+6b1b1cb7d6	Công ty thành lập tại điểm một cửa của cơ quan đầu tư; cách đăng ký kinh doanh cá thể chưa được xác nhận.
+73ddd9daf0	Thuế GTGT 18%; ngưỡng đăng ký giảm xuống BIF 25 triệu từ tháng 7 năm 2026.
+d6dc1fbc86	Quy định cho cá nhân xuất khẩu dịch vụ chưa được xác nhận; quy định chuyển tiền về nước áp dụng cho nhà xuất khẩu.
+debfa0cae4	Một dự luật bảo vệ dữ liệu đã được Quốc hội thông qua vào tháng 1 năm 2026.
+bd68c369c3	Thẻ căn cước quốc gia (CNI).
+7d7d5d62f8	Bán sản phẩm số hoặc phần mềm qua một merchant of record (đơn vị bán hàng thay bạn): Paddle (chỉ phần mềm/SaaS; mỗi người bán đều được xét duyệt). Nền tảng là người bán hợp pháp đối với khách hàng của bạn, xử lý thanh toán thẻ và thuế GTGT/thuế bán hàng đối với người tiêu dùng, rồi chi trả cho bạn. Bạn vẫn phải khai báo các khoản chi trả là thu nhập của mình tại quốc gia của bạn.
+eb4e1b2162	Chi trả về ngân hàng của bạn bằng XOF.
+c53668c017	Thu nhập ngoại tệ từ nước ngoài phải được bán lại cho một ngân hàng được chấp thuận.
+05298459e6	IFU, cấp cùng với đăng ký kinh doanh trực tuyến của bạn.
+80844c88fb	Lập doanh nghiệp cá thể trực tuyến tại monentreprise.bj với FCFA 10.000 trong vài giờ.
+495c1e8376	Chưa được xác nhận; người nộp thuế TPS nhỏ được cho là không được thu thuế GTGT.
+cb5e87af17	Dưới doanh thu FCFA 50 triệu, áp dụng thuế tổng hợp TPS; mức thuế hiện tại chưa được xác nhận.
+4820479a3c	KKiaPay và FedaPay là các đơn vị tổng hợp thanh toán trong nước; điều kiện cho cá nhân chưa được xác nhận.
+f569c636c5	Doanh nghiệp cá thể mới được miễn thuế môn bài trong 12 tháng.
+ca5ad7b93a	Khai báo việc xử lý dữ liệu với APDP trước khi bắt đầu.
+e810b39828	Người mua có thể rút lại trong vòng 15 ngày làm việc.
+20b4051895	Thẻ căn cước quốc gia sinh trắc học hoặc CIP.
+eb797b2c45	Chi trả về ngân hàng của bạn bằng BND.
+65a337a073	Người nước ngoài không có thường trú (PR) không thể đăng ký kinh doanh cá thể.
+e32db9daa6	Không có TIN cho cá nhân; chỉ công ty bị đánh thuế.
+b023444192	Công dân và người thường trú (PR) đăng ký tên doanh nghiệp với ROCBN trực tuyến qua OCP.
+8619d2e38f	Không có thuế GTGT, GST hay thuế bán hàng.
+9272375d7b	Không có thuế thu nhập cá nhân, kể cả với thu nhập freelance.
+988cf7c9a5	Có, tự do; không có kiểm soát ngoại hối, dù việc dịch chuyển tiền tệ được giám sát.
+53e53680f9	Chưa được xác nhận; vì không có kiểm soát ngoại hối, tài khoản ngoại tệ nhiều khả năng được phép.
+3dbcf3b5a7	Không có thuế thu nhập cá nhân là lợi thế chính.
+1920ef3ff4	Personal Data Protection Order 2025, phần lớn có hiệu lực từ tháng 1 năm 2026.
+0696880bb5	Consumer Protection (Fair Trading) Act; quyền hủy giao dịch trực tuyến chưa được xác nhận.
+9289feedc2	NRIC (thẻ căn cước đăng ký quốc gia).
+810327a4f9	Chi trả về ngân hàng của bạn bằng BOB.
+846ddeae83	Giữ thu nhập từ nước ngoài ở nơi bạn thực sự rút được trong thời gian thiếu đô la.
+e5d3fb52f9	NIT; cách nhận chưa được xác nhận.
+72cc47a8cd	Đăng ký với SEPREC, cơ quan đăng ký thương mại; các bước chưa được xác nhận.
+7e2a94cb9c	Thuế GTGT 13%; đăng ký với SIN, không nêu ngưỡng.
+0ed294d9b0	Chỉ thu nhập có nguồn từ Bolivia chịu thuế; công việc làm tại Bolivia được tính, thường là 13% RC-IVA.
+1a918d1e2d	Khó: tình trạng thiếu đô la hạn chế việc rút tiền và chuyển tiền quốc tế.
+830b2283d2	Cédula de identidad (thẻ căn cước).
+5c1be91843	Rút về ngân hàng của bạn tại Brazil.
+9cf0a9891f	Dịch vụ có kết quả phát sinh tại Brazil bị đánh thuế, kể cả khi được trả từ nước ngoài.
+1151ae21bb	MEI chỉ áp dụng cho các nghề có trong danh sách; nhiều nghề chuyên môn được cho là bị loại trừ.
+ddee10efee	Khai báo tài sản ở nước ngoài trên US$1 triệu với Ngân hàng Trung ương (CBE).
+9064399cbf	CPF, mã số người nộp thuế do Receita Federal cấp.
+b17acc0681	Không bắt buộc: làm việc với tư cách autônomo, hoặc mở MEI nếu nghề của bạn đủ điều kiện.
+48185e041a	Chưa có thuế GTGT; dịch vụ xuất khẩu không chịu ISS nếu kết quả phát sinh ở nước ngoài.
+373eb56e4a	Nộp carnê-leão hằng tháng cho thu nhập nước ngoài; đến R$5.000 mỗi tháng trên thực tế được miễn thuế.
+0309c62cc8	Có; bạn thậm chí có thể giữ thu nhập xuất khẩu ở nước ngoài mà không cần quy đổi.
+7aa7f796fd	Ở nước ngoài thì có; tài khoản ngoại tệ trong nước cho cá nhân chưa được xác nhận.
+88129e385a	Mercado Pago mở tài khoản kinh doanh chỉ với CPF của bạn, không cần công ty.
+6b7f424895	Giữ thu nhập ở nước ngoài, không có ISS với xuất khẩu, và thuế 0 đến R$5.000 mỗi tháng.
+13c26a0ea2	LGPD, do ANPD giám sát; phạt đến R$50 triệu cho mỗi vi phạm.
+bc1b5d495b	Người mua có thể hủy giao dịch mua trực tuyến trong vòng 7 ngày; hãy hiển thị CPF hoặc CNPJ của bạn trên mạng.
+8e475173ec	Thẻ căn cước quốc gia (CIN), dùng số CPF của bạn.
+18bd264f0b	Chi trả về ngân hàng của bạn bằng BSD.
+ec5549fe35	Bạn không thể đơn giản giữ thu nhập USD trong nước để chi tiêu chung; cần sự chấp thuận của Ngân hàng Trung ương.
+930f436849	Thuế GTGT 10% trên BSD 100.000 trong bất kỳ 12 tháng nào.
+d5f1268ffa	Không có thuế thu nhập.
+8cd4e299d7	Kiểm soát ngoại hối áp dụng với người cư trú; quy định quy đổi chưa được xác nhận.
+011357e32d	Bị hạn chế: tài khoản ngoại tệ của người cư trú chỉ được dùng hạn chế và cần chấp thuận.
+a81777dbe7	Stripe (không chấp nhận doanh nghiệp ở đây); số dư Wise (người cư trú không được giữ tiền).
+984d76de79	Tài khoản ngoại tệ của người cư trú chỉ được phép cho doanh thu bằng ngoại tệ và nghĩa vụ với nước ngoài.
+e242ab9fec	Tài khoản ngoại tệ của người cư trú chỉ được phép cho doanh thu bằng ngoại tệ và nghĩa vụ với nước ngoài. Hãy đề nghị ngân hàng mở và phê duyệt một tài khoản cho thu nhập xuất khẩu của bạn (Ngân hàng Trung ương Bahamas), và giữ các hóa đơn chứng minh khoản tiền là doanh thu của bạn.
+27c70b6273	Chi trả về ngân hàng của bạn bằng BTN.
+734d50edea	Đăng ký với Bộ Công nghiệp, Thương mại và Việc làm; các bước chưa được xác nhận.
+6886ac68a2	GST 5% từ tháng 1 năm 2026; hàng xuất khẩu được miễn.
+ed96e7fd40	Các bậc được báo cáo: 0% đến BTN 300.000, tăng dần lên 25%.
+b682f69c12	Có: ngân hàng cung cấp tài khoản tiết kiệm ngoại tệ FC I cho người cư trú.
+6986d8cc1f	Thẻ công dân Bhutan (thẻ căn cước quốc gia điện tử).
+a4258111f0	Chi trả về ngân hàng của bạn bằng BWP.
+4e047f5c13	Đăng ký thuế với BURS; các bước nhận TIN chưa được xác nhận.
+6352d8b3b6	Đăng ký với CIPA; các bước chưa được xác nhận.
+2e8a03263d	Thuế GTGT 14% trên BWP 1 triệu mỗi năm.
+78a8d01efc	Thu nhập có nguồn từ Botswana chịu thuế: 0% đến BWP 48.000, lên đến 25%.
+78d2964dc3	Có, tự do; mọi kiểm soát ngoại hối đã được bãi bỏ từ năm 1999.
+49e2213122	Rất có thể, vì kiểm soát ngoại hối đã không còn; chưa được xác nhận.
+2622d098bf	Data Protection Act 2024: thông báo cho Ủy viên trước khi xử lý tự động.
+0292899fe5	Omang (thẻ căn cước quốc gia).
+4fdfe2014f	Không qua các nền tảng lớn.
+a9006dc7f6	Các lệnh trừng phạt khiến họ không phục vụ người cư trú.
+83859f0648	Không khả dụng cho người cư trú ở đây (lệnh trừng phạt).
+7a274dae99	Các lệnh trừng phạt chặn nhiều nền tảng; chúng tôi chỉ đề cập các cách hợp pháp.
+0eb307ed74	UNP (số tài khoản người nộp thuế); cách nhận chưa được xác nhận.
+2cbd1f0e0a	Thuế GTGT 20%; đăng ký khi bạn bắt đầu cung ứng chịu thuế.
+f7aa4e79ba	Thu nhập toàn cầu chịu thuế; doanh nhân cá thể trả 16% trên thu nhập kinh doanh.
+e98fc4b985	Các lệnh trừng phạt hạn chế kênh ngân hàng và quyền truy cập nền tảng; quy định tiền tệ chưa được xác nhận.
+4e2f0c2867	Thẻ căn cước quốc gia (từ năm 2021).
+1e1fb5202b	Stripe (không chấp nhận doanh nghiệp ở đây); khoản chi trả từ các trang trả tiền qua PayPal Payouts (PayPal không liệt kê quốc gia này); số dư Wise (người cư trú không được giữ tiền); các nền tảng freelance và thanh toán lớn (lệnh trừng phạt hoặc quy định của đối tác).
+544d78ffda	Các nền tảng này loại trừ người cư trú, vì lệnh trừng phạt hoặc vì lý do đối tác thanh toán tùy theo quốc gia. Dùng tài khoản của người khác, địa chỉ nước ngoài hoặc VPN để giả như ở nơi khác là vi phạm điều khoản của họ, có nguy cơ bị phong tỏa tiền, và có thể vi phạm luật trừng phạt. Đừng làm vậy. Các lựa chọn hợp pháp chỉ giới hạn trong những gì ngân hàng trong nước và các kênh trong nước được cấp phép cho phép, và chúng thay đổi theo chính sách trừng phạt, vì vậy hãy kiểm tra tình trạng hiện tại trước khi dựa vào bất kỳ cách nào.
+b60d5329bc	Dưới US$50.000 mỗi năm, nhiều khả năng bạn sẽ phải quy đổi thu nhập sang BZD.
+549e6cfe06	TIN do Belize Tax Service Department cấp.
+d83777a00f	Đăng ký với BCCAR; các bước chưa được xác nhận.
+01a364ca21	Chỉ thu nhập có nguồn từ Belize chịu thuế; được báo cáo là 0% đến BZD 26.000, sau đó 25%.
+fea8489b32	Bị hạn chế: bạn cần được cho phép, và người có thu nhập nhỏ có thể không đủ điều kiện.
+88ccacb875	Tài khoản ngoại tệ của người cư trú cần sự cho phép của Ngân hàng Trung ương, nộp hồ sơ qua ngân hàng của bạn.
+a23b6d97be	Tài khoản ngoại tệ của người cư trú cần sự cho phép của Ngân hàng Trung ương, nộp hồ sơ qua ngân hàng của bạn; một chủ thể đủ điều kiện khi có US$50.000 giao dịch ngoại tệ mỗi năm. Dưới mức đó, hãy nhận tiền vào tài khoản BZD và giữ hóa đơn (Chỉ thị 10 của Ngân hàng Trung ương Belize).
+18c66fa60c	Chi trả về ngân hàng của bạn bằng CAD.
+be2fccf766	Khoản thanh toán của khách hàng nước ngoài được tính vào ngưỡng GST CAD 30.000.
+8b82caf38a	Canada cấp mã số thuế cho người cư trú; freelancer dùng loại nào chưa được xác nhận.
+107585e120	Người kinh doanh cá thể chỉ cần Business Number của CRA cho GST/HST.
+6a64edb240	GST 5%; đăng ký khi trên CAD 30.000 mỗi năm, tính cả doanh thu nước ngoài.
+0b5741213d	Thu nhập toàn cầu chịu thuế liên bang 14–33%, cộng thêm thuế tỉnh.
+a2471c1bef	Có, tự do; Canada không có kiểm soát ngoại hối từ năm 1951.
+d99a7ac640	Có: các ngân hàng như RBC và TD cung cấp tài khoản đô la Mỹ cá nhân.
+c100713059	PIPEDA áp dụng cho doanh nghiệp xử lý thông tin cá nhân.
+cdd26d326e	Có luật bảo vệ người tiêu dùng trực tuyến; quy định hoàn tiền cụ thể chưa được xác nhận.
+801498ec4c	Giấy phép lái xe, giấy tờ có ảnh do tỉnh cấp hoặc hộ chiếu.
+1f8625c4d9	Hướng dẫn cũ nói thu nhập nước ngoài không bị đánh thuế; điều đó đã thay đổi từ tháng 1 năm 2026.
+6e80dddb71	Thời hạn hoàn tiền chỉ là 72 giờ, không phải 14 ngày.
+7035913823	Mã số thuế được cấp tại GUCE khi đăng ký kinh doanh.
+f628830354	Đăng ký qua điểm một cửa GUCE; chi phí và thời gian thực tế rất khác nhau.
+41b6d91853	Thuế GTGT 16% trên doanh thu CDF 80 triệu; cách xử lý dịch vụ xuất khẩu chưa được xác nhận.
+e3968e54ea	Từ năm 2026, thu nhập toàn cầu bị đánh thuế; doanh nghiệp siêu nhỏ dưới CDF 25 triệu trả cố định USD 30.
+b3487ccc4d	Có; người xuất khẩu dịch vụ không phải bán lại thu nhập ngoại tệ.
+ff6f575421	Có: ngân hàng mở tài khoản ngoại tệ tự do; tài khoản USD rất phổ biến.
+dac62504b2	Tiền di động rất phổ biến; không tìm thấy cổng thanh toán nào cho cá nhân bán hàng trực tuyến.
+a575878963	Không có ưu đãi cho freelancer; doanh nghiệp siêu nhỏ trả cố định USD 30.
+b40ca3ac30	Bộ luật Kỹ thuật số: khai báo việc xử lý dữ liệu trước khi bắt đầu; cơ quan quản lý chưa được thành lập.
+b0d2fa4879	Người mua chỉ có 72 giờ để rút lại.
+96830bb17f	Thẻ cử tri (không có thẻ căn cước quốc gia từ năm 1997).
+9781b721a0	Khai báo mọi tài khoản bạn có ở nước ngoài với BEAC.
+2347cfb845	NIF do cơ quan quản lý thuế (DGI) cấp.
+952c753211	Đăng ký doanh nghiệp cá thể tại điểm một cửa GUFE ở Bangui.
+522fd341d6	Thuế GTGT 19% từ doanh thu FCFA 30 triệu; hàng xuất khẩu chịu thuế suất 0%.
+a5a4bbfd99	Được báo cáo: một chế độ khoán cơ bản dưới doanh thu FCFA 30 triệu.
+d248c42885	Có, nhưng chịu kiểm soát ngoại hối của CEMAC; chuyển thu nhập về nước qua ngân hàng của bạn.
+4d53b10d82	Không: người cư trú không thể mở tài khoản ngoại tệ trong nước; hãy khai báo tài khoản ở nước ngoài.
+c79b6c0e36	Orange Money là ví chính; chưa xác nhận được việc đăng ký cổng thanh toán trực tuyến nào.
+e3fd7385ad	Luật 24-001 về dữ liệu cá nhân; chuyển dữ liệu ra nước ngoài cần mức bảo vệ tương đương.
+0dd108b37f	Không tìm thấy luật thương mại điện tử; áp dụng chỉ thị về người tiêu dùng của CEMAC.
+81cb1bf98d	NIU do Tổng cục Thuế (DGID) cấp, ghi trên hóa đơn của bạn.
+ad8652113f	Đăng ký qua ACPCE, điểm một cửa, nay cũng có trực tuyến.
+429632f5ac	Thuế GTGT 18,9% trên doanh thu FCFA 100 triệu; không tìm thấy thuế suất 0% cho dịch vụ xuất khẩu.
+76b3e3163c	Thu nhập toàn cầu chịu thuế; dưới doanh thu FCFA 100 triệu, áp dụng chế độ khoán IGF.
+354ae3691c	MTN MoMo và Airtel Money chiếm ưu thế; không tìm thấy cổng thanh toán cho cá nhân.
+869bd8eaba	Không có ưu đãi cho freelancer; chế độ khoán IGF là cách đơn giản hóa chính.
+015000b68f	Luật 29-2019: khai báo việc xử lý dữ liệu với ủy ban bảo vệ dữ liệu.
+a23e2844ab	Có luật thương mại điện tử 37-2019, nhưng không tìm thấy quy định hoàn tiền của luật này.
+5249b09f10	Chi trả về ngân hàng của bạn bằng CHF.
+5b84ef1c86	Khoản thanh toán của khách hàng nước ngoài được tính vào ngưỡng thuế GTGT CHF 100.000.
+87d9918b3b	Tiền phạt về bảo vệ dữ liệu nhắm vào cá nhân bạn, không phải doanh nghiệp của bạn.
+cfea6ce499	Số UID cho pháp nhân; mã số thuế của cá nhân chưa được xác nhận.
+66ffc021a4	Chỉ đăng ký vào sổ đăng ký thương mại khi doanh thu trên CHF 100.000; cũng phải đăng ký với AHV.
+2f80d080d5	Thuế GTGT 8,1% khi doanh thu toàn cầu đạt CHF 100.000.
+770c16996e	Thu nhập toàn cầu chịu thuế theo mức liên bang, bang và thành phố, cộng thêm thuế tài sản.
+82f41e9e57	Có, tự do; không có kiểm soát ngoại hối.
+1c91bd3213	Có: tài khoản bằng bất kỳ loại tiền nào, tại Thụy Sĩ hoặc ở nước ngoài.
+0b3f376f22	FADP sửa đổi từ năm 2023; mức phạt đến CHF 250.000 áp lên cá nhân.
+e474c97498	Thẻ căn cước Thụy Sĩ hoặc hộ chiếu.
+a4eae3d1da	Rút bằng franc CFA về một ngân hàng tại Bờ Biển Ngà.
+7c305acadc	Ở đây chỉ gửi được: không rút về ngân hàng trong nước.
+242c13aa29	Kết nối Paystack để nhận tiền.
+a4073d399c	Có qua Paystack, một công ty của Stripe.
+f2de5f1af3	Wise không khả dụng cho người cư trú, dù có hướng dẫn gọi đó là kênh chính thức.
+1ccef60044	Tài khoản người nộp thuế, cấp cùng với tờ khai hiện diện thuế (DFE) tại CEPICI.
+4bd41e79aa	Đăng ký làm entreprenant tại điểm một cửa CEPICI, thường trong 24–48 giờ.
+2cd1ebbcb7	Người nộp thuế entreprenant dưới FCFA 50 triệu không thu thuế GTGT.
+6c262bf004	Thuế doanh thu cho entreprenant: 2,5% cho dịch vụ đến FCFA 5 triệu, 5% đến FCFA 50 triệu.
+4a9bd5ff50	Paystack Starter chấp nhận cá nhân chưa đăng ký kinh doanh, có giấy tờ tùy thân và tài khoản tiền di động hoặc ngân hàng.
+ccd3943a27	Thuế doanh thu thấp thay cho thuế GTGT và thuế lợi nhuận; doanh nghiệp khởi nghiệp có thể được miễn ba năm.
+761280621b	Luật 2013-450: khai báo việc xử lý dữ liệu cá nhân với ARTCI.
+cb54d05256	Được báo cáo: 10 ngày làm việc để trả hàng; chưa được xác nhận từ văn bản luật.
+38de4eb11a	Thẻ căn cước quốc gia (CNI) hoặc hộ chiếu.
+2bb18c73ee	PayPal (không khả dụng); số dư Wise (người cư trú không được giữ tiền).
+b95471574d	Nhận thanh toán thẻ bằng Paystack
+a4d917ef50	Paystack, một công ty của Stripe, có phục vụ quốc gia này.
+f4a8413723	Thanh toán thẻ trên trang web của bạn qua Paystack (một công ty của Stripe). Stripe liệt kê quốc gia này trong mạng lưới mở rộng của mình.
+c1952ed7fb	Chi trả về ngân hàng của bạn bằng CLP.
+ca63ed8033	Mức khấu trừ phí tăng lên 16% năm 2027 và 17% năm 2028.
+d8112ea569	RUT, mã số đăng ký thuế quốc gia.
+4e03d78c83	Nộp "inicio de actividades" (khai báo bắt đầu hoạt động) với SII trực tuyến trong vòng 2 tháng kể từ khi bắt đầu.
+1eb64d6060	Thuế GTGT 19%; bạn đăng ký với SII khi bắt đầu, không có ngưỡng.
+df59d983de	Thu nhập toàn cầu chịu Thuế Bổ sung Toàn cầu lũy tiến.
+02ddec2ecf	Có, tự do; không có kiểm soát hạn chế đối với thu nhập từ nước ngoài.
+662e482d70	Có: các ngân hàng như Santander và Banco de Chile cung cấp tài khoản vãng lai bằng đô la.
+9d4b6d612b	Không có ưu đãi đặc biệt cho freelancer; mức khấu trừ boleta là 15,25% năm 2026, quyết toán hằng năm.
+44d7ae75c8	Có luật bảo vệ người tiêu dùng trực tuyến; thời hạn hoàn tiền chưa được xác nhận.
+e211aef449	Cédula de identidad (thẻ căn cước quốc gia).
+39bc7b2795	Bạn có thể nhận, nhưng không thể rút về ngân hàng trong nước.
+ea79fc3987	Số dư PayPal không thể rút về ngân hàng tại Cameroon.
+46ed6cb241	Mã số người nộp thuế NIU, chỉ đăng ký trực tuyến qua DGI bằng số thẻ căn cước của bạn.
+f06309caaf	Đăng ký doanh nghiệp cá thể tại điểm một cửa CFCE, khoảng FCFA 46.500.
+972528d9b5	Thuế GTGT 19,25%; người nộp thuế IGS không thu thuế này; hàng xuất khẩu chịu thuế suất 0%.
+89464d0b44	Đến doanh thu FCFA 50 triệu, thuế đơn nhất IGS thay thế thuế thu nhập và thuế GTGT.
+21b946b24f	Tài khoản người bán tiền di động được cho là cần đăng ký RCCM và NIU.
+50fcafa2d9	Thuế đơn nhất IGS đến FCFA 50 triệu là cách đơn giản hóa chính.
+3ae9898fca	Luật bảo vệ dữ liệu 2024/017, có hiệu lực từ tháng 6 năm 2026.
+2f48d344e4	Người mua có thể rút lại trong vòng 15 ngày kể từ khi nhận hàng.
+29811d49ff	Hoạt động, với các hạn chế bổ sung của PayPal cho Trung Quốc.
+0d527e9b1c	Trên USD 50.000 mỗi năm, bạn cần hợp đồng để quy đổi thu nhập từ nước ngoài.
+0eec0b2f1f	Người nước ngoài không thể đăng ký hộ kinh doanh cá thể.
+eef5b29ddd	Pháp nhân dùng Mã Tín dụng Xã hội Thống nhất; mã số của cá nhân chưa được xác nhận.
+3d0697fc9f	Đăng ký hộ kinh doanh cá thể; người bán trực tuyến rất nhỏ dưới RMB 100.000 có thể được miễn.
+a3a4955c86	Thuế GTGT quy mô nhỏ 1% đến năm 2027; miễn đến RMB 100.000 mỗi tháng.
+ac8004fdb5	Thu nhập toàn cầu chịu thuế; thù lao freelance 3–45%, thu nhập kinh doanh 5–35%.
+ce6a11bd1d	Có, nhưng quy đổi trên USD 50.000 mỗi năm cần giấy tờ.
+40e8a8edc3	Có: ngân hàng cung cấp tài khoản tiết kiệm ngoại tệ; hạn mức quy đổi vẫn áp dụng.
+65b3d19e6b	Bán hàng trong nước chạy trên Alipay và WeChat Pay; chưa được nghiên cứu.
+d247c94cd4	Ưu đãi thuế GTGT quy mô nhỏ: thuế suất 1% và miễn thuế theo tháng.
+46637bd835	PIPL từ năm 2021; phạt đến RMB 50 triệu hoặc 5% doanh thu.
+62204f7613	Người mua trực tuyến có thể trả hàng trong vòng 7 ngày mà không cần lý do.
+1fe644e3fd	Thẻ căn cước cư dân (居民身份证).
+15ecfb0820	PayPal, có giới hạn
+baf796c93a	Chi trả về ngân hàng của bạn bằng COP.
+dfb36a17c3	Rút bằng peso hoặc USD về một ngân hàng tại Colombia.
+8fa55f5af6	Wompi chi trả lần đầu cho cá nhân 30 ngày sau lần bán đầu tiên.
+4a52f1e140	Miễn IVA cho xuất khẩu cần khách hàng không có hoạt động kinh doanh tại Colombia.
+efacb4996a	NIT, được cấp khi bạn đăng ký vào RUT.
+be7d8d9711	Đăng ký vào RUT với DIAN, miễn phí trực tuyến bằng cédula của bạn.
+6476057888	IVA (thuế GTGT) 19%; dịch vụ chỉ sử dụng ở nước ngoài được miễn; dưới 3.500 UVT, không có nghĩa vụ IVA.
+47a656ccf3	Thu nhập toàn cầu chịu thuế 0–39%; Régimen Simple bắt đầu từ 5,9% cho dịch vụ.
+626d113871	Có, tự do; xuất khẩu dịch vụ không bắt buộc đi qua thị trường ngoại hối chính thức.
+d80e42bc85	Không: tài khoản đô la tại Colombia không được phép, nhưng tài khoản ở nước ngoài thì được.
+61729e0c31	Wompi chấp nhận cá nhân bằng RUT hoặc cédula, kèm tài khoản Bancolombia hoặc Nequi.
+b5f6e4ef8f	Régimen Simple ở mức 5,9%, miễn IVA cho xuất khẩu, và không có IVA dưới 3.500 UVT.
+f159f72528	Áp dụng Ley 1581; cá nhân và doanh nghiệp nhỏ không cần đăng ký cơ sở dữ liệu.
+39aaf9ced1	Người mua có thể rút lại trong vòng 5 ngày làm việc kể từ khi giao hàng (retracto).
+993ccdd939	Cédula de ciudadanía (thẻ căn cước quốc gia).
+394bc3d569	Chi trả về ngân hàng của bạn bằng CRC.
+847f79ff98	Dịch vụ bạn thực hiện từ Costa Rica chịu thuế, kể cả cho khách hàng nước ngoài.
+5a07572bf6	Không có TIN theo đúng nghĩa; bất kỳ ai có thu nhập đều phải đăng ký với Cơ quan Quản lý Thuế.
+6fe03cad3f	Đăng ký làm người hành nghề độc lập với Hacienda trên nền tảng TRIBU-CR.
+29629260a9	Thuế GTGT 13%; ngưỡng trong nước và cách xử lý xuất khẩu chưa được xác nhận.
+78e24880d9	Chỉ thu nhập có nguồn từ Costa Rica chịu thuế, bao gồm công việc làm tại đó cho khách hàng nước ngoài.
+bd743cb5a4	Lệnh cấm vận của Mỹ chặn hầu hết nền tảng thanh toán; chúng tôi chỉ đề cập các cách hợp pháp.
+4bff7c3fd1	Carné de Identidad và NIT; cách nhận chưa được xác nhận.
+f622b46dee	Các lệnh trừng phạt chặn hầu hết nền tảng và ngân hàng liên quan đến Mỹ; quy định tiền tệ chưa được xác nhận.
+6765a7a425	Carnet de identidad (thẻ căn cước), bắt buộc từ 16 tuổi.
+fa2e3aa88f	Stripe (không chấp nhận doanh nghiệp ở đây); PayPal (không khả dụng); số dư Wise (người cư trú không được giữ tiền); các nền tảng freelance và thanh toán lớn (lệnh trừng phạt hoặc quy định của đối tác).
+2718a187f5	Công ty thành lập trong một ngày tại Casa do Cidadão (khoảng USD 100); cách đăng ký kinh doanh cá thể chưa được xác nhận.
+7597de9232	Thuế GTGT 15%; người nộp thuế REMPE trả thuế hợp nhất 4% thay thế.
+b87e3db92e	Thu nhập toàn cầu chịu thuế; doanh nghiệp nhỏ có thể trả thuế hợp nhất 4% (REMPE).
+49230bab57	Chưa được xác nhận; đồng escudo được neo vào đồng euro.
+6b52c0739a	Chưa được xác nhận; có quy định về tài khoản ngoại tệ của người cư trú.
+15aed397b2	Thuế hợp nhất 4% trên doanh số của REMPE là cách đơn giản hóa chính.
+1bb1077af6	Chế độ bảo vệ dữ liệu do CNPD giám sát.
+5929e0c3cf	Cartão Nacional de Identificação (CNI, thẻ căn cước quốc gia).
+0725a24f61	Bán dịch vụ B2B cho khách hàng EU phải đăng ký thuế GTGT bất kể doanh thu.
+d031b78297	Bảo hiểm xã hội cho người tự kinh doanh là 16,6% thu nhập đóng bảo hiểm.
+745923fe66	TIN do Tax Department cấp; bạn phải tự đăng ký, không tự động.
+f56440031c	Đăng ký với Tax Department và Social Insurance Service; các bước chưa được xác nhận.
+04e3ab7010	Thuế GTGT 19% trên €15.600, nhưng dịch vụ B2B trong EU phải đăng ký ngay từ đầu.
+1eabdfe914	Thu nhập toàn cầu chịu thuế; 0% đến €22.000, lên đến 35%, cộng thêm bảo hiểm xã hội.
+70fd4442f8	Thẻ căn cước hoặc hộ chiếu.
+ded67024af	Khách hàng thanh toán qua PayPal (có trong danh sách Payouts của PayPal với trạng thái 'Send, receive, and withdraw in local currency').
+837e8d5e07	Chi trả về ngân hàng của bạn bằng CZK.
+40236e50c0	Vượt CZK 2.536.500 khiến bạn trở thành người nộp thuế GTGT ngay từ ngày hôm sau.
+c5d0fbd909	Số định danh cá nhân của bạn, cho đến khi bạn đăng ký thuế GTGT.
+ebb63f71a7	Xin giấy phép kinh doanh (živnostenský list) với CZK 1.000 và trở thành OSVČ (người tự kinh doanh).
+d2cd6a5bcb	Thuế GTGT 21% khi doanh thu tại Séc vượt CZK 2 triệu mỗi năm.
+cdec77a736	Thu nhập toàn cầu chịu thuế 15%, và 23% trên khoảng CZK 1,76 triệu.
+9e36236288	Chế độ khoán: một khoản đóng hằng tháng bao gồm thuế thu nhập và bảo hiểm, đến CZK 2 triệu.
+f082bd1866	Občanský průkaz (thẻ căn cước) hoặc hộ chiếu.
+53ec91cf7d	Rút khỏi chế độ Kleinunternehmer sẽ ràng buộc bạn trong năm năm.
+8cfb2a84e7	Đăng ký với Finanzamt trong khoảng một tháng kể từ khi bắt đầu.
+8bd39ecc83	Mã số thuế (Steuer-ID) do Cục Thuế Trung ương Liên bang cấp.
+a4e51cd83f	Freelancer đăng ký với Finanzamt qua ELSTER trong vòng một tháng; người kinh doanh thương mại cũng đăng ký Gewerbe.
+e9eba6c321	Thuế GTGT 19%; không có thuế GTGT nếu năm trước dưới €25.000 theo chế độ Kleinunternehmer.
+d7402f0da6	Thu nhập toàn cầu chịu thuế lũy tiến đến 45%, cộng thêm phụ thu đoàn kết.
+a81c18fe9a	Có: nhiều ngân hàng cung cấp tài khoản phụ bằng ngoại tệ (Fremdwährungskonto).
+49694c1ac4	Chế độ Kleinunternehmer: không có thuế GTGT trên hóa đơn dưới €25.000 mỗi năm.
+ca70f89ec4	Nộp lệ phí giấy phép kinh doanh hằng năm (patente); các bước đăng ký chưa được xác nhận.
+a0947f30e7	Thuế GTGT 10% cho doanh thu trên DJF 10–20 triệu; hàng xuất khẩu được miễn.
+917f627091	Lợi nhuận kinh doanh chỉ bị đánh thuế với hoạt động tại Djibouti; quy định cho cá nhân chưa được xác nhận.
+fc7b76f0ff	Có, tự do; không hạn chế ngoại hối, và đồng franc được neo vào đô la.
+0cfa206ad7	Rất có thể, vì không có kiểm soát ngoại hối; chưa được xác nhận.
+cf2bf952c1	Bộ luật Kỹ thuật số 2025 bao gồm dữ liệu cá nhân; ủy ban của bộ luật chưa được thành lập.
+68a754256a	Thẻ căn cước quốc gia.
+10cead32e4	Chi trả về ngân hàng của bạn bằng DKK.
+5cdd544ee9	Số CPR của bạn là mã số thuế của bạn.
+6c6b1d5b0b	Đăng ký trên Virk.dk để nhận số CVR; bạn cần có số CPR.
+70799f6d8d	Thuế GTGT 25% khi doanh thu vượt DKK 50.000 mỗi năm.
+07df231beb	Thu nhập toàn cầu chịu thuế, đến khoảng 57% (60,5% tính cả thuế thị trường lao động).
+55183c1248	Hộ chiếu hoặc giấy phép lái xe.
+8937555978	Đăng ký với CIPO và Inland Revenue Division; các bước chưa được xác nhận.
+fd8cebf4d4	Thuế GTGT 15% trên XCD 250.000 mỗi năm; hàng xuất khẩu chịu thuế suất 0%.
+a4c9fbea7d	Thu nhập toàn cầu chịu thuế: khoản giảm trừ XCD 30.000, sau đó 15–35%.
+d203ddd53c	Thẻ căn cước quốc gia đa năng, không bắt buộc với công dân.
+51c8eca36e	Chi trả về ngân hàng của bạn bằng DOP.
+0b331190af	RNC; với người Dominica đó là số cédula, đăng ký miễn phí trực tuyến.
+6736da4f42	Đăng ký vào RNC với DGII, như mọi người nộp thuế.
+349081230e	ITBIS (thuế GTGT) 18%; đăng ký qua đăng ký thuế chung; hàng xuất khẩu 0%.
+9178c1e0c1	Hệ thống theo lãnh thổ: mức thuế từ 0% đến 25%; lãi đầu tư ở nước ngoài bị đánh thuế sau năm thứ ba.
+1b6ada197e	Có, tự do; bạn có thể mua và bán ngoại tệ tại ngân hàng.
+5e67892dae	Có: ngân hàng cung cấp tài khoản đô la và euro.
+3024875287	Cédula de identidad y electoral (thẻ căn cước kiêm thẻ cử tri).
+256fb55d8d	Có, có giới hạn, qua PayPal.
+6e9f55f79b	Để nhận tiền cần thẻ nước ngoài hoặc ngân hàng Mỹ; việc rút tiền bị giới hạn.
+db2b79ae22	Chi trả về ngân hàng của bạn bằng DZD.
+1c8da7251d	Được dùng rộng rãi, nhưng việc rút về dinar bị hạn chế.
+3f8f241707	Chuyển tiền về nước trong vòng 120 ngày; các hướng dẫn trước tháng 8 năm 2026 vẫn ghi 360.
+2d1e265ea1	Việc rút tiền PayPal tại Algeria chưa rõ ràng; không có danh sách chính thức các thẻ dùng được.
+6756ed9440	Mã số thuế NIF, cộng thêm đăng ký CASNOS cho auto-entrepreneur.
+5337a466cf	Auto-entrepreneur: đăng ký trực tuyến với ANAE, doanh thu dưới khoảng DZD 5 triệu mỗi năm.
+24d4d28bfe	Thuế GTGT 19%; khoản IFU 0,5% của auto-entrepreneur đã bao gồm thuế này.
+a7ff90c226	Auto-entrepreneur trả IFU 0,5% trên doanh thu thay cho thuế thu nhập và thuế GTGT.
+ee09c8a68b	Có, nhưng phải đưa thu nhập xuất khẩu về một ngân hàng Algeria trong vòng 120 ngày.
+a83be1d1e2	Có: tài khoản ngoại tệ nghề nghiệp giữ 100% thu nhập dịch vụ chuyển về nước.
+a3a0355790	Chargily Pay chấp nhận thẻ CIB và EDAHABIA trong nước; chưa nhận thẻ quốc tế.
+64e3d51610	Thuế auto-entrepreneur 0,5% và được giữ 100% ngoại tệ đối với xuất khẩu dịch vụ.
+a715ad5947	Luật 18-07: khai báo trước việc xử lý dữ liệu với ANPDP.
+4a8256a743	Luật 18-05: hiển thị số đăng ký của bạn; được trả hàng khi giao trễ.
+76e3d905fd	Thẻ căn cước quốc gia sinh trắc học (CNI) kèm số NIN của bạn.
+321138a979	Chi trả về ngân hàng của bạn bằng USD.
+fb8cde178a	Gửi tiền ra nước ngoài bị đánh thuế xuất vốn 5% (ISD).
+d33e8cb243	SRI chuyển người nộp thuế giữa các hạng RIMPE hằng năm; hãy kiểm tra RUC của bạn.
+ed53cd6967	RUC (Sổ đăng ký Người nộp thuế Duy nhất) do SRI cấp.
+94c5351c68	Đăng ký với SRI (Servicio de Rentas Internas); các bước chưa được xác nhận.
+ce50ea150e	Thuế GTGT 15%; ngưỡng trong nước và quy định xuất khẩu chưa được xác nhận.
+9ec2327c98	Người cư trú cũng bị đánh thuế thu nhập nước ngoài, có khấu trừ thuế đã nộp.
+be2b6f2f63	Không cần: Ecuador dùng đô la Mỹ, nên tài khoản trong nước là bằng đô la.
+8bbd96793c	RIMPE: chế độ đơn giản cho thu nhập đến USD 300.000.
+4bcb7c0812	e-Residency không cho phép bạn làm FIE từ nước ngoài.
+a6cc7e5bd2	Tài khoản doanh nhân đánh thuế trên tổng thu; không được trừ chi phí.
+8293ef09d4	Mã định danh cá nhân của bạn.
+306f4cbfc6	Đăng ký kinh doanh cá thể (FIE) trực tuyến với €13; bạn phải sống tại Estonia.
+44532f6b5d	Thuế GTGT 24% khi doanh thu tại Estonia vượt €40.000 mỗi năm.
+6eb9d7477b	Thu nhập toàn cầu chịu thuế cố định 22%, cộng thêm thuế xã hội cho người tự kinh doanh.
+ae081c36f0	Tài khoản doanh nhân tại LHV: cố định 20% trên khoản thu, không cần sổ sách, đến €40.000.
+cb023bcd97	ID-kaart (thẻ căn cước) hoặc hộ chiếu.
+f5a6dc419a	Có dịch vụ; các cách rút tiền chưa được xác nhận.
+d73fda9480	Chi trả về ngân hàng của bạn bằng EGP.
+8878d0c631	PayPal hoạt động ở đây, nhưng việc nhận và rút tiền chưa được xác nhận.
+8781ba45ee	Nhà tư vấn có 90% thu nhập từ một hoặc hai khách hàng không thể dùng chế độ đơn giản.
+511d223bd7	Nhà xuất khẩu phải đăng ký thuế GTGT kể cả dưới EGP 500.000 mỗi năm.
+5aa04b2d70	Các nền tảng trả tiền qua PayPal Payouts không thể chi trả vào tài khoản tại Ai Cập.
+542261d32e	Mã số đăng ký thuế trên thẻ thuế do Cơ quan Thuế Ai Cập cấp.
+e8523ce421	Đăng ký thuế trong vòng 30 ngày kể từ khi bắt đầu, tại cơ quan thuế hoặc trực tuyến.
+faf547f430	Thuế GTGT 14%; nhà xuất khẩu phải đăng ký thuế GTGT bất kể doanh thu.
+c6ce51a834	Thu nhập từ khách hàng nước ngoài chịu thuế; dưới EGP 20 triệu, có thuế doanh thu đơn giản 0,4–1,5%.
+8a341bd185	Có; bạn có thể giữ toàn bộ ngoại tệ nhận được, không bị buộc quy đổi.
+138cae829f	Có: ngân hàng nhận tiền gửi ngoại tệ; mỗi ngân hàng tự đặt hạn mức rút tiền mặt.
+d8143daa46	Paymob được cấp phép và có thể chấp nhận cá nhân có thẻ căn cước quốc gia; hãy hỏi họ trước.
+2ad384b2ae	Thuế doanh thu đơn giản (0,4–1,5%) và thuế GTGT bằng 0 cho dịch vụ xuất khẩu.
+cb453e6ef9	Luật dữ liệu 151/2020: bắt buộc có giấy phép từ tháng 11 năm 2026, khi thời gian ân hạn kết thúc.
+50634c32ca	Người mua có thể trả hàng trong vòng 14 ngày; hãy hiển thị thông tin thẻ thuế của bạn trên mạng.
+26b2510f5b	Thẻ căn cước quốc gia.
+2723c7b774	Luật Ai Cập cho phép mọi người giữ ngoại tệ họ nhận được (Luật 194/2020 điều 212), và ngân hàng cung cấp tài khoản ngoại tệ.
+67f6bfe9a5	Sử dụng ngoại tệ trái phép có thể bị xử phạt; hãy kiểm tra với Ngân hàng Eritrea.
+e9d1a9324a	Không có thuế GTGT; các mức thuế bán hàng được báo cáo không thống nhất.
+1e96517cb9	Được báo cáo: thuế lũy tiến từ 2% đến 30%; doanh nghiệp nhỏ trả thuế khoán.
+18d1319c4c	Chưa được xác nhận; có báo cáo về kiểm soát ngoại hối nghiêm ngặt và tỷ giá chính thức cố định.
+3603b4a200	Không có luật bảo vệ dữ liệu; quyền riêng tư trong Hiến pháp là sự bảo vệ duy nhất.
+b7912d8ac2	Không có ngưỡng thuế GTGT: thu thuế GTGT 21% ngay từ hóa đơn đầu tiên.
+31ca909047	Đăng ký với Bảo hiểm xã hội (RETA) trước khi bắt đầu làm việc.
+a192151782	NIF: mã số thuế chín ký tự kết thúc bằng một chữ cái kiểm tra.
+b324f2408f	Đăng ký làm autónomo với cơ quan thuế (modelo 036) và Bảo hiểm xã hội trước khi bắt đầu.
+7a75d11d17	Thuế GTGT 21% từ hóa đơn đầu tiên: Tây Ban Nha không có miễn trừ cho doanh nghiệp nhỏ.
+4e414a3a34	Thu nhập toàn cầu chịu thuế theo mức lũy tiến của nhà nước và vùng.
+c869dae9d3	Có: BBVA, Santander và các ngân hàng số cung cấp tài khoản đô la.
+e94c5efb65	Autónomo mới đóng Bảo hiểm xã hội €80 mỗi tháng trong năm đầu tiên.
+85b5caf6ca	DNI (thẻ căn cước quốc gia) hoặc hộ chiếu.
+02150cccda	Chi trả về ngân hàng của bạn bằng ETB.
+fb81be0a2e	Tài khoản ở đây chỉ gửi tiền và mua sắm được, không nhận được.
+231221b80f	Nếu không có TIN và giấy phép, bên trả tiền khấu trừ 30% thay vì 3%.
+ef5ac596d9	Ngân hàng có thể yêu cầu TIN và giấy phép kinh doanh để mở tài khoản giữ ngoại tệ.
+1282248ad2	Tài khoản PayPal tại Ethiopia chỉ gửi tiền và mua sắm được, không nhận được.
+7c2b1b45ec	TIN do Bộ Thu ngân sách cấp, liên kết với định danh số Fayda của bạn.
+a68b736d94	Cách chính thức: đăng ký thương mại và giấy phép kinh doanh qua eTrade, cộng thêm TIN.
+4c046dc33b	Thuế GTGT 15% trên ETB 2 triệu mỗi năm; hàng xuất khẩu đủ điều kiện chịu thuế suất 0%.
+804aa73e88	Thu nhập toàn cầu chịu thuế 0–35%; người bán nhỏ có thể trả 2–9% trên doanh số.
+9b1bef55be	Có, qua ngân hàng Ethiopia; người xuất khẩu dịch vụ giữ 100% trong tài khoản giữ ngoại tệ.
+5af4735972	Có, với thu nhập đủ điều kiện; tài khoản tiết kiệm ngoại tệ không còn yêu cầu tối thiểu USD 100.
+ad13665945	Chapa là cổng thanh toán được cấp phép; việc cá nhân có thể đăng ký hay không chưa được xác nhận.
+b92de6cfbd	Giữ 100% thu nhập xuất khẩu dịch vụ bằng ngoại tệ từ tháng 2 năm 2026.
+39313acb1c	Đăng ký với Cơ quan Truyền thông Ethiopia trước khi xử lý dữ liệu cá nhân.
+b672c1e1f3	Người mua có thể trả hàng trong vòng 7 ngày để được hoàn tiền toàn bộ.
+4ee4606a89	Định danh số quốc gia Fayda.
+69fdc492ea	Từ tháng 2 năm 2026, người xuất khẩu dịch vụ được giữ 100% tiền thu xuất khẩu trong tài khoản giữ ngoại tệ (chỉ thị của NBE).
+a8d0f511fe	Bảo hiểm hưu trí YEL là bắt buộc khi thu nhập của bạn vượt mức tối thiểu.
+9a9a5e36b3	Số an sinh xã hội Phần Lan của bạn; doanh nghiệp được cấp Business ID.
+7e38c79bb2	Đăng ký toiminimi (kinh doanh cá thể) với PRH qua ytj.fi với €75; nay thường không bắt buộc.
+9fadff8c39	Thuế GTGT 25,5%; được miễn khi doanh thu ở mức hoặc dưới €20.000 mỗi năm.
+a95807ac19	Thu nhập toàn cầu chịu thuế theo mức lũy tiến quốc gia cộng thuế thành phố.
+6a71a75f11	Henkilökortti (thẻ căn cước) hoặc hộ chiếu.
+244dfdbdbe	TIN do FRCS cấp, nộp hồ sơ trực tuyến qua TPOS; cần để mở tài khoản ngân hàng.
+9df2c6f9ae	Đăng ký với Registrar of Companies và đăng ký thuế với FRCS; các bước chưa được xác nhận.
+b8da599bdf	Thuế GTGT 12,5% trên FJD 100.000; đăng ký trong vòng 21 ngày kể từ khi phát sinh nghĩa vụ.
+6a9cda6ba8	Được báo cáo: 0% đến FJD 30.000, sau đó 18–20%.
+a026b70dc0	Có: ngân hàng cung cấp tài khoản ngoại tệ; quy định phê duyệt chưa được xác nhận.
+55757e78e5	Không có giấy tờ tùy thân bắt buộc; thẻ cử tri được cấp khi có yêu cầu.
+2e71224c54	Đăng ký với Department of Finance & Administration; các bước chưa được xác nhận.
+03e2e68dce	Không có thuế GTGT; thuế tổng doanh thu quốc gia 3% cộng thuế bán hàng của các bang.
+934296eebd	Thuế tiền lương 6–10%; quy định về tự kinh doanh và thu nhập nước ngoài chưa được xác nhận.
+71a8eb01fd	Tài khoản trong nước là bằng đô la Mỹ, đồng tiền chính thức.
+45e93e4311	Thẻ cử tri quốc gia không bắt buộc, được cấp miễn phí.
+e38d7f3802	Trên €37.500 doanh thu dịch vụ, bạn phải thu thuế GTGT, kể cả khi là micro-entrepreneur.
+cb8d017db2	Numéro fiscal (SPI), được cấp khi bạn đăng ký thuế lần đầu.
+8b32916663	Đăng ký làm micro-entrepreneur trực tuyến qua guichet unique của INPI, miễn phí.
+fa7fec498d	Thuế GTGT 20%; không có thuế GTGT dưới €37.500 doanh thu dịch vụ mỗi năm (franchise en base).
+b6f0bde29f	Thu nhập toàn cầu chịu thuế theo mức lũy tiến, chia theo hệ số gia đình.
+8ea3b31453	Rất có thể: các ngân hàng lớn cung cấp tài khoản đô la.
+1354d759e1	Micro-entreprise: thuế và phí xã hội đơn giản tính theo doanh thu, đến €83.600 với dịch vụ.
+ec02890cc5	Carte d'identité (thẻ căn cước) hoặc hộ chiếu.
+a962d2a0a6	Chi trả về ngân hàng của bạn bằng XAF.
+23f51669fd	NIF do cơ quan quản lý thuế (DGI) cấp khi đăng ký tại ANPI.
+6f872da56b	Đăng ký doanh nghiệp cá thể tại điểm một cửa ANPI-Gabon (RCCM và NIF cùng lúc).
+b2b6f29fe9	Thuế GTGT 18% trên doanh thu khoảng FCFA 60 triệu; các nguồn không thống nhất về ngưỡng.
+d817589e29	Dưới doanh thu FCFA 30 triệu, áp dụng thuế tổng hợp ISL, kể cả người bán trực tuyến.
+75c80a4ea8	Không có ưu đãi cho freelancer; chế độ ISL dưới FCFA 30 triệu là cách đơn giản hóa chính.
+309f875eca	Luật 025/2023: khai báo việc xử lý dữ liệu tự động với APDPVP.
+80dfa9f640	Người mua có thể rút lại giao dịch mua trực tuyến trong vòng 14 ngày theo lịch.
+c841eae213	Chi trả về ngân hàng của bạn bằng GBP.
+4f956b13da	Doanh số chịu thuế suất 0% vẫn được tính vào ngưỡng thuế GTGT £90.000.
+04f8a9a502	Đăng ký Self Assessment khi bạn kiếm được trên £1.000 trong một năm tính thuế.
+60fb747327	UTR của bạn, do HMRC cấp khi bạn đăng ký Self Assessment.
+b6f7b27907	Bắt đầu kinh doanh cá thể ngay; đăng ký với HMRC khi trên £1.000 mỗi năm.
+bfe86dde49	Thuế GTGT 20%; đăng ký khi doanh thu vượt £90.000 mỗi năm.
+f401cf2b17	Thu nhập toàn cầu chịu thuế trên mức miễn £12.570, cộng thêm National Insurance hạng 4.
+a5e4fcf060	Có, tự do; không có kiểm soát ngoại hối đối với thu nhập từ nước ngoài.
+72032843cf	Có: các ngân hàng như HSBC cung cấp tài khoản ngoại tệ cá nhân.
+031cc48fad	Mức miễn trừ kinh doanh £1.000: thu nhập phụ rất nhỏ không cần đăng ký hay nộp thuế.
+24d3f78ae8	UK GDPR; hầu hết doanh nghiệp phải nộp phí bảo vệ dữ liệu cho ICO.
+c8a4adf3ea	Người mua trực tuyến có thể hủy trong vòng 14 ngày kể từ khi nhận hàng.
+8b9bfd2452	Thuế GTGT 15%; ngưỡng đăng ký không thống nhất (XCD 120.000 hoặc 300.000).
+605e57d23e	Thu nhập có nguồn từ Grenada chịu thuế: khoản giảm trừ XCD 36.000, sau đó 10% và 28%.
+ea16f26ec6	Thẻ cử tri, không bắt buộc trừ một số giao dịch với nhà nước.
+b192d675cc	Tư vấn bị loại khỏi chế độ 1%; hãy kiểm tra mã ngành nghề của bạn.
+8afacfa8e5	Công việc làm tại Georgia cho khách hàng nước ngoài vẫn được tính là thu nhập tại Georgia.
+e62cf17a3e	Số định danh vĩnh viễn, được cấp khi bạn đăng ký.
+82b3f7eac9	Đăng ký làm Doanh nhân cá thể, rồi xin Tư cách Doanh nghiệp Nhỏ trên rs.ge.
+3ed0462360	Thuế GTGT 18% trên GEL 100.000 trong bất kỳ 12 tháng nào.
+b89975b59f	Tư cách Doanh nghiệp Nhỏ: 1% doanh thu đến GEL 500.000.
+53243c4e3f	Có, tự do; quy đổi và chuyển tiền theo tỷ giá thị trường.
+6bf9828975	Có: giữ tiền gửi ngoại tệ, không giới hạn số tài khoản.
+6f2c0640c2	Các ngân hàng trong nước như TBC và Bank of Georgia cung cấp dịch vụ chấp nhận thanh toán; chưa được nghiên cứu.
+df37917ae3	Thuế Doanh nghiệp Nhỏ 1%, và doanh nghiệp siêu nhỏ dưới GEL 30.000 được miễn thuế.
+e8b4899086	Luật Bảo vệ Dữ liệu Cá nhân 2023, tương thích GDPR, nay do Cơ quan Kiểm toán Nhà nước giám sát.
+f44a433937	Thẻ căn cước quốc gia hoặc hộ chiếu.
+0f71ca9817	Rút bằng cedi về một ngân hàng tại Ghana.
+38910d13a5	Chi trả về ngân hàng của bạn bằng GHS.
+3dddcfa8b2	Mọi nhà cung cấp dịch vụ phải đăng ký thuế GTGT trong vòng 30 ngày, kể cả nhà cung cấp nhỏ.
+9b1ad03d38	Người hành nghề chuyên môn có bằng cấp không thể dùng chế độ cố định 3%.
+fe782dc67b	Bạn không được xử lý dữ liệu khách hàng một cách hợp pháp cho đến khi đăng ký với Ủy ban.
+16207fa1bb	Mã PIN trên Ghana Card là mã số thuế của bạn.
+4e5d448072	Kinh doanh cá thể tốn GHS 130 tại ORC, cộng GHS 70 gia hạn hằng năm.
+8ddb6c933b	Thuế GTGT thực tế 20%; nhà cung cấp dịch vụ phải đăng ký trong vòng 30 ngày, không có ngưỡng.
+6b568b8450	Thu nhập toàn cầu chịu thuế 0–35%; tiểu thương có thể trả cố định 3% doanh thu.
+abacb1b114	Có; khoản thanh toán từ nước ngoài phải vào Tài khoản Ngoại hối (FEA) tại ngân hàng.
+a827329028	Có: ngân hàng cung cấp tài khoản FEA và FCA, và bạn có thể rút tiền mặt ngoại tệ.
+19c7bee086	Paystack Starter nhận người bán chưa đăng ký kinh doanh với tổng hạn mức GHS 30.000 trọn đời.
+342f776488	Thuế doanh thu cố định 3% cho người bán nhỏ, và GHS 7.056 đầu tiên được miễn thuế.
+19f3d354b3	Data Protection Act 2012: đăng ký với Ủy ban Bảo vệ Dữ liệu trước khi xử lý dữ liệu.
+86dcdc1f7f	Người mua có thể hủy trong vòng 14 ngày với hàng hóa, hoặc 7 ngày với dịch vụ.
+1836828411	Ghana Card, giấy tờ duy nhất ngân hàng chấp nhận.
+635e70ca0b	Khoản thanh toán từ người không cư trú phải vào Tài khoản Ngoại hối (FEA) tại một ngân hàng được cấp phép (thông báo của Bank of Ghana).
+62617f5daf	Chi trả về ngân hàng của bạn bằng GMD.
+6f67e7ca6b	TIN do Gambia Revenue Authority cấp, cần có trước khi đăng ký kinh doanh.
+6bd719e236	Đăng ký kinh doanh cá thể tại Single Window với D500, trong vòng một ngày.
+669532948c	Thuế GTGT 15% trên 2 triệu dalasi mỗi năm.
+7562cc4370	Doanh thu dưới D500.000: trả 3% doanh thu.
+3681c398f1	Có thể có: nhận ngoại tệ vào tài khoản FCD tại ngân hàng.
+fd3d87d485	Có: tài khoản tiền gửi ngoại tệ (FCD) tại ngân hàng.
+9ae65b4577	Không có ưu đãi cho freelancer; thuế doanh thu 3% dưới D500.000 là cách đơn giản hóa chính.
+f4540566e4	Personal Data Protection and Privacy Act 2025; báo cáo vi phạm dữ liệu trong vòng 72 giờ.
+46e5779f58	Thẻ căn cước quốc gia, hộ chiếu hoặc giấy phép lái xe.
+d66e1cb1df	NIF, do APIP cấp khi bạn đăng ký.
+ddcb4c973d	Đăng ký doanh nghiệp cá thể tại APIP, nơi cấp RCCM và NIF.
+520586a797	Thuế GTGT 18%; doanh nghiệp có doanh thu dưới GNF 1 tỷ được miễn.
+ffe66225fd	Nhà xuất khẩu phải chuyển về nước ít nhất 50%; cách áp dụng cho freelancer chưa rõ.
+1a8936c91b	Luật L/2016/037 về bảo vệ dữ liệu; cơ quan của luật này chưa hoạt động.
+a8ad61930a	Được cho là NIF do cơ quan quản lý thuế cấp; chưa được xác nhận.
+208acaf433	Đăng ký qua điểm một cửa VUE; hình thức đơn giản nhất cho cá nhân chưa được xác nhận.
+1b9ce93382	Thuế GTGT 15%; ngưỡng và quy định xuất khẩu chưa được xác nhận.
+f6bbf21691	Người cư trú bị đánh thuế trên thu nhập toàn cầu.
+c1f1c8d4c8	Luật 1/2016 về dữ liệu cá nhân; cơ quan của luật này chưa hoạt động.
+560eb140e2	Documento de Identidad Personal (DIP, giấy tờ tùy thân cá nhân).
+338ed12c7f	Bạn có thể bị đánh thuế trên thu nhập tối thiểu ấn định kể cả khi bạn kiếm được ít hơn.
+ec3c7014e2	Đăng ký trực tuyến chỉ dành cho công dân Hy Lạp hoặc công dân EU khác.
+0d334180c4	Mã số thuế AFM, do Cơ quan Quản lý Thuế cấp.
+72b9edc73f	Mở kinh doanh cá thể trực tuyến qua myAADE bằng AFM của bạn, rồi đăng ký với eEFKA.
+39bf9e5364	Thuế GTGT 24%; có miễn trừ cho doanh nghiệp nhỏ của Hy Lạp, mức chưa được xác nhận.
+55f8fea63c	Thu nhập toàn cầu chịu thuế từ 9% đến 44% trên €60.000.
+8f69cd948f	Không có ưu đãi khoán; freelancer chịu quy định thu nhập tối thiểu ấn định.
+3905aeaf3a	Δελτίο Ταυτότητας (thẻ căn cước) hoặc hộ chiếu.
+f3237e24ce	Chi trả về ngân hàng của bạn bằng GTQ.
+0d2eccd3fa	NIT (mã số thuế) và CUI (số định danh cá nhân).
+7be898b7b5	Đăng ký với Registro Mercantil và SAT; các bước chưa được xác nhận.
+f4ed44b855	Thuế GTGT 12%; ngưỡng và quy định xuất khẩu chưa được xác nhận.
+714a11758a	Chỉ thu nhập có nguồn từ Guatemala chịu thuế, bao gồm dịch vụ bạn thực hiện tại đó.
+049b0f8d1b	Có: ngân hàng cung cấp tài khoản đô la Mỹ; bạn cần DPI và NIT.
+2025bb313b	Pequeño Contribuyente: cố định 5% tổng thu nhập đến Q500.285 năm 2026.
+ee54d75b07	DPI (Documento Personal de Identificación, giấy tờ tùy thân cá nhân).
+5c4a30c9c2	Được cho là NIF do DGCI cấp tại CFE; chưa được xác nhận.
+f591e5604b	Đăng ký qua điểm một cửa CFE; chi phí doanh nghiệp cá thể chưa được xác nhận.
+6a528324fe	Thuế GTGT 19% từ tháng 1 năm 2025; ngưỡng và dịch vụ xuất khẩu chưa được xác nhận.
+f7d93f636a	Chưa xác nhận được luật bảo vệ dữ liệu nào; một dự luật được thông qua vào tháng 5 năm 2026.
+9fe16bfa9e	Chưa được xác nhận; có lẽ là thẻ căn cước quốc gia (bilhete de identidade).
+b4eaa22ef9	Chi trả về ngân hàng của bạn bằng GYD.
+30084bc1c0	TIN do GRA cấp, nộp hồ sơ trực tuyến hoặc trực tiếp.
+5d187a8114	Đăng ký tên doanh nghiệp với DCRA và đăng ký thuế với GRA; các bước chưa được xác nhận.
+e4032ab774	Thuế GTGT 14%; hàng xuất khẩu chịu thuế suất 0%; ngưỡng chưa được xác nhận.
+7218c49ff1	Thẻ căn cước quốc gia Guyana.
+f65250f69f	RTN do SAR cấp; lần nộp hồ sơ đầu tiên miễn phí.
+2419627e78	Đăng ký với SAR và chính quyền thành phố; các bước chưa được xác nhận.
+bb4d6b9a69	ISV (thuế bán hàng) 15%; đăng ký làm người nộp thuế trong nước, không nêu ngưỡng.
+1c4b0bd74b	Chỉ thu nhập có nguồn từ Honduras chịu thuế, với mức đến 25%.
+097f31abc6	Thẻ căn cước quốc gia (DNI).
+f0cc2c9bbd	Chi phí khoán tăng vào năm 2027 với khoản thu trên €40.000.
+bc326ced54	Một số nghề tự do không thể dùng chế độ thuế khoán.
+f7fb250b49	OIB, số định danh cá nhân của bạn.
+c291c8c312	Đăng ký obrt trực tuyến qua e-Obrt, rồi với Cơ quan Quản lý Thuế trong vòng 8 ngày.
+53df73d20a	Thuế GTGT 25% khi khoản thu hằng năm vượt €60.000.
+14c20a6db9	Paušalni obrt: thuế cố định hằng năm từ €203,40, nếu khoản thu dưới €60.000.
+d271d94424	Osobna iskaznica (thẻ căn cước) hoặc hộ chiếu.
+f363302251	Thuế doanh thu 10% (TCA); mọi doanh nghiệp được cho là phải đăng ký.
+c2ee1bd97c	Thẻ căn cước quốc gia.
+365adfd51e	Chi trả về ngân hàng của bạn bằng HUF.
+5a42072596	Freelancer xuất hóa đơn cho doanh nghiệp, kể cả khách hàng nước ngoài, không thể dùng KATA.
+d87fe3b874	Adóazonosító jel, mã số thuế cá nhân của bạn.
+494008ed2f	Đăng ký với Cơ quan Thuế Nhà nước (NAV) qua Client Gate; các bước chưa được xác nhận.
+4a077eefb5	Thuế GTGT 27%; có miễn trừ dưới doanh thu HUF 20 triệu năm 2026.
+6230a55bfe	Thuế thu nhập cố định 15% trên gần như mọi khoản thu nhập.
+23523fec08	Thuế khoán KATA, nhưng chỉ khi bạn bán riêng cho cá nhân.
+483c532c83	Személyazonosító igazolvány (thẻ căn cước) hoặc hộ chiếu.
+f85b3977de	Chi trả về ngân hàng của bạn bằng IDR.
+1aeee0e8f7	Nhận bằng rupiah; rút về một ngân hàng tại Indonesia.
+49c6d0e75b	Chỉ ở dạng thử nghiệm: bạn phải liên hệ bộ phận bán hàng của Stripe.
+a9ebe49967	Thu nhập nước ngoài được tính vào giới hạn Rp4,8 tỷ của mức thuế 0,5%.
+b11613d80a	Xendit không chấp nhận cá nhân; bạn cần một công ty một người (PT Perorangan).
+730c4a5769	NIK (số căn cước quốc gia) của bạn là mã số thuế (NPWP).
+58bb0f6417	Doanh nghiệp nhận NIB trực tuyến qua OSS; cá nhân đăng ký bằng NIK và NPWP.
+1368fecc31	Thuế GTGT thực tế 11%; chỉ đăng ký khi trên Rp4,8 tỷ; dịch vụ xuất khẩu trong danh sách chịu 0%.
+f632786e45	Thu nhập toàn cầu chịu thuế; thuế cuối cùng 0,5% trên doanh thu đến Rp4,8 tỷ, Rp500 triệu đầu tiên được miễn.
+f303aa3867	Có; bạn có thể tự do sở hữu và sử dụng ngoại tệ.
+c8b94f52f7	Có: bạn có thể giữ tiền gửi ngoại tệ tại ngân hàng Indonesia.
+3f539223dc	Midtrans chấp nhận cá nhân có KTP; Xendit cần công ty đã đăng ký.
+3cc2218db6	Thuế cuối cùng 0,5% không giới hạn thời gian, và Rp500 triệu đầu tiên mỗi năm không bị đánh thuế.
+bbf8621694	Luật PDP 27/2022 áp dụng đầy đủ từ tháng 10 năm 2024; cơ quan của luật này chưa được xác nhận.
+c97c1c0839	Áp dụng quy định thương mại điện tử (PP 80/2019); yêu cầu giấy phép cho trang web riêng chưa rõ.
+fa60a03b3e	KTP-el, thẻ căn cước điện tử, mang số NIK của bạn.
+fb2b80cb54	Stripe, chỉ theo lời mời
+97a1685827	Stripe liệt kê quốc gia này ở dạng thử nghiệm: hãy liên hệ bộ phận bán hàng của họ.
+f8109476a7	Stripe liệt kê quốc gia này ở trạng thái 'Preview' (đăng ký bằng cách liên hệ bộ phận bán hàng của Stripe), chưa phải cách tự đăng ký cho người mới bắt đầu.
+4bf0ea389b	Nộp tờ khai thuế (Form 11) trước ngày 31 tháng 10 hằng năm.
+bc13966fb5	Số PPS của bạn là mã tham chiếu thuế của bạn.
+ea55049d63	Đăng ký với Revenue trong vòng 30 ngày bằng mẫu TR1 trên ROS.
+52d69c4e4d	Thuế GTGT 23% trên €42.500 mỗi năm với dịch vụ.
+cc47953e8f	Thu nhập toàn cầu chịu thuế 20% và 40%, cộng thêm USC và PRSI.
+2619ac2e17	Chi trả về ngân hàng của bạn bằng ILS.
+6c0d161ae6	Trần osek patur năm 2026 chưa rõ (₪120.000 hoặc ₪122.833); hãy xác nhận trên gov.il.
+6b4b233edf	Hóa đơn trên ₪5.000 trước thuế GTGT cần số phân bổ của Cơ quan Thuế.
+41f8e53b7b	Mispar Zehut (số căn cước) của bạn; cách đăng ký chưa được xác nhận.
+8f39ff53cb	Mở hồ sơ với Cơ quan Thuế với tư cách osek patur hoặc osek murshe.
+c965710065	Thuế GTGT 18%; freelancer osek patur dưới mức trần không thu thuế này.
+68157420ef	Thu nhập toàn cầu chịu thuế đến 47%, cộng thêm phụ thu 3% với thu nhập cao.
+008a09e983	Có, tự do; hầu hết kiểm soát ngoại hối đã được bãi bỏ trong thập niên 1990.
+32e587a3bb	Chưa được xác nhận, dù tài khoản ngoại tệ phổ biến tại các ngân hàng.
+fd95557247	Chưa nghiên cứu các nhà cung cấp trong nước như Tranzila và Cardcom.
+ad9bbeb64f	Osek patur: không có thuế GTGT dưới mức trần doanh thu.
+3297bccaa3	Luật Bảo vệ Quyền riêng tư; từ năm 2025 hầu hết doanh nghiệp nhỏ không cần đăng ký cơ sở dữ liệu.
+d894cad442	Được cho là có 14 ngày để hủy giao dịch mua từ xa, kèm một khoản phí nhỏ.
+b09190ccc4	Teudat Zehut (thẻ căn cước quốc gia).
+dcab8d85c2	Nhận thanh toán từ nước ngoài; tiền chuyển thẳng vào ngân hàng của bạn tại Ấn Độ.
+59f31f7f9f	Chi trả về ngân hàng của bạn bằng INR.
+3b4cfdf0ef	Rút bằng rupee về ngân hàng của bạn tại Ấn Độ.
+48cf601ad9	Chỉ khi bạn đang đi nước ngoài, không dùng được khi ở trong nước.
+4c91046e0d	Chi trả về ngân hàng có hạn chế.
+da7af51f34	Đưa thu nhập xuất khẩu về nước trong vòng chín tháng; quy định này đã thay đổi vào tháng 9 năm 2026.
+332afbdc14	PayPal Ấn Độ chỉ nhận thanh toán xuất khẩu, tối đa USD 10.000 mỗi giao dịch.
+8b8fbe58b6	Wise quy đổi mọi thứ sang rupee; bạn không thể giữ tiền trong Wise.
+040d0a28f6	PAN; nhận e-PAN miễn phí ngay lập tức trực tuyến bằng Aadhaar.
+848f800edb	Không cần đăng ký riêng; đăng ký Udyam (MSME) miễn phí là tùy chọn.
+1990325048	GST: hàng xuất khẩu chịu thuế suất 0%; không cần đăng ký dưới doanh thu ₹20 lakh.
+32d239513e	Người cư trú nộp thuế trên thu nhập toàn cầu; người hành nghề chuyên môn có thể dùng chế độ thuế khoán đơn giản.
+1676fd2b69	Có; đưa thu nhập xuất khẩu về nước trong vòng chín tháng kể từ ngày hóa đơn.
+abe8b60555	Có: tài khoản EEFC giữ 100% thu nhập nước ngoài của bạn bằng ngoại tệ.
+53351d4e46	Razorpay chấp nhận cá nhân chưa đăng ký kinh doanh, có tài khoản ngân hàng cá nhân, PAN và Aadhaar.
+a01ce3d412	Không có GST với hàng xuất khẩu, tài khoản ngoại tệ EEFC, và thuế khoán đơn giản.
+1f79fe62c7	Áp dụng Đạo luật DPDP 2023; các quy định được triển khai dần trong 18 tháng từ tháng 11 năm 2025.
+976bab98ed	Bán hàng trên trang web riêng? Hãy chỉ định người phụ trách khiếu nại và xác nhận đã nhận khiếu nại trong vòng 48 giờ.
+5d50c51a9a	Aadhaar, cộng với thẻ PAN cho các nền tảng thanh toán.
+0beef88516	Bán sản phẩm số hoặc phần mềm qua một merchant of record (đơn vị bán hàng thay bạn): Paddle (chỉ phần mềm/SaaS; mỗi người bán đều được xét duyệt), Polar, Dodo Payments. Nền tảng là người bán hợp pháp đối với khách hàng của bạn, xử lý thanh toán thẻ và thuế GTGT/thuế bán hàng đối với người tiêu dùng, rồi chi trả cho bạn. Bạn vẫn phải khai báo các khoản chi trả là thu nhập của mình tại quốc gia của bạn.
+8b4c532479	Khách hàng thanh toán qua PayPal (có trong danh sách Payouts của PayPal với trạng thái 'Receive and withdraw').
+3cb34a5416	Ghi có 100% thu nhập nước ngoài vào tài khoản EEFC (RBI), hoặc rút từ Payoneer bằng INR về ngân hàng tại Ấn Độ.
+3da724b3ef	Không có thuế GTGT; thuế bán hàng áp dụng cho các mặt hàng như internet và du lịch.
+d309833cb1	Công việc làm tại Iraq chịu thuế, ở mức 3–15% tại vùng liên bang của Iraq.
+c3992d9068	Không kiểm soát tỷ giá, nhưng khả năng tiếp cận ngân hàng hạn chế và việc chuyển đô la bị giám sát chặt.
+3507ae3f2c	Thẻ Quốc gia Iraq (căn cước sinh trắc học).
+7334a036e2	Chúng tôi chỉ đề cập các cách hợp pháp; chúng tôi không mô tả cách lách lệnh trừng phạt.
+e74fb3f07a	Lệnh trừng phạt toàn diện; các nền tảng và ngân hàng nước ngoài thường từ chối các khoản thanh toán liên quan đến Iran.
+f822075f88	Người tự kinh doanh phải tự trả cho mình một mức lương tối thiểu ấn định.
+f570b56f06	Kennitala, số định danh Iceland của bạn.
+5656deb404	Nhận kennitala, rồi đăng ký với Skatturinn; thuế GTGT khi trên ISK 2 triệu.
+e78491ce47	Thuế GTGT 24% trên ISK 2 triệu trong 12 tháng; hàng xuất khẩu chịu thuế suất 0%.
+c49927be53	Thu nhập toàn cầu chịu thuế 31,49–46,29% tính cả thuế thành phố.
+c7d1d141a4	Có, tự do; kiểm soát vốn phần lớn đã được dỡ bỏ năm 2017.
+74fa77f69e	Có: ngân hàng cung cấp tài khoản ngoại tệ không hạn chế.
+d45d63eb7c	GDPR áp dụng qua EEA, do Persónuvernd giám sát.
+8ddd960dba	Giấy phép lái xe hoặc hộ chiếu; thẻ căn cước ít phổ biến.
+10913663df	Vượt €100.000 trong một năm sẽ chấm dứt chế độ khoán ngay lập tức.
+6ea576288d	Mã số thuế dùng trong mọi giao dịch với cơ quan hành chính nhà nước.
+7b9c9665df	Mở partita IVA với Agenzia delle Entrate; đóng góp INPS là riêng.
+faaae21e0e	Thuế GTGT 22%; người kinh doanh cá thể theo chế độ khoán (forfettario) dưới €85.000 không thu thuế GTGT.
+ba39f71e2f	Thu nhập toàn cầu chịu thuế IRPEF 23–43%, cộng thêm phụ thu của vùng và thành phố.
+40355c6c65	Có: các ngân hàng như UniCredit cung cấp tài khoản vãng lai ngoại tệ.
+2bf766d183	Regime forfettario: thuế cố định 15% đến €85.000, hoặc 5% với hoạt động mới.
+69d820ea90	Carta d'identità (thẻ căn cước) hoặc hộ chiếu.
+5556bd7b36	Chi trả về ngân hàng của bạn bằng JMD.
+637614b60a	Nộp tiền mặt ngoại tệ trên USD 500 mỗi ngày tốn 2,3%.
+29e532b80f	TRN, số chín chữ số do Tax Administration Jamaica cấp.
+17dd86b201	Đăng ký tên doanh nghiệp với COJ và đăng ký thuế với TAJ; các bước chưa được xác nhận.
+c409824c97	GCT 15% trên doanh thu JMD 15 triệu mỗi năm.
+a219de5a56	Người cư trú và người có nơi cư trú thường xuyên (domicile) bị đánh thuế trên thu nhập toàn cầu.
+a0e6dd21a3	Có: các ngân hàng như Scotiabank cung cấp tài khoản USD, CAD, EUR và GBP.
+226d58e208	Thẻ căn cước quốc gia, không bắt buộc; thẻ sinh trắc học mới từ năm 2022.
+d1175cfa0c	Chi trả về ngân hàng của bạn bằng JOD.
+8e2a054c20	Đừng mặc định thu nhập từ khách hàng nước ngoài được miễn thuế nếu bạn làm việc từ Jordan.
+7d5203ec3c	Thuế bán hàng 16% trên JOD 30.000 mỗi năm với dịch vụ; hàng xuất khẩu chịu thuế suất 0%.
+81fce37c1b	Thu nhập có nguồn từ Jordan chịu thuế 5–30%; công việc làm tại Jordan nhiều khả năng được tính.
+1eb23ee541	Có thể tự do; đồng dinar có thể chuyển đổi và không tìm thấy quy định bắt buộc bán ngoại tệ.
+eddce45a24	Có: ngân hàng mở tài khoản bằng các đồng tiền chính, từ USD 300.
+40a7cfa4fd	Luật Bảo vệ Dữ liệu Cá nhân số 24 năm 2023.
+629661daef	Chi trả về ngân hàng của bạn bằng JPY.
+f38b243672	Khách hàng Nhật Bản có thể cần số đăng ký hóa đơn của bạn, kể cả dưới ¥10 triệu.
+e711e82f6a	Nộp đơn đăng ký Blue Return trong vòng hai tháng để được khấu trừ.
+ca557c8b0b	My Number, số cá nhân 12 chữ số của bạn.
+2af383b844	Nộp thông báo mở kinh doanh (kaigyō todoke) tại cơ quan thuế trong vòng một tháng.
+41e19f89a5	Thuế tiêu dùng 10% trên doanh số ¥10 triệu; hàng xuất khẩu chịu thuế suất 0%.
+f8d965e37c	Thu nhập toàn cầu chịu thuế 5–45%, cộng thêm phụ thu và khoảng 10% thuế địa phương.
+4c0cef3c04	Có, tự do; khoản thanh toán lớn chỉ cần báo cáo sau khi giao dịch.
+fb4e7237da	Có: tự do giữ tài khoản tiền gửi ngoại tệ, kể cả ở nước ngoài.
+136550d12d	Blue Return: khấu trừ đến ¥650.000 với sổ sách kế toán kép.
+9273775935	APPI áp dụng cho mọi doanh nghiệp, kể cả người kinh doanh cá thể.
+c191c8e4a7	Hàng mua trực tuyến có thể hủy trong vòng 8 ngày, trừ khi điều khoản của bạn quy định khác.
+7e25fda803	My Number Card, giấy phép lái xe hoặc hộ chiếu.
+c650441fff	Rút về ngân hàng của bạn hoặc về M-PESA.
+93d71c06a1	Chi trả về ngân hàng của bạn bằng KES.
+eb5a3f7bc4	Nhận bằng shilling; rút về ngân hàng của bạn.
+56d7223034	Các trang của KRA không thống nhất về trần Thuế Doanh thu (KES 25 triệu hay 50 triệu); hãy xác nhận với KRA.
+5f1c6b5247	PayPal sang M-PESA chỉ hoạt động bằng USD và tốn 3% trên tỷ giá.
+8f9127539c	KRA PIN, đăng ký trực tuyến trên iTax.
+55a684fd26	Chỉ đăng ký tên doanh nghiệp với BRS (KES 950) nếu không dùng tên của chính bạn.
+e662f765a1	Thuế GTGT 16%; dịch vụ xuất khẩu chịu thuế suất 0%; đăng ký khi trên KES 5 triệu mỗi năm.
+c760b49bbc	Công việc làm từ Kenya chịu thuế; Thuế Doanh thu là 1,5% cho doanh số KES 1 triệu–25 triệu.
+4e964e5176	Có; không có kiểm soát ngoại hối từ năm 1995, và bạn có thể xuất hóa đơn bằng bất kỳ đồng tiền nào.
+3fdb80572e	Có: ngoại tệ có thể vào tài khoản ngân hàng ngoại tệ.
+6b27c5fbbe	Paystack chấp nhận cá nhân có thẻ căn cước quốc gia; hạn mức KES 600.000 cho đến khi bạn đăng ký kinh doanh.
+0eec26e794	Thuế Doanh thu: thuế cuối cùng cố định 1,5% với sổ sách đơn giản.
+8ab7d04d19	Data Protection Act 2019; đăng ký với ODPC khi trên doanh thu KES 5 triệu hoặc 10 nhân viên.
+428a3b8711	Consumer Protection Act 2012 và Cơ quan Cạnh tranh bảo vệ người mua trực tuyến.
+c13ad0f8e7	Thẻ căn cước quốc gia Kenya (phiên bản mới: thẻ Maisha).
+7d6718aba8	Không có kiểm soát ngoại hối.
+58591e4a43	Không có kiểm soát ngoại hối; ngoại tệ có thể được ghi có vào tài khoản ngoại tệ tại một ngân hàng ở Kenya.
+2424b00eea	Số định danh cá nhân 14 chữ số (PIN/INN).
+277865f7cb	Đăng ký làm doanh nhân cá thể bằng Mẫu 163, đồng thời chọn chế độ thuế.
+ce5f17b9fe	Thuế GTGT 12%; ngưỡng đăng ký trong nước được báo cáo không thống nhất.
+12a2fcd757	Thu nhập toàn cầu chịu thuế cố định 10%; doanh nhân chọn chế độ thuế.
+5ecddd28d7	Có thể có; không tìm thấy quy định bắt buộc bán ngoại tệ, nhưng trước đây từng có giới hạn.
+5fb54afa61	Khu Công nghệ cao: nhà xuất khẩu CNTT trả khoảng 1% doanh thu thay cho các loại thuế.
+f310fa3b15	Chi trả về ngân hàng của bạn bằng KHR.
+78188169c2	Có thuế tối thiểu 1% trên doanh thu, kể cả khi không có lợi nhuận.
+7f883e0bc0	Mã số người nộp thuế từ cổng e-Tax của GDT, sau khi đăng ký kinh doanh.
+ca7b0eb2eb	Đăng ký trực tuyến với Bộ Thương mại, rồi với cơ quan thuế.
+cc4255d4c7	Thuế GTGT 10% trên KHR 60 triệu trong ba tháng với dịch vụ; hàng xuất khẩu chịu thuế suất 0%.
+c5aa818256	Thu nhập toàn cầu chịu thuế 0–20%, cộng thêm thuế tối thiểu 1% trên doanh thu.
+d4b74cd042	Có, tự do; ngân hàng báo cáo các giao dịch chuyển từ USD 10.000 trở lên.
+b4bbbe4a96	Có: người cư trú có thể tự do giữ ngoại tệ; tài khoản USD rất phổ biến.
+1e26fcf394	Chưa nghiên cứu các lựa chọn trong nước như ABA PayWay và KHQR.
+9120f938c2	Chưa có luật bảo vệ dữ liệu; một dự thảo được công bố vào tháng 7 năm 2025.
+36b32f4eed	Có luật thương mại điện tử và luật người tiêu dùng; không tìm thấy quyền hủy trong thời gian cân nhắc.
+c6347a2c7f	Thẻ căn cước Khmer (sinh trắc học).
+9e27583023	Thuế GTGT (được cho là 12,5%) trên $100.000 hàng hóa, dịch vụ chịu thuế.
+82944c6823	Các bậc được báo cáo từ 0% đến 35%.
+6f833260ef	Tài khoản trong nước trên thực tế là bằng đô la Úc.
+4f37982cfb	Thẻ căn cước quốc gia, bắt buộc từ năm 2018.
+70a31d1683	Mã số thuế (NIF); chi tiết chưa được xác nhận.
+cedf4bb79f	Chưa được xác nhận; ANPI được cho là vận hành điểm một cửa cho công ty.
+642b3337a6	Thuế tiêu dùng 10%; miễn dưới doanh thu KMF 20 triệu.
+89e7c87789	Dưới doanh thu KMF 20 triệu, nộp thuế nghề nghiệp đơn nhất (TPU) thay thế.
+740e5e9ce2	Chưa được xác nhận; đồng franc được neo vào đồng euro.
+dc398b1b8b	Không có ưu đãi cho freelancer; thuế đơn nhất TPU là cách đơn giản hóa chính.
+24b2e992a8	TIN do Inland Revenue Department cấp khi bạn đăng ký.
+09bb207f9e	Đăng ký với Inland Revenue Department; các bước chưa được xác nhận.
+8e4466e876	Thuế GTGT 17% trên XCD 96.000 với dịch vụ chuyên môn.
+cd0f3f6429	Thẻ căn cước quốc gia không bắt buộc.
+c7c64778c0	Không áp dụng do lệnh trừng phạt toàn diện.
+56e0fc15f3	Không có cách hợp pháp nào do lệnh trừng phạt toàn diện.
+4100b1fd3e	Chi trả về ngân hàng của bạn bằng KRW.
+021eb11a92	Người nước ngoài phải kiểm tra thị thực của mình có cho phép hoạt động kinh doanh không.
+db322fc41e	Dịch vụ xuất khẩu chịu thuế suất 0% cần thuộc danh sách và được thanh toán bằng ngoại tệ.
+f2eb398cff	Số Đăng ký Cư trú, hoặc Số Đăng ký Kinh doanh cho doanh nghiệp của bạn.
+ab7f4142e8	Đăng ký kinh doanh cá thể trên Hometax trong vòng 20 ngày kể từ khi bắt đầu, miễn phí.
+d718696901	Thuế GTGT 10%; dưới ₩104 triệu bạn có thể dùng chế độ đơn giản.
+36f7d01e62	Thu nhập toàn cầu chịu thuế 6–45%, cộng thêm 10% thuế thu nhập địa phương.
+4c55de31c3	Có thể có; không tìm thấy quy định bắt buộc quy đổi; ngân hàng có thể hỏi về các khoản nhận lớn.
+534624f510	Có: ngân hàng cung cấp tài khoản tiền gửi ngoại tệ; người nước ngoài dùng tài khoản đối ngoại.
+08ab39746b	Chưa nghiên cứu các cổng thanh toán trong nước như Toss Payments.
+b78ce74640	Thuế GTGT đơn giản dưới ₩104 triệu; không phải nộp thuế GTGT dưới ₩48 triệu.
+8aeecdf261	Áp dụng PIPA; mức phạt đến 10% doanh thu từ tháng 9 năm 2026.
+f694f2ee25	Người mua trực tuyến có thể rút lại trong vòng 7 ngày kể từ khi nhận hàng.
+6b1b47b035	Thẻ đăng ký cư trú, hoặc Thẻ Đăng ký Người nước ngoài với người nước ngoài.
+8ddcde2e8c	Stripe (không chấp nhận doanh nghiệp ở đây); khoản chi trả từ các trang trả tiền qua PayPal Payouts (PayPal không liệt kê quốc gia này).
+5f9d632984	Chi trả về ngân hàng của bạn bằng KWD.
+27f7c84261	Số Civil ID; cách đăng ký thuế chưa được xác nhận.
+d504d78c24	Đăng ký với Bộ Thương mại và Công nghiệp; các bước chưa được xác nhận.
+a69613a96c	Không có thuế GTGT.
+cd5e87e607	Có, tự do; đồng dinar được tự do chuyển đổi.
+67b2826a8c	Có: các ngân hàng như Boubyan và NBK cung cấp tài khoản ngoại tệ.
+6edd0e8fac	Không có luật bảo vệ dữ liệu toàn diện; áp dụng quy định của ngành viễn thông.
+12ca16525e	Thẻ Civil ID.
+ccad32939e	Chi trả về ngân hàng của bạn bằng KZT.
+1453e3547b	Hợp đồng với nước ngoài trên USD 50.000 phải được đăng ký với ngân hàng của bạn.
+b07057d5aa	Một số hoạt động CNTT và tư vấn có thể bị loại khỏi chế độ đơn giản.
+856eb7923f	Số định danh trong sổ đăng ký quốc gia; cách freelancer nộp hồ sơ chưa được xác nhận.
+76852796ca	Nộp thông báo miễn phí với tư cách doanh nhân cá thể trực tuyến qua eGov bằng chữ ký số EDS.
+452ac0bda9	Thuế GTGT 16% từ năm 2026, trên doanh thu khoảng KZT 43 triệu.
+205d234fd4	Từ năm 2026: thuế thu nhập 10%, 15% trên khoảng KZT 33,4 triệu.
+f2aa929277	Có; hợp đồng trên USD 50.000 cần đăng ký và chuyển tiền về nước.
+304628a0e2	Có: giữ tài khoản ngân hàng ở nước ngoài mà không cần thông báo cho Ngân hàng Quốc gia.
+f5dad454fb	Chưa nghiên cứu các nhà cung cấp trong nước như Kaspi Pay.
+f293e47d56	Tờ khai đơn giản: thuế 4% (2% ở một số khu vực), nhưng không áp dụng cho mọi hoạt động.
+c195c0bd70	Luật Dữ liệu Cá nhân số 94-V; yêu cầu lưu trữ dữ liệu trong nước được báo cáo rộng rãi.
+36b9504e4c	Thẻ căn cước hoặc hộ chiếu, cộng với chữ ký số điện tử (EDS).
+ab77b759f0	Chi trả về ngân hàng của bạn bằng LAK.
+d95aa7238d	Dịch vụ cho khách hàng nước ngoài vẫn chịu thuế GTGT 10%, trái với một số hướng dẫn.
+98c2a77f04	Dùng phần mềm nước ngoài cho dữ liệu khách hàng cần có sự đồng ý để chuyển dữ liệu ra nước ngoài.
+a262ccac20	TIN ghi trên giấy chứng nhận doanh nghiệp, hoặc từ cơ quan thuế qua taxservice.mof.gov.la.
+b1dbb58722	Đăng ký doanh nghiệp cá thể với Bộ Công Thương.
+2d88f7d975	Thuế GTGT 10%, và dịch vụ cho khách hàng nước ngoài không được áp thuế suất 0%.
+0224a758c4	Thu nhập toàn cầu chịu thuế; dịch vụ trả 3% doanh thu ở mức LAK 50–400 triệu.
+22f60a8776	Có thể có; nhà xuất khẩu phải nhận tiền qua ngân hàng trong vòng 180 ngày và bán một phần ngoại tệ.
+305d6dff83	Có: các ngân hàng như BCEL cung cấp tài khoản USD và THB; đô la tiền mặt có thể khan hiếm.
+2aa17d2d0e	Luật Bảo vệ Dữ liệu Điện tử: cần sự đồng ý để gửi dữ liệu ra nước ngoài.
+6e979d44fa	Đừng bao giờ đưa thu nhập từ nước ngoài vào các tài khoản đô la cũ đang bị phong tỏa.
+206f192ae6	Mã số thuế duy nhất do cơ quan quản lý thuế cấp.
+998e90838a	Thuế GTGT 11% trên LBP 5 tỷ; hàng xuất khẩu chịu thuế suất 0%.
+fc74bf2bad	Dịch vụ thực hiện tại Liban chịu thuế, ở mức 4–25% với thu nhập kinh doanh.
+022a2233eb	Không có quy định bắt buộc bán ngoại tệ, nhưng ngân hàng đang suy yếu; hãy dùng tài khoản fresh dollar (đô la mới).
+f6c796f145	Có tài khoản fresh dollar (đô la mới); quy định chưa được xác nhận.
+5cd4428507	Chưa nghiên cứu các đơn vị chuyển tiền như OMT và Whish.
+1e51187744	Thẻ căn cước Liban.
+54562788ed	Hãy hỏi ngân hàng xem bạn có cần sự chấp thuận để giữ thu nhập USD không.
+fce947cb88	TIN do Inland Revenue Department cấp khi nộp hồ sơ.
+30b75d5c0c	Đăng ký với ROCIP và Inland Revenue Department; các bước chưa được xác nhận.
+e9977a572f	Thuế GTGT 12,5% trên XCD 400.000 mỗi năm.
+e9d66cc561	Hạn chế trên giấy tờ: bạn có thể cần sự chấp thuận để giữ ngoại tệ.
+f49080869b	Hộ chiếu hoặc thẻ căn cước.
+b4fb15f73a	Theo luật, ngoại tệ phải được chào bán cho một đại lý được ủy quyền, trừ khi Giám đốc Tài chính chấp thuận cho bạn giữ lại.
+e733e5c502	Theo luật, ngoại tệ phải được chào bán cho một đại lý được ủy quyền, trừ khi Giám đốc Tài chính chấp thuận cho bạn giữ lại. Hãy hỏi ngân hàng xem bạn có cần sự chấp thuận trước khi giữ thu nhập trong tài khoản USD không (Exchange Control Act điều 4).
+33f3009617	Số PEID, số định danh cá nhân của bạn.
+a4c961c47d	Đăng ký với Sổ đăng ký Thương mại (Văn phòng Tư pháp); các bước chưa được xác nhận.
+e24de67e98	Thuế GTGT Thụy Sĩ 8,1%; miễn dưới doanh thu trong nước CHF 100.000.
+b941b03f29	Người cư trú bị đánh thuế trên thu nhập toàn cầu và tài sản ròng.
+ff0bfc8c30	GDPR áp dụng qua EEA.
+3eed32b8af	Identitätskarte (thẻ căn cước) hoặc hộ chiếu.
+ccc27702a6	Hoạt động với Sampath hoặc Commercial Bank, cho tài khoản cá nhân.
+e7fdcc56f6	Chi trả về ngân hàng của bạn bằng LKR.
+3ee9eb3043	Rút về ví eZ Cash.
+3ad5a4df33	Đưa thu nhập từ nước ngoài về nước trong vòng 180 ngày kể từ khi thực hiện công việc.
+79422e712e	Mức trần thuế 15% chỉ áp dụng khi được trả bằng ngoại tệ qua ngân hàng.
+80f34b6835	Việc nhận tiền qua PayPal chỉ hoạt động với tài khoản Sampath hoặc Commercial Bank.
+cfbc46cf5d	Mọi người từ 18 tuổi trở lên cần TIN; đăng ký trực tuyến bằng NIC của bạn.
+a9b6b2d2d1	Không cần nếu dùng tên của chính bạn; đăng ký tên thương mại trong vòng 14 ngày.
+ffa5546060	Thuế GTGT là 18%, nhưng chỉ khi trên LKR 60 triệu mỗi năm.
+45cee1adc7	Thuế tối đa 15% trên thu nhập ngoại tệ chuyển về nước qua ngân hàng.
+9571425937	Đưa thu nhập về nước trong vòng 180 ngày; bạn không bắt buộc quy đổi sang rupee.
+01dc673915	Có: mở Tài khoản Ngoại tệ Cá nhân (PFCA).
+1f2ad72c5b	PayHere chấp nhận freelancer chưa đăng ký kinh doanh; chi trả bằng USD cần doanh nghiệp đã đăng ký.
+f1270e340b	Mức trần thuế 15% với xuất khẩu dịch vụ, và không có thuế GTGT dưới LKR 60 triệu.
+d9443ca001	Quy định bảo vệ dữ liệu bắt đầu áp dụng từ ngày 1 tháng 1 năm 2027.
+4163a97b86	Không có quy định riêng cho trực tuyến; áp dụng luật người tiêu dùng và hợp đồng điện tử chung.
+c4d9b570ad	Thẻ căn cước quốc gia (NIC).
+59660e1bdc	Giữ Tài khoản Ngoại tệ Cá nhân (PFCA).
+9f0bb9d313	Giữ Tài khoản Ngoại tệ Cá nhân (PFCA). Tiền thu từ xuất khẩu dịch vụ phải được chuyển về nước trong vòng 180 ngày nhưng không bị buộc quy đổi, và Payoneer cho rút về ví eZ Cash.
+bd3876d186	Kinh doanh mà không có đăng ký hằng năm còn hiệu lực có nguy cơ bị phạt.
+05a8b17046	GST trở thành thuế GTGT từ ngày 1 tháng 1 năm 2027; việc đăng ký đã mở từ tháng 7 năm 2026.
+5bb1f776b0	TIN, được cấp khi bạn đăng ký doanh nghiệp.
+f1bd43885b	Đăng ký tại Liberia Business Registry và gia hạn mỗi 12 tháng.
+a344f5466e	GST 13% với dịch vụ; thuế GTGT đầy đủ bắt đầu từ tháng 1 năm 2027.
+4075003ef1	Thu nhập toàn cầu chịu thuế: 0 đến LRD 70.000, lên đến 25%.
+b22339f0d1	Có thể tự do; cả đô la Liberia và đô la Mỹ đều là tiền tệ hợp pháp.
+78cb0bba16	Chưa được xác nhận, dù tài khoản USD rất phổ biến.
+b06c0b31ae	Chưa có luật bảo vệ dữ liệu; một dự luật đã được trình Cơ quan Lập pháp.
+61ba12e315	Thẻ căn cước quốc gia sinh trắc học.
+700359b25a	TIN do Revenue Services Lesotho cấp, đăng ký trực tuyến.
+b4f39455c5	Xin giấy phép kinh doanh tại One-Stop Business Facilitation Centre, gia hạn hằng năm.
+f70534476c	Đăng ký thuế GTGT khi trên M2 triệu (các trang cũ ghi M850.000).
+8507347bf5	Được báo cáo: 20% cho bậc đầu tiên, sau đó 30%, trừ đi khoản khấu trừ cá nhân.
+301ecdf20f	Chưa được xác nhận; có kiểm soát ngoại hối, với đồng loti neo vào đồng rand.
+dbb37b3c72	Áp dụng Data Protection Act; ủy ban của luật này chưa được thành lập.
+dc3d285b9a	Mã cá nhân Litva của bạn.
+574a11a780	Đăng ký hoạt động cá nhân miễn phí trực tuyến với VMI trước hóa đơn đầu tiên.
+16948db0f6	Thuế GTGT 21%; được miễn khi doanh thu trong nước dưới €45.000.
+0ba87e4b9a	Từ năm 2026, thu nhập từ hoạt động cá nhân đến €42.500 chịu thuế 5–20%.
+7eb6c2ad18	Asmens tapatybės kortelė (thẻ căn cước) hoặc hộ chiếu.
+010d6cb994	Freelancer tư vấn, CNTT và thiết kế thường cần giấy phép kinh doanh thương mại.
+cfa7323ba6	Số định danh quốc gia của bạn là mã số thuế của bạn.
+570225de67	Xin giấy phép kinh doanh trực tuyến qua MyGuichet.lu; hầu hết freelancer cần có giấy phép này.
+bb786592d2	Thuế GTGT 17%; doanh nghiệp nhỏ dưới €50.000 mỗi năm được miễn.
+24302e7dff	Thu nhập toàn cầu chịu thuế theo mức lũy tiến theo hạng thuế.
+4683edc5ad	Bán dịch vụ cho doanh nghiệp EU có thể cần mã số thuế GTGT ngay từ lần bán đầu tiên.
+ed89d197bc	TIN do cơ quan quản lý thuế cấp; cách nộp hồ sơ chưa được xác nhận.
+6c60ab527b	Đăng ký làm người tự kinh doanh với VID qua EDS, chọn chế độ chung hoặc thuế doanh nghiệp siêu nhỏ.
+eeebc05860	Thuế GTGT 21% trên €50.000; dịch vụ B2B trong EU có thể phải đăng ký ngay.
+bb55d7fd64	Thu nhập toàn cầu chịu thuế 25,5% đến €105.300, sau đó 33%.
+181be65429	Thuế doanh nghiệp siêu nhỏ: 25% doanh thu thay cho thuế thu nhập và đóng góp xã hội.
+b9fa5cdcd6	Personas apliecība (thẻ căn cước) hoặc hộ chiếu.
+1474959333	Không có thuế GTGT; thuế trước bạ 1% áp dụng cho hợp đồng.
+fcf524a850	Thu nhập có nguồn từ Libya chịu thuế 5%, và 10% trên LYD 12.000.
+04511a55b4	Được Ngân hàng Trung ương quản lý chặt chẽ; không tìm thấy quy định cho thu nhập dịch vụ từ nước ngoài.
+e44c03709c	Thẻ căn cước cá nhân, cấp cho người cư trú trên 16 tuổi.
+ce45f5f61c	Hoạt động; rút về một ngân hàng tại Ma-rốc trong vòng 30 ngày.
+8d833c3a56	Chi trả về ngân hàng của bạn bằng MAD.
+c94d6adbbf	Hoạt động; tiền phải được đưa về một ngân hàng tại Ma-rốc.
+c6ed1a1386	PayPal yêu cầu rút về một ngân hàng tại Ma-rốc trong vòng 30 ngày.
+7bf29ef87e	Trên MAD 80.000 mỗi năm từ một khách hàng bị đánh thuế 30%.
+acbda82c18	Để thu nhập nằm trên PayPal hoặc Payoneer từng bị xử phạt; hãy đưa về nước trong vòng 90 ngày.
+d84e11cfaa	Mã số thuế (IF) và ICE, được cấp tự động cho auto-entrepreneur.
+4c5f38bdc9	Auto-entrepreneur: đăng ký trực tuyến, xác thực tại Barid Al-Maghrib; dịch vụ giới hạn ở MAD 200.000.
+0b58abddb6	Thuế GTGT 20%; dịch vụ xuất khẩu được miễn; auto-entrepreneur không thu thuế GTGT.
+6818959ff5	Auto-entrepreneur nộp thuế cuối cùng 1% trên doanh thu dịch vụ thay cho thuế thu nhập.
+e60979893d	Có, nhưng phải đưa thu nhập về nước trong vòng 90 ngày và quy đổi phần lớn sang dirham.
+f38e87f448	Có: giữ đến 70% thu nhập nước ngoài đã chuyển về trong tài khoản ngoại tệ.
+6ad5f14009	CMI cần đăng ký thương mại và patente; freelancer chưa đăng ký không thể dùng.
+1874307f45	Thuế auto-entrepreneur 1%, giữ lại 70% ngoại tệ, và dịch vụ xuất khẩu không chịu thuế GTGT.
+6290095259	Luật 09-08: thông báo cho CNDP trước khi thu thập dữ liệu cá nhân trên trang web của bạn.
+94bb0b4530	Người mua có thể rút lại trong vòng 7 ngày kể từ khi nhận sản phẩm.
+e8da4d74d8	Thẻ căn cước quốc gia điện tử (CNIE).
+361659df36	Bán chủ yếu ra nước ngoài (trên 25% doanh thu) có thể phát sinh thuế lợi nhuận kinh doanh.
+7126f96663	Monaco không cấp mã số thuế.
+007e92612b	Đăng ký với Sổ đăng ký Thương mại và Công nghiệp (RCI); các bước chưa được xác nhận.
+bc8c3a429f	Áp dụng quy định và mức thuế GTGT của Pháp (20% mức chuẩn).
+c930a19aba	Không có thuế thu nhập cá nhân, trừ công dân Pháp.
+10ba9f555f	Phần lớn không cần: Monaco dùng đồng euro.
+4a95095db8	Thẻ căn cước Monaco.
+6c05805781	Chi trả về ngân hàng của bạn bằng MDL.
+35e560ae39	IDNP, số định danh cá nhân của bạn.
+2fd0ca68cc	Đăng ký qua sổ đăng ký kinh doanh trực tuyến của Cơ quan Dịch vụ Công; các bước chưa được xác nhận.
+35628ca7ad	Thuế GTGT 20% khi doanh thu đạt MDL 1,7 triệu trong 12 tháng.
+8b035c9aaf	Thuế thu nhập cố định 12%; công việc làm tại Moldova cho khách hàng nước ngoài chịu thuế.
+151279ecd6	IT Park: thuế đơn nhất 7% trên doanh thu, nhưng chỉ cho công ty.
+8fdca0b49b	Buletin de identitate (thẻ căn cước).
+7d7619a5cc	Một khi đã đăng ký thuế GTGT, bạn không thể hủy đăng ký trong ít nhất ba năm.
+8b20f66b41	PIB, mã số thuế 8 chữ số được cấp khi bạn đăng ký làm doanh nhân.
+db6ce795bc	Đăng ký với Sổ đăng ký Trung ương các Chủ thể Kinh doanh (CRPS); các bước chưa được xác nhận.
+d7c855bcc1	Thuế GTGT 21% trên €30.000 trong 12 tháng; hàng xuất khẩu 0%.
+1b9ccaed93	Người cư trú bị đánh thuế trên thu nhập toàn cầu; doanh nhân có biểu thuế riêng.
+26713cf8ee	Phần lớn không cần: Montenegro dùng đồng euro.
+cd247b20eb	Lična karta (thẻ căn cước).
+6af1c6d834	Chi trả về ngân hàng của bạn bằng MGA.
+81db064099	Freelancer xuất hóa đơn ra nước ngoài có thể phải quy đổi 70% thu nhập.
+50328c27ed	NIF do DGI cấp, được cho là miễn phí trong 2–3 ngày qua NIFONLINE.
+7a1f96cfa5	Đăng ký kinh doanh cá thể qua điểm một cửa EDBM; chi phí chưa được xác nhận.
+b2e9e67b0c	Thuế GTGT 20% từ doanh thu 400 triệu MGA; hàng xuất khẩu 0%.
+d343e396ac	Dưới doanh thu 400 triệu MGA, thuế tổng hợp là 5%, có thể giảm 70%.
+e3b36a3749	Có, nhưng nhà cung cấp dịch vụ phải bán 70% tiền thu xuất khẩu trong vòng 30 ngày.
+c57dfc7c7d	Có: tài khoản ngoại tệ có thể nhận chuyển khoản từ nước ngoài, có giới hạn.
+299fa7dbc7	Thuế tổng hợp 5% có thể giảm là cách đơn giản hóa chính.
+2deba2ce82	Có luật bảo vệ dữ liệu, nhưng chưa được áp dụng trên thực tế.
+fe9f2682f2	Thẻ căn cước quốc gia (CIN).
+72de25b9a9	Không có TIN; người nộp thuế dùng số người sử dụng lao động của bảo hiểm xã hội (MISSA).
+c0db0a0781	Không có thuế GTGT; áp dụng thuế tổng doanh thu và thuế bán hàng của địa phương.
+2b3118f320	Thuế tiền lương 8–12%; quy định về tự kinh doanh và thu nhập nước ngoài chưa được xác nhận.
+8fa0c9bcbd	Có, qua Wise.
+a557699908	Chi trả về ngân hàng của bạn bằng MKD.
+80374e1836	Số cá nhân EMBG và mã số thuế EDB; cách nộp hồ sơ chưa được xác nhận.
+71e865bfa9	Đăng ký với Sổ đăng ký Trung ương; các bước chưa được xác nhận.
+447cfe7b4f	Thuế GTGT 18% khi doanh thu đạt 2 triệu MKD mỗi năm.
+c6a27a257c	Thuế thu nhập cố định 10%, cộng khoảng 28% đóng góp xã hội cho doanh nhân cá thể.
+be3f41d1a3	Có, tự do; không có hạn chế pháp lý về chuyển tiền hay quy đổi tiền tệ.
+2aa75cc7d0	Rất có thể, không có hạn chế giao dịch tiền tệ; chưa được xác nhận cho cá nhân.
+9dca74561c	Лична карта (thẻ căn cước).
+f5224c84c8	NIF do cơ quan quản lý thuế cấp, cùng với đăng ký của bạn tại API-Mali.
+eb9214c3ed	Đăng ký kinh doanh cá thể tại điểm một cửa API-Mali (RCCM và NIF).
+2fc86365c3	Thuế GTGT 18%; người nộp thuế tổng hợp dưới 50 triệu FCFA không thu thuế này.
+ebb9f5fae8	Dưới doanh thu 50 triệu FCFA, thuế tổng hợp 3%, được miễn trong năm đầu tiên.
+b1a6165e70	Liên kết thanh toán Wave và Orange Money phù hợp với khách hàng trong nước bằng CFA, không dùng cho thẻ nước ngoài.
+1a3f8f5714	Thuế tổng hợp 3%, được miễn trong năm dương lịch đầu tiên của bạn.
+4ce6ce18ab	Luật 2013-015: khai báo việc xử lý dữ liệu với APDP.
+ff0f760651	Có luật giao dịch điện tử 2016-012; quy định hoàn tiền chưa được xác nhận.
+1663219a3a	Thẻ căn cước quốc gia sinh trắc học (chuẩn ECOWAS).
+b72cec2c58	Bán sản phẩm số hoặc phần mềm qua một merchant of record (đơn vị bán hàng thay bạn): Dodo Payments. Nền tảng là người bán hợp pháp đối với khách hàng của bạn, xử lý thanh toán thẻ và thuế GTGT/thuế bán hàng đối với người tiêu dùng, rồi chi trả cho bạn. Bạn vẫn phải khai báo các khoản chi trả là thu nhập của mình tại quốc gia của bạn.
+30053a552b	Lệnh trừng phạt và việc nằm trong danh sách của FATF khiến ngân hàng nước ngoài kiểm tra thêm.
+db3e6eda33	Chưa được xác nhận cho người kinh doanh cá thể; kinh doanh cá thể thường cần giấy phép của chính quyền thành phố.
+6a18bafa27	Không có thuế GTGT; thuế thương mại 5% với dịch vụ trên 50 triệu MMK.
+28ce0559e5	Thu nhập toàn cầu chịu thuế 1–25%; thuế trên thu nhập ngoại tệ được nộp bằng ngoại tệ đó.
+af7c7e5fb0	Có, nhưng 15% thu nhập từ nước ngoài phải được quy đổi sang kyat theo tỷ giá chính thức.
+805effc6ba	Một phần: ngoại tệ phải được giữ tại ngân hàng trong nước, với một phần được quy đổi.
+45a8b1a20f	Chưa nghiên cứu các ví trong nước như KBZPay và Wave Money.
+390f5676bf	Không có luật dữ liệu cá nhân; Luật An ninh mạng 2025 yêu cầu nền tảng lưu giữ dữ liệu người dùng.
+d088611f19	Citizenship Scrutiny Card (thẻ công dân).
+6e3d2cd095	Chi trả về ngân hàng của bạn bằng MNT.
+659eeab804	Mã số người nộp thuế và số đăng ký; cách nộp hồ sơ chưa được xác nhận.
+2e5aaafbdd	Đăng ký với Cơ quan Quản lý Thuế Mông Cổ; các bước chưa được xác nhận.
+bd3086d611	Thuế GTGT 10% khi doanh số đạt 50 triệu MNT trong 12 tháng.
+c48e0f8e99	Thu nhập toàn cầu chịu thuế 10%, 15% và 20%.
+729a4e45fe	Có thể có; không tìm thấy quy định bắt buộc bán ngoại tệ đối với cá nhân.
+559f213b92	Có: các ngân hàng như Golomt cung cấp tài khoản USD.
+74478cb135	Chưa nghiên cứu các ví trong nước như QPay và SocialPay.
+a6860e7eac	Luật Bảo vệ Dữ liệu Cá nhân (2021): cần sự đồng ý và thông báo khi xảy ra vi phạm dữ liệu.
+ea5d2e517c	Thẻ căn cước công dân.
+20fd54cae2	Được cho là NIF do điểm một cửa cấp; chưa được xác nhận.
+b0ca7ed1a0	Đăng ký kinh doanh cá thể tại điểm một cửa với bản sao giấy tờ tùy thân có công chứng.
+e8a2e52a1f	Thuế GTGT 16% từ doanh thu 3 triệu MRU; dịch vụ xuất khẩu chịu thuế suất 0%.
+b5f9c85706	Dưới doanh thu 3 triệu MRU, nộp 3% doanh thu (chế độ khoán forfait).
+a4f97dbbae	Luật 2017-020 về bảo vệ dữ liệu cá nhân, có cơ quan dữ liệu (APD).
+60da2013e9	Thẻ căn cước quốc gia hoặc hộ chiếu.
+852d01a591	Số thẻ căn cước của bạn (công dân Malta); người khác được cấp mã số thuế 9 chữ số.
+0449b43d45	Báo cáo tình trạng tự kinh doanh với Jobsplus và đăng ký thuế GTGT trước khi kinh doanh.
+2fc9978e21	Thuế GTGT 18%; doanh nghiệp nhỏ dưới khoảng €35.000 (dịch vụ) có thể đăng ký được miễn.
+33b17f6fca	Thu nhập toàn cầu chịu thuế: 0% đến €12.000, lên đến 35%, cộng thêm 15% an sinh xã hội.
+38c9d03ddd	Tự kinh doanh bán thời gian có thể được mức 10% đến €12.000.
+8ee2a70024	Karta tal-Identità (thẻ căn cước) hoặc hộ chiếu.
+98e5d71e0a	Chi trả về ngân hàng của bạn bằng MUR.
+fbe4e4e046	Nhà tư vấn freelance có thể phải đăng ký thuế GTGT ngay từ rupee đầu tiên.
+c8d15e2fba	Xử lý dữ liệu cá nhân mà không đăng ký là vi phạm.
+72426970ff	TAN (Tax Account Number, số tài khoản thuế) do Mauritius Revenue Authority cấp.
+7fbe3e3b7f	Đăng ký với CBRD để nhận Mã số Đăng ký Kinh doanh, rồi với MRA.
+feea9009c5	Thuế GTGT 15% trên 3 triệu MUR; nhà tư vấn phải đăng ký bất kể doanh thu.
+69f1508cd5	Thu nhập có nguồn từ Mauritius và thu nhập nước ngoài chuyển về nước chịu thuế 0–20%.
+33bf53efdc	Có, tự do; kiểm soát ngoại hối đã bị đình chỉ từ năm 1994.
+5a7798d6d0	Rất có thể, không có kiểm soát ngoại hối; chưa được xác nhận.
+5a1cc3b79b	Data Protection Act 2017: đăng ký với Data Protection Office.
+6414c6c111	Thẻ căn cước quốc gia.
+d8c3706c1a	Maldives đánh thuế cá nhân từ năm 2020, trái với các hướng dẫn cũ.
+3efc5d382d	TIN do MIRA cấp, bao gồm mọi loại thuế bạn đăng ký.
+4c12524205	Đăng ký qua Cổng Kinh doanh của Bộ Phát triển Kinh tế; các bước chưa được xác nhận.
+a53740bbec	GST 8% chung, 16% với du lịch, trên 1 triệu MVR; mức thuế có thể đã thay đổi.
+1f9116612e	Người cư trú bị đánh thuế trên thu nhập toàn cầu; 0% đến 720.000 MVR.
+e50a0b0dd7	Hướng dẫn cũ ghi 25 triệu MWK; ngưỡng thuế GTGT là 50 triệu MWK từ tháng 4 năm 2026.
+0c86157585	TPIN do Malawi Revenue Authority cấp.
+3e95921450	Đăng ký kinh doanh cá thể trực tuyến qua MBRS; chi phí chưa được xác nhận.
+c481ae69d8	Thuế GTGT 17,5% trên 50 triệu MWK mỗi năm từ tháng 4 năm 2026.
+04970ce1eb	Thu nhập có nguồn từ Malawi chịu thuế đến 35%; công việc làm tại Malawi nhiều khả năng được tính.
+206b8b2287	Có kiểm soát ngoại hối; nhà xuất khẩu quy đổi 25%, cách áp dụng cho freelancer chưa được xác nhận.
+9ec0ad4836	Có tài khoản ngoại tệ (FCDA); điều kiện cho cá nhân chưa được xác nhận.
+c601ddb2b5	Data Protection Act 2024; chỉ đơn vị xử lý lớn (từ 10.000 người trở lên) phải đăng ký.
+b5aeebfe78	Người mua có thể hủy hợp đồng trực tuyến trong vòng bảy ngày.
+dfd2dc69e3	Thẻ căn cước quốc gia (công dân) hoặc hộ chiếu.
+9805212a0f	Chi trả về ngân hàng của bạn bằng MXN.
+c983cfa8fe	Rút bằng peso về một ngân hàng tại Mexico.
+fe4ac407a4	Dịch vụ xuất khẩu không có trong danh sách chính thức vẫn chịu IVA 16%.
+ade60986a0	Phần lớn mọi người không được giữ đô la trong tài khoản ngân hàng tại Mexico.
+0e493bba51	RFC; nhận trực tuyến bằng CURP của bạn nếu từ 18 tuổi trở lên.
+d2341a27c3	Không cần công ty; đăng ký vào RFC với tư cách persona física (thể nhân).
+66b1dcda9f	IVA (thuế GTGT) 16%; chỉ dịch vụ xuất khẩu trong danh sách được 0%, còn lại trả 16%.
+cc8e653c8b	Thu nhập toàn cầu chịu thuế; dưới 3,5 triệu MXN mỗi năm, RESICO chỉ thu 1–2,5%.
+d9f3ac9497	Có, tự do; Mexico không có kiểm soát ngoại hối.
+5662863f64	Hiếm: tài khoản đô la chỉ dành cho cư dân vùng biên giới và công ty.
+02107f3dab	Stripe chấp nhận cá nhân có RFC cá nhân; tiền chi trả vào tài khoản ngân hàng MXN.
+e725f4ea81	Thuế thu nhập RESICO 1–2,5% và IVA 0% với dịch vụ xuất khẩu đủ điều kiện.
+47fdacdeb6	Luật dữ liệu mới (tháng 3 năm 2025): bắt buộc có thông báo quyền riêng tư và sự đồng ý.
+ee0feacabf	Người mua có thể hủy trong vòng 5 ngày làm việc kể từ khi giao hàng (PROFECO).
+7788554edc	Thẻ cử tri INE, hoặc hộ chiếu của bạn.
+acf417d3f3	Chi trả về ngân hàng của bạn bằng MYR.
+64f911f6db	Miễn thuế thu nhập nước ngoài không áp dụng cho công việc từ xa thực hiện tại Malaysia.
+0a152c5020	TIN do Inland Revenue Board cấp, cho công dân từ 18 tuổi trở lên.
+fbb8638fb4	Đăng ký kinh doanh cá thể với SSM qua EzBiz: RM30 mỗi năm dưới tên của bạn.
+a8cbe39b5f	Không có thuế GTGT; thuế dịch vụ 8% chỉ áp dụng trên RM500.000 dịch vụ chịu thuế.
+b80f639247	Công việc làm tại Malaysia chịu thuế 0–30%, kể cả với khách hàng nước ngoài.
+0ef8d76739	Có; không bị buộc quy đổi, và bạn có thể giữ thu nhập nước ngoài bằng ngoại tệ.
+b6b3b3a5df	Có: cá nhân có thể tự do mở tài khoản ngoại tệ.
+3d3f575101	Chưa nghiên cứu các cổng thanh toán trong nước như iPay88 và Billplz.
+afc23d04c3	Không tìm thấy ưu đãi thuế riêng cho freelancer.
+59ca3fa2bd	PDPA 2010 (sửa đổi 2024): chỉ định DPO (cán bộ bảo vệ dữ liệu) và báo cáo vi phạm dữ liệu.
+d64a687728	MyKad (thẻ căn cước quốc gia).
+871afd2c9e	Chi trả về ngân hàng của bạn bằng MZN.
+0062735f37	Hiện tại một nửa thu nhập từ nước ngoài phải được quy đổi sang metical.
+ba59df4ca9	Nhà tư vấn trả 15% theo ISPC và chỉ được ở lại tối đa 5 năm.
+13b51a6b0f	NUIT, mã số thuế do Cơ quan Thuế cấp.
+5aee008590	Đăng ký kinh doanh cá thể tại điểm một cửa BAU, thường mất 7–15 ngày.
+b9cb1fe3d9	Thuế GTGT 16%; ngưỡng được cho là 2,5 triệu MZN, cần xác nhận chính thức.
+963d6f637a	Thu nhập toàn cầu chịu thuế đến 32%; người nộp thuế nhỏ dưới 4 triệu MZN có thể dùng ISPC.
+8c81720abb	Có, nhưng phải chuyển về nước trong vòng 90 ngày và quy đổi 50% sang metical.
+86c7775319	Có, nếu bạn có thu nhập ngoại tệ được chứng minh, ví dụ từ xuất khẩu.
+de5ac6c338	Không có ưu đãi cho freelancer; ISPC bị giới hạn 5 năm với nghề tự do.
+05d3802855	Chưa có luật bảo vệ dữ liệu chung; một dự luật được trình vào năm 2026.
+d535ba7415	Bilhete de identidade (thẻ căn cước).
+96b2378183	Chi trả về ngân hàng của bạn bằng NAD.
+b2fa442332	Quyền hủy trong 7 ngày mà một số hướng dẫn nhắc đến chưa có hiệu lực.
+110fb2152e	Các trang cũ ghi N$500.000; ngưỡng thuế GTGT nay là N$1 triệu.
+35399e387f	TIN do NamRA cấp khi đăng ký.
+324ebac387	Đăng ký với BIPA; các bước chưa được xác nhận.
+99319ab899	Thuế GTGT 15% trên N$1 triệu trong bất kỳ giai đoạn 12 tháng nào.
+3bd5b79056	Thu nhập có nguồn từ Namibia chịu thuế: 0% đến 100.000 NAD, lên đến 37%.
+3a5d9e7971	Có, theo kiểm soát ngoại hối của Khu vực Tiền tệ Chung, qua các ngân hàng thương mại.
+d7b8ddb6ea	Có: ngân hàng cung cấp tài khoản ngoại tệ; điều kiện cho cá nhân chưa được xác nhận riêng.
+a9a8d7d47f	Chưa có luật bảo vệ dữ liệu; một dự luật được trình vào năm 2025.
+a6f3dfe5f3	Quyền của người tiêu dùng thương mại điện tử có trên giấy nhưng chưa có hiệu lực.
+0153565c74	NIF, được cho là cấp cùng với đăng ký của bạn tại Maison de l'Entreprise.
+50bf158887	Đăng ký làm entreprenant tại Maison de l'Entreprise ở Niamey, khoảng 72 giờ.
+fbee2d0767	Thuế GTGT 19%; doanh số qua nền tảng bị đánh thuế từ năm 2025.
+b898dc0ac0	Dưới doanh thu 50 triệu FCFA, áp dụng thuế tổng hợp; không còn miễn thuế cho doanh nghiệp mới từ năm 2025.
+307421d4c4	Không có thời gian miễn thuế cho doanh nghiệp nhỏ từ năm 2025; chế độ thuế tổng hợp là lựa chọn đơn giản.
+9984c6e4a8	Luật 2022-59: thông báo cho HAPDP, trừ khi bạn chỉ định cán bộ bảo vệ dữ liệu.
+f9fb7ff70a	Có luật giao dịch điện tử 2019-03; quy định hoàn tiền chưa được xác nhận.
+9a5c486873	Thẻ căn cước quốc gia; thẻ sinh trắc học AES được triển khai từ năm 2026.
+b529592d7f	Bạn phải kết nối một ngân hàng đối tác tại Nigeria để nhận tiền.
+e501286367	Chi trả về ngân hàng của bạn bằng NGN.
+b0be13427a	Chỉ qua Kuda, cho doanh nghiệp đã đăng ký với CAC.
+a60022bf06	Tài khoản Paystack Starter bị giới hạn ở ₦8 triệu (5.000 USD với đô la).
+035ee1ed79	Các nền tảng trả tiền qua PayPal Payouts không thể chi trả vào tài khoản tại Nigeria.
+6167802f08	Toàn bộ thu nhập nước ngoài của bạn đều chịu thuế, kể cả khi bạn giữ nó ở nước ngoài.
+cfcfbd819a	Mọi người phải nộp thuế đều cần Tax ID (mã số thuế), và ngân hàng sẽ yêu cầu nó.
+683b57b390	Không cần nếu dùng tên của chính bạn; đăng ký tên doanh nghiệp với CAC.
+e59f54d12c	Thuế GTGT 7,5%; dịch vụ xuất khẩu chịu thuế suất 0%.
+b4e892fceb	Thu nhập nước ngoài chịu thuế; ₦800.000 đầu tiên được miễn, sau đó 15–25%.
+ce44de6608	Có, vào tài khoản domiciliary (USD); không cần chấp thuận trước.
+41a38ef598	Có: tài khoản domiciliary tại ngân hàng Nigeria.
+0361692219	Paystack cho phép bạn đăng ký làm Starter Business mà không cần đăng ký CAC.
+797173355a	₦800.000 thu nhập đầu tiên được miễn thuế; công ty nhỏ trả thuế doanh nghiệp 0%.
+4b5b0b47d8	Nigeria Data Protection Act 2023, do NDPC thực thi.
+e3302b03d5	Luật người tiêu dùng (FCCPA) bao gồm người bán trực tuyến; khiếu nại gửi đến FCCPC.
+14c698df52	Mã số Định danh Quốc gia (NIN); ứng dụng thanh toán cũng dùng BVN của bạn.
+cd031ed597	Khoản chi trả từ các trang trả tiền qua PayPal Payouts (PayPal không liệt kê quốc gia này); số dư Wise (người cư trú không được giữ tiền).
+5be32655d5	Nhận vào tài khoản domiciliary (USD) thông thường.
+92f2f854ba	Nhận vào tài khoản domiciliary (USD) thông thường. Theo Sổ tay Ngoại hối của CBN có hiệu lực từ ngày 1 tháng 6 năm 2026, chủ tài khoản được sử dụng không hạn chế và không cần chấp thuận trước.
+198dc8bb01	RUC, mã 14 chữ số do DGI cấp, đăng ký bằng cédula của bạn.
+30b451a85c	Thuế GTGT 15%; mọi thương nhân phải đăng ký, không nêu ngưỡng.
+e581286aed	Chỉ thu nhập có nguồn từ Nicaragua chịu thuế, với mức đến 30%.
+d4e68c460c	Chế độ hạn mức cố định hằng tháng cho thu nhập đến C$480.000 mỗi năm (số liệu cũ).
+4a0ead8e01	Đăng ký KOR chậm nhất bốn tuần trước khi kỳ khai thuế bắt đầu.
+9570d36d7a	Mã số thuế được cấp khi sinh ra hoặc khi bạn đăng ký với chính quyền thành phố.
+e98fdc8138	Đăng ký eenmanszaak (kinh doanh cá thể) với KVK trực tuyến bằng DigiD, rồi đến văn phòng KVK.
+19fb661619	Thuế GTGT 21%; miễn trừ KOR tùy chọn đến doanh thu €20.000 mỗi năm.
+a350ccff28	Thu nhập toàn cầu chịu thuế theo mức lũy tiến của Box 1.
+a3cf4b660a	KOR: không thu hay khấu trừ thuế GTGT dưới €20.000 mỗi năm.
+8c063803cc	Chi trả về ngân hàng của bạn bằng NOK.
+55e153c220	Số căn cước quốc gia, hoặc số D với người nước ngoài.
+1a7e42c6e1	Đăng ký enkeltpersonforetak (kinh doanh cá thể) của bạn với Brønnøysund qua Altinn để nhận số tổ chức.
+17dcedaf20	Thuế GTGT 25% khi doanh số vượt 50.000 NOK trong 12 tháng.
+67523a6dbc	Thu nhập toàn cầu chịu thuế, cộng thêm 10,8% an sinh xã hội trên thu nhập kinh doanh.
+7655f76257	Có: một số ngân hàng cung cấp tài khoản ngoại tệ (valutakonto) cho khách hàng cá nhân.
+4ab60c787f	GDPR áp dụng qua EEA, do Datatilsynet giám sát.
+6adc27dd2b	ID-kort (thẻ căn cước), giấy phép lái xe hoặc hộ chiếu.
+76e80c7995	Bạn có thể mở tài khoản, nhưng không thể nhận thanh toán.
+432a6bc294	Các báo cáo không thống nhất; chưa được xác nhận trên bất kỳ trang nào của Payoneer.
+3f1aa23f55	Số dư thẻ trên USD 10.000 phải được chuyển vào tài khoản ngân hàng của bạn.
+50742b76f7	Việc Payoneer hỗ trợ Nepal chưa được xác nhận trên bất kỳ trang nào của Payoneer.
+ca8deddd87	Người bán trực tuyến chưa đăng ký có thể bị phạt đến Rs 200.000.
+51b3f658e3	PAN do Inland Revenue Department cấp, miễn phí.
+f782a9e709	Freelancer có thể dùng PAN Cá nhân; người bán trực tuyến cũng phải đăng ký trên cổng DoCSCP.
+564c06b5e1	Thuế GTGT 13%; dịch vụ cho khách hàng ở nước ngoài chịu thuế suất 0%.
+a6b5ceb748	Thu nhập nước ngoài từ phần mềm, tư vấn hoặc nội dung: thuế 5% do ngân hàng thu.
+a6d8b39752	Có, qua các kênh được NRB cấp phép như thẻ ngoại tệ trả trước của ngân hàng.
+ed4f59b239	Có, với người có thu nhập ngoại tệ: ngân hàng mở tài khoản ngoại tệ có thể chuyển đổi.
+0bf2d08814	Khalti cần doanh nghiệp đã đăng ký và PAN/thuế GTGT; cá nhân không thể trở thành người bán.
+bc097e240e	Thuế 5% trên thu nhập nước ngoài, và giảm 50% thuế thu nhập cho nhà xuất khẩu dịch vụ CNTT.
+b8b2ba8cbc	Áp dụng Individual Privacy Act 2075; không có cơ quan bảo vệ dữ liệu.
+dfee062140	E-Commerce Act 2081: hiển thị PAN, địa chỉ và quy trình khiếu nại của bạn.
+3a82d6d1ef	Giấy chứng nhận quốc tịch.
+325a8d6bac	Nepal Rastra Bank cho phép người xuất khẩu dịch vụ trực tuyến nhận thu nhập vào thẻ ngoại tệ trả trước của một ngân hàng được cấp phép, và khi có yêu cầu thì chuyển sang tài khoản trong nước hoặc tài khoản ngoại tệ của chính họ.
+f3fc9718b4	TIN do Nauru Revenue Office cấp; cách nộp hồ sơ chưa được xác nhận.
+b63c716625	Không có thuế GTGT hay GST.
+fb03173212	Không có báo cáo về thuế thu nhập cá nhân.
+859559d2fb	Tài khoản trong nước là bằng đô la Úc, đồng tiền chính thức.
+a46b6a1739	Không có thẻ căn cước quốc gia; dùng hộ chiếu.
+a061ac65c8	Chi trả về ngân hàng của bạn bằng NZD.
+6a090edf93	Đừng thu GST cho đến khi bạn có số GST.
+2b2a1d947c	Số IRD do Inland Revenue cấp.
+f14711b5c3	Không cần đăng ký; số IRD của bạn là mã số doanh nghiệp của bạn.
+ec9755e55b	GST 15% khi doanh thu đạt NZD 60.000 trong 12 tháng.
+7550f3c0f2	Thu nhập toàn cầu chịu thuế từ 10,5% đến 39% trên NZD 180.000.
+62b5edea08	Có: các ngân hàng như ANZ cung cấp tài khoản ngoại tệ cá nhân.
+58cfb7c00d	Áp dụng Privacy Act 2020.
+20509d6add	Chi trả về ngân hàng của bạn bằng OMR.
+75e79e8872	Từ năm 2028, người cư trú nộp 5% trên thu nhập toàn cầu trên OMR 42.000.
+102ce287ad	Không có thuế cá nhân, nên TIN chỉ dành cho doanh nghiệp (thuế GTGT, thuế doanh nghiệp).
+46455f1644	Đăng ký với Bộ Thương mại (MOCIIP); các bước chưa được xác nhận.
+e1eef0c6ad	Thuế GTGT 5% trên doanh thu OMR 38.500 mỗi năm.
+2ec9c4fc73	Không có thuế thu nhập cá nhân đến năm 2028; sau đó 5% trên OMR 42.000.
+6efb0fd1fb	Có, tự do; đồng rial có thể chuyển đổi và vốn dịch chuyển không hạn chế.
+6a3ae04f64	Có: ngân hàng cung cấp tài khoản cá nhân bằng USD, GBP, EUR và các đồng tiền khác.
+5e84d062d5	Chưa xác nhận được công việc làm tại Panama cho khách hàng nước ngoài có được miễn thuế hay không.
+dbca7cea4b	RUC, mã số đăng ký người nộp thuế duy nhất.
+3244e62484	Đăng ký với MICI và DGI; các bước chưa được xác nhận.
+021db37f83	ITBMS (thuế GTGT) 7% trên USD 36.000 mỗi năm.
+4ed657540c	Chỉ thu nhập có nguồn từ Panama chịu thuế: 0% đến USD 11.000, sau đó 15–25%.
+5acbb835f0	Tài khoản trong nước trên thực tế là bằng đô la Mỹ, đồng tiền pháp định của Panama.
+c0ec06b7ae	Chi trả về ngân hàng của bạn bằng PEN.
+ab242d208d	Ngân hàng có thể đóng tài khoản cá nhân dùng cho dòng tiền kinh doanh; hãy cân nhắc tài khoản doanh nghiệp.
+346daefca3	Thu nhập hành nghề freelance thường không thể dùng Nuevo RUS.
+9455edcdb0	RUC, mã số Sổ đăng ký Người nộp thuế Duy nhất do SUNAT cấp.
+570e242a2e	Đăng ký vào RUC với SUNAT, trực tuyến bằng DNI của bạn qua App Personas.
+4b59810caf	IGV (thuế GTGT) 18%; quy định xuất khẩu với dịch vụ chưa được xác nhận.
+c439e5c061	Thu nhập toàn cầu chịu thuế theo biểu bậc thang bắt đầu từ 8%.
+3ea9b2bfe0	Có: tài khoản đô la rất phổ biến, ví dụ BCP không yêu cầu số dư tối thiểu.
+bd5644f9e7	Nuevo RUS: hạn mức cố định hằng tháng từ S/ 20 cho doanh nghiệp nhỏ.
+8fd3ea76f0	DNI, do RENIEC cấp.
+e0c1e6f4d3	Tình trạng thiếu ngoại tệ có thể làm chậm việc quy đổi và gửi tiền ra nước ngoài.
+fd608d0b09	TIN do Internal Revenue Commission cấp; ngân hàng cần nó để mở tài khoản.
+c4d1358976	Thuế GTGT 10%; hàng xuất khẩu chịu thuế suất 0%; ngưỡng chưa được xác nhận.
+9012ef027a	Người cư trú bị đánh thuế trên thu nhập toàn cầu; các bậc được báo cáo là 22–42%.
+efd45e5e3d	Bị hạn chế: tiền giữ tại PNG phải bằng kina; chuyển tiền ra nước ngoài có thể chậm.
+1fb472d31e	Thẻ căn cước quốc gia (e-ID từ năm 2015).
+15a7123eb0	Chi trả về ngân hàng của bạn bằng PHP.
+a2fe0d0926	Rút về bất kỳ ngân hàng Philippines nào đứng tên bạn.
+3e29ae354d	Mọi người bán trực tuyến đều phải đăng ký với BIR, bất kể quy mô.
+b11be4826e	Chọn phương án 8% khi đăng ký hoặc trên tờ khai quý đầu tiên.
+f43da22f4a	TIN do BIR cấp, khi bạn đăng ký bằng Mẫu 1901.
+64ee1eee15	Đăng ký với BIR (Mẫu 1901, trực tuyến qua ORUS); DTI chỉ dành cho tên doanh nghiệp.
+940d504ec8	Thuế GTGT chỉ áp dụng trên ₱3 triệu mỗi năm; dịch vụ được trả bằng ngoại tệ chịu thuế suất 0%.
+5dc161ec5c	Thu nhập toàn cầu chịu thuế; dưới doanh số ₱3 triệu, chọn 8% trên khoản thu vượt ₱250.000.
+f03728f837	Có, tự do; bạn không bao giờ phải quy đổi thu nhập nước ngoài sang peso.
+7351e57684	Có: ngân hàng cung cấp tài khoản tiền gửi ngoại tệ (FCDU).
+d0503c398a	PayMongo chỉ nhận người bán chưa đăng ký cho QR Ph; thẻ và GCash cần đăng ký DTI.
+4f3838e4c0	Phương án thuế cố định 8%, và thuế GTGT bằng 0 với dịch vụ bằng ngoại tệ.
+232f021a59	Data Privacy Act 2012, do National Privacy Commission thực thi.
+ff15ab55bb	Internet Transactions Act 2023 bao gồm người bán trực tuyến; DTI vận hành E-Commerce Bureau.
+95e45fc8b1	PhilID (thẻ căn cước quốc gia), hoặc bản điện tử ePhilID.
+8f73088651	Người cư trú được giữ thu nhập ngoại tệ trong tài khoản FCDU (BSP FX Manual), và cả Wise lẫn Payoneer đều có sẵn.
+a0b09e2202	Cho phép tài khoản cá nhân; không cần doanh nghiệp đã đăng ký.
+b8fcc1b6db	Chi trả về ngân hàng của bạn bằng PKR.
+1a95eb7181	Mức thuế xuất khẩu thấp chỉ được tính là thuế cuối cùng nếu bạn nộp tờ khai thuế.
+42cafbd69a	Đăng ký với PSEB để trả 0,25% thay vì 1% trên thu nhập xuất khẩu.
+4d3d48d74e	Bạn không thể rút tiền mặt ngoại tệ trong Pakistan.
+f18c9b5263	NTN của bạn là số CNIC; đăng ký miễn phí trực tuyến trên FBR Iris.
+a56abfdc58	Không cần đăng ký kinh doanh; chỉ cần đăng ký với FBR để nhận NTN.
+7f1a6f599b	Dịch vụ bị đánh thuế cấp tỉnh; Sindh miễn thuế cho dịch vụ CNTT xuất khẩu.
+5bec7bf909	Thu nhập xuất khẩu: thuế cuối cùng 0,25% nếu đăng ký PSEB, nếu không thì 1%.
+59975a72a6	Có; giữ USD 5.000 mỗi tháng hoặc một nửa thu nhập bằng ngoại tệ.
+06cda7e9cb	Có: ngân hàng mở tài khoản đô la xuất khẩu (ESFCA) bên cạnh tài khoản rupee của bạn.
+e3fc024db1	Các cổng thanh toán trong nước như Safepay và PayFast yêu cầu NTN và tài khoản ngân hàng doanh nghiệp.
+712c099447	Đăng ký với PSEB (Rs 1.000 mỗi năm) để giảm thuế xuất khẩu xuống 0,25%.
+bbf3afe6cb	Chưa có luật bảo vệ dữ liệu có hiệu lực; luật của khách hàng (như GDPR) vẫn quan trọng.
+876d091366	Hợp đồng trực tuyến là hợp pháp; bảo vệ người tiêu dùng chủ yếu do cấp tỉnh quy định.
+e0d7f8f780	Computerised National Identity Card (CNIC, thẻ căn cước quốc gia).
+61d649447f	State Bank of Pakistan cho phép freelancer nhận tiền xuất khẩu dựa trên tự khai báo khi không có hợp đồng.
+092ebd225b	State Bank of Pakistan cho phép freelancer nhận tiền xuất khẩu dựa trên tự khai báo khi không có hợp đồng. Ngân hàng phải mở Exporters' Special Foreign Currency Account (ESFCA) bên cạnh tài khoản PKR của bạn. Payoneer cung cấp loại tài khoản 'Individual'.
+28100d3d3c	Chi trả về ngân hàng của bạn bằng PLN.
+8e9726b5aa	Mức ryczałt của bạn phụ thuộc vào mã dịch vụ chính xác; sai sót rất phổ biến.
+395b030bff	PESEL, nếu bạn không kinh doanh hoặc không nộp thuế GTGT.
+4592c3727a	Đăng ký kinh doanh cá thể (JDG) trực tuyến qua CEIDG, thường trong một ngày.
+7a624dc0ff	Thuế GTGT 23%; được miễn dưới PLN 240.000 mỗi năm từ năm 2026.
+692ac86b08	Thu nhập toàn cầu chịu thuế 12% đến PLN 120.000, sau đó 32%.
+855cb56169	Có: các ngân hàng như PKO BP cung cấp tài khoản bằng nhiều loại ngoại tệ.
+955534de54	Thuế khoán ryczałt (12% với CNTT) và mức đóng ZUS giảm cho doanh nghiệp mới.
+15afe11958	Dowód osobisty (thẻ căn cước) hoặc hộ chiếu.
+cc41442bfe	Đăng ký an sinh xã hội không tự động; hãy làm trên Segurança Social Direta.
+eec12fb0a0	Vượt €18.750 trong năm nghĩa là phải thu thuế GTGT từ hóa đơn đó.
+db779d7a2c	NIF, do Cơ quan Thuế và Hải quan cấp, cần có trước khi mở hoạt động kinh doanh.
+95fae9713a	Mở hoạt động kinh doanh với Finanças bằng NIF của bạn, rồi đăng ký an sinh xã hội riêng.
+958d78a049	Thuế GTGT 23%; được miễn nếu doanh thu năm trước dưới €15.000.
+0b8e60c769	Thu nhập toàn cầu chịu thuế 12,5–48%, cộng thêm 21,4% an sinh xã hội trên 70% thu nhập dịch vụ.
+6d823a2b8c	Có, nhưng điều kiện khác nhau giữa các ngân hàng; hãy kiểm tra tài khoản ngoại tệ của từng ngân hàng.
+b39de99315	Không có thuế GTGT dưới €15.000, và không đóng an sinh xã hội trong 12 tháng đầu tiên.
+f8b06f66a6	Cartão de Cidadão (thẻ công dân) hoặc hộ chiếu.
+3021d327c7	Đăng ký với Bureau of Revenue and Taxation; các bước chưa được xác nhận.
+b4684013af	PGST 10% trên USD 300.000 mỗi năm.
+b835382665	Thuế tiền lương 6–12%; thuế tổng doanh thu kinh doanh chưa được xác nhận.
+963d2033ed	Công dân dùng hộ chiếu hoặc giấy phép lái xe.
+0b58117afc	Chi trả về ngân hàng của bạn bằng PYG.
+e670b28444	Dịch vụ cho khách hàng Paraguay chịu thuế; hãy xác nhận cách xử lý thu nhập có nguồn nước ngoài với SET.
+80016ba3fe	Đăng ký RUC với DNIT, trực tuyến với cá nhân.
+250203926d	Thuế GTGT 10%; người nộp thuế RESIMPLE nằm ngoài thuế GTGT.
+4371eef503	Chỉ thu nhập có nguồn từ Paraguay chịu thuế; thu nhập hoàn toàn từ khách hàng nước ngoài có thể chịu 0%.
+b1b6205aea	Có: ngân hàng hoạt động bằng cả nội tệ và ngoại tệ.
+b2413b8691	RESIMPLE: khoản nộp cố định hằng quý cho doanh thu hằng năm đến PYG 80 triệu.
+9dc256c150	Cédula de identidad civil (thẻ căn cước quốc gia).
+e340a1603e	Chi trả về ngân hàng của bạn bằng QAR.
+960e2ab307	TIN do General Tax Authority cấp; cách nộp hồ sơ chưa được xác nhận.
+cd8c0abe3f	Chưa có thuế GTGT; dự kiến cuối cùng sẽ áp dụng 5%.
+a4177f1092	Chỉ thu nhập có nguồn từ Qatar chịu thuế; thu nhập kinh doanh của người tự kinh doanh có thể chịu 10%.
+76b9478e6a	Có thể tự do; đồng riyal neo vào USD và không có báo cáo về kiểm soát ngoại hối.
+922f2376e1	Có: các ngân hàng như QNB cung cấp tài khoản trong nước bằng một số ngoại tệ.
+76100bd4f7	Luật số 13 năm 2016 về Bảo vệ Dữ liệu Cá nhân.
+533dd2c293	Qatari ID Card (thẻ căn cước Qatar).
+d7ed4fdb82	Chi trả về ngân hàng của bạn bằng RON.
+064cdbf23a	Thu nhập trên €25.000 sẽ chuyển bạn sang đánh thuế theo thu nhập thực tế vào năm sau.
+07bd6f7a50	Đóng góp hưu trí CAS phát sinh khi thu nhập ròng đạt 48.600 lei.
+c311ba9429	CNP (mã cá nhân) của bạn là mã số thuế của bạn.
+424a087904	Đăng ký PFA tại sổ đăng ký thương mại (ONRC), trực tuyến hoặc trực tiếp, trước khi bắt đầu.
+1720330c1f	Thuế GTGT 21%; miễn dưới 395.000 lei, và dịch vụ B2B ra nước ngoài không được tính.
+82b5ae4bc0	PFA: thuế thu nhập 10%, cộng thêm đóng góp hưu trí (CAS) và y tế (CASS) trên các ngưỡng.
+a24df9ff5e	Có: các ngân hàng như BCR mở tài khoản vãng lai ngoại tệ cho cá nhân.
+97e17a15b8	Định mức thu nhập: thuế 10% trên một khoản cố định, nếu khoản thu dưới €25.000.
+bce0ea3dbd	Carte de identitate (thẻ căn cước) hoặc hộ chiếu.
+c87e675345	Chi trả về ngân hàng của bạn bằng RSD.
+df34658b08	Làm việc cho một khách hàng duy nhất có thể khiến bạn không đạt bài kiểm tra tính độc lập và bị tăng thuế.
+cdc0d20e97	Freelancer chưa đăng ký phải khai thuế trong vòng 30 ngày sau mỗi quý.
+75e0cf42cf	JMBG cho cá nhân; doanh nhân được cấp PIB 9 chữ số.
+00350bb024	Đăng ký làm doanh nhân với APR trực tuyến; thuế và an sinh xã hội được liên kết tự động.
+84f155026a	Thuế GTGT 20% trên RSD 8 triệu trong 12 tháng.
+de60ced49c	Freelancer chưa đăng ký được trả tiền từ nước ngoài tự tính thuế hằng quý; doanh nhân có thể dùng paušal.
+3adaf34022	Có: ngân hàng cung cấp tài khoản ngoại tệ (devizni) cho cá nhân.
+590205882d	Paušal: thuế và đóng góp cố định hằng tháng, đến RSD 6 triệu mỗi năm.
+cd7e1b567f	INN, mã số người nộp thuế của bạn.
+9847a3da07	Đăng ký tự kinh doanh (NPD) trong ứng dụng "Мой налог" trong vài phút.
+6e32177504	Thuế GTGT 22% từ năm 2026; doanh nghiệp theo chế độ đơn giản dưới 20 triệu rúp được miễn.
+a3a76baa9d	Thuế lũy tiến 13–22% trên thu nhập từ năm 2025; nhiều freelancer dùng NPD thay thế.
+ca6c98f9af	Bị hạn chế bởi lệnh trừng phạt; hầu hết nền tảng phương Tây không phục vụ Nga.
+4004bae1f2	Tự kinh doanh NPD: 4% từ cá nhân, 6% từ công ty, đến 2,4 triệu rúp.
+aa7606c333	Hộ chiếu nội địa của Nga.
+3cfa616743	Rút về một ngân hàng tại Rwanda.
+c0950fd569	Chi trả về ngân hàng của bạn bằng RWF.
+88e24c4771	Báo giá bằng ngoại tệ cho khách hàng Rwanda có thể bị phạt nặng.
+70db3ec17f	Doanh nghiệp trực tuyến có nghĩa vụ công bố thông tin mới theo Luật 011/2026.
+cef747d808	TIN do Rwanda Revenue Authority cấp, tự động khi đăng ký với RDB.
+1a685dd4ec	Đăng ký doanh nghiệp cá thể miễn phí và ngay lập tức trực tuyến tại RDB, kèm TIN tự động.
+081b309827	Thuế GTGT 18% trên RWF 20 triệu mỗi năm; hàng xuất khẩu chịu thuế suất 0%.
+5995ac2e98	Thu nhập toàn cầu chịu thuế 0–30%; doanh thu dưới RWF 2 triệu được miễn.
+34deeacd04	Có, qua các kênh được ủy quyền; cấm báo giá bằng ngoại tệ cho người Rwanda.
+abc526725e	Có: cho phép tài khoản ngoại tệ được cấp phép.
+0fe52c6259	IremboPay và Paystack cần đăng ký kinh doanh với RDB và TIN.
+8978ac6bd8	Không có thuế thu nhập dưới RWF 2 triệu; thuế khoán đơn giản hoặc 3% đến RWF 20 triệu.
+798e04c541	Luật 058/2021: đăng ký với National Cyber Security Authority với tư cách bên kiểm soát dữ liệu.
+24e0a30a39	Người mua có thể rút lại giao dịch mua trực tuyến trong vòng 7 ngày (Luật 011/2026).
+bca06e2ae5	Chi trả về ngân hàng của bạn bằng SAR.
+6c932318dc	Thu nhập kinh doanh freelance không đơn giản là được miễn thuế; áp dụng zakat hoặc thuế 20%.
+33a0ef2194	Người nước ngoài không thể dùng giấy phép freelance.
+e0b223288f	TIN do General Authority for Zakat and Tax (GAZT) cấp.
+976fb8c7bd	Công dân Ả Rập Xê Út có thể xin giấy phép freelance trực tuyến; người nước ngoài cần đăng ký thương mại.
+78a632e2c7	Thuế GTGT 15% trên SAR 375.000 mỗi năm; dịch vụ xuất khẩu chịu thuế suất 0%.
+2c8ff3e32f	Không có thuế thu nhập cá nhân, nhưng thu nhập kinh doanh chịu zakat (công dân Ả Rập Xê Út) hoặc thuế 20% (người khác).
+8711c07c75	Có, tự do; không giới hạn dòng tiền vào hay ra.
+5befb29aea	Có: ngân hàng mở tài khoản bằng bất kỳ ngoại tệ nào có sẵn.
+ef62b3610a	Chưa nghiên cứu các cổng thanh toán trong nước như Moyasar, HyperPay và Tap.
+eea16e52cc	Giấy phép freelance cho công dân Ả Rập Xê Út.
+fccc110dd9	Personal Data Protection Law, có hiệu lực từ năm 2023, do SDAIA quản lý.
+476deb4b0b	Người mua trực tuyến có thể trả hàng chưa sử dụng trong vòng 7 ngày.
+fa88bc3761	Chưa có thuế GTGT; áp dụng thuế hàng hóa; thuế GTGT 15% đang được chuẩn bị.
+b84acc9d20	Các bậc được báo cáo từ 0% đến SBD 15.000, tăng dần lên 40%.
+823ddc46e4	Thẻ cử tri không bắt buộc, được cấp khi có yêu cầu.
+e3e3a47828	TIN do Seychelles Revenue Commission cấp khi bạn đăng ký.
+1a288250ed	Đăng ký với Registrar of Businesses và xin giấy phép; cần có NIN.
+987b4413ab	Thuế GTGT 15% trên SCR 2 triệu; tự nguyện từ SCR 100.000.
+ed0d5c22c8	Dưới doanh thu SCR 1 triệu, thuế ấn định cố định 1,5% trên doanh thu.
+3ecc8cb850	Có thể có; kiểm soát tiền tệ được cho là đã bãi bỏ năm 2009.
+371966f648	Có thể có; người cư trú được cho là có thể tự do giữ ngoại tệ.
+4859eb6509	Thuế ấn định 1,5% dưới SCR 1 triệu là cách đơn giản hóa chính.
+9746f884a0	Data Protection Act 2023, do Information Commission thực thi.
+84220f5c6d	Thẻ căn cước quốc gia (NIN) hoặc hộ chiếu.
+9fa0963b79	Đừng dùng các kênh phi chính thức để lách quy định tiền tệ.
+bc8a41a0e2	Đăng ký tên doanh nghiệp bằng mẫu đơn có công chứng; thủ tục thời chiến chưa được xác nhận.
+00ccb3e506	Thuế GTGT được cho là 17%; ngưỡng và quy định xuất khẩu chưa được xác nhận.
+deb237a255	Mức thuế thu nhập cá nhân cao nhất được cho là 15%; không tìm thấy quy định khác.
+d087ba8217	Chưa được xác nhận; xung đột và chênh lệch rất lớn giữa tỷ giá chính thức và tỷ giá song song làm gián đoạn ngân hàng.
+6773afa573	Không có luật bảo vệ dữ liệu chung; Hiến pháp bảo vệ quyền riêng tư.
+0bc203fce4	Chi trả về ngân hàng của bạn bằng SEK.
+5d39ec4ea9	Personnummer, hoặc số điều phối nếu bạn không có trong sổ đăng ký dân cư.
+2c28cb4206	Đăng ký với Skatteverket và xin F-tax qua verksamt.se, miễn phí.
+d0ecc9dd0d	Thuế GTGT 25%; được miễn khi doanh thu dưới SEK 120.000 mỗi năm.
+d9a1098492	Thu nhập toàn cầu chịu thuế: khoảng 32% thuế thành phố, cộng 20% thuế quốc gia trên SEK 643.000.
+a9a584242c	Nationellt ID-kort (thẻ căn cước quốc gia) hoặc hộ chiếu.
+54164d104c	Chi trả về ngân hàng của bạn bằng SGD.
+1c7f12b55e	Đóng MediSave đầy đủ, nếu không ACRA sẽ không gia hạn đăng ký của bạn.
+3a82089d23	Miễn thuế thu nhập nước ngoài không áp dụng cho công việc freelance thực hiện tại Singapore.
+13b9cdc639	NRIC hoặc FIN cho cá nhân; doanh nghiệp dùng UEN do ACRA cấp.
+0af67dc7e2	Đăng ký kinh doanh cá thể với ACRA qua BizFile+ ($100 mỗi năm).
+e1ed55a55b	GST 9% trên S$1 triệu mỗi năm; nhiều dịch vụ ra nước ngoài chịu thuế suất 0%.
+2e8abf80e8	Hoạt động kinh doanh tại Singapore chịu thuế 0–24%, kể cả với khách hàng nước ngoài.
+2fc9655e46	Có, tự do; Singapore không có kiểm soát ngoại hối.
+c3f905b90a	Có: giữ tài khoản ngoại tệ tại Singapore và ở nước ngoài.
+c93f9e7fc9	Chưa nghiên cứu các cổng thanh toán trong nước như HitPay và PayNow QR.
+2e2cb5ad22	PDPA: chỉ định cán bộ bảo vệ dữ liệu; phạt đến S$1 triệu.
+a065014134	Không có thời gian cân nhắc chung cho giao dịch mua trực tuyến; việc trả hàng theo chính sách của người bán.
+87027eb708	NRIC, giấy phép lái xe hoặc hộ chiếu.
+feb500f85e	Giới hạn chế độ khoán năm 2026 phụ thuộc vào một cuộc trưng cầu dân ý đang chờ; hãy kiểm tra FURS.
+b204e15c46	Mã số thuế Slovenia (TIN) do Cơ quan Quản lý Tài chính cấp.
+8ce2e75e61	Đăng ký làm samostojni podjetnik (s.p., kinh doanh cá thể) trực tuyến qua SPOT.
+57e5217236	Thuế GTGT 22% trên doanh thu €60.000 mỗi năm.
+70c413f823	Thu nhập toàn cầu chịu thuế theo năm bậc, bắt đầu từ 16%.
+b6e3aaecac	Normirani s.p.: chi phí ấn định 80% trên doanh thu đến €60.000.
+45a9562949	Osebna izkaznica (thẻ căn cước) hoặc hộ chiếu.
+cf4e58e7b7	Đóng bảo hiểm y tế bắt đầu từ ngày kinh doanh đầu tiên.
+144a7ee986	TIN do Cơ quan Quản lý Tài chính cấp khi bạn đăng ký kinh doanh.
+5fb8f0456d	Xin giấy phép kinh doanh (živnosť), miễn phí trực tuyến qua slovensko.sk với ngành nghề tự do.
+d1f0333bc9	Thuế GTGT 23% khi doanh thu vượt €50.000 mỗi năm.
+7f7e48cc76	Trừ chi phí khoán 60% (đến €20.000) và nộp 15% đến €100.000.
+38e2bf4cef	Občiansky preukaz (thẻ căn cước) hoặc hộ chiếu.
+97d7ca9dad	TIN do National Revenue Authority cấp, dùng Số Định danh Quốc gia của bạn.
+d2e9f4a89b	Đăng ký với Office of the Administrator and Registrar General (OARG), chủ yếu trực tiếp.
+a67f518682	GST 15%; ngưỡng trong nước và quy định xuất khẩu chưa được xác nhận.
+2a39a724ee	Chưa được xác nhận; người kinh doanh cá thể được cho là trả 15–30% trên lợi nhuận.
+ff3dbcd976	Có thể, nhưng ngoại tệ khan hiếm và tỷ giá chính thức khác tỷ giá thị trường.
+69aa0101a1	Có, nhưng đưa đô la ra có thể chậm khi dự trữ thiếu hụt.
+afbd2348a7	Chưa có luật bảo vệ dữ liệu; một dự luật đang được xử lý.
+3996d019c7	Thẻ căn cước quốc gia hoặc hộ chiếu.
+3ba75c5f66	Số An sinh Xã hội (SSI) cho cá nhân.
+d94352abca	Đăng ký qua Phòng Thương mại; các bước chưa được xác nhận.
+b0f7dc1e6d	Thuế thu nhập lũy tiến được báo cáo từ 12% đến 35%.
+dae9d0f733	Phần lớn không cần: San Marino dùng đồng euro.
+1a6171e5e0	Thẻ căn cước San Marino.
+920612a280	Rút bằng franc CFA về một ngân hàng tại Senegal.
+f173ad9be1	Chính thức hoạt động, nhưng rút tiền trong nước chậm và tốn kém.
+6006e6d852	Nhiều dịch vụ trí tuệ freelance được tính là BNC và không thể dùng CGU.
+42cc0d5cb2	Việc rút PayPal về ngân hàng trong nước bị hạn chế và phí cao.
+094c984fc1	NINEA, do cơ quan quản lý thuế cấp trước khi bạn bắt đầu.
+246052a877	Đăng ký làm entreprenant tại RCCM và nhận NINEA trước khi bắt đầu.
+d6bcfcfd41	Thuế GTGT 18%; dịch vụ chịu thuế ngoài Senegal không chịu thuế tại đó.
+d614b5ef59	Thu nhập toàn cầu chịu thuế 0–43%; chế độ đơn giản CGU loại trừ nhiều dịch vụ freelance.
+a09a995c95	PayDunya cung cấp thu tiền qua tiền di động và thẻ; điều kiện cho cá nhân chưa được xác nhận.
+4fee5321d5	Tư cách entreprenant và thuế đơn giản CGU cho các hoạt động không thuộc BNC.
+df9c2a49d9	Luật 2008-12: khai báo việc xử lý dữ liệu cá nhân với CDP.
+848be8ebbb	Luật giao dịch điện tử 2008-08 quy định nghĩa vụ công bố thông tin của người bán; chưa xác nhận được thời gian cân nhắc.
+584fbbd2db	Thẻ căn cước sinh trắc học ECOWAS.
+a66eefa3e2	Đăng ký trực tuyến với hệ thống đăng ký kinh doanh liên bang, khoảng bốn ngày.
+45595c6e74	Không có thuế GTGT; mức thuế bán hàng không thống nhất (5% hoặc 10%).
+946286cfac	Nền kinh tế đô la hóa; hãy dùng ngân hàng hoặc đơn vị chuyển tiền được cấp phép, không dùng hawala phi chính thức.
+eb7bcc9523	Rất có thể: ngân hàng và tiền di động vận hành bằng đô la Mỹ; chưa được xác nhận.
+94c22eed82	Tiền di động (như EVC Plus) chiếm ưu thế; chưa xác nhận được cổng thanh toán trực tuyến nào cho người bán.
+f7bd2eaac6	Data Protection Act 2023; bên kiểm soát dữ liệu lớn phải đăng ký.
+ed66f78dd1	Thẻ căn cước quốc gia (Warqadda Aqoonsiga).
+e26e8978e2	Đăng ký với Phòng Thương mại (KKF); các bước chưa được xác nhận.
+e734bd1c12	Thuế GTGT 10% trên doanh thu SRD 1 triệu; hàng xuất khẩu có mức giảm hoặc bằng 0.
+eb2691e178	Người cư trú bị đánh thuế trên thu nhập toàn cầu; các bậc được báo cáo đến 38%.
+1f50fd6031	Identiteitskaart (thẻ căn cước quốc gia).
+39ada3c5d2	Mức thuế của bậc bạn áp dụng cho toàn bộ thu nhập chịu thuế, không chỉ phần vượt.
+849a7395d2	Chưa được xác nhận; thuế do South Sudan Revenue Authority quản lý.
+6e6436a5cd	Đăng ký qua nền tảng trực tuyến của Bộ Tư pháp; yêu cầu chưa được xác nhận.
+fe70430a11	Chưa có thuế GTGT; thuế bán hàng áp dụng cho các dịch vụ cụ thể, không có công việc freelance được nêu tên.
+dc7e08f30f	Công dân bị đánh thuế trên thu nhập toàn cầu, 0–20%, với mức thuế của bậc áp dụng cho toàn bộ thu nhập.
+4547d0f8e8	Chưa được xác nhận; việc dùng đô la bị hạn chế và chuyển tiền lớn cần ngân hàng trung ương chấp thuận.
+662222a01b	Chưa được xác nhận; giao dịch đô la được cho là bị hạn chế.
+f9aeb47aee	Chưa có luật bảo vệ dữ liệu; một dự luật dự kiến vào năm 2026.
+a6222342dc	Thẻ căn cước quốc gia.
+551aaa71be	Mã số thuế do Guiché Único cấp khi đăng ký.
+d5230fa8d1	Đăng ký tại điểm một cửa Guiché Único, chủ yếu trực tiếp.
+ec31b54f48	Thuế GTGT 15% từ tháng 6 năm 2023; doanh nghiệp nhỏ có chế độ đặc biệt với mức thấp hơn.
+f4e268ab2d	Có thể có, qua các ngân hàng được Ngân hàng Trung ương ủy quyền.
+74a66ac925	NIT, NRC và DUI; cách nhận chưa được xác nhận.
+63de9358d9	Thuế GTGT 13%; nhìn chung bắt buộc đăng ký, không nêu ngưỡng.
+135ea62297	Chỉ thu nhập có nguồn từ El Salvador chịu thuế: 0% đến USD 6.600, sau đó 10–30%.
+fccf7ecd3a	Tài khoản trong nước là bằng đô la Mỹ từ năm 2001.
+39b9212eaf	DUI (Documento Único de Identidad, thẻ căn cước).
+29c25dd5d6	Sự hỗ trợ của các nền tảng thay đổi nhanh khi lệnh trừng phạt được dỡ bỏ; hãy kiểm tra trực tiếp từng dịch vụ.
+96dafae7e9	Các lệnh trừng phạt đang được dỡ bỏ, nhưng kết nối ngân hàng và hỗ trợ của nền tảng vẫn hạn chế.
+556b129209	Chưa được xác nhận; đăng ký thuế với Eswatini Revenue Service.
+2866a6f51d	Đặt trước tên với Registrar of Companies, rồi nhận TIN từ ERS.
+ccbfa19075	Thuế GTGT 15% trên E500.000 mỗi năm.
+be8df52184	Thu nhập có nguồn từ Eswatini chịu thuế, bắt đầu từ 20%; cách xử lý công việc từ xa chưa được xác nhận.
+41abdd9fba	Có kiểm soát ngoại hối; giao dịch đi qua các ngân hàng được ủy quyền. Quy định cụ thể chưa được xác nhận.
+6a8632311c	Data Protection Act 2022, có mức phạt và nghĩa vụ thông báo vi phạm dữ liệu.
+06c5031e42	NIF do cơ quan quản lý thuế cấp; người kinh doanh chưa đăng ký phải nộp trước 15%.
+a2862fee4a	Đăng ký doanh nghiệp cá thể tại điểm một cửa ANIE, mục tiêu 72 giờ.
+a9483d7a79	Thuế GTGT 18%; hàng xuất khẩu 0%; ngưỡng chưa được xác nhận.
+6bc26c2be1	Người cư trú bị đánh thuế trên thu nhập toàn cầu; doanh nghiệp nhỏ nộp IGL.
+870595b008	Luật 007/PR/2015: khai báo việc xử lý dữ liệu với ANSICE.
+62afa174e0	Luật thương mại điện tử yêu cầu thông tin người bán rõ ràng; không tìm thấy thời hạn hoàn tiền.
+41f6cfeff3	Thẻ căn cước quốc gia do ANATS cấp, kèm số NNI của bạn.
+a0a0680715	Người kinh doanh xuất nhập khẩu không thể dùng TPU; với dịch vụ thì chưa rõ.
+ceef1b4ed6	NIF do OTR cấp, được cho là miễn phí trong 3–5 ngày làm việc.
+5435d0cf85	Đăng ký doanh nghiệp cá thể tại CFE, được cho là trực tuyến qua entreprendre.gouv.tg.
+d2f8160449	Thuế GTGT chỉ áp dụng trên doanh thu FCFA 100 triệu từ năm 2025.
+05e6c67b87	Thuế tổng hợp TPU: 8,5% với dịch vụ, đến FCFA 60 triệu (có nguồn nói 30 triệu).
+36773e5d9f	Chế độ thuế tổng hợp TPU với khai thuế trực tuyến; thuế GTGT chỉ trên FCFA 100 triệu.
+8171aa0623	Luật 2019-014: xử lý dữ liệu nhạy cảm mà không có sự đồng ý có thể bị phạt tù.
+f8393ef041	Nếu người bán bỏ qua thông tin bắt buộc, người mua có thể hủy trong vòng 14 ngày.
+ddae30588a	Thẻ e-ID miễn phí với số định danh duy nhất (NIU).
+a9d87be28a	Rút về một ngân hàng Thái Lan; miễn phí từ THB 5.000.
+9908a9eb87	Chi trả về ngân hàng của bạn bằng THB.
+6af3a7715f	Wise đã tạm dừng cấp thông tin tài khoản mới cho Thái Lan.
+3e1dda59e6	Thu nhập nước ngoài từ năm 2024 trở đi bị đánh thuế khi bạn đưa vào nước, vào bất kỳ năm nào.
+9cb2c6bc7c	Các nền tảng trả tiền qua PayPal Payouts có thể không chi trả được vào tài khoản tại Thái Lan.
+8865b4974a	Xin Mã số Thuế trong vòng 60 ngày kể từ khoản thu nhập đầu tiên.
+d2e4880e3d	Kinh doanh cá thể không cần đăng ký chính thức, nhưng bạn cần mã số người nộp thuế.
+d72e49af74	Thuế GTGT 7% trên THB 1,8 triệu; dịch vụ sử dụng ở nước ngoài có thể chịu thuế suất 0%.
+80f37c7a22	Thu nhập nước ngoài kiếm được từ năm 2024 bị đánh thuế khi đưa vào Thái Lan.
+979af57770	Có; chỉ các khoản nhận từ USD 1 triệu trở lên mới phải đưa về nước.
+6e7b25188c	Có: tài khoản tiền gửi ngoại tệ (FCD) tại ngân hàng Thái Lan.
+d2f94fb309	Chưa nghiên cứu các cổng thanh toán trong nước như Omise và 2C2P.
+de17047cca	Chưa tìm thấy ưu đãi cho freelancer là người cư trú.
+06557d7965	PDPA 2019, có hiệu lực đầy đủ từ tháng 6 năm 2022.
+ad30e06266	Người mua trực tuyến có thể hủy bằng văn bản trong vòng 7 ngày kể từ khi nhận hàng.
+a582ba48c3	Thẻ căn cước quốc gia Thái Lan.
+a06b2ccc95	Khoản chi trả từ các trang trả tiền qua PayPal Payouts (PayPal không liệt kê quốc gia này).
+72ad816382	Kiếm tiền thường xuyên mà không đăng ký sẽ khiến mức thuế của bạn tăng gấp đôi.
+a862df0402	TIN; doanh nhân được cấp một số định danh duy nhất khi đăng ký.
+2106b95a65	Đăng ký làm doanh nhân cá thể với cơ quan thuế; thu nhập không đăng ký bị đánh thuế gấp đôi.
+dbd32dcc54	Thuế GTGT 14% trên thu nhập TJS 1 triệu (13% từ năm 2027).
+43e9401ad0	Thu nhập toàn cầu chịu thuế; doanh nhân thường trả 6% doanh thu.
+56555b6865	Có thể có, nhưng thanh khoản đô la hạn chế và có thể làm chậm giao dịch.
+14277829da	Chưa được xác nhận; tài khoản ở nước ngoài được cho là phải thông báo cho Ngân hàng Quốc gia.
+1b8f3439b2	Hộ chiếu hoặc thẻ căn cước.
+36f2fce17c	Đăng ký kinh doanh cá thể (ENIN) với SERVE, miễn phí trong 1–5 ngày.
+5468c1fb4b	Chưa có thuế GTGT; thuế dịch vụ 5% chỉ áp dụng cho khách sạn, nhà hàng và viễn thông.
+5641b983d1	Thu nhập toàn cầu chịu thuế: 0% đến $6.000 mỗi năm, sau đó 10%.
+ec9833b715	Có; đô la Mỹ là đồng tiền chính thức.
+63adba3161	Tài khoản mặc định bằng đô la Mỹ.
+d33a43fcb5	Bilhete de Identidade (thẻ căn cước).
+1f49bcd4dc	Mã số người nộp thuế (HSB); đăng ký trong vòng 10 ngày kể từ khi phát sinh nghĩa vụ thuế.
+50c4ae3f64	Được cho là đăng ký với cơ quan thuế với tư cách doanh nhân cá thể.
+afacfbdefa	Chưa được xác nhận; thuế GTGT được báo cáo là 15%.
+b1009c969a	Thu nhập toàn cầu chịu thuế; mức cho kinh doanh cá thể được báo cáo là 2% hoặc 10%.
+a09b8b3cfb	Hạn chế: khả năng tiếp cận ngoại tệ rất hạn chế và tỷ giá chênh lệch lớn.
+de52ebeedf	Hộ chiếu công dân nội địa.
+6896def2b2	Chi trả về ngân hàng của bạn bằng TND.
+287b9a7c82	Ở đây chỉ gửi được: bạn có thể thanh toán, nhưng không thể nhận thu nhập.
+8d93c3e579	Số dư ví nước ngoài không phải là nơi hợp pháp để giữ thu nhập của bạn.
+0ba58b4e72	Xử lý dữ liệu cá nhân mà không khai báo với INPDP có thể bị phạt tù.
+dacf4b4bbc	Kiểm tra hoạt động của bạn có trong danh sách auto-entrepreneur trước khi đăng ký.
+64082e5e00	Matricule fiscal (mã số thuế), từ cơ quan thuế địa phương bằng CIN của bạn.
+f8101925cc	Auto-entrepreneur đến TND 75.000 mỗi năm, đăng ký trực tuyến, cho các hoạt động trong danh sách.
+09e0d09575	Thuế GTGT 19%, nhưng dịch vụ do khách hàng ở nước ngoài sử dụng nằm ngoài thuế GTGT của Tunisia.
+7ecb6b07cb	Auto-entrepreneur nộp một khoản đóng góp nhỏ hằng năm bao gồm thuế thu nhập, thuế GTGT và an sinh xã hội.
+b0a4b3c05c	Có, nhưng bạn phải đưa toàn bộ thu nhập dịch vụ từ nước ngoài về Tunisia.
+5d79a4bd87	Có: tài khoản PPR giữ phí dịch vụ bằng ngoại tệ hoặc dinar có thể chuyển đổi.
+430d6a6b5b	Konnect cho phép freelancer nhận thanh toán thẻ quốc tế, chi trả về một ngân hàng tại Tunisia.
+ae7643d0fa	Khoản đóng góp duy nhất của auto-entrepreneur, không phải nộp gì trong năm đầu, và tài khoản ngoại tệ PPR.
+547ea760f7	Khai báo trước mọi việc xử lý dữ liệu cá nhân với INPDP.
+73b7f2b2bd	Người mua có thể rút lại trong vòng 10 ngày làm việc.
+57a7372520	Nhà cung cấp dịch vụ cho người không cư trú có thể mở tài khoản ngoại tệ PPR.
+24ba070dce	Nhà cung cấp dịch vụ cho người không cư trú có thể mở tài khoản ngoại tệ PPR. Việc chuyển thu nhập nước ngoài về nước là bắt buộc (Bộ luật Ngoại hối điều 20).
+36a42bfc7b	Thuế tiêu dùng 15% trên TOP 100.000 mỗi năm; hàng xuất khẩu chịu thuế suất 0%.
+ba942ef759	Chưa được xác nhận; các báo cáo khác nhau về việc có áp dụng thuế thu nhập cá nhân hay không.
+529a3e6ed5	Thẻ căn cước quốc gia không bắt buộc; giấy phép lái xe hoặc hộ chiếu cũng được dùng.
+39ea437847	Rút về một ngân hàng tại Thổ Nhĩ Kỳ.
+4f969ded95	Chi trả về ngân hàng của bạn bằng TRY.
+3e1c477b90	PayPal ngừng hoạt động tại Thổ Nhĩ Kỳ từ năm 2016.
+b9d853e459	Bán hàng từ trang web riêng hoặc nền tảng nước ngoài cần đăng ký ETBİS trước.
+ffe5d319f4	Chế độ 15% cho nhà sáng tạo yêu cầu mọi thu nhập đi qua một tài khoản ngân hàng Thổ Nhĩ Kỳ chuyên dụng.
+a8f662dadd	Khoản khấu trừ xuất khẩu 80% yêu cầu lợi nhuận được đưa về Thổ Nhĩ Kỳ trước hạn chót nộp thuế.
+8d61d75dc6	Số T.C. kimlik (căn cước quốc gia) 11 chữ số của bạn là mã số thuế của bạn.
+93868d1ebd	Đăng ký với cơ quan thuế trong vòng 10 ngày, trừ khi bạn đủ điều kiện miễn trừ cho nhà sáng tạo.
+c57962e4c5	KDV (thuế GTGT) 20%; dịch vụ cho khách hàng ở nước ngoài được miễn.
+37bc4cd3aa	Thu nhập toàn cầu chịu thuế 15–40%; nhà sáng tạo và nhà phát triển ứng dụng chịu khấu trừ cố định 15%.
+bac175a001	Có; bạn có thể giữ hoặc tự do bán ngoại tệ kiếm được từ khách hàng nước ngoài.
+a98c63d9e5	Có: bạn có thể giữ thu nhập dịch vụ trong tài khoản ngân hàng ngoại tệ.
+9957cb41f5	Liên kết thanh toán của iyzico không cần công ty; POS ảo của iyzico cần kinh doanh cá thể.
+4dad4154ba	Thuế cuối cùng 15% cho nhà sáng tạo, khấu trừ 80% với dịch vụ xuất khẩu, miễn thuế cho doanh nhân trẻ.
+d2fbb62d4e	KVKK (Luật 6698); bên kiểm soát dữ liệu dưới 50 nhân viên không cần đăng ký VERBIS.
+084de780f4	Người mua có 14 ngày để rút lại, trừ hàng hóa số được giao ngay lập tức.
+b8d44b09a9	Thẻ căn cước quốc gia gắn chip (TCKK).
+8a6f3e1af8	Chi trả về ngân hàng của bạn bằng TTD.
+3c9e5b1b9a	Số hồ sơ BIR, đăng ký trực tuyến qua e-TAX bằng mẫu IA-001.
+e62257309a	Đăng ký tên doanh nghiệp với Registrar General's Department; các bước chưa được xác nhận.
+20653d0814	Thuế GTGT 12,5% khi doanh số đạt TTD 600.000 trong 12 tháng.
+fcd6576151	Người cư trú bị đánh thuế trên thu nhập toàn cầu; 25% dưới TTD 1 triệu.
+8871ba0b16	Thẻ Định danh Quốc gia do EBC cấp.
+b01108ba16	Thuế tiêu dùng trên doanh số khoảng $100.000, được cho là 3%.
+034a7d8b96	Được cho là không có thuế thu nhập; chưa được xác nhận.
+f2715257ef	Rút về một ngân hàng tại Tanzania.
+5a97299856	Chi trả về ngân hàng của bạn bằng TZS.
+dd74793c01	Kết nối M-Pesa mới được công bố vào tháng 5 năm 2026; việc triển khai vẫn đang diễn ra.
+ed9c940516	Giữ tài khoản ngân hàng ở nước ngoài cần sự chấp thuận của Thống đốc ngân hàng trung ương.
+bf52f922e6	Xuất hóa đơn cho khách hàng trong nước bằng TZS; chỉ dùng ngoại tệ với khách hàng nước ngoài thực sự.
+b4d6cdd3ee	Không đăng ký với ủy ban dữ liệu có thể bị phạt đến TZS 5 triệu.
+fbe35bfd12	TIN do TRA cấp, trực tuyến bằng NIN của bạn, đôi khi trong vòng 24 giờ.
+467aafa9c7	Nhận TIN trong vòng 15 ngày kể từ khi bắt đầu, rồi xin giấy phép kinh doanh.
+aff1cb6309	Thuế GTGT 18% trên TZS 200 triệu; người hành nghề có giấy phép phải đăng ký bất kể doanh thu; hàng xuất khẩu chịu thuế suất 0%.
+afa5e94cc9	Thu nhập toàn cầu chịu thuế; thuế ấn định 4% đến TZS 200 triệu, nhưng người hành nghề chuyên môn bị loại trừ.
+ac04ac1ada	Có, qua một ngân hàng trong nước; khách hàng nước ngoài có thể trả bằng ngoại tệ.
+1dc8d3a1e6	Có: giữ tài khoản ngoại tệ trong nước; tài khoản ở nước ngoài cần ngân hàng trung ương chấp thuận.
+fcef9e722e	Selcom Pesa cho phép doanh nghiệp nhỏ nhận thanh toán QR trong nước ngay lập tức.
+77b5aafd43	Miễn thuế năm đầu cho doanh nghiệp mới, và thuế ấn định 4%.
+8cae9c9128	Đăng ký với Personal Data Protection Commission trước khi xử lý dữ liệu cá nhân.
+4579cdad94	Người mua có thể hủy trong vòng 7 ngày nếu chưa được hưởng lợi đáng kể.
+e804a2749d	Thẻ căn cước quốc gia (thẻ NIDA).
+7a8aed634a	Được freelancer Ukraine sử dụng rộng rãi.
+f5968563cf	Chuyển tiền Payoneer vào tài khoản FOP của bạn trong cùng quý, nếu không sẽ phải trả 18% cộng phụ thu.
+5a6e365daf	Dịch vụ không có trong danh sách của Bộ luật Thuế có thể bị thu thuế GTGT 20%.
+488e060003	PayPal có thể thay đổi dịch vụ tại Ukraine bất cứ lúc nào vì chiến tranh.
+da4b10ac58	Mã số người nộp thuế РНОКПП do Cơ quan Thuế Nhà nước cấp, hiển thị trong Diia.
+db0ac9f11a	Đăng ký làm FOP (kinh doanh cá thể), miễn phí và trực tuyến trong Diia chỉ trong vài phút.
+1ead74407d	Thuế GTGT 20% trên UAH 1 triệu; phần lớn dịch vụ cho khách hàng nước ngoài nằm ngoài thuế GTGT.
+f54acfc582	FOP nhóm 3: 5% doanh thu cộng 1% phụ thu quân sự, đến UAH 10,09 triệu.
+e6dcbbb835	Có; không bị buộc bán ngoại tệ, và xuất khẩu dịch vụ không có hạn chót thanh toán.
+41d06e317b	Có: người kinh doanh cá thể (FOP) nhận thanh toán vào tài khoản ngân hàng ngoại tệ.
+7f485f1dbc	LiqPay và WayForPay cần tư cách FOP hoặc công ty.
+7f4991041b	Thuế đơn nhất FOP (5% cộng 1%) thay cho 18% cộng phụ thu 5%.
+e64ab51843	Luật 2297-VI; chỉ thông báo cho Thanh tra viên với dữ liệu nhạy cảm như sức khỏe.
+9528eac916	Người mua có thể hủy trong vòng 14 ngày, nhưng không thể sau khi đã đồng ý nhận giao hàng số.
+5f743aad08	Hộ chiếu dạng thẻ căn cước của Ukraine, cũng dùng được ở dạng số trong Diia.
+9c62dad991	Rút bằng shilling về một ngân hàng tại Uganda.
+fbb5a110c3	Các báo cáo không thống nhất về việc bạn có thể rút tiền hay không.
+6cf3fdba91	Thu thập dữ liệu khách hàng mà không đăng ký PDPO có thể bị phạt tiền hoặc phạt tù.
+0fb00773dd	Hướng dẫn cũ ghi UGX 150 triệu; ngưỡng thuế GTGT là UGX 300 triệu từ tháng 7 năm 2026.
+15abb56303	Các nền tảng trả tiền qua PayPal Payouts không thể chi trả vào tài khoản tại Uganda.
+15419c2ade	TIN do URA cấp, ngay lập tức trực tuyến bằng NIN của bạn.
+ac7ae085be	Không cần đăng ký nếu bạn kinh doanh dưới họ của chính mình.
+319f4c29ce	Thuế GTGT 18% trên UGX 300 triệu mỗi năm; hàng xuất khẩu chịu thuế suất 0%.
+7baabb0687	Thu nhập toàn cầu chịu thuế: 0 đến UGX 4,02 triệu, lên đến 30%, cộng thêm 10% trên UGX 120 triệu.
+5c596ced6c	Có, tự do; không có kiểm soát ngoại hối với thu nhập dịch vụ của cá nhân.
+28fc316c96	Có: ngân hàng cung cấp tài khoản USD, GBP và EUR, mở bằng thẻ căn cước quốc gia.
+ca15767fee	Pesapal nhận người kinh doanh cá thể có tên doanh nghiệp đã đăng ký và TIN của URA.
+26dbbc0965	Doanh nghiệp mới do công dân sở hữu: ba năm không có thuế thu nhập.
+fd298b0a3e	Đăng ký với Personal Data Protection Office; không đăng ký là vi phạm.
+7d1a554cb0	Người mua có thể hủy giao dịch mua trực tuyến trong vòng 7 ngày kể từ khi nhận hàng.
+485663e0f5	Thẻ căn cước quốc gia kèm NIN của bạn, do NIRA cấp.
+4b7f0b9a09	Chi trả về tài khoản ngân hàng của bạn tại Mỹ.
+c72a526397	Giữ và nhận tiền (không áp dụng nếu bạn sống ở Nevada).
+3f10e6d95e	Thuế tự kinh doanh cộng thêm 15,3% ngoài thuế thu nhập.
+fc9695737c	Nộp thuế ước tính hằng quý (Mẫu 1040-ES), không chỉ một lần mỗi năm.
+58cb05d381	Cư dân Nevada không thể giữ số dư Wise.
+73673b55c0	SSN của bạn, hoặc EIN do IRS cấp cho doanh nghiệp của bạn.
+69cd3c7a16	Người kinh doanh cá thể không cần đăng ký liên bang; giấy phép của bang khác nhau.
+4f91f7ec04	Không có thuế GTGT liên bang; áp dụng thuế bán hàng của bang, thường khi trên $100.000 doanh số mỗi bang.
+488d997114	Thu nhập toàn cầu chịu thuế 10–37%, cộng thêm 15,3% thuế tự kinh doanh và thuế bang.
+7ba95a8a70	Có, tự do; nhưng phải báo cáo tài khoản ở nước ngoài trên USD 10.000 (FBAR).
+7f344a25ca	Hiếm: các ngân hàng lớn ít cung cấp tài khoản ngoại tệ cá nhân; fintech lấp khoảng trống này.
+a214ad9bf3	Khấu trừ đến 20% thu nhập kinh doanh (QBI, section 199A).
+6ba4128fb0	Không có một luật liên bang duy nhất; CCPA của California chỉ áp dụng cho doanh nghiệp lớn hoặc xử lý nhiều dữ liệu.
+a0bae5c76c	Giao hàng trong thời gian bạn đã nêu hoặc 30 ngày, hoặc đề nghị hoàn tiền (FTC).
+6534336674	Giấy phép lái xe, thẻ căn cước của bang hoặc hộ chiếu.
+9a686bdcbf	Chi trả về ngân hàng của bạn bằng UYU.
+7ecab2cb2b	RUT, mã số đăng ký người nộp thuế duy nhất.
+44716f57be	Đăng ký với DGI (RUT) và an sinh xã hội BPS; các bước chưa được xác nhận.
+5d22a54e46	Thuế GTGT 22%; ngưỡng trong nước và quy định xuất khẩu chưa được xác nhận.
+160fc69792	Chủ yếu thu nhập có nguồn từ Uruguay chịu thuế (IRPF).
+db6d64e32d	Có: BROU cung cấp tài khoản tiết kiệm bằng peso, đô la hoặc euro.
+f4d4248473	Monotributo: một khoản nộp cho cả thuế và an sinh xã hội, dành cho kinh doanh cá thể nhỏ.
+74de34a6e3	Documento de identidad (cédula, thẻ căn cước).
+5f335ae57c	Chi trả về ngân hàng của bạn bằng UZS.
+32517e9e51	Thu nhập xuất khẩu chịu thuế doanh thu từ tháng 1 năm 2025.
+c6395b4249	PINFL cho cá nhân; doanh nhân dùng mã số người nộp thuế STIR.
+2a4e3020b8	Đăng ký làm doanh nhân cá thể trực tuyến qua my.gov.uz, khoảng hai ngày.
+d60703d194	Thuế GTGT 12%; người nộp thuế doanh thu nằm ngoài thuế GTGT.
+e4132daf31	Thuế thu nhập cố định 12%; có thuế doanh thu, và hàng xuất khẩu không còn 0% từ năm 2025.
+665c0b114d	Nhà xuất khẩu phải chuyển tiền thu về nước trong vòng 120–180 ngày; các nguồn không thống nhất.
+dc35128aff	Được cho là có; tài khoản ở nước ngoài chỉ cần thông báo.
+0661c03d4e	Chưa nghiên cứu các nhà cung cấp trong nước như Payme, Click và Uzum.
+65cab9d8a9	IT Park cho miễn thuế; việc cá nhân có đủ điều kiện hay không chưa rõ.
+a5bac92710	Luật ZRU-547 về Dữ liệu Cá nhân, có hiệu lực từ năm 2019.
+64e5ba7dec	TIN, được cấp khi bạn đăng ký thuế thu nhập hoặc thuế GTGT.
+ce6e61e5cb	Đăng ký với CIPO; các bước chưa được xác nhận.
+05426d0bd3	Thuế GTGT (được cho là 16%) khi doanh số đạt XCD 120.000 mỗi năm.
+39e934d4e1	Thu nhập toàn cầu chịu thuế: khoản giảm trừ XCD 25.000, sau đó 10%, 20% và 28%.
+df18fc7bb8	Các lệnh trừng phạt của Mỹ ảnh hưởng đến nhiều kênh thanh toán; chúng tôi chỉ đề cập các cách hợp pháp.
+c6e152cdd4	Mã số thuế RIF; cách nhận chưa được xác nhận.
+6777685c27	Thuế GTGT 16%; mọi doanh nghiệp chịu thuế được cho là phải đăng ký.
+3f00dc2fb9	Chi trả về ngân hàng của bạn bằng VND.
+843a93f076	Cho phép tài khoản cá nhân mà không cần giấy phép kinh doanh.
+6fd5303ab5	Các bài viết cũ ghi VND 500 triệu; ngưỡng là VND 1 tỷ từ năm 2026.
+0e4427f789	Thuế GTGT 0% cần có hợp đồng với khách hàng nước ngoài và thanh toán không dùng tiền mặt.
+12f21ba261	Trên doanh thu VND 1 tỷ, bạn phải xuất hóa đơn điện tử.
+3c8e6483b3	Số định danh cá nhân 12 chữ số của bạn là mã số thuế từ tháng 7 năm 2025.
+758eba9dfb	Thường đăng ký hộ kinh doanh; người cung cấp dịch vụ thu nhập thấp có thể được miễn tùy tỉnh.
+d02d2a73d5	Dịch vụ xuất khẩu cho khách hàng nước ngoài chịu thuế GTGT 0% khi có hợp đồng và thanh toán qua ngân hàng.
+e13247314f	Không có thuế thu nhập hay thuế GTGT trên doanh thu kinh doanh đến VND 1 tỷ mỗi năm.
+02424e9411	Có; cá nhân có thể nhận tiền từ nước ngoài vào tài khoản ngân hàng ngoại tệ.
+91c4038a71	Có: ngân hàng được cấp phép mở tài khoản ngoại tệ cho cá nhân.
+549407564f	VNPAY, MoMo, OnePay và Ngân Lượng đều được cấp phép; việc cá nhân đăng ký chưa được xác nhận.
+926253be2e	Miễn thuế đến doanh thu VND 1 tỷ mỗi năm, thuộc nhóm ngưỡng cao nhất mà chúng tôi tìm thấy.
+3b70b93e19	Luật Bảo vệ Dữ liệu Cá nhân 91/2025, có hiệu lực từ ngày 1 tháng 1 năm 2026.
+db0b38a574	Luật Thương mại điện tử (từ tháng 7 năm 2026): người bán phải xác minh danh tính và hiển thị chính sách đổi trả.
+77f4860f3f	Thẻ Căn cước, kèm số định danh cá nhân 12 chữ số của bạn.
+022b72d682	Cá nhân cư trú được mở tài khoản thanh toán ngoại tệ để nhận chuyển khoản từ nước ngoài (Thông tư 16/2014 của NHNN, SBV).
+73de6a03cd	Cá nhân cư trú được mở tài khoản thanh toán ngoại tệ để nhận chuyển khoản từ nước ngoài (Thông tư 16/2014 của NHNN, SBV). Payoneer cung cấp tài khoản cá nhân không cần giấy phép kinh doanh.
+976121c744	TIN do Customs and Inland Revenue cấp.
+a1fc666589	Đăng ký với Vanuatu Financial Services Commission; các bước chưa được xác nhận.
+d41cda8da1	Thuế GTGT 15% trên VT 4 triệu trong 12 tháng.
+c701cf1ee3	Được cho là không có thuế thu nhập cá nhân.
+5d0d17e7e1	Thẻ căn cước quốc gia (từ năm 2017).
+501debf67f	TIN, được cấp khi giấy phép kinh doanh của bạn được duyệt.
+015bc38f74	Đăng ký với bộ thương mại và bộ thu ngân sách; các bước chưa được xác nhận.
+c7584152bf	VAGST 15% khi doanh thu đạt WST 130.000 mỗi năm.
+1dc1c06312	Các bậc được báo cáo: 0%, 20% và 27%.
+6ca8aa5f8c	Giấy tờ tùy thân của chính phủ do Office of Vital Statistics cấp.
+85bbaf166d	Không dùng được ở đây để nhận thanh toán.
+9f278c5615	Giao dịch với các tổ chức do Houthi kiểm soát có thể gây rủi ro về lệnh trừng phạt.
+bcbf457abd	Thuế bán hàng chung 5%; đăng ký khi doanh thu trên YER 50 triệu.
+160a3513ea	Người cư trú bị đánh thuế trên thu nhập toàn cầu, 0–20%; cơ quan có thẩm quyền tùy thuộc nơi bạn sống.
+48791dd60d	Bị chia cắt: hai ngân hàng trung ương với các quy định cạnh tranh nhau; ngân hàng nước ngoài thường từ chối chuyển khoản.
+00d787cac6	Rút qua FNB về một ngân hàng tại Nam Phi.
+ecf84edf5b	Chi trả về ngân hàng của bạn bằng ZAR.
+ed4e442b05	Rút về một ngân hàng tại Nam Phi.
+c3bc0e8bbe	Công việc từ xa làm tại Nam Phi không được miễn trừ thu nhập nước ngoài.
+17e479ebfa	Trên 20% thu nhập từ CNTT hoặc tư vấn sẽ loại bạn khỏi Turnover Tax.
+f86b1440d2	Rút tiền PayPal đi qua dịch vụ rút tiền của FNB và mất 4–6 ngày làm việc.
+56b8edcafb	Mã tham chiếu thuế thu nhập SARS, qua eFiling hoặc SARS MobiApp.
+43173f9326	Không cần công ty; đăng ký với SARS trong vòng 21 ngày làm việc kể từ khi bắt đầu.
+1e353a06d4	Thuế GTGT 15% trên R2,3 triệu mỗi năm; dịch vụ cho người không cư trú chịu thuế suất 0%.
+f45f3f8e5f	Thu nhập toàn cầu chịu thuế 18–45%; Turnover Tax loại trừ phần lớn dịch vụ chuyên môn.
+032a127290	Có, theo kiểm soát ngoại hối; giữ thu nhập trong tài khoản ngoại tệ tại ngân hàng.
+c12e926ebf	Có: cá nhân có thể giữ tài khoản ngoại tệ tại một Authorised Dealer (ngân hàng được ủy quyền).
+447b336f29	Paystack Starter nhận người bán chưa đăng ký, có giới hạn cho đến khi bạn đăng ký kinh doanh.
+74c796a6fc	Turnover Tax 0% đến R600.000, nếu dịch vụ chuyên môn dưới 20%.
+69eb4aa89a	POPIA: đăng ký Information Officer của bạn với Information Regulator.
+fc3552f72c	Người mua trực tuyến có thể hủy trong vòng 7 ngày mà không cần lý do hay bị phạt.
+dd6c2eff35	Sổ căn cước xanh có mã vạch hoặc thẻ Smart ID.
+8c154706fe	Công việc làm tại Zambia cho khách hàng nước ngoài vẫn chịu thuế GTGT 16% khi đã đăng ký.
+0593a3c947	Hướng dẫn cũ ghi K800.000 và 4%; thuế doanh thu nay là 5% đến K5 triệu.
+98a23699d0	TPIN do Zambia Revenue Authority cấp, dùng NRC của bạn.
+0ecc3cb88f	Đăng ký tên doanh nghiệp với PACRA với tư cách người kinh doanh cá thể.
+077f7f69cc	Thuế GTGT 16% trên K800.000 mỗi năm; dịch vụ thực hiện tại Zambia không chịu thuế suất 0%.
+e343e53955	Thu nhập có nguồn từ Zambia chịu thuế; thuế doanh thu 5% đến K5 triệu.
+a582d981ce	Có, tự do; khoản thanh toán của khách hàng nước ngoài không phải giao dịch trong nước theo quy định về kwacha.
+a5a2c930c0	Có: giữ tài khoản bằng nội tệ hoặc ngoại tệ; rút tiền mặt bị giới hạn.
+9d61a24383	Không có ưu đãi cho freelancer; thuế doanh thu 5% đến K5 triệu.
+ad9a2807c8	Đăng ký với Data Protection Commissioner; không đăng ký là vi phạm.
+12467fbe30	Người mua có thể hủy giao dịch mua trực tuyến trong vòng bảy ngày.
+d8a0a76476	Thẻ Đăng ký Quốc gia (NRC) hoặc hộ chiếu.
+52a5e3b06a	Các trang cũ ghi 15%; thuế GTGT là 15,5% từ tháng 1 năm 2026.
+4c6df3248f	Bạn cần một Cán bộ Bảo vệ Dữ liệu có chứng nhận và giấy phép POTRAZ.
+eca334b369	TIN từ cổng TaRMS của ZIMRA, thay cho số BP cũ.
+bf76f81941	Không cần đăng ký công ty; đăng ký thuế với ZIMRA trên cổng TaRMS.
+655ccee33e	Thuế GTGT 15,5% từ năm 2026, trên US$25.000 trong 12 tháng.
+4b27989cbd	Công việc làm tại Zimbabwe nhiều khả năng chịu thuế tại đó, đến 40%.
+ef7f4912c2	Đã xác nhận một phần; các khoản thu ngoại tệ của cá nhân trước nay là "free funds" (tiền tự do) trong tài khoản Nostro.
+12cb082521	Có: tài khoản ngoại tệ (Nostro FCA) rất phổ biến.
+e0a71aff4a	Xử lý dữ liệu của từ 50 người trở lên cần giấy phép POTRAZ hằng năm từ US$50.

@@ -1,0 +1,11 @@
+{
+  "stop": ["কি", "কী", "কীভাবে", "কিভাবে", "কোথায়", "থেকে", "এ", "তে", "এর", "এবং", "ও", "বা", "আমি", "আমার", "পেমেন্ট", "টাকা", "পাওয়া", "পাবো", "পাব", "নেওয়া", "করা", "যায়", "ব্যবহার", "কাজ", "করে"],
+  "topics": {
+    "আয়কর": "L3_income_tax_foreign", "কর": "L3_income_tax_foreign", "ট্যাক্স": "L3_income_tax_foreign", "ভ্যাট": "L4_vat_gst",
+    "টিআইএন": "L2_tax_id", "টিন": "L2_tax_id", "নিবন্ধন": "L1_registration", "রেজিস্ট্রেশন": "L1_registration", "ব্যবসা": "L1_registration",
+    "পরিচয়পত্র": "D1_id_document", "এনআইডি": "D1_id_document", "ডলার": "P2_fcy_account", "অ্যাকাউন্ট": "P2_fcy_account",
+    "ব্যাংক": "P2_fcy_account", "বৈদেশিক মুদ্রা": "P1_fx_receipts", "রেমিট্যান্স": "P1_fx_receipts", "গেটওয়ে": "P3_local_gateways",
+    "ডেটা": "L5_data_protection", "গোপনীয়তা": "L5_data_protection", "ভোক্তা": "L6_consumer_ecommerce", "রিফান্ড": "L6_consumer_ecommerce",
+    "ছাড়": "L7_incentives", "প্রণোদনা": "L7_incentives", "বৈধ": "W1_workarounds", "বিকল্প": "W1_workarounds"
+  }
+}

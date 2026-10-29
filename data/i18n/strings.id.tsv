@@ -1,0 +1,1834 @@
+1c174ce61d	Ya, melalui PayPal.
+311bd65134	Terima pembayaran dari klien dan tarik ke rekening bank Anda.
+5c146bb23a	Ya, melalui Gumroad.
+d1d1651abf	Dibayar melalui PayPal (biaya 2%); tidak ada setoran bank di sini.
+a0f54922e7	Payoneer melayani lebih dari 190 negara; pastikan saat mendaftar.
+78dab28a6c	Simpan uang dan dapatkan detail rekening untuk menerima pembayaran.
+850e09713b	Hubungkan PayPal atau Stripe untuk menerima pembayaran.
+ad6a6aaa61	Tidak ada pencairan ke bank di negara ini.
+01a0eb0109	Pencairan tidak tersedia di sini.
+de319e634a	Hanya perangkat lunak dan produk digital; setiap penjual ditinjau.
+6046c1e622	Stripe tidak menerima bisnis dari sini.
+b0a6b0ba42	NRT (Nomor Register Pajak), dipakai untuk semua urusan pajak di Andorra.
+fef2a8fcb8	Daftar ke departemen pajak dan jaminan sosial CASS; langkahnya belum dikonfirmasi.
+4753b2f6bb	IGI (PPN) sebesar 4,5%; semua usaha yang berdagang di Andorra wajib mendaftar.
+7dc9296aa9	Pajak penghasilan 0% hingga €24.000, lalu 5%, dan 10% di atas €40.000.
+537caa35fd	Belum dikonfirmasi.
+143dcd70e2	Payment gateway lokal belum diteliti; lihat layanan yang tercantum di atas.
+6f2bda902d	Ada undang-undang perlindungan data; detailnya belum dikonfirmasi.
+985c3850cd	Tidak ada undang-undang perlindungan konsumen online yang tercatat di pelacak UNCTAD.
+74777a6ab9	Tidak ada kartu identitas nasional; yang dipakai paspor dan SIM.
+b21a748dd3	Stripe (tidak menerima bisnis dari sini).
+1448cca703	Jual produk digital melalui merchant of record
+37d42ff566	Mereka menjual ke pelanggan Anda, mengurus pajak, dan membayarkan hasilnya kepada Anda.
+aa291e3103	Jual produk digital atau perangkat lunak melalui merchant of record: Paddle (hanya perangkat lunak/SaaS; setiap penjual ditinjau), Dodo Payments. Platform tersebut menjadi penjual yang sah bagi pelanggan Anda, mengurus pembayaran kartu dan PPN atau pajak penjualan konsumen, lalu membayarkan hasilnya kepada Anda. Anda tetap wajib melaporkan pembayaran itu sebagai penghasilan di negara Anda.
+6cc903f20a	Jual jasa di Upwork
+a3b2eae9ab	Upwork terbuka bagi freelancer di sini; pilihan penarikan Anda muncul di akun Anda.
+51de4ff3a2	Jual jasa di Upwork, yang tersedia di sini (tidak ada dalam daftar negara terbatasnya). Metode penarikan yang Anda dapatkan (bank, PayPal, Payoneer, dan lain-lain) bergantung pada negara dan muncul di akun Anda.
+290a2b70e7	Terima pembayaran klien lewat PayPal
+58e64eea2d	Pembayaran klien lewat PayPal (tercantum di daftar PayPal Payouts sebagai 'Send, receive, and withdraw', yaitu kirim, terima, dan tarik).
+1a9e4ee480	Minta klien langsung membayar lewat transfer bank
+1b708a0397	Transfer SWIFT ke rekening Anda sendiri selalu bisa; simpan faktur Anda.
+7855717bae	Untuk klien langsung, transfer bank (SWIFT) ke rekening lokal Anda sendiri selalu bisa. Ikuti aturan valuta asing setempat dan simpan faktur.
+b3158e9d56	Dibayarkan ke bank Anda dalam AED.
+a39ae4a49a	Etsy membayar penjual di sini melalui Payoneer.
+ca5cd98ba2	Wise tidak mengizinkan penduduk di sini menyimpan atau menerima uang.
+7e14a4c8ed	Pencairan ke bank didukung.
+0b328a25a6	Pencairan didukung (melalui Stripe Connect).
+b0a1a2b384	Menerima bisnis dari sini; Anda butuh situs web sendiri.
+51be2088bf	Di atas omzet 1 juta AED Anda wajib mendaftar dan melapor, meskipun pajaknya nol.
+a31e128a26	Penjualan ekspor bertarif nol dihitung dalam ambang PPN 375.000 AED.
+82a2c319c6	UEA tidak menerbitkan TIN; Anda bisa mengajukan sertifikat residensi pajak.
+071113a5e6	Dapatkan izin freelance dari zona bebas, atau izin dagang di wilayah daratan.
+8f94a771d6	PPN 5% di atas 375.000 AED per tahun; jasa yang diekspor bertarif nol.
+1faf502f58	Tidak ada pajak penghasilan pribadi; penghasilan usaha di atas 1 juta AED dikenai pajak badan 9%.
+6d8eb2161e	Ya, dengan bebas; UEA tidak membatasi mata uang.
+fb4a3c6fd9	Ya: rekening dirham atau mata uang asing, di dalam maupun di luar negeri.
+0e4cbf1b60	Tidak ada pajak penghasilan pribadi, dan pajak badan 0% atas laba 375.000 AED pertama.
+8e47473aca	PDPL (Dekret-Undang-Undang 45/2021) berlaku; tanggal mulainya belum dikonfirmasi.
+e3f0700cf8	Ada undang-undang perlindungan konsumen online; aturan pengembalian dana belum dikonfirmasi.
+bfb82f1bae	Emirates ID atau paspor.
+1e96b37422	Saldo Wise (penduduk tidak boleh menyimpan uang).
+16535e62ac	Jual produk digital atau perangkat lunak melalui merchant of record: Paddle (hanya perangkat lunak/SaaS; setiap penjual ditinjau), Lemon Squeezy (pencairan ke bank), Polar, Dodo Payments. Platform tersebut menjadi penjual yang sah bagi pelanggan Anda, mengurus pembayaran kartu dan PPN atau pajak penjualan konsumen, lalu membayarkan hasilnya kepada Anda. Anda tetap wajib melaporkan pembayaran itu sebagai penghasilan di negara Anda.
+d048093c24	Hasilkan uang dari YouTube
+402cb0a2e2	Program Partner YouTube terbuka di sini.
+5fc56da056	Penghasilan kreator melalui Program Partner YouTube (tersedia di sini).
+bdc6d9133b	Jual aplikasi di Google Play
+5a19bd5a7a	Pendaftaran merchant Google Play terbuka di sini.
+acd6a24c07	Aplikasi berbayar dan pembelian dalam aplikasi melalui Google Play (pendaftaran merchant tersedia di sini).
+e1fc5d5722	Terima pembayaran kartu dengan Stripe
+d3be2c0818	Stripe menerima bisnis dari sini, untuk situs web Anda sendiri.
+b27f6ac094	Stripe menerima merchant dari sini, jadi Anda bisa menerima pembayaran kartu langsung di situs Anda sendiri.
+3399b09641	Kemungkinan bisa, melalui Payoneer.
+73c3b45a58	Belum ada platform yang dikonfirmasi.
+de959d24ca	Belum ada satu pun dari layanan ini yang mengonfirmasi pencairan di sini.
+c9bb878c1e	PayPal tidak beroperasi di sini.
+d9ede0800c	Tidak ada jalur pencairan di sini (tidak ada setoran bank maupun PayPal).
+2e91e47164	Butuh pemroses lokal yang didukung Payhip; belum dikonfirmasi di sini.
+afdbfcc65c	Penjual dari sini tidak didukung.
+3bc8026d39	Periksa izin terkait sanksi dan jalur perbankan sebelum menerima pembayaran apa pun.
+0b121decaf	Izin usaha diterbitkan oleh AISA atau Kementerian Perdagangan.
+195c907c05	PPN 10% sejak 2020; penerapannya saat ini belum dikonfirmasi.
+4c71f6ed9f	Penduduk juga dikenai pajak atas penghasilan dari luar negeri, dengan tarif progresif.
+3c0d4446e6	Sangat terbatas: jalur perbankan dibekukan dan pemeriksaan sanksi berlaku.
+3e6ae2cf97	Tidak ditemukan insentif khusus untuk freelancer.
+646bc9b5a2	Tidak ada undang-undang perlindungan data yang tercatat di pelacak UNCTAD.
+331860eaaf	Tazkira (dokumen identitas nasional).
+b393c3218f	Stripe (tidak menerima bisnis dari sini); PayPal (tidak tersedia); saldo Wise (penduduk tidak boleh menyimpan uang).
+a4801ccd2c	Dibayarkan ke bank Anda dalam XCD.
+07a37921f0	PayPal beroperasi di sini, tetapi penerimaan pembayaran belum dikonfirmasi.
+f4148cce7d	Penghasilan pekerja mandiri tetap dikenai pajak (UBT) meskipun ada klaim "tidak ada pajak penghasilan".
+692060a7d4	Freelancer profesional wajib memungut ABST 17% sejak awal.
+28e2746718	TIN dari Inland Revenue Department, diterbitkan saat pendaftaran.
+fb94f1691d	Daftar ke ABIPCO, kantor urusan perdagangan; langkahnya belum dikonfirmasi.
+bce3c85649	ABST 17%; penyedia jasa profesional wajib mendaftar, tanpa ambang batas.
+0fef9dbcf9	Tidak ada pajak penghasilan, tetapi penduduk yang bekerja mandiri membayar pajak usaha non-badan hingga 25%.
+6ae7b89848	Kartu identitas nasional pemilih.
+3ca4e7242c	Stripe (tidak menerima bisnis dari sini); pencairan dari situs yang membayar melalui PayPal Payouts (PayPal tidak mencantumkan negara ini); saldo Wise (penduduk tidak boleh menyimpan uang).
+d9ca89ace3	Dibayarkan ke bank Anda dalam ALL.
+92058eb0a1	Tarif 0% mensyaratkan NIPT dan pembayaran klien melalui rekening bank usaha.
+3c4e11cdf7	Aturan klien tunggal bisa menghilangkan fasilitas 0%.
+3d4611abdc	Nomor pribadi NID Anda; pekerja mandiri juga mendapat NIPT.
+bf4607957e	Daftar ke Pusat Bisnis Nasional (QKB) untuk mendapatkan NIPT, nomor identitas pajak Anda.
+787fe7a29d	PPN 20% di atas 10 juta ALL; sukarela mulai 5 juta ALL.
+eeff444203	Pajak penghasilan 0% hingga 2029 bagi pekerja mandiri dengan omzet hingga 14 juta ALL.
+03c7701f88	Ya, dengan bebas; tidak ada kontrol devisa yang membatasi.
+6e35ccec16	Pajak 0% hingga 2029, atau biaya yang dianggap secara tetap hingga 10 juta ALL.
+6fefc9def3	Letërnjoftimi (kartu identitas biometrik).
+a444874fcd	Dibayarkan ke bank Anda dalam AMD.
+80912d6d43	TIN diterbitkan oleh Register Negara saat Anda mendaftar.
+05447d233a	Daftar sebagai Pengusaha Perorangan di Register Negara, sering kali dalam sehari.
+e5bc5d5dfd	PPN 20% di atas 115 juta AMD; jasa yang diekspor bertarif nol.
+60082da441	Pajak penghasilan tetap 20%; usaha kecil bisa memakai pajak omzet sebagai gantinya.
+a32ca87ec2	Ya, dengan bebas; Armenia menganut rezim mata uang yang liberal.
+9b6bc3155c	Ya: penduduk boleh memiliki rekening mata uang asing.
+0e1ad38104	Skema pajak omzet dan usaha mikro untuk usaha kecil.
+eafe560588	Undang-Undang Perlindungan Data Pribadi (2015), diawasi oleh sebuah badan di bawah Kementerian Kehakiman.
+68a9b16fc3	Dibayarkan ke bank Anda dalam AOA.
+9760500b92	Perorangan boleh mentransfer paling banyak sekitar 150.000 USD ke luar negeri per tahun.
+79390c1f90	NIF Anda sama dengan nomor kartu identitas (BI) Anda.
+daf1b93843	Daftar sebagai pedagang perorangan di GUE dengan BI Anda; biayanya sekitar 21.380 AOA.
+35c5a5b7d5	PPN 14%; tanpa PPN di bawah 25 juta AOA; skema sederhana 7% hingga 350 juta AOA.
+6c659c545e	Penghasilan freelance: 6,5% dipotong oleh perusahaan lokal, jika tidak, 25% atas penghasilan yang ditetapkan.
+74049d7b95	Kemungkinan ya, melalui bank yang berwenang menangani valuta asing.
+ea631e46df	Ya, dalam praktiknya; sejak 2026 transfer ke luar negeri dibatasi per tahun.
+48c70d51ca	Payment gateway lokal belum dikonfirmasi; lihat layanan yang tercantum di atas.
+a5de244f05	Tidak ada insentif freelancer; tarif tetap 6,5% bagi pedagang kecil dan tanpa PPN di bawah 25 juta AOA.
+fa919ae34b	Undang-Undang 22/11: beri tahu Badan Perlindungan Data tentang pemrosesan data yang Anda lakukan.
+1921eb975e	Pembeli boleh membatalkan dalam tujuh hari kerja untuk pembelian di luar tempat usaha.
+bdd179be56	Kartu identitas (Bilhete de Identidade, BI).
+dfa8a67cc8	Jual produk digital atau perangkat lunak melalui merchant of record: Paddle (hanya perangkat lunak/SaaS; setiap penjual ditinjau), Lemon Squeezy (pencairan ke bank), Polar. Platform tersebut menjadi penjual yang sah bagi pelanggan Anda, mengurus pembayaran kartu dan PPN atau pajak penjualan konsumen, lalu membayarkan hasilnya kepada Anda. Anda tetap wajib melaporkan pembayaran itu sebagai penghasilan di negara Anda.
+f5fb79e0c0	Dibayarkan ke bank Anda dalam ARS.
+beea522674	Tarik dalam peso, atau dalam USD ke rekening Argentina.
+1112a74d48	Agar tidak dikonversi paksa, penghasilan harus masuk ke rekening dolar lokal milik Anda sendiri.
+674d0e293e	Kategori Monotributo diperbarui dua kali setahun; periksa kategori Anda setiap kali.
+60f2440e04	Situs web wajib menampilkan tombol pembatalan ("tombol penyesalan") tanpa memaksa login.
+e3775e2f23	CUIT, dari ARCA, dengan kunci fiskal level 3 dan DNI Anda.
+5d6239cbfe	Daftar ke ARCA untuk mendapatkan CUIT dan ikut Monotributo.
+26f2cb1b9f	IVA (PPN) 21%; ekspor bertarif nol; Monotributo sudah mencakup IVA.
+56d1b9ad99	Monotributo menggantikan pajak penghasilan dan IVA dengan satu iuran bulanan sesuai kategori.
+89564e3594	Ya; sejak April 2026 perorangan boleh menyimpan penghasilan ekspor dalam dolar di bank lokal.
+5731864a25	Ya: rekening USD di bank lokal, tanpa biaya bank untuk transfer masuk.
+0a5719a6f3	Tautan pembayaran Mercado Pago berfungsi dengan akun gratis, tanpa perlu situs web.
+4f20dc14ee	Pembayaran bulanan tunggal Monotributo, dan dolar yang disimpan di rekening lokal Anda sendiri.
+6f1461f809	Ley 25.326: daftarkan basis data pelanggan secara online ke AAIP.
+e51c48e840	Pembeli boleh membatalkan dalam 10 hari; situs Anda butuh "tombol penyesalan".
+3a0fb5b803	DNI (kartu identitas nasional).
+fea6df6279	Gunakan jalur resmi negara Anda
+e1617ac577	Simpan hasil ekspor jasa di rekening USD lokal milik Anda sendiri tanpa dikonversi ke peso (BCRA Com. 'A' 8417).
+f022f55791	Simpan hasil ekspor jasa di rekening USD lokal milik Anda sendiri tanpa dikonversi ke peso (BCRA Com. 'A' 8417); bank tidak boleh memungut biaya sendiri atas transfer masuk.
+afb2ae5d5e	Dibayarkan ke bank Anda dalam EUR.
+3617cb9da2	Nomor pajak Anda bisa berubah jika Anda pindah ke wilayah kantor pajak lain.
+686f8df0b6	Nomor pajak dari kantor pajak setempat, diterbitkan saat pertama kali Anda membutuhkannya.
+6840cb737e	Usaha dagang mendaftar gratis secara online lewat GISA atau USP; usaha lainnya mendaftar ke kantor pajak.
+0e3a8789f5	PPN 20%; usaha kecil di bawah €55.000 per tahun dibebaskan.
+e889ff3497	Penghasilan global dikenai pajak dari 0% hingga €13.539, naik sampai 55%.
+2738a9d1b8	Ya, dengan bebas; aturan UE melarang pembatasan pembayaran.
+f6987c625b	Sangat mungkin: bank di UE umumnya menawarkan rekening mata uang asing.
+75f1b6867d	Kleinunternehmer (pengusaha kecil): tanpa PPN di bawah omzet €55.000, dengan toleransi 10% sekali.
+dc867b9c22	GDPR berlaku.
+aaf0092ccf	Pembeli online boleh membatalkan dalam 14 hari.
+d1678fa646	Personalausweis (kartu identitas) atau paspor.
+d4dcf68f1c	Jual di Etsy
+d4596e738c	Etsy membayar penjual di sini.
+dd73152c17	Barang fisik atau digital di Etsy (pembayaran penjual Etsy tersedia di sini).
+fda682ede4	Pembayaran klien lewat PayPal (tercantum di daftar PayPal Payouts sebagai 'Fully localized', yaitu sepenuhnya dilokalkan).
+443591e289	Dibayarkan ke bank Anda dalam AUD.
+8b68075398	Daftar GST dalam 21 hari sejak Anda tahu akan melampaui 75.000 AUD.
+0928cc1ea9	Penghasilan jasa pribadi kontraktor perorangan sering kali tidak memenuhi syarat potongan pajak.
+2ee9f3fc1f	Tax File Number (TFN, nomor pajak); usaha Anda memakai ABN.
+a4eb1e6c1b	Dapatkan ABN gratis sebagai pedagang perorangan; daftarkan nama usaha hanya jika perlu.
+e9285aeb20	GST 10%; daftar setelah omzet mencapai 75.000 AUD; ekspor bebas GST.
+a3d4c26f56	Penghasilan global dikenai pajak: nol hingga 18.200 AUD, sampai 45%, ditambah pungutan Medicare 2%.
+41d08fd54b	Ya, dengan bebas; tidak ada kontrol devisa sejak dolar diambangkan pada 1983.
+42f844e12d	Ya, tetapi membuka rekening mata uang asing di bank bisa mensyaratkan 50.000 AUD.
+703a3e16fe	Potongan pajak usaha kecil hingga 1.000 AUD; penghasilan jasa pribadi biasanya dikecualikan.
+5a159c08a6	Privacy Act 1988 berlaku untuk usaha besar dan sebagian usaha kecil.
+5ad254c1a7	Jaminan konsumen berlaku untuk penjualan online; pengembalian dana karena berubah pikiran terserah Anda.
+642bffe317	SIM atau paspor.
+f9bf878045	Dibayarkan ke bank Anda dalam AZN.
+42dc54ee82	Nomor wajib pajak dari otoritas pajak; cara mengajukannya belum dikonfirmasi.
+6b3a360c86	Daftar ke Dinas Pajak Negara; langkahnya belum dikonfirmasi.
+28c8f8dade	PPN 18% di atas 200.000 AZN per tahun; ekspor bertarif nol.
+1064ae5bc3	Penghasilan global dikenai pajak; pajak sederhana untuk pengusaha belum dikonfirmasi.
+a888a93647	Ya, dengan bebas; tidak ada pembatasan untuk menukar atau mentransfer mata uang.
+d12c574d6d	Ya: bank menerima simpanan dolar AS dari perorangan.
+284ca4bbdf	Şəxsiyyət vəsiqəsi (kartu identitas nasional).
+fc06c44bb9	Dibayarkan ke bank Anda dalam BAM.
+8a34edfc8c	Panduan lama menyebut 50.000 BAM; ambang PPN sekarang 100.000 BAM.
+c44df6c039	JIB (nomor identitas); nomor PDV 12 digit untuk PPN.
+6d6ca2cde9	Daftar ke pemerintah kota Anda (Federasi) atau APIF (Republika Srpska); langkahnya belum dikonfirmasi.
+fa0510619f	PPN 17% di atas 100.000 BAM; ekspor bertarif nol.
+d1e588368c	Penghasilan global dikenai pajak tetap 10%; aturannya berbeda per entitas.
+a1f3464c6e	Kemungkinan bebas; umumnya tidak dilaporkan adanya kontrol mata uang yang membatasi.
+22abb0fbc9	Lična karta (kartu identitas), wajib sejak usia 18 tahun.
+6c838b4b8b	Ya, dengan batasan, melalui Paddle.
+7e0fada1f3	Hanya melalui PayPal, yang belum dikonfirmasi di sini.
+d71375a54c	Gunakan saldo mata uang asing Anda sebelum membeli valuta asing lagi di dalam negeri.
+ac93fe079d	TIN; cara mendapatkannya belum dikonfirmasi.
+72ada01dcf	Daftar ke CAIPO; langkahnya belum dikonfirmasi.
+5955045c3c	PPN 17,5% di atas 200.000 BBD; naik menjadi 350.000 BBD mulai Oktober 2026.
+2d1a4ffe1c	Penghasilan global dikenai pajak 0%, 12,5%, atau 28,5%.
+fdc5bb1f0b	Kemungkinan ya; kontrol devisa bisa memengaruhi konversi dan transfer.
+f4ffa68710	Ya: rekening mata uang asing bisa dibuka dengan bebas di bank sejak 2019.
+e09a6f294f	Kartu identitas nasional, opsional tetapi dibutuhkan untuk urusan pemerintahan.
+d43e5cfb36	Buka rekening mata uang asing di bank umum (tanpa batasan sejak Agustus 2019) dan simpan penghasilan USD Anda di sana.
+8377f83aba	Buka rekening mata uang asing di bank umum (tanpa batasan sejak Agustus 2019) dan simpan penghasilan USD Anda di sana. Pakai saldo itu sebelum membeli valuta asing di dalam negeri (Bank Sentral Barbados).
+2c42ff36f6	Ya, melalui Payoneer.
+66ddb93b86	Tarik ke bank Anda atau ke bKash.
+19560a6ba9	Dibayarkan ke bank Anda dalam BDT.
+ba3ea00aa6	Pembebasan pajak mensyaratkan semua uang usaha mengalir lewat transfer bank.
+c87155200b	Payment gateway (OPGSPs) bisa memasukkan paling banyak US$10.000 per transaksi.
+a449d7eb11	Berjualan online tanpa TIN atau izin dagang melanggar aturan perdagangan digital.
+a2ba1ecf49	TIN (e-TIN), didaftarkan secara online ke NBR dengan kartu identitas nasional Anda.
+a1580d7545	Tidak perlu perusahaan, tetapi penjual online wajib memiliki identitas seperti TIN.
+9cc4c7eba0	PPN 15%; pendaftaran hanya diperlukan di atas omzet 5 juta BDT per tahun.
+ef099101ef	Penghasilan freelance dan pembuatan konten bebas pajak hingga Juni 2027 jika dibayar melalui bank.
+e316afeef2	Ya; hingga $20.000 bisa masuk tanpa deklarasi resmi.
+c0214b2170	Ya: simpan hingga 50% penghasilan di rekening mata uang asing ERQ (freelancer TIK).
+0cd4e63c39	SSLCOMMERZ menerima pengusaha perorangan dan penjual Facebook; mereka meminta TIN atau NID.
+48752e4efc	Penghasilan freelance bebas pajak hingga Juni 2027; simpan hingga 50% dalam dolar.
+7483eb72b5	Undang-Undang Perlindungan Data Pribadi 2026; Anda butuh persetujuan eksplisit untuk mengumpulkan data.
+1eb596563f	Tampilkan nomor identitas Anda, syarat lengkap, dan aturan pengembalian dana di halaman penjualan.
+fad50d4e05	Kartu pintar identitas nasional (NID).
+17405b42fd	Surat edaran Bangladesh Bank bulan Juli 2026 menerima bukti elektronik (laporan platform, email) untuk penerimaan freelancer.
+cac01efcf8	Surat edaran Bangladesh Bank bulan Juli 2026 menerima bukti elektronik (laporan platform, email) untuk penerimaan freelancer. Anda boleh menyimpan hingga 50% penghasilan ekspor TIK di rekening mata uang asing ERQ, dan Payoneer bisa ditarik ke bKash.
+02dc9b7089	Nomor Nasional Anda; usaha Anda mendapat nomor perusahaan.
+341c649836	Daftar melalui loket perusahaan (sekitar €111,50) dan bergabung dengan dana jaminan sosial.
+84382bf038	PPN 21%; usaha kecil di bawah €25.000 per tahun dibebaskan.
+1676b2ff56	Penghasilan global dikenai pajak 25–50%, ditambah pungutan tambahan daerah.
+57d430a05b	Belum ada insentif khusus freelancer yang diteliti.
+b0467ce72e	eID (kartu identitas elektronik) atau paspor.
+b6ac6cfe34	Minta klien membayar lewat transfer bank internasional (SWIFT).
+c6cc04f2d7	Belum dikonfirmasi untuk penduduk di sini.
+85f9a909c9	Semua penghasilan mata uang asing dari luar negeri wajib diserahkan ke bank yang disetujui.
+720169fde2	IFU (Identifiant Financier Unique, nomor identitas keuangan tunggal), diterbitkan melalui CEFORE.
+265ae557e0	Dirikan usaha perorangan di layanan satu pintu CEFORE, biasanya dalam 48–72 jam.
+0ca4c32687	PPN 18%; jasa yang diekspor dibebaskan; wajib pajak kecil tidak memungut PPN.
+11ebf55cd4	Di bawah omzet 15 juta FCFA, iuran tahunan tetap usaha mikro (CME) mencakup semua pajak.
+d1b238d8e9	Ya, tetapi mata uang asing wajib diserahkan ke bank yang disetujui.
+37bb1f1e00	Hanya dengan izin Menteri Keuangan setelah ada pendapat BCEAO.
+18562442d9	Tidak ditemukan syarat pendaftaran payment gateway lokal mana pun.
+f142e15283	Pajak CME yang tetap dan rendah, serta pembebasan izin usaha selama 2 tahun bagi usaha RSI.
+0ecec1cdba	Undang-Undang 001-2021: laporkan pemrosesan data pribadi ke CIL sebelumnya.
+f367f1d4d5	Pembeli jasa boleh membatalkan dalam 7 hari kerja.
+78ea380490	Kartu identitas nasional (CNIB), sedang diganti dengan kartu biometrik AES.
+9e281f72d9	Daftar di BULSTAT dalam 7 hari sejak mulai bekerja.
+7b102287d0	UCN Anda (nomor sipil 10 digit), atau LNCH bagi penduduk asing.
+1c33535d38	Daftar di BULSTAT dalam 7 hari, lalu ke NRA dalam 7 hari berikutnya.
+24fd25b12c	PPN 20%; daftar dalam 7 hari setelah omzet melampaui €51.130.
+dbaf0cdedf	Pajak penghasilan tetap 10%, ditambah sekitar 27,8% iuran jaminan sosial pekerja mandiri.
+b703dce054	Freelancer mengurangkan biaya tetap 25%, sehingga pajaknya sekitar 7,5%.
+83ff59e13d	Лична карта (kartu identitas) atau paspor.
+34fba3d848	Dibayarkan ke bank Anda dalam BHD.
+a397bfe03a	Hanya akun pribadi.
+c5967a1bef	Wise di Bahrain hanya untuk akun pribadi, bukan bisnis.
+bfb1f93148	Tidak ada TIN yang diterbitkan untuk pertukaran informasi; nomor CPR Anda menjadi identitas Anda.
+8f14b6c380	Daftar ke Kementerian Perindustrian, Perdagangan, dan Pariwisata; langkahnya belum dikonfirmasi.
+fd0282cc22	PPN 10% di atas 37.500 BHD per tahun.
+fa1dd77f6d	Tidak ada pajak penghasilan pribadi.
+9755d018dc	Ya, dengan bebas; tidak ada kontrol devisa.
+3f2ce22619	Undang-Undang Perlindungan Data Pribadi (Undang-Undang 30 Tahun 2018), berlaku sejak 2019.
+ea9050d5d1	Kartu CPR (nomor pribadi sembilan digit).
+880f7a8b51	Brosur lama menyebut 100 juta BIF; ambang PPN menjadi 25 juta BIF sejak Juli 2026.
+dca6d7059e	NIF; cara mendapatkannya belum dikonfirmasi.
+6b1b1cb7d6	Perusahaan didirikan di layanan satu pintu badan investasi; jalur pedagang perorangan belum dikonfirmasi.
+73ddd9daf0	PPN 18%; ambang pendaftaran diturunkan menjadi 25 juta BIF mulai Juli 2026.
+d6dc1fbc86	Aturan bagi eksportir jasa perorangan belum dikonfirmasi; aturan repatriasi berlaku bagi eksportir.
+debfa0cae4	Rancangan undang-undang perlindungan data disahkan Majelis Nasional pada Januari 2026.
+bd68c369c3	Kartu identitas nasional (CNI).
+7d7d5d62f8	Jual produk digital atau perangkat lunak melalui merchant of record: Paddle (hanya perangkat lunak/SaaS; setiap penjual ditinjau). Platform tersebut menjadi penjual yang sah bagi pelanggan Anda, mengurus pembayaran kartu dan PPN atau pajak penjualan konsumen, lalu membayarkan hasilnya kepada Anda. Anda tetap wajib melaporkan pembayaran itu sebagai penghasilan di negara Anda.
+eb4e1b2162	Dibayarkan ke bank Anda dalam XOF.
+c53668c017	Penghasilan mata uang asing dari luar negeri wajib diserahkan ke bank yang disetujui.
+05298459e6	IFU, diberikan bersama pendaftaran usaha online Anda.
+80844c88fb	Dirikan usaha perorangan secara online di monentreprise.bj dengan biaya 10.000 FCFA dalam hitungan jam.
+495c1e8376	Belum dikonfirmasi; wajib pajak kecil TPS kabarnya tidak boleh memungut PPN.
+cb5e87af17	Di bawah omzet 50 juta FCFA, berlaku pajak sintetis TPS; tarifnya saat ini belum dikonfirmasi.
+4820479a3c	KKiaPay dan FedaPay adalah agregator lokal; kelayakan perorangan belum dikonfirmasi.
+f569c636c5	Usaha perorangan baru bebas pajak izin usaha selama 12 bulan.
+ca5ad7b93a	Laporkan pemrosesan data ke APDP sebelum dimulai.
+e810b39828	Pembeli boleh membatalkan dalam 15 hari kerja.
+20b4051895	Kartu identitas nasional biometrik atau CIP.
+eb797b2c45	Dibayarkan ke bank Anda dalam BND.
+65a337a073	Orang asing tanpa izin tinggal tetap (PR) tidak bisa mendaftarkan usaha perorangan.
+e32db9daa6	Tidak ada TIN untuk perorangan; hanya perusahaan yang dikenai pajak.
+b023444192	Warga negara dan pemegang izin tinggal tetap (PRs) mendaftarkan nama usaha ke ROCBN secara online melalui OCP.
+8619d2e38f	Tidak ada PPN, GST, maupun pajak penjualan.
+9272375d7b	Tidak ada pajak penghasilan pribadi, termasuk atas penghasilan freelance.
+988cf7c9a5	Ya, dengan bebas; tidak ada kontrol devisa, meskipun pergerakan mata uang dipantau.
+53e53680f9	Belum dikonfirmasi; karena tidak ada kontrol devisa, rekening mata uang asing kemungkinan diizinkan.
+3dbcf3b5a7	Tidak adanya pajak penghasilan pribadi adalah keunggulan utamanya.
+1920ef3ff4	Peraturan Perlindungan Data Pribadi 2025, sebagian besar berlaku sejak Januari 2026.
+0696880bb5	Undang-Undang Perlindungan Konsumen (Perdagangan yang Adil); hak pembatalan online belum dikonfirmasi.
+9289feedc2	NRIC (kartu identitas nasional).
+810327a4f9	Dibayarkan ke bank Anda dalam BOB.
+846ddeae83	Simpan penghasilan dari luar negeri di tempat yang benar-benar bisa Anda akses selama kelangkaan dolar.
+e5d3fb52f9	NIT; cara mendapatkannya belum dikonfirmasi.
+72cc47a8cd	Daftar ke SEPREC, register perdagangan; langkahnya belum dikonfirmasi.
+7e2a94cb9c	PPN 13%; daftar ke SIN, tanpa ambang batas yang disebutkan.
+0ed294d9b0	Hanya penghasilan bersumber dari Bolivia yang dikenai pajak; pekerjaan yang dilakukan di Bolivia ikut dihitung, biasanya 13% RC-IVA.
+1a918d1e2d	Sulit: kelangkaan dolar membatasi penarikan dan transfer internasional.
+830b2283d2	Cédula de identidad (kartu identitas).
+5c1be91843	Tarik ke bank Anda di Brasil.
+9cf0a9891f	Jasa yang hasilnya terjadi di Brasil dikenai pajak, meskipun dibayar dari luar negeri.
+1151ae21bb	MEI hanya mencakup pekerjaan yang terdaftar; banyak profesi kabarnya dikecualikan.
+ddee10efee	Laporkan aset luar negeri di atas US$1 juta ke Bank Sentral (CBE).
+9064399cbf	CPF, nomor wajib pajak dari Receita Federal.
+b17acc0681	Tidak wajib: bekerja sebagai autônomo, atau buka MEI jika pekerjaan Anda memenuhi syarat.
+48185e041a	Belum ada PPN; jasa yang diekspor tidak membayar ISS jika hasilnya terjadi di luar negeri.
+373eb56e4a	Bayar carnê-leão setiap bulan atas penghasilan luar negeri; hingga R$5.000 per bulan praktis bebas pajak.
+0309c62cc8	Ya; Anda bahkan boleh menyimpan penghasilan ekspor di luar negeri tanpa mengonversinya.
+7aa7f796fd	Di luar negeri, ya; rekening mata uang asing lokal untuk perorangan belum dikonfirmasi.
+88129e385a	Mercado Pago membuka akun bisnis hanya dengan CPF Anda, tanpa perlu perusahaan.
+6b7f424895	Simpan penghasilan di luar negeri, tanpa ISS atas ekspor, dan pajak nol hingga R$5.000 per bulan.
+13c26a0ea2	LGPD, diawasi oleh ANPD; denda hingga R$50 juta per pelanggaran.
+bc1b5d495b	Pembeli boleh membatalkan pembelian online dalam 7 hari; tampilkan CPF atau CNPJ Anda secara online.
+8e475173ec	Kartu identitas nasional (CIN), yang memakai nomor CPF Anda.
+18bd264f0b	Dibayarkan ke bank Anda dalam BSD.
+ec5549fe35	Anda tidak bisa begitu saja menyimpan penghasilan USD di dalam negeri untuk keperluan umum; mintalah persetujuan Bank Sentral.
+930f436849	PPN 10% di atas 100.000 BSD dalam periode 12 bulan mana pun.
+d5f1268ffa	Tidak ada pajak penghasilan.
+8cd4e299d7	Kontrol devisa berlaku bagi penduduk; aturan konversi belum dikonfirmasi.
+011357e32d	Dibatasi: rekening mata uang asing milik penduduk punya kegunaan terbatas dan butuh persetujuan.
+a81777dbe7	Stripe (tidak menerima bisnis dari sini); saldo Wise (penduduk tidak boleh menyimpan uang).
+984d76de79	Rekening mata uang asing milik penduduk hanya diizinkan untuk pendapatan mata uang asing dan kewajiban di luar negeri.
+e242ab9fec	Rekening mata uang asing milik penduduk hanya diizinkan untuk pendapatan mata uang asing dan kewajiban di luar negeri. Minta bank Anda membukakan dan menyetujui rekening untuk penghasilan ekspor Anda (Bank Sentral Bahama), dan simpan faktur yang menunjukkan bahwa uang itu adalah pendapatan Anda.
+27c70b6273	Dibayarkan ke bank Anda dalam BTN.
+734d50edea	Daftar ke Kementerian Perindustrian, Perdagangan, dan Ketenagakerjaan; langkahnya belum dikonfirmasi.
+6886ac68a2	GST 5% sejak Januari 2026; ekspor dibebaskan.
+ed96e7fd40	Lapisan tarif yang dilaporkan: 0% hingga 300.000 BTN, naik sampai 25%.
+b682f69c12	Ya: bank menawarkan rekening tabungan mata uang asing FC I bagi penduduk.
+6986d8cc1f	Kartu kewarganegaraan Bhutan (identitas nasional elektronik).
+a4258111f0	Dibayarkan ke bank Anda dalam BWP.
+4e047f5c13	Daftar pajak ke BURS; langkah memperoleh TIN belum dikonfirmasi.
+6352d8b3b6	Daftar ke CIPA; langkahnya belum dikonfirmasi.
+2e8a03263d	PPN 14% di atas 1 juta BWP per tahun.
+78a8d01efc	Penghasilan bersumber dari Botswana dikenai pajak: 0% hingga 48.000 BWP, sampai 25%.
+78d2964dc3	Ya, dengan bebas; semua kontrol devisa dihapus pada 1999.
+49e2213122	Sangat mungkin, karena kontrol devisa sudah tidak ada; belum dikonfirmasi.
+2622d098bf	Undang-Undang Perlindungan Data 2024: beri tahu Komisioner sebelum pemrosesan otomatis.
+0292899fe5	Omang (kartu identitas nasional).
+4fdfe2014f	Tidak melalui platform-platform besar.
+a9006dc7f6	Sanksi membuat mereka tidak dapat melayani penduduk.
+83859f0648	Tidak tersedia bagi penduduk di sini (sanksi).
+7a274dae99	Sanksi memblokir banyak platform; kami hanya membahas cara yang sah.
+0eb307ed74	UNP (nomor akun wajib pajak); cara mendapatkannya belum dikonfirmasi.
+2cbd1f0e0a	PPN 20%; daftar begitu Anda melakukan penyerahan kena pajak.
+f7aa4e79ba	Penghasilan global dikenai pajak; pengusaha perorangan membayar 16% atas penghasilan usaha.
+e98fc4b985	Sanksi membatasi jalur perbankan dan akses ke platform; aturan mata uang belum dikonfirmasi.
+4e2f0c2867	Kartu identitas nasional (sejak 2021).
+1e1fb5202b	Stripe (tidak menerima bisnis dari sini); pencairan dari situs yang membayar melalui PayPal Payouts (PayPal tidak mencantumkan negara ini); saldo Wise (penduduk tidak boleh menyimpan uang); platform freelance dan pembayaran besar (karena sanksi atau aturan mitra).
+544d78ffda	Platform-platform ini mengecualikan penduduk, karena sanksi atau alasan mitra pembayaran, tergantung negaranya. Memakai akun orang lain, alamat luar negeri, atau VPN agar terlihat berada di tempat lain melanggar ketentuan mereka, berisiko membuat dana dibekukan, dan bisa melanggar hukum sanksi. Jangan lakukan itu. Pilihan yang sah terbatas pada apa yang diizinkan bank lokal dan jalur lokal berizin, dan pilihan itu berubah mengikuti kebijakan sanksi, jadi periksa status terkini sebelum mengandalkan jalur apa pun.
+b60d5329bc	Di bawah US$50.000 per tahun, Anda kemungkinan harus mengonversi penghasilan ke BZD.
+549e6cfe06	TIN dari Belize Tax Service Department.
+d83777a00f	Daftar ke BCCAR; langkahnya belum dikonfirmasi.
+01a364ca21	Hanya penghasilan bersumber dari Belize yang dikenai pajak; dilaporkan 0% hingga 26.000 BZD, lalu 25%.
+fea8489b32	Dibatasi: Anda butuh izin, dan yang berpenghasilan kecil mungkin tidak memenuhi syarat.
+88ccacb875	Rekening mata uang asing milik penduduk butuh izin Bank Sentral, yang diajukan melalui bank Anda.
+a23b6d97be	Rekening mata uang asing milik penduduk butuh izin Bank Sentral, yang diajukan melalui bank Anda; sebuah entitas memenuhi syarat pada aktivitas mata uang asing US$50.000 per tahun. Di bawah itu, terima di rekening BZD Anda dan simpan faktur (Petunjuk 10 Bank Sentral Belize).
+18c66fa60c	Dibayarkan ke bank Anda dalam CAD.
+be2fccf766	Pembayaran dari klien asing dihitung dalam ambang GST 30.000 CAD.
+8b82caf38a	Kanada menerbitkan nomor pajak bagi penduduk; nomor mana yang dipakai freelancer belum dikonfirmasi.
+107585e120	Pedagang perorangan hanya butuh Business Number dari CRA untuk GST/HST.
+6a64edb240	GST 5%; daftar di atas 30.000 CAD per tahun, termasuk penjualan ke luar negeri.
+0b5741213d	Penghasilan global dikenai pajak federal 14–33%, ditambah pajak provinsi.
+a2471c1bef	Ya, dengan bebas; Kanada tidak punya kontrol devisa sejak 1951.
+d99a7ac640	Ya: bank seperti RBC dan TD menawarkan rekening pribadi dalam dolar AS.
+c100713059	PIPEDA berlaku bagi usaha yang menangani informasi pribadi.
+cdd26d326e	Ada undang-undang perlindungan konsumen online; aturan pengembalian dana yang spesifik belum dikonfirmasi.
+801498ec4c	SIM, kartu identitas berfoto dari provinsi, atau paspor.
+1f8625c4d9	Panduan lama mengatakan penghasilan luar negeri tidak dikenai pajak; itu berubah pada Januari 2026.
+6e80dddb71	Masa pengembalian dana hanya 72 jam, bukan 14 hari.
+7035913823	Nomor pajak diberikan di GUCE saat pendaftaran usaha.
+f628830354	Daftar melalui layanan satu pintu GUCE; biaya dan waktu sebenarnya sangat beragam.
+41b6d91853	PPN 16% di atas omzet 80 juta CDF; perlakuan atas jasa yang diekspor belum dikonfirmasi.
+e3968e54ea	Sejak 2026 penghasilan global dikenai pajak; usaha mikro di bawah 25 juta CDF membayar tetap 30 USD.
+b3487ccc4d	Ya; eksportir jasa tidak wajib menyerahkan penghasilan valuta asingnya.
+ff6f575421	Ya: bank membuka rekening mata uang asing dengan bebas; rekening USD umum dipakai.
+dac62504b2	Uang elektronik seluler tersebar luas; tidak ditemukan gateway untuk penjual online perorangan.
+a575878963	Tidak ada insentif freelancer; usaha mikro membayar tetap 30 USD.
+b40ca3ac30	Kode Digital: laporkan pemrosesan data sebelum memulai; regulatornya belum dibentuk.
+b0d2fa4879	Pembeli boleh membatalkan dalam waktu hanya 72 jam.
+96830bb17f	Kartu pemilih (tidak ada kartu identitas nasional sejak 1997).
+9781b721a0	Laporkan setiap rekening yang Anda miliki di luar negeri ke BEAC.
+2347cfb845	NIF dari administrasi pajak (DGI).
+952c753211	Daftarkan usaha perorangan di layanan satu pintu GUFE di Bangui.
+522fd341d6	PPN 19% mulai omzet 30 juta FCFA; ekspor bertarif nol.
+a5a4bbfd99	Dilaporkan: skema tarif tetap dasar di bawah omzet 30 juta FCFA.
+d248c42885	Ya, tetapi di bawah kontrol devisa CEMAC; bawa pulang penghasilan melalui bank Anda.
+4d53b10d82	Tidak: penduduk tidak boleh membuka rekening mata uang asing di dalam negeri; laporkan rekening di luar negeri.
+c79b6c0e36	Orange Money adalah dompet utama; tidak ada pendaftaran gateway online yang dikonfirmasi.
+e3fd7385ad	Undang-Undang 24-001 tentang data pribadi; transfer ke luar negeri butuh perlindungan yang setara.
+0dd108b37f	Tidak ditemukan undang-undang perdagangan elektronik; berlaku direktif konsumen CEMAC.
+81cb1bf98d	NIU dari direktorat pajak (DGID), tercantum di faktur Anda.
+ad8652113f	Daftar melalui ACPCE, layanan satu pintu, kini juga online.
+429632f5ac	PPN 18,9% di atas omzet 100 juta FCFA; tidak ditemukan tarif nol untuk jasa yang diekspor.
+76b3e3163c	Penghasilan global dikenai pajak; di bawah omzet 100 juta FCFA, berlaku skema tarif tetap IGF.
+354ae3691c	MTN MoMo dan Airtel Money mendominasi; tidak ditemukan gateway untuk perorangan.
+869bd8eaba	Tidak ada insentif freelancer; skema tarif tetap IGF adalah penyederhanaan utama.
+015000b68f	Undang-Undang 29-2019: laporkan pemrosesan data ke komisi perlindungan.
+a23e2844ab	Undang-undang perdagangan elektronik 37-2019 ada, tetapi aturan pengembalian dananya tidak ditemukan.
+5249b09f10	Dibayarkan ke bank Anda dalam CHF.
+5b84ef1c86	Pembayaran dari klien asing dihitung dalam ambang PPN 100.000 CHF.
+87d9918b3b	Denda perlindungan data menyasar Anda secara pribadi, bukan usaha Anda.
+cfea6ce499	Nomor UID untuk entitas; nomor pajak perorangan belum dikonfirmasi.
+66ffc021a4	Daftar di register perdagangan hanya di atas pendapatan 100.000 CHF; daftar juga ke AHV.
+2f80d080d5	PPN 8,1% setelah omzet global mencapai 100.000 CHF.
+770c16996e	Penghasilan global dikenai pajak dengan tarif federal, kanton, dan kota, ditambah pajak kekayaan.
+82f41e9e57	Ya, dengan bebas; tidak ada kontrol devisa.
+1c91bd3213	Ya: rekening dalam mata uang apa pun, di Swiss maupun di luar negeri.
+0b3f376f22	FADP yang direvisi sejak 2023; denda hingga 250.000 CHF dikenakan langsung kepada perorangan.
+e474c97498	Kartu identitas Swiss atau paspor.
+a4eae3d1da	Tarik dalam franc CFA ke bank di Pantai Gading.
+7c305acadc	Di sini hanya bisa mengirim: tidak bisa menarik ke bank lokal.
+242c13aa29	Hubungkan Paystack untuk menerima pembayaran.
+a4073d399c	Tersedia melalui Paystack, sebuah perusahaan Stripe.
+f2de5f1af3	Wise tidak tersedia bagi penduduk, meskipun ada panduan yang menyebutnya resmi.
+1ccef60044	Akun wajib pajak, diterbitkan bersama deklarasi keberadaan pajak (DFE) Anda di CEPICI.
+4bd41e79aa	Daftar sebagai entreprenant di layanan satu pintu CEPICI, biasanya 24–48 jam.
+2cd1ebbcb7	Wajib pajak entreprenant di bawah 50 juta FCFA tidak memungut PPN.
+6c262bf004	Pajak omzet entreprenant: 2,5% untuk jasa hingga 5 juta FCFA, 5% hingga 50 juta FCFA.
+4a9bd5ff50	Paystack Starter menerima perorangan yang belum terdaftar dengan identitas dan rekening uang elektronik atau bank.
+ccd3943a27	Pajak omzet rendah yang menggantikan PPN dan pajak laba; usaha rintisan bisa mendapat pembebasan tiga tahun.
+761280621b	Undang-Undang 2013-450: laporkan pemrosesan data pribadi ke ARTCI.
+cb54d05256	Dilaporkan: 10 hari kerja untuk mengembalikan barang; belum dikonfirmasi dari undang-undangnya.
+38de4eb11a	Kartu identitas nasional (CNI) atau paspor.
+2bb18c73ee	PayPal (tidak tersedia); saldo Wise (penduduk tidak boleh menyimpan uang).
+b95471574d	Terima pembayaran kartu dengan Paystack
+a4d917ef50	Paystack, sebuah perusahaan Stripe, mencakup negara ini.
+f4a8413723	Pembayaran kartu di situs Anda sendiri melalui Paystack (sebuah perusahaan Stripe). Stripe mencantumkan negara ini dalam jaringan luasnya.
+c1952ed7fb	Dibayarkan ke bank Anda dalam CLP.
+ca63ed8033	Pemotongan atas honor naik menjadi 16% pada 2027 dan 17% pada 2028.
+d8112ea569	RUT, nomor register pajak nasional.
+4e03d78c83	Ajukan "inicio de actividades" (dimulainya kegiatan) ke SII secara online dalam 2 bulan sejak mulai.
+1eb64d6060	PPN 19%; Anda mendaftar ke SII saat mulai, tanpa ambang batas.
+df59d983de	Penghasilan global dikenai pajak di bawah Pajak Pelengkap Global yang progresif.
+02ddec2ecf	Ya, dengan bebas; tidak ada kontrol yang membatasi penghasilan dari luar negeri.
+662e482d70	Ya: bank seperti Santander dan Banco de Chile menawarkan rekening giro dolar.
+9d4b6d612b	Tidak ada potongan khusus freelancer; pemotongan boleta 15,25% pada 2026, diselesaikan setiap tahun.
+44d7ae75c8	Ada undang-undang perlindungan konsumen online; masa pengembalian dana belum dikonfirmasi.
+e211aef449	Cédula de identidad (kartu identitas nasional).
+39bc7b2795	Anda bisa menerima, tetapi tidak bisa menarik ke bank lokal.
+ea79fc3987	Saldo PayPal tidak bisa ditarik ke bank di Kamerun.
+46ed6cb241	Nomor wajib pajak NIU, hanya online melalui DGI dengan nomor kartu identitas Anda.
+f06309caaf	Daftarkan usaha perorangan di layanan satu pintu CFCE, sekitar 46.500 FCFA.
+972528d9b5	PPN 19,25%; wajib pajak IGS tidak memungutnya; ekspor bertarif nol.
+89464d0b44	Hingga omzet 50 juta FCFA, pajak tunggal IGS menggantikan pajak penghasilan dan PPN.
+21b946b24f	Akun merchant uang elektronik kabarnya butuh pendaftaran RCCM dan NIU.
+50fcafa2d9	Pajak tunggal IGS hingga 50 juta FCFA adalah penyederhanaan utama.
+3ae9898fca	Undang-undang perlindungan data 2024/017, berlaku sejak Juni 2026.
+2f48d344e4	Pembeli boleh membatalkan dalam 15 hari sejak menerima barang.
+29811d49ff	Berfungsi, dengan pembatasan PayPal tambahan untuk Tiongkok.
+0d527e9b1c	Di atas 50.000 USD per tahun, Anda butuh kontrak untuk mengonversi penghasilan luar negeri.
+0eec0b2f1f	Orang asing tidak bisa mendaftarkan usaha rumah tangga perorangan.
+eef5b29ddd	Entitas memakai Kode Kredit Sosial Terpadu; nomor perorangan belum dikonfirmasi.
+3d0697fc9f	Daftarkan usaha rumah tangga perorangan; penjual online yang sangat kecil di bawah 100.000 RMB bisa dibebaskan.
+a3a4955c86	PPN pengusaha kecil 1% hingga 2027; dibebaskan hingga 100.000 RMB per bulan.
+ac8004fdb5	Penghasilan global dikenai pajak; honor freelance 3–45%, penghasilan usaha 5–35%.
+ce6a11bd1d	Ya, tetapi mengonversi lebih dari 50.000 USD per tahun butuh dokumen.
+40e8a8edc3	Ya: bank menawarkan rekening tabungan mata uang asing; kuota konversi berlaku.
+65b3d19e6b	Penjualan dalam negeri berjalan dengan Alipay dan WeChat Pay; belum diteliti.
+d247c94cd4	Keringanan PPN pengusaha kecil: tarif 1% dan pembebasan bulanan.
+46637bd835	PIPL sejak 2021; denda hingga 50 juta RMB atau 5% dari pendapatan.
+62204f7613	Pembeli online boleh mengembalikan barang dalam 7 hari tanpa alasan.
+1fe644e3fd	Kartu Identitas Penduduk (居民身份证).
+15ecfb0820	PayPal, dengan batasan
+baf796c93a	Dibayarkan ke bank Anda dalam COP.
+dfb36a17c3	Tarik dalam peso atau USD ke bank di Kolombia.
+8fa55f5af6	Wompi melakukan pencairan pertama kepada perorangan 30 hari setelah penjualan pertama.
+4a52f1e140	Pembebasan IVA ekspor mensyaratkan klien yang tidak punya usaha di Kolombia.
+efacb4996a	NIT, diberikan saat Anda mendaftar di RUT.
+be7d8d9711	Daftar di RUT ke DIAN, gratis secara online dengan cédula Anda.
+6476057888	IVA (PPN) 19%; jasa yang hanya dipakai di luar negeri dibebaskan; di bawah 3.500 UVT, tidak ada kewajiban IVA.
+47a656ccf3	Penghasilan global dikenai pajak 0–39%; Régimen Simple mulai 5,9% untuk jasa.
+626d113871	Ya, dengan bebas; ekspor jasa tidak wajib melalui pasar valuta asing resmi.
+d80e42bc85	Tidak: rekening dolar di Kolombia tidak diizinkan, tetapi rekening di luar negeri boleh.
+61729e0c31	Wompi menerima perorangan dengan RUT atau cédula dan rekening Bancolombia atau Nequi.
+b5f6e4ef8f	Régimen Simple 5,9%, pembebasan IVA atas ekspor, dan tanpa IVA di bawah 3.500 UVT.
+f159f72528	Ley 1581 berlaku; perorangan dan perusahaan kecil tidak perlu mendaftarkan basis data.
+39aaf9ced1	Pembeli boleh membatalkan dalam 5 hari kerja sejak pengiriman (retracto).
+993ccdd939	Cédula de ciudadanía (kartu identitas nasional).
+394bc3d569	Dibayarkan ke bank Anda dalam CRC.
+847f79ff98	Jasa yang Anda kerjakan dari Kosta Rika dikenai pajak, bahkan untuk klien asing.
+5a07572bf6	Tidak ada TIN dalam arti khusus; siapa pun yang berpenghasilan wajib mendaftar ke Administrasi Pajak.
+6fe03cad3f	Daftar sebagai profesional independen ke Hacienda di platform TRIBU-CR.
+29629260a9	PPN 13%; ambang dalam negeri dan perlakuan ekspor belum dikonfirmasi.
+78e24880d9	Hanya penghasilan bersumber dari Kosta Rika yang dikenai pajak, termasuk pekerjaan yang dilakukan di sana untuk klien asing.
+bd743cb5a4	Embargo AS memblokir sebagian besar platform pembayaran; kami hanya membahas cara yang sah.
+4bff7c3fd1	Carné de Identidad dan NIT; cara mendapatkannya belum dikonfirmasi.
+f622b46dee	Sanksi memblokir sebagian besar platform dan bank yang terkait AS; aturan mata uang belum dikonfirmasi.
+6765a7a425	Carnet de identidad (kartu identitas), wajib sejak usia 16 tahun.
+fa2e3aa88f	Stripe (tidak menerima bisnis dari sini); PayPal (tidak tersedia); saldo Wise (penduduk tidak boleh menyimpan uang); platform freelance dan pembayaran besar (karena sanksi atau aturan mitra).
+2718a187f5	Perusahaan didirikan dalam sehari di Casa do Cidadão (sekitar 100 USD); jalur pedagang perorangan belum dikonfirmasi.
+7597de9232	PPN 15%; wajib pajak REMPE membayar pajak terpadu 4% sebagai gantinya.
+b87e3db92e	Penghasilan global dikenai pajak; usaha kecil bisa membayar pajak terpadu 4% (REMPE).
+49230bab57	Belum dikonfirmasi; escudo dipatok terhadap euro.
+6b52c0739a	Belum dikonfirmasi; ada aturan untuk rekening mata uang asing milik penduduk.
+15aed397b2	Pajak terpadu REMPE 4% atas penjualan adalah penyederhanaan utama.
+1bb1077af6	Rezim perlindungan data diawasi oleh CNPD.
+5929e0c3cf	Cartão Nacional de Identificação (CNI, kartu identitas nasional).
+0725a24f61	Menjual jasa B2B kepada klien di UE mewajibkan pendaftaran PPN berapa pun omzetnya.
+d031b78297	Iuran jaminan sosial pekerja mandiri 16,6% dari penghasilan yang dipertanggungkan.
+745923fe66	TIN dari Tax Department; Anda harus mendaftar sendiri, tidak otomatis.
+f56440031c	Daftar ke Tax Department dan Social Insurance Service; langkahnya belum dikonfirmasi.
+04e3ab7010	PPN 19% di atas €15.600, tetapi jasa B2B ke UE wajib mendaftar sejak awal.
+1eabdfe914	Penghasilan global dikenai pajak; 0% hingga €22.000, sampai 35%, ditambah jaminan sosial.
+70fd4442f8	Kartu identitas atau paspor.
+ded67024af	Pembayaran klien lewat PayPal (tercantum di daftar PayPal Payouts sebagai 'Send, receive, and withdraw in local currency', yaitu kirim, terima, dan tarik dalam mata uang lokal).
+837e8d5e07	Dibayarkan ke bank Anda dalam CZK.
+40236e50c0	Melampaui 2.536.500 CZK membuat Anda menjadi wajib PPN keesokan harinya.
+c5d0fbd909	Nomor identifikasi pribadi Anda, sampai Anda mendaftar PPN.
+ebb63f71a7	Dapatkan izin dagang (živnostenský list) seharga 1.000 CZK dan menjadi OSVČ (pekerja mandiri).
+d2cd6a5bcb	PPN 21% setelah omzet di Ceko melampaui 2 juta CZK per tahun.
+cdec77a736	Penghasilan global dikenai pajak 15%, dan 23% di atas sekitar 1,76 juta CZK.
+9e36236288	Skema tarif tetap: satu pembayaran bulanan mencakup pajak penghasilan dan asuransi, hingga 2 juta CZK.
+f082bd1866	Občanský průkaz (kartu identitas) atau paspor.
+53ec91cf7d	Keluar dari skema Kleinunternehmer mengikat Anda selama lima tahun.
+8cfb2a84e7	Daftar ke Finanzamt dalam sekitar sebulan sejak mulai.
+8bd39ecc83	Nomor identitas pajak (Steuer-ID) dari Kantor Pajak Pusat Federal.
+a4e51cd83f	Freelancer mendaftar ke Finanzamt lewat ELSTER dalam sebulan; pedagang juga mendaftarkan Gewerbe.
+e9eba6c321	PPN 19%; tanpa PPN di bawah €25.000 tahun lalu dengan skema Kleinunternehmer.
+d7402f0da6	Penghasilan global dikenai pajak progresif hingga 45%, ditambah pungutan solidaritas.
+a81c18fe9a	Ya: banyak bank menawarkan sub-rekening mata uang asing (Fremdwährungskonto).
+49694c1ac4	Skema Kleinunternehmer: tanpa PPN pada faktur di bawah €25.000 per tahun.
+ca70f89ec4	Bayar iuran izin usaha tahunan (patente); langkah pendaftaran belum dikonfirmasi.
+a0947f30e7	PPN 10% untuk omzet di atas 10–20 juta DJF; ekspor dibebaskan.
+917f627091	Laba usaha hanya dikenai pajak atas kegiatan di Djibouti; aturan perorangan belum dikonfirmasi.
+fc7b76f0ff	Ya, dengan bebas; tidak ada pembatasan devisa, dan franc dipatok terhadap dolar.
+0cfa206ad7	Sangat mungkin, tanpa kontrol devisa; belum dikonfirmasi.
+cf2bf952c1	Kode Digital 2025 mencakup data pribadi; komisinya belum dibentuk.
+68a754256a	Kartu identitas nasional.
+10cead32e4	Dibayarkan ke bank Anda dalam DKK.
+5cdd544ee9	Nomor CPR Anda adalah nomor identitas pajak Anda.
+6c6b1d5b0b	Daftar di Virk.dk untuk nomor CVR; Anda butuh nomor CPR.
+70799f6d8d	PPN 25% setelah pendapatan melampaui 50.000 DKK per tahun.
+07df231beb	Penghasilan global dikenai pajak, hingga sekitar 57% (60,5% dengan pajak pasar tenaga kerja).
+55183c1248	Paspor atau SIM.
+8937555978	Daftar ke CIPO dan Inland Revenue Division; langkahnya belum dikonfirmasi.
+fd8cebf4d4	PPN 15% di atas 250.000 XCD per tahun; ekspor bertarif nol.
+a4c9fbea7d	Penghasilan global dikenai pajak: tunjangan 30.000 XCD, lalu 15–35%.
+d203ddd53c	Kartu identitas nasional serbaguna, opsional bagi warga negara.
+51c8eca36e	Dibayarkan ke bank Anda dalam DOP.
+0b331190af	RNC; bagi warga Dominika nomornya sama dengan cédula, didaftarkan gratis secara online.
+6736da4f42	Daftar di RNC ke DGII, seperti semua wajib pajak.
+349081230e	ITBIS 18%; daftar melalui pendaftaran pajak umum; ekspor 0%.
+9178c1e0c1	Sistem teritorial: tarif dari 0% hingga 25%; keuntungan investasi luar negeri dikenai pajak setelah tahun ketiga.
+1b6ada197e	Ya, dengan bebas; Anda bisa membeli dan menjual mata uang asing di bank.
+5e67892dae	Ya: bank menawarkan rekening dolar dan euro.
+3024875287	Cédula de identidad y electoral (kartu identitas dan pemilih).
+256fb55d8d	Ya, dengan batasan, melalui PayPal.
+6e9f55f79b	Untuk menerima butuh kartu asing atau bank AS; penarikan terbatas.
+db2b79ae22	Dibayarkan ke bank Anda dalam DZD.
+1c8da7251d	Banyak dipakai, tetapi penarikan ke dinar dibatasi.
+3f8f241707	Bawa pulang dalam 120 hari; panduan sebelum Agustus 2026 masih menyebut 360.
+2d1e265ea1	Penarikan dana PayPal di Aljazair tidak jelas; tidak ada daftar resmi kartu yang berfungsi.
+6756ed9440	Nomor pajak NIF, ditambah pendaftaran CASNOS bagi wirausaha mandiri.
+5337a466cf	Wirausaha mandiri: daftar secara online ke ANAE, dengan omzet di bawah sekitar 5 juta DZD per tahun.
+24d4d28bfe	PPN 19%; IFU 0,5% bagi wirausaha mandiri sudah mencakupnya.
+a7ff90c226	Wirausaha mandiri membayar IFU 0,5% atas omzet sebagai pengganti pajak penghasilan dan PPN.
+ee09c8a68b	Ya, tetapi bawa penghasilan ekspor ke bank Aljazair dalam 120 hari.
+a83be1d1e2	Ya: rekening valuta asing profesional menampung 100% penghasilan jasa yang dibawa pulang.
+a3a0355790	Chargily Pay menerima kartu lokal CIB dan EDAHABIA; kartu internasional belum.
+64e3d51610	Pajak wirausaha mandiri 0,5% dan hak menyimpan 100% mata uang asing untuk ekspor jasa.
+a715ad5947	Undang-Undang 18-07: laporkan pemrosesan data ke ANPDP sebelumnya.
+4a8256a743	Undang-Undang 18-05: tampilkan nomor pendaftaran Anda; pengembalian boleh untuk pengiriman yang terlambat.
+76e3d905fd	Kartu identitas nasional biometrik (CNI) dengan NIN Anda.
+321138a979	Dibayarkan ke bank Anda dalam USD.
+fb8cde178a	Mengirim uang ke luar negeri dikenai pajak keluar modal 5% (ISD).
+d33e8cb243	SRI memindahkan wajib pajak antar kategori RIMPE setiap tahun; periksa RUC Anda.
+ed53cd6967	RUC (Register Tunggal Wajib Pajak) dari SRI.
+94c5351c68	Daftar ke SRI (Servicio de Rentas Internas); langkahnya belum dikonfirmasi.
+ce50ea150e	PPN 15%; ambang dalam negeri dan aturan ekspor belum dikonfirmasi.
+9ec2327c98	Penduduk juga dikenai pajak atas penghasilan luar negeri, dengan kredit pajak.
+be2b6f2f63	Tidak perlu: Ekuador memakai dolar AS, jadi rekening lokal dalam dolar.
+8bbd96793c	RIMPE: skema sederhana untuk penghasilan hingga 300.000 USD.
+4bcb7c0812	e-Residency tidak memungkinkan Anda bekerja sebagai FIE dari luar negeri.
+a6cc7e5bd2	Akun wirausaha mengenakan pajak atas penerimaan bruto; tidak ada biaya yang dikurangkan.
+8293ef09d4	Kode identitas pribadi Anda.
+306f4cbfc6	Daftar sebagai pengusaha perorangan (FIE) secara online seharga €13; Anda harus tinggal di Estonia.
+44532f6b5d	PPN 24% setelah omzet di Estonia melampaui €40.000 per tahun.
+6eb9d7477b	Penghasilan global dikenai pajak tetap 22%, ditambah pajak sosial bagi pekerja mandiri.
+ae081c36f0	Akun wirausaha di LHV: tetap 20% atas penerimaan, tanpa pembukuan, hingga €40.000.
+cb023bcd97	ID-kaart (kartu identitas) atau paspor.
+f5a6dc419a	Tersedia; cara penarikan belum dikonfirmasi.
+d73fda9480	Dibayarkan ke bank Anda dalam EGP.
+8878d0c631	PayPal beroperasi di sini, tetapi penerimaan dan penarikan belum dikonfirmasi.
+8781ba45ee	Konsultan yang mendapat 90% penghasilan dari satu atau dua klien tidak bisa memakai skema sederhana.
+511d223bd7	Eksportir wajib mendaftar PPN bahkan di bawah 500.000 EGP per tahun.
+5aa04b2d70	Platform yang membayar melalui PayPal Payouts tidak bisa membayar ke akun Mesir.
+542261d32e	Nomor registrasi pajak pada kartu pajak dari Otoritas Pajak Mesir.
+e8523ce421	Daftar pajak dalam 30 hari sejak mulai, di kantor pajak atau secara online.
+faf547f430	PPN 14%; eksportir wajib mendaftar PPN berapa pun omzetnya.
+c6ce51a834	Penghasilan dari klien asing dikenai pajak; di bawah 20 juta EGP, pajak omzet sederhana 0,4–1,5%.
+8a341bd185	Ya; Anda boleh menyimpan semua mata uang asing yang Anda terima, tanpa konversi paksa.
+138cae829f	Ya: bank menerima simpanan mata uang asing; setiap bank menetapkan batas penarikan tunai.
+d8143daa46	Paymob berizin dan mungkin menerima perorangan dengan kartu identitas nasional; tanyakan dulu.
+2ad384b2ae	Pajak omzet sederhana (0,4–1,5%) dan PPN nol atas jasa yang diekspor.
+cb453e6ef9	Undang-undang data 151/2020: izin diwajibkan mulai November 2026, saat masa tenggang berakhir.
+50634c32ca	Pembeli boleh mengembalikan barang dalam 14 hari; tampilkan detail kartu pajak Anda secara online.
+26b2510f5b	Kartu identitas nasional.
+2723c7b774	Hukum Mesir mengizinkan setiap orang menyimpan mata uang asing yang mereka terima (Undang-Undang 194/2020 pasal 212), dan bank menawarkan rekening mata uang asing.
+67f6bfe9a5	Penggunaan mata uang asing tanpa izin bisa dikenai sanksi; tanyakan ke Bank Eritrea.
+e9d1a9324a	Tidak ada PPN; tarif pajak penjualan dilaporkan secara tidak konsisten.
+1e96517cb9	Dilaporkan: pajak progresif 2% hingga 30%; usaha kecil membayar pajak presumtif.
+18d1319c4c	Belum dikonfirmasi; dilaporkan ada kontrol devisa ketat dan kurs resmi tetap.
+3603b4a200	Tidak ada undang-undang perlindungan data; hak privasi dalam Konstitusi adalah satu-satunya perlindungan.
+b7912d8ac2	Tidak ada ambang PPN: pungut PPN 21% sejak faktur pertama Anda.
+31ca909047	Daftar ke Jaminan Sosial (RETA) sebelum mulai bekerja.
+a192151782	NIF: nomor pajak sembilan karakter yang diakhiri huruf kontrol.
+b324f2408f	Daftar sebagai autónomo ke badan pajak (modelo 036) dan Jaminan Sosial sebelum mulai.
+7a75d11d17	PPN 21% sejak faktur pertama Anda: Spanyol tidak punya pembebasan untuk usaha kecil.
+4e414a3a34	Penghasilan global dikenai pajak dengan tarif progresif negara dan daerah.
+c869dae9d3	Ya: BBVA, Santander, dan neobank menawarkan rekening dolar.
+e94c5efb65	Autónomo baru membayar Jaminan Sosial €80 per bulan pada tahun pertama.
+85b5caf6ca	DNI (kartu identitas nasional) atau paspor.
+02150cccda	Dibayarkan ke bank Anda dalam ETB.
+fb81be0a2e	Akun di sini hanya bisa mengirim dan berbelanja, tidak bisa menerima.
+231221b80f	Tanpa TIN dan izin, pembayar memotong 30% alih-alih 3%.
+ef5ac596d9	Bank bisa meminta TIN dan izin usaha untuk rekening retensi.
+1282248ad2	Akun PayPal di Etiopia hanya bisa mengirim dan berbelanja, tidak bisa menerima.
+7c2b1b45ec	TIN dari Kementerian Pendapatan, terhubung dengan ID digital Fayda Anda.
+a68b736d94	Jalur resmi: pendaftaran dagang dan izin usaha lewat eTrade, ditambah TIN.
+4c046dc33b	PPN 15% di atas 2 juta ETB per tahun; ekspor yang memenuhi syarat bertarif nol.
+804aa73e88	Penghasilan global dikenai pajak 0–35%; penjual kecil bisa membayar 2–9% atas penjualan.
+9b1bef55be	Ya, melalui bank Etiopia; eksportir jasa menyimpan 100% di rekening retensi.
+5af4735972	Ya, untuk penghasilan yang memenuhi syarat; rekening tabungan valas tidak lagi butuh minimum 100 USD.
+ad13665945	Chapa adalah gateway berizin; apakah perorangan bisa mendaftar belum dikonfirmasi.
+b92de6cfbd	Simpan 100% penghasilan ekspor jasa dalam mata uang asing sejak Februari 2026.
+39313acb1c	Daftar ke Otoritas Komunikasi Etiopia sebelum memproses data pribadi.
+b672c1e1f3	Pembeli boleh mengembalikan dalam 7 hari dengan pengembalian dana penuh.
+4ee4606a89	Fayda, ID digital nasional.
+69fdc492ea	Sejak Februari 2026, eksportir jasa boleh menyimpan 100% hasil ekspor di rekening retensi valuta asing (direktif NBE).
+a8d0f511fe	Asuransi pensiun YEL wajib setelah penghasilan Anda melampaui batas minimum.
+9a9a5e36b3	Nomor Jaminan Sosial Finlandia Anda; usaha mendapat Business ID.
+7e38c79bb2	Daftarkan toiminimi (usaha perorangan) ke PRH lewat ytj.fi seharga €75; kini sering kali opsional.
+9fadff8c39	PPN 25,5%; dibebaskan selama omzet tetap paling banyak €20.000 per tahun.
+a95807ac19	Penghasilan global dikenai pajak dengan tarif nasional progresif ditambah pajak kota.
+6a71a75f11	Henkilökortti (kartu identitas) atau paspor.
+244dfdbdbe	TIN dari FRCS, diajukan secara online lewat TPOS; dibutuhkan untuk rekening bank.
+9df2c6f9ae	Daftar ke Pencatat Perusahaan dan ke FRCS untuk pajak; langkahnya belum dikonfirmasi.
+b8da599bdf	PPN 12,5% di atas 100.000 FJD; daftar dalam 21 hari setelah menjadi wajib.
+6a9cda6ba8	Dilaporkan: 0% hingga 30.000 FJD, lalu 18–20%.
+a026b70dc0	Ya: bank menawarkan rekening mata uang asing; aturan persetujuannya belum dikonfirmasi.
+55757e78e5	Tidak ada identitas wajib; kartu pemilih tersedia jika diminta.
+2e71224c54	Daftar ke Departemen Keuangan dan Administrasi; langkahnya belum dikonfirmasi.
+03e2e68dce	Tidak ada PPN; pajak pendapatan bruto nasional 3% ditambah pajak penjualan negara bagian.
+934296eebd	Pajak upah 6–10%; aturan pekerja mandiri dan penghasilan luar negeri belum dikonfirmasi.
+71a8eb01fd	Rekening lokal dalam dolar AS, mata uang resmi.
+45e93e4311	Kartu pemilih nasional opsional, diterbitkan gratis.
+e38d7f3802	Di atas €37.500 jasa, Anda wajib memungut PPN, bahkan sebagai pengusaha mikro.
+cb8d017db2	Numéro fiscal (SPI), diberikan saat Anda pertama kali terdaftar pajak.
+8b32916663	Daftar sebagai pengusaha mikro secara online melalui layanan satu pintu INPI, gratis.
+fa7fec498d	PPN 20%; tanpa PPN di bawah €37.500 jasa per tahun (franchise en base).
+b6f0bde29f	Penghasilan global dikenai pajak dengan tarif progresif dan pembagian koefisien keluarga.
+8ea3b31453	Sangat mungkin: bank-bank besar menawarkan rekening dolar.
+1354d759e1	Micro-entreprise: pajak dan iuran sosial sederhana berbasis omzet, hingga €83.600 untuk jasa.
+ec02890cc5	Carte d'identité (kartu identitas) atau paspor.
+a962d2a0a6	Dibayarkan ke bank Anda dalam XAF.
+23f51669fd	NIF dari administrasi pajak (DGI), diterbitkan saat pendaftaran di ANPI.
+6f872da56b	Daftarkan usaha perorangan di layanan satu pintu ANPI-Gabon (RCCM dan NIF sekaligus).
+b2b6f29fe9	PPN 18% di atas omzet sekitar 60 juta FCFA; sumber-sumber berbeda tentang ambangnya.
+d817589e29	Di bawah omzet 30 juta FCFA, berlaku pajak sintetis ISL, termasuk bagi penjual online.
+75c80a4ea8	Tidak ada insentif freelancer; skema ISL di bawah 30 juta FCFA adalah penyederhanaan utama.
+309f875eca	Undang-Undang 025/2023: laporkan pemrosesan data otomatis ke APDPVP.
+80dfa9f640	Pembeli boleh membatalkan pembelian online dalam 14 hari kalender.
+c841eae213	Dibayarkan ke bank Anda dalam GBP.
+4f956b13da	Penjualan bertarif nol dihitung dalam ambang PPN £90.000.
+04f8a9a502	Daftar Self Assessment setelah penghasilan Anda melebihi £1.000 dalam satu tahun pajak.
+60fb747327	UTR Anda, diterbitkan HMRC saat Anda mendaftar Self Assessment.
+b6f7b27907	Mulailah sebagai pedagang perorangan sekarang juga; daftar ke HMRC di atas £1.000 per tahun.
+bfe86dde49	PPN 20%; daftar setelah omzet melampaui £90.000 per tahun.
+f401cf2b17	Penghasilan global dikenai pajak di atas tunjangan £12.570, ditambah National Insurance Kelas 4.
+a5e4fcf060	Ya, dengan bebas; tidak ada kontrol devisa atas penghasilan luar negeri.
+72032843cf	Ya: bank seperti HSBC menawarkan rekening pribadi mata uang asing.
+031cc48fad	Tunjangan dagang £1.000: penghasilan sampingan yang sangat kecil tidak perlu didaftarkan atau dikenai pajak.
+24d3f78ae8	UK GDPR; sebagian besar usaha membayar biaya perlindungan data ICO.
+c8a4adf3ea	Pembeli online boleh membatalkan dalam 14 hari sejak menerima barang.
+8b9bfd2452	PPN 15%; ambang pendaftarannya saling bertentangan (120.000 atau 300.000 XCD).
+605e57d23e	Penghasilan yang berasal dari Grenada dikenai pajak: tunjangan 36.000 XCD, lalu 10% dan 28%.
+ea16f26ec6	Kartu pemilih, opsional kecuali untuk beberapa urusan pemerintahan.
+b192d675cc	Jasa konsultasi dikecualikan dari skema 1%; periksa kode kegiatan Anda.
+8afacfa8e5	Pekerjaan yang dilakukan di Georgia untuk klien asing tetap dihitung sebagai penghasilan Georgia.
+e62cf17a3e	Nomor identitas permanen, diberikan saat Anda mendaftar.
+82b3f7eac9	Daftar sebagai Pengusaha Perorangan, lalu ajukan Status Usaha Kecil di rs.ge.
+3ed0462360	PPN 18% di atas 100.000 GEL dalam periode 12 bulan mana pun.
+b89975b59f	Status Usaha Kecil: 1% dari omzet hingga 500.000 GEL.
+53243c4e3f	Ya, dengan bebas; tukar dan transfer dengan kurs pasar.
+6bf9828975	Ya: simpan deposito mata uang asing, tanpa batas jumlah rekening.
+6f2c0640c2	Bank lokal seperti TBC dan Bank of Georgia menyediakan layanan acquiring; belum diteliti.
+df37917ae3	Pajak Usaha Kecil 1%, dan usaha mikro di bawah 30.000 GEL bebas pajak.
+e8b4899086	Undang-Undang Perlindungan Data Pribadi 2023, selaras dengan GDPR, kini diawasi Kantor Audit Negara.
+f44a433937	Kartu identitas nasional atau paspor.
+0f71ca9817	Tarik dalam cedi ke bank di Ghana.
+38910d13a5	Dibayarkan ke bank Anda dalam GHS.
+3dddcfa8b2	Setiap penyedia jasa wajib mendaftar PPN dalam 30 hari, sekecil apa pun usahanya.
+9b1ad03d38	Profesional berkualifikasi tidak bisa memakai skema tetap 3%.
+fe782dc67b	Anda tidak boleh secara sah memproses data pelanggan sebelum mendaftar ke Komisi.
+16207fa1bb	PIN Ghana Card Anda adalah nomor identitas pajak Anda.
+4e5d448072	Usaha perorangan berbiaya 130 GHS di ORC, ditambah perpanjangan tahunan 70 GHS.
+8ddb6c933b	PPN efektif 20%; penyedia jasa wajib mendaftar dalam 30 hari, tanpa ambang batas.
+6b568b8450	Penghasilan global dikenai pajak 0–35%; pedagang kecil bisa membayar tetap 3% dari omzet.
+abacb1b114	Ya; pembayaran dari luar negeri wajib masuk ke Rekening Valuta Asing (FEA) di bank.
+a827329028	Ya: bank menawarkan rekening FEA dan FCA, dan Anda bisa menarik tunai valuta asing.
+19c7bee086	Paystack Starter menerima penjual yang belum terdaftar hingga total 30.000 GHS.
+342f776488	Pajak omzet tetap 3% bagi penjual kecil, dan 7.056 GHS pertama bebas pajak.
+19f3d354b3	Undang-Undang Perlindungan Data 2012: daftar ke Komisi Perlindungan Data sebelum memproses data.
+86dcdc1f7f	Pembeli boleh membatalkan dalam 14 hari untuk barang, atau 7 hari untuk jasa.
+1836828411	Ghana Card, satu-satunya identitas yang diterima bank.
+635e70ca0b	Pembayaran dari bukan penduduk wajib masuk ke Rekening Valuta Asing (FEA) di bank berizin (pemberitahuan Bank of Ghana).
+62617f5daf	Dibayarkan ke bank Anda dalam GMD.
+6f67e7ca6b	TIN dari Gambia Revenue Authority, dibutuhkan sebelum mendaftarkan usaha.
+6bd719e236	Daftarkan usaha perorangan di Layanan Satu Pintu seharga 500 dalasi, dalam sehari.
+669532948c	PPN 15% di atas 2 juta dalasi per tahun.
+7562cc4370	Omzet di bawah 500.000 dalasi: bayar 3% dari omzet.
+3681c398f1	Kemungkinan ya: terima mata uang asing di rekening FCD bank.
+fd3d87d485	Ya: rekening deposito mata uang asing (FCD) di bank.
+9ae65b4577	Tidak ada insentif freelancer; pajak omzet 3% di bawah 500.000 dalasi adalah penyederhanaan utama.
+f4540566e4	Undang-Undang Perlindungan Data Pribadi dan Privasi 2025; laporkan kebocoran dalam 72 jam.
+46e5779f58	Kartu identitas nasional, paspor, atau SIM.
+d66e1cb1df	NIF, diterbitkan APIP saat Anda mendaftar.
+ddcb4c973d	Daftarkan usaha perorangan di APIP, yang menerbitkan RCCM dan NIF.
+520586a797	PPN 18%; usaha dengan omzet di bawah 1 miliar GNF dibebaskan.
+ffe66225fd	Eksportir wajib membawa pulang paling sedikit 50%; penerapannya bagi freelancer tidak jelas.
+1a8936c91b	Undang-Undang L/2016/037 tentang perlindungan data; otoritasnya belum berjalan.
+a8ad61930a	Kabarnya NIF dari administrasi pajak; belum dikonfirmasi.
+208acaf433	Daftar melalui layanan satu pintu VUE; bentuk paling sederhana bagi perorangan belum dikonfirmasi.
+1b9ce93382	PPN 15%; ambang dan aturan ekspor belum dikonfirmasi.
+f6bbf21691	Penduduk dikenai pajak atas penghasilan global.
+c1f1c8d4c8	Undang-Undang 1/2016 tentang data pribadi; otoritasnya belum beroperasi.
+560eb140e2	Documento de Identidad Personal (DIP, dokumen identitas pribadi).
+338ed12c7f	Anda bisa dikenai pajak atas penghasilan minimum yang dianggap ada meskipun penghasilan Anda lebih kecil.
+ec3c7014e2	Pendaftaran online hanya untuk warga negara Yunani atau negara UE lainnya.
+0d334180c4	Nomor pajak AFM, diberikan oleh Administrasi Pajak.
+72b9edc73f	Buka usaha perorangan secara online lewat myAADE dengan AFM Anda, lalu daftar ke eEFKA.
+39bf9e5364	PPN 24%; ada pembebasan usaha kecil bagi usaha Yunani, jumlahnya belum dikonfirmasi.
+55f8fea63c	Penghasilan global dikenai pajak dari 9% hingga 44% di atas €60.000.
+8f69cd948f	Tidak ada insentif tarif tetap; freelancer menghadapi aturan penghasilan minimum yang dianggap ada.
+3905aeaf3a	Δελτίο Ταυτότητας (kartu identitas) atau paspor.
+f3237e24ce	Dibayarkan ke bank Anda dalam GTQ.
+0d2eccd3fa	NIT (nomor pajak) dan CUI (nomor identitas pribadi).
+7be898b7b5	Daftar ke Registro Mercantil dan SAT; langkahnya belum dikonfirmasi.
+f4ed44b855	PPN 12%; ambang dan aturan ekspor belum dikonfirmasi.
+714a11758a	Hanya penghasilan bersumber dari Guatemala yang dikenai pajak, termasuk jasa yang Anda kerjakan di sana.
+049b0f8d1b	Ya: bank menawarkan rekening dolar AS; Anda butuh DPI dan NIT.
+2025bb313b	Pequeño Contribuyente: tetap 5% dari penghasilan bruto hingga Q500.285 pada 2026.
+ee54d75b07	DPI (Documento Personal de Identificación, dokumen identitas pribadi).
+5c4a30c9c2	Kabarnya NIF dari DGCI di CFE; belum dikonfirmasi.
+f591e5604b	Daftar melalui layanan satu pintu CFE; biaya usaha perorangan belum dikonfirmasi.
+6a528324fe	PPN 19% sejak Januari 2025; ambang dan jasa ekspor belum dikonfirmasi.
+f7d93f636a	Belum ada undang-undang perlindungan data yang dikonfirmasi; sebuah rancangan undang-undang disetujui pada Mei 2026.
+9fe16bfa9e	Belum dikonfirmasi; kemungkinan kartu identitas nasional (bilhete de identidade).
+b4eaa22ef9	Dibayarkan ke bank Anda dalam GYD.
+30084bc1c0	TIN dari GRA, diajukan secara online atau langsung.
+5d187a8114	Daftarkan nama usaha ke DCRA dan pajak ke GRA; langkahnya belum dikonfirmasi.
+e4032ab774	PPN 14%; ekspor bertarif nol; ambang belum dikonfirmasi.
+7218c49ff1	Kartu identitas nasional Guyana.
+f65250f69f	RTN dari SAR; pengajuan pertama gratis.
+2419627e78	Daftar ke SAR dan pemerintah kota Anda; langkahnya belum dikonfirmasi.
+bb4d6b9a69	ISV (pajak penjualan) 15%; daftar sebagai wajib pajak lokal, tanpa ambang yang disebutkan.
+1c4b0bd74b	Hanya penghasilan bersumber dari Honduras yang dikenai pajak, dengan tarif hingga 25%.
+097f31abc6	Kartu identitas nasional (DNI).
+f0cc2c9bbd	Biaya tarif tetap naik pada 2027 untuk penerimaan di atas €40.000.
+bc326ced54	Beberapa profesi bebas tidak bisa memakai pajak tarif tetap.
+f7fb250b49	OIB, nomor identitas pribadi Anda.
+c291c8c312	Daftarkan obrt secara online lewat e-Obrt, lalu ke Administrasi Pajak dalam 8 hari.
+53df73d20a	PPN 25% setelah penerimaan tahunan melampaui €60.000.
+14c20a6db9	Paušalni obrt: pajak tahunan tetap mulai €203,40, jika penerimaan tetap di bawah €60.000.
+d271d94424	Osobna iskaznica (kartu identitas) atau paspor.
+f363302251	Pajak omzet (TCA) 10%; semua usaha kabarnya wajib mendaftar.
+c2ee1bd97c	Kartu identifikasi nasional.
+365adfd51e	Dibayarkan ke bank Anda dalam HUF.
+5a42072596	Freelancer yang menagih ke bisnis, termasuk klien asing, tidak bisa memakai KATA.
+d87fe3b874	Adóazonosító jel, nomor identitas pajak pribadi Anda.
+494008ed2f	Daftar ke Otoritas Pajak Negara (NAV) lewat Client Gate; langkahnya belum dikonfirmasi.
+4a077eefb5	PPN 27%; pembebasan tersedia di bawah omzet 20 juta HUF pada 2026.
+6230a55bfe	Pajak penghasilan tetap 15% atas hampir semua penghasilan.
+23523fec08	Pajak tetap KATA, tetapi hanya jika Anda menjual khusus kepada perorangan.
+483c532c83	Személyazonosító igazolvány (kartu identitas) atau paspor.
+f85b3977de	Dibayarkan ke bank Anda dalam IDR.
+1aeee0e8f7	Terima dalam rupiah; tarik ke bank di Indonesia.
+49c6d0e75b	Hanya pratinjau: Anda harus menghubungi tim penjualan Stripe.
+a9ebe49967	Penghasilan luar negeri dihitung dalam batas Rp4,8 miliar untuk pajak 0,5%.
+b11613d80a	Xendit tidak menerima perorangan; Anda perlu perusahaan perseorangan (PT Perorangan).
+730c4a5769	NIK Anda (nomor identitas nasional) adalah nomor pajak Anda (NPWP).
+58bb0f6417	Usaha mendapat NIB secara online lewat OSS; perorangan mendaftar dengan NIK dan NPWP.
+1368fecc31	PPN efektif 11%; wajib mendaftar hanya di atas Rp4,8 miliar; jasa ekspor yang tercantum bertarif 0%.
+f632786e45	Penghasilan global dikenai pajak; pajak final 0,5% atas omzet hingga Rp4,8 miliar, dengan Rp500 juta pertama bebas.
+f303aa3867	Ya; Anda boleh memiliki dan menggunakan mata uang asing dengan bebas.
+c8b94f52f7	Ya: Anda boleh memiliki simpanan mata uang asing di bank Indonesia.
+3f539223dc	Midtrans menerima perorangan dengan KTP; Xendit mensyaratkan perusahaan yang terdaftar.
+3cc2218db6	Pajak final 0,5% tanpa batas waktu, dan Rp500 juta pertama per tahun tidak dikenai pajak.
+bbf8621694	UU PDP 27/2022 berlaku penuh sejak Oktober 2024; lembaganya belum dikonfirmasi.
+c97c1c0839	Aturan perdagangan elektronik (PP 80/2019) berlaku; kebutuhan izin untuk situs Anda sendiri belum jelas.
+fa60a03b3e	KTP-el (kartu identitas elektronik), berisi NIK Anda.
+fb2b80cb54	Stripe, hanya dengan undangan
+97a1685827	Stripe mencantumkan negara ini sebagai pratinjau: hubungi tim penjualannya.
+f8109476a7	Stripe mencantumkan negara ini sebagai 'Preview' (pratinjau; pendaftaran dengan menghubungi tim penjualan Stripe), yang belum menjadi jalur swalayan bagi pemula.
+4bf0ea389b	Ajukan SPT pajak Anda (Form 11) paling lambat 31 Oktober setiap tahun.
+bc13966fb5	Nomor PPS Anda adalah referensi pajak Anda.
+ea55049d63	Daftar ke Revenue dalam 30 hari memakai formulir TR1 di ROS.
+52d69c4e4d	PPN 23% di atas €42.500 per tahun untuk jasa.
+cc47953e8f	Penghasilan global dikenai pajak 20% dan 40%, ditambah USC dan PRSI.
+2619ac2e17	Dibayarkan ke bank Anda dalam ILS.
+6c0d161ae6	Batas osek patur 2026 tidak jelas (₪120.000 atau ₪122.833); pastikan di gov.il.
+6b4b233edf	Faktur di atas ₪5.000 sebelum PPN butuh nomor alokasi dari Otoritas Pajak.
+41f8e53b7b	Mispar Zehut Anda (nomor identitas); cara mendaftarnya belum dikonfirmasi.
+8f39ff53cb	Buka berkas di Otoritas Pajak sebagai osek patur atau osek murshe.
+c965710065	PPN 18%; freelancer osek patur di bawah batas tidak memungutnya.
+68157420ef	Penghasilan global dikenai pajak hingga 47%, ditambah pajak tambahan 3% untuk penghasilan tinggi.
+008a09e983	Ya, dengan bebas; sebagian besar kontrol devisa dihapus pada 1990-an.
+32e587a3bb	Belum dikonfirmasi, meskipun rekening mata uang asing umum di bank.
+fd95557247	Penyedia lokal seperti Tranzila dan Cardcom belum diteliti.
+ad9bbeb64f	Osek patur: tanpa PPN di bawah batas omzet.
+3297bccaa3	Undang-Undang Perlindungan Privasi; sejak 2025 sebagian besar usaha kecil tidak perlu mendaftarkan basis data.
+d894cad442	Kabarnya 14 hari untuk membatalkan penjualan jarak jauh, dengan biaya kecil.
+b09190ccc4	Teudat Zehut (kartu identitas nasional).
+dcab8d85c2	Terima pembayaran dari luar negeri; uang langsung masuk ke bank Anda di India.
+59f31f7f9f	Dibayarkan ke bank Anda dalam INR.
+3b4cfdf0ef	Tarik dalam rupee ke bank Anda di India.
+48cf601ad9	Hanya saat Anda bepergian ke luar negeri, tidak di dalam negeri.
+4c91046e0d	Pencairan ke bank dengan pembatasan.
+da7af51f34	Bawa pulang penghasilan ekspor dalam sembilan bulan; aturannya berubah pada September 2026.
+332afbdc14	PayPal India hanya menerima pembayaran ekspor, hingga 10.000 USD per transaksi.
+8b8fbe58b6	Wise mengonversi semuanya ke rupee; Anda tidak bisa menyimpan uang di Wise.
+040d0a28f6	PAN; dapatkan e-PAN gratis dan instan secara online dengan Aadhaar.
+848f800edb	Tidak perlu pendaftaran terpisah; pendaftaran Udyam (MSME) gratis bersifat opsional.
+1990325048	GST: ekspor bertarif nol; tidak perlu mendaftar di bawah omzet ₹20 lakh.
+32d239513e	Penduduk membayar pajak atas penghasilan global; profesional bisa memakai skema presumtif yang disederhanakan.
+1676fd2b69	Ya; bawa pulang penghasilan ekspor dalam sembilan bulan sejak tanggal faktur.
+abe8b60555	Ya: rekening EEFC menyimpan 100% penghasilan luar negeri Anda dalam mata uang asing.
+53351d4e46	Razorpay menerima perorangan yang belum terdaftar dengan rekening bank pribadi, PAN, dan Aadhaar.
+a01ce3d412	Tanpa GST atas ekspor, rekening mata uang asing EEFC, dan pajak presumtif yang disederhanakan.
+1f79fe62c7	UU DPDP 2023 berlaku; aturannya diterapkan bertahap selama 18 bulan sejak November 2025.
+976bab98ed	Berjualan dari situs sendiri? Tunjuk petugas pengaduan dan akui setiap keluhan dalam 48 jam.
+5d50c51a9a	Aadhaar, ditambah kartu PAN Anda untuk platform pembayaran.
+0beef88516	Jual produk digital atau perangkat lunak melalui merchant of record: Paddle (hanya perangkat lunak/SaaS; setiap penjual ditinjau), Polar, Dodo Payments. Platform tersebut menjadi penjual yang sah bagi pelanggan Anda, mengurus pembayaran kartu dan PPN atau pajak penjualan konsumen, lalu membayarkan hasilnya kepada Anda. Anda tetap wajib melaporkan pembayaran itu sebagai penghasilan di negara Anda.
+8b4c532479	Pembayaran klien lewat PayPal (tercantum di daftar PayPal Payouts sebagai 'Receive and withdraw', yaitu terima dan tarik).
+3cb34a5416	Masukkan 100% penghasilan luar negeri ke rekening EEFC (RBI), atau tarik dari Payoneer dalam INR ke bank di India.
+3da724b3ef	Tidak ada PPN; pajak penjualan berlaku untuk barang seperti internet dan perjalanan.
+d309833cb1	Pekerjaan yang dilakukan di Irak dikenai pajak, 3–15% di wilayah federal Irak.
+c3992d9068	Tidak ada kontrol kurs, tetapi akses perbankan terbatas dan transfer dolar diperiksa ketat.
+3507ae3f2c	Kartu Nasional Irak (identitas biometrik).
+7334a036e2	Kami hanya membahas cara yang sah; kami tidak menjelaskan cara menghindari sanksi.
+e74fb3f07a	Sanksi menyeluruh; platform dan bank asing umumnya menolak pembayaran yang terkait Iran.
+f822075f88	Pekerja mandiri wajib membayar diri sendiri gaji minimum yang dianggap ada.
+f570b56f06	Kennitala, nomor identitas Islandia Anda.
+5656deb404	Dapatkan kennitala, lalu daftar ke Skatturinn; PPN di atas 2 juta ISK.
+e78491ce47	PPN 24% di atas 2 juta ISK dalam 12 bulan; ekspor bertarif nol.
+c49927be53	Penghasilan global dikenai pajak 31,49–46,29% termasuk pajak kota.
+c7d1d141a4	Ya, dengan bebas; kontrol modal sebagian besar dicabut pada 2017.
+74fa77f69e	Ya: bank menawarkan rekening mata uang asing tanpa batasan.
+d45d63eb7c	GDPR berlaku melalui EEA, diawasi oleh Persónuvernd.
+8ddd960dba	SIM atau paspor; kartu identitas jarang dipakai.
+10913663df	Melampaui €100.000 dalam setahun langsung mengakhiri skema tarif tetap.
+6ea576288d	Nomor identifikasi pajak yang dipakai dalam semua urusan dengan administrasi publik.
+7b9c9665df	Buka partita IVA di Agenzia delle Entrate; iuran INPS terpisah.
+faaae21e0e	PPN 22%; pedagang perorangan tarif tetap (forfettario) di bawah €85.000 tidak memungut PPN.
+ba39f71e2f	Penghasilan global dikenai pajak 23–43% IRPEF, ditambah pungutan tambahan regional dan kota.
+40355c6c65	Ya: bank seperti UniCredit menawarkan rekening giro mata uang asing.
+2bf766d183	Regime forfettario: pajak tetap 15% hingga €85.000, atau 5% untuk kegiatan baru.
+69d820ea90	Carta d'identità (kartu identitas) atau paspor.
+5556bd7b36	Dibayarkan ke bank Anda dalam JMD.
+637614b60a	Setoran tunai mata uang asing di atas 500 USD per hari dikenai biaya 2,3%.
+29e532b80f	TRN, nomor sembilan digit dari Tax Administration Jamaica.
+17dd86b201	Daftarkan nama usaha ke COJ dan pajak ke TAJ; langkahnya belum dikonfirmasi.
+c409824c97	GCT 15% di atas omzet 15 juta JMD per tahun.
+a219de5a56	Penduduk dan orang yang berdomisili dikenai pajak atas penghasilan global.
+a0e6dd21a3	Ya: bank seperti Scotiabank menawarkan rekening USD, CAD, EUR, dan GBP.
+226d58e208	Kartu identitas nasional, opsional; kartu biometrik baru sejak 2022.
+d1175cfa0c	Dibayarkan ke bank Anda dalam JOD.
+8e2a054c20	Jangan berasumsi penghasilan dari klien asing bebas pajak jika Anda bekerja dari Yordania.
+7d5203ec3c	Pajak penjualan 16% di atas 30.000 JOD per tahun untuk jasa; ekspor bertarif nol.
+81fce37c1b	Penghasilan bersumber dari Yordania dikenai pajak 5–30%; pekerjaan yang dilakukan di Yordania kemungkinan ikut dihitung.
+1eb23ee541	Kemungkinan bebas; dinar dapat dikonversi dan tidak ditemukan aturan penyerahan wajib.
+eddce45a24	Ya: bank membuka rekening dalam mata uang utama mulai 300 USD.
+40a7cfa4fd	Undang-Undang Perlindungan Data Pribadi No. 24 Tahun 2023.
+629661daef	Dibayarkan ke bank Anda dalam JPY.
+f38b243672	Klien Jepang mungkin butuh nomor registrasi faktur Anda, bahkan di bawah ¥10 juta.
+e711e82f6a	Ajukan permohonan Blue Return dalam dua bulan untuk mendapatkan potongannya.
+ca557c8b0b	My Number, nomor individu 12 digit Anda.
+2af383b844	Ajukan pemberitahuan pembukaan usaha (kaigyō todoke) ke kantor pajak Anda dalam sebulan.
+41e19f89a5	Pajak konsumsi 10% di atas penjualan ¥10 juta; ekspor bertarif nol.
+f8d965e37c	Penghasilan global dikenai pajak 5–45%, ditambah pajak tambahan dan sekitar 10% pajak daerah.
+4c0cef3c04	Ya, dengan bebas; pembayaran besar hanya perlu dilaporkan setelahnya.
+fb4e7237da	Ya: miliki rekening deposito valuta asing dengan bebas, bahkan di luar negeri.
+136550d12d	Blue Return: potongan hingga ¥650.000 dengan pembukuan berpasangan.
+9273775935	APPI berlaku untuk semua usaha, termasuk pedagang perorangan.
+c191c8e4a7	Barang online bisa dibatalkan dalam 8 hari kecuali syarat Anda menyatakan lain.
+7e25fda803	Kartu My Number, SIM, atau paspor.
+c650441fff	Tarik ke bank Anda atau ke M-PESA.
+93d71c06a1	Dibayarkan ke bank Anda dalam KES.
+eb5a3f7bc4	Terima dalam shilling; tarik ke bank Anda.
+56d7223034	Halaman-halaman KRA berbeda soal batas Turnover Tax (KES 25 juta atau 50 juta); pastikan ke KRA.
+5f1c6b5247	PayPal ke M-PESA hanya berfungsi dalam USD dan dikenai biaya 3% pada kurs.
+8f9127539c	KRA PIN, didaftarkan secara online di iTax.
+55a684fd26	Daftarkan nama usaha ke BRS (950 KES) hanya jika tidak memakai nama Anda sendiri.
+e662f765a1	PPN 16%; jasa yang diekspor bertarif nol; daftar di atas 5 juta KES per tahun.
+c760b49bbc	Pekerjaan yang dilakukan dari Kenya dikenai pajak; Turnover Tax 1,5% untuk penjualan KES 1 juta–25 juta.
+4e964e5176	Ya; tidak ada kontrol devisa sejak 1995, dan Anda bisa menagih dalam mata uang apa pun.
+3fdb80572e	Ya: mata uang asing bisa masuk ke rekening bank mata uang asing.
+6b27c5fbbe	Paystack menerima perorangan dengan kartu identitas nasional; batas 600.000 KES sampai Anda mendaftarkan usaha.
+0eec26e794	Turnover Tax: pajak final tetap 1,5% dengan pencatatan sederhana.
+8ab7d04d19	Undang-Undang Perlindungan Data 2019; daftar ke ODPC di atas omzet 5 juta KES atau 10 karyawan.
+428a3b8711	Undang-Undang Perlindungan Konsumen 2012 dan Otoritas Persaingan melindungi pembeli online.
+c13ad0f8e7	Kartu identitas nasional Kenya (versi baru: kartu Maisha).
+7d6718aba8	Tidak ada kontrol devisa.
+58591e4a43	Tidak ada kontrol devisa; mata uang asing bisa dikreditkan ke rekening mata uang asing di bank Kenya.
+2424b00eea	Nomor identifikasi pribadi 14 digit (PIN/INN).
+277865f7cb	Daftar sebagai pengusaha perorangan dengan Formulir 163, sambil memilih rezim pajak.
+ce5f17b9fe	PPN 12%; ambang pendaftaran dalam negeri dilaporkan secara tidak konsisten.
+12a2fcd757	Penghasilan global dikenai pajak tetap 10%; pengusaha memilih rezim pajak.
+5ecddd28d7	Kemungkinan ya; tidak ditemukan aturan penyerahan wajib, tetapi pembatasan pernah diberlakukan.
+5fb54afa61	Taman Teknologi Tinggi: eksportir TI membayar sekitar 1% dari pendapatan sebagai pengganti pajak.
+f310fa3b15	Dibayarkan ke bank Anda dalam KHR.
+78188169c2	Ada pajak minimum 1% atas omzet, bahkan tanpa laba.
+7f883e0bc0	Nomor wajib pajak dari portal e-Tax GDT, setelah pendaftaran usaha.
+ca7b0eb2eb	Daftar secara online ke Kementerian Perdagangan, lalu ke departemen pajak.
+cc4255d4c7	PPN 10% di atas 60 juta KHR dalam tiga bulan untuk jasa; ekspor bertarif nol.
+c5aa818256	Penghasilan global dikenai pajak 0–20%, ditambah pajak minimum 1% atas omzet.
+d4b74cd042	Ya, dengan bebas; bank melaporkan transfer 10.000 USD atau lebih.
+b4bbbe4a96	Ya: penduduk boleh memiliki mata uang asing dengan bebas; rekening USD umum dipakai.
+1e26fcf394	Pilihan lokal seperti ABA PayWay dan KHQR belum diteliti.
+9120f938c2	Belum ada undang-undang perlindungan data; rancangannya dirilis pada Juli 2025.
+36b32f4eed	Ada undang-undang perdagangan elektronik dan konsumen; tidak ditemukan hak masa tenang untuk membatalkan.
+c6347a2c7f	Kartu Identitas Khmer (biometrik).
+9e27583023	PPN (kabarnya 12,5%) di atas $100.000 penyerahan kena pajak.
+82944c6823	Lapisan tarif yang dilaporkan dari 0% hingga 35%.
+6f833260ef	Rekening lokal praktis dalam dolar Australia.
+4f37982cfb	Kartu identitas nasional, wajib sejak 2018.
+70a31d1683	Nomor identifikasi pajak (NIF); detailnya belum dikonfirmasi.
+cedf4bb79f	Belum dikonfirmasi; ANPI kabarnya mengelola layanan satu pintu untuk perusahaan.
+642b3337a6	Pajak konsumsi 10%; dibebaskan di bawah omzet 20 juta KMF.
+89e7c87789	Di bawah omzet 20 juta KMF, bayar pajak profesi tunggal (TPU) sebagai gantinya.
+740e5e9ce2	Belum dikonfirmasi; franc dipatok terhadap euro.
+dc398b1b8b	Tidak ada insentif freelancer; pajak tunggal TPU adalah penyederhanaan utama.
+24b2e992a8	TIN dari Inland Revenue Department, diterbitkan saat Anda mendaftar.
+09bb207f9e	Daftar ke Inland Revenue Department; langkahnya belum dikonfirmasi.
+8e4466e876	PPN 17% di atas 96.000 XCD untuk jasa profesional.
+cd0f3f6429	Kartu identitas nasional opsional.
+c7c64778c0	Tidak berlaku di bawah sanksi menyeluruh.
+56e0fc15f3	Tidak ada cara yang sah di bawah sanksi menyeluruh.
+4100b1fd3e	Dibayarkan ke bank Anda dalam KRW.
+021eb11a92	Orang asing wajib memastikan visanya mengizinkan kegiatan usaha.
+db322fc41e	Jasa ekspor bertarif nol mensyaratkan jasa yang tercantum dan pembayaran dalam mata uang asing.
+f2eb398cff	Nomor Registrasi Penduduk, atau Nomor Registrasi Usaha untuk usaha Anda.
+ab7f4142e8	Daftar sebagai pengusaha perorangan di Hometax dalam 20 hari sejak mulai, gratis.
+d718696901	PPN 10%; di bawah ₩104 juta Anda bisa memakai skema sederhana.
+36f7d01e62	Penghasilan global dikenai pajak 6–45%, ditambah 10% pajak penghasilan daerah.
+4c55de31c3	Kemungkinan ya; tidak ditemukan aturan konversi; bank bisa menanyakan penerimaan dalam jumlah besar.
+534624f510	Ya: bank menawarkan rekening deposito mata uang asing; orang asing memakai rekening eksternal.
+08ab39746b	Gateway dalam negeri seperti Toss Payments belum diteliti.
+b78ce74640	PPN sederhana di bawah ₩104 juta; tidak ada PPN terutang di bawah ₩48 juta.
+8aeecdf261	PIPA berlaku; denda hingga 10% dari pendapatan mulai September 2026.
+f694f2ee25	Pembeli online boleh membatalkan dalam 7 hari sejak menerima barang.
+6b1b47b035	Kartu registrasi penduduk, atau Kartu Registrasi Orang Asing bagi warga asing.
+8ddcde2e8c	Stripe (tidak menerima bisnis dari sini); pencairan dari situs yang membayar melalui PayPal Payouts (PayPal tidak mencantumkan negara ini).
+5f9d632984	Dibayarkan ke bank Anda dalam KWD.
+27f7c84261	Nomor Civil ID; cara kerja pendaftaran pajak belum dikonfirmasi.
+d504d78c24	Daftar ke Kementerian Perdagangan dan Perindustrian; langkahnya belum dikonfirmasi.
+a69613a96c	Tidak ada PPN.
+cd5e87e607	Ya, dengan bebas; dinar dapat dikonversi dengan bebas.
+67b2826a8c	Ya: bank seperti Boubyan dan NBK menawarkan rekening mata uang asing.
+6edd0e8fac	Tidak ada undang-undang perlindungan data yang menyeluruh; berlaku aturan sektor telekomunikasi.
+12ca16525e	Kartu Civil ID (kartu identitas).
+ccad32939e	Dibayarkan ke bank Anda dalam KZT.
+1453e3547b	Kontrak luar negeri di atas 50.000 USD wajib didaftarkan ke bank Anda.
+b07057d5aa	Sebagian kegiatan TI dan konsultasi bisa dilarang memakai skema sederhana.
+856eb7923f	Nomor identifikasi dalam register nasional; cara freelancer mengajukannya belum dikonfirmasi.
+76852796ca	Ajukan pemberitahuan gratis sebagai pengusaha perorangan secara online lewat eGov dengan tanda tangan digital (EDS).
+452ac0bda9	PPN 16% mulai 2026, di atas omzet sekitar 43 juta KZT.
+205d234fd4	Mulai 2026: pajak penghasilan 10%, 15% di atas sekitar 33,4 juta KZT.
+f2aa929277	Ya; kontrak di atas 50.000 USD wajib didaftarkan dan hasilnya dibawa pulang.
+304628a0e2	Ya: miliki rekening bank di luar negeri tanpa memberi tahu Bank Nasional.
+f5dad454fb	Penyedia lokal seperti Kaspi Pay belum diteliti.
+f293e47d56	Deklarasi sederhana: pajak 4% (2% di beberapa wilayah), tetapi tidak untuk semua kegiatan.
+c195c0bd70	Undang-Undang Data Pribadi No. 94-V; kewajiban lokalisasi data banyak dilaporkan.
+36b9504e4c	Kartu identitas atau paspor, ditambah tanda tangan digital elektronik (EDS).
+ab77b759f0	Dibayarkan ke bank Anda dalam LAK.
+d95aa7238d	Jasa untuk klien asing tetap dikenai PPN 10%, berbeda dengan klaim sejumlah panduan.
+98c2a77f04	Memakai perangkat lunak asing untuk data pelanggan butuh persetujuan untuk mentransfernya ke luar negeri.
+a262ccac20	TIN tercantum di sertifikat usaha Anda, atau dari kantor pajak lewat taxservice.mof.gov.la.
+b1dbb58722	Daftarkan usaha perorangan ke Kementerian Perindustrian dan Perdagangan.
+2d88f7d975	PPN 10%, dan jasa untuk klien asing tidak bertarif nol.
+0224a758c4	Penghasilan global dikenai pajak; jasa membayar 3% dari omzet pada LAK 50–400 juta.
+22f60a8776	Kemungkinan ya; eksportir wajib menerima lewat bank dalam 180 hari dan menjual sebagian mata uangnya.
+305d6dff83	Ya: bank seperti BCEL menawarkan rekening USD dan THB; uang tunai dolar bisa langka.
+2aa17d2d0e	Undang-Undang Perlindungan Data Elektronik: butuh persetujuan untuk mengirim data ke luar negeri.
+6e979d44fa	Jangan pernah memasukkan penghasilan luar negeri ke rekening dolar lama yang dibekukan.
+206f192ae6	Nomor identifikasi pajak tunggal dari administrasi pajak.
+998e90838a	PPN 11% di atas 5 miliar LBP; ekspor bertarif nol.
+fc74bf2bad	Jasa yang dikerjakan di Lebanon dikenai pajak, 4–25% untuk penghasilan usaha.
+022a2233eb	Tidak ada aturan penyerahan wajib, tetapi bank sedang bermasalah; pakai rekening "fresh dollar".
+f6c796f145	Rekening "fresh dollar" ada; aturannya belum dikonfirmasi.
+5cd4428507	Operator transfer seperti OMT dan Whish belum diteliti.
+1e51187744	Kartu identitas Lebanon.
+54562788ed	Tanyakan ke bank Anda apakah Anda butuh persetujuan untuk menyimpan penghasilan USD.
+fce947cb88	TIN dari Inland Revenue Department, diterbitkan atas permohonan.
+30b75d5c0c	Daftar ke ROCIP dan Inland Revenue Department; langkahnya belum dikonfirmasi.
+e9977a572f	PPN 12,5% di atas 400.000 XCD per tahun.
+e9d66cc561	Dibatasi di atas kertas: Anda mungkin butuh persetujuan untuk menyimpan mata uang asing.
+f49080869b	Paspor atau kartu identitas.
+b4fb15f73a	Menurut hukum, mata uang asing wajib ditawarkan kepada pedagang valuta berwenang kecuali Direktur Keuangan menyetujui Anda menyimpannya.
+e733e5c502	Menurut hukum, mata uang asing wajib ditawarkan kepada pedagang valuta berwenang kecuali Direktur Keuangan menyetujui Anda menyimpannya. Tanyakan ke bank Anda apakah Anda butuh persetujuan sebelum menyimpan penghasilan di rekening USD (Exchange Control Act pasal 4).
+33f3009617	Nomor PEID, nomor identitas pribadi Anda.
+a4c961c47d	Daftar ke Register Perdagangan (Kantor Kehakiman); langkahnya belum dikonfirmasi.
+e24de67e98	PPN Swiss 8,1%; dibebaskan di bawah omzet dalam negeri 100.000 CHF.
+b941b03f29	Penduduk dikenai pajak atas penghasilan global dan kekayaan bersih.
+ff0bfc8c30	GDPR berlaku melalui EEA.
+3eed32b8af	Identitätskarte (kartu identitas) atau paspor.
+ccc27702a6	Berfungsi dengan Sampath atau Commercial Bank, untuk rekening pribadi.
+e7fdcc56f6	Dibayarkan ke bank Anda dalam LKR.
+3ee9eb3043	Tarik ke dompet eZ Cash.
+3ad5a4df33	Bawa pulang penghasilan luar negeri dalam 180 hari sejak pekerjaan dilakukan.
+79422e712e	Batas pajak 15% hanya berlaku jika dibayar dalam mata uang asing melalui bank.
+80f34b6835	Penerimaan PayPal hanya berfungsi dengan rekening Sampath atau Commercial Bank.
+cfbc46cf5d	Setiap orang berusia 18 tahun ke atas butuh TIN; daftar secara online dengan NIC Anda.
+a9b6b2d2d1	Tidak perlu jika memakai nama Anda sendiri; daftarkan nama dagang dalam 14 hari.
+ffa5546060	PPN 18%, tetapi hanya di atas 60 juta LKR per tahun.
+45cee1adc7	Pajak paling tinggi 15% atas penghasilan mata uang asing yang dibawa pulang melalui bank.
+9571425937	Bawa pulang penghasilan dalam 180 hari; Anda tidak wajib mengonversinya ke rupee.
+01dc673915	Ya: buka Rekening Mata Uang Asing Pribadi (PFCA).
+1f2ad72c5b	PayHere menerima freelancer tanpa pendaftaran usaha; pencairan USD butuh usaha yang terdaftar.
+f1270e340b	Batas pajak 15% atas ekspor jasa, dan tanpa PPN di bawah 60 juta LKR.
+d9443ca001	Aturan perlindungan data mulai berlaku pada 1 Januari 2027.
+4163a97b86	Tidak ada aturan khusus online; berlaku undang-undang konsumen umum dan kontrak elektronik.
+c4d9b570ad	Kartu Identitas Nasional (NIC).
+59660e1bdc	Miliki Rekening Mata Uang Asing Pribadi (PFCA).
+9f0bb9d313	Miliki Rekening Mata Uang Asing Pribadi (PFCA). Hasil ekspor jasa wajib dibawa pulang dalam 180 hari tetapi tidak dikonversi paksa, dan Payoneer bisa ditarik ke dompet eZ Cash.
+bd3876d186	Berdagang tanpa pendaftaran tahunan yang berlaku berisiko didenda.
+05a8b17046	GST menjadi PPN pada 1 Januari 2027; pendaftaran dibuka Juli 2026.
+5bb1f776b0	TIN, diterbitkan saat Anda mendaftarkan usaha.
+f1bd43885b	Daftar di Liberia Business Registry dan perpanjang setiap 12 bulan.
+a344f5466e	GST 13% atas jasa; PPN penuh dimulai Januari 2027.
+4075003ef1	Penghasilan global dikenai pajak: nol hingga 70.000 LRD, sampai 25%.
+b22339f0d1	Kemungkinan bebas; dolar Liberia dan dolar AS sama-sama alat pembayaran sah.
+78cb0bba16	Belum dikonfirmasi, meskipun rekening USD umum dipakai.
+b06c0b31ae	Belum ada undang-undang perlindungan data; sebuah rancangan undang-undang ada di Badan Legislatif.
+61ba12e315	Kartu identitas nasional biometrik.
+700359b25a	TIN dari Revenue Services Lesotho, didaftarkan secara online.
+b4f39455c5	Dapatkan izin pedagang di One-Stop Business Facilitation Centre, diperpanjang setiap tahun.
+f70534476c	Pendaftaran PPN di atas 2 juta maloti (halaman lama menyebut 850.000).
+8507347bf5	Dilaporkan: 20% pada lapisan pertama, lalu 30%, dikurangi kredit pribadi.
+301ecdf20f	Belum dikonfirmasi; kontrol devisa berlaku, dengan loti dipatok terhadap rand.
+dbb37b3c72	Undang-Undang Perlindungan Data berlaku; komisinya belum dibentuk.
+dc3d285b9a	Kode pribadi Lituania Anda.
+574a11a780	Daftarkan kegiatan perorangan gratis secara online ke VMI sebelum faktur pertama Anda.
+16948db0f6	PPN 21%; dibebaskan selama penyerahan dalam negeri tetap di bawah €45.000.
+0ba87e4b9a	Mulai 2026, penghasilan kegiatan perorangan hingga €42.500 dikenai pajak 5–20%.
+7eb6c2ad18	Asmens tapatybės kortelė (kartu identitas) atau paspor.
+010d6cb994	Konsultan, freelancer TI, dan desainer biasanya butuh izin usaha komersial.
+cfa7323ba6	Nomor identifikasi nasional Anda adalah nomor pajak Anda.
+570225de67	Dapatkan izin usaha secara online lewat MyGuichet.lu; sebagian besar freelancer membutuhkannya.
+bb786592d2	PPN 17%; usaha kecil di bawah €50.000 per tahun dibebaskan.
+24302e7dff	Penghasilan global dikenai pajak dengan tarif progresif menurut kelas pajak.
+4683edc5ad	Menjual jasa kepada bisnis di UE bisa mewajibkan nomor PPN sejak penjualan pertama.
+ed89d197bc	TIN dari administrasi pajak; cara mengajukannya belum dikonfirmasi.
+6c60ab527b	Daftar sebagai pekerja mandiri ke VID melalui EDS, dengan memilih rezim umum atau pajak usaha mikro.
+eeebc05860	PPN 21% di atas €50.000; jasa B2B ke UE bisa langsung wajib mendaftar.
+bb55d7fd64	Penghasilan global dikenai pajak 25,5% hingga €105.300, lalu 33%.
+181be65429	Pajak usaha mikro: 25% dari omzet menggantikan pajak penghasilan dan iuran sosial.
+b9fa5cdcd6	Personas apliecība (kartu identitas) atau paspor.
+1474959333	Tidak ada PPN; bea meterai 1% berlaku untuk kontrak.
+fcf524a850	Penghasilan bersumber dari Libya dikenai pajak 5%, dan 10% di atas 12.000 LYD.
+04511a55b4	Dikelola ketat oleh Bank Sentral; aturan untuk penghasilan jasa dari luar negeri tidak ditemukan.
+e44c03709c	Kartu identitas pribadi, diterbitkan bagi penduduk berusia di atas 16 tahun.
+ce45f5f61c	Berfungsi; tarik ke bank di Maroko dalam 30 hari.
+8d833c3a56	Dibayarkan ke bank Anda dalam MAD.
+c94d6adbbf	Berfungsi; uangnya wajib masuk ke bank di Maroko.
+c6ed1a1386	PayPal mewajibkan penarikan ke bank di Maroko dalam 30 hari.
+7bf29ef87e	Lebih dari 80.000 MAD per tahun dari satu klien dikenai pajak 30%.
+acbda82c18	Membiarkan penghasilan di PayPal atau Payoneer pernah dikenai sanksi; bawa pulang dalam 90 hari.
+d84e11cfaa	Nomor identitas pajak (IF) dan ICE, diterbitkan otomatis bagi wirausaha mandiri.
+4c5f38bdc9	Wirausaha mandiri: daftar secara online, validasi di Barid Al-Maghrib; jasa dibatasi hingga 200.000 MAD.
+0b58abddb6	PPN 20%; jasa yang diekspor dibebaskan; wirausaha mandiri tidak memungut PPN.
+6818959ff5	Wirausaha mandiri membayar pajak final 1% dari omzet jasa sebagai pengganti pajak penghasilan.
+e60979893d	Ya, tetapi bawa pulang penghasilan dalam 90 hari dan konversi sebagian besar ke dirham.
+f38e87f448	Ya: simpan hingga 70% penghasilan luar negeri yang dibawa pulang di rekening valuta asing.
+6ad5f14009	CMI mensyaratkan pendaftaran di register perdagangan dan patente; freelancer yang belum terdaftar tidak bisa memakainya.
+1874307f45	Pajak wirausaha mandiri 1%, hak menyimpan 70% mata uang asing, dan jasa ekspor bebas PPN.
+6290095259	Undang-Undang 09-08: beri tahu CNDP sebelum mengumpulkan data pribadi di situs web Anda.
+94bb0b4530	Pembeli boleh membatalkan dalam 7 hari sejak menerima produk.
+e8da4d74d8	Kartu identitas nasional elektronik (CNIE).
+361659df36	Menjual terutama ke luar negeri (lebih dari 25% omzet) bisa memicu pajak laba usaha.
+7126f96663	Monako tidak menerbitkan nomor identifikasi pajak.
+007e92612b	Daftar ke Register Perdagangan dan Industri (RCI); langkahnya belum dikonfirmasi.
+bc8c3a429f	Aturan dan tarif PPN Prancis berlaku (standar 20%).
+c930a19aba	Tidak ada pajak penghasilan pribadi, kecuali bagi warga negara Prancis.
+10ba9f555f	Umumnya tidak perlu: Monako memakai euro.
+4a95095db8	Kartu identitas Monako.
+6c05805781	Dibayarkan ke bank Anda dalam MDL.
+35e560ae39	IDNP, nomor identitas pribadi Anda.
+2fd0ca68cc	Daftar melalui register usaha online Badan Layanan Publik; langkahnya belum dikonfirmasi.
+35628ca7ad	PPN 20% setelah omzet mencapai 1,7 juta MDL dalam 12 bulan.
+8b035c9aaf	Pajak penghasilan tetap 12%; pekerjaan yang dilakukan di Moldova untuk klien asing dikenai pajak.
+151279ecd6	IT Park: pajak tunggal 7% atas omzet, tetapi hanya untuk perusahaan.
+8fdca0b49b	Buletin de identitate (kartu identitas).
+7d7619a5cc	Setelah terdaftar PPN, Anda tidak bisa membatalkan pendaftaran setidaknya selama tiga tahun.
+8b20f66b41	PIB, nomor pajak 8 digit yang diberikan saat Anda mendaftar sebagai pengusaha.
+db6ce795bc	Daftar ke Register Pusat Entitas Usaha (CRPS); langkahnya belum dikonfirmasi.
+d7c855bcc1	PPN 21% di atas €30.000 dalam 12 bulan; ekspor 0%.
+1b9ccaed93	Penduduk dikenai pajak atas penghasilan global; pengusaha punya skala tarif tersendiri.
+26713cf8ee	Umumnya tidak perlu: Montenegro memakai euro.
+cd247b20eb	Lična karta (kartu identitas).
+6af1c6d834	Dibayarkan ke bank Anda dalam MGA.
+81db064099	Freelancer yang menagih ke luar negeri bisa diwajibkan mengonversi 70% penghasilannya.
+50328c27ed	NIF dari DGI, kabarnya gratis dalam 2–3 hari lewat NIFONLINE.
+7a1f96cfa5	Daftarkan usaha perorangan melalui layanan satu pintu EDBM; biayanya belum dikonfirmasi.
+b2e9e67b0c	PPN 20% mulai omzet 400 juta MGA; ekspor 0%.
+d343e396ac	Di bawah omzet 400 juta MGA, pajak sintetisnya 5%, mungkin dipotong 70%.
+e3b36a3749	Ya, tetapi penyedia jasa wajib menjual 70% hasil ekspor dalam 30 hari.
+c57dfc7c7d	Ya: rekening mata uang asing bisa menerima transfer dari luar negeri, dengan batasan.
+299fa7dbc7	Pajak sintetis 5% yang bisa dikurangi adalah penyederhanaan utama.
+2deba2ce82	Ada undang-undang perlindungan data, tetapi belum diterapkan dalam praktik.
+fe9f2682f2	Kartu identitas nasional (CIN).
+72de25b9a9	Tidak ada TIN; wajib pajak memakai nomor pemberi kerja dari jaminan sosial (MISSA).
+c0db0a0781	Tidak ada PPN; berlaku pajak pendapatan bruto dan pajak penjualan daerah.
+2b3118f320	Pajak upah 8–12%; aturan pekerja mandiri dan penghasilan luar negeri belum dikonfirmasi.
+8fa0c9bcbd	Ya, melalui Wise.
+a557699908	Dibayarkan ke bank Anda dalam MKD.
+80374e1836	Nomor pribadi EMBG dan nomor pajak EDB; cara mengajukannya belum dikonfirmasi.
+71e865bfa9	Daftar ke Register Pusat; langkahnya belum dikonfirmasi.
+447cfe7b4f	PPN 18% setelah omzet mencapai 2 juta MKD per tahun.
+c6a27a257c	Pajak penghasilan tetap 10%, ditambah sekitar 28% iuran sosial bagi pengusaha perorangan.
+be3f41d1a3	Ya, dengan bebas; tidak ada batasan hukum atas transfer atau penukaran mata uang.
+2aa75cc7d0	Sangat mungkin, tanpa batasan transaksi mata uang; belum dikonfirmasi untuk perorangan.
+9dca74561c	Лична карта (kartu identitas).
+f5224c84c8	NIF dari administrasi pajak, diterbitkan bersama pendaftaran Anda di API-Mali.
+eb9214c3ed	Daftarkan usaha perorangan di layanan satu pintu API-Mali (RCCM dan NIF).
+2fc86365c3	PPN 18%; pembayar pajak sintetis di bawah 50 juta FCFA tidak memungutnya.
+ebb9f5fae8	Di bawah omzet 50 juta FCFA, pajak sintetis 3%, dibebaskan pada tahun pertama.
+b1a6165e70	Tautan pembayaran Wave dan Orange Money cocok untuk klien lokal dalam CFA, bukan kartu asing.
+1a3f8f5714	Pajak sintetis 3%, dengan tahun kalender pertama Anda dibebaskan.
+4ce6ce18ab	Undang-Undang 2013-015: laporkan pemrosesan data ke APDP.
+ff0f760651	Undang-undang transaksi elektronik 2016-012 ada; aturan pengembalian dana belum dikonfirmasi.
+1663219a3a	Kartu identitas nasional biometrik (standar ECOWAS).
+b72cec2c58	Jual produk digital atau perangkat lunak melalui merchant of record: Dodo Payments. Platform tersebut menjadi penjual yang sah bagi pelanggan Anda, mengurus pembayaran kartu dan PPN atau pajak penjualan konsumen, lalu membayarkan hasilnya kepada Anda. Anda tetap wajib melaporkan pembayaran itu sebagai penghasilan di negara Anda.
+30053a552b	Sanksi dan masuknya dalam daftar FATF membuat bank asing melakukan pemeriksaan tambahan.
+db3e6eda33	Belum dikonfirmasi untuk pengusaha perorangan; usaha perorangan biasanya butuh izin dari pemerintah kota.
+6a18bafa27	Tidak ada PPN; pajak komersial 5% atas jasa di atas 50 juta MMK.
+28ce0559e5	Penghasilan global dikenai pajak 1–25%; pajak atas penghasilan mata uang asing dibayar dalam mata uang itu.
+af7c7e5fb0	Ya, tetapi 15% penghasilan luar negeri wajib dikonversi ke kyat dengan kurs resmi.
+805effc6ba	Sebagian: mata uang asing wajib disimpan di bank lokal, dengan sebagian dikonversi.
+45a8b1a20f	Dompet lokal seperti KBZPay dan Wave Money belum diteliti.
+390f5676bf	Tidak ada undang-undang data pribadi; UU Keamanan Siber 2025 mewajibkan platform menyimpan data pengguna.
+d088611f19	Citizenship Scrutiny Card (kartu identitas kewarganegaraan).
+6e3d2cd095	Dibayarkan ke bank Anda dalam MNT.
+659eeab804	Nomor wajib pajak dan nomor register; cara mengajukannya belum dikonfirmasi.
+2e5aaafbdd	Daftar ke Administrasi Pajak Mongolia; langkahnya belum dikonfirmasi.
+bd3086d611	PPN 10% setelah penjualan mencapai 50 juta MNT dalam 12 bulan.
+c48e0f8e99	Penghasilan global dikenai pajak 10%, 15%, dan 20%.
+729a4e45fe	Kemungkinan ya; tidak ditemukan aturan penyerahan wajib bagi perorangan.
+559f213b92	Ya: bank seperti Golomt menawarkan rekening USD.
+74478cb135	Dompet lokal seperti QPay dan SocialPay belum diteliti.
+a6860e7eac	Undang-Undang Perlindungan Data Pribadi (2021): persetujuan dan pemberitahuan kebocoran.
+ea5d2e517c	Kartu Identitas Warga.
+20fd54cae2	Kabarnya NIF dari layanan satu pintu; belum dikonfirmasi.
+b0ca7ed1a0	Daftarkan usaha perorangan di layanan satu pintu dengan salinan identitas yang dilegalisasi.
+e8a2e52a1f	PPN 16% mulai omzet 3 juta MRU; jasa yang diekspor bertarif nol.
+b5f9c85706	Di bawah omzet 3 juta MRU, bayar 3% dari omzet (rezim forfait).
+a4f97dbbae	Undang-Undang 2017-020 tentang perlindungan data pribadi, dengan otoritas data (APD).
+60da2013e9	Kartu identitas nasional atau paspor.
+852d01a591	Nomor kartu identitas Anda (warga negara Malta); yang lain mendapat nomor pajak 9 digit.
+0449b43d45	Laporkan status pekerja mandiri ke Jobsplus dan daftar PPN sebelum berdagang.
+2fc9978e21	PPN 18%; usaha kecil di bawah sekitar €35.000 (jasa) bisa terdaftar sebagai dibebaskan.
+33b17f6fca	Penghasilan global dikenai pajak: 0% hingga €12.000, naik sampai 35%, ditambah jaminan sosial 15%.
+38c9d03ddd	Pekerjaan mandiri paruh waktu bisa mendapat tarif 10% hingga €12.000.
+8ee2a70024	Karta tal-Identità (kartu identitas) atau paspor.
+98e5d71e0a	Dibayarkan ke bank Anda dalam MUR.
+fbe4e4e046	Konsultan freelance mungkin wajib mendaftar PPN sejak rupee pertama.
+c8d15e2fba	Memproses data pribadi tanpa mendaftar merupakan pelanggaran.
+72426970ff	TAN (Tax Account Number, nomor akun pajak) dari Mauritius Revenue Authority.
+7fbe3e3b7f	Daftar ke CBRD untuk Nomor Registrasi Usaha, lalu ke MRA.
+feea9009c5	PPN 15% di atas 3 juta MUR; konsultan wajib mendaftar berapa pun omzetnya.
+69f1508cd5	Penghasilan yang berasal dari Mauritius dan penghasilan luar negeri yang dikirim pulang dikenai pajak 0–20%.
+33bf53efdc	Ya, dengan bebas; kontrol devisa ditangguhkan pada 1994.
+5a7798d6d0	Sangat mungkin, tanpa kontrol devisa; belum dikonfirmasi.
+5a1cc3b79b	Undang-Undang Perlindungan Data 2017: daftar ke Data Protection Office.
+6414c6c111	Kartu Identitas Nasional.
+d8c3706c1a	Maladewa mengenakan pajak atas perorangan sejak 2020, berbeda dengan yang dikatakan panduan lama.
+3efc5d382d	TIN dari MIRA, mencakup semua pajak yang Anda daftarkan.
+4c12524205	Daftar melalui Portal Bisnis Kementerian Pembangunan Ekonomi; langkahnya belum dikonfirmasi.
+a53740bbec	GST 8% umum, 16% pariwisata, di atas 1 juta MVR; tarifnya mungkin sudah berubah.
+1f9116612e	Penduduk dikenai pajak atas penghasilan global; 0% hingga 720.000 MVR.
+e50a0b0dd7	Panduan lama menyebut 25 juta MWK; ambang PPN menjadi 50 juta MWK sejak April 2026.
+0c86157585	TPIN dari Malawi Revenue Authority.
+3e95921450	Daftarkan usaha perorangan secara online lewat MBRS; biayanya belum dikonfirmasi.
+c481ae69d8	PPN 17,5% di atas 50 juta MWK per tahun sejak April 2026.
+04970ce1eb	Penghasilan bersumber dari Malawi dikenai pajak hingga 35%; pekerjaan yang dilakukan di Malawi kemungkinan ikut dihitung.
+206b8b2287	Kontrol devisa berlaku; eksportir mengonversi 25%, perlakuan bagi freelancer belum dikonfirmasi.
+9ec0ad4836	Rekening mata uang asing (FCDAs) ada; kelayakan perorangan belum dikonfirmasi.
+c601ddb2b5	Undang-Undang Perlindungan Data 2024; hanya pemroses besar (10.000+ orang) yang wajib mendaftar.
+b5aeebfe78	Pembeli boleh membatalkan kontrak online dalam tujuh hari.
+dfd2dc69e3	Kartu identitas nasional (warga negara) atau paspor.
+9805212a0f	Dibayarkan ke bank Anda dalam MXN.
+c983cfa8fe	Tarik dalam peso ke bank di Meksiko.
+fe4ac407a4	Jasa ekspor di luar daftar resmi tetap dikenai IVA 16%.
+ade60986a0	Sebagian besar orang tidak boleh menyimpan dolar di rekening bank Meksiko.
+0e493bba51	RFC; dapatkan secara online dengan CURP Anda jika berusia 18 tahun ke atas.
+d2341a27c3	Tidak perlu perusahaan; daftar di RFC sebagai persona física (orang pribadi).
+66b1dcda9f	IVA (PPN) 16%; hanya jasa ekspor yang tercantum mendapat 0%, yang lain membayar 16%.
+cc8e653c8b	Penghasilan global dikenai pajak; di bawah 3,5 juta MXN per tahun, RESICO hanya mengenakan 1–2,5%.
+d9f3ac9497	Ya, dengan bebas; Meksiko tidak punya kontrol devisa.
+5662863f64	Jarang: rekening dolar terbatas bagi penduduk wilayah perbatasan dan perusahaan.
+02107f3dab	Stripe menerima perorangan dengan RFC pribadi; pencairan masuk ke rekening bank MXN.
+e725f4ea81	Pajak penghasilan RESICO 1–2,5% dan IVA 0% atas jasa ekspor yang memenuhi syarat.
+47fdacdeb6	Undang-undang data baru (Maret 2025): wajib ada pemberitahuan privasi dan persetujuan.
+ee0feacabf	Pembeli boleh membatalkan dalam 5 hari kerja sejak pengiriman (PROFECO).
+7788554edc	Kartu pemilih INE, atau paspor Anda.
+acf417d3f3	Dibayarkan ke bank Anda dalam MYR.
+64f911f6db	Pembebasan penghasilan luar negeri tidak mencakup kerja jarak jauh yang dilakukan dari Malaysia.
+0a152c5020	TIN dari Inland Revenue Board, diterbitkan bagi warga negara berusia 18 tahun ke atas.
+fbb8638fb4	Daftarkan usaha perorangan ke SSM lewat EzBiz: RM30 per tahun atas nama Anda.
+a8cbe39b5f	Tidak ada PPN; pajak jasa 8% hanya berlaku di atas RM500.000 jasa kena pajak.
+b80f639247	Pekerjaan yang dilakukan di Malaysia dikenai pajak 0–30%, bahkan untuk klien asing.
+0ef8d76739	Ya; tanpa konversi paksa, dan Anda bisa menyimpan penghasilan luar negeri dalam mata uang asing.
+b6b3b3a5df	Ya: perorangan bisa membuka rekening mata uang asing dengan bebas.
+3d3f575101	Gateway lokal seperti iPay88 dan Billplz belum diteliti.
+afc23d04c3	Tidak ditemukan insentif pajak khusus freelancer.
+59ca3fa2bd	PDPA 2010 (diubah 2024): tunjuk DPO (petugas perlindungan data) dan laporkan kebocoran data.
+d64a687728	MyKad (kartu identitas nasional).
+871afd2c9e	Dibayarkan ke bank Anda dalam MZN.
+0062735f37	Saat ini separuh penghasilan luar negeri wajib dikonversi ke metical.
+ba59df4ca9	Konsultan membayar 15% di bawah ISPC dan paling lama boleh bertahan 5 tahun.
+13b51a6b0f	NUIT, nomor pajak dari Otoritas Pajak.
+5aee008590	Daftarkan usaha perorangan di layanan satu pintu BAU, biasanya 7–15 hari.
+b9cb1fe3d9	PPN 16%; ambangnya kabarnya 2,5 juta MZN, perlu konfirmasi resmi.
+963d6f637a	Penghasilan global dikenai pajak hingga 32%; wajib pajak kecil di bawah 4 juta MZN bisa memakai ISPC.
+8c81720abb	Ya, tetapi bawa pulang dalam 90 hari dan konversi 50% ke metical.
+86c7775319	Ya, jika Anda punya penghasilan mata uang asing yang terbukti, misalnya ekspor.
+de5ac6c338	Tidak ada insentif freelancer; ISPC dibatasi 5 tahun bagi profesi bebas.
+05d3802855	Belum ada undang-undang perlindungan data umum; rancangan undang-undang diajukan pada 2026.
+d535ba7415	Bilhete de identidade (kartu identitas).
+96b2378183	Dibayarkan ke bank Anda dalam NAD.
+b2fa442332	Hak masa tenang 7 hari yang disebut sejumlah panduan belum berlaku.
+110fb2152e	Halaman lama menyebut N$500.000; ambang PPN sekarang N$1 juta.
+35399e387f	TIN dari NamRA, diterbitkan saat pendaftaran.
+324ebac387	Daftar ke BIPA; langkahnya belum dikonfirmasi.
+99319ab899	PPN 15% di atas N$1 juta dalam periode 12 bulan mana pun.
+3bd5b79056	Penghasilan bersumber dari Namibia dikenai pajak: 0% hingga 100.000 NAD, naik sampai 37%.
+3a5d9e7971	Ya, di bawah kontrol devisa Kawasan Moneter Bersama, melalui bank umum.
+d7b8ddb6ea	Ya: bank menawarkan rekening mata uang asing; kelayakan perorangan belum dikonfirmasi secara terpisah.
+a9a8d7d47f	Belum ada undang-undang perlindungan data; rancangan undang-undang diajukan pada 2025.
+a6f3dfe5f3	Hak konsumen e-commerce ada di atas kertas tetapi belum berlaku.
+0153565c74	NIF, kabarnya diterbitkan bersama pendaftaran Anda di Maison de l'Entreprise.
+50bf158887	Daftar sebagai entreprenant di Maison de l'Entreprise di Niamey, sekitar 72 jam.
+fbee2d0767	PPN 19%; penjualan lewat platform dikenai pajak sejak 2025.
+b898dc0ac0	Di bawah omzet 50 juta FCFA, berlaku pajak sintetis; tidak ada pembebasan bagi usaha baru sejak 2025.
+307421d4c4	Tidak ada libur pajak bagi usaha kecil sejak 2025; rezim sintetis adalah pilihan yang disederhanakan.
+9984c6e4a8	Undang-Undang 2022-59: beri tahu HAPDP, kecuali Anda menunjuk petugas perlindungan data.
+f9fb7ff70a	Undang-undang transaksi elektronik 2019-03 ada; aturan pengembalian dana belum dikonfirmasi.
+9a5c486873	Kartu identitas nasional; kartu biometrik AES diluncurkan sejak 2026.
+b529592d7f	Anda harus menghubungkan bank mitra di Nigeria untuk menerima uang.
+e501286367	Dibayarkan ke bank Anda dalam NGN.
+b0be13427a	Hanya lewat Kuda, untuk usaha yang terdaftar di CAC.
+a60022bf06	Akun Paystack Starter dibatasi ₦8 juta (5.000 USD untuk dolar).
+035ee1ed79	Platform yang membayar melalui PayPal Payouts tidak bisa membayar ke akun Nigeria.
+6167802f08	Semua penghasilan luar negeri Anda dikenai pajak, bahkan jika Anda menyimpannya di luar negeri.
+cfcfbd819a	Setiap orang yang wajib pajak butuh Tax ID (nomor identitas pajak), dan bank akan memintanya.
+683b57b390	Tidak perlu jika memakai nama Anda sendiri; daftarkan nama usaha ke CAC.
+e59f54d12c	PPN 7,5%; jasa yang diekspor bertarif nol.
+b4e892fceb	Penghasilan luar negeri dikenai pajak; ₦800.000 pertama bebas pajak, lalu 15–25%.
+ce44de6608	Ya, ke rekening domisili (USD); tidak perlu persetujuan sebelumnya.
+41a38ef598	Ya: rekening domisili di bank Nigeria.
+0361692219	Paystack memungkinkan Anda mendaftar sebagai Starter Business tanpa pendaftaran CAC.
+797173355a	₦800.000 pertama dari penghasilan bebas pajak; perusahaan kecil membayar pajak badan 0%.
+4b5b0b47d8	Undang-Undang Perlindungan Data Nigeria 2023, ditegakkan oleh NDPC.
+e3302b03d5	Hukum konsumen (FCCPA) mencakup penjual online; keluhan diajukan ke FCCPC.
+14c698df52	Nomor Identifikasi Nasional (NIN); aplikasi pembayaran juga memakai BVN Anda.
+cd031ed597	Pencairan dari situs yang membayar melalui PayPal Payouts (PayPal tidak mencantumkan negara ini); saldo Wise (penduduk tidak boleh menyimpan uang).
+5be32655d5	Terima ke rekening domisili (USD) biasa.
+92f2f854ba	Terima ke rekening domisili (USD) biasa. Menurut Manual Valas CBN yang berlaku sejak 1 Juni 2026, pemilik rekening punya akses tanpa batasan dan tanpa persetujuan sebelumnya.
+198dc8bb01	RUC, nomor 14 digit dari DGI, didaftarkan dengan cédula Anda.
+30b451a85c	PPN 15%; semua pedagang wajib mendaftar, tanpa ambang yang disebutkan.
+e581286aed	Hanya penghasilan bersumber dari Nikaragua yang dikenai pajak, dengan tarif hingga 30%.
+d4e68c460c	Rezim kuota bulanan tetap untuk penghasilan hingga C$480.000 per tahun (angka lama).
+4a0ead8e01	Daftar KOR paling lambat empat minggu sebelum periode pelaporan dimulai.
+9570d36d7a	Nomor pajak yang diberikan saat lahir atau saat Anda mendaftar ke pemerintah kota.
+e98fdc8138	Daftarkan eenmanszaak (usaha perorangan) ke KVK secara online dengan DigiD, lalu datangi kantor KVK.
+19fb661619	PPN 21%; pembebasan KOR opsional hingga omzet €20.000 per tahun.
+a350ccff28	Penghasilan global dikenai pajak dengan tarif progresif Box 1.
+a3cf4b660a	KOR: tidak ada PPN yang dipungut atau dikreditkan di bawah €20.000 per tahun.
+8c063803cc	Dibayarkan ke bank Anda dalam NOK.
+55e153c220	Nomor identitas nasional, atau nomor D bagi warga asing.
+1a7e42c6e1	Daftarkan enkeltpersonforetak (usaha perorangan) Anda ke Brønnøysund lewat Altinn untuk mendapat nomor organisasi.
+17dcedaf20	PPN 25% setelah penyerahan melampaui 50.000 NOK dalam 12 bulan.
+67523a6dbc	Penghasilan global dikenai pajak, ditambah jaminan sosial 10,8% atas penghasilan usaha.
+7655f76257	Ya: sebagian bank menawarkan rekening valuta (valutakonto) kepada nasabah pribadi.
+4ab60c787f	GDPR berlaku melalui EEA, diawasi oleh Datatilsynet.
+6adc27dd2b	ID-kort (kartu identitas), SIM, atau paspor.
+76e80c7995	Anda bisa membuka akun, tetapi tidak bisa menerima pembayaran.
+432a6bc294	Laporan-laporan saling bertentangan; tidak dikonfirmasi di halaman Payoneer mana pun.
+3f1aa23f55	Saldo kartu di atas USD 10.000 wajib dipindahkan ke rekening bank Anda.
+50742b76f7	Dukungan Payoneer untuk Nepal tidak dikonfirmasi di halaman Payoneer mana pun.
+ca8deddd87	Penjual online yang tidak terdaftar menghadapi denda hingga Rs 200.000.
+51b3f658e3	PAN dari Inland Revenue Department, tanpa biaya.
+f782a9e709	Freelancer bisa memakai PAN Pribadi; penjual online juga wajib mendaftar di portal DoCSCP.
+564c06b5e1	PPN 13%; jasa untuk klien di luar negeri bertarif nol.
+a6b5ceb748	Penghasilan luar negeri dari perangkat lunak, konsultasi, atau konten: pajak 5% dipungut oleh bank.
+a6d8b39752	Ya, melalui saluran berizin NRB seperti kartu prabayar mata uang asing dari bank.
+ed4f59b239	Ya, bagi penerima penghasilan mata uang asing: bank membuka rekening mata uang asing yang dapat dikonversi.
+0bf2d08814	Khalti mewajibkan usaha terdaftar dan PAN/PPN; perorangan tidak bisa menjadi merchant.
+bc097e240e	Pajak 5% atas penghasilan luar negeri, dan potongan 50% pajak penghasilan bagi eksportir jasa TI.
+b8b2ba8cbc	Individual Privacy Act 2075 berlaku; tidak ada otoritas perlindungan data.
+dfee062140	E-Commerce Act 2081: tampilkan PAN, alamat, dan prosedur pengaduan Anda.
+3a82d6d1ef	Sertifikat kewarganegaraan.
+325a8d6bac	Nepal Rastra Bank mengizinkan eksportir jasa online menerima penghasilan di kartu prabayar mata uang asing dari bank berizin, dan atas permintaan memindahkannya ke rekening lokal atau rekening mata uang asing milik mereka sendiri.
+f3fc9718b4	TIN dari Nauru Revenue Office; cara mengajukannya belum dikonfirmasi.
+b63c716625	Tidak ada PPN atau GST.
+fb03173212	Tidak ada laporan pajak penghasilan pribadi.
+859559d2fb	Rekening lokal dalam dolar Australia, mata uang resmi.
+a46b6a1739	Tidak ada kartu identitas nasional; paspor yang dipakai.
+a061ac65c8	Dibayarkan ke bank Anda dalam NZD.
+6a090edf93	Jangan pungut GST sebelum Anda punya nomor GST.
+2b2a1d947c	Nomor IRD dari Inland Revenue.
+f14711b5c3	Tidak perlu pendaftaran; nomor IRD Anda adalah identitas usaha Anda.
+ec9755e55b	GST 15% setelah omzet mencapai NZD 60.000 dalam 12 bulan.
+7550f3c0f2	Penghasilan global dikenai pajak dari 10,5% hingga 39% di atas NZD 180.000.
+62b5edea08	Ya: bank seperti ANZ menawarkan rekening mata uang asing pribadi.
+58cfb7c00d	Privacy Act 2020 berlaku.
+20509d6add	Dibayarkan ke bank Anda dalam OMR.
+75e79e8872	Mulai 2028, penduduk membayar 5% atas penghasilan global di atas OMR 42.000.
+102ce287ad	Tidak ada pajak pribadi, jadi TIN hanya untuk usaha (PPN, pajak badan).
+46455f1644	Daftar ke Kementerian Perdagangan (MOCIIP); langkahnya belum dikonfirmasi.
+e1eef0c6ad	PPN 5% di atas omzet OMR 38.500 per tahun.
+2ec9c4fc73	Tidak ada pajak penghasilan pribadi hingga 2028; setelah itu 5% di atas OMR 42.000.
+6efb0fd1fb	Ya, dengan bebas; rial dapat dikonversi dan modal bergerak tanpa batasan.
+6a3ae04f64	Ya: bank menawarkan rekening pribadi dalam USD, GBP, EUR, dan lainnya.
+5e84d062d5	Belum dikonfirmasi apakah pekerjaan yang dilakukan di Panama untuk klien asing bebas pajak.
+dbca7cea4b	RUC, nomor registrasi tunggal wajib pajak.
+3244e62484	Daftar ke MICI dan DGI; langkahnya belum dikonfirmasi.
+021db37f83	ITBMS (PPN) 7% di atas USD 36.000 per tahun.
+4ed657540c	Hanya penghasilan bersumber dari Panama yang dikenai pajak: 0% hingga USD 11.000, lalu 15–25%.
+5acbb835f0	Rekening lokal praktis dalam dolar AS, alat pembayaran sah Panama.
+c0ec06b7ae	Dibayarkan ke bank Anda dalam PEN.
+ab242d208d	Bank bisa menutup rekening pribadi yang dipakai untuk arus dana usaha; pertimbangkan rekening usaha.
+346daefca3	Penghasilan profesional freelance biasanya tidak bisa memakai Nuevo RUS.
+9455edcdb0	RUC, nomor Registrasi Tunggal Wajib Pajak dari SUNAT.
+570e242a2e	Daftar di RUC ke SUNAT, secara online dengan DNI Anda melalui App Personas.
+4b59810caf	IGV (PPN) 18%; aturan ekspor untuk jasa belum dikonfirmasi.
+c439e5c061	Penghasilan global dikenai pajak dengan skala lapisan mulai 8%.
+3ea9b2bfe0	Ya: rekening dolar sudah umum, misalnya BCP tanpa saldo minimum.
+bd5644f9e7	Nuevo RUS: kuota bulanan tetap mulai S/ 20 untuk usaha kecil.
+8fd3ea76f0	DNI, diterbitkan oleh RENIEC.
+e0c1e6f4d3	Kelangkaan mata uang asing dapat menunda konversi dan pengiriman uang ke luar negeri.
+fd608d0b09	TIN dari Internal Revenue Commission; bank memintanya untuk membuka rekening.
+c4d1358976	PPN 10%; ekspor bertarif nol; ambangnya belum dikonfirmasi.
+9012ef027a	Penduduk dikenai pajak atas penghasilan global; lapisan yang dilaporkan 22–42%.
+efd45e5e3d	Dibatasi: dana yang disimpan di PNG wajib dalam kina; transfer ke luar negeri bisa lambat.
+1fb472d31e	Kartu identitas nasional (e-ID sejak 2015).
+15a7123eb0	Dibayarkan ke bank Anda dalam PHP.
+a2fe0d0926	Tarik ke bank Filipina mana pun atas nama Anda.
+3e29ae354d	Semua penjual online wajib mendaftar ke BIR, berapa pun skala usahanya.
+b11be4826e	Pilih opsi 8% saat pendaftaran atau pada SPT kuartal pertama Anda.
+f43da22f4a	TIN dari BIR, diterbitkan saat Anda mendaftar dengan Formulir 1901.
+64ee1eee15	Daftar ke BIR (Formulir 1901, online lewat ORUS); DTI hanya untuk nama usaha.
+940d504ec8	PPN hanya di atas ₱3 juta per tahun; jasa yang dibayar dalam mata uang asing bertarif nol.
+5dc161ec5c	Penghasilan global dikenai pajak; di bawah penjualan ₱3 juta, pilih 8% atas penerimaan di atas ₱250.000.
+f03728f837	Ya, dengan bebas; Anda tidak pernah wajib mengonversi penghasilan luar negeri ke peso.
+7351e57684	Ya: bank menawarkan rekening deposito mata uang asing (FCDU).
+d0503c398a	PayMongo menerima penjual tak terdaftar hanya untuk QR Ph; kartu dan GCash memerlukan pendaftaran DTI.
+4f3838e4c0	Opsi pajak flat 8%, dan PPN nol atas jasa dalam mata uang asing.
+232f021a59	Data Privacy Act 2012, ditegakkan oleh National Privacy Commission.
+ff15ab55bb	Internet Transactions Act 2023 mencakup penjual online; DTI mengelola E-Commerce Bureau.
+95e45fc8b1	PhilID (kartu identitas nasional), atau versi digitalnya, ePhilID.
+8f73088651	Penduduk boleh menyimpan penghasilan mata uang asing di rekening FCDU (BSP FX Manual), dan Wise maupun Payoneer tersedia.
+a0b09e2202	Akun perorangan diperbolehkan; tidak perlu usaha terdaftar.
+b8fcc1b6db	Dibayarkan ke bank Anda dalam PKR.
+1a95eb7181	Pajak ekspor yang rendah dihitung sebagai final hanya jika Anda menyampaikan SPT.
+42cafbd69a	Daftar ke PSEB untuk membayar 0,25%, bukan 1%, atas penghasilan ekspor.
+4d3d48d74e	Anda tidak bisa menarik uang tunai mata uang asing di dalam Pakistan.
+f18c9b5263	NTN Anda adalah nomor CNIC Anda; daftar gratis secara online di FBR Iris.
+a56abfdc58	Tidak perlu pendaftaran usaha; cukup daftar ke FBR untuk mendapat NTN.
+7f1a6f599b	Jasa dikenai pajak oleh provinsi; Sindh membebaskan jasa TI yang diekspor.
+5bec7bf909	Penghasilan ekspor: pajak final 0,25% jika terdaftar di PSEB, selain itu 1%.
+59975a72a6	Ya; simpan USD 5.000 per bulan atau separuh penghasilan Anda dalam mata uang asing.
+06cda7e9cb	Ya: bank membuka rekening dolar ekspor (ESFCA) di samping rekening rupee Anda.
+e3fc024db1	Gateway lokal seperti Safepay dan PayFast meminta NTN dan rekening bank usaha.
+712c099447	Daftar ke PSEB (Rs 1.000 per tahun) untuk menurunkan pajak ekspor menjadi 0,25%.
+bbf3afe6cb	Belum ada undang-undang perlindungan data yang berlaku; hukum klien Anda (seperti GDPR) tetap penting.
+876d091366	Kontrak online sah secara hukum; perlindungan konsumen sebagian besar diatur provinsi.
+e0d7f8f780	Computerised National Identity Card (CNIC, kartu identitas nasional).
+61d649447f	State Bank of Pakistan mengizinkan freelancer menerima hasil ekspor dengan pernyataan sendiri jika tidak ada kontrak.
+092ebd225b	State Bank of Pakistan mengizinkan freelancer menerima hasil ekspor dengan pernyataan sendiri jika tidak ada kontrak. Bank wajib membuka Exporters' Special Foreign Currency Account (ESFCA) di samping rekening PKR Anda. Payoneer menawarkan jenis akun 'Individual'.
+28100d3d3c	Dibayarkan ke bank Anda dalam PLN.
+8e9726b5aa	Tarif ryczałt Anda bergantung pada kode jasa yang tepat; kesalahan sering terjadi.
+395b030bff	PESEL, jika Anda tidak menjalankan usaha atau membayar PPN.
+4592c3727a	Daftarkan usaha perorangan (JDG) secara online lewat CEIDG, biasanya dalam sehari.
+7a624dc0ff	PPN 23%; dibebaskan di bawah PLN 240.000 per tahun mulai 2026.
+692ac86b08	Penghasilan global dikenai pajak 12% hingga PLN 120.000, lalu 32%.
+855cb56169	Ya: bank seperti PKO BP menawarkan rekening dalam banyak mata uang asing.
+955534de54	Pajak ryczałt (lump sum; 12% untuk TI) dan iuran ZUS yang lebih rendah bagi usaha baru.
+15afe11958	Dowód osobisty (kartu identitas) atau paspor.
+cc41442bfe	Pendaftaran jaminan sosial tidak otomatis; lakukan di Segurança Social Direta.
+eec12fb0a0	Melewati €18.750 dalam setahun berarti memungut PPN mulai faktur tersebut.
+db779d7a2c	NIF, dari Otoritas Pajak dan Bea Cukai, diperlukan sebelum membuka kegiatan usaha.
+95fae9713a	Buka kegiatan usaha di Finanças memakai NIF Anda, lalu daftar ke jaminan sosial secara terpisah.
+958d78a049	PPN 23%; dibebaskan jika omzet tahun lalu di bawah €15.000.
+0b8e60c769	Penghasilan global dikenai pajak 12,5–48%, ditambah jaminan sosial 21,4% atas 70% penghasilan jasa.
+6d823a2b8c	Ya, tetapi syaratnya berbeda antarbank; periksa rekening mata uang di tiap bank.
+b39de99315	Tidak ada PPN di bawah €15.000, dan tidak ada iuran jaminan sosial selama 12 bulan pertama Anda.
+f8b06f66a6	Cartão de Cidadão (kartu warga negara) atau paspor.
+3021d327c7	Daftar ke Bureau of Revenue and Taxation; langkahnya belum dikonfirmasi.
+b4684013af	PGST 10% di atas USD 300.000 per tahun.
+b835382665	Pajak upah 6–12%; pajak pendapatan bruto usaha belum dikonfirmasi.
+963d2033ed	Warga negara memakai paspor atau SIM.
+0b58117afc	Dibayarkan ke bank Anda dalam PYG.
+e670b28444	Jasa untuk klien Paraguay dikenai pajak; pastikan perlakuan penghasilan luar negeri ke SET.
+80016ba3fe	Daftar RUC ke DNIT, secara online untuk perorangan.
+250203926d	PPN 10%; wajib pajak RESIMPLE berada di luar PPN.
+4371eef503	Hanya penghasilan bersumber dari Paraguay yang dikenai pajak; penghasilan murni dari klien asing mungkin terutang 0%.
+b1b6205aea	Ya: bank beroperasi dalam mata uang lokal maupun asing.
+b2413b8691	RESIMPLE: pembayaran kuartalan tetap untuk tagihan tahunan hingga PYG 80 juta.
+9dc256c150	Cédula de identidad civil (kartu identitas nasional).
+e340a1603e	Dibayarkan ke bank Anda dalam QAR.
+960e2ab307	TIN dari General Tax Authority; cara mengajukannya belum dikonfirmasi.
+cd8c0abe3f	Belum ada PPN; tarif 5% diperkirakan akan diberlakukan.
+a4177f1092	Hanya penghasilan bersumber dari Qatar yang dikenai pajak; penghasilan usaha pekerja mandiri bisa dikenai 10%.
+76b9478e6a	Kemungkinan bebas; riyal dipatok ke USD dan tidak ada laporan kontrol devisa.
+922f2376e1	Ya: bank seperti QNB menawarkan rekening lokal dalam mata uang asing tertentu.
+76100bd4f7	Undang-Undang No. 13 Tahun 2016 tentang Perlindungan Data Pribadi.
+533dd2c293	Qatari ID Card (kartu identitas Qatar).
+d7ed4fdb82	Dibayarkan ke bank Anda dalam RON.
+064cdbf23a	Berpenghasilan di atas €25.000 memindahkan Anda ke pajak penghasilan riil pada tahun berikutnya.
+07bd6f7a50	Iuran pensiun CAS terutang setelah penghasilan bersih mencapai 48.600 lei.
+c311ba9429	CNP (kode pribadi) Anda adalah identitas pajak Anda.
+424a087904	Daftarkan PFA di register perdagangan (ONRC), online atau langsung, sebelum mulai.
+1720330c1f	PPN 21%; dibebaskan di bawah 395.000 lei, dan jasa B2B ke luar negeri tidak dihitung.
+82b5ae4bc0	PFA: pajak penghasilan 10%, ditambah iuran pensiun (CAS) dan kesehatan (CASS) di atas ambang tertentu.
+a24df9ff5e	Ya: bank seperti BCR membuka rekening giro mata uang asing untuk perorangan.
+97e17a15b8	Norma penghasilan: pajak 10% atas jumlah tetap, jika penerimaan tetap di bawah €25.000.
+bce0ea3dbd	Carte de identitate (kartu identitas) atau paspor.
+c87e675345	Dibayarkan ke bank Anda dalam RSD.
+df34658b08	Bekerja untuk satu klien bisa membuat Anda gagal dalam uji independensi dan menaikkan pajak Anda.
+cdc0d20e97	Freelancer yang tidak terdaftar wajib melapor dalam 30 hari setelah setiap kuartal.
+75e0cf42cf	JMBG untuk perorangan; pengusaha mendapat PIB 9 digit.
+00350bb024	Daftar sebagai pengusaha di APR secara online; pajak dan jaminan sosial terhubung otomatis.
+84f155026a	PPN 20% di atas RSD 8 juta dalam 12 bulan.
+de60ced49c	Freelancer tak terdaftar yang dibayar dari luar negeri menghitung pajaknya sendiri tiap kuartal; pengusaha bisa memakai paušal.
+3adaf34022	Ya: bank menawarkan rekening mata uang asing (devizni) kepada perorangan.
+590205882d	Paušal: pajak dan iuran bulanan tetap, hingga RSD 6 juta per tahun.
+cd7e1b567f	INN, nomor identifikasi wajib pajak Anda.
+9847a3da07	Daftar sebagai pekerja mandiri (NPD) di aplikasi "Мой налог" dalam hitungan menit.
+6e32177504	PPN 22% mulai 2026; usaha rezim sederhana di bawah 20 juta rubel dibebaskan.
+a3a76baa9d	Progresif 13–22% atas penghasilan sejak 2025; banyak freelancer memakai NPD sebagai gantinya.
+ca6c98f9af	Dibatasi oleh sanksi; sebagian besar platform Barat tidak melayani Rusia.
+4004bae1f2	Pekerja mandiri NPD: 4% dari perorangan, 6% dari perusahaan, hingga 2,4 juta rubel.
+aa7606c333	Paspor internal Rusia.
+3cfa616743	Tarik ke bank di Rwanda.
+c0950fd569	Dibayarkan ke bank Anda dalam RWF.
+88e24c4771	Mencantumkan harga dalam mata uang asing kepada pelanggan Rwanda bisa berujung denda berat.
+70db3ec17f	Usaha online menghadapi kewajiban pengungkapan baru berdasarkan Undang-Undang 011/2026.
+cef747d808	TIN dari Rwanda Revenue Authority, diterbitkan otomatis bersama pendaftaran di RDB.
+1a685dd4ec	Daftarkan usaha perorangan secara gratis dan instan online di RDB, dengan TIN otomatis.
+081b309827	PPN 18% di atas RWF 20 juta per tahun; ekspor bertarif nol.
+5995ac2e98	Penghasilan global dikenai pajak 0–30%; omzet di bawah RWF 2 juta dibebaskan.
+34deeacd04	Ya, melalui saluran resmi; mencantumkan harga dalam mata uang asing kepada warga Rwanda dilarang.
+abc526725e	Ya: rekening mata uang asing berizin diperbolehkan.
+0fe52c6259	IremboPay dan Paystack memerlukan pendaftaran usaha di RDB dan TIN.
+8978ac6bd8	Tidak ada pajak penghasilan di bawah RWF 2 juta; pajak flat sederhana atau 3% hingga RWF 20 juta.
+798e04c541	Undang-Undang 058/2021: daftar ke National Cyber Security Authority sebagai pengendali data.
+24e0a30a39	Pembeli boleh membatalkan pembelian online dalam 7 hari (Undang-Undang 011/2026).
+bca06e2ae5	Dibayarkan ke bank Anda dalam SAR.
+6c932318dc	Penghasilan usaha freelance tidak serta-merta bebas pajak; berlaku zakat atau pajak 20%.
+33a0ef2194	Ekspatriat tidak bisa memakai lisensi freelance.
+e0b223288f	TIN dari General Authority for Zakat and Tax (GAZT).
+976fb8c7bd	Warga negara Saudi bisa mendapat lisensi freelance secara online; ekspatriat memerlukan registrasi komersial.
+78a632e2c7	PPN 15% di atas SAR 375.000 per tahun; jasa yang diekspor bertarif nol.
+2c8ff3e32f	Tidak ada pajak penghasilan pribadi, tetapi penghasilan usaha dikenai zakat (warga Saudi) atau pajak 20% (lainnya).
+8711c07c75	Ya, dengan bebas; tidak ada batasan atas dana masuk maupun keluar.
+5befb29aea	Ya: bank membuka rekening dalam mata uang asing apa pun yang tersedia.
+ef62b3610a	Gateway lokal seperti Moyasar, HyperPay, dan Tap belum diteliti.
+eea16e52cc	Lisensi freelance bagi warga negara Saudi.
+fccc110dd9	Personal Data Protection Law, berlaku sejak 2023, diatur oleh SDAIA.
+476deb4b0b	Pembeli online boleh mengembalikan barang yang belum dipakai dalam 7 hari.
+fa88bc3761	Belum ada PPN; berlaku pajak barang; PPN 15% sedang disiapkan.
+b84acc9d20	Lapisan yang dilaporkan mulai 0% hingga SBD 15.000, naik sampai 40%.
+823ddc46e4	Kartu identitas pemilih opsional, diterbitkan atas permintaan.
+e3e3a47828	TIN dari Seychelles Revenue Commission saat Anda mendaftar.
+1a288250ed	Daftar ke Registrar of Businesses dan dapatkan lisensi; memerlukan NIN.
+987b4413ab	PPN 15% di atas SCR 2 juta; sukarela mulai SCR 100.000.
+ed0d5c22c8	Di bawah omzet SCR 1 juta, pajak presumtif flat 1,5% atas omzet.
+3ecc8cb850	Kemungkinan ya; kontrol devisa kabarnya dihapus pada 2009.
+371966f648	Kemungkinan ya; penduduk kabarnya boleh menyimpan mata uang asing dengan bebas.
+4859eb6509	Pajak presumtif 1,5% di bawah SCR 1 juta adalah penyederhanaan utama.
+9746f884a0	Data Protection Act 2023, ditegakkan oleh Information Commission.
+84220f5c6d	Kartu identitas nasional (NIN) atau paspor.
+9fa0963b79	Jangan memakai saluran informal untuk menghindari aturan mata uang.
+bc8a41a0e2	Daftarkan nama usaha dengan formulir yang dinotariskan; prosedur masa perang belum dikonfirmasi.
+00ccb3e506	PPN kabarnya 17%; ambang dan aturan ekspor belum dikonfirmasi.
+deb237a255	Tarif tertinggi pajak penghasilan pribadi kabarnya 15%; aturan lain tidak ditemukan.
+d087ba8217	Belum dikonfirmasi; konflik dan selisih besar antara kurs resmi dan kurs pasar paralel mengganggu perbankan.
+6773afa573	Tidak ada undang-undang perlindungan data umum; Konstitusi melindungi privasi.
+0bc203fce4	Dibayarkan ke bank Anda dalam SEK.
+5d39ec4ea9	Personnummer, atau nomor koordinasi jika Anda tidak tercatat di register kependudukan.
+2c28cb4206	Daftar ke Skatteverket dan ajukan F-tax lewat verksamt.se, gratis.
+d0ecc9dd0d	PPN 25%; dibebaskan selama omzet tetap di bawah SEK 120.000 per tahun.
+d9a1098492	Penghasilan global dikenai pajak: sekitar 32% pajak kota, ditambah 20% pajak nasional di atas SEK 643.000.
+a9a584242c	Nationellt ID-kort (kartu identitas nasional) atau paspor.
+54164d104c	Dibayarkan ke bank Anda dalam SGD.
+1c7f12b55e	Pastikan iuran MediSave tidak tertunggak, jika tidak ACRA tidak akan memperpanjang pendaftaran Anda.
+3a82089d23	Pembebasan penghasilan luar negeri tidak mencakup pekerjaan freelance yang dilakukan di Singapura.
+13b9cdc639	NRIC atau FIN untuk perorangan; usaha memakai UEN dari ACRA.
+0af67dc7e2	Daftarkan usaha perorangan ke ACRA lewat BizFile+ ($100 per tahun).
+e1ed55a55b	GST 9% di atas S$1 juta per tahun; banyak jasa ke luar negeri bertarif nol.
+2e8abf80e8	Usaha yang dijalankan di Singapura dikenai pajak 0–24%, bahkan untuk klien asing.
+2fc9655e46	Ya, dengan bebas; Singapura tidak punya kontrol devisa.
+c3f905b90a	Ya: simpan rekening mata uang asing di Singapura maupun di luar negeri.
+c93f9e7fc9	Gateway lokal seperti HitPay dan PayNow QR belum diteliti.
+2e2cb5ad22	PDPA: tunjuk petugas perlindungan data; denda hingga S$1 juta.
+a065014134	Tidak ada masa tenang umum untuk pembelian online; pengembalian mengikuti kebijakan penjual.
+87027eb708	NRIC, SIM, atau paspor.
+feb500f85e	Batas tarif flat untuk 2026 bergantung pada referendum yang belum digelar; periksa FURS.
+b204e15c46	Nomor pajak Slovenia (TIN) dari Administrasi Keuangan.
+8ce2e75e61	Daftar sebagai samostojni podjetnik (s.p., usaha perorangan) secara online lewat SPOT.
+57e5217236	PPN 22% di atas omzet €60.000 per tahun.
+70c413f823	Penghasilan global dikenai pajak dalam lima lapisan mulai 16%.
+b6e3aaecac	Normirani s.p.: biaya yang dianggap 80% atas pendapatan hingga €60.000.
+45a9562949	Osebna izkaznica (kartu identitas) atau paspor.
+cf4e58e7b7	Iuran asuransi kesehatan dimulai sejak hari pertama usaha Anda.
+144a7ee986	TIN dari Administrasi Keuangan saat Anda mendaftarkan usaha.
+5fb8f0456d	Dapatkan izin usaha (živnosť), gratis secara online lewat slovensko.sk untuk usaha bebas.
+d1f0333bc9	PPN 23% setelah omzet melampaui €50.000 per tahun.
+7f7e48cc76	Kurangkan biaya flat 60% (hingga €20.000) dan bayar 15% hingga €100.000.
+38e2bf4cef	Občiansky preukaz (kartu identitas) atau paspor.
+97d7ca9dad	TIN dari National Revenue Authority, memakai Nomor Identifikasi Nasional Anda.
+d2e9f4a89b	Daftar ke Office of the Administrator and Registrar General (OARG), sebagian besar secara langsung.
+a67f518682	GST 15%; ambang domestik dan aturan ekspor belum dikonfirmasi.
+2a39a724ee	Belum dikonfirmasi; pengusaha perorangan kabarnya membayar 15–30% atas laba.
+ff3dbcd976	Mungkin, tetapi mata uang asing langka dan kurs resmi berbeda dari kurs pasar.
+69aa0101a1	Ya, tetapi mengeluarkan dolar bisa lambat saat cadangan devisa menipis.
+afbd2348a7	Belum ada undang-undang perlindungan data; rancangan undang-undang sedang diproses.
+3996d019c7	Kartu identitas nasional atau paspor.
+3ba75c5f66	Nomor jaminan sosial (SSI) untuk perorangan.
+d94352abca	Daftar melalui Kamar Dagang; langkahnya belum dikonfirmasi.
+b0f7dc1e6d	Pajak penghasilan progresif yang dilaporkan dari 12% hingga 35%.
+dae9d0f733	Umumnya tidak perlu: San Marino memakai euro.
+1a6171e5e0	Kartu identitas San Marino.
+920612a280	Tarik dalam franc CFA ke bank di Senegal.
+f173ad9be1	Secara resmi berfungsi, tetapi penarikan lokal lambat dan mahal.
+6006e6d852	Banyak jasa intelektual freelance tergolong BNC dan tidak bisa memakai CGU.
+42cc0d5cb2	Penarikan PayPal ke bank lokal terbatas dan biayanya tinggi.
+094c984fc1	NINEA, diterbitkan oleh administrasi pajak sebelum Anda mulai.
+246052a877	Daftar sebagai entreprenant di RCCM dan dapatkan NINEA sebelum mulai.
+d6bcfcfd41	PPN 18%; jasa yang dikenai pajak di luar Senegal tidak kena pajak di sana.
+d614b5ef59	Penghasilan global dikenai pajak 0–43%; rezim sederhana CGU tidak mencakup banyak jasa freelance.
+a09a995c95	PayDunya menawarkan penagihan lewat uang seluler dan kartu; kelayakan perorangan belum dikonfirmasi.
+4fee5321d5	Status entreprenant dan pajak sederhana CGU untuk kegiatan non-BNC.
+df9c2a49d9	Undang-Undang 2008-12: laporkan pemrosesan data pribadi ke CDP.
+848be8ebbb	Undang-undang transaksi elektronik 2008-08 menetapkan kewajiban pengungkapan bagi penjual; masa tenang belum dikonfirmasi.
+584fbbd2db	Kartu identitas biometrik ECOWAS.
+a66eefa3e2	Daftar secara online di sistem pendaftaran usaha federal, sekitar empat hari.
+45595c6e74	Tidak ada PPN; tarif pajak penjualan saling bertentangan (5% atau 10%).
+946286cfac	Ekonomi berbasis dolar; gunakan bank atau operator transfer berizin, bukan hawala informal.
+eb7bcc9523	Sangat mungkin: perbankan dan uang seluler berjalan dalam dolar AS; belum dikonfirmasi.
+94c22eed82	Uang seluler (seperti EVC Plus) mendominasi; belum ada gateway merchant online yang dikonfirmasi.
+f7bd2eaac6	Data Protection Act 2023; pengendali data besar wajib mendaftar.
+ed66f78dd1	Kartu identitas nasional (Warqadda Aqoonsiga).
+e26e8978e2	Daftar ke Kamar Dagang (KKF); langkahnya belum dikonfirmasi.
+e734bd1c12	PPN 10% di atas omzet SRD 1 juta; ekspor mendapat tarif lebih rendah atau nol.
+eb2691e178	Penduduk dikenai pajak atas penghasilan global; lapisan yang dilaporkan hingga 38%.
+1f50fd6031	Identiteitskaart (kartu identitas nasional).
+39ada3c5d2	Tarif lapisan Anda berlaku untuk seluruh penghasilan kena pajak Anda, bukan hanya kelebihannya.
+849a7395d2	Belum dikonfirmasi; pajak dikelola oleh South Sudan Revenue Authority.
+6e6436a5cd	Daftar melalui platform online Kementerian Kehakiman; persyaratannya belum dikonfirmasi.
+fe70430a11	Belum ada PPN; pajak penjualan berlaku untuk jasa tertentu, bukan pekerjaan freelance yang disebutkan.
+dc7e08f30f	Warga negara dikenai pajak atas penghasilan global, 0–20%, dengan tarif lapisan untuk seluruh penghasilan.
+4547d0f8e8	Belum dikonfirmasi; penggunaan dolar dibatasi dan transfer besar memerlukan persetujuan bank sentral.
+662222a01b	Belum dikonfirmasi; transaksi dolar kabarnya dibatasi.
+f9aeb47aee	Belum ada undang-undang perlindungan data; rancangan undang-undang diperkirakan pada 2026.
+a6222342dc	Kartu identitas nasional.
+551aaa71be	Nomor pajak yang diterbitkan oleh Guiché Único saat pendaftaran.
+d5230fa8d1	Daftar di layanan satu pintu Guiché Único, sebagian besar secara langsung.
+ec31b54f48	PPN 15% sejak Juni 2023; usaha kecil punya rezim khusus dengan tarif lebih rendah.
+f4e268ab2d	Kemungkinan ya, melalui bank yang diberi izin oleh Bank Sentral.
+74a66ac925	NIT, NRC, dan DUI; cara mendapatkannya belum dikonfirmasi.
+63de9358d9	PPN 13%; pendaftaran umumnya wajib, tanpa ambang yang disebutkan.
+135ea62297	Hanya penghasilan bersumber dari El Salvador yang dikenai pajak: 0% hingga USD 6.600, lalu 10–30%.
+fccf7ecd3a	Rekening lokal dalam dolar AS sejak 2001.
+39b9212eaf	DUI (Documento Único de Identidad, kartu identitas).
+29c25dd5d6	Dukungan platform berubah cepat seiring pencabutan sanksi; periksa langsung setiap layanan.
+96dafae7e9	Sanksi sedang dicabut, tetapi hubungan bank dan dukungan platform masih terbatas.
+556b129209	Belum dikonfirmasi; daftar pajak ke Eswatini Revenue Service.
+2866a6f51d	Pesan nama ke Registrar of Companies, lalu dapatkan TIN dari ERS.
+ccbfa19075	PPN 15% di atas E500.000 per tahun.
+be8df52184	Penghasilan bersumber dari Eswatini dikenai pajak, mulai 20%; perlakuan kerja jarak jauh belum dikonfirmasi.
+41abdd9fba	Kontrol devisa berlaku; transaksi melalui bank berizin. Aturan rincinya belum dikonfirmasi.
+6a8632311c	Data Protection Act 2022, dengan denda dan kewajiban pemberitahuan kebocoran.
+06c5031e42	NIF dari administrasi pajak; pelaku usaha tak terdaftar dikenai pembayaran di muka 15%.
+a2862fee4a	Daftarkan usaha perorangan di layanan satu pintu ANIE, target 72 jam.
+a9483d7a79	PPN 18%; ekspor 0%; ambangnya belum dikonfirmasi.
+6bc26c2be1	Penduduk dikenai pajak atas penghasilan global; usaha kecil membayar IGL.
+870595b008	Undang-Undang 007/PR/2015: laporkan pemrosesan data ke ANSICE.
+62afa174e0	Undang-undang e-commerce mewajibkan informasi penjual yang jelas; tidak ditemukan periode pengembalian dana.
+41f6cfeff3	Kartu identitas nasional dari ANATS, dengan nomor NNI Anda.
+a0a0680715	Pelaku impor atau ekspor tidak bisa memakai TPU; untuk jasa belum jelas.
+ceef1b4ed6	NIF dari OTR, kabarnya gratis dalam 3–5 hari kerja.
+5435d0cf85	Daftarkan usaha perorangan di CFE, kabarnya online lewat entreprendre.gouv.tg.
+d2f8160449	PPN hanya di atas omzet FCFA 100 juta sejak 2025.
+05e6c67b87	Pajak sintetis TPU: 8,5% untuk jasa, hingga FCFA 60 juta (sebagian sumber menyebut 30 juta).
+36773e5d9f	Rezim sintetis TPU dengan pelaporan online; PPN hanya di atas FCFA 100 juta.
+8171aa0623	Undang-Undang 2019-014: memproses data sensitif tanpa persetujuan berisiko hukuman penjara.
+f8393ef041	Jika penjual tidak mencantumkan informasi wajib, pembeli boleh membatalkan dalam 14 hari.
+ddae30588a	Kartu e-ID gratis dengan nomor identifikasi unik (NIU).
+a9d87be28a	Tarik ke bank di Thailand; gratis mulai THB 5.000.
+9908a9eb87	Dibayarkan ke bank Anda dalam THB.
+6af3a7715f	Wise menghentikan sementara detail rekening baru untuk Thailand.
+3e1dda59e6	Penghasilan luar negeri sejak 2024 dikenai pajak saat Anda membawanya masuk, pada tahun mana pun.
+9cb2c6bc7c	Platform yang membayar melalui PayPal Payouts mungkin tidak bisa membayar ke rekening di Thailand.
+8865b4974a	Ajukan Nomor Identifikasi Wajib Pajak dalam 60 hari sejak penghasilan pertama.
+d2e4880e3d	Usaha perorangan tidak perlu pendaftaran resmi, tetapi Anda tetap butuh nomor wajib pajak.
+d72e49af74	PPN 7% di atas THB 1,8 juta; jasa yang dipakai di luar negeri bisa bertarif nol.
+80f37c7a22	Penghasilan luar negeri yang diperoleh sejak 2024 dikenai pajak saat dibawa masuk ke Thailand.
+979af57770	Ya; hanya penerimaan sebesar USD 1 juta atau lebih yang wajib dibawa pulang.
+6e7b25188c	Ya: rekening deposito mata uang asing (FCD) di bank Thailand.
+d2f94fb309	Gateway lokal seperti Omise dan 2C2P belum diteliti.
+de17047cca	Belum ditemukan insentif bagi freelancer penduduk.
+06557d7965	PDPA 2019, berlaku penuh sejak Juni 2022.
+ad30e06266	Pembeli online boleh membatalkan secara tertulis dalam 7 hari sejak menerima barang.
+a582ba48c3	Kartu identitas nasional Thailand.
+a06b2ccc95	Pencairan dari situs yang membayar melalui PayPal Payouts (PayPal tidak mencantumkan negara ini).
+72ad816382	Berpenghasilan rutin tanpa mendaftar membuat tarif pajak Anda menjadi dua kali lipat.
+a862df0402	TIN; pengusaha mendapat satu nomor identifikasi saat pendaftaran.
+2106b95a65	Daftar sebagai pengusaha perorangan ke otoritas pajak; penghasilan yang tidak terdaftar dikenai pajak ganda.
+dbd32dcc54	PPN 14% di atas penghasilan TJS 1 juta (13% mulai 2027).
+43e9401ad0	Penghasilan global dikenai pajak; pengusaha sering membayar 6% dari omzet.
+56555b6865	Kemungkinan ya, tetapi likuiditas dolar terbatas dan bisa menunda transaksi.
+14277829da	Belum dikonfirmasi; rekening luar negeri kabarnya wajib dilaporkan ke Bank Nasional.
+1b8f3439b2	Paspor atau kartu identitas.
+36f2fce17c	Daftar sebagai pedagang perorangan (ENIN) ke SERVE, gratis dalam 1–5 hari.
+5468c1fb4b	Belum ada PPN; pajak jasa 5% hanya mencakup perhotelan dan telekomunikasi.
+5641b983d1	Penghasilan global dikenai pajak: 0% hingga $6.000 per tahun, lalu 10%.
+ec9833b715	Ya; dolar AS adalah mata uang resmi.
+63adba3161	Rekening secara bawaan dalam dolar AS.
+d33a43fcb5	Bilhete de Identidade (kartu identitas).
+1f49bcd4dc	Nomor wajib pajak (HSB); daftar dalam 10 hari sejak timbul kewajiban pajak.
+50c4ae3f64	Kabarnya daftar ke kantor pajak sebagai pengusaha perorangan.
+afacfbdefa	Belum dikonfirmasi; PPN dilaporkan sebesar 15%.
+b1009c969a	Penghasilan global dikenai pajak; tarif usaha perorangan dilaporkan 2% atau 10%.
+a09b8b3cfb	Ketat: akses mata uang asing sangat terbatas dan kursnya sangat berbeda-beda.
+de52ebeedf	Paspor kewarganegaraan internal.
+6896def2b2	Dibayarkan ke bank Anda dalam TND.
+287b9a7c82	Hanya untuk mengirim di sini: Anda bisa membayar, tetapi tidak bisa menerima penghasilan.
+8d93c3e579	Saldo dompet asing bukan tempat yang sah untuk menyimpan penghasilan Anda.
+0ba58b4e72	Memproses data pribadi tanpa melaporkannya ke INPDP bisa berujung hukuman penjara.
+dacf4b4bbc	Pastikan kegiatan Anda tercantum dalam daftar auto-entrepreneur sebelum mendaftar.
+64082e5e00	Matricule fiscal (nomor pajak), dari kantor pajak setempat dengan CIN Anda.
+f8101925cc	Auto-entrepreneur hingga TND 75.000 per tahun, didaftarkan online, untuk kegiatan yang tercantum.
+09e0d09575	PPN 19%, tetapi jasa yang dipakai klien di luar negeri berada di luar PPN Tunisia.
+7ecb6b07cb	Auto-entrepreneur membayar satu iuran tahunan kecil yang mencakup pajak penghasilan, PPN, dan jaminan sosial.
+b0a4b3c05c	Ya, tetapi Anda wajib membawa pulang seluruh penghasilan jasa luar negeri ke Tunisia.
+5d79a4bd87	Ya: rekening PPR menampung imbalan jasa dalam mata uang asing atau dinar yang dapat dikonversi.
+430d6a6b5b	Konnect memungkinkan freelancer menerima pembayaran kartu internasional, dibayarkan ke bank di Tunisia.
+ae7643d0fa	Iuran tunggal auto-entrepreneur, tidak ada kewajiban pada tahun pertama, dan rekening mata uang PPR.
+547ea760f7	Laporkan dulu setiap pemrosesan data pribadi ke INPDP.
+73b7f2b2bd	Pembeli boleh membatalkan dalam 10 hari kerja.
+57a7372520	Penyedia jasa bagi bukan penduduk bisa membuka rekening mata uang asing PPR.
+24ba070dce	Penyedia jasa bagi bukan penduduk bisa membuka rekening mata uang asing PPR. Penghasilan luar negeri wajib dibawa pulang (Kode Devisa pasal 20).
+36a42bfc7b	Pajak konsumsi 15% di atas TOP 100.000 per tahun; ekspor bertarif nol.
+ba942ef759	Belum dikonfirmasi; laporan berbeda tentang apakah pajak penghasilan perorangan berlaku.
+529a3e6ed5	Kartu identitas nasional opsional; SIM atau paspor juga dipakai.
+39ea437847	Tarik ke bank di Turki.
+4f969ded95	Dibayarkan ke bank Anda dalam TRY.
+3e1c477b90	PayPal berhenti beroperasi di Turki pada 2016.
+b9d853e459	Menjual dari situs sendiri atau platform asing memerlukan pendaftaran ETBİS terlebih dulu.
+ffe5d319f4	Rezim kreator 15% mensyaratkan semua penghasilan masuk lewat rekening bank Turki khusus.
+a8f662dadd	Potongan ekspor 80% mensyaratkan laba dibawa masuk ke Turki sebelum tenggat pajak.
+8d61d75dc6	Nomor T.C. kimlik (identitas nasional) 11 digit Anda adalah identitas pajak Anda.
+93868d1ebd	Daftar ke kantor pajak Anda dalam 10 hari, kecuali Anda memenuhi syarat pembebasan kreator.
+c57962e4c5	KDV (PPN) 20%; jasa untuk pelanggan di luar negeri dibebaskan.
+37bc4cd3aa	Penghasilan global dikenai pajak 15–40%; kreator dan pengembang aplikasi membayar potongan flat 15%.
+bac175a001	Ya; Anda boleh menyimpan atau menjual bebas mata uang asing yang diperoleh dari klien asing.
+a98c63d9e5	Ya: Anda bisa menyimpan penghasilan jasa di rekening bank mata uang asing.
+9957cb41f5	Pay-by-link iyzico tidak memerlukan perusahaan; POS virtualnya memerlukan usaha perorangan.
+4dad4154ba	Pajak final 15% bagi kreator, potongan 80% atas jasa yang diekspor, pembebasan bagi pengusaha muda.
+d2fbb62d4e	KVKK (Undang-Undang 6698); pengendali dengan kurang dari 50 karyawan tidak perlu mendaftar di VERBIS.
+084de780f4	Pembeli punya 14 hari untuk membatalkan, kecuali untuk barang digital yang langsung dikirim.
+b8d44b09a9	Kartu identitas nasional berbasis cip (TCKK).
+8a6f3e1af8	Dibayarkan ke bank Anda dalam TTD.
+3c9e5b1b9a	Nomor berkas BIR, didaftarkan online lewat e-TAX dengan formulir IA-001.
+e62257309a	Daftarkan nama usaha ke Registrar General's Department; langkahnya belum dikonfirmasi.
+20653d0814	PPN 12,5% setelah penyerahan mencapai TTD 600.000 dalam 12 bulan.
+fcd6576151	Penduduk dikenai pajak atas penghasilan global; 25% di bawah TTD 1 juta.
+8871ba0b16	Kartu Identifikasi Nasional dari EBC.
+b01108ba16	Pajak konsumsi di atas penjualan sekitar $100.000, kabarnya 3%.
+034a7d8b96	Kabarnya tidak ada pajak penghasilan; belum dikonfirmasi.
+f2715257ef	Tarik ke bank di Tanzania.
+5a97299856	Dibayarkan ke bank Anda dalam TZS.
+dd74793c01	Koneksi M-Pesa baru diumumkan pada Mei 2026; peluncurannya masih berjalan.
+ed9c940516	Memiliki rekening bank di luar negeri memerlukan persetujuan Gubernur bank sentral.
+bf52f922e6	Tagih klien lokal dalam TZS; mata uang asing hanya untuk klien asing yang sungguhan.
+b4d6cdd3ee	Tidak mendaftar ke komisi data bisa berujung denda hingga TZS 5 juta.
+fbe35bfd12	TIN dari TRA, online dengan NIN Anda, terkadang dalam 24 jam.
+467aafa9c7	Dapatkan TIN dalam 15 hari sejak memulai usaha, lalu izin usaha.
+aff1cb6309	PPN 18% di atas TZS 200 juta; profesional berlisensi wajib mendaftar berapa pun omzetnya; ekspor bertarif nol.
+afa5e94cc9	Penghasilan global dikenai pajak; pajak presumtif 4% hingga TZS 200 juta, tetapi profesional dikecualikan.
+ac04ac1ada	Ya, melalui bank lokal; klien asing boleh membayar dalam mata uang asing.
+1dc8d3a1e6	Ya: simpan rekening mata uang asing di dalam negeri; rekening di luar negeri memerlukan persetujuan bank sentral.
+fcef9e722e	Selcom Pesa memungkinkan usaha kecil menerima pembayaran QR lokal secara instan.
+77b5aafd43	Libur pajak tahun pertama bagi usaha baru, dan pajak presumtif 4%.
+8cae9c9128	Daftar ke Personal Data Protection Commission sebelum memproses data pribadi.
+4579cdad94	Pembeli boleh membatalkan dalam 7 hari jika belum mendapat manfaat yang berarti.
+e804a2749d	Kartu identitas nasional (kartu NIDA).
+7a8aed634a	Banyak dipakai freelancer Ukraina.
+f5968563cf	Pindahkan uang Payoneer ke rekening FOP Anda dalam kuartal yang sama, atau bayar 18% ditambah pungutan.
+5a6e365daf	Jasa yang tidak ada dalam daftar Kode Pajak bisa dikenai PPN 20%.
+488e060003	PayPal bisa mengubah layanannya di Ukraina kapan saja karena perang.
+da4b10ac58	Nomor wajib pajak РНОКПП dari Dinas Pajak Negara, ditampilkan di Diia.
+db0ac9f11a	Daftar sebagai FOP (usaha perorangan), gratis dan online di Diia dalam hitungan menit.
+1ead74407d	PPN 20% di atas UAH 1 juta; sebagian besar jasa untuk klien asing berada di luar PPN.
+f54acfc582	FOP kelompok 3: 5% dari pendapatan ditambah pungutan militer 1%, hingga UAH 10,09 juta.
+e6dcbbb835	Ya; tidak ada penjualan paksa mata uang asing, dan ekspor jasa tidak punya tenggat penyelesaian.
+41d06e317b	Ya: pengusaha perorangan (FOP) menerima pembayaran ke rekening bank mata uang asing.
+7f485f1dbc	LiqPay dan WayForPay memerlukan status FOP atau perusahaan.
+7f4991041b	Pajak tunggal FOP (5% ditambah 1%) sebagai pengganti 18% ditambah pungutan 5%.
+e64ab51843	Undang-Undang 2297-VI; lapor ke Ombudsman hanya untuk data sensitif seperti kesehatan.
+9528eac916	Pembeli boleh membatalkan dalam 14 hari, tetapi tidak setelah pengiriman digital yang mereka setujui.
+5f743aad08	Paspor kartu identitas Ukraina, juga bisa dipakai secara digital di Diia.
+9c62dad991	Tarik dalam shilling ke bank di Uganda.
+fbb5a110c3	Laporan-laporan saling bertentangan tentang apakah Anda bisa menarik dana.
+6cf3fdba91	Mengumpulkan data pelanggan tanpa pendaftaran PDPO bisa berujung denda atau penjara.
+0fb00773dd	Panduan lama menyebut UGX 150 juta; ambang PPN menjadi UGX 300 juta sejak Juli 2026.
+15abb56303	Platform yang membayar melalui PayPal Payouts tidak bisa membayar ke akun di Uganda.
+15419c2ade	TIN dari URA, langsung online dengan NIN Anda.
+ac7ae085be	Tidak perlu pendaftaran jika Anda berdagang dengan nama keluarga Anda sendiri.
+319f4c29ce	PPN 18% di atas UGX 300 juta per tahun; ekspor bertarif nol.
+7baabb0687	Penghasilan global dikenai pajak: nol hingga UGX 4,02 juta, sampai 30%, ditambah 10% di atas UGX 120 juta.
+5c596ced6c	Ya, dengan bebas; tidak ada kontrol devisa atas penghasilan jasa perorangan.
+28fc316c96	Ya: bank menawarkan rekening USD, GBP, dan EUR, dibuka dengan kartu identitas nasional.
+ca15767fee	Pesapal menerima pengusaha perorangan dengan nama usaha terdaftar dan TIN dari URA.
+26dbbc0965	Usaha baru yang dimiliki warga negara: tiga tahun tanpa pajak penghasilan.
+fd298b0a3e	Daftar ke Personal Data Protection Office; tidak mendaftar merupakan pelanggaran.
+7d1a554cb0	Pembeli boleh membatalkan pembelian online dalam 7 hari sejak diterima.
+485663e0f5	Kartu identitas nasional dengan NIN Anda, dari NIRA.
+4b7f0b9a09	Dibayarkan ke rekening bank Anda di AS.
+c72a526397	Simpan dan terima uang (tidak berlaku jika Anda tinggal di Nevada).
+3f10e6d95e	Pajak pekerja mandiri menambah 15,3% di atas pajak penghasilan.
+fc9695737c	Bayar estimasi pajak tiap kuartal (Formulir 1040-ES), bukan hanya setahun sekali.
+58cb05d381	Penduduk Nevada tidak bisa menyimpan saldo Wise.
+73673b55c0	SSN Anda, atau EIN dari IRS untuk usaha Anda.
+69cd3c7a16	Usaha perorangan tidak perlu pendaftaran federal; izin negara bagian berbeda-beda.
+4f91f7ec04	Tidak ada PPN federal; berlaku pajak penjualan negara bagian, sering di atas penjualan $100.000 per negara bagian.
+488d997114	Penghasilan global dikenai pajak 10–37%, ditambah pajak pekerja mandiri 15,3% dan pajak negara bagian.
+7ba95a8a70	Ya, dengan bebas; tetapi laporkan rekening luar negeri di atas USD 10.000 (FBAR).
+7f344a25ca	Jarang: bank besar hanya menawarkan sedikit rekening mata uang asing pribadi; fintech mengisi celah itu.
+a214ad9bf3	Kurangkan hingga 20% dari penghasilan usaha (QBI, section 199A).
+6ba4128fb0	Tidak ada satu undang-undang federal; CCPA California hanya mencakup usaha besar atau yang banyak mengolah data.
+a0bae5c76c	Kirim dalam waktu yang Anda janjikan atau 30 hari, atau tawarkan pengembalian dana (FTC).
+6534336674	SIM, kartu identitas negara bagian, atau paspor.
+9a686bdcbf	Dibayarkan ke bank Anda dalam UYU.
+7ecab2cb2b	RUT, nomor registrasi tunggal wajib pajak.
+44716f57be	Daftar ke DGI (RUT) dan jaminan sosial BPS; langkahnya belum dikonfirmasi.
+5d22a54e46	PPN 22%; ambang domestik dan aturan ekspor belum dikonfirmasi.
+160fc69792	Terutama penghasilan bersumber dari Uruguay yang dikenai pajak (IRPF).
+db6d64e32d	Ya: BROU menawarkan rekening tabungan dalam peso, dolar, atau euro.
+f4d4248473	Monotributo: satu pembayaran untuk pajak dan jaminan sosial, bagi usaha perorangan kecil.
+74de34a6e3	Documento de identidad (cédula, kartu identitas).
+5f335ae57c	Dibayarkan ke bank Anda dalam UZS.
+32517e9e51	Penghasilan ekspor dikenai pajak omzet sejak Januari 2025.
+c6395b4249	PINFL untuk perorangan; pengusaha memakai nomor wajib pajak STIR.
+2a4e3020b8	Daftar sebagai pengusaha perorangan secara online lewat my.gov.uz, sekitar dua hari.
+d60703d194	PPN 12%; pembayar pajak omzet berada di luar PPN.
+e4132daf31	Pajak penghasilan flat 12%; tersedia pajak omzet, dan ekspor tidak lagi 0% sejak 2025.
+665c0b114d	Eksportir wajib membawa pulang hasil ekspor dalam 120–180 hari; sumber-sumber saling bertentangan.
+dc35128aff	Kabarnya ya; rekening di luar negeri cukup dilaporkan.
+0661c03d4e	Penyedia lokal seperti Payme, Click, dan Uzum belum diteliti.
+65cab9d8a9	IT Park memberikan pembebasan pajak; apakah perorangan memenuhi syarat belum jelas.
+a5bac92710	Undang-Undang ZRU-547 tentang Data Pribadi, berlaku sejak 2019.
+64e5ba7dec	TIN, diterbitkan saat Anda mendaftar pajak penghasilan atau PPN.
+ce6e61e5cb	Daftar ke CIPO; langkahnya belum dikonfirmasi.
+05426d0bd3	PPN (kabarnya 16%) setelah penjualan mencapai XCD 120.000 per tahun.
+39e934d4e1	Penghasilan global dikenai pajak: pengurangan XCD 25.000, lalu 10%, 20%, dan 28%.
+df18fc7bb8	Sanksi AS memengaruhi banyak jalur pembayaran; kami hanya membahas jalur yang sah.
+c6e152cdd4	Nomor pajak RIF; cara mendapatkannya belum dikonfirmasi.
+6777685c27	PPN 16%; semua usaha kena pajak kabarnya wajib mendaftar.
+3f00dc2fb9	Dibayarkan ke bank Anda dalam VND.
+843a93f076	Akun pribadi diperbolehkan tanpa izin usaha.
+6fd5303ab5	Artikel lama menyebut VND 500 juta; ambangnya VND 1 miliar mulai 2026.
+0e4427f789	PPN 0% memerlukan kontrak dengan klien asing dan pembayaran nontunai.
+12f21ba261	Di atas pendapatan VND 1 miliar, Anda wajib menerbitkan faktur elektronik.
+3c8e6483b3	Nomor identitas pribadi 12 digit Anda menjadi kode pajak Anda sejak Juli 2025.
+758eba9dfb	Biasanya daftarkan usaha rumah tangga; penyedia jasa berpenghasilan rendah mungkin dibebaskan, tergantung provinsi.
+d02d2a73d5	Jasa yang diekspor ke klien asing dikenai PPN 0% dengan kontrak dan pembayaran lewat bank.
+e13247314f	Tidak ada pajak penghasilan atau PPN atas pendapatan usaha hingga VND 1 miliar per tahun.
+02424e9411	Ya; perorangan bisa menerima uang dari luar negeri ke rekening bank mata uang asing.
+91c4038a71	Ya: bank berizin membuka rekening mata uang asing untuk perorangan.
+549407564f	VNPAY, MoMo, OnePay, dan Ngân Lượng berizin; pendaftaran perorangan belum dikonfirmasi.
+926253be2e	Bebas pajak hingga pendapatan VND 1 miliar per tahun, salah satu ambang tertinggi yang kami temukan.
+3b70b93e19	Undang-Undang Perlindungan Data Pribadi 91/2025, berlaku sejak 1 Januari 2026.
+db0b38a574	Undang-Undang E-Commerce (mulai Juli 2026): penjual wajib memverifikasi identitas dan menampilkan kebijakan pengembalian.
+77f4860f3f	Kartu Căn cước, dengan nomor identitas pribadi 12 digit Anda.
+022b72d682	Perorangan penduduk boleh memiliki rekening pembayaran mata uang asing untuk menerima transfer dari luar negeri (Surat Edaran SBV 16/2014).
+73de6a03cd	Perorangan penduduk boleh memiliki rekening pembayaran mata uang asing untuk menerima transfer dari luar negeri (Surat Edaran SBV 16/2014). Payoneer menawarkan akun pribadi tanpa izin usaha.
+976121c744	TIN dari Customs and Inland Revenue.
+a1fc666589	Daftar ke Vanuatu Financial Services Commission; langkahnya belum dikonfirmasi.
+d41cda8da1	PPN 15% di atas VT 4 juta dalam 12 bulan.
+c701cf1ee3	Kabarnya tidak ada pajak penghasilan pribadi.
+5d0d17e7e1	Kartu identitas nasional (sejak 2017).
+501debf67f	TIN, diterbitkan saat izin usaha Anda disetujui.
+015bc38f74	Daftar ke kementerian perdagangan dan kementerian pendapatan; langkahnya belum dikonfirmasi.
+c7584152bf	VAGST 15% setelah omzet mencapai WST 130.000 per tahun.
+1dc1c06312	Lapisan yang dilaporkan: 0%, 20%, dan 27%.
+6ca8aa5f8c	Identitas pemerintah dari Office of Vital Statistics.
+85bbaf166d	Tidak bisa dipakai di sini untuk menerima pembayaran.
+9f278c5615	Berurusan dengan lembaga yang dikuasai Houthi bisa menimbulkan risiko sanksi.
+bcbf457abd	Pajak penjualan umum 5%; daftar di atas omzet YER 50 juta.
+160a3513ea	Penduduk dikenai pajak atas penghasilan global, 0–20%; otoritas yang berlaku tergantung tempat tinggal Anda.
+48791dd60d	Terpecah: dua bank sentral dengan aturan yang saling bersaing; bank asing sering menolak transfer.
+00d787cac6	Tarik melalui FNB ke bank di Afrika Selatan.
+ecf84edf5b	Dibayarkan ke bank Anda dalam ZAR.
+ed4e442b05	Tarik ke bank di Afrika Selatan.
+c3bc0e8bbe	Kerja jarak jauh yang dilakukan dari Afrika Selatan tidak mendapat pembebasan penghasilan luar negeri.
+17e479ebfa	Lebih dari 20% penghasilan dari TI atau konsultasi membuat Anda tidak bisa memakai Turnover Tax.
+f86b1440d2	Penarikan PayPal melalui layanan penarikan FNB dan memakan waktu 4–6 hari kerja.
+56b8edcafb	Nomor referensi pajak penghasilan SARS, lewat eFiling atau SARS MobiApp.
+43173f9326	Tidak perlu perusahaan; daftar ke SARS dalam 21 hari kerja sejak memulai usaha.
+1e353a06d4	PPN 15% di atas R2,3 juta per tahun; jasa untuk bukan penduduk bertarif nol.
+f45f3f8e5f	Penghasilan global dikenai pajak 18–45%; Turnover Tax tidak mencakup sebagian besar jasa profesional.
+032a127290	Ya, di bawah kontrol devisa; simpan penghasilan di rekening mata uang asing di bank.
+c12e926ebf	Ya: perorangan boleh memiliki rekening mata uang asing di Authorised Dealer (bank devisa berizin).
+447b336f29	Paystack Starter menerima penjual tak terdaftar, dengan batas hingga Anda mendaftarkan usaha.
+74c796a6fc	Turnover Tax 0% hingga R600.000, jika jasa profesional di bawah 20%.
+69eb4aa89a	POPIA: daftarkan Information Officer Anda ke Information Regulator.
+fc3552f72c	Pembeli online boleh membatalkan dalam 7 hari tanpa alasan atau denda.
+dd6c2eff35	Buku identitas hijau berkode batang atau Smart ID card.
+8c154706fe	Pekerjaan yang dilakukan di Zambia untuk klien asing tetap dikenai PPN 16% setelah terdaftar.
+0593a3c947	Panduan lama menyebut K800.000 dan 4%; pajak omzet kini 5% hingga K5 juta.
+98a23699d0	TPIN dari Zambia Revenue Authority, memakai NRC Anda.
+0ecc3cb88f	Daftarkan nama usaha ke PACRA sebagai pengusaha perorangan.
+077f7f69cc	PPN 16% di atas K800.000 per tahun; jasa yang dilakukan di Zambia tidak bertarif nol.
+e343e53955	Penghasilan bersumber dari Zambia dikenai pajak; pajak omzet 5% hingga K5 juta.
+a582d981ce	Ya, dengan bebas; pembayaran klien asing bukan transaksi domestik menurut aturan kwacha.
+a5a2c930c0	Ya: simpan rekening dalam mata uang lokal atau asing; penarikan tunai dibatasi.
+9d61a24383	Tidak ada insentif freelancer; pajak omzet 5% hingga K5 juta.
+ad9a2807c8	Daftar ke Data Protection Commissioner; tidak mendaftar merupakan pelanggaran.
+12467fbe30	Pembeli boleh membatalkan pembelian online dalam tujuh hari.
+d8a0a76476	Kartu Registrasi Nasional (NRC) atau paspor.
+52a5e3b06a	Halaman lama menyebut 15%; PPN 15,5% mulai Januari 2026.
+4c6df3248f	Anda memerlukan Petugas Perlindungan Data bersertifikat dan lisensi POTRAZ.
+eca334b369	TIN dari portal TaRMS milik ZIMRA, menggantikan nomor BP lama.
+bf76f81941	Tidak perlu pendaftaran perusahaan; daftar pajak ke ZIMRA di portal TaRMS.
+655ccee33e	PPN 15,5% sejak 2026, di atas US$25.000 dalam 12 bulan.
+4b27989cbd	Pekerjaan yang dilakukan di Zimbabwe kemungkinan dikenai pajak di sana, hingga 40%.
+ef7f4912c2	Sebagian dikonfirmasi; penerimaan valas perorangan secara historis berstatus "free funds" (dana bebas) di rekening Nostro.
+12cb082521	Ya: rekening mata uang asing (Nostro FCA) sudah umum.
+e0a71aff4a	Memproses data 50 orang atau lebih memerlukan lisensi POTRAZ tahunan mulai US$50.

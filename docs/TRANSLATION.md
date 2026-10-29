@@ -1,7 +1,6 @@
 # Translations
 
-English is the source and the reference. Other languages live under `/<lang>/` (es, fr, pt, ar so far;
-ur, bn, id, vi are planned and skipped by the build until their files exist and are complete).
+English is the source and the reference. Other languages live under `/<lang>/`: es, fr, pt, ar, ur, bn, id, vi.
 
 ## What is translated
 
@@ -35,7 +34,7 @@ until the missing lines are translated, so translate before or with the English 
 - findings a reviewer has accepted go in `data/i18n/allow.<lang>.txt` as `<id> <check>`
 
 It cannot judge grammar, tone or legal nuance. Translations were written by Claude (machine-assisted) on
-2026-10-28/29; a native-speaker review of each language is recommended before promoting them.
+2026-10-28/29 (es, fr, pt, ar, id) and 2026-10-29 (vi, ur, bn); a native-speaker review of each language is recommended before promoting them.
 
 ## Choices made
 
@@ -43,3 +42,10 @@ It cannot judge grammar, tone or legal nuance. Translations were written by Clau
 - French: "vous"; country names after a colon ("Sénégal : se faire payer") to avoid article rules.
 - Arabic: Modern Standard Arabic, Western digits, service names in Latin script; dates are wrapped in
   left-to-right isolates so they don't flip.
+- Urdu: formal "آپ", Western digits like the Arabic pages, "ملین"/"ارب" for million/billion, "ویٹ" for VAT;
+  right-to-left like Arabic, set in Noto Nastaliq Urdu with taller line spacing.
+- Bengali: formal "আপনি", Western digits so the checker can verify every number, "মিলিয়ন"/"বিলিয়ন", "ভ্যাট";
+  common loanwords (পেমেন্ট, অ্যাকাউন্ট, ফ্রিল্যান্সার) where Bangladeshi readers use them.
+- Indonesian: formal "Anda", decimal comma and thousands dot (€24.000, 4,5%), "miliar", PPN for VAT.
+- Vietnamese: "bạn", decimal comma and thousands dot, "tỷ" for billion, "thuế GTGT" for VAT. Months are numbered
+  ("tháng 4" = April) and "zero-rated" is written "thuế suất 0%"; the checker allows both.

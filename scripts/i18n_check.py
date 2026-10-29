@@ -43,7 +43,7 @@ GLOSSARY = {
            "ar": ["المملكة المتحدة", "البريطاني", "البريطانية"], "ur": ["برطانیہ", "برطانوی"], "bn": ["যুক্তরাজ্য", "ব্রিটিশ"],
            "id": ["Inggris"], "vi": ["Anh", "Vương quốc Anh"]},
     "ID": {"es": ["identificación", "identidad", "documento", "elector", "cédula", "carné", "carnet", "DNI"], "fr": ["identité", "pièce", "électeur"], "pt": ["identidade", "documento", "identificação", "eleitor"],
-           "ar": ["هوي", "تعريف", "معرّف", "معرف", "ناخب", "القومي", "ضريبي", "البطاقة الشخصية", "البطاقة الوطنية"], "ur": ["شناخت", "شناختی"], "bn": ["পরিচয়"], "id": ["identitas", "KTP"], "vi": ["giấy tờ", "định danh", "căn cước", "CCCD"]},
+           "ar": ["هوي", "تعريف", "معرّف", "معرف", "ناخب", "القومي", "ضريبي", "البطاقة الشخصية", "البطاقة الوطنية"], "ur": ["شناخت", "شناختی"], "bn": ["পরিচয়", "আইডি"], "id": ["identitas", "KTP", "pemilih", "kartu"], "vi": ["giấy tờ", "định danh", "mã số", "căn cước", "CCCD", "cử tri", "nhận dạng", "danh tính"]},
     "UNCTAD": {"fr": ["CNUCED"], "es": ["UNCTAD"], "ar": ["الأونكتاد"], "ur": ["UNCTAD"], "bn": ["UNCTAD"]},
     "SME": {"es": ["pyme", "PYME"], "fr": ["PME"], "pt": ["PME"], "ar": ["الصغيرة والمتوسطة"], "id": ["UMKM"], "vi": ["DNNVV"]},
     "SMEs": {"es": ["pymes", "PYMES"], "fr": ["PME"], "pt": ["PME", "PMEs"], "ar": ["الصغيرة والمتوسطة"], "id": ["UMKM"], "vi": ["DNNVV"]},
@@ -51,7 +51,7 @@ GLOSSARY = {
     "ICT": {"es": ["TIC"], "fr": ["TIC"], "pt": ["TIC"], "ar": ["تكنولوجيا المعلومات والاتصالات", "تقنية المعلومات والاتصالات"],
             "ur": ["آئی سی ٹی", "انفارمیشن ٹیکنالوجی"], "bn": ["আইসিটি", "তথ্য ও যোগাযোগ প্রযুক্তি"], "id": ["TIK"], "vi": ["CNTT-TT", "ICT"]},
     "FX": {"es": ["divisas", "cambio", "cambiario"], "fr": ["devises", "change"], "pt": ["câmbio", "divisas", "moeda estrangeira", "cambial"], "ar": ["الصرف", "العملات", "عملة أجنبية", "العملة الأجنبية"], "ur": ["زرمبادلہ"],
-           "bn": ["বৈদেশিক মুদ্রা"], "id": ["valas", "devisa"], "vi": ["ngoại hối", "ngoại tệ"]},
+           "bn": ["বৈদেশিক মুদ্রা"], "id": ["valas", "devisa", "valuta asing", "mata uang asing"], "vi": ["ngoại hối", "ngoại tệ"]},
     "LLC": {"es": ["SRL", "S.R.L.", "LLC"], "fr": ["SARL", "LLC"], "pt": ["Ltda", "LLC"], "ar": ["ذات مسؤولية محدودة", "LLC"],
             "ur": ["LLC"], "bn": ["LLC"], "id": ["LLC", "PT"], "vi": ["LLC", "TNHH"]},
     "MoR": {"es": ["vendedor registrado"], "fr": ["vendeur officiel"], "pt": ["vendedor oficial"], "ar": ["البائع الرسمي"]},
@@ -80,9 +80,9 @@ NEG = {
     "pt": r"(?<!\w)(não|nao|sem|nenhum|nenhuma|nunca|nem|nada|indisponíve(?:l|is)|inúte(?:l|is)|ausência|exceto|impossível|fora)(?!\w)",
     "ar": r"(?<!\w)[وف]?(لا|لم|لن|ليس|ليست|غير|بدون|دون|بلا|تعذّر|تعذر|يتعذر|يتعذّر|عدم|ممنوع|محظور|إلا|سوى|خارج|لسنا|ألا|ألّا|غياب|انعدام)(?!\w)",
     "ur": r"نہیں|نہ |بغیر|بلا|کوئی نہیں",
-    "bn": r"না|নেই|নয়|ছাড়া|নি\b|নি |নি।|নি,",
+    "bn": r"না|নেই|নয়|ছাড়া|নি(?=[\s।,;:.)]|$)|নিষিদ্ধ",
     "id": r"\b(tidak|tak|bukan|tanpa|belum|jangan)\b",
-    "vi": r"\b(không|chưa|chẳng|chả)\b",
+    "vi": r"\b(không|chưa|chẳng|chả|đừng|cấm|ngoài|miễn)\b",
 }
 NUM_EN = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?")
 NUM_COMMA = re.compile(r"\d{1,3}(?:[.   ]\d{3})+(?:,\d+)?|\d+(?:,\d+)?")
@@ -129,6 +129,10 @@ def verbatim_out(en, tr):
 def problems(en, tr, lang):
     out = []
     en, tr = verbatim_out(en, tr)
+    if lang == "vi":
+        # Vietnamese months are numbered ("tháng 4" = April) and "zero-rated" / "nil" are written as 0
+        tr = re.sub(r"tháng \d{1,2}(?!\d)", " ", tr)
+        en = re.sub(r"\b(zero-rated|zero|nil)\b", r"\1 0", en, flags=re.I)
     if numbers(en, "en") != numbers(tr, lang):
         out.append(f"numbers differ: {sorted(numbers(en, 'en').elements())} vs {sorted(numbers(tr, lang).elements())}")
     for tok in sorted(tokens(en)):

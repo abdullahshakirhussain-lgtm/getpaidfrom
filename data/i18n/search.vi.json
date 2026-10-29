@@ -1,0 +1,12 @@
+{
+  "stop": ["có", "thể", "không", "cách", "làm", "sao", "nhận", "tiền", "thanh", "toán", "trả", "từ", "ở", "tại", "với", "cho", "và", "hoặc", "của", "tôi", "dùng", "sử", "dụng", "được", "hoạt", "động"],
+  "topics": {
+    "thuế thu nhập": "L3_income_tax_foreign", "thuế gtgt": "L4_vat_gst", "gtgt": "L4_vat_gst", "vat": "L4_vat_gst",
+    "mã số thuế": "L2_tax_id", "đăng ký": "L1_registration", "kinh doanh": "L1_registration", "thuế": "L3_income_tax_foreign",
+    "căn cước": "D1_id_document", "cccd": "D1_id_document", "giấy tờ": "D1_id_document",
+    "đô la": "P2_fcy_account", "tài khoản": "P2_fcy_account", "ngân hàng": "P2_fcy_account",
+    "ngoại tệ": "P1_fx_receipts", "ngoại hối": "P1_fx_receipts", "cổng thanh toán": "P3_local_gateways",
+    "dữ liệu": "L5_data_protection", "riêng tư": "L5_data_protection", "người tiêu dùng": "L6_consumer_ecommerce",
+    "hoàn tiền": "L6_consumer_ecommerce", "ưu đãi": "L7_incentives", "hợp pháp": "W1_workarounds", "thay thế": "W1_workarounds"
+  }
+}

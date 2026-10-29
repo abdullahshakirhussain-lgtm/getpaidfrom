@@ -1,0 +1,11 @@
+{
+  "stop": ["کیا", "کیسے", "کس", "طرح", "میں", "سے", "کو", "کا", "کی", "کے", "پر", "اور", "یا", "ہے", "ہیں", "میرا", "میری", "مجھے", "ادائیگی", "رقم", "پیسے", "وصول", "کریں", "کرنا", "سکتا", "سکتی", "استعمال", "کام"],
+  "topics": {
+    "انکم ٹیکس": "L3_income_tax_foreign", "ٹیکس نمبر": "L2_tax_id", "این ٹی این": "L2_tax_id", "ٹیکس": "L3_income_tax_foreign",
+    "ویٹ": "L4_vat_gst", "سیلز ٹیکس": "L4_vat_gst", "رجسٹریشن": "L1_registration", "کاروبار": "L1_registration",
+    "شناختی": "D1_id_document", "شناختی کارڈ": "D1_id_document", "ڈالر": "P2_fcy_account", "اکاؤنٹ": "P2_fcy_account",
+    "بینک": "P2_fcy_account", "زرمبادلہ": "P1_fx_receipts", "غیر ملکی کرنسی": "P1_fx_receipts", "گیٹ وے": "P3_local_gateways",
+    "ڈیٹا": "L5_data_protection", "رازداری": "L5_data_protection", "صارف": "L6_consumer_ecommerce", "ریفنڈ": "L6_consumer_ecommerce",
+    "رعایت": "L7_incentives", "جائز": "W1_workarounds", "قانونی": "W1_workarounds", "متبادل": "W1_workarounds"
+  }
+}

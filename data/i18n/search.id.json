@@ -1,0 +1,11 @@
+{
+  "stop": ["bisa", "bisakah", "cara", "bagaimana", "menerima", "terima", "pembayaran", "bayar", "dibayar", "uang", "dari", "di", "ke", "dengan", "untuk", "dan", "atau", "yang", "saya", "apakah", "pakai", "menggunakan", "berfungsi", "tersedia"],
+  "topics": {
+    "pajak": "L3_income_tax_foreign", "penghasilan": "L3_income_tax_foreign", "ppn": "L4_vat_gst", "daftar": "L1_registration",
+    "pendaftaran": "L1_registration", "usaha": "L1_registration", "npwp": "L2_tax_id", "nik": "L2_tax_id", "ktp": "D1_id_document",
+    "identitas": "D1_id_document", "dolar": "P2_fcy_account", "rekening": "P2_fcy_account", "bank": "P2_fcy_account",
+    "valas": "P1_fx_receipts", "devisa": "P1_fx_receipts", "gateway": "P3_local_gateways", "privasi": "L5_data_protection",
+    "data": "L5_data_protection", "konsumen": "L6_consumer_ecommerce", "refund": "L6_consumer_ecommerce", "insentif": "L7_incentives",
+    "alternatif": "W1_workarounds", "legal": "W1_workarounds", "sah": "W1_workarounds"
+  }
+}

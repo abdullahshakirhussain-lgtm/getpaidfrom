@@ -25,7 +25,7 @@ CANDIDATES = [os.environ.get("BROWSER", ""),
               r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
               r"C:\Program Files\Google\Chrome\Application\chrome.exe",
               "/usr/bin/google-chrome", "/usr/bin/chromium", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"]
-FACES = {"ar": "'Noto Sans Arabic'", "ur": "'Noto Nastaliq Urdu'", "bn": "'Noto Sans Bengali'"}
+FACES = {"ar": "'Noto Sans Arabic'", "ur": "'Noto Nastaliq Urdu'", "bn": "'Noto Sans Bengali'", "vi": "'Segoe UI', Roboto, Arial"}
 
 
 def page(lang):
