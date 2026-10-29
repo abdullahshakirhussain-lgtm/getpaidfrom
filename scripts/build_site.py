@@ -8,6 +8,7 @@ Pages: home (search), /<country>/, /<platform>/ (e.g. /paypal/), /about/, 404. S
 search.json: country, platform and topic words ("paypal nepal", "vat kenya") answered from the data, no AI.
 Plain HTML + one CSS file + one small JS file; no framework, tracking or external requests.
 """
+import copy
 import hashlib
 import json
 import os
@@ -20,6 +21,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from i18n import LANGS, Translator, country_names, load_json
 from markupsafe import Markup
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -203,8 +205,13 @@ def verdict(code, tiles, order, kind):
 
 
 def first_sentence(text):
-    m = re.match(r"(.+?[.;])(\s|$)", text)
-    return (m.group(1) if m else text).rstrip(";") + ("" if (m.group(1) if m else text).endswith(".") else ".")
+    # the first "." or ";" that ends a sentence, skipping ones inside brackets such as "(BCRA Com. 'A' 8417)"
+    head = text
+    for m in re.finditer(r"[.;](?=\s|$)", text):
+        if text.count("(", 0, m.start()) == text.count(")", 0, m.start()):
+            head = text[:m.end()]
+            break
+    return head.rstrip(";") + ("" if head.endswith(".") else ".")
 
 
 def ways_view(c, t):
@@ -244,7 +251,8 @@ def ways_view(c, t):
         blocked = blocked[0].upper() + blocked[1:]
     view = {"blocked": blocked, "routes": [], "closing": "", "sources": sources(f)}
     if m.group(2).startswith("No clean"):
-        view["closing"] = clean_long(m.group(3).strip())
+        closing = clean_long(m.group(3).strip())
+        view["closing"] = closing[:1].upper() + closing[1:]
         return view
     body = re.split(r" Avoid: ", m.group(3))[0]
     for raw in (r.strip() for r in re.split(r" ?\(\d+\) ", body) if r.strip()):
@@ -296,16 +304,63 @@ def country_view(c, acc, short):
     dates = [s["retrieved"] for f in F.values() for s in sources(f) if s["retrieved"]]
     ways = ways_view(c, t)
     up = upwork_status(c)
-    if ways and ways["routes"]:
-        ways_line = f"{len(ways['routes'])} legal ways listed" + (", including Upwork." if up and up["open"] else ".")
-    else:
-        ways_line = "No clean route: see what's blocked and why."
     return {"code": code, "name": name, "official": c["un_name"] if c["un_name"] != name else "", "slug": slugify(name),
-            "region": c.get("sub_region") or c.get("region") or "", "ways": ways, "ways_line": ways_line, "upwork": up,
+            "region": c.get("sub_region") or c.get("region") or "", "ways": ways, "upwork": up,
+            "ways_n": len(ways["routes"]) if ways else 0, "ways_upwork": bool(up and up["open"]),
             "clients": verdict(code, t, CLIENT_ORDER, "clients"), "selling": verdict(code, t, SELL_ORDER, "selling"),
             "client_tiles": [t[s] for s in CLIENT_ORDER], "sell_tiles": [t[s] for s in SELL_ORDER], "tiles": t,
             "watch": watch, "before": [line(k, l) for k, l in BEFORE], "more": [line(k, l) for k, l in MORE],
-            "checked": max(dates) if dates else "", "search": " ".join([name] + ALIASES.get(code, []) + [c["un_name"]]).lower()}
+            "checked": max(dates) if dates else "", "search": " ".join([name] + ALIASES.get(code, []) + [c["un_name"]]).lower(),
+            "en_name": name}
+
+
+LABEL_KEY = {"L2_tax_id": "label_tax_id", "L1_registration": "label_registering", "L4_vat_gst": "label_vat",
+             "L3_income_tax_foreign": "label_income_tax", "P1_fx_receipts": "label_fx", "P2_fcy_account": "label_fcy",
+             "P3_local_gateways": "label_gateways", "L7_incentives": "label_incentives", "L5_data_protection": "label_data",
+             "L6_consumer_ecommerce": "label_consumer", "D1_id_document": "label_id"}
+
+
+def ways_line(v, tr):
+    if v["ways_n"]:
+        return tr.t("ways_line_n_upwork" if v["ways_upwork"] else "ways_line_n", n=v["ways_n"])
+    return tr.t("ways_line_none")
+
+
+def localize(v, tr, names):
+    """A copy of a country view in tr.lang: our own wording translated, research text and sources left in English."""
+    x = copy.deepcopy(v)
+    if tr.lang == "en":
+        for tl in x["tiles"].values():
+            tl["label"] = tr.t(f"status_{tl['status']}")
+        return x
+    x["name"], x["official"] = names[v["code"]], ""
+    x["search"] = " ".join([names[v["code"]], v["search"]]).lower()
+    for k in ("clients", "selling"):
+        x[k]["headline"], x[k]["detail"] = tr.text(v[k]["headline"]), tr.text(v[k]["detail"])
+    for tl in x["tiles"].values():
+        tl["label"], tl["reason"] = tr.t(f"status_{tl['status']}"), tr.text(tl["reason"])
+    x["client_tiles"] = [x["tiles"][s] for s in CLIENT_ORDER]
+    x["sell_tiles"] = [x["tiles"][s] for s in SELL_ORDER]
+    for w in x["watch"]:
+        w["text"] = tr.text(w["text"])
+    for ln in x["before"] + x["more"]:
+        ln["label"], ln["short"] = tr.t(LABEL_KEY[ln["key"]]), tr.text(ln["short"])
+    if x["ways"]:
+        x["ways"]["blocked"], x["ways"]["closing"] = tr.text(v["ways"]["blocked"]), tr.text(v["ways"]["closing"])
+        for r in x["ways"]["routes"]:
+            r["title"], r["line"], r["detail"] = tr.text(r["title"]), tr.text(r["line"]), tr.text(r["detail"])
+    if x["upwork"]:
+        x["upwork"]["label"] = tr.t("upwork_open") if x["upwork"]["open"] else tr.t("status_no")
+        x["upwork"]["reason"] = tr.t("upwork_reason_open" if x["upwork"]["open"] else "upwork_reason_closed")
+    return x
+
+
+def sort_key(name, lang):
+    s = unicodedata.normalize("NFKD", name)
+    s = "".join(ch for ch in s if not unicodedata.combining(ch)).casefold()
+    if lang == "ar" and s.startswith("ال"):
+        s = s[2:]
+    return s
 
 
 def check_short(code, short):
@@ -321,10 +376,7 @@ def check_short(code, short):
     return problems
 
 
-def main():
-    only = None
-    if "--only" in sys.argv:
-        only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+def load_views(only=None):
     acc_all = load(DISPLAY / "accounts.json")
     shorts = {p.stem: load(p) for p in (DISPLAY / "short").glob("*.json")}
     codes = sorted(only or shorts)
@@ -335,6 +387,14 @@ def main():
     all_countries = {p.stem: load(p) for p in sorted((ROOT / "data" / "countries").glob("*.json"))}
     views = [country_view(all_countries[cc], acc_all[cc], shorts[cc]) for cc in codes]
     assert len({v["slug"] for v in views}) == len(views)
+    return views
+
+
+def main():
+    only = None
+    if "--only" in sys.argv:
+        only = set(sys.argv[sys.argv.index("--only") + 1].split(","))
+    views = load_views(only)
 
     env = Environment(loader=FileSystemLoader(SRC / "templates"), autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
     built = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -343,59 +403,101 @@ def main():
     OUT.mkdir(parents=True)
     shutil.copytree(SRC / "static", OUT / "static")
     ver = hashlib.sha256(b"".join(p.read_bytes() for p in sorted((SRC / "static").rglob("*")) if p.is_file())).hexdigest()[:8]  # cache-busting
-    common = {"site_url": SITE_URL, "built": built, "n_countries": len(views), "statuses": STATUS, "ver": ver}
 
-    def write(outfile, template, **ctx):
-        (OUT / outfile).parent.mkdir(parents=True, exist_ok=True)
-        (OUT / outfile).write_text(env.get_template(template).render(**common, **ctx), encoding="utf-8")
-
-    # platform pages: every built country's tile for that platform
-    platform_pages = {}
-    for slug, (name, group) in PLATFORMS.items():
-        rows = sorted(({"country": v["name"], "slug": v["slug"], **v["tiles"][slug]} for v in views),
-                      key=lambda r: (list(STATUS).index(r["status"]), r["country"]))
-        platform_pages[slug] = {"name": name, "slug": slug, "group": group, "logo": LOGOS[slug], "rows": rows,
-                                "groups": [(s, STATUS[s], [r for r in rows if r["status"] == s]) for s in STATUS],
-                                "counts": {s: sum(r["status"] == s for r in rows) for s in STATUS}}
-    by_letter = defaultdict(list)
-    for v in sorted(views, key=lambda v: slugify(v["name"])):
-        by_letter[slugify(v["name"])[0].upper()].append(v)
-    # Upwork: whether freelancers can join, plus the receiving routes (Upwork doesn't publish its withdrawal methods per country)
-    up_rows = sorted(({"country": v["name"], "slug": v["slug"], "up": v["upwork"], "routes": v["client_tiles"]} for v in views if v["upwork"]),
-                     key=lambda r: (not r["up"]["open"], r["country"]))
-    upwork_page = {"logo": logo("upwork"), "open": [r for r in up_rows if r["up"]["open"]], "closed": [r for r in up_rows if not r["up"]["open"]],
-                   "source": up_rows[0]["up"]["source"] if up_rows else None}
-
-    write("index.html", "index.html", letters=sorted(by_letter.items()), platforms=platform_pages, upwork=upwork_page, root="", path="")
-    write("about/index.html", "about.html", root="../", path="about/")
-    write("404.html", "404.html", root=f"{SITE_URL}/", path="404.html")
-    for v in views:
-        write(f"{v['slug']}/index.html", "country.html", c=v, root="../", path=f"{v['slug']}/")
-    for slug, p in platform_pages.items():
-        write(f"{slug}/index.html", "platform.html", p=p, root="../", path=f"{slug}/")
-    write("upwork/index.html", "upwork.html", u=upwork_page, root="../", path="upwork/")
-
-    search = {"countries": [{"n": v["name"], "s": v["slug"], "k": v["search"],
-                             "t": {k: [x["status"], x["reason"]] for k, x in v["tiles"].items()},
-                             "a": {**{ANCHOR[l["key"]]: l["short"] for l in v["before"] + v["more"] if l["short"]}, "ways": v["ways_line"]}}
-                            for v in views],
-              "platforms": {k: v[0] for k, v in PLATFORMS.items()},
-              "topics": {w: ANCHOR[k] for w, k in TOPICS.items()},
-              "status": {k: [v[0], v[1]] for k, v in STATUS.items()}}
-    (OUT / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-
-    # sitemap: lastmod is when the page's facts were last checked, not the build date
+    # Languages: English always; others only when every line has a translation (never a half-translated page).
+    wanted = sys.argv[sys.argv.index("--langs") + 1].split(",") if "--langs" in sys.argv else list(LANGS)
+    translators, skipped = {}, {}
+    for lang in wanted:
+        if lang != "en" and not (ROOT / "data" / "i18n" / f"ui.{lang}.json").exists():
+            skipped[lang] = "no interface file yet"
+            continue
+        tr = Translator(lang)
+        names = country_names(lang) if lang != "en" else None
+        for v in views:
+            ways_line(localize(v, tr, names), tr)
+        for key in tr.en_ui:
+            tr.t(key)
+        if tr.missing and "--draft" not in sys.argv:  # --draft: local preview only, untranslated lines stay English
+            skipped[lang] = f"{len(tr.missing)} untranslated lines"
+            continue
+        translators[lang] = (tr, names)
+    built_langs = list(translators)
     latest = max(v["checked"] for v in views)
-    pages = [("", latest), ("about/", None), ("upwork/", latest)] + [(f"{v['slug']}/", v["checked"]) for v in views] \
-        + [(f"{s}/", latest) for s in PLATFORMS]
+    sitemap = []
+
+    for lang, (tr, names) in translators.items():
+        prefix = "" if lang == "en" else f"{lang}/"
+        out = OUT / prefix if prefix else OUT
+        lviews = [localize(v, tr, names) for v in views]
+        common = {"site_url": SITE_URL, "built": built, "n_countries": len(lviews), "ver": ver, "t": tr.t, "lang": lang,
+                  "dir": LANGS[lang][1], "langs": {k: LANGS[k][0] for k in built_langs}, "prefix": prefix}
+
+        def write(outfile, template, depth, path, **ctx):
+            (out / outfile).parent.mkdir(parents=True, exist_ok=True)
+            ctx = {"root": "../" * (depth + (1 if prefix else 0)), "base": "../" * depth, "path": path, **ctx}
+            (out / outfile).write_text(env.get_template(template).render(**common, **ctx), encoding="utf-8")
+
+        platform_pages = {}
+        for slug, (name, group) in PLATFORMS.items():
+            rows = sorted(({"country": v["name"], "slug": v["slug"], **v["tiles"][slug]} for v in lviews),
+                          key=lambda r: (list(STATUS).index(r["status"]), sort_key(r["country"], lang)))
+            platform_pages[slug] = {"name": name, "slug": slug, "group": group, "logo": LOGOS[slug], "rows": rows,
+                                    "groups": [(s, (tr.t(f"status_{s}"), STATUS[s][1]), [r for r in rows if r["status"] == s])
+                                               for s in STATUS],
+                                    "counts": {s: sum(r["status"] == s for r in rows) for s in STATUS}}
+        by_letter = defaultdict(list)
+        for v in sorted(lviews, key=lambda v: sort_key(v["name"], lang)):
+            by_letter[sort_key(v["name"], lang)[:1].upper()].append(v)
+        # Upwork: whether freelancers can join, plus the receiving routes (Upwork doesn't publish its withdrawal methods per country)
+        up_rows = sorted(({"country": v["name"], "slug": v["slug"], "up": v["upwork"], "routes": v["client_tiles"]} for v in lviews if v["upwork"]),
+                         key=lambda r: (not r["up"]["open"], sort_key(r["country"], lang)))
+        upwork_page = {"logo": logo("upwork"), "open": [r for r in up_rows if r["up"]["open"]],
+                       "closed": [r for r in up_rows if not r["up"]["open"]], "source": up_rows[0]["up"]["source"] if up_rows else None}
+
+        write("index.html", "index.html", 0, "", letters=list(by_letter.items()), platforms=platform_pages, upwork=upwork_page)
+        write("about/index.html", "about.html", 1, "about/")
+        if lang == "en":  # served for any unknown URL, so its links must be absolute
+            write("404.html", "404.html", 0, "404.html")
+            page = (OUT / "404.html").read_text(encoding="utf-8")
+            (OUT / "404.html").write_text(page.replace('href="static/', f'href="{SITE_URL}/static/')
+                                          .replace('src="static/', f'src="{SITE_URL}/static/')
+                                          .replace('data-root=""', f'data-root="{SITE_URL}/"')
+                                          .replace('href="about/', f'href="{SITE_URL}/about/')
+                                          .replace('href="./"', f'href="{SITE_URL}/"'), encoding="utf-8")
+        for v in lviews:
+            write(f"{v['slug']}/index.html", "country.html", 1, f"{v['slug']}/", c=v)
+        for slug, p in platform_pages.items():
+            write(f"{slug}/index.html", "platform.html", 1, f"{slug}/", p=p)
+        write("upwork/index.html", "upwork.html", 1, "upwork/", u=upwork_page)
+
+        sw = load_json(ROOT / "data" / "i18n" / f"search.{lang}.json") if lang != "en" else {"stop": [], "topics": {}}
+        topics = {w: ANCHOR[k] for w, k in TOPICS.items()} | {w: ANCHOR[k] for w, k in sw["topics"].items()}
+        search = {"countries": [{"n": v["name"], "s": v["slug"], "k": v["search"],
+                                 "t": {k: [x["status"], x["reason"]] for k, x in v["tiles"].items()},
+                                 "a": {**{ANCHOR[ln["key"]]: ln["short"] for ln in v["before"] + v["more"] if ln["short"]},
+                                       "ways": ways_line(v, tr)}}
+                                for v in lviews],
+                  "platforms": {k: v[0] for k, v in PLATFORMS.items()},
+                  "topics": topics, "stop": sw["stop"],
+                  "labels": {ANCHOR[k]: tr.t(LABEL_KEY[k]) for k, _ in BEFORE + MORE} | {"ways": tr.t("s_ways")},
+                  "ui": {k: tr.t(k) for k in ("s_where_work", "s_every_country", "s_upwork", "s_upwork_sub", "s_no_match", "s_see_details", "s_in")},
+                  "status": {k: [tr.t(f"status_{k}"), v[1]] for k, v in STATUS.items()}}
+        (out / "search.json").write_text(json.dumps(search, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+        # sitemap: lastmod is when the page's facts were last checked, not the build date
+        sitemap += [(prefix + u, d) for u, d in [("", latest), ("about/", None), ("upwork/", latest)]
+                    + [(f"{v['slug']}/", v["checked"]) for v in lviews] + [(f"{s}/", latest) for s in PLATFORMS]]
+
     (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                      + "".join(f"<url><loc>{SITE_URL}/{u}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>\n"
-                                               for u, d in pages)
+                                               for u, d in sitemap)
                                      + "</urlset>\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
     (OUT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"built {len(views)} country pages, {len(platform_pages)} platform pages, home, about, 404 for {SITE_URL}")
+    print(f"built {len(views)} countries x {len(built_langs)} languages ({', '.join(built_langs)}) for {SITE_URL}")
+    for lang, why in skipped.items():
+        print(f"  skipped {lang}: {why}")
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Page not found | Get Paid From{% endblock %}
+{% block title %}{{ t('notfound_title') }} | Get Paid From{% endblock %}
 {% block robots %}<meta name="robots" content="noindex">{% endblock %}
 {% block main %}
-<h1 class="sentence">Nothing here</h1>
-<p class="intro">Search for a country or a service above, or <a href="{{ root }}">start from the home page</a>.</p>
+<h1 class="sentence">{{ t('notfound_h1') }}</h1>
+<p class="intro">{{ t('notfound_text') }} <a href="{{ base or './' }}">{{ t('notfound_home') }}</a>.</p>
 {% endblock %}

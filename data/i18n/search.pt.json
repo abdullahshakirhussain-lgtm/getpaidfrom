@@ -1,0 +1,13 @@
+{
+  "stop": ["posso", "pode", "como", "receber", "recebo", "pagar", "pagamento", "pagamentos", "dinheiro", "de", "do", "da", "dos", "das", "no", "na", "em", "o", "a", "os", "as", "um", "uma", "com", "para", "por", "meu", "minha", "funciona", "usar", "e", "ou", "que", "é", "disponivel", "me"],
+  "topics": {
+    "imposto": "L3_income_tax_foreign", "impostos": "L3_income_tax_foreign", "renda": "L3_income_tax_foreign",
+    "iva": "L4_vat_gst", "registro": "L1_registration", "registrar": "L1_registration", "empresa": "L1_registration",
+    "mei": "L1_registration", "nif": "L2_tax_id", "cpf": "L2_tax_id", "documento": "D1_id_document",
+    "identidade": "D1_id_document", "dolar": "P2_fcy_account", "dolares": "P2_fcy_account", "conta": "P2_fcy_account",
+    "banco": "P2_fcy_account", "cambio": "P1_fx_receipts", "divisas": "P1_fx_receipts", "gateway": "P3_local_gateways",
+    "privacidade": "L5_data_protection", "dados": "L5_data_protection", "consumidor": "L6_consumer_ecommerce",
+    "reembolso": "L6_consumer_ecommerce", "incentivos": "L7_incentives", "regime": "L7_incentives",
+    "alternativas": "W1_workarounds", "alternativa": "W1_workarounds", "legal": "W1_workarounds", "formas": "W1_workarounds"
+  }
+}

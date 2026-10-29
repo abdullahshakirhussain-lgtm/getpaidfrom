@@ -1,0 +1,14 @@
+{
+  "stop": ["je", "peux", "puis", "on", "comment", "etre", "être", "payé", "paye", "payer", "paiement", "paiements", "recevoir", "argent", "depuis", "de", "du", "des", "en", "au", "aux", "le", "la", "les", "l", "un", "une", "avec", "pour", "par", "mon", "ma", "mes", "fonctionne", "marche", "utiliser", "et", "ou", "est", "disponible", "me", "se", "faire"],
+  "topics": {
+    "impot": "L3_income_tax_foreign", "impots": "L3_income_tax_foreign", "revenu": "L3_income_tax_foreign",
+    "tva": "L4_vat_gst", "immatriculation": "L1_registration", "inscription": "L1_registration", "entreprise": "L1_registration",
+    "auto entrepreneur": "L1_registration", "nif": "L2_tax_id", "ifu": "L2_tax_id", "fiscal": "L2_tax_id",
+    "identite": "D1_id_document", "cni": "D1_id_document", "dollars": "P2_fcy_account", "compte": "P2_fcy_account",
+    "banque": "P2_fcy_account", "devises": "P1_fx_receipts", "change": "P1_fx_receipts", "passerelle": "P3_local_gateways",
+    "passerelles": "P3_local_gateways", "confidentialite": "L5_data_protection", "donnees": "L5_data_protection",
+    "consommateur": "L6_consumer_ecommerce", "consommateurs": "L6_consumer_ecommerce", "remboursement": "L6_consumer_ecommerce",
+    "avantages": "L7_incentives", "regime": "L7_incentives", "alternatives": "W1_workarounds", "alternative": "W1_workarounds",
+    "legal": "W1_workarounds", "legales": "W1_workarounds", "voies": "W1_workarounds"
+  }
+}

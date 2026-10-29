@@ -32,6 +32,9 @@ jobs:
           python-version: "3.12"
       - run: pip install Jinja2==3.1.6 MarkupSafe==3.0.4
       - run: python tests/test_build_site.py
+      - run: python tests/test_i18n.py
+        env:
+          PYTHONIOENCODING: utf-8
       - name: Build
         run: python scripts/build_site.py
         env:

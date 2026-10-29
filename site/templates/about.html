@@ -1,54 +1,54 @@
 {% extends "base.html" %}
-{% block title %}How we check | Get Paid From{% endblock %}
+{% block title %}{{ t('about_title') }} | Get Paid From{% endblock %}
 {% block main %}
-<h1 class="sentence">How we check</h1>
-<p class="intro">Every line links to where it came from. If we can't find a reliable source, we say so instead of guessing.</p>
+<h1 class="sentence">{{ t('about_title') }}</h1>
+<p class="intro">{{ t('about_intro') }}</p>
 
 <section class="sec">
-  <h2>What the labels mean</h2>
+  <h2>{{ t('about_labels') }}</h2>
   <dl class="facts legend">
-    {% for tone, label, text in [
-      ("ok", "Works", "The service's own list, or a reliable source, confirms it for your country."),
-      ("likely", "Likely", "The service says it covers almost every country, but nothing confirms yours by name."),
-      ("warn", "Limited", "It works with conditions, like a partner bank or a registered business."),
-      ("muted", "Not confirmed", "The service operates there, but we couldn't confirm you can get paid."),
-      ("bad", "Not available", "The service doesn't serve your country.")] %}
-    <div class="fact"><dt><span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span></dt><dd><p class="short">{{ text }}</p></dd></div>
+    {% for tone, s in [("ok", "works"), ("likely", "likely"), ("warn", "limited"), ("muted", "unconfirmed"), ("bad", "no")] %}
+    <div class="fact"><dt><span class="st {{ tone }}"><i aria-hidden="true"></i>{{ t('status_' ~ s) }}</span></dt><dd><p class="short">{{ t('about_' ~ s) }}</p></dd></div>
     {% endfor %}
   </dl>
 </section>
 
 <section class="sec">
-  <h2>Where answers come from</h2>
-  <div class="prose"><p>Service pages, government sites, central banks and tax offices first. Guides and news only when official pages say nothing, and then the line says it rests on one source.</p></div>
+  <h2>{{ t('about_sources_h') }}</h2>
+  <div class="prose"><p>{{ t('about_sources') }}</p></div>
 </section>
 
 <section class="sec">
-  <h2>The short answer</h2>
-  <div class="prose"><p>For clients paying you, we name the first that works in this order: PayPal, Payoneer, Wise. For selling online: Gumroad, Lemon Squeezy, Payhip, Polar, Paddle, Stripe. Same rule for every country.</p></div>
+  <h2>{{ t('about_rule_h') }}</h2>
+  <div class="prose"><p>{{ t('about_rule') }}</p></div>
 </section>
 
 <section class="sec">
-  <h2>Legitimate routes only</h2>
-  <div class="prose"><p>We never suggest borrowed accounts, foreign addresses or VPN tricks. They break the services' rules, get money frozen and can break the law.</p></div>
+  <h2>{{ t('about_legit_h') }}</h2>
+  <div class="prose"><p>{{ t('about_legit') }}</p></div>
+</section>
+
+<section class="sec" id="translations">
+  <h2>{{ t('about_translation_h') }}</h2>
+  <div class="prose"><p>{{ t('about_translation') }}</p></div>
 </section>
 
 <section class="sec" id="privacy">
-  <h2>Privacy</h2>
+  <h2>{{ t('about_privacy_h') }}</h2>
   <div class="prose">
-    <p><b>No cookies, no ad trackers, no IP addresses kept.</b> We count page views by page and by visitor country (the country comes from the network, not from you), so we know which pages people need. That's all we record about visits.</p>
-    <p><b>Email alerts.</b> If you sign up, we keep your email address and the countries you picked, only to email you when those pages change. We never share or sell it. To stop, use the unsubscribe link in any email, or the form below.</p>
-    <form class="alert-form" method="post" action="{{ root }}api/unsubscribe" data-alerts data-unsub>
-      <label class="vh" for="unsub-email">Email address</label>
-      <input id="unsub-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email">
-      <button type="submit">Unsubscribe and delete</button>
-      <p class="note" data-alerts-msg>Removes your address and all your countries.</p>
+    <p><b>{{ t('about_privacy_views_b') }}</b> {{ t('about_privacy_views') }}</p>
+    <p><b>{{ t('about_privacy_alerts_b') }}</b> {{ t('about_privacy_alerts') }}</p>
+    <form class="alert-form" method="post" action="{{ root }}api/unsubscribe" data-alerts data-unsub data-ok="{{ t('alerts_unsub_ok') }}" data-err="{{ t('alerts_err') }}" data-net="{{ t('alerts_net') }}">
+      <label class="vh" for="unsub-email">{{ t('email_address') }}</label>
+      <input id="unsub-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email" dir="ltr">
+      <button type="submit">{{ t('unsubscribe_btn') }}</button>
+      <p class="note" data-alerts-msg>{{ t('unsubscribe_note') }}</p>
     </form>
   </div>
 </section>
 
 <section class="sec">
-  <h2>Logos and fonts</h2>
-  <div class="prose"><p>Logos belong to their companies and are shown only to say which service a line is about. We're not affiliated with any of them, and nobody pays to be listed. Logo files come from Simple Icons and Polar's own site. Type is Newsreader and Atkinson Hyperlegible Next, both under the SIL Open Font License, served from this site.</p></div>
+  <h2>{{ t('about_logos_h') }}</h2>
+  <div class="prose"><p>{{ t('about_logos') }}</p></div>
 </section>
 {% endblock %}

@@ -1,36 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ lang }}" dir="{{ dir }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}Get Paid From: how to get paid from your country{% endblock %}</title>
-<meta name="description" content="{% block description %}Which payment services work in your country, and what to watch out for. Every answer has a source.{% endblock %}">
-<link rel="canonical" href="{{ site_url }}/{{ path }}">
+<title>{% block title %}{{ t('meta_title_default') }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ t('meta_desc_default') }}{% endblock %}">
+<link rel="canonical" href="{{ site_url }}/{{ prefix }}{{ path }}">
+{% if path != "404.html" %}
+{% for code in langs %}<link rel="alternate" hreflang="{{ code }}" href="{{ site_url }}/{{ '' if code == 'en' else code ~ '/' }}{{ path }}">
+{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site_url }}/{{ path }}">
+{% endif %}
 {% block robots %}{% endblock %}
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Crect x='4' y='19' width='24' height='7' fill='%23ffe45c'/%3E%3Cpath d='M4 26h24' stroke='%2315171c' stroke-width='2.5'/%3E%3C/svg%3E">
-<link rel="preload" href="{{ root }}static/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+{% if lang in ("ar",) %}<link rel="preload" href="{{ root }}static/fonts/noto-sans-arabic-arabic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+{% elif lang == "ur" %}<link rel="preload" href="{{ root }}static/fonts/noto-nastaliq-urdu-arabic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+{% elif lang == "bn" %}<link rel="preload" href="{{ root }}static/fonts/noto-sans-bengali-bengali-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+{% elif lang != "vi" %}<link rel="preload" href="{{ root }}static/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ root }}static/fonts/newsreader-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+{% endif %}
 <link rel="stylesheet" href="{{ root }}static/style.css?v={{ ver }}">
-<script src="{{ root }}static/app.js?v={{ ver }}" defer data-root="{{ root }}"></script>
+<script src="{{ root }}static/app.js?v={{ ver }}" defer data-root="{{ base }}"></script>
 </head>
 <body>
 <header class="mast">
-  <a class="wordmark" href="{{ root or './' }}">Get paid from<span class="blank" aria-hidden="true"></span></a>
+  <a class="wordmark" href="{{ base or './' }}" lang="en" dir="ltr">Get paid from<span class="blank" aria-hidden="true"></span></a>
   {% block topsearch %}
   <div class="search mast-search" data-search>
-    <label class="vh" for="q">Search</label>
-    <input id="q" type="search" placeholder="Search a country or service" autocomplete="off">
+    <label class="vh" for="q">{{ t('search_label') }}</label>
+    <input id="q" type="search" placeholder="{{ t('search_placeholder') }}" autocomplete="off">
     <div class="results" role="listbox" hidden></div>
   </div>
   {% endblock %}
+  {% if langs|length > 1 %}
+  <details class="lang-pick">
+    <summary><span class="vh">{{ t('language') }}: </span>{{ langs[lang] }}</summary>
+    <ul>{% for code, name in langs.items() %}<li><a href="{{ root }}{{ '' if code == 'en' else code ~ '/' }}{{ path }}" hreflang="{{ code }}" lang="{{ code }}"{% if code == lang %} aria-current="true"{% endif %}>{{ name }}</a></li>{% endfor %}</ul>
+  </details>
+  {% endif %}
 </header>
 <main>
 {% block main %}{% endblock %}
 </main>
 <footer class="foot">
-  <p>Not legal, tax or financial advice. Every line links to its public source, and rules change, so check before you act.</p>
-  <p><a href="{{ root }}about/">How we check</a> · Legitimate routes only · No cookies, no ad trackers (<a href="{{ root }}about/#privacy">privacy</a>) · Updated {{ built }}</p>
+  <p>{{ t('footer_advice') }}</p>
+  {% if lang != "en" %}<p>{{ t('translated_note') }} <a href="{{ root }}{{ path }}" hreflang="en">{{ t('english_version') }}</a>.</p>{% endif %}
+  <p><a href="{{ base }}about/">{{ t('footer_how') }}</a> · {{ t('footer_legit') }} · {{ t('footer_privacy') }} (<a href="{{ base }}about/#privacy">{{ t('privacy') }}</a>) · {{ t('updated', date=built) }}</p>
 </footer>
 </body>
 </html>

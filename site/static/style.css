@@ -12,6 +12,15 @@
 @font-face { font-family: "Atkinson"; font-weight: 700; font-display: swap; src: url(fonts/atkinson-hyperlegible-next-latin-ext-700-normal.woff2) format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+20A0-20AB, U+20AD-20C0, U+2C60-2C7F, U+A720-A7FF; }
 
+@font-face { font-family: "Newsreader"; font-weight: 600; font-display: swap; src: url(fonts/newsreader-vietnamese-600-normal.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB; }
+@font-face { font-family: "Noto Sans Arabic"; font-weight: 400; font-display: swap; src: url(fonts/noto-sans-arabic-arabic-400-normal.woff2) format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Noto Sans Arabic"; font-weight: 700; font-display: swap; src: url(fonts/noto-sans-arabic-arabic-700-normal.woff2) format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Noto Naskh Arabic"; font-weight: 600 700; font-display: swap; src: url(fonts/noto-naskh-arabic-arabic-700-normal.woff2) format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Noto Nastaliq Urdu"; font-weight: 400 700; font-display: swap; src: url(fonts/noto-nastaliq-urdu-arabic-400-normal.woff2) format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Noto Sans Bengali"; font-weight: 400; font-display: swap; src: url(fonts/noto-sans-bengali-bengali-400-normal.woff2) format("woff2"); unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1; }
+@font-face { font-family: "Noto Sans Bengali"; font-weight: 600 700; font-display: swap; src: url(fonts/noto-sans-bengali-bengali-700-normal.woff2) format("woff2"); unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1; }
+
 :root {
   --paper: #ffffff; --ink: #15171c; --grey: #5d6370; --rule: #e2e4e8; --hl: #ffe45c;
   --ok: #17784a; --warn: #a85400; --muted: #6b7180; --bad: #c0352b;
@@ -27,25 +36,25 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; 
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-main, .mast, .foot { max-width: 920px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
+main, .mast, .foot { max-width: 920px; margin: 0 auto; padding-inline: 20px; }
 main { padding-bottom: 56px; }
 
 /* masthead: the brand is a sentence with a blank */
 .mast { display: flex; align-items: center; gap: 20px; padding-top: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--ink); }
 .wordmark { font: 600 1.2rem/1 var(--serif); text-decoration: none; white-space: nowrap; display: inline-flex; align-items: baseline; }
-.wordmark .blank { display: inline-block; width: 2.2em; margin-left: .3em; border-bottom: 2px solid var(--ink); }
-.mast-search { margin-left: auto; width: min(320px, 100%); }
+.wordmark .blank { display: inline-block; width: 2.2em; margin-inline-start: .3em; border-bottom: 2px solid var(--ink); }
+.mast-search { margin-inline-start: auto; width: min(320px, 100%); }
 
 /* search */
 .search { position: relative; display: block; }
 .search input { width: 100%; font: inherit; color: var(--ink); background: var(--paper); border: 1px solid #c9ccd2; border-radius: 6px; padding: 8px 11px; }
 .search input:focus { outline: none; border-color: var(--ink); box-shadow: 0 0 0 3px var(--hl); }
-.results { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 20; display: block; background: var(--paper); border: 1px solid var(--ink); font: 400 1rem/1.4 var(--sans); text-align: left; }
+.results { position: absolute; inset-inline: 0; top: calc(100% + 4px); z-index: 20; display: block; background: var(--paper); border: 1px solid var(--ink); font: 400 1rem/1.4 var(--sans); text-align: start; }
 .results[hidden] { display: none; }
 .res { display: block; padding: 10px 12px; text-decoration: none; border-top: 1px solid var(--rule); }
 .res:first-child { border-top: 0; }
 .res.on, a.res:hover { background: #fff7c7; }
-.res b { font-weight: 700; margin-right: 8px; }
+.res b { font-weight: 700; margin-inline-end: 8px; }
 .res .r { display: block; color: var(--grey); font-size: .9rem; margin-top: 2px; }
 .res .st { font-size: .85rem; }
 
@@ -53,7 +62,7 @@ main { padding-bottom: 56px; }
 .back { margin: 22px 0 0; font-size: .95rem; }
 .sentence { font: 600 clamp(2.1rem, 6.4vw, 3.5rem)/1.08 var(--serif); letter-spacing: -.015em; margin: 14px 0 12px; }
 .sentence mark { background: linear-gradient(transparent 58%, var(--hl) 58%, var(--hl) 92%, transparent 92%); color: inherit; padding: 0 .06em; }
-.with-logo .logo { width: .8em; height: .8em; margin-right: .28em; vertical-align: -.04em; }
+.with-logo .logo { width: .8em; height: .8em; margin-inline-end: .28em; vertical-align: -.04em; }
 .intro { color: var(--grey); max-width: 38em; margin: 0 0 8px; }
 .note { color: var(--grey); font-size: .9rem; margin: 8px 0 0; }
 
@@ -113,7 +122,7 @@ main { padding-bottom: 56px; }
 
 /* every option */
 .options { width: 100%; border-collapse: collapse; }
-.options th, .options td { text-align: left; vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); font-weight: 400; }
+.options th, .options td { text-align: start; vertical-align: top; padding-block: 10px; padding-inline: 0 12px; border-bottom: 1px solid var(--rule); font-weight: 400; }
 .options .grp th { font-weight: 700; font-size: .9rem; color: var(--grey); padding-top: 18px; border-bottom-color: var(--ink); }
 .options tbody:first-of-type .grp th { padding-top: 0; }
 .options .row { cursor: pointer; }
@@ -163,7 +172,8 @@ main { padding-bottom: 56px; }
 @media (max-width: 720px) {
   body { font-size: 16px; }
   .mast { flex-wrap: wrap; gap: 10px; }
-  .mast-search { width: 100%; margin-left: 0; }
+  .mast-search { width: 100%; margin-inline-start: 0; order: 3; }
+  .lang-pick { order: 2; }
   .split, .answers { grid-template-columns: 1fr; gap: 0; }
   .answers { gap: 18px; }
   .sec { grid-template-columns: 1fr; gap: 10px; padding: 18px 0; }
@@ -193,7 +203,7 @@ main { padding-bottom: 56px; }
 .routes details[open] summary em { display: none; }
 .routes details p { margin: 6px 0 0; font-size: .95rem; }
 .closing { margin: 0 0 12px; }
-.dont { margin: 14px 0 6px; padding: 10px 12px; border-left: 3px solid var(--bad); background: #fdf3f2; }
+.dont { margin: 14px 0 6px; padding: 10px 12px; border-inline-start: 3px solid var(--bad); background: #fdf3f2; }
 .src-block summary { cursor: pointer; font-size: .88rem; color: var(--grey); }
 
 /* alerts form */
@@ -203,12 +213,12 @@ main { padding-bottom: 56px; }
 .alert-form button { font: 700 1rem var(--sans); padding: 9px 16px; border: 0; border-radius: 6px; background: var(--ink); color: var(--paper); cursor: pointer; }
 .alert-form button:disabled { opacity: .6; cursor: default; }
 .alert-form .note { flex-basis: 100%; }
-.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.hp { position: absolute; inset-inline-start: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
 /* upwork table */
 .uptable th a { font-weight: 700; }
 .uptable thead th { font-size: .9rem; color: var(--grey); border-bottom-color: var(--ink); }
-.uptable td, .uptable th { padding-right: 10px; }
+.uptable td, .uptable th { padding-inline-end: 10px; }
 
 @media (max-width: 720px) {
   .uptable thead { display: none; }
@@ -217,3 +227,27 @@ main { padding-bottom: 56px; }
   .uptable tbody tr td { border: 0; padding: 0; font-size: .85rem; }
   .uptable tbody tr td::before { content: attr(data-label); display: block; color: var(--grey); font-size: .8rem; }
 }
+
+/* other languages: the Latin faces come first (their unicode-range keeps them to Latin text such as service names),
+   then the script's own face. Cursive scripts get no letter-spacing, which would break the joins. */
+html:lang(ar) { --serif: "Newsreader", "Noto Naskh Arabic", serif; --sans: "Atkinson", "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif; }
+html:lang(ur) { --serif: "Newsreader", "Noto Nastaliq Urdu", serif; --sans: "Atkinson", "Noto Nastaliq Urdu", "Segoe UI", sans-serif; font-synthesis: none; }
+html:lang(ur) body { line-height: 2.1; }
+html:lang(ur) .sentence, html:lang(ur) .answer .a, html:lang(ur) .sec > h2 { line-height: 1.9; }
+html:lang(bn) { --serif: "Newsreader", "Noto Sans Bengali", serif; --sans: "Atkinson", "Noto Sans Bengali", "Nirmala UI", sans-serif; }
+html:lang(bn) body { line-height: 1.7; }
+html:lang(vi) { --sans: "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif; }
+html:lang(ar) .sentence, html:lang(ur) .sentence, html:lang(bn) .sentence { letter-spacing: 0; }
+[dir=rtl] .wordmark, [dir=rtl] .srcs, [dir=rtl] [lang=en] { unicode-bidi: isolate; }
+
+/* language picker */
+.lang-pick { position: relative; font-size: .92rem; }
+.mast > .wordmark + .lang-pick { margin-inline-start: auto; }
+.lang-pick summary { cursor: pointer; list-style: none; padding: 6px 10px; border: 1px solid #c9ccd2; border-radius: 6px; white-space: nowrap; }
+.lang-pick summary::-webkit-details-marker { display: none; }
+.lang-pick summary::after { content: ""; display: inline-block; width: 6px; height: 6px; margin-inline-start: 8px; border: solid var(--ink); border-width: 0 1.5px 1.5px 0; transform: translateY(-3px) rotate(45deg); }
+.lang-pick[open] summary { border-color: var(--ink); }
+.lang-pick ul { position: absolute; inset-inline-end: 0; top: calc(100% + 4px); z-index: 30; margin: 0; padding: 4px 0; list-style: none; min-width: 12em; background: var(--paper); border: 1px solid var(--ink); }
+.lang-pick a { display: block; padding: 7px 12px; text-decoration: none; }
+.lang-pick a:hover { background: #fff7c7; }
+.lang-pick a[aria-current] { font-weight: 700; }

@@ -1,0 +1,5 @@
+# Arabic: checker findings a reviewer accepted ("<id> <check>")
+ui.label_tax_id missing 'ID'
+e711e82f6a numbers differ
+efd45e5e3d missing 'PNG'
+2a4e3020b8 numbers differ

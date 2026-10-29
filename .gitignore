@@ -16,3 +16,4 @@ data/snapshots/_research_large/
 
 # wrangler local dev state
 .wrangler/
+data/i18n/todo.*.tsv

@@ -1,0 +1,1834 @@
+1c174ce61d	Oui, via PayPal.
+311bd65134	Recevez l'argent de vos clients et retirez-le vers votre banque.
+5c146bb23a	Oui, via Gumroad.
+d1d1651abf	Paiement via PayPal (frais de 2 %) ; pas de virement bancaire ici.
+a0f54922e7	Payoneer dessert plus de 190 pays ; vérifiez lors de l'inscription.
+78dab28a6c	Conservez de l'argent et obtenez des coordonnées bancaires pour recevoir des paiements.
+850e09713b	Connectez PayPal ou Stripe pour être payé.
+ad6a6aaa61	Pas de versements vers les banques de ce pays.
+01a0eb0109	Versements indisponibles ici.
+de319e634a	Logiciels et produits numériques uniquement ; chaque vendeur est examiné.
+6046c1e622	Stripe n'accepte pas les entreprises d'ici.
+b0a6b0ba42	NRT (numéro de registre fiscal), utilisé pour toutes les démarches fiscales en Andorre.
+fef2a8fcb8	Inscrivez-vous auprès du département des impôts et de la sécurité sociale (CASS) ; étapes pas encore confirmées.
+4753b2f6bb	L'IGI (TVA) est de 4,5 % ; toutes les entreprises qui exercent en Andorre doivent s'enregistrer.
+7dc9296aa9	L'impôt sur le revenu est de 0 % jusqu'à 24 000 €, puis de 5 %, et de 10 % au-delà de 40 000 €.
+537caa35fd	Pas encore confirmé.
+143dcd70e2	Passerelles locales pas encore étudiées ; voir les services ci-dessus.
+6f2bda902d	Une loi sur la protection des données existe ; détails pas encore confirmés.
+985c3850cd	Aucune loi de protection des consommateurs en ligne recensée par l'outil de suivi de la CNUCED.
+74777a6ab9	Pas de carte d'identité nationale ; on utilise le passeport et le permis de conduire.
+b21a748dd3	Stripe (n'accepte pas les entreprises d'ici).
+1448cca703	Vendez des produits numériques via un revendeur officiel (merchant of record)
+37d42ff566	Ils vendent à vos clients, gèrent les taxes et vous reversent l'argent.
+aa291e3103	Vendez des produits numériques ou des logiciels via un revendeur officiel (merchant of record) : Paddle (logiciels/SaaS uniquement ; chaque vendeur est examiné), Dodo Payments. La plateforme est le vendeur légal vis-à-vis de vos clients, gère les paiements par carte et la TVA ou taxe de vente due par le consommateur, et vous reverse l'argent. Vous devez quand même déclarer ces versements comme revenus dans votre pays.
+6cc903f20a	Vendez vos services sur Upwork
+a3b2eae9ab	Upwork est ouvert aux freelances ici ; vos options de retrait apparaissent dans votre compte.
+51de4ff3a2	Vendez vos services sur Upwork, disponible ici (absent de sa liste de pays restreints). Les modes de retrait proposés (banque, PayPal, Payoneer, etc.) dépendent du pays et apparaissent dans votre compte.
+290a2b70e7	Faites-vous payer par vos clients via PayPal
+58e64eea2d	Paiements de clients via PayPal (sur la liste PayPal Payouts avec la mention « Send, receive, and withdraw » : envoyer, recevoir et retirer).
+1a9e4ee480	Demandez un virement bancaire à vos clients directs
+1b708a0397	Un virement SWIFT sur votre propre compte fonctionne toujours ; conservez vos factures.
+7855717bae	Pour les clients directs, un virement bancaire (SWIFT) sur votre propre compte local fonctionne toujours. Respectez les règles locales de change et conservez les factures.
+b3158e9d56	Versé sur votre compte bancaire en AED.
+a39ae4a49a	Etsy paie les vendeurs d'ici via Payoneer.
+ca5cd98ba2	Wise ne permet pas aux résidents d'ici de détenir ni de recevoir de l'argent.
+7e14a4c8ed	Versements vers une banque possibles.
+0b328a25a6	Versements possibles (via Stripe Connect).
+b0a1a2b384	Accepte les entreprises d'ici ; il vous faut votre propre site.
+51be2088bf	Au-delà de 1 million d'AED de chiffre d'affaires, vous devez vous enregistrer et déclarer, même si l'impôt est nul.
+a31e128a26	Les ventes à l'export au taux zéro comptent pour le seuil de TVA de 375 000 AED.
+82a2c319c6	Les EAU n'attribuent pas de TIN (numéros fiscaux) ; vous pouvez demander un certificat de résidence fiscale.
+071113a5e6	Obtenez un permis de freelance dans une zone franche, ou une licence commerciale sur le territoire continental.
+8f94a771d6	TVA de 5 % au-delà de 375 000 AED par an ; les services exportés sont au taux zéro.
+1faf502f58	Pas d'impôt sur le revenu des personnes ; les revenus d'activité au-delà de 1 million d'AED relèvent de l'impôt sur les sociétés de 9 %.
+6d8eb2161e	Oui, librement ; les EAU n'ont aucune restriction de change.
+fb4a3c6fd9	Oui : comptes en dirhams ou en devises, dans le pays ou à l'étranger.
+0e4cbf1b60	Pas d'impôt sur le revenu des personnes, et 0 % d'impôt sur les sociétés sur les premiers 375 000 AED de bénéfice.
+8e47473aca	La PDPL (décret-loi 45/2021) s'applique ; sa date d'entrée en vigueur n'est pas confirmée.
+e3f0700cf8	Une loi de protection des consommateurs en ligne existe ; règles de remboursement pas encore confirmées.
+bfb82f1bae	Carte d'identité émirienne (Emirates ID) ou passeport.
+1e96b37422	Soldes Wise (les résidents ne peuvent pas détenir d'argent).
+16535e62ac	Vendez des produits numériques ou des logiciels via un revendeur officiel (merchant of record) : Paddle (logiciels/SaaS uniquement ; chaque vendeur est examiné), Lemon Squeezy (versements sur compte bancaire), Polar, Dodo Payments. La plateforme est le vendeur légal vis-à-vis de vos clients, gère les paiements par carte et la TVA ou taxe de vente due par le consommateur, et vous reverse l'argent. Vous devez quand même déclarer ces versements comme revenus dans votre pays.
+d048093c24	Gagnez de l'argent avec YouTube
+402cb0a2e2	Le Programme Partenaire YouTube est ouvert ici.
+5fc56da056	Revenus de créateur via le Programme Partenaire YouTube (disponible ici).
+bdc6d9133b	Vendez des applis sur Google Play
+5a19bd5a7a	L'inscription des marchands sur Google Play est ouverte ici.
+acd6a24c07	Applis payantes et achats intégrés via Google Play (inscription des marchands disponible ici).
+e1fc5d5722	Acceptez les paiements par carte avec Stripe
+d3be2c0818	Stripe accepte les entreprises d'ici, pour votre propre site.
+b27f6ac094	Stripe accepte les marchands d'ici : vous pouvez donc encaisser les cartes directement sur votre propre site.
+3399b09641	Probablement, via Payoneer.
+73c3b45a58	Aucune plateforme confirmée.
+de959d24ca	Aucun de ces services ne confirme encore de versements ici.
+c9bb878c1e	PayPal n'est pas présent ici.
+d9ede0800c	Aucun moyen d'être payé ici (ni virement bancaire ni PayPal).
+2e91e47164	Nécessite un processeur local pris en charge par Payhip ; non confirmé ici.
+afdbfcc65c	Les vendeurs d'ici ne sont pas pris en charge.
+3bc8026d39	Vérifiez les licences liées aux sanctions et les circuits bancaires avant d'accepter tout paiement.
+0b121decaf	Les licences commerciales sont délivrées par l'AISA ou le ministère du Commerce.
+195c907c05	TVA de 10 % depuis 2020 ; application actuelle non confirmée.
+4c71f6ed9f	Les résidents sont aussi imposés sur leurs revenus étrangers, selon un barème progressif.
+3c0d4446e6	Très limité : les circuits bancaires sont gelés et un contrôle des sanctions s'applique.
+3e6ae2cf97	Aucun avantage spécifique aux freelances trouvé.
+646bc9b5a2	Aucune loi sur la protection des données recensée par l'outil de suivi de la CNUCED.
+331860eaaf	Tazkira (document national d'identité).
+b393c3218f	Stripe (n'accepte pas les entreprises d'ici) ; PayPal (indisponible) ; soldes Wise (les résidents ne peuvent pas détenir d'argent).
+a4801ccd2c	Versé sur votre compte bancaire en XCD.
+07a37921f0	PayPal est présent ici, mais la réception de paiements n'est pas confirmée.
+f4148cce7d	Les revenus d'indépendant sont imposés (UBT), malgré les affirmations d'« absence d'impôt sur le revenu ».
+692060a7d4	Les freelances exerçant une profession doivent facturer 17 % d'ABST dès le départ.
+28e2746718	TIN (numéro fiscal) de l'Inland Revenue Department, attribué à l'enregistrement.
+fb94f1691d	Inscrivez-vous auprès de l'ABIPCO, l'office du commerce ; étapes pas encore confirmées.
+bce3c85649	ABST de 17 % ; les prestataires de services professionnels doivent s'enregistrer, sans seuil.
+0fef9dbcf9	Pas d'impôt sur le revenu, mais les résidents indépendants paient une taxe sur les entreprises non constituées en société pouvant atteindre 25 %.
+6ae7b89848	Carte d'identité nationale électorale.
+3ca4e7242c	Stripe (n'accepte pas les entreprises d'ici) ; versements de sites qui paient via PayPal Payouts (PayPal ne liste pas ce pays) ; soldes Wise (les résidents ne peuvent pas détenir d'argent).
+d9ca89ace3	Versé sur votre compte bancaire en ALL.
+92058eb0a1	Le taux de 0 % exige un NIPT et des paiements clients sur un compte bancaire professionnel.
+3c4e11cdf7	Une règle sur le client unique peut vous faire perdre l'avantage du 0 %.
+3d4611abdc	Votre numéro personnel NID ; les indépendants reçoivent aussi un NIPT.
+bf4607957e	Inscrivez-vous au Centre national des entreprises (QKB) pour obtenir un NIPT, votre numéro d'identification fiscale.
+787fe7a29d	TVA de 20 % au-delà de 10 millions d'ALL ; facultative à partir de 5 millions d'ALL.
+eeff444203	Impôt sur le revenu à 0 % jusqu'en 2029 pour les indépendants dont le chiffre d'affaires ne dépasse pas 14 millions d'ALL.
+03c7701f88	Oui, librement ; pas de contrôle des changes restrictif.
+6e35ccec16	Impôt à 0 % jusqu'en 2029, ou abattement forfaitaire pour frais jusqu'à 10 millions d'ALL.
+6fefc9def3	Letërnjoftimi (carte d'identité biométrique).
+a444874fcd	Versé sur votre compte bancaire en AMD.
+80912d6d43	TIN attribué par le Registre d'État lors de l'enregistrement.
+05447d233a	Enregistrez-vous comme entrepreneur individuel au Registre d'État, souvent en une journée.
+e5bc5d5dfd	TVA de 20 % au-delà de 115 millions d'AMD ; les services exportés sont au taux zéro.
+60082da441	Impôt sur le revenu forfaitaire de 20 % ; les petites entreprises peuvent opter pour la taxe sur le chiffre d'affaires.
+a32ca87ec2	Oui, librement ; l'Arménie a un régime de change libéral.
+9b6bc3155c	Oui : les résidents peuvent détenir des comptes en devises.
+0e1ad38104	Taxe sur le chiffre d'affaires et régimes de micro-entrepreneur pour les petites entreprises.
+eafe560588	Loi sur la protection des données personnelles (2015), contrôlée par une agence du ministère de la Justice.
+68a9b16fc3	Versé sur votre compte bancaire en AOA.
+9760500b92	Les particuliers peuvent transférer au plus environ 150 000 USD par an à l'étranger.
+79390c1f90	Votre NIF est le même numéro que votre carte d'identité (BI).
+daf1b93843	Immatriculez-vous comme entrepreneur individuel au GUE avec votre BI ; frais d'environ 21 380 AOA.
+35c5a5b7d5	TVA de 14 % ; pas de TVA en dessous de 25 millions d'AOA ; régime simplifié à 7 % jusqu'à 350 millions d'AOA.
+6c659c545e	Revenus de freelance : 6,5 % retenus par les entreprises locales, sinon 25 % sur le revenu estimé.
+74049d7b95	Probablement oui, via une banque agréée pour les opérations de change.
+ea631e46df	Oui, en pratique ; les transferts vers l'étranger sont plafonnés chaque année depuis 2026.
+48c70d51ca	Passerelles locales pas encore confirmées ; voir les services ci-dessus.
+a5de244f05	Aucun avantage pour les freelances ; 6,5 % forfaitaire pour les petits commerçants et pas de TVA en dessous de 25 millions d'AOA.
+fa919ae34b	Loi 22/11 : déclarez vos traitements de données à l'Agence de protection des données.
+1921eb975e	Les acheteurs peuvent se rétracter dans un délai de sept jours ouvrables pour les achats hors établissement.
+bdd179be56	Carte d'identité (Bilhete de Identidade, BI).
+dfa8a67cc8	Vendez des produits numériques ou des logiciels via un revendeur officiel (merchant of record) : Paddle (logiciels/SaaS uniquement ; chaque vendeur est examiné), Lemon Squeezy (versements sur compte bancaire), Polar. La plateforme est le vendeur légal vis-à-vis de vos clients, gère les paiements par carte et la TVA ou taxe de vente due par le consommateur, et vous reverse l'argent. Vous devez quand même déclarer ces versements comme revenus dans votre pays.
+f5fb79e0c0	Versé sur votre compte bancaire en ARS.
+beea522674	Retirez en pesos, ou en USD vers un compte argentin.
+1112a74d48	Pour éviter la conversion forcée, les revenus doivent arriver sur votre propre compte local en dollars.
+674d0e293e	Les catégories du Monotributo sont mises à jour deux fois par an ; vérifiez la vôtre à chaque fois.
+60f2440e04	Les sites doivent afficher un bouton d'annulation (« bouton de repentir ») sans obliger à se connecter.
+e3775e2f23	CUIT, délivré par l'ARCA, avec une clé fiscale de niveau 3 et votre DNI.
+5d6239cbfe	Inscrivez-vous auprès de l'ARCA pour obtenir un CUIT et adhérez au Monotributo.
+26f2cb1b9f	IVA (TVA) de 21 % ; les exportations sont au taux zéro ; le Monotributo inclut déjà l'IVA.
+56d1b9ad99	Le Monotributo remplace l'impôt sur le revenu et l'IVA par une cotisation mensuelle unique selon la catégorie.
+89564e3594	Oui ; depuis avril 2026, les particuliers peuvent garder leurs recettes d'exportation en dollars dans une banque locale.
+5731864a25	Oui : comptes en USD dans les banques locales, sans frais bancaires sur les virements entrants.
+0a5719a6f3	Les liens de paiement Mercado Pago fonctionnent avec un compte gratuit, sans site web.
+4f20dc14ee	Le paiement mensuel unique du Monotributo, et des dollars conservés sur votre propre compte local.
+6f1461f809	Ley 25.326 : enregistrez en ligne vos fichiers clients auprès de l'AAIP.
+e51c48e840	Les acheteurs peuvent annuler sous 10 jours ; votre site doit avoir un « bouton de repentir ».
+3a0fb5b803	DNI (carte d'identité nationale).
+fea6df6279	Utilisez la voie officielle de votre pays
+e1617ac577	Conservez les recettes d'exportation de services sur votre propre compte local en USD, sans conversion en pesos (BCRA Com. 'A' 8417).
+f022f55791	Conservez les recettes d'exportation de services sur votre propre compte local en USD, sans conversion en pesos (BCRA Com. 'A' 8417) ; les banques ne peuvent pas prélever leurs propres frais sur les virements entrants.
+afb2ae5d5e	Versé sur votre compte bancaire en EUR.
+3617cb9da2	Votre numéro fiscal peut changer si vous déménagez dans le ressort d'un autre centre des impôts.
+686f8df0b6	Un numéro fiscal délivré par votre centre des impôts local, la première fois que vous en avez besoin.
+6840cb737e	Les activités commerciales s'immatriculent gratuitement en ligne via GISA ou USP ; les autres s'enregistrent auprès du centre des impôts.
+0e3a8789f5	TVA de 20 % ; les petites entreprises en dessous de 55 000 € par an sont exonérées.
+e889ff3497	Revenu mondial imposé de 0 % jusqu'à 13 539 €, puis jusqu'à 55 %.
+2738a9d1b8	Oui, librement ; les règles de l'UE interdisent de restreindre les paiements.
+f6987c625b	Très probable : les banques de l'UE proposent couramment des comptes en devises.
+75f1b6867d	Kleinunternehmer (petit entrepreneur) : pas de TVA en dessous de 55 000 € de chiffre d'affaires, avec une tolérance unique de 10 %.
+dc867b9c22	Le RGPD s'applique.
+aaf0092ccf	Les acheteurs en ligne peuvent se rétracter sous 14 jours.
+d1678fa646	Personalausweis (carte d'identité) ou passeport.
+d4dcf68f1c	Vendez sur Etsy
+d4596e738c	Etsy paie les vendeurs d'ici.
+dd73152c17	Produits physiques ou numériques sur Etsy (les paiements aux vendeurs Etsy sont disponibles ici).
+fda682ede4	Paiements de clients via PayPal (sur la liste PayPal Payouts avec la mention « Fully localized » : entièrement localisé).
+443591e289	Versé sur votre compte bancaire en AUD.
+8b68075398	Enregistrez-vous à la GST dans les 21 jours suivant le moment où vous savez que vous dépasserez 75 000 AUD.
+0928cc1ea9	Les revenus de services personnels des prestataires indépendants ne donnent souvent pas droit à la réduction d'impôt.
+2ee9f3fc1f	Tax File Number (TFN, numéro fiscal) ; votre activité utilise un ABN.
+a4eb1e6c1b	Obtenez gratuitement un ABN comme entrepreneur individuel ; n'enregistrez un nom commercial que si nécessaire.
+e9285aeb20	GST de 10 % ; enregistrez-vous dès que le chiffre d'affaires atteint 75 000 AUD ; les exportations sont exonérées de GST.
+a3d4c26f56	Revenu mondial imposé : rien jusqu'à 18 200 AUD, jusqu'à 45 %, plus 2 % de prélèvement Medicare.
+41d08fd54b	Oui, librement ; aucun contrôle des changes depuis le flottement du dollar en 1983.
+42f844e12d	Oui, mais l'ouverture d'un compte bancaire en devises peut exiger 50 000 AUD.
+703a3e16fe	Réduction d'impôt pour petites entreprises jusqu'à 1 000 AUD ; les revenus de services personnels en sont généralement exclus.
+5a159c08a6	Le Privacy Act 1988 couvre les grandes entreprises et certaines petites.
+5ad254c1a7	Les garanties légales s'appliquent en ligne ; les remboursements pour changement d'avis sont à votre discrétion.
+642bffe317	Permis de conduire ou passeport.
+f9bf878045	Versé sur votre compte bancaire en AZN.
+42dc54ee82	Un numéro de contribuable délivré par l'administration fiscale ; la procédure n'est pas confirmée.
+6b3a360c86	Inscrivez-vous auprès du Service fiscal d'État ; étapes pas encore confirmées.
+28c8f8dade	TVA de 18 % au-delà de 200 000 AZN par an ; les exportations sont au taux zéro.
+1064ae5bc3	Revenu mondial imposé ; l'impôt simplifié pour les entrepreneurs n'est pas encore confirmé.
+a888a93647	Oui, librement ; aucune restriction à la conversion ni au transfert de devises.
+d12c574d6d	Oui : les banques acceptent les dépôts en dollars américains des particuliers.
+284ca4bbdf	Şəxsiyyət vəsiqəsi (carte d'identité nationale).
+fc06c44bb9	Versé sur votre compte bancaire en BAM.
+8a34edfc8c	D'anciens guides indiquent 50 000 BAM ; le seuil de TVA est désormais de 100 000 BAM.
+c44df6c039	JIB (numéro d'identification) ; un numéro PDV à 12 chiffres pour la TVA.
+6d6ca2cde9	Enregistrez-vous auprès de votre municipalité (Fédération) ou de l'APIF (Republika Srpska) ; étapes non confirmées.
+fa0510619f	TVA de 17 % au-delà de 100 000 BAM ; les exportations sont au taux zéro.
+d1e588368c	Revenu mondial imposé au taux forfaitaire de 10 % ; les règles varient selon l'entité.
+a1f3464c6e	Probablement librement ; aucun contrôle des changes restrictif n'est généralement signalé.
+22abb0fbc9	Lična karta (carte d'identité), obligatoire dès 18 ans.
+6c838b4b8b	Oui, avec des limites, via Paddle.
+7e0fada1f3	Uniquement via PayPal, ce qui n'est pas confirmé ici.
+d71375a54c	Utilisez votre solde en devises avant d'acheter d'autres devises sur place.
+ac93fe079d	TIN ; la façon de l'obtenir n'est pas encore confirmée.
+72ada01dcf	Inscrivez-vous auprès du CAIPO ; étapes pas encore confirmées.
+5955045c3c	TVA de 17,5 % au-delà de 200 000 BBD ; le seuil passe à 350 000 BBD à partir d'octobre 2026.
+2d1a4ffe1c	Revenu mondial imposé à 0 %, 12,5 % ou 28,5 %.
+fdc5bb1f0b	Probablement oui ; le contrôle des changes peut affecter la conversion et les transferts.
+f4ffa68710	Oui : ouverture libre de comptes en devises dans les banques depuis 2019.
+e09a6f294f	Carte d'identité nationale, facultative mais nécessaire pour les démarches administratives.
+d43e5cfb36	Ouvrez un compte en devises dans une banque commerciale (sans restriction depuis août 2019) et gardez-y vos revenus en USD.
+8377f83aba	Ouvrez un compte en devises dans une banque commerciale (sans restriction depuis août 2019) et gardez-y vos revenus en USD. Dépensez ce solde avant d'acheter des devises sur place (Banque centrale de la Barbade).
+2c42ff36f6	Oui, via Payoneer.
+66ddb93b86	Retirez vers votre banque ou vers bKash.
+19560a6ba9	Versé sur votre compte bancaire en BDT.
+ba3ea00aa6	L'exonération fiscale exige que tout l'argent de l'activité passe par virement bancaire.
+c87155200b	Les passerelles de paiement (OPGSPs) peuvent faire entrer au plus 10 000 US$ par transaction.
+a449d7eb11	Vendre en ligne sans TIN ni licence commerciale enfreint les règles du commerce numérique.
+a2ba1ecf49	TIN (e-TIN), enregistré en ligne auprès du NBR avec votre carte d'identité nationale.
+a1580d7545	Pas besoin de société, mais les vendeurs en ligne doivent avoir un identifiant comme le TIN.
+9cc4c7eba0	TVA de 15 % ; enregistrement obligatoire seulement au-delà de 5 millions de BDT de chiffre d'affaires par an.
+ef099101ef	Les revenus de freelance et de création de contenu sont exonérés jusqu'en juin 2027 s'ils passent par les banques.
+e316afeef2	Oui ; jusqu'à 20 000 $ peuvent arriver sans déclaration formelle.
+c0214b2170	Oui : gardez jusqu'à 50 % de vos revenus sur un compte en devises ERQ (freelances des TIC).
+0cd4e63c39	SSLCOMMERZ accepte les entrepreneurs individuels et les vendeurs Facebook ; il demande le TIN ou le NID.
+48752e4efc	Les revenus de freelance sont exonérés jusqu'en juin 2027 ; gardez jusqu'à 50 % en dollars.
+7483eb72b5	Loi de 2026 sur la protection des données personnelles ; il faut un consentement explicite pour collecter des données.
+1eb596563f	Affichez votre numéro d'identification, vos conditions complètes et vos règles de remboursement sur votre page de vente.
+fad50d4e05	Carte d'identité nationale à puce (NID).
+17405b42fd	La circulaire de juillet 2026 de la Bangladesh Bank accepte les preuves électroniques (relevés de plateformes, e-mails) pour les recettes des freelances.
+cac01efcf8	La circulaire de juillet 2026 de la Bangladesh Bank accepte les preuves électroniques (relevés de plateformes, e-mails) pour les recettes des freelances. Vous pouvez garder jusqu'à 50 % de vos recettes d'exportation TIC sur un compte en devises ERQ, et Payoneer permet de retirer vers bKash.
+02dc9b7089	Votre numéro national ; votre activité reçoit un numéro d'entreprise.
+341c649836	Immatriculez-vous via un guichet d'entreprises (environ 111,50 €) et affiliez-vous à une caisse d'assurances sociales.
+84382bf038	TVA de 21 % ; les petites entreprises en dessous de 25 000 € par an sont exonérées.
+1676b2ff56	Revenu mondial imposé de 25 à 50 %, plus les additionnels communaux.
+57d430a05b	Aucun avantage spécifique aux freelances étudié pour l'instant.
+b0467ce72e	eID (carte d'identité électronique) ou passeport.
+b6ac6cfe34	Demandez à vos clients de payer par virement bancaire international (SWIFT).
+c6cc04f2d7	Non confirmé pour les résidents d'ici.
+85f9a909c9	Toutes les recettes en devises venant de l'étranger doivent être cédées à une banque agréée.
+720169fde2	IFU (Identifiant Financier Unique), délivré via le CEFORE.
+265ae557e0	Créez une entreprise individuelle à un guichet unique du CEFORE, généralement en 48 à 72 heures.
+0ca4c32687	TVA de 18 % ; les services exportés sont exonérés ; les petits contribuables ne facturent pas la TVA.
+11ebf55cd4	En dessous de 15 millions de FCFA de chiffre d'affaires, une contribution annuelle forfaitaire des microentreprises (CME) couvre tous les impôts.
+d1b238d8e9	Oui, mais les devises doivent être cédées à une banque agréée.
+37bb1f1e00	Seulement avec une autorisation du ministre des Finances après avis de la BCEAO.
+18562442d9	Aucune condition d'inscription d'une passerelle locale n'a été trouvée.
+f142e15283	Impôt CME forfaitaire et faible, et exonération de patente de 2 ans pour les entreprises RSI.
+0ecec1cdba	Loi 001-2021 : déclarez au préalable vos traitements de données personnelles à la CIL.
+f367f1d4d5	Les acheteurs de services peuvent se rétracter sous 7 jours ouvrables.
+78ea380490	Carte nationale d'identité (CNIB), en cours de remplacement par la carte biométrique de l'AES.
+9e281f72d9	Inscrivez-vous au BULSTAT dans les 7 jours suivant le début de votre activité.
+7b102287d0	Votre UCN (numéro civil à 10 chiffres), ou le LNCH pour les résidents étrangers.
+1c33535d38	Inscrivez-vous au BULSTAT sous 7 jours, puis auprès de la NRA dans les 7 jours suivants.
+24fd25b12c	TVA de 20 % ; enregistrez-vous dans les 7 jours suivant le dépassement de 51 130 € de chiffre d'affaires.
+dbaf0cdedf	Impôt sur le revenu forfaitaire de 10 %, plus environ 27,8 % de cotisations sociales d'indépendant.
+b703dce054	Les freelances déduisent forfaitairement 25 % de frais, l'impôt revient donc à environ 7,5 %.
+83ff59e13d	Лична карта (carte d'identité) ou passeport.
+34fba3d848	Versé sur votre compte bancaire en BHD.
+a397bfe03a	Comptes personnels uniquement.
+c5967a1bef	Au Bahreïn, Wise est réservé aux comptes personnels, pas professionnels.
+bfb1f93148	Aucun TIN n'est attribué pour l'échange d'informations ; votre numéro CPR vous identifie.
+8f14b6c380	Inscrivez-vous auprès du ministère de l'Industrie, du Commerce et du Tourisme ; étapes pas encore confirmées.
+fd0282cc22	TVA de 10 % au-delà de 37 500 BHD par an.
+fa1dd77f6d	Pas d'impôt sur le revenu des personnes.
+9755d018dc	Oui, librement ; aucun contrôle des changes.
+3f2ce22619	Loi sur la protection des données personnelles (loi 30 de 2018), en vigueur depuis 2019.
+ea9050d5d1	Carte CPR (numéro personnel à neuf chiffres).
+880f7a8b51	D'anciennes brochures indiquent 100 millions de BIF ; le seuil de TVA est de 25 millions de BIF depuis juillet 2026.
+dca6d7059e	NIF ; la façon de l'obtenir n'est pas encore confirmée.
+6b1b1cb7d6	Les sociétés se créent au guichet unique de l'agence de promotion des investissements ; la voie pour les entrepreneurs individuels n'est pas confirmée.
+73ddd9daf0	TVA de 18 % ; seuil d'enregistrement abaissé à 25 millions de BIF à partir de juillet 2026.
+d6dc1fbc86	Les règles pour les particuliers qui exportent des services ne sont pas confirmées ; des règles de rapatriement s'appliquent aux exportateurs.
+debfa0cae4	Un projet de loi sur la protection des données a été adopté par l'Assemblée nationale en janvier 2026.
+bd68c369c3	Carte nationale d'identité (CNI).
+7d7d5d62f8	Vendez des produits numériques ou des logiciels via un revendeur officiel (merchant of record) : Paddle (logiciels/SaaS uniquement ; chaque vendeur est examiné). La plateforme est le vendeur légal vis-à-vis de vos clients, gère les paiements par carte et la TVA ou taxe de vente due par le consommateur, et vous reverse l'argent. Vous devez quand même déclarer ces versements comme revenus dans votre pays.
+eb4e1b2162	Versé sur votre compte bancaire en XOF.
+c53668c017	Les recettes en devises venant de l'étranger doivent être cédées à une banque agréée.
+05298459e6	IFU, délivré avec votre immatriculation d'entreprise en ligne.
+80844c88fb	Créez une entreprise individuelle en ligne sur monentreprise.bj pour 10 000 FCFA, en quelques heures.
+495c1e8376	Pas encore confirmé ; les petits contribuables à la TPS ne pourraient pas facturer la TVA.
+cb5e87af17	En dessous de 50 millions de FCFA de chiffre d'affaires, l'impôt synthétique TPS s'applique ; taux actuel non confirmé.
+4820479a3c	KKiaPay et FedaPay sont des agrégateurs locaux ; l'accès des particuliers n'est pas confirmé.
+f569c636c5	Les nouvelles entreprises individuelles sont dispensées de patente pendant 12 mois.
+ca5ad7b93a	Déclarez vos traitements de données à l'APDP avant de commencer.
+e810b39828	Les acheteurs peuvent se rétracter sous 15 jours ouvrables.
+20b4051895	Carte nationale d'identité biométrique ou CIP.
+eb797b2c45	Versé sur votre compte bancaire en BND.
+65a337a073	Les étrangers sans résidence permanente (PR) ne peuvent pas enregistrer d'entreprise individuelle.
+e32db9daa6	Pas de TIN pour les particuliers ; seules les sociétés sont imposées.
+b023444192	Les citoyens et résidents permanents (PRs) enregistrent un nom commercial auprès du ROCBN en ligne via OCP.
+8619d2e38f	Pas de TVA, de GST ni de taxe sur les ventes.
+9272375d7b	Pas d'impôt sur le revenu des personnes, y compris sur les revenus de freelance.
+988cf7c9a5	Oui, librement ; aucun contrôle des changes, mais les mouvements de devises sont surveillés.
+53e53680f9	Pas encore confirmé ; sans contrôle des changes, les comptes en devises sont probablement autorisés.
+3dbcf3b5a7	L'absence d'impôt sur le revenu des personnes est le principal avantage.
+1920ef3ff4	Ordonnance de 2025 sur la protection des données personnelles, en grande partie en vigueur depuis janvier 2026.
+0696880bb5	Loi sur la protection des consommateurs (pratiques commerciales loyales) ; droit d'annulation en ligne non confirmé.
+9289feedc2	NRIC (carte nationale d'identité).
+810327a4f9	Versé sur votre compte bancaire en BOB.
+846ddeae83	Gardez vos revenus étrangers là où vous pouvez réellement y accéder pendant la pénurie de dollars.
+e5d3fb52f9	NIT ; la façon de l'obtenir n'est pas encore confirmée.
+72cc47a8cd	Inscrivez-vous au SEPREC, le registre du commerce ; étapes pas encore confirmées.
+7e2a94cb9c	TVA de 13 % ; inscription auprès du SIN, sans seuil indiqué.
+0ed294d9b0	Seuls les revenus de source bolivienne sont imposés ; le travail effectué en Bolivie compte, généralement à 13 % (RC-IVA).
+1a918d1e2d	Difficile : la pénurie de dollars limite les retraits et les virements internationaux.
+830b2283d2	Cédula de identidad (carte d'identité).
+5c1be91843	Retirez vers votre banque brésilienne.
+9cf0a9891f	Les services dont le résultat se produit au Brésil sont imposés, même s'ils sont payés depuis l'étranger.
+1151ae21bb	Le MEI ne couvre que les activités listées ; de nombreuses professions en seraient exclues.
+ddee10efee	Déclarez à la Banque centrale (CBE) les avoirs à l'étranger supérieurs à 1 million de US$.
+9064399cbf	CPF, le numéro de contribuable de la Receita Federal.
+b17acc0681	Pas obligatoire : travaillez comme autônomo, ou ouvrez un MEI si votre activité y a droit.
+48185e041a	Pas encore de TVA ; les services exportés ne paient pas l'ISS si le résultat se produit à l'étranger.
+373eb56e4a	Payez le carnê-leão chaque mois sur vos revenus étrangers ; jusqu'à 5 000 R$ par mois sont de fait exonérés.
+0309c62cc8	Oui ; vous pouvez même garder vos recettes d'exportation à l'étranger sans les convertir.
+7aa7f796fd	À l'étranger, oui ; les comptes locaux en devises pour les particuliers ne sont pas confirmés.
+88129e385a	Mercado Pago ouvre un compte professionnel avec votre seul CPF, sans société.
+6b7f424895	Revenus gardés à l'étranger, pas d'ISS sur les exportations et zéro impôt jusqu'à 5 000 R$ par mois.
+13c26a0ea2	LGPD, contrôlée par l'ANPD ; amendes jusqu'à 50 millions de R$ par infraction.
+bc1b5d495b	Les acheteurs peuvent annuler leurs achats en ligne sous 7 jours ; affichez votre CPF ou CNPJ en ligne.
+8e475173ec	Carte d'identité nationale (CIN), qui utilise votre numéro de CPF.
+18bd264f0b	Versé sur votre compte bancaire en BSD.
+ec5549fe35	Vous ne pouvez pas simplement garder vos revenus en USD dans le pays pour un usage général ; obtenez l'accord de la Banque centrale.
+930f436849	TVA de 10 % au-delà de 100 000 BSD sur toute période de 12 mois.
+d5f1268ffa	Pas d'impôt sur le revenu.
+8cd4e299d7	Le contrôle des changes s'applique aux résidents ; règles de conversion non confirmées.
+011357e32d	Restreint : les comptes en devises des résidents ont des usages limités et nécessitent des autorisations.
+a81777dbe7	Stripe (n'accepte pas les entreprises d'ici) ; soldes Wise (les résidents ne peuvent pas détenir d'argent).
+984d76de79	Les comptes en devises des résidents ne sont autorisés que pour des recettes en devises et des obligations à l'étranger.
+e242ab9fec	Les comptes en devises des résidents ne sont autorisés que pour des recettes en devises et des obligations à l'étranger. Demandez à votre banque d'en ouvrir et d'en faire approuver un pour vos recettes d'exportation (Banque centrale des Bahamas), et gardez les factures qui prouvent que cet argent est votre chiffre d'affaires.
+27c70b6273	Versé sur votre compte bancaire en BTN.
+734d50edea	Inscrivez-vous auprès du ministère de l'Industrie, du Commerce et de l'Emploi ; étapes pas encore confirmées.
+6886ac68a2	GST de 5 % depuis janvier 2026 ; les exportations sont exonérées.
+ed96e7fd40	Tranches indiquées : 0 % jusqu'à 300 000 BTN, puis jusqu'à 25 %.
+b682f69c12	Oui : les banques proposent aux résidents un compte d'épargne en devises FC I.
+6986d8cc1f	Carte de citoyenneté bhoutanaise (carte d'identité nationale électronique).
+a4258111f0	Versé sur votre compte bancaire en BWP.
+4e047f5c13	Inscrivez-vous auprès du BURS pour l'impôt ; étapes pour le TIN pas encore confirmées.
+6352d8b3b6	Inscrivez-vous auprès de la CIPA ; étapes pas encore confirmées.
+2e8a03263d	TVA de 14 % au-delà de 1 million de BWP par an.
+78a8d01efc	Revenus de source botswanaise imposés : 0 % jusqu'à 48 000 BWP, puis jusqu'à 25 %.
+78d2964dc3	Oui, librement ; tout contrôle des changes a été aboli avant 1999.
+49e2213122	Très probable, puisqu'il n'y a plus de contrôle des changes ; non confirmé.
+2622d098bf	Loi de 2024 sur la protection des données : prévenez le commissaire avant tout traitement automatisé.
+0292899fe5	Omang (carte nationale d'identité).
+4fdfe2014f	Pas via les grandes plateformes.
+a9006dc7f6	Les sanctions les empêchent de servir les résidents.
+83859f0648	Indisponible pour les résidents d'ici (sanctions).
+7a274dae99	Les sanctions bloquent de nombreuses plateformes ; nous ne présentons que des voies légales.
+0eb307ed74	UNP (numéro de compte contribuable) ; la façon de l'obtenir n'est pas encore confirmée.
+2cbd1f0e0a	TVA de 20 % ; enregistrez-vous dès que vous réalisez des opérations imposables.
+f7aa4e79ba	Revenu mondial imposé ; les entrepreneurs individuels paient 16 % sur leurs revenus d'activité.
+e98fc4b985	Les sanctions limitent les circuits bancaires et l'accès aux plateformes ; règles de change non confirmées.
+4e2f0c2867	Carte nationale d'identité (depuis 2021).
+1e1fb5202b	Stripe (n'accepte pas les entreprises d'ici) ; versements de sites qui paient via PayPal Payouts (PayPal ne liste pas ce pays) ; soldes Wise (les résidents ne peuvent pas détenir d'argent) ; les grandes plateformes de freelance et de paiement (sanctions ou règles de leurs partenaires).
+544d78ffda	Ces plateformes excluent les résidents, pour des raisons de sanctions ou de partenaires de paiement selon le pays. Utiliser le compte de quelqu'un d'autre, une adresse étrangère ou un VPN pour paraître ailleurs enfreint leurs conditions, expose au gel des fonds et peut enfreindre le droit des sanctions. Ne le faites pas. Les options légales se limitent à ce que permettent les banques locales et les circuits locaux agréés, et elles évoluent avec la politique de sanctions : vérifiez la situation actuelle avant de vous appuyer sur une voie.
+b60d5329bc	En dessous de 50 000 US$ par an, vous devrez probablement convertir vos revenus en BZD.
+549e6cfe06	TIN du Belize Tax Service Department.
+d83777a00f	Inscrivez-vous auprès du BCCAR ; étapes pas encore confirmées.
+01a364ca21	Seuls les revenus de source bélizienne sont imposés ; 0 % indiqué jusqu'à 26 000 BZD, puis 25 %.
+fea8489b32	Restreint : il faut une autorisation, et les petits revenus peuvent ne pas y avoir droit.
+88ccacb875	Un compte en devises de résident nécessite l'autorisation de la Banque centrale, demandée via votre banque.
+a23b6d97be	Un compte en devises de résident nécessite l'autorisation de la Banque centrale, demandée via votre banque ; une entité y a droit à partir de 50 000 US$ par an d'activité en devises. En dessous, recevez l'argent sur votre compte en BZD et conservez les factures (Directive 10 de la Banque centrale du Belize).
+18c66fa60c	Versé sur votre compte bancaire en CAD.
+be2fccf766	Les paiements des clients étrangers comptent pour le seuil de GST de 30 000 CAD.
+8b82caf38a	Le Canada attribue des numéros fiscaux aux résidents ; celui qu'utilisent les freelances n'est pas encore confirmé.
+107585e120	Un entrepreneur individuel n'a besoin d'un numéro d'entreprise de l'ARC (CRA) que pour la TPS/TVH (GST/HST).
+6a64edb240	GST (TPS) de 5 % ; enregistrez-vous au-delà de 30 000 CAD par an, ventes à l'étranger comprises.
+0b5741213d	Revenu mondial imposé de 14 à 33 % au niveau fédéral, plus l'impôt provincial.
+a2471c1bef	Oui, librement ; le Canada n'a plus de contrôle des changes depuis 1951.
+d99a7ac640	Oui : des banques comme RBC et TD proposent des comptes personnels en dollars américains.
+c100713059	La LPRPDE (PIPEDA) s'applique aux entreprises qui traitent des renseignements personnels.
+cdd26d326e	Des lois de protection des consommateurs en ligne existent ; règles de remboursement précises pas encore confirmées.
+801498ec4c	Permis de conduire, pièce d'identité provinciale avec photo ou passeport.
+1f8625c4d9	D'anciens guides disent que les revenus étrangers ne sont pas imposés ; cela a changé en janvier 2026.
+6e80dddb71	Le délai de remboursement n'est que de 72 heures, pas de 14 jours.
+7035913823	Numéro fiscal attribué au GUCE lors de l'immatriculation de l'entreprise.
+f628830354	Immatriculez-vous via le guichet unique GUCE ; coût et délai réels très variables.
+41b6d91853	TVA de 16 % au-delà de 80 millions de CDF de chiffre d'affaires ; traitement des services exportés non confirmé.
+e3968e54ea	Depuis 2026, le revenu mondial est imposé ; les microentreprises en dessous de 25 millions de CDF paient un forfait de 30 USD.
+b3487ccc4d	Oui ; les exportateurs de services n'ont pas à céder leurs recettes en devises.
+ff6f575421	Oui : les banques ouvrent librement des comptes en devises ; les comptes en USD sont courants.
+dac62504b2	Le mobile money est très répandu ; aucune passerelle pour vendeurs particuliers en ligne trouvée.
+a575878963	Aucun avantage pour les freelances ; les microentreprises paient un forfait de 30 USD.
+b40ca3ac30	Code du numérique : déclarez vos traitements de données avant de commencer ; l'autorité de contrôle n'est pas encore en place.
+b0d2fa4879	Les acheteurs peuvent se rétracter dans un délai de 72 heures seulement.
+96830bb17f	Carte d'électeur (pas de carte d'identité nationale depuis 1997).
+9781b721a0	Déclarez à la BEAC tous les comptes que vous détenez à l'étranger.
+2347cfb845	NIF délivré par l'administration fiscale (DGI).
+952c753211	Immatriculez une entreprise individuelle au guichet unique GUFE à Bangui.
+522fd341d6	TVA de 19 % à partir de 30 millions de FCFA de chiffre d'affaires ; les exportations sont au taux zéro.
+a5a4bbfd99	Régime forfaitaire de base indiqué en dessous de 30 millions de FCFA de chiffre d'affaires.
+d248c42885	Oui, mais sous le contrôle des changes de la CEMAC ; rapatriez vos revenus via votre banque.
+4d53b10d82	Non : les résidents ne peuvent pas ouvrir de comptes en devises sur place ; déclarez vos comptes à l'étranger.
+c79b6c0e36	Orange Money est le principal portefeuille ; aucune inscription à une passerelle en ligne n'a été confirmée.
+e3fd7385ad	Loi 24-001 sur les données personnelles ; les transferts à l'étranger exigent une protection équivalente.
+0dd108b37f	Aucune loi sur le commerce électronique trouvée ; la directive de la CEMAC sur les consommateurs s'applique.
+81cb1bf98d	NIU délivré par la direction des impôts (DGID), indiqué sur vos factures.
+ad8652113f	Immatriculez-vous via l'ACPCE, le guichet unique, désormais aussi en ligne.
+429632f5ac	TVA de 18,9 % au-delà de 100 millions de FCFA de chiffre d'affaires ; aucun taux zéro trouvé pour les services exportés.
+76b3e3163c	Revenu mondial imposé ; en dessous de 100 millions de FCFA de chiffre d'affaires, un régime forfaitaire IGF s'applique.
+354ae3691c	MTN MoMo et Airtel Money dominent ; aucune passerelle pour les particuliers trouvée.
+869bd8eaba	Aucun avantage pour les freelances ; le régime forfaitaire IGF est la principale simplification.
+015000b68f	Loi 29-2019 : déclarez vos traitements de données à la commission de protection.
+a23e2844ab	La loi 37-2019 sur le commerce électronique existe, mais ses règles de remboursement n'ont pas été trouvées.
+5249b09f10	Versé sur votre compte bancaire en CHF.
+5b84ef1c86	Les paiements des clients étrangers comptent pour le seuil de TVA de 100 000 CHF.
+87d9918b3b	Les amendes en matière de protection des données vous visent personnellement, pas votre entreprise.
+cfea6ce499	Numéro IDE (UID) pour les entités ; numéro fiscal des particuliers pas encore confirmé.
+66ffc021a4	Inscription au registre du commerce seulement au-delà de 100 000 CHF de recettes ; affiliez-vous aussi à l'AVS (AHV).
+2f80d080d5	TVA de 8,1 % dès que le chiffre d'affaires mondial atteint 100 000 CHF.
+770c16996e	Revenu mondial imposé aux taux fédéral, cantonal et communal, plus l'impôt sur la fortune.
+82f41e9e57	Oui, librement ; aucun contrôle des changes.
+1c91bd3213	Oui : comptes dans n'importe quelle devise, en Suisse ou à l'étranger.
+0b3f376f22	LPD révisée (FADP) depuis 2023 ; amendes jusqu'à 250 000 CHF infligées personnellement aux individus.
+e474c97498	Carte d'identité suisse ou passeport.
+a4eae3d1da	Retirez en francs CFA vers une banque ivoirienne.
+7c305acadc	Envoi uniquement ici : pas de retrait vers les banques locales.
+242c13aa29	Connectez Paystack pour être payé.
+a4073d399c	Disponible via Paystack, une société du groupe Stripe.
+f2de5f1af3	Wise n'est pas disponible pour les résidents, même si des guides le présentent comme officiel.
+1ccef60044	Compte contribuable, attribué avec votre déclaration d'existence fiscale (DFE) au CEPICI.
+4bd41e79aa	Déclarez-vous comme entreprenant au guichet unique du CEPICI, en général en 24 à 48 heures.
+2cd1ebbcb7	Les contribuables entreprenants en dessous de 50 millions de FCFA ne facturent pas la TVA.
+6c262bf004	Impôt sur le chiffre d'affaires de l'entreprenant : 2,5 % pour les services jusqu'à 5 millions de FCFA, 5 % jusqu'à 50 millions de FCFA.
+4a9bd5ff50	Paystack Starter accepte les particuliers non immatriculés avec une pièce d'identité et un compte mobile money ou bancaire.
+ccd3943a27	Impôts faibles sur le chiffre d'affaires remplaçant la TVA et l'impôt sur les bénéfices ; les jeunes entreprises peuvent être exonérées pendant trois ans.
+761280621b	Loi 2013-450 : déclarez vos traitements de données personnelles à l'ARTCI.
+cb54d05256	Délai de 10 jours ouvrables indiqué pour renvoyer des biens ; non confirmé dans la loi.
+38de4eb11a	Carte nationale d'identité (CNI) ou passeport.
+2bb18c73ee	PayPal (indisponible) ; soldes Wise (les résidents ne peuvent pas détenir d'argent).
+b95471574d	Acceptez les paiements par carte avec Paystack
+a4d917ef50	Paystack, une société du groupe Stripe, couvre ce pays.
+f4a8413723	Paiements par carte sur votre propre site via Paystack (une société du groupe Stripe). Stripe classe ce pays dans son réseau étendu.
+c1952ed7fb	Versé sur votre compte bancaire en CLP.
+ca63ed8033	La retenue sur honoraires passe à 16 % en 2027 et à 17 % en 2028.
+d8112ea569	RUT, le numéro du registre fiscal national.
+4e03d78c83	Déclarez votre « inicio de actividades » (début d'activité) auprès du SII en ligne dans les 2 mois suivant le démarrage.
+1eb64d6060	TVA de 19 % ; vous vous inscrivez auprès du SII au démarrage, sans seuil.
+df59d983de	Revenu mondial imposé par l'impôt global complémentaire, progressif.
+02ddec2ecf	Oui, librement ; aucun contrôle restrictif sur les revenus étrangers.
+662e482d70	Oui : des banques comme Santander et Banco de Chile proposent des comptes courants en dollars.
+9d4b6d612b	Pas de réduction spéciale pour les freelances ; la retenue sur la boleta est de 15,25 % en 2026, régularisée chaque année.
+44d7ae75c8	Une loi de protection des consommateurs en ligne existe ; délais de remboursement pas encore confirmés.
+e211aef449	Cédula de identidad (carte d'identité nationale).
+39bc7b2795	Vous pouvez recevoir, mais pas retirer vers une banque locale.
+ea79fc3987	Les soldes PayPal ne peuvent pas être retirés vers les banques camerounaises.
+46ed6cb241	Numéro de contribuable NIU, uniquement en ligne via la DGI avec le numéro de votre carte d'identité.
+f06309caaf	Immatriculez une entreprise individuelle au guichet unique CFCE, pour environ 46 500 FCFA.
+972528d9b5	TVA de 19,25 % ; les contribuables à l'IGS ne la facturent pas ; les exportations sont au taux zéro.
+89464d0b44	Jusqu'à 50 millions de FCFA de chiffre d'affaires, l'impôt général synthétique (IGS) remplace l'impôt sur le revenu et la TVA.
+21b946b24f	Les comptes marchands de mobile money exigeraient l'immatriculation au RCCM et un NIU.
+50fcafa2d9	L'impôt synthétique IGS jusqu'à 50 millions de FCFA est la principale simplification.
+3ae9898fca	Loi 2024/017 sur la protection des données, en vigueur depuis juin 2026.
+2f48d344e4	Les acheteurs peuvent se rétracter sous 15 jours après réception des biens.
+29811d49ff	Fonctionne, avec des restrictions PayPal supplémentaires pour la Chine.
+0d527e9b1c	Au-delà de 50 000 USD par an, il faut des contrats pour convertir les revenus étrangers.
+0eec0b2f1f	Les étrangers ne peuvent pas enregistrer d'entreprise individuelle familiale.
+eef5b29ddd	Les entités utilisent le code unifié de crédit social ; le numéro des particuliers n'est pas encore confirmé.
+3d0697fc9f	Enregistrez une entreprise individuelle familiale ; les tout petits vendeurs en ligne sous 100 000 RMB peuvent être exemptés.
+a3a4955c86	TVA des petits contribuables à 1 % jusqu'en 2027 ; exonération jusqu'à 100 000 RMB par mois.
+ac8004fdb5	Revenu mondial imposé ; honoraires de freelance de 3 à 45 %, revenus d'activité de 5 à 35 %.
+ce6a11bd1d	Oui, mais convertir plus de 50 000 USD par an exige des justificatifs.
+40e8a8edc3	Oui : les banques proposent des comptes d'épargne en devises ; le quota de conversion s'applique.
+65b3d19e6b	Les ventes intérieures passent par Alipay et WeChat Pay ; pas encore étudié.
+d247c94cd4	Allègement de TVA des petits contribuables : taux de 1 % et exonération mensuelle.
+46637bd835	PIPL depuis 2021 ; amendes jusqu'à 50 millions de RMB ou 5 % du chiffre d'affaires.
+62204f7613	Les acheteurs en ligne peuvent renvoyer des biens sous 7 jours sans motif.
+1fe644e3fd	Carte d'identité de résident (居民身份证).
+15ecfb0820	PayPal, avec des limites
+baf796c93a	Versé sur votre compte bancaire en COP.
+dfb36a17c3	Retirez en pesos ou en USD vers une banque colombienne.
+8fa55f5af6	Wompi verse aux particuliers leur premier paiement 30 jours après la première vente.
+4a52f1e140	L'exonération d'IVA à l'export exige un client sans activité en Colombie.
+efacb4996a	NIT, attribué lors de l'inscription au RUT.
+be7d8d9711	Inscrivez-vous au RUT auprès de la DIAN, gratuitement en ligne avec votre cédula.
+6476057888	IVA (TVA) de 19 % ; les services utilisés uniquement à l'étranger sont exonérés ; en dessous de 3 500 UVT, aucune obligation d'IVA.
+47a656ccf3	Revenu mondial imposé de 0 à 39 % ; le Régimen Simple commence à 5,9 % pour les services.
+626d113871	Oui, librement ; les exportations de services n'ont pas à passer par le marché des changes officiel.
+d80e42bc85	Non : les comptes en dollars ne sont pas autorisés en Colombie, mais les comptes à l'étranger le sont.
+61729e0c31	Wompi accepte les particuliers avec leur RUT ou leur cédula et un compte Bancolombia ou Nequi.
+b5f6e4ef8f	Régimen Simple à 5,9 %, exonération d'IVA à l'export et pas d'IVA en dessous de 3 500 UVT.
+f159f72528	La loi 1581 s'applique ; les particuliers et les petites entreprises n'ont pas à déclarer leurs fichiers.
+39aaf9ced1	Les acheteurs peuvent se rétracter dans les 5 jours ouvrables suivant la livraison (retracto).
+993ccdd939	Cédula de ciudadanía (carte d'identité nationale).
+394bc3d569	Versé sur votre compte bancaire en CRC.
+847f79ff98	Les services que vous réalisez depuis le Costa Rica sont imposables, même pour des clients étrangers.
+5a07572bf6	Pas de TIN à proprement parler ; toute personne ayant des revenus doit s'inscrire auprès de l'administration fiscale.
+6fe03cad3f	Inscrivez-vous comme professionnel indépendant auprès de Hacienda sur la plateforme TRIBU-CR.
+29629260a9	TVA de 13 % ; seuil national et traitement des exportations pas encore confirmés.
+78e24880d9	Seuls les revenus de source costaricienne sont imposés, y compris le travail réalisé sur place pour des clients étrangers.
+bd743cb5a4	L'embargo américain bloque la plupart des plateformes de paiement ; nous ne présentons que des voies légales.
+4bff7c3fd1	Carné de Identidad et NIT ; la façon de les obtenir n'est pas encore confirmée.
+f622b46dee	Les sanctions bloquent la plupart des plateformes et banques liées aux États-Unis ; règles de change non confirmées.
+6765a7a425	Carnet de identidad (carte d'identité), obligatoire dès 16 ans.
+fa2e3aa88f	Stripe (n'accepte pas les entreprises d'ici) ; PayPal (indisponible) ; soldes Wise (les résidents ne peuvent pas détenir d'argent) ; les grandes plateformes de freelance et de paiement (sanctions ou règles de leurs partenaires).
+2718a187f5	Les sociétés se créent en un jour à la Casa do Cidadão (environ 100 USD) ; voie pour les entrepreneurs individuels non confirmée.
+7597de9232	TVA de 15 % ; les contribuables au REMPE paient à la place l'impôt unifié de 4 %.
+b87e3db92e	Revenu mondial imposé ; les petites entreprises peuvent payer un impôt unifié de 4 % (REMPE).
+49230bab57	Pas encore confirmé ; l'escudo est arrimé à l'euro.
+6b52c0739a	Pas encore confirmé ; des règles existent pour les comptes en devises des résidents.
+15aed397b2	L'impôt unifié de 4 % sur les ventes du REMPE est la principale simplification.
+1bb1077af6	Régime de protection des données contrôlé par la CNPD.
+5929e0c3cf	Cartão Nacional de Identificação (CNI, carte nationale d'identité).
+0725a24f61	Vendre des services B2B à des clients de l'UE exige une immatriculation à la TVA quel que soit le chiffre d'affaires.
+d031b78297	L'assurance sociale des indépendants représente 16,6 % du revenu assurable.
+745923fe66	TIN du Tax Department ; vous devez vous inscrire vous-même, ce n'est pas automatique.
+f56440031c	Inscrivez-vous auprès du Tax Department et du Social Insurance Service ; étapes pas encore confirmées.
+04e3ab7010	TVA de 19 % au-delà de 15 600 €, mais les services B2B vers l'UE exigent l'immatriculation dès le départ.
+1eabdfe914	Revenu mondial imposé ; 0 % jusqu'à 22 000 €, puis jusqu'à 35 %, plus l'assurance sociale.
+70fd4442f8	Carte d'identité ou passeport.
+ded67024af	Paiements de clients via PayPal (sur la liste PayPal Payouts avec la mention « Send, receive, and withdraw in local currency » : envoyer, recevoir et retirer en monnaie locale).
+837e8d5e07	Versé sur votre compte bancaire en CZK.
+40236e50c0	Dépasser 2 536 500 CZK fait de vous un assujetti à la TVA dès le lendemain.
+c5d0fbd909	Votre numéro d'identification personnel, jusqu'à votre immatriculation à la TVA.
+ebb63f71a7	Obtenez une licence professionnelle (živnostenský list) pour 1 000 CZK et devenez OSVČ (indépendant).
+d2cd6a5bcb	TVA de 21 % dès que le chiffre d'affaires en Tchéquie dépasse 2 millions de CZK par an.
+cdec77a736	Revenu mondial imposé à 15 %, et à 23 % au-delà d'environ 1,76 million de CZK.
+9e36236288	Régime forfaitaire : un paiement mensuel couvre l'impôt sur le revenu et les cotisations, jusqu'à 2 millions de CZK.
+f082bd1866	Občanský průkaz (carte d'identité) ou passeport.
+53ec91cf7d	Renoncer au régime Kleinunternehmer vous engage pour cinq ans.
+8cfb2a84e7	Inscrivez-vous auprès du Finanzamt dans le mois environ suivant le démarrage.
+8bd39ecc83	Numéro d'identification fiscale (Steuer-ID) de l'Office fédéral central des impôts.
+a4e51cd83f	Les freelances s'inscrivent auprès du Finanzamt via ELSTER dans le mois ; les commerçants déclarent aussi un Gewerbe.
+e9eba6c321	TVA de 19 % ; pas de TVA en dessous de 25 000 € l'année précédente avec le régime Kleinunternehmer.
+d7402f0da6	Revenu mondial imposé de façon progressive jusqu'à 45 %, plus la contribution de solidarité.
+a81c18fe9a	Oui : de nombreuses banques proposent des sous-comptes en devises (Fremdwährungskonto).
+49694c1ac4	Régime Kleinunternehmer : pas de TVA sur les factures en dessous de 25 000 € par an.
+ca70f89ec4	Payez la patente annuelle ; étapes d'immatriculation pas encore confirmées.
+a0947f30e7	TVA de 10 % pour un chiffre d'affaires au-delà de 10 à 20 millions de DJF ; les exportations sont exonérées.
+917f627091	Les bénéfices d'activité ne sont imposés que sur l'activité à Djibouti ; règles pour les personnes non confirmées.
+fc7b76f0ff	Oui, librement ; aucune restriction de change, et le franc est arrimé au dollar.
+0cfa206ad7	Très probable, sans contrôle des changes ; non confirmé.
+cf2bf952c1	Le Code du numérique de 2025 couvre les données personnelles ; sa commission n'est pas encore en place.
+68a754256a	Carte nationale d'identité.
+10cead32e4	Versé sur votre compte bancaire en DKK.
+5cdd544ee9	Votre numéro CPR est votre numéro d'identification fiscale.
+6c6b1d5b0b	Inscrivez-vous sur Virk.dk pour obtenir un numéro CVR ; il vous faut un numéro CPR.
+70799f6d8d	TVA de 25 % dès que les recettes dépassent 50 000 DKK par an.
+07df231beb	Revenu mondial imposé jusqu'à environ 57 % (60,5 % avec la taxe sur le marché du travail).
+55183c1248	Passeport ou permis de conduire.
+8937555978	Inscrivez-vous auprès du CIPO et de l'Inland Revenue Division ; étapes pas encore confirmées.
+fd8cebf4d4	TVA de 15 % au-delà de 250 000 XCD par an ; les exportations sont au taux zéro.
+a4c9fbea7d	Revenu mondial imposé : abattement de 30 000 XCD, puis 15 à 35 %.
+d203ddd53c	Carte d'identité nationale polyvalente, facultative pour les nationaux.
+51c8eca36e	Versé sur votre compte bancaire en DOP.
+0b331190af	RNC ; pour les Dominicains, c'est le numéro de leur cédula, enregistré gratuitement en ligne.
+6736da4f42	Inscrivez-vous au RNC auprès de la DGII, comme tout contribuable.
+349081230e	ITBIS (TVA) de 18 % ; inscription via l'enregistrement fiscal général ; les exportations sont à 0 %.
+9178c1e0c1	Système territorial : taux de 0 à 25 % ; les gains d'investissements à l'étranger sont imposés après la troisième année.
+1b6ada197e	Oui, librement ; vous pouvez acheter et vendre des devises dans les banques.
+5e67892dae	Oui : les banques proposent des comptes en dollars et en euros.
+3024875287	Cédula de identidad y electoral (carte d'identité et d'électeur).
+256fb55d8d	Oui, avec des limites, via PayPal.
+6e9f55f79b	Pour recevoir, il faut une carte étrangère ou une banque américaine ; les retraits sont limités.
+db2b79ae22	Versé sur votre compte bancaire en DZD.
+1c8da7251d	Très utilisé, mais les retraits en dinars sont restreints.
+3f8f241707	Rapatriez sous 120 jours ; les guides antérieurs à août 2026 indiquent encore 360.
+2d1e265ea1	Le retrait des fonds PayPal en Algérie n'est pas clair ; il n'existe pas de liste officielle des cartes qui fonctionnent.
+6756ed9440	Numéro fiscal NIF, plus l'affiliation à la CASNOS pour les auto-entrepreneurs.
+5337a466cf	Auto-entrepreneur : inscription en ligne auprès de l'ANAE, chiffre d'affaires inférieur à environ 5 millions de DZD par an.
+24d4d28bfe	TVA de 19 % ; l'IFU de 0,5 % des auto-entrepreneurs la couvre.
+a7ff90c226	Les auto-entrepreneurs paient un IFU de 0,5 % sur le chiffre d'affaires au lieu de l'impôt sur le revenu et de la TVA.
+ee09c8a68b	Oui, mais rapatriez vos recettes d'exportation dans une banque algérienne sous 120 jours.
+a83be1d1e2	Oui : un compte devises professionnel conserve 100 % des recettes de services rapatriées.
+a3a0355790	Chargily Pay accepte les cartes locales CIB et EDAHABIA ; pas encore les cartes internationales.
+64e3d51610	Impôt auto-entrepreneur de 0,5 % et rétention de 100 % des devises pour les exportations de services.
+a715ad5947	Loi 18-07 : déclarez au préalable vos traitements de données à l'ANPDP.
+4a8256a743	Loi 18-05 : affichez votre numéro d'immatriculation ; retours possibles en cas de livraison tardive.
+76e3d905fd	Carte nationale d'identité biométrique (CNI) avec votre NIN.
+321138a979	Versé sur votre compte bancaire en USD.
+fb8cde178a	Envoyer de l'argent à l'étranger coûte un impôt de sortie de capitaux de 5 % (ISD).
+d33e8cb243	Le SRI fait passer chaque année les contribuables d'une catégorie RIMPE à l'autre ; vérifiez votre RUC.
+ed53cd6967	RUC (registre unique des contribuables) du SRI.
+94c5351c68	Inscrivez-vous auprès du SRI (Servicio de Rentas Internas) ; étapes pas encore confirmées.
+ce50ea150e	TVA de 15 % ; seuil national et règles d'exportation pas encore confirmés.
+9ec2327c98	Les résidents sont aussi imposés sur leurs revenus étrangers, avec un crédit d'impôt.
+be2b6f2f63	Inutile : l'Équateur utilise le dollar américain, donc les comptes locaux sont en dollars.
+8bbd96793c	RIMPE : un régime simplifié pour les revenus jusqu'à 300 000 USD.
+4bcb7c0812	L'e-Residency ne permet pas d'exercer comme FIE depuis l'étranger.
+a6cc7e5bd2	Le compte entrepreneur taxe les recettes brutes ; aucune dépense n'est déduite.
+8293ef09d4	Votre code d'identification personnel.
+306f4cbfc6	Immatriculez-vous comme entrepreneur individuel (FIE) en ligne pour 13 € ; vous devez vivre en Estonie.
+44532f6b5d	TVA de 24 % dès que le chiffre d'affaires en Estonie dépasse 40 000 € par an.
+6eb9d7477b	Revenu mondial imposé au taux forfaitaire de 22 %, plus la taxe sociale des indépendants.
+ae081c36f0	Compte entrepreneur chez LHV : 20 % forfaitaire sur les recettes, sans comptabilité, jusqu'à 40 000 €.
+cb023bcd97	ID-kaart (carte d'identité) ou passeport.
+f5a6dc419a	Disponible ; modes de retrait non confirmés.
+d73fda9480	Versé sur votre compte bancaire en EGP.
+8878d0c631	PayPal est présent ici, mais la réception et le retrait ne sont pas confirmés.
+8781ba45ee	Les consultants qui tirent 90 % de leurs revenus d'un ou deux clients ne peuvent pas utiliser le régime simplifié.
+511d223bd7	Les exportateurs doivent s'immatriculer à la TVA même en dessous de 500 000 EGP par an.
+5aa04b2d70	Les plateformes qui paient via PayPal Payouts ne peuvent pas payer les comptes égyptiens.
+542261d32e	Un numéro d'enregistrement fiscal, sur une carte fiscale délivrée par l'administration fiscale égyptienne.
+e8523ce421	Inscrivez-vous à l'impôt dans les 30 jours suivant le démarrage, au centre des impôts ou en ligne.
+faf547f430	TVA de 14 % ; les exportateurs doivent s'immatriculer à la TVA quel que soit leur chiffre d'affaires.
+c6ce51a834	Les revenus de clients étrangers sont imposés ; en dessous de 20 millions d'EGP, un impôt simplifié de 0,4 à 1,5 % sur le chiffre d'affaires.
+8a341bd185	Oui ; vous pouvez garder toutes les devises que vous recevez, sans conversion forcée.
+138cae829f	Oui : les banques acceptent les dépôts en devises ; chaque banque fixe ses plafonds de retrait en espèces.
+d8143daa46	Paymob est agréé et pourrait accepter les particuliers avec une carte d'identité nationale ; renseignez-vous d'abord.
+2ad384b2ae	Impôt simplifié sur le chiffre d'affaires (0,4 à 1,5 %) et TVA nulle sur les services exportés.
+cb453e6ef9	Loi sur les données 151/2020 : licences exigées à partir de novembre 2026, à la fin du délai de grâce.
+50634c32ca	Les acheteurs peuvent renvoyer des biens sous 14 jours ; affichez en ligne les données de votre carte fiscale.
+26b2510f5b	Carte nationale d'identité.
+2723c7b774	La loi égyptienne permet à toute personne de garder les devises qu'elle reçoit (loi 194/2020, art. 212), et les banques proposent des comptes en devises.
+67f6bfe9a5	L'usage non autorisé de devises peut être sanctionné ; renseignez-vous auprès de la Banque d'Érythrée.
+e9d1a9324a	Pas de TVA ; les taux de la taxe sur les ventes sont rapportés de manière contradictoire.
+1e96517cb9	Impôt progressif de 2 à 30 % rapporté ; les petites entreprises paient un impôt présomptif.
+18d1319c4c	Non confirmé ; un contrôle des changes strict et un taux officiel fixe sont rapportés.
+3603b4a200	Pas de loi sur la protection des données ; le droit à la vie privée inscrit dans la Constitution est la seule protection.
+b7912d8ac2	Pas de seuil de TVA : facturez 21 % de TVA dès votre première facture.
+31ca909047	Inscrivez-vous à la sécurité sociale (RETA) avant de commencer à travailler.
+a192151782	NIF : un numéro fiscal de neuf caractères terminé par une lettre de contrôle.
+b324f2408f	Inscrivez-vous comme autónomo auprès de l'administration fiscale (modelo 036) et de la sécurité sociale avant de commencer.
+7a75d11d17	TVA de 21 % dès la première facture : l'Espagne n'a pas d'exonération pour les petites entreprises.
+4e414a3a34	Revenu mondial imposé selon des barèmes progressifs national et régional.
+c869dae9d3	Oui : BBVA, Santander et les néobanques proposent des comptes en dollars.
+e94c5efb65	Les nouveaux autónomos paient 80 € par mois de sécurité sociale la première année.
+85b5caf6ca	DNI (carte d'identité nationale) ou passeport.
+02150cccda	Versé sur votre compte bancaire en ETB.
+fb81be0a2e	Les comptes d'ici permettent seulement d'envoyer et d'acheter, pas de recevoir.
+231221b80f	Sans TIN ni licence, les payeurs retiennent 30 % au lieu de 3 %.
+ef5ac596d9	Les banques peuvent demander un TIN et une licence commerciale pour un compte de rétention.
+1282248ad2	Les comptes PayPal en Éthiopie permettent seulement d'envoyer et d'acheter, pas de recevoir.
+7c2b1b45ec	TIN délivré par le ministère des Revenus, lié à votre identité numérique Fayda.
+a68b736d94	Voie formelle : immatriculation commerciale et licence commerciale via eTrade, plus un TIN.
+4c046dc33b	TVA de 15 % au-delà de 2 millions d'ETB par an ; les exportations admissibles sont au taux zéro.
+804aa73e88	Revenu mondial imposé de 0 à 35 % ; les petits vendeurs peuvent payer de 2 à 9 % sur les ventes.
+9b1bef55be	Oui, via les banques éthiopiennes ; les exportateurs de services conservent 100 % sur un compte de rétention.
+5af4735972	Oui, pour les revenus admissibles ; les comptes d'épargne en devises n'exigent plus de minimum de 100 USD.
+ad13665945	Chapa est une passerelle agréée ; l'inscription des particuliers n'est pas confirmée.
+b92de6cfbd	Conservez 100 % des recettes d'exportation de services en devises depuis février 2026.
+39313acb1c	Inscrivez-vous auprès de l'Autorité éthiopienne des communications avant de traiter des données personnelles.
+b672c1e1f3	Les acheteurs peuvent renvoyer sous 7 jours pour un remboursement intégral.
+4ee4606a89	Fayda, identité numérique nationale.
+69fdc492ea	Depuis février 2026, les exportateurs de services peuvent conserver 100 % de leurs recettes d'exportation sur un compte de rétention en devises (directive de la NBE).
+a8d0f511fe	L'assurance retraite YEL est obligatoire dès que vos revenus dépassent le minimum.
+9a9a5e36b3	Votre numéro de sécurité sociale finlandais ; les entreprises reçoivent un Business ID.
+7e38c79bb2	Enregistrez un toiminimi (entreprise individuelle) auprès du PRH via ytj.fi pour 75 € ; souvent facultatif aujourd'hui.
+9fadff8c39	TVA de 25,5 % ; exonération tant que le chiffre d'affaires ne dépasse pas 20 000 € par an.
+a95807ac19	Revenu mondial imposé selon un barème national progressif, plus l'impôt communal.
+6a71a75f11	Henkilökortti (carte d'identité) ou passeport.
+244dfdbdbe	TIN de la FRCS, demandé en ligne via TPOS ; nécessaire pour ouvrir un compte bancaire.
+9df2c6f9ae	Inscrivez-vous auprès du registre des sociétés et de la FRCS pour l'impôt ; étapes non confirmées.
+b8da599bdf	TVA de 12,5 % au-delà de 100 000 FJD ; enregistrez-vous dans les 21 jours suivant l'assujettissement.
+6a9cda6ba8	Rapporté : 0 % jusqu'à 30 000 FJD, puis 18 à 20 %.
+a026b70dc0	Oui : les banques proposent des comptes en devises ; règles d'autorisation non confirmées.
+55757e78e5	Pas de pièce d'identité obligatoire ; une carte d'électeur est disponible sur demande.
+2e71224c54	Inscrivez-vous auprès du département des Finances et de l'Administration ; étapes pas encore confirmées.
+03e2e68dce	Pas de TVA ; une taxe nationale de 3 % sur les recettes brutes, plus des taxes de vente des États.
+934296eebd	Impôt sur les salaires de 6 à 10 % ; règles pour les indépendants et les revenus étrangers non confirmées.
+71a8eb01fd	Les comptes locaux sont en dollars américains, la monnaie officielle.
+45e93e4311	Carte nationale d'électeur facultative, délivrée gratuitement.
+e38d7f3802	Au-delà de 37 500 € de prestations de services, vous devez facturer la TVA, même en micro-entreprise.
+cb8d017db2	Numéro fiscal (SPI), attribué lors de votre première inscription fiscale.
+8b32916663	Immatriculez-vous comme micro-entrepreneur en ligne via le guichet unique de l'INPI, gratuitement.
+fa7fec498d	TVA de 20 % ; pas de TVA en dessous de 37 500 € de services par an (franchise en base).
+b6f0bde29f	Revenu mondial imposé selon un barème progressif avec quotient familial.
+8ea3b31453	Très probable : les grandes banques proposent des comptes en dollars.
+1354d759e1	Micro-entreprise : impôt et cotisations sociales simples calculés sur le chiffre d'affaires, jusqu'à 83 600 € pour les services.
+ec02890cc5	Carte d'identité ou passeport.
+a962d2a0a6	Versé sur votre compte bancaire en XAF.
+23f51669fd	NIF délivré par l'administration fiscale (DGI), attribué lors de l'immatriculation à l'ANPI.
+6f872da56b	Immatriculez une entreprise individuelle au guichet unique de l'ANPI-Gabon (RCCM et NIF en même temps).
+b2b6f29fe9	TVA de 18 % au-delà d'environ 60 millions de FCFA de chiffre d'affaires ; les sources divergent sur le seuil.
+d817589e29	En dessous de 30 millions de FCFA de chiffre d'affaires, l'impôt synthétique ISL s'applique, vendeurs en ligne compris.
+75c80a4ea8	Aucun avantage pour les freelances ; le régime ISL en dessous de 30 millions de FCFA est la principale simplification.
+309f875eca	Loi 025/2023 : déclarez vos traitements automatisés de données à l'APDPVP.
+80dfa9f640	Les acheteurs peuvent se rétracter de leurs achats en ligne sous 14 jours calendaires.
+c841eae213	Versé sur votre compte bancaire en GBP.
+4f956b13da	Les ventes au taux zéro comptent pour le seuil de TVA de 90 000 £.
+04f8a9a502	Inscrivez-vous au Self Assessment dès que vous gagnez plus de 1 000 £ sur une année fiscale.
+60fb747327	Votre UTR, attribué par le HMRC lors de votre inscription au Self Assessment.
+b6f7b27907	Démarrez tout de suite comme entrepreneur individuel ; inscrivez-vous auprès du HMRC au-delà de 1 000 £ par an.
+bfe86dde49	TVA de 20 % ; enregistrez-vous dès que le chiffre d'affaires dépasse 90 000 £ par an.
+f401cf2b17	Revenu mondial imposé au-delà d'un abattement de 12 570 £, plus la National Insurance de classe 4.
+a5e4fcf060	Oui, librement ; aucun contrôle des changes sur les revenus étrangers.
+72032843cf	Oui : des banques comme HSBC proposent des comptes personnels en devises.
+031cc48fad	Abattement commercial de 1 000 £ : les tout petits revenus d'appoint ne demandent ni inscription ni impôt.
+24d3f78ae8	UK GDPR ; la plupart des entreprises paient la redevance de protection des données de l'ICO.
+c8a4adf3ea	Les acheteurs en ligne peuvent annuler sous 14 jours après réception des biens.
+8b9bfd2452	TVA de 15 % ; le seuil d'enregistrement est contradictoire (120 000 ou 300 000 XCD).
+605e57d23e	Revenus tirés de la Grenade imposés : abattement de 36 000 XCD, puis 10 % et 28 %.
+ea16f26ec6	Carte d'électeur, facultative sauf pour certaines démarches administratives.
+b192d675cc	Le conseil est exclu du régime à 1 % ; vérifiez votre code d'activité.
+8afacfa8e5	Le travail effectué en Géorgie pour des clients étrangers reste un revenu géorgien.
+e62cf17a3e	Un numéro d'identification permanent, attribué lors de l'enregistrement.
+82b3f7eac9	Enregistrez-vous comme entrepreneur individuel, puis demandez le statut de petite entreprise sur rs.ge.
+3ed0462360	TVA de 18 % au-delà de 100 000 GEL sur toute période de 12 mois.
+b89975b59f	Statut de petite entreprise : 1 % du chiffre d'affaires jusqu'à 500 000 GEL.
+53243c4e3f	Oui, librement ; conversion et transfert aux taux du marché.
+6bf9828975	Oui : dépôts en devises possibles, sans limite de comptes.
+6f2c0640c2	Des banques locales comme TBC et Bank of Georgia proposent l'acquisition de paiements ; pas étudié.
+df37917ae3	Impôt de petite entreprise de 1 %, et les microentreprises en dessous de 30 000 GEL sont exonérées.
+e8b4899086	Loi de 2023 sur la protection des données personnelles, alignée sur le RGPD, désormais contrôlée par l'Office national d'audit.
+f44a433937	Carte nationale d'identité ou passeport.
+0f71ca9817	Retirez en cedis vers une banque ghanéenne.
+38910d13a5	Versé sur votre compte bancaire en GHS.
+3dddcfa8b2	Tout prestataire de services doit s'immatriculer à la TVA sous 30 jours, même petit.
+9b1ad03d38	Les professionnels qualifiés ne peuvent pas utiliser le régime forfaitaire de 3 %.
+fe782dc67b	Vous ne pouvez pas légalement traiter les données de vos clients avant de vous enregistrer auprès de la Commission.
+16207fa1bb	Le PIN de votre Ghana Card est votre numéro d'identification fiscale.
+4e5d448072	Une entreprise individuelle coûte 130 GHS à l'ORC, plus 70 GHS de renouvellement annuel.
+8ddb6c933b	TVA effective de 20 % ; les prestataires de services doivent s'immatriculer sous 30 jours, sans seuil.
+6b568b8450	Revenu mondial imposé de 0 à 35 % ; les petits commerçants peuvent payer un forfait de 3 % du chiffre d'affaires.
+abacb1b114	Oui ; les paiements de l'étranger doivent arriver sur un compte en devises (FEA) dans une banque.
+a827329028	Oui : les banques proposent des comptes FEA et FCA, et vous pouvez retirer des devises en espèces.
+19c7bee086	Paystack Starter accepte les vendeurs non immatriculés jusqu'à 30 000 GHS au total.
+342f776488	Impôt forfaitaire de 3 % du chiffre d'affaires pour les petits vendeurs, et les premiers 7 056 GHS exonérés.
+19f3d354b3	Loi de 2012 sur la protection des données : enregistrez-vous auprès de la Commission de protection des données avant de traiter des données.
+86dcdc1f7f	Les acheteurs peuvent annuler sous 14 jours pour des biens, ou 7 jours pour des services.
+1836828411	Ghana Card, la seule pièce d'identité acceptée par les banques.
+635e70ca0b	Les paiements de non-résidents doivent arriver sur un compte en devises (FEA) dans une banque agréée (avis de la Bank of Ghana).
+62617f5daf	Versé sur votre compte bancaire en GMD.
+6f67e7ca6b	TIN de la Gambia Revenue Authority, nécessaire avant d'enregistrer une entreprise.
+6bd719e236	Enregistrez une entreprise individuelle au guichet unique pour 500 dalasis, en une journée.
+669532948c	TVA de 15 % au-delà de 2 millions de dalasis par an.
+7562cc4370	Chiffre d'affaires inférieur à 500 000 dalasis : payez 3 % du chiffre d'affaires.
+3681c398f1	Probablement oui : recevez des devises sur un compte FCD dans une banque.
+fd3d87d485	Oui : comptes de dépôt en devises (FCD) dans les banques.
+9ae65b4577	Aucun avantage pour les freelances ; l'impôt de 3 % sur le chiffre d'affaires en dessous de 500 000 dalasis est la principale simplification.
+f4540566e4	Loi de 2025 sur la protection des données personnelles et la vie privée ; signalez les violations sous 72 heures.
+46e5779f58	Carte nationale d'identité, passeport ou permis de conduire.
+d66e1cb1df	NIF, délivré par l'APIP lors de l'immatriculation.
+ddcb4c973d	Immatriculez une entreprise individuelle à l'APIP, qui délivre le RCCM et le NIF.
+520586a797	TVA de 18 % ; les entreprises dont le chiffre d'affaires est inférieur à 1 milliard de GNF sont exonérées.
+ffe66225fd	Les exportateurs doivent rapatrier au moins 50 % ; l'application aux freelances n'est pas claire.
+1a8936c91b	Loi L/2016/037 sur la protection des données ; son autorité n'est pas encore opérationnelle.
+a8ad61930a	Un NIF de l'administration fiscale, semble-t-il ; non confirmé.
+208acaf433	Immatriculez-vous via le guichet unique VUE ; la forme la plus simple pour les particuliers n'est pas confirmée.
+1b9ce93382	TVA de 15 % ; seuil et règles d'exportation pas encore confirmés.
+f6bbf21691	Les résidents sont imposés sur leur revenu mondial.
+c1f1c8d4c8	Loi 1/2016 sur les données personnelles ; son autorité n'est pas encore opérationnelle.
+560eb140e2	Documento de Identidad Personal (DIP, pièce d'identité).
+338ed12c7f	Vous pouvez être imposé sur un revenu minimum présumé même si vous gagnez moins.
+ec3c7014e2	L'immatriculation en ligne est réservée aux ressortissants grecs ou d'autres pays de l'UE.
+0d334180c4	Numéro fiscal AFM, attribué par l'administration fiscale.
+72b9edc73f	Ouvrez une entreprise individuelle en ligne via myAADE avec votre AFM, puis inscrivez-vous à l'eEFKA.
+39bf9e5364	TVA de 24 % ; une exonération pour les petites entreprises grecques existe, montant non confirmé.
+55f8fea63c	Revenu mondial imposé de 9 % jusqu'à 44 % au-delà de 60 000 €.
+8f69cd948f	Pas de régime forfaitaire avantageux ; les freelances sont soumis à une règle de revenu minimum présumé.
+3905aeaf3a	Δελτίο Ταυτότητας (carte d'identité) ou passeport.
+f3237e24ce	Versé sur votre compte bancaire en GTQ.
+0d2eccd3fa	NIT (numéro fiscal) et CUI (numéro d'identification personnel).
+7be898b7b5	Inscrivez-vous au Registro Mercantil et à la SAT ; étapes pas encore confirmées.
+f4ed44b855	TVA de 12 % ; seuil et règles d'exportation pas encore confirmés.
+714a11758a	Seuls les revenus de source guatémaltèque sont imposés, y compris les services que vous y réalisez.
+049b0f8d1b	Oui : les banques proposent des comptes en dollars américains ; il vous faudra un DPI et un NIT.
+2025bb313b	Pequeño Contribuyente : 5 % forfaitaire sur le revenu brut jusqu'à 500 285 Q en 2026.
+ee54d75b07	DPI (Documento Personal de Identificación, pièce d'identité).
+5c4a30c9c2	Un NIF de la DGCI au CFE, semble-t-il ; non confirmé.
+f591e5604b	Immatriculez-vous via le guichet unique CFE ; coût d'une entreprise individuelle non confirmé.
+6a528324fe	TVA de 19 % depuis janvier 2025 ; seuil et services exportés non confirmés.
+f7d93f636a	Aucune loi sur la protection des données confirmée ; un projet de loi a été approuvé en mai 2026.
+9fe16bfa9e	Non confirmé ; vraisemblablement la carte nationale d'identité (bilhete de identidade).
+b4eaa22ef9	Versé sur votre compte bancaire en GYD.
+30084bc1c0	TIN de la GRA, demandé en ligne ou sur place.
+5d187a8114	Enregistrez un nom commercial auprès de la DCRA et inscrivez-vous à l'impôt auprès de la GRA ; étapes non confirmées.
+e4032ab774	TVA de 14 % ; exportations au taux zéro ; seuil pas encore confirmé.
+7218c49ff1	Carte nationale d'identité du Guyana.
+f65250f69f	RTN du SAR ; la première demande est gratuite.
+2419627e78	Inscrivez-vous auprès du SAR et de votre municipalité ; étapes pas encore confirmées.
+bb4d6b9a69	ISV (taxe sur les ventes) de 15 % ; inscrivez-vous comme contribuable local, sans seuil indiqué.
+1c4b0bd74b	Seuls les revenus de source hondurienne sont imposés, à des taux allant jusqu'à 25 %.
+097f31abc6	Carte nationale d'identité (DNI).
+f0cc2c9bbd	Les coûts du régime forfaitaire augmentent en 2027 pour les recettes au-delà de 40 000 €.
+bc326ced54	Certaines professions libérales ne peuvent pas opter pour l'imposition forfaitaire.
+f7fb250b49	OIB, votre numéro d'identification personnel.
+c291c8c312	Immatriculez un obrt en ligne via e-Obrt, puis inscrivez-vous auprès de l'administration fiscale sous 8 jours.
+53df73d20a	TVA de 25 % dès que les recettes annuelles dépassent 60 000 €.
+14c20a6db9	Paušalni obrt : impôt annuel fixe à partir de 203,40 €, si les recettes restent en dessous de 60 000 €.
+d271d94424	Osobna iskaznica (carte d'identité) ou passeport.
+f363302251	Taxe sur le chiffre d'affaires (TCA) de 10 % ; toutes les entreprises devraient s'enregistrer.
+c2ee1bd97c	Carte nationale d'identification.
+365adfd51e	Versé sur votre compte bancaire en HUF.
+5a42072596	Les freelances qui facturent des entreprises, y compris des clients étrangers, ne peuvent pas utiliser le KATA.
+d87fe3b874	Adóazonosító jel, votre numéro d'identification fiscale personnel.
+494008ed2f	Inscrivez-vous auprès de l'administration fiscale nationale (NAV) via Client Gate ; étapes non confirmées.
+4a077eefb5	TVA de 27 % ; exonération possible en dessous de 20 millions de HUF de chiffre d'affaires en 2026.
+6230a55bfe	Impôt sur le revenu forfaitaire de 15 % sur presque tous les revenus.
+23523fec08	Impôt forfaitaire KATA, mais seulement si vous vendez uniquement à des particuliers.
+483c532c83	Személyazonosító igazolvány (carte d'identité) ou passeport.
+f85b3977de	Versé sur votre compte bancaire en IDR.
+1aeee0e8f7	Recevez en roupies ; retirez vers une banque indonésienne.
+49c6d0e75b	En aperçu seulement : vous devez contacter l'équipe commerciale de Stripe.
+a9ebe49967	Les revenus étrangers comptent pour le plafond de 4,8 milliards de Rp de l'impôt de 0,5 %.
+b11613d80a	Xendit n'accepte pas les particuliers ; il vous faudrait une société unipersonnelle (PT Perorangan).
+730c4a5769	Votre NIK (numéro national d'identité) est votre numéro fiscal (NPWP).
+58bb0f6417	Les entreprises obtiennent un NIB en ligne via OSS ; les particuliers s'inscrivent avec leur NIK et leur NPWP.
+1368fecc31	TVA effective de 11 % ; enregistrement seulement au-delà de 4,8 milliards de Rp ; les services exportés listés sont à 0 %.
+f632786e45	Revenu mondial imposé ; impôt libératoire de 0,5 % sur le chiffre d'affaires jusqu'à 4,8 milliards de Rp, les premiers 500 millions de Rp exonérés.
+f303aa3867	Oui ; vous pouvez librement détenir et utiliser des devises.
+c8b94f52f7	Oui : vous pouvez détenir des dépôts en devises dans les banques indonésiennes.
+3f539223dc	Midtrans accepte les particuliers avec une KTP ; Xendit exige une société immatriculée.
+3cc2218db6	Impôt libératoire de 0,5 % sans limite de durée, et les premiers 500 millions de Rp par an non imposés.
+bbf8621694	La loi PDP 27/2022 s'applique pleinement depuis octobre 2024 ; son agence n'est pas encore confirmée.
+c97c1c0839	Les règles du commerce électronique (PP 80/2019) s'appliquent ; les licences requises pour votre propre site ne sont pas claires.
+fa60a03b3e	Carte d'identité électronique KTP-el, qui porte votre NIK.
+fb2b80cb54	Stripe, sur invitation uniquement
+97a1685827	Stripe classe ce pays en aperçu : contactez son équipe commerciale.
+f8109476a7	Stripe classe ce pays en « Preview » (aperçu ; inscription en contactant l'équipe commerciale de Stripe), ce qui n'est pas encore une voie en libre-service pour débutants.
+4bf0ea389b	Déposez votre déclaration de revenus (Form 11) avant le 31 octobre de chaque année.
+bc13966fb5	Votre numéro PPS est votre référence fiscale.
+ea55049d63	Inscrivez-vous auprès de Revenue sous 30 jours avec le formulaire TR1 sur ROS.
+52d69c4e4d	TVA de 23 % au-delà de 42 500 € par an pour les services.
+cc47953e8f	Revenu mondial imposé à 20 % et 40 %, plus l'USC et la PRSI.
+2619ac2e17	Versé sur votre compte bancaire en ILS.
+6c0d161ae6	Le plafond 2026 de l'osek patur n'est pas clair (120 000 ₪ ou 122 833 ₪) ; vérifiez sur gov.il.
+6b4b233edf	Les factures de plus de 5 000 ₪ hors TVA exigent un numéro d'attribution de l'administration fiscale.
+41f8e53b7b	Votre Mispar Zehut (numéro d'identité) ; la procédure d'inscription n'est pas confirmée.
+8f39ff53cb	Ouvrez un dossier auprès de l'administration fiscale comme osek patur ou osek murshe.
+c965710065	TVA de 18 % ; les freelances osek patur sous le plafond ne la facturent pas.
+68157420ef	Revenu mondial imposé jusqu'à 47 %, plus une surtaxe de 3 % sur les hauts revenus.
+008a09e983	Oui, librement ; la plupart des contrôles des changes ont été abolis dans les années 1990.
+32e587a3bb	Pas encore confirmé, bien que les comptes en devises soient courants dans les banques.
+fd95557247	Les prestataires locaux comme Tranzila et Cardcom n'ont pas encore été étudiés.
+ad9bbeb64f	Osek patur : pas de TVA sous le plafond de chiffre d'affaires.
+3297bccaa3	Loi sur la protection de la vie privée ; depuis 2025, la plupart des petites entreprises n'ont plus à déclarer leurs fichiers.
+d894cad442	14 jours pour annuler une vente à distance, avec de petits frais, semble-t-il.
+b09190ccc4	Teudat Zehut (carte nationale d'identité).
+dcab8d85c2	Recevez des paiements de l'étranger ; l'argent arrive directement sur votre compte bancaire indien.
+59f31f7f9f	Versé sur votre compte bancaire en INR.
+3b4cfdf0ef	Retirez en roupies vers votre banque indienne.
+48cf601ad9	Seulement pendant vos voyages à l'étranger, pas dans le pays.
+4c91046e0d	Versements bancaires avec restrictions.
+da7af51f34	Rapatriez vos recettes d'exportation sous neuf mois ; la règle a changé en septembre 2026.
+332afbdc14	PayPal Inde ne reçoit que des paiements à l'export, jusqu'à 10 000 USD par transaction.
+8b8fbe58b6	Wise convertit tout en roupies ; vous ne pouvez pas conserver d'argent sur Wise.
+040d0a28f6	PAN ; obtenez gratuitement et instantanément un e-PAN en ligne avec Aadhaar.
+848f800edb	Aucune immatriculation séparée nécessaire ; l'enregistrement Udyam (MSME), gratuit, est facultatif.
+1990325048	GST : les exportations sont au taux zéro ; pas d'enregistrement en dessous de 20 lakh ₹ de chiffre d'affaires.
+32d239513e	Les résidents sont imposés sur leur revenu mondial ; les professionnels peuvent utiliser un régime présomptif simplifié.
+1676fd2b69	Oui ; rapatriez vos recettes d'exportation dans les neuf mois suivant la date de facture.
+abe8b60555	Oui : un compte EEFC conserve 100 % de vos revenus étrangers en devises.
+53351d4e46	Razorpay accepte les particuliers non immatriculés avec un compte bancaire personnel, un PAN et Aadhaar.
+a01ce3d412	Pas de GST sur les exportations, un compte en devises EEFC et un impôt présomptif simplifié.
+1f79fe62c7	La loi DPDP de 2023 s'applique ; ses règles entrent en vigueur progressivement sur 18 mois à partir de novembre 2025.
+976bab98ed	Vous vendez sur votre propre site ? Désignez un responsable des réclamations et accusez réception des plaintes sous 48 heures.
+5d50c51a9a	Aadhaar, plus votre carte PAN pour les plateformes de paiement.
+0beef88516	Vendez des produits numériques ou des logiciels via un revendeur officiel (merchant of record) : Paddle (logiciels/SaaS uniquement ; chaque vendeur est examiné), Polar, Dodo Payments. La plateforme est le vendeur légal vis-à-vis de vos clients, gère les paiements par carte et la TVA ou taxe de vente due par le consommateur, et vous reverse l'argent. Vous devez quand même déclarer ces versements comme revenus dans votre pays.
+8b4c532479	Paiements de clients via PayPal (sur la liste PayPal Payouts avec la mention « Receive and withdraw » : recevoir et retirer).
+3cb34a5416	Versez 100 % de vos revenus étrangers sur un compte EEFC (RBI), ou retirez de Payoneer en INR vers une banque indienne.
+3da724b3ef	Pas de TVA ; des taxes sur les ventes s'appliquent à des postes comme internet et les voyages.
+d309833cb1	Le travail effectué en Irak est imposable, de 3 à 15 % en Irak fédéral.
+c3992d9068	Pas de contrôle du taux de change, mais l'accès bancaire est limité et les virements en dollars sont scrutés.
+3507ae3f2c	Carte nationale irakienne (pièce d'identité biométrique).
+7334a036e2	Nous ne présentons que des voies légales ; nous ne décrivons aucun moyen de contourner les sanctions.
+e74fb3f07a	Sanctions globales ; les plateformes et banques étrangères refusent en général les paiements liés à l'Iran.
+f822075f88	Les indépendants doivent se verser un salaire minimum présumé.
+f570b56f06	Kennitala, votre numéro d'identification islandais.
+5656deb404	Obtenez une kennitala, puis inscrivez-vous auprès de Skatturinn ; TVA au-delà de 2 millions d'ISK.
+e78491ce47	TVA de 24 % au-delà de 2 millions d'ISK sur 12 mois ; exportations au taux zéro.
+c49927be53	Revenu mondial imposé de 31,49 à 46,29 %, impôt communal compris.
+c7d1d141a4	Oui, librement ; le contrôle des capitaux a été en grande partie levé en 2017.
+74fa77f69e	Oui : les banques proposent des comptes en devises sans restriction.
+d45d63eb7c	Le RGPD s'applique via l'EEE, sous le contrôle de Persónuvernd.
+8ddd960dba	Permis de conduire ou passeport ; les cartes d'identité sont peu courantes.
+10913663df	Dépasser 100 000 € dans l'année met fin immédiatement au régime forfaitaire.
+6ea576288d	Un numéro d'identification fiscale utilisé dans toutes les démarches avec l'administration publique.
+7b9c9665df	Ouvrez une partita IVA auprès de l'Agenzia delle Entrate ; les cotisations INPS sont à part.
+faaae21e0e	TVA de 22 % ; les entrepreneurs individuels au forfait (forfettario) en dessous de 85 000 € ne facturent pas la TVA.
+ba39f71e2f	Revenu mondial imposé de 23 à 43 % (IRPEF), plus des surtaxes régionales et communales.
+40355c6c65	Oui : des banques comme UniCredit proposent des comptes courants en devises.
+2bf766d183	Regime forfettario : impôt forfaitaire de 15 % jusqu'à 85 000 €, ou 5 % pour les nouvelles activités.
+69d820ea90	Carta d'identità (carte d'identité) ou passeport.
+5556bd7b36	Versé sur votre compte bancaire en JMD.
+637614b60a	Les dépôts d'espèces en devises de plus de 500 USD par jour coûtent 2,3 %.
+29e532b80f	TRN, un numéro à neuf chiffres de Tax Administration Jamaica.
+17dd86b201	Enregistrez un nom commercial auprès de la COJ et inscrivez-vous à l'impôt auprès de la TAJ ; étapes non confirmées.
+c409824c97	GCT de 15 % au-delà de 15 millions de JMD de chiffre d'affaires par an.
+a219de5a56	Les résidents et les personnes domiciliées sont imposés sur leur revenu mondial.
+a0e6dd21a3	Oui : des banques comme Scotiabank proposent des comptes en USD, CAD, EUR et GBP.
+226d58e208	Carte nationale d'identité, facultative ; nouvelles cartes biométriques depuis 2022.
+d1175cfa0c	Versé sur votre compte bancaire en JOD.
+8e2a054c20	Ne supposez pas que les revenus de clients étrangers sont exonérés si vous travaillez depuis la Jordanie.
+7d5203ec3c	Taxe sur les ventes de 16 % au-delà de 30 000 JOD par an pour les services ; exportations au taux zéro.
+81fce37c1b	Revenus de source jordanienne imposés de 5 à 30 % ; le travail effectué en Jordanie compte probablement.
+1eb23ee541	Probablement librement ; le dinar est convertible et aucune obligation de cession n'a été trouvée.
+eddce45a24	Oui : les banques ouvrent des comptes dans les principales devises à partir de 300 USD.
+40a7cfa4fd	Loi n° 24 de 2023 sur la protection des données personnelles.
+629661daef	Versé sur votre compte bancaire en JPY.
+f38b243672	Les clients japonais peuvent avoir besoin de votre numéro d'enregistrement de facturation, même en dessous de 10 millions de ¥.
+e711e82f6a	Déposez la demande de Blue Return sous deux mois pour obtenir l'abattement.
+ca557c8b0b	My Number, votre numéro individuel à 12 chiffres.
+2af383b844	Déposez une déclaration d'ouverture d'activité (kaigyō todoke) à votre centre des impôts dans le mois.
+41e19f89a5	Taxe à la consommation de 10 % au-delà de 10 millions de ¥ de ventes ; exportations au taux zéro.
+f8d965e37c	Revenu mondial imposé de 5 à 45 %, plus une surtaxe et environ 10 % d'impôt local.
+4c0cef3c04	Oui, librement ; les gros paiements ne demandent qu'une déclaration a posteriori.
+fb4e7237da	Oui : détenez librement des comptes de dépôt en devises, même à l'étranger.
+136550d12d	Blue Return : abattement jusqu'à 650 000 ¥ avec une comptabilité en partie double.
+9273775935	L'APPI s'applique à toutes les entreprises, entrepreneurs individuels compris.
+c191c8e4a7	Les biens achetés en ligne peuvent être annulés sous 8 jours, sauf mention contraire dans vos conditions.
+7e25fda803	Carte My Number, permis de conduire ou passeport.
+c650441fff	Retirez vers votre banque ou vers M-PESA.
+93d71c06a1	Versé sur votre compte bancaire en KES.
+eb5a3f7bc4	Recevez en shillings ; retirez vers votre banque.
+56d7223034	Les pages de la KRA divergent sur le plafond du Turnover Tax (25 ou 50 millions de KES) ; vérifiez auprès de la KRA.
+5f1c6b5247	PayPal vers M-PESA ne fonctionne qu'en USD et coûte 3 % sur le taux de change.
+8f9127539c	PIN KRA, enregistré en ligne sur iTax.
+55a684fd26	N'enregistrez un nom commercial auprès du BRS (950 KES) que si vous n'utilisez pas votre propre nom.
+e662f765a1	TVA de 16 % ; les services exportés sont au taux zéro ; enregistrement au-delà de 5 millions de KES par an.
+c760b49bbc	Le travail effectué depuis le Kenya est imposable ; le Turnover Tax est de 1,5 % pour des ventes de 1 à 25 millions de KES.
+4e964e5176	Oui ; aucun contrôle des changes depuis 1995, et vous pouvez facturer dans n'importe quelle devise.
+3fdb80572e	Oui : les devises peuvent être versées sur un compte bancaire en devises.
+6b27c5fbbe	Paystack accepte les particuliers avec une carte d'identité nationale ; plafond de 600 000 KES tant que vous n'êtes pas immatriculé.
+0eec26e794	Turnover Tax : un impôt libératoire forfaitaire de 1,5 % avec une comptabilité simple.
+8ab7d04d19	Loi de 2019 sur la protection des données ; enregistrement auprès de l'ODPC au-delà de 5 millions de KES de chiffre d'affaires ou de 10 salariés.
+428a3b8711	La loi de 2012 sur la protection des consommateurs et l'Autorité de la concurrence protègent les acheteurs en ligne.
+c13ad0f8e7	Carte nationale d'identité kényane (nouvelle version : la carte Maisha).
+7d6718aba8	Il n'y a pas de contrôle des changes.
+58591e4a43	Il n'y a pas de contrôle des changes ; les devises peuvent être versées sur un compte en devises dans une banque kényane.
+2424b00eea	Numéro d'identification personnel à 14 chiffres (PIN/INN).
+277865f7cb	Enregistrez-vous comme entrepreneur individuel avec le formulaire 163, en choisissant un régime fiscal.
+ce5f17b9fe	TVA de 12 % ; le seuil national d'enregistrement est rapporté de manière contradictoire.
+12a2fcd757	Revenu mondial imposé au taux forfaitaire de 10 % ; les entrepreneurs choisissent un régime fiscal.
+5ecddd28d7	Probablement oui ; aucune obligation de cession trouvée, mais des limites ont déjà été imposées par le passé.
+5fb54afa61	Parc des hautes technologies : les exportateurs informatiques paient environ 1 % de leur chiffre d'affaires au lieu des impôts.
+f310fa3b15	Versé sur votre compte bancaire en KHR.
+78188169c2	Il existe un impôt minimum de 1 % sur le chiffre d'affaires, même sans bénéfice.
+7f883e0bc0	Numéro de contribuable du portail e-Tax de la GDT, après l'immatriculation de l'activité.
+ca7b0eb2eb	Inscrivez-vous en ligne auprès du ministère du Commerce, puis auprès du département des impôts.
+cc4255d4c7	TVA de 10 % au-delà de 60 millions de KHR sur trois mois pour les services ; exportations au taux zéro.
+c5aa818256	Revenu mondial imposé de 0 à 20 %, plus un impôt minimum de 1 % sur le chiffre d'affaires.
+d4b74cd042	Oui, librement ; les banques déclarent les virements de 10 000 USD ou plus.
+b4bbbe4a96	Oui : les résidents peuvent détenir librement des devises ; les comptes en USD sont courants.
+1e26fcf394	Les options locales comme ABA PayWay et KHQR n'ont pas encore été étudiées.
+9120f938c2	Pas encore de loi sur la protection des données ; un projet a été publié en juillet 2025.
+36b32f4eed	Des lois sur le commerce électronique et la consommation existent ; aucun droit de rétractation trouvé.
+c6347a2c7f	Carte d'identité khmère (biométrique).
+9e27583023	TVA (12,5 % selon les sources) au-delà de 100 000 $ d'opérations imposables.
+82944c6823	Tranches rapportées de 0 à 35 %.
+6f833260ef	Les comptes locaux sont de fait en dollars australiens.
+4f37982cfb	Carte nationale d'identité, obligatoire depuis 2018.
+70a31d1683	Un numéro d'identification fiscale (NIF) ; détails non confirmés.
+cedf4bb79f	Pas encore confirmé ; l'ANPI gérerait un guichet unique pour les sociétés.
+642b3337a6	Taxe à la consommation de 10 % ; exonération en dessous de 20 millions de KMF de chiffre d'affaires.
+89e7c87789	En dessous de 20 millions de KMF de chiffre d'affaires, payez à la place la taxe professionnelle unique (TPU).
+740e5e9ce2	Pas encore confirmé ; le franc est arrimé à l'euro.
+dc398b1b8b	Aucun avantage pour les freelances ; la taxe unique TPU est la principale simplification.
+24b2e992a8	TIN de l'Inland Revenue Department, attribué à l'enregistrement.
+09bb207f9e	Inscrivez-vous auprès de l'Inland Revenue Department ; étapes pas encore confirmées.
+8e4466e876	TVA de 17 % au-delà de 96 000 XCD pour les services professionnels.
+cd0f3f6429	Carte nationale d'identité facultative.
+c7c64778c0	Sans objet sous des sanctions globales.
+56e0fc15f3	Aucune voie légale n'existe sous des sanctions globales.
+4100b1fd3e	Versé sur votre compte bancaire en KRW.
+021eb11a92	Les étrangers doivent vérifier que leur visa autorise une activité professionnelle.
+db322fc41e	Le taux zéro pour les services exportés exige un service listé et un paiement en devises.
+f2eb398cff	Numéro d'enregistrement de résident, ou numéro d'enregistrement d'entreprise pour votre activité.
+ab7f4142e8	Enregistrez-vous comme entrepreneur individuel sur Hometax dans les 20 jours suivant le démarrage, gratuitement.
+d718696901	TVA de 10 % ; en dessous de 104 millions de ₩, vous pouvez utiliser le régime simplifié.
+36f7d01e62	Revenu mondial imposé de 6 à 45 %, plus 10 % d'impôt local sur le revenu.
+4c55de31c3	Probablement oui ; aucune règle de conversion trouvée ; les banques peuvent poser des questions sur les gros montants.
+534624f510	Oui : les banques proposent des comptes de dépôt en devises ; les étrangers utilisent des comptes externes.
+08ab39746b	Les passerelles nationales comme Toss Payments n'ont pas encore été étudiées.
+b78ce74640	TVA simplifiée en dessous de 104 millions de ₩ ; aucune TVA due en dessous de 48 millions de ₩.
+8aeecdf261	La PIPA s'applique ; sanctions jusqu'à 10 % du chiffre d'affaires à partir de septembre 2026.
+f694f2ee25	Les acheteurs en ligne peuvent se rétracter sous 7 jours après réception des biens.
+6b1b47b035	Carte d'enregistrement de résident, ou carte d'enregistrement d'étranger pour les étrangers.
+8ddcde2e8c	Stripe (n'accepte pas les entreprises d'ici) ; versements de sites qui paient via PayPal Payouts (PayPal ne liste pas ce pays).
+5f9d632984	Versé sur votre compte bancaire en KWD.
+27f7c84261	Numéro de Civil ID ; le fonctionnement de l'inscription fiscale n'est pas confirmé.
+d504d78c24	Inscrivez-vous auprès du ministère du Commerce et de l'Industrie ; étapes pas encore confirmées.
+a69613a96c	Pas de TVA.
+cd5e87e607	Oui, librement ; le dinar est librement convertible.
+67b2826a8c	Oui : des banques comme Boubyan et NBK proposent des comptes en devises.
+6edd0e8fac	Pas de loi générale sur la protection des données ; des règles du secteur des télécoms s'appliquent.
+12ca16525e	Carte Civil ID (pièce d'identité).
+ccad32939e	Versé sur votre compte bancaire en KZT.
+1453e3547b	Les contrats étrangers de plus de 50 000 USD doivent être enregistrés auprès de votre banque.
+b07057d5aa	Certaines activités informatiques et de conseil peuvent être exclues du régime simplifié.
+856eb7923f	Un numéro d'identification au registre national ; la procédure pour les freelances n'est pas confirmée.
+76852796ca	Déposez gratuitement une déclaration d'entrepreneur individuel en ligne via eGov avec une signature électronique (EDS).
+452ac0bda9	TVA de 16 % à partir de 2026, au-delà d'environ 43 millions de KZT de chiffre d'affaires.
+205d234fd4	À partir de 2026 : impôt sur le revenu de 10 %, et 15 % au-delà d'environ 33,4 millions de KZT.
+f2aa929277	Oui ; les contrats de plus de 50 000 USD exigent un enregistrement et un rapatriement.
+304628a0e2	Oui : détenez des comptes bancaires à l'étranger sans en informer la Banque nationale.
+f5dad454fb	Les prestataires locaux comme Kaspi Pay n'ont pas encore été étudiés.
+f293e47d56	Déclaration simplifiée : impôt de 4 % (2 % dans certaines zones), mais pas pour toutes les activités.
+c195c0bd70	Loi sur les données personnelles n° 94-V ; la localisation des données est largement signalée.
+36b9504e4c	Carte d'identité ou passeport, plus une signature numérique électronique (EDS).
+ab77b759f0	Versé sur votre compte bancaire en LAK.
+d95aa7238d	Les services pour des clients étrangers paient toujours 10 % de TVA, contrairement à ce que disent certains guides.
+98c2a77f04	Utiliser un logiciel étranger pour les données clients exige un consentement au transfert à l'étranger.
+a262ccac20	TIN figurant sur votre certificat d'entreprise, ou délivré par le centre des impôts via taxservice.mof.gov.la.
+b1dbb58722	Enregistrez une entreprise individuelle auprès du ministère de l'Industrie et du Commerce.
+2d88f7d975	TVA de 10 %, et les services à des clients étrangers ne sont pas au taux zéro.
+0224a758c4	Revenu mondial imposé ; les services paient 3 % du chiffre d'affaires entre 50 et 400 millions de LAK.
+22f60a8776	Probablement oui ; les exportateurs doivent encaisser par banque sous 180 jours et céder une partie des devises.
+305d6dff83	Oui : des banques comme BCEL proposent des comptes en USD et en THB ; les dollars en espèces peuvent manquer.
+2aa17d2d0e	Loi sur la protection des données électroniques : consentement nécessaire pour envoyer des données à l'étranger.
+6e979d44fa	Ne versez jamais vos revenus étrangers sur les anciens comptes en dollars gelés.
+206f192ae6	Un numéro d'identification fiscale unique délivré par l'administration fiscale.
+998e90838a	TVA de 11 % au-delà de 5 milliards de LBP ; les exportations sont au taux zéro.
+fc74bf2bad	Les services réalisés au Liban sont imposables, de 4 à 25 % pour les revenus d'activité.
+022a2233eb	Pas d'obligation de cession, mais les banques sont en difficulté ; utilisez des comptes en « fresh dollars ».
+f6c796f145	Des comptes en « fresh dollars » existent ; règles pas encore confirmées.
+5cd4428507	Les opérateurs de transfert comme OMT et Whish n'ont pas encore été étudiés.
+1e51187744	Carte d'identité libanaise.
+54562788ed	Demandez à votre banque s'il vous faut une autorisation pour garder vos revenus en USD.
+fce947cb88	TIN de l'Inland Revenue Department, attribué sur demande.
+30b75d5c0c	Inscrivez-vous auprès du ROCIP et de l'Inland Revenue Department ; étapes non confirmées.
+e9977a572f	TVA de 12,5 % au-delà de 400 000 XCD par an.
+e9d66cc561	Restreint sur le papier : il peut vous falloir une autorisation pour garder des devises.
+f49080869b	Passeport ou carte d'identité.
+b4fb15f73a	Selon la loi, les devises doivent être proposées à un intermédiaire agréé, sauf si le directeur des Finances vous autorise à les garder.
+e733e5c502	Selon la loi, les devises doivent être proposées à un intermédiaire agréé, sauf si le directeur des Finances vous autorise à les garder. Demandez à votre banque si cette autorisation est nécessaire avant de garder vos revenus sur un compte en USD (Exchange Control Act, art. 4).
+33f3009617	Numéro PEID, votre numéro d'identification personnel.
+a4c961c47d	Inscrivez-vous au registre du commerce (Office de la justice) ; étapes pas encore confirmées.
+e24de67e98	TVA suisse de 8,1 % ; exonération en dessous de 100 000 CHF de chiffre d'affaires national.
+b941b03f29	Les résidents sont imposés sur leur revenu mondial et leur fortune nette.
+ff0bfc8c30	Le RGPD s'applique via l'EEE.
+3eed32b8af	Identitätskarte (carte d'identité) ou passeport.
+ccc27702a6	Fonctionne avec Sampath ou Commercial Bank, pour les comptes personnels.
+e7fdcc56f6	Versé sur votre compte bancaire en LKR.
+3ee9eb3043	Retirez vers un portefeuille eZ Cash.
+3ad5a4df33	Rapatriez vos revenus étrangers dans les 180 jours suivant la réalisation du travail.
+79422e712e	Le plafond d'imposition de 15 % ne s'applique que si le paiement arrive en devises par une banque.
+80f34b6835	La réception via PayPal ne fonctionne qu'avec un compte chez Sampath ou Commercial Bank.
+cfbc46cf5d	Toute personne de 18 ans ou plus doit avoir un TIN ; inscrivez-vous en ligne avec votre NIC.
+a9b6b2d2d1	Inutile sous votre propre nom ; enregistrez un nom commercial sous 14 jours.
+ffa5546060	La TVA est de 18 %, mais seulement au-delà de 60 millions de LKR par an.
+45cee1adc7	Impôt de 15 % au maximum sur les revenus en devises rapatriés par une banque.
+9571425937	Rapatriez vos revenus sous 180 jours ; vous n'êtes pas obligé de les convertir en roupies.
+01dc673915	Oui : ouvrez un compte personnel en devises (PFCA).
+1f2ad72c5b	PayHere accepte les freelances sans immatriculation ; les versements en USD exigent une entreprise immatriculée.
+f1270e340b	Plafond d'imposition de 15 % sur les exportations de services, et pas de TVA en dessous de 60 millions de LKR.
+d9443ca001	Les règles de protection des données s'appliquent à partir du 1er janvier 2027.
+4163a97b86	Pas de règles propres à la vente en ligne ; les lois générales sur la consommation et les contrats électroniques s'appliquent.
+c4d9b570ad	Carte nationale d'identité (NIC).
+59660e1bdc	Détenez un compte personnel en devises (PFCA).
+9f0bb9d313	Détenez un compte personnel en devises (PFCA). Les recettes d'exportation de services doivent être rapatriées sous 180 jours mais ne sont pas converties d'office, et Payoneer permet de retirer vers un portefeuille eZ Cash.
+bd3876d186	Exercer sans enregistrement annuel valide expose à des amendes.
+05a8b17046	La GST devient la TVA le 1er janvier 2027 ; les inscriptions sont ouvertes depuis juillet 2026.
+5bb1f776b0	TIN, attribué lors de l'immatriculation de votre activité.
+f1bd43885b	Immatriculez-vous au Liberia Business Registry et renouvelez tous les 12 mois.
+a344f5466e	GST de 13 % sur les services ; une TVA complète démarre en janvier 2027.
+4075003ef1	Revenu mondial imposé : rien jusqu'à 70 000 LRD, puis jusqu'à 25 %.
+b22339f0d1	Probablement librement ; le dollar libérien et le dollar américain ont tous deux cours légal.
+78cb0bba16	Pas encore confirmé, bien que les comptes en USD soient courants.
+b06c0b31ae	Pas encore de loi sur la protection des données ; un projet de loi était devant le Parlement.
+61ba12e315	Carte nationale d'identification biométrique.
+700359b25a	TIN de Revenue Services Lesotho, enregistré en ligne.
+b4f39455c5	Obtenez une licence de commerçant au One-Stop Business Facilitation Centre, renouvelée chaque année.
+f70534476c	Enregistrement à la TVA au-delà de 2 millions de maloti (d'anciennes pages indiquent 850 000).
+8507347bf5	Rapporté : 20 % sur une première tranche, puis 30 %, moins un crédit personnel.
+301ecdf20f	Pas encore confirmé ; le contrôle des changes s'applique, et le loti est arrimé au rand.
+dbb37b3c72	La loi sur la protection des données s'applique ; sa commission n'est pas encore en place.
+dc3d285b9a	Votre code personnel lituanien.
+574a11a780	Déclarez gratuitement votre activité individuelle en ligne auprès de la VMI avant votre première facture.
+16948db0f6	TVA de 21 % ; exonération tant que les ventes nationales restent en dessous de 45 000 €.
+0ba87e4b9a	À partir de 2026, les revenus d'activité individuelle jusqu'à 42 500 € sont imposés de 5 à 20 %.
+7eb6c2ad18	Asmens tapatybės kortelė (carte d'identité) ou passeport.
+010d6cb994	Les consultants et les freelances en informatique et en design ont généralement besoin d'une autorisation d'établissement commerciale.
+cfa7323ba6	Votre numéro d'identification national est votre numéro fiscal.
+570225de67	Obtenez une autorisation d'établissement en ligne via MyGuichet.lu ; la plupart des freelances en ont besoin.
+bb786592d2	TVA de 17 % ; les petites entreprises en dessous de 50 000 € par an sont exonérées.
+24302e7dff	Revenu mondial imposé selon un barème progressif par classe d'impôt.
+4683edc5ad	Vendre des services à des entreprises de l'UE peut exiger un numéro de TVA dès la première vente.
+ed89d197bc	Un TIN de l'administration fiscale ; la procédure de demande n'est pas confirmée.
+6c60ab527b	Inscrivez-vous comme indépendant auprès du VID via l'EDS, en choisissant le régime général ou l'impôt des microentreprises.
+eeebc05860	TVA de 21 % au-delà de 50 000 € ; les services B2B vers l'UE peuvent exiger un enregistrement immédiat.
+bb55d7fd64	Revenu mondial imposé à 25,5 % jusqu'à 105 300 €, puis à 33 %.
+181be65429	Impôt des microentreprises : 25 % du chiffre d'affaires remplacent l'impôt sur le revenu et les cotisations sociales.
+b9fa5cdcd6	Personas apliecība (carte d'identité) ou passeport.
+1474959333	Pas de TVA ; un droit de timbre de 1 % s'applique aux contrats.
+fcf524a850	Revenus de source libyenne imposés à 5 %, et à 10 % au-delà de 12 000 LYD.
+04511a55b4	Étroitement géré par la Banque centrale ; aucune règle trouvée pour les revenus de services étrangers.
+e44c03709c	Carte d'identité personnelle, délivrée aux résidents de plus de 16 ans.
+ce45f5f61c	Fonctionne ; retirez vers une banque marocaine sous 30 jours.
+8d833c3a56	Versé sur votre compte bancaire en MAD.
+c94d6adbbf	Fonctionne ; l'argent doit revenir dans une banque marocaine.
+c6ed1a1386	PayPal impose de retirer vers une banque marocaine sous 30 jours.
+7bf29ef87e	Au-delà de 80 000 MAD par an d'un même client, l'imposition est de 30 %.
+acbda82c18	Laisser ses revenus sur PayPal ou Payoneer a déjà été sanctionné ; rapatriez-les sous 90 jours.
+d84e11cfaa	Un identifiant fiscal (IF) et l'ICE, attribués automatiquement aux auto-entrepreneurs.
+4c5f38bdc9	Auto-entrepreneur : inscription en ligne, validation chez Barid Al-Maghrib ; les services sont plafonnés à 200 000 MAD.
+0b58abddb6	TVA de 20 % ; les services exportés sont exonérés ; les auto-entrepreneurs ne facturent pas la TVA.
+6818959ff5	Les auto-entrepreneurs paient un impôt libératoire de 1 % du chiffre d'affaires de services au lieu de l'impôt sur le revenu.
+e60979893d	Oui, mais rapatriez vos revenus sous 90 jours et convertissez-en la majeure partie en dirhams.
+f38e87f448	Oui : gardez jusqu'à 70 % des revenus étrangers rapatriés sur un compte en devises.
+6ad5f14009	Le CMI exige une inscription au registre du commerce et une patente ; les freelances non immatriculés ne peuvent pas l'utiliser.
+1874307f45	Impôt auto-entrepreneur de 1 %, rétention de 70 % des devises et services exportés sans TVA.
+6290095259	Loi 09-08 : déclarez à la CNDP avant de collecter des données personnelles sur votre site.
+94bb0b4530	Les acheteurs peuvent se rétracter sous 7 jours après réception du produit.
+e8da4d74d8	Carte nationale d'identité électronique (CNIE).
+361659df36	Vendre surtout à l'étranger (plus de 25 % du chiffre d'affaires) peut déclencher l'impôt sur les bénéfices.
+7126f96663	Monaco n'attribue pas de numéro d'identification fiscale.
+007e92612b	Inscrivez-vous au Répertoire du commerce et de l'industrie (RCI) ; étapes pas encore confirmées.
+bc8c3a429f	Les règles et taux de la TVA française s'appliquent (20 % au taux normal).
+c930a19aba	Pas d'impôt sur le revenu des personnes, sauf pour les ressortissants français.
+10ba9f555f	En général inutile : Monaco utilise l'euro.
+4a95095db8	Carte d'identité monégasque.
+6c05805781	Versé sur votre compte bancaire en MDL.
+35e560ae39	IDNP, votre numéro d'identification personnel.
+2fd0ca68cc	Immatriculez-vous via le registre en ligne des entreprises de l'Agence des services publics ; étapes non confirmées.
+35628ca7ad	TVA de 20 % dès que le chiffre d'affaires atteint 1,7 million de MDL sur 12 mois.
+8b035c9aaf	Impôt sur le revenu forfaitaire de 12 % ; le travail effectué en Moldavie pour des clients étrangers est imposé.
+151279ecd6	IT Park : impôt unique de 7 % sur le chiffre d'affaires, mais seulement pour les sociétés.
+8fdca0b49b	Buletin de identitate (carte d'identité).
+7d7619a5cc	Une fois immatriculé à la TVA, vous ne pouvez pas vous désinscrire pendant au moins trois ans.
+8b20f66b41	PIB, un numéro fiscal à 8 chiffres attribué lors de l'immatriculation comme entrepreneur.
+db6ce795bc	Inscrivez-vous au Registre central des entités économiques (CRPS) ; étapes non confirmées.
+d7c855bcc1	TVA de 21 % au-delà de 30 000 € sur 12 mois ; les exportations sont à 0 %.
+1b9ccaed93	Les résidents sont imposés sur leur revenu mondial ; les entrepreneurs ont un barème distinct.
+26713cf8ee	En général inutile : le Monténégro utilise l'euro.
+cd247b20eb	Lična karta (carte d'identité).
+6af1c6d834	Versé sur votre compte bancaire en MGA.
+81db064099	Les freelances qui facturent à l'étranger peuvent devoir convertir 70 % de leurs revenus.
+50328c27ed	NIF de la DGI, gratuit en 2 à 3 jours via NIFONLINE, semble-t-il.
+7a1f96cfa5	Immatriculez une entreprise individuelle via le guichet unique de l'EDBM ; frais non confirmés.
+b2e9e67b0c	TVA de 20 % à partir de 400 millions de MGA de chiffre d'affaires ; les exportations sont à 0 %.
+d343e396ac	En dessous de 400 millions de MGA de chiffre d'affaires, l'impôt synthétique est de 5 %, peut-être réduit de 70 %.
+e3b36a3749	Oui, mais les prestataires de services doivent céder 70 % de leurs recettes d'exportation sous 30 jours.
+c57dfc7c7d	Oui : les comptes en devises peuvent recevoir des virements de l'étranger, avec des limites.
+299fa7dbc7	L'impôt synthétique de 5 %, réductible, est la principale simplification.
+2deba2ce82	Une loi sur la protection des données existe, mais elle n'est pas encore appliquée en pratique.
+fe9f2682f2	Carte nationale d'identité (CIN).
+72de25b9a9	Pas de TIN ; les contribuables utilisent des numéros d'employeur de la sécurité sociale (MISSA).
+c0db0a0781	Pas de TVA ; une taxe sur les recettes brutes et des taxes locales sur les ventes s'appliquent.
+2b3118f320	Impôt sur les salaires de 8 à 12 % ; règles pour les indépendants et les revenus étrangers non confirmées.
+8fa0c9bcbd	Oui, via Wise.
+a557699908	Versé sur votre compte bancaire en MKD.
+80374e1836	Numéro personnel EMBG et numéro fiscal EDB ; la procédure de demande n'est pas confirmée.
+71e865bfa9	Inscrivez-vous au Registre central ; étapes pas encore confirmées.
+447cfe7b4f	TVA de 18 % dès que le chiffre d'affaires atteint 2 millions de MKD par an.
+c6a27a257c	Impôt sur le revenu forfaitaire de 10 %, plus environ 28 % de cotisations sociales pour les entrepreneurs individuels.
+be3f41d1a3	Oui, librement ; aucune limite légale aux transferts ou au change.
+2aa75cc7d0	Très probable, sans limite aux opérations en devises ; non confirmé pour les particuliers.
+9dca74561c	Лична карта (carte d'identité).
+f5224c84c8	NIF délivré par l'administration fiscale, avec votre immatriculation à l'API-Mali.
+eb9214c3ed	Immatriculez une entreprise individuelle au guichet unique de l'API-Mali (RCCM et NIF).
+2fc86365c3	TVA de 18 % ; les contribuables à l'impôt synthétique en dessous de 50 millions de FCFA ne la facturent pas.
+ebb9f5fae8	En dessous de 50 millions de FCFA de chiffre d'affaires, un impôt synthétique de 3 %, exonéré la première année.
+b1a6165e70	Les liens de paiement Wave et Orange Money conviennent aux clients locaux en CFA, pas aux cartes étrangères.
+1a3f8f5714	Impôt synthétique de 3 %, avec la première année civile exonérée.
+4ce6ce18ab	Loi 2013-015 : déclarez vos traitements de données à l'APDP.
+ff0f760651	La loi 2016-012 sur les transactions électroniques existe ; règles de remboursement non confirmées.
+1663219a3a	Carte nationale d'identité biométrique (norme CEDEAO).
+b72cec2c58	Vendez des produits numériques ou des logiciels via un revendeur officiel (merchant of record) : Dodo Payments. La plateforme est le vendeur légal vis-à-vis de vos clients, gère les paiements par carte et la TVA ou taxe de vente due par le consommateur, et vous reverse l'argent. Vous devez quand même déclarer ces versements comme revenus dans votre pays.
+30053a552b	Les sanctions et l'inscription sur la liste du GAFI poussent les banques étrangères à effectuer des contrôles supplémentaires.
+db3e6eda33	Non confirmé pour les entrepreneurs individuels ; les entreprises individuelles ont en général besoin de licences municipales.
+6a18bafa27	Pas de TVA ; taxe commerciale de 5 % sur les services au-delà de 50 millions de MMK.
+28ce0559e5	Revenu mondial imposé de 1 à 25 % ; l'impôt sur les revenus en devises se paie dans cette devise.
+af7c7e5fb0	Oui, mais 15 % des revenus étrangers doivent être convertis en kyats au taux officiel.
+805effc6ba	En partie : les devises doivent être déposées dans des banques locales, et une partie est convertie.
+45a8b1a20f	Les portefeuilles locaux comme KBZPay et Wave Money n'ont pas encore été étudiés.
+390f5676bf	Pas de loi sur les données personnelles ; la loi de 2025 sur la cybersécurité oblige les plateformes à conserver les données des utilisateurs.
+d088611f19	Citizenship Scrutiny Card (carte d'identité).
+6e3d2cd095	Versé sur votre compte bancaire en MNT.
+659eeab804	Numéro de contribuable et numéro d'enregistrement ; la procédure de demande n'est pas confirmée.
+2e5aaafbdd	Inscrivez-vous auprès de l'administration fiscale mongole ; étapes pas encore confirmées.
+bd3086d611	TVA de 10 % dès que les ventes atteignent 50 millions de MNT sur 12 mois.
+c48e0f8e99	Revenu mondial imposé à 10 %, 15 % et 20 %.
+729a4e45fe	Probablement oui ; aucune obligation de cession trouvée pour les particuliers.
+559f213b92	Oui : des banques comme Golomt proposent des comptes en USD.
+74478cb135	Les portefeuilles locaux comme QPay et SocialPay n'ont pas encore été étudiés.
+a6860e7eac	Loi sur la protection des données personnelles (2021) : consentement et notification des violations.
+ea5d2e517c	Carte d'identité de citoyen.
+20fd54cae2	Un NIF délivré par le guichet unique, semble-t-il ; non confirmé.
+b0ca7ed1a0	Immatriculez une entreprise individuelle au guichet unique avec des copies certifiées de votre pièce d'identité.
+e8a2e52a1f	TVA de 16 % à partir de 3 millions de MRU de chiffre d'affaires ; les services exportés sont au taux zéro.
+b5f9c85706	En dessous de 3 millions de MRU de chiffre d'affaires, payez 3 % du chiffre d'affaires (régime du forfait).
+a4f97dbbae	Loi 2017-020 sur la protection des données personnelles, avec une autorité des données (APD).
+60da2013e9	Carte nationale d'identité ou passeport.
+852d01a591	Le numéro de votre carte d'identité (ressortissants maltais) ; les autres reçoivent un numéro fiscal à 9 chiffres.
+0449b43d45	Déclarez votre activité indépendante à Jobsplus et immatriculez-vous à la TVA avant de commencer.
+2fc9978e21	TVA de 18 % ; les petites entreprises en dessous d'environ 35 000 € (services) peuvent s'immatriculer en franchise.
+33b17f6fca	Revenu mondial imposé : 0 % jusqu'à 12 000 €, jusqu'à 35 %, plus 15 % de sécurité sociale.
+38c9d03ddd	Une activité indépendante à temps partiel peut bénéficier d'un taux de 10 % jusqu'à 12 000 €.
+8ee2a70024	Karta tal-Identità (carte d'identité) ou passeport.
+98e5d71e0a	Versé sur votre compte bancaire en MUR.
+fbe4e4e046	Les consultants freelance peuvent devoir s'immatriculer à la TVA dès la première roupie.
+c8d15e2fba	Traiter des données personnelles sans enregistrement est une infraction.
+72426970ff	TAN (Tax Account Number, numéro fiscal) de la Mauritius Revenue Authority.
+7fbe3e3b7f	Inscrivez-vous auprès du CBRD pour obtenir un numéro d'immatriculation d'entreprise, puis auprès de la MRA.
+feea9009c5	TVA de 15 % au-delà de 3 millions de MUR ; les consultants doivent s'immatriculer quel que soit leur chiffre d'affaires.
+69f1508cd5	Les revenus tirés de Maurice et les revenus étrangers rapatriés sont imposés de 0 à 20 %.
+33bf53efdc	Oui, librement ; le contrôle des changes a été suspendu en 1994.
+5a7798d6d0	Très probable, sans contrôle des changes ; non confirmé.
+5a1cc3b79b	Loi de 2017 sur la protection des données : enregistrez-vous auprès du Data Protection Office.
+6414c6c111	Carte nationale d'identité.
+d8c3706c1a	Les Maldives imposent les personnes depuis 2020, contrairement à ce que disent d'anciens guides.
+3efc5d382d	TIN de la MIRA, valable pour tous les impôts auxquels vous êtes inscrit.
+4c12524205	Inscrivez-vous via le portail des entreprises du ministère du Développement économique ; étapes non confirmées.
+a53740bbec	GST de 8 % (général) et 16 % (tourisme), au-delà de 1 million de MVR ; les taux ont pu changer.
+1f9116612e	Les résidents sont imposés sur leur revenu mondial ; 0 % jusqu'à 720 000 MVR.
+e50a0b0dd7	D'anciens guides indiquent 25 millions de MWK ; le seuil de TVA est de 50 millions de MWK depuis avril 2026.
+0c86157585	TPIN de la Malawi Revenue Authority.
+3e95921450	Enregistrez une entreprise individuelle en ligne via le MBRS ; frais non confirmés.
+c481ae69d8	TVA de 17,5 % au-delà de 50 millions de MWK par an depuis avril 2026.
+04970ce1eb	Revenus de source malawite imposés jusqu'à 35 % ; le travail effectué au Malawi compte probablement.
+206b8b2287	Le contrôle des changes s'applique ; les exportateurs convertissent 25 %, le traitement des freelances n'est pas confirmé.
+9ec0ad4836	Des comptes en devises (FCDAs) existent ; l'accès des particuliers n'est pas confirmé.
+c601ddb2b5	Loi de 2024 sur la protection des données ; seuls les grands responsables de traitement (plus de 10 000 personnes) doivent s'enregistrer.
+b5aeebfe78	Les acheteurs peuvent se rétracter des contrats en ligne sous sept jours.
+dfd2dc69e3	Carte d'identité nationale (citoyens) ou passeport.
+9805212a0f	Versé sur votre compte bancaire en MXN.
+c983cfa8fe	Retirez en pesos vers une banque mexicaine.
+fe4ac407a4	Les services exportés absents de la liste officielle paient toujours 16 % d'IVA.
+ade60986a0	La plupart des gens ne peuvent pas détenir de dollars sur un compte bancaire mexicain.
+0e493bba51	RFC ; obtenez-le en ligne avec votre CURP si vous avez 18 ans ou plus.
+d2341a27c3	Pas besoin de société ; inscrivez-vous au RFC comme persona física.
+66b1dcda9f	IVA (TVA) de 16 % ; seuls les services exportés listés sont à 0 %, les autres paient 16 %.
+cc8e653c8b	Revenu mondial imposé ; en dessous de 3,5 millions de MXN par an, le RESICO ne prélève que 1 à 2,5 %.
+d9f3ac9497	Oui, librement ; le Mexique n'a aucun contrôle des changes.
+5662863f64	Rarement : les comptes en dollars sont réservés aux résidents des zones frontalières et aux entreprises.
+02107f3dab	Stripe accepte les particuliers avec un RFC personnel ; les versements vont sur un compte bancaire en MXN.
+e725f4ea81	L'impôt sur le revenu de 1 à 2,5 % du RESICO et l'IVA à 0 % sur les services exportés admissibles.
+47fdacdeb6	Nouvelle loi sur les données (mars 2025) : avis de confidentialité et consentement obligatoires.
+ee0feacabf	Les acheteurs peuvent annuler dans les 5 jours ouvrables suivant la livraison (PROFECO).
+7788554edc	Carte d'électeur de l'INE, ou votre passeport.
+acf417d3f3	Versé sur votre compte bancaire en MYR.
+64f911f6db	L'exonération des revenus étrangers ne couvre pas le travail à distance effectué depuis la Malaisie.
+0a152c5020	TIN de l'Inland Revenue Board, attribué aux citoyens de 18 ans et plus.
+fbb8638fb4	Enregistrez une entreprise individuelle auprès de la SSM via EzBiz : 30 RM par an à votre nom.
+a8cbe39b5f	Pas de TVA ; la taxe sur les services de 8 % ne s'applique qu'au-delà de 500 000 RM de services taxables.
+b80f639247	Le travail effectué en Malaisie est imposé de 0 à 30 %, même pour des clients étrangers.
+0ef8d76739	Oui ; pas de conversion forcée, et vous pouvez garder vos revenus étrangers en devises.
+b6b3b3a5df	Oui : les particuliers peuvent ouvrir librement des comptes en devises.
+3d3f575101	Les passerelles locales comme iPay88 et Billplz n'ont pas encore été étudiées.
+afc23d04c3	Aucun avantage fiscal spécifique aux freelances trouvé.
+59ca3fa2bd	PDPA 2010 (modifiée en 2024) : désignez un DPO (délégué à la protection des données) et signalez les violations de données.
+d64a687728	MyKad (carte nationale d'identité).
+871afd2c9e	Versé sur votre compte bancaire en MZN.
+0062735f37	La moitié des revenus étrangers doit actuellement être convertie en meticais.
+ba59df4ca9	Les consultants paient 15 % au titre de l'ISPC et peuvent y rester au plus 5 ans.
+13b51a6b0f	NUIT, le numéro fiscal de l'administration fiscale.
+5aee008590	Enregistrez une entreprise individuelle au guichet unique BAU, généralement en 7 à 15 jours.
+b9cb1fe3d9	TVA de 16 % ; seuil de 2,5 millions de MZN selon les sources, à confirmer officiellement.
+963d6f637a	Revenu mondial imposé jusqu'à 32 % ; les petits contribuables en dessous de 4 millions de MZN peuvent utiliser l'ISPC.
+8c81720abb	Oui, mais rapatriez sous 90 jours et convertissez 50 % en meticais.
+86c7775319	Oui, si vous justifiez de revenus en devises, comme des exportations.
+de5ac6c338	Aucun avantage pour les freelances ; l'ISPC est limité à 5 ans pour les professions libérales.
+05d3802855	Pas encore de loi générale sur la protection des données ; un projet de loi a été déposé en 2026.
+d535ba7415	Bilhete de identidade (carte d'identité).
+96b2378183	Versé sur votre compte bancaire en NAD.
+b2fa442332	Le droit de rétractation de 7 jours cité par certains guides n'est pas encore en vigueur.
+110fb2152e	D'anciennes pages indiquent 500 000 N$ ; le seuil de TVA est désormais de 1 million de N$.
+35399e387f	TIN de la NamRA, attribué à l'enregistrement.
+324ebac387	Inscrivez-vous auprès de la BIPA ; étapes pas encore confirmées.
+99319ab899	TVA de 15 % au-delà de 1 million de N$ sur toute période de 12 mois.
+3bd5b79056	Revenus de source namibienne imposés : 0 % jusqu'à 100 000 NAD, puis jusqu'à 37 %.
+3a5d9e7971	Oui, dans le cadre du contrôle des changes de la zone monétaire commune, via les banques commerciales.
+d7b8ddb6ea	Oui : les banques proposent des comptes en devises ; l'accès des particuliers n'est pas confirmé séparément.
+a9a8d7d47f	Pas encore de loi sur la protection des données ; un projet de loi a été déposé en 2025.
+a6f3dfe5f3	Les droits des consommateurs en ligne existent sur le papier mais ne sont pas encore en vigueur.
+0153565c74	NIF, délivré semble-t-il avec votre immatriculation à la Maison de l'Entreprise.
+50bf158887	Déclarez-vous comme entreprenant à la Maison de l'Entreprise de Niamey, en 72 heures environ.
+fbee2d0767	TVA de 19 % ; les ventes via des plateformes sont imposables depuis 2025.
+b898dc0ac0	En dessous de 50 millions de FCFA de chiffre d'affaires, un impôt synthétique s'applique ; plus d'exonération de démarrage depuis 2025.
+307421d4c4	Plus de répit fiscal pour les petites entreprises depuis 2025 ; le régime synthétique est l'option simplifiée.
+9984c6e4a8	Loi 2022-59 : déclarez à la HAPDP, sauf si vous désignez un délégué à la protection des données.
+f9fb7ff70a	La loi 2019-03 sur les transactions électroniques existe ; règles de remboursement non confirmées.
+9a5c486873	Carte nationale d'identité ; cartes biométriques de l'AES déployées depuis 2026.
+b529592d7f	Vous devez associer une banque nigériane partenaire pour recevoir de l'argent.
+e501286367	Versé sur votre compte bancaire en NGN.
+b0be13427a	Uniquement via Kuda, pour les entreprises immatriculées auprès de la CAC.
+a60022bf06	Les comptes Paystack Starter sont plafonnés à 8 millions de ₦ (5 000 USD pour les dollars).
+035ee1ed79	Les plateformes qui paient via PayPal Payouts ne peuvent pas payer les comptes nigérians.
+6167802f08	Tous vos revenus étrangers sont imposables, même si vous les gardez à l'étranger.
+cfcfbd819a	Toute personne imposable doit avoir un Tax ID (numéro d'identification fiscale), et les banques le demanderont.
+683b57b390	Inutile sous votre propre nom ; enregistrez un nom commercial auprès de la CAC.
+e59f54d12c	La TVA est de 7,5 % ; les services exportés sont au taux zéro.
+b4e892fceb	Les revenus étrangers sont imposables ; les premiers 800 000 ₦ sont exonérés, puis 15 à 25 %.
+ce44de6608	Oui, sur un compte domiciliaire (en USD) ; aucune autorisation préalable n'est nécessaire.
+41a38ef598	Oui : un compte domiciliaire dans une banque nigériane.
+0361692219	Paystack vous permet de vous inscrire comme Starter Business sans immatriculation à la CAC.
+797173355a	Les premiers 800 000 ₦ de revenus sont exonérés ; les petites sociétés paient 0 % d'impôt sur les sociétés.
+4b5b0b47d8	Loi nigériane de 2023 sur la protection des données, appliquée par la NDPC.
+e3302b03d5	Le droit de la consommation (FCCPA) couvre les vendeurs en ligne ; les réclamations vont à la FCCPC.
+14c698df52	Numéro d'identification nationale (NIN) ; les applis de paiement utilisent aussi votre BVN.
+cd031ed597	Versements de sites qui paient via PayPal Payouts (PayPal ne liste pas ce pays) ; soldes Wise (les résidents ne peuvent pas détenir d'argent).
+5be32655d5	Recevez sur un compte domiciliaire ordinaire (en USD).
+92f2f854ba	Recevez sur un compte domiciliaire ordinaire (en USD). Selon le manuel des changes de la CBN en vigueur depuis le 1er juin 2026, les titulaires y ont librement accès sans autorisation préalable.
+198dc8bb01	RUC, un numéro à 14 chiffres de la DGI, enregistré avec votre cédula.
+30b451a85c	TVA de 15 % ; tous les commerçants doivent s'inscrire, sans seuil indiqué.
+e581286aed	Seuls les revenus de source nicaraguayenne sont imposés, à des taux allant jusqu'à 30 %.
+d4e68c460c	Régime de quota mensuel fixe pour des revenus jusqu'à 480 000 C$ par an (ancien chiffre).
+4a0ead8e01	Inscrivez-vous au KOR au moins quatre semaines avant le début de la période de déclaration.
+9570d36d7a	Un numéro fiscal attribué à la naissance ou lors de votre inscription auprès de votre commune.
+e98fdc8138	Enregistrez une eenmanszaak (entreprise individuelle) auprès de la KVK en ligne avec DigiD, puis rendez-vous dans un bureau de la KVK.
+19fb661619	TVA de 21 % ; exonération KOR facultative jusqu'à 20 000 € de chiffre d'affaires par an.
+a350ccff28	Revenu mondial imposé selon le barème progressif de la Box 1.
+a3cf4b660a	KOR : aucune TVA facturée ni récupérée en dessous de 20 000 € par an.
+8c063803cc	Versé sur votre compte bancaire en NOK.
+55e153c220	Numéro national d'identité, ou numéro D pour les ressortissants étrangers.
+1a7e42c6e1	Enregistrez votre enkeltpersonforetak (entreprise individuelle) au Brønnøysund via Altinn pour obtenir un numéro d'organisation.
+17dcedaf20	TVA de 25 % dès que les ventes dépassent 50 000 NOK sur 12 mois.
+67523a6dbc	Revenu mondial imposé, plus 10,8 % de sécurité sociale sur les revenus d'activité.
+7655f76257	Oui : certaines banques proposent des comptes en devises (valutakonto) aux particuliers.
+4ab60c787f	Le RGPD s'applique via l'EEE, sous le contrôle de Datatilsynet.
+6adc27dd2b	ID-kort (carte d'identité), permis de conduire ou passeport.
+76e80c7995	Vous pouvez ouvrir un compte, mais pas recevoir de paiements.
+432a6bc294	Les sources se contredisent ; aucune page de Payoneer ne le confirme.
+3f1aa23f55	Les soldes de carte supérieurs à 10 000 USD doivent être transférés sur votre compte bancaire.
+50742b76f7	Aucune page de Payoneer ne confirme la prise en charge du Népal.
+ca8deddd87	Les vendeurs en ligne non inscrits risquent des amendes jusqu'à 200 000 Rs.
+51b3f658e3	PAN de l'Inland Revenue Department, gratuit.
+f782a9e709	Les freelances peuvent utiliser un PAN personnel ; les vendeurs en ligne doivent aussi s'inscrire sur le portail DoCSCP.
+564c06b5e1	TVA de 13 % ; les services à des clients à l'étranger sont au taux zéro.
+a6b5ceb748	Revenus étrangers de logiciels, de conseil ou de contenu : impôt de 5 % prélevé par la banque.
+a6d8b39752	Oui, via des circuits agréés par la NRB, comme la carte prépayée en devises d'une banque.
+ed4f59b239	Oui, pour ceux qui gagnent des devises : les banques ouvrent des comptes en devises convertibles.
+0bf2d08814	Khalti exige une entreprise immatriculée et un PAN/TVA ; les particuliers ne peuvent pas devenir marchands.
+bc097e240e	Impôt de 5 % sur les revenus étrangers, et 50 % de réduction d'impôt sur le revenu pour les exportateurs de services informatiques.
+b8b2ba8cbc	La loi 2075 sur la vie privée des personnes s'applique ; il n'y a pas d'autorité de protection des données.
+dfee062140	Loi 2081 sur le commerce électronique : affichez votre PAN, votre adresse et une procédure de réclamation.
+3a82d6d1ef	Certificat de citoyenneté.
+325a8d6bac	La Nepal Rastra Bank permet aux exportateurs de services en ligne de recevoir leurs revenus sur la carte prépayée en devises d'une banque agréée et, sur demande, de les transférer sur leur propre compte local ou en devises.
+f3fc9718b4	TIN du Nauru Revenue Office ; la procédure de demande n'est pas confirmée.
+b63c716625	Pas de TVA ni de GST.
+fb03173212	Aucun impôt sur le revenu des personnes rapporté.
+859559d2fb	Les comptes locaux sont en dollars australiens, la monnaie officielle.
+a46b6a1739	Pas de carte nationale d'identité ; on utilise le passeport.
+a061ac65c8	Versé sur votre compte bancaire en NZD.
+6a090edf93	Ne facturez pas la GST avant d'avoir un numéro de GST.
+2b2a1d947c	Numéro IRD délivré par Inland Revenue.
+f14711b5c3	Aucune immatriculation nécessaire ; votre numéro IRD sert d'identifiant d'entreprise.
+ec9755e55b	GST de 15 % dès que le chiffre d'affaires atteint 60 000 NZD sur 12 mois.
+7550f3c0f2	Revenu mondial imposé de 10,5 % jusqu'à 39 % au-delà de 180 000 NZD.
+62b5edea08	Oui : des banques comme ANZ proposent des comptes personnels en devises.
+58cfb7c00d	Le Privacy Act 2020 s'applique.
+20509d6add	Versé sur votre compte bancaire en OMR.
+75e79e8872	À partir de 2028, les résidents paieront 5 % sur leur revenu mondial au-delà de 42 000 OMR.
+102ce287ad	Pas d'impôt sur les personnes, donc les TIN concernent les entreprises (TVA, impôt sur les sociétés).
+46455f1644	Inscrivez-vous auprès du ministère du Commerce (MOCIIP) ; étapes pas encore confirmées.
+e1eef0c6ad	TVA de 5 % au-delà de 38 500 OMR de chiffre d'affaires par an.
+2ec9c4fc73	Pas d'impôt sur le revenu des personnes avant 2028 ; ensuite 5 % au-delà de 42 000 OMR.
+6efb0fd1fb	Oui, librement ; le rial est convertible et les capitaux circulent sans restriction.
+6a3ae04f64	Oui : les banques proposent des comptes personnels en USD, GBP, EUR et plus.
+5e84d062d5	Il n'est pas confirmé que le travail effectué au Panama pour des clients étrangers ne soit pas imposé.
+dbca7cea4b	RUC, le numéro du registre unique des contribuables.
+3244e62484	Inscrivez-vous auprès du MICI et de la DGI ; étapes pas encore confirmées.
+021db37f83	ITBMS (TVA) de 7 % au-delà de 36 000 USD par an.
+4ed657540c	Seuls les revenus de source panaméenne sont imposés : 0 % jusqu'à 11 000 USD, puis 15 à 25 %.
+5acbb835f0	Les comptes locaux sont de fait en dollars américains, la monnaie légale du Panama.
+c0ec06b7ae	Versé sur votre compte bancaire en PEN.
+ab242d208d	Les banques peuvent fermer des comptes personnels utilisés pour des flux professionnels ; envisagez un compte professionnel.
+346daefca3	Les revenus des professionnels freelance ne peuvent généralement pas relever du Nuevo RUS.
+9455edcdb0	RUC, le numéro du registre unique des contribuables de la SUNAT.
+570e242a2e	Inscrivez-vous au RUC auprès de la SUNAT, en ligne avec votre DNI via App Personas.
+4b59810caf	IGV (TVA) de 18 % ; règles d'exportation des services pas encore confirmées.
+c439e5c061	Revenu mondial imposé selon un barème par tranches qui commence à 8 %.
+3ea9b2bfe0	Oui : les comptes en dollars sont courants, par exemple au BCP sans minimum.
+bd5644f9e7	Nuevo RUS : une cotisation mensuelle fixe à partir de S/ 20 pour les petites entreprises.
+8fd3ea76f0	DNI, délivré par le RENIEC.
+e0c1e6f4d3	La pénurie de devises peut retarder la conversion et l'envoi d'argent à l'étranger.
+fd608d0b09	TIN de l'Internal Revenue Commission ; les banques l'exigent pour ouvrir un compte.
+c4d1358976	TVA de 10 % ; exportations au taux zéro ; seuil pas encore confirmé.
+9012ef027a	Résidents imposés sur leur revenu mondial ; tranches rapportées de 22 à 42 %.
+efd45e5e3d	Restreint : les fonds détenus en PNG doivent être en kina ; les virements vers l'étranger peuvent être lents.
+1fb472d31e	Carte nationale d'identité (e-ID depuis 2015).
+15a7123eb0	Versé sur votre compte bancaire en PHP.
+a2fe0d0926	Retirez vers n'importe quelle banque philippine à votre nom.
+3e29ae354d	Tous les vendeurs en ligne doivent s'inscrire auprès du BIR, quelle que soit leur taille.
+b11be4826e	Choisissez l'option à 8 % lors de l'inscription ou dans votre première déclaration trimestrielle.
+f43da22f4a	TIN du BIR, attribué lors de l'inscription avec le formulaire 1901.
+64ee1eee15	Inscrivez-vous auprès du BIR (formulaire 1901, en ligne via ORUS) ; le DTI seulement pour un nom commercial.
+940d504ec8	TVA seulement au-delà de 3 millions de ₱ par an ; les services payés en devises sont au taux zéro.
+5dc161ec5c	Imposé sur le revenu mondial ; en dessous de 3 millions de ₱ de ventes, choisissez 8 % sur les recettes au-delà de 250 000 ₱.
+f03728f837	Oui, librement ; vous n'êtes jamais obligé de convertir vos revenus étrangers en pesos.
+7351e57684	Oui : les banques proposent des comptes de dépôt en devises (FCDUs).
+d0503c398a	PayMongo accepte les vendeurs non immatriculés pour QR Ph uniquement ; les cartes et GCash exigent une immatriculation au DTI.
+4f3838e4c0	L'option d'impôt forfaitaire à 8 %, et une TVA nulle sur les services payés en devises.
+232f021a59	Data Privacy Act 2012, appliqué par la National Privacy Commission.
+ff15ab55bb	L'Internet Transactions Act 2023 couvre les vendeurs en ligne ; le DTI dispose d'un bureau du commerce électronique.
+95e45fc8b1	PhilID (carte nationale d'identité), ou sa version numérique ePhilID.
+8f73088651	Les résidents peuvent conserver leurs revenus en devises sur des comptes FCDU (manuel des changes de la BSP), et Wise comme Payoneer sont disponibles.
+a0b09e2202	Comptes individuels autorisés ; pas besoin d'entreprise immatriculée.
+b8fcc1b6db	Versé sur votre compte bancaire en PKR.
+1a95eb7181	L'impôt réduit sur les exportations n'est libératoire que si vous déposez votre déclaration de revenus.
+42cafbd69a	Inscrivez-vous auprès du PSEB pour payer 0,25 % au lieu de 1 % sur les revenus d'exportation.
+4d3d48d74e	Vous ne pouvez pas retirer de devises en espèces au Pakistan.
+f18c9b5263	Votre NTN est votre numéro de CNIC ; inscrivez-vous gratuitement en ligne sur FBR Iris.
+a56abfdc58	Aucune immatriculation d'entreprise nécessaire ; inscrivez-vous simplement auprès de la FBR pour obtenir un NTN.
+7f1a6f599b	Les services sont taxés par les provinces ; le Sindh exonère les services informatiques exportés.
+5bec7bf909	Revenus d'exportation : impôt libératoire de 0,25 % si vous êtes inscrit au PSEB, sinon 1 %.
+59975a72a6	Oui ; gardez 5 000 USD par mois ou la moitié de vos revenus en devises.
+06cda7e9cb	Oui : les banques ouvrent un compte export en dollars (ESFCA) à côté de votre compte en roupies.
+e3fc024db1	Les passerelles locales comme Safepay et PayFast demandent un NTN et un compte bancaire professionnel.
+712c099447	Inscrivez-vous au PSEB (1 000 Rs par an) pour ramener l'impôt sur les exportations à 0,25 %.
+bbf3afe6cb	Aucune loi sur la protection des données en vigueur pour l'instant ; les lois de vos clients (comme le RGPD) comptent.
+876d091366	Les contrats en ligne sont valables ; la protection des consommateurs relève surtout des provinces.
+e0d7f8f780	Carte nationale d'identité informatisée (CNIC).
+61d649447f	La State Bank of Pakistan permet aux freelances de recevoir des recettes d'exportation sur simple déclaration en l'absence de contrat.
+092ebd225b	La State Bank of Pakistan permet aux freelances de recevoir des recettes d'exportation sur simple déclaration en l'absence de contrat. Les banques doivent ouvrir un compte spécial en devises pour exportateurs (ESFCA) à côté de votre compte en PKR. Payoneer propose un type de compte « Individual ».
+28100d3d3c	Versé sur votre compte bancaire en PLN.
+8e9726b5aa	Votre taux de ryczałt dépend du code exact du service ; les erreurs sont fréquentes.
+395b030bff	PESEL, si vous n'exercez pas d'activité et ne payez pas de TVA.
+4592c3727a	Immatriculez une entreprise individuelle (JDG) en ligne via le CEIDG, généralement en une journée.
+7a624dc0ff	TVA de 23 % ; exonération en dessous de 240 000 PLN par an à partir de 2026.
+692ac86b08	Revenu mondial imposé à 12 % jusqu'à 120 000 PLN, puis à 32 %.
+855cb56169	Oui : des banques comme PKO BP proposent des comptes en devises dans de nombreuses monnaies.
+955534de54	Impôt forfaitaire ryczałt (12 % pour l'informatique) et cotisations ZUS réduites pour les nouvelles entreprises.
+15afe11958	Dowód osobisty (carte d'identité) ou passeport.
+cc41442bfe	L'inscription à la sécurité sociale n'est pas automatique ; faites-la sur Segurança Social Direta.
+eec12fb0a0	Dépasser 18 750 € dans l'année vous oblige à facturer la TVA dès cette facture.
+db779d7a2c	NIF, délivré par l'Autorité fiscale et douanière, nécessaire avant de déclarer le début d'activité.
+95fae9713a	Déclarez le début d'activité aux Finanças avec votre NIF, puis inscrivez-vous séparément à la sécurité sociale.
+958d78a049	TVA de 23 % ; exonération si le chiffre d'affaires de l'année précédente était inférieur à 15 000 €.
+0b8e60c769	Revenu mondial imposé de 12,5 à 48 %, plus 21,4 % de sécurité sociale sur 70 % des revenus de services.
+6d823a2b8c	Oui, mais les conditions varient selon la banque ; comparez les comptes en devises de chacune.
+b39de99315	Pas de TVA en dessous de 15 000 €, et pas de sécurité sociale pendant vos 12 premiers mois.
+f8b06f66a6	Cartão de Cidadão (carte d'identité) ou passeport.
+3021d327c7	Inscrivez-vous auprès du Bureau of Revenue and Taxation ; étapes pas encore confirmées.
+b4684013af	PGST de 10 % au-delà de 300 000 USD par an.
+b835382665	Impôt sur les salaires de 6 à 12 % ; taxe sur les recettes brutes des entreprises non confirmée.
+963d2033ed	Les citoyens utilisent le passeport ou le permis de conduire.
+0b58117afc	Versé sur votre compte bancaire en PYG.
+e670b28444	Les services à des clients paraguayens sont imposables ; vérifiez auprès de la SET le traitement des revenus de source étrangère.
+80016ba3fe	Inscrivez-vous au RUC auprès de la DNIT, en ligne pour les particuliers.
+250203926d	TVA de 10 % ; les contribuables au RESIMPLE sont hors du champ de la TVA.
+4371eef503	Seuls les revenus de source paraguayenne sont imposés ; des revenus uniquement de clients étrangers peuvent être à 0 %.
+b1b6205aea	Oui : les banques fonctionnent en monnaie locale comme en devises.
+b2413b8691	RESIMPLE : paiements trimestriels fixes pour une facturation annuelle jusqu'à 80 millions de PYG.
+9dc256c150	Cédula de identidad civil (carte nationale d'identité).
+e340a1603e	Versé sur votre compte bancaire en QAR.
+960e2ab307	TIN de la General Tax Authority ; la procédure de demande n'est pas confirmée.
+cd8c0abe3f	Pas encore de TVA ; un taux de 5 % est attendu à terme.
+a4177f1092	Seuls les revenus de source qatarie sont imposés ; les revenus d'activité indépendante peuvent payer 10 %.
+76b9478e6a	Probablement librement ; le riyal est arrimé à l'USD et aucun contrôle n'est signalé.
+922f2376e1	Oui : des banques comme QNB proposent des comptes locaux dans certaines devises.
+76100bd4f7	Loi n° 13 de 2016 sur la protection des données personnelles.
+533dd2c293	Qatari ID Card (carte d'identité qatarie).
+d7ed4fdb82	Versé sur votre compte bancaire en RON.
+064cdbf23a	Gagner plus de 25 000 € vous fait passer à l'imposition au réel l'année suivante.
+07bd6f7a50	Les cotisations de retraite CAS sont dues dès que le revenu net atteint 48 600 lei.
+c311ba9429	Votre CNP (code personnel) est votre numéro d'identification fiscale.
+424a087904	Immatriculez une PFA au registre du commerce (ONRC), en ligne ou sur place, avant de commencer.
+1720330c1f	TVA de 21 % ; exonération en dessous de 395 000 lei, et les services B2B à l'étranger ne comptent pas.
+82b5ae4bc0	PFA : impôt sur le revenu de 10 %, plus les cotisations retraite (CAS) et santé (CASS) au-delà de certains seuils.
+a24df9ff5e	Oui : des banques comme BCR ouvrent des comptes courants en devises aux particuliers.
+97e17a15b8	Norme de revenu : impôt de 10 % sur un montant fixe, si les recettes sont restées en dessous de 25 000 €.
+bce0ea3dbd	Carte de identitate (carte d'identité) ou passeport.
+c87e675345	Versé sur votre compte bancaire en RSD.
+df34658b08	Travailler pour un seul client peut faire échouer le test d'indépendance et alourdir votre impôt.
+cdc0d20e97	Les freelances non immatriculés doivent déclarer dans les 30 jours suivant chaque trimestre.
+75e0cf42cf	JMBG pour les particuliers ; les entrepreneurs reçoivent un PIB à 9 chiffres.
+00350bb024	Immatriculez-vous comme entrepreneur auprès de l'APR en ligne ; l'impôt et la sécurité sociale sont liés automatiquement.
+84f155026a	TVA de 20 % au-delà de 8 millions de RSD sur 12 mois.
+de60ced49c	Les freelances non immatriculés payés de l'étranger s'autoliquident chaque trimestre ; les entrepreneurs peuvent opter pour le paušal.
+3adaf34022	Oui : les banques proposent des comptes en devises (devizni) aux particuliers.
+590205882d	Paušal : impôt et cotisations mensuels fixes, jusqu'à 6 millions de RSD par an.
+cd7e1b567f	INN, votre numéro d'identification de contribuable.
+9847a3da07	Inscrivez-vous comme travailleur indépendant (NPD) dans l'appli « Мой налог » en quelques minutes.
+6e32177504	TVA de 22 % à partir de 2026 ; les entreprises au régime simplifié en dessous de 20 millions de roubles sont exonérées.
+a3a76baa9d	Impôt progressif de 13 à 22 % sur le revenu depuis 2025 ; beaucoup de freelances utilisent plutôt le NPD.
+ca6c98f9af	Restreint par les sanctions ; la plupart des plateformes occidentales ne servent pas la Russie.
+4004bae1f2	Travailleur indépendant NPD : 4 % sur les paiements de particuliers, 6 % sur ceux des entreprises, jusqu'à 2,4 millions de roubles.
+aa7606c333	Passeport intérieur russe.
+3cfa616743	Retirez vers une banque rwandaise.
+c0950fd569	Versé sur votre compte bancaire en RWF.
+88e24c4771	Afficher des prix en devises à des clients rwandais peut entraîner de lourdes amendes.
+70db3ec17f	Les entreprises en ligne ont de nouvelles obligations d'information selon la loi 011/2026.
+cef747d808	TIN de la Rwanda Revenue Authority, attribué automatiquement avec l'immatriculation au RDB.
+1a685dd4ec	Immatriculez une entreprise individuelle gratuitement et instantanément en ligne au RDB, avec un TIN automatique.
+081b309827	TVA de 18 % au-delà de 20 millions de RWF par an ; les exportations sont au taux zéro.
+5995ac2e98	Revenu mondial imposé de 0 à 30 % ; un chiffre d'affaires inférieur à 2 millions de RWF est exonéré.
+34deeacd04	Oui, par les circuits agréés ; afficher des prix en devises aux Rwandais est interdit.
+abc526725e	Oui : les comptes en devises agréés sont autorisés.
+0fe52c6259	IremboPay et Paystack exigent une immatriculation au RDB et un TIN.
+8978ac6bd8	Pas d'impôt sur le revenu en dessous de 2 millions de RWF ; impôts simples forfaitaires ou de 3 % jusqu'à 20 millions de RWF.
+798e04c541	Loi 058/2021 : enregistrez-vous comme responsable de traitement auprès de l'Autorité nationale de cybersécurité.
+24e0a30a39	Les acheteurs peuvent se rétracter de leurs achats en ligne sous 7 jours (loi 011/2026).
+bca06e2ae5	Versé sur votre compte bancaire en SAR.
+6c932318dc	Les revenus de freelance ne sont pas simplement exonérés ; la zakat ou un impôt de 20 % s'applique.
+33a0ef2194	Les expatriés ne peuvent pas utiliser la licence de freelance.
+e0b223288f	TIN de l'Autorité générale de la zakat et des impôts (GAZT).
+976fb8c7bd	Les ressortissants saoudiens peuvent obtenir une licence de freelance en ligne ; les expatriés doivent s'inscrire au registre du commerce.
+78a632e2c7	TVA de 15 % au-delà de 375 000 SAR par an ; les services exportés sont au taux zéro.
+2c8ff3e32f	Pas d'impôt sur le revenu des personnes, mais les revenus d'activité sont soumis à la zakat (Saoudiens) ou à un impôt de 20 % (autres).
+8711c07c75	Oui, librement ; aucune limite aux entrées ni aux sorties.
+5befb29aea	Oui : les banques ouvrent des comptes dans toute devise disponible.
+ef62b3610a	Les passerelles locales comme Moyasar, HyperPay et Tap n'ont pas encore été étudiées.
+eea16e52cc	Licence de freelance pour les ressortissants saoudiens.
+fccc110dd9	Loi sur la protection des données personnelles, en vigueur depuis 2023, encadrée par la SDAIA.
+476deb4b0b	Les acheteurs en ligne peuvent renvoyer des biens non utilisés sous 7 jours.
+fa88bc3761	Pas encore de TVA ; une taxe sur les biens s'applique ; une TVA de 15 % est en préparation.
+b84acc9d20	Tranches rapportées de 0 % jusqu'à 15 000 SBD, puis jusqu'à 40 %.
+823ddc46e4	Carte d'électeur facultative, délivrée sur demande.
+e3e3a47828	TIN de la Seychelles Revenue Commission lors de l'enregistrement.
+1a288250ed	Inscrivez-vous auprès du Registrar of Businesses et obtenez une licence ; un NIN est nécessaire.
+987b4413ab	TVA de 15 % au-delà de 2 millions de SCR ; facultative à partir de 100 000 SCR.
+ed0d5c22c8	En dessous de 1 million de SCR de chiffre d'affaires, un impôt présomptif forfaitaire de 1,5 % du chiffre d'affaires.
+3ecc8cb850	Probablement oui ; le contrôle des changes aurait été supprimé en 2009.
+371966f648	Probablement oui ; les résidents pourraient détenir librement des devises.
+4859eb6509	L'impôt présomptif de 1,5 % en dessous de 1 million de SCR est la principale simplification.
+9746f884a0	Loi de 2023 sur la protection des données, appliquée par la Commission de l'information.
+84220f5c6d	Carte nationale d'identité (NIN) ou passeport.
+9fa0963b79	N'utilisez pas de circuits informels pour contourner les règles de change.
+bc8a41a0e2	Enregistrez un nom commercial avec un formulaire notarié ; procédures en temps de guerre non confirmées.
+00ccb3e506	TVA de 17 % selon les sources ; seuil et règles d'exportation non confirmés.
+deb237a255	Taux maximal de l'impôt sur le revenu des personnes de 15 % selon les sources ; autres règles non trouvées.
+d087ba8217	Non confirmé ; le conflit et l'énorme écart entre taux officiel et taux parallèle perturbent la banque.
+6773afa573	Pas de loi générale sur la protection des données ; la Constitution protège la vie privée.
+0bc203fce4	Versé sur votre compte bancaire en SEK.
+5d39ec4ea9	Personnummer, ou un numéro de coordination si vous n'êtes pas inscrit au registre de la population.
+2c28cb4206	Inscrivez-vous auprès du Skatteverket et demandez la F-skatt via verksamt.se, gratuitement.
+d0ecc9dd0d	TVA de 25 % ; exonération tant que le chiffre d'affaires reste en dessous de 120 000 SEK par an.
+d9a1098492	Revenu mondial imposé : environ 32 % au niveau communal, plus 20 % au niveau national au-delà de 643 000 SEK.
+a9a584242c	Nationellt ID-kort (carte d'identité) ou passeport.
+54164d104c	Versé sur votre compte bancaire en SGD.
+1c7f12b55e	Tenez à jour vos cotisations MediSave, sinon l'ACRA ne renouvellera pas votre enregistrement.
+3a82089d23	L'exonération des revenus étrangers ne couvre pas le travail freelance effectué à Singapour.
+13b9cdc639	NRIC ou FIN pour les particuliers ; les entreprises utilisent l'UEN de l'ACRA.
+0af67dc7e2	Enregistrez une entreprise individuelle auprès de l'ACRA via BizFile+ (100 $ par an).
+e1ed55a55b	GST de 9 % au-delà de 1 million de S$ par an ; de nombreux services à l'étranger sont au taux zéro.
+2e8abf80e8	L'activité exercée à Singapour est imposée de 0 à 24 %, même pour des clients étrangers.
+2fc9655e46	Oui, librement ; Singapour n'a aucun contrôle des changes.
+c3f905b90a	Oui : détenez des comptes en devises à Singapour et à l'étranger.
+c93f9e7fc9	Les passerelles locales comme HitPay et PayNow QR n'ont pas encore été étudiées.
+2e2cb5ad22	PDPA : désignez un délégué à la protection des données ; amendes jusqu'à 1 million de S$.
+a065014134	Pas de délai de rétractation général pour les achats en ligne ; les retours suivent la politique du vendeur.
+87027eb708	NRIC, permis de conduire ou passeport.
+feb500f85e	Les plafonds du régime forfaitaire pour 2026 dépendent d'un référendum en attente ; consultez la FURS.
+b204e15c46	Numéro fiscal slovène (TIN) délivré par l'Administration financière.
+8ce2e75e61	Immatriculez-vous comme samostojni podjetnik (s.p., entrepreneur individuel) en ligne via SPOT.
+57e5217236	TVA de 22 % au-delà de 60 000 € de chiffre d'affaires par an.
+70c413f823	Revenu mondial imposé en cinq tranches à partir de 16 %.
+b6e3aaecac	Normirani s.p. : 80 % de frais forfaitaires sur des recettes jusqu'à 60 000 €.
+45a9562949	Osebna izkaznica (carte d'identité) ou passeport.
+cf4e58e7b7	Les cotisations d'assurance maladie commencent dès votre premier jour d'activité.
+144a7ee986	TIN délivré par l'Administration financière lors de votre immatriculation.
+5fb8f0456d	Obtenez une licence professionnelle (živnosť), gratuite en ligne via slovensko.sk pour les activités libres.
+d1f0333bc9	TVA de 23 % dès que le chiffre d'affaires dépasse 50 000 € par an.
+7f7e48cc76	Déduisez 60 % de frais forfaitaires (jusqu'à 20 000 €) et payez 15 % jusqu'à 100 000 €.
+38e2bf4cef	Občiansky preukaz (carte d'identité) ou passeport.
+97d7ca9dad	TIN de la National Revenue Authority, avec votre numéro d'identification national.
+d2e9f4a89b	Inscrivez-vous à l'Office of the Administrator and Registrar General (OARG), surtout sur place.
+a67f518682	GST de 15 % ; seuil national et règles d'exportation non confirmés.
+2a39a724ee	Non confirmé ; les entrepreneurs individuels paieraient de 15 à 30 % sur leurs bénéfices.
+ff3dbcd976	Possible, mais les devises sont rares et les taux officiels diffèrent des taux du marché.
+69aa0101a1	Oui, mais sortir des dollars peut être lent quand les réserves sont faibles.
+afbd2348a7	Pas encore de loi sur la protection des données ; un projet de loi est en cours.
+3996d019c7	Carte nationale d'identité ou passeport.
+3ba75c5f66	Numéro de sécurité sociale (SSI) pour les particuliers.
+d94352abca	Inscrivez-vous via la Chambre de commerce ; étapes pas encore confirmées.
+b0f7dc1e6d	Impôt sur le revenu progressif rapporté de 12 à 35 %.
+dae9d0f733	En général inutile : Saint-Marin utilise l'euro.
+1a6171e5e0	Carte d'identité saint-marinaise.
+920612a280	Retirez en francs CFA vers une banque sénégalaise.
+f173ad9be1	Fonctionne officiellement, mais les retraits locaux sont lents et coûteux.
+6006e6d852	Beaucoup de prestations intellectuelles en freelance relèvent des BNC et ne peuvent pas utiliser la CGU.
+42cc0d5cb2	Les retraits PayPal vers les banques locales sont limités et les frais élevés.
+094c984fc1	NINEA, délivré par l'administration fiscale avant de commencer.
+246052a877	Déclarez-vous comme entreprenant au RCCM et obtenez un NINEA avant de commencer.
+d6bcfcfd41	TVA de 18 % ; les services imposés hors du Sénégal n'y sont pas taxables.
+d614b5ef59	Revenu mondial imposé de 0 à 43 % ; le régime simplifié de la CGU exclut de nombreux services freelance.
+a09a995c95	PayDunya propose l'encaissement par mobile money et par carte ; l'accès des particuliers n'est pas confirmé.
+4fee5321d5	Le statut d'entreprenant et l'impôt simplifié CGU pour les activités hors BNC.
+df9c2a49d9	Loi 2008-12 : déclarez vos traitements de données personnelles à la CDP.
+848be8ebbb	La loi 2008-08 sur les transactions électroniques fixe des obligations d'information du vendeur ; aucun délai de rétractation confirmé.
+584fbbd2db	Carte d'identité biométrique CEDEAO.
+a66eefa3e2	Immatriculez-vous en ligne sur le système fédéral d'immatriculation des entreprises, en quatre jours environ.
+45595c6e74	Pas de TVA ; les taux de la taxe sur les ventes divergent (5 % ou 10 %).
+946286cfac	Économie dollarisée ; passez par les banques ou des opérateurs de transfert agréés, pas par la hawala informelle.
+eb7bcc9523	Très probable : la banque et le mobile money fonctionnent en dollars américains ; non confirmé.
+94c22eed82	Le mobile money (comme EVC Plus) domine ; aucune passerelle de paiement en ligne confirmée.
+f7bd2eaac6	Loi de 2023 sur la protection des données ; les grands responsables de traitement doivent s'enregistrer.
+ed66f78dd1	Carte nationale d'identité (Warqadda Aqoonsiga).
+e26e8978e2	Inscrivez-vous à la Chambre de commerce (KKF) ; étapes pas encore confirmées.
+e734bd1c12	TVA de 10 % au-delà de 1 million de SRD de chiffre d'affaires ; les exportations ont des taux réduits ou nuls.
+eb2691e178	Résidents imposés sur leur revenu mondial ; tranches rapportées jusqu'à 38 %.
+1f50fd6031	Identiteitskaart (carte nationale d'identité).
+39ada3c5d2	Le taux de votre tranche s'applique à tout votre revenu imposable, pas seulement à la partie qui dépasse.
+849a7395d2	Non confirmé ; les impôts relèvent de la South Sudan Revenue Authority.
+6e6436a5cd	Inscrivez-vous via la plateforme en ligne du ministère de la Justice ; conditions non confirmées.
+fe70430a11	Pas encore de TVA ; la taxe sur les ventes vise des services précis, pas le travail freelance en tant que tel.
+dc7e08f30f	Les ressortissants sont imposés sur leur revenu mondial, de 0 à 20 %, au taux de la tranche sur la totalité du revenu.
+4547d0f8e8	Non confirmé ; l'usage du dollar est restreint et les gros virements exigent l'accord de la banque centrale.
+662222a01b	Non confirmé ; les opérations en dollars seraient restreintes.
+f9aeb47aee	Pas encore de loi sur la protection des données ; un projet de loi est attendu en 2026.
+a6222342dc	Carte nationale d'identité.
+551aaa71be	Numéro fiscal délivré par le Guiché Único lors de l'immatriculation.
+d5230fa8d1	Immatriculez-vous au guichet unique Guiché Único, surtout sur place.
+ec31b54f48	TVA de 15 % depuis juin 2023 ; les petites entreprises ont des régimes spéciaux plus bas.
+f4e268ab2d	Probablement oui, via les banques agréées par la Banque centrale.
+74a66ac925	NIT, NRC et DUI ; la façon de les obtenir n'est pas encore confirmée.
+63de9358d9	TVA de 13 % ; inscription généralement obligatoire, sans seuil indiqué.
+135ea62297	Seuls les revenus de source salvadorienne sont imposés : 0 % jusqu'à 6 600 USD, puis 10 à 30 %.
+fccf7ecd3a	Les comptes locaux sont en dollars américains depuis 2001.
+39b9212eaf	DUI (Documento Único de Identidad, pièce d'identité).
+29c25dd5d6	La prise en charge par les plateformes évolue vite à mesure que les sanctions sont levées ; vérifiez directement chaque service.
+96dafae7e9	Les sanctions sont en cours de levée, mais les liens bancaires et la prise en charge par les plateformes restent limités.
+556b129209	Non confirmé ; inscrivez-vous à l'impôt auprès de l'Eswatini Revenue Service.
+2866a6f51d	Réservez un nom auprès du registre des sociétés, puis obtenez un TIN auprès de l'ERS.
+ccbfa19075	TVA de 15 % au-delà de 500 000 emalangeni par an.
+be8df52184	Revenus de source eswatinienne imposés à partir de 20 % ; traitement du travail à distance non confirmé.
+41abdd9fba	Le contrôle des changes s'applique ; les opérations passent par des banques agréées. Règles précises non confirmées.
+6a8632311c	Loi de 2022 sur la protection des données, avec amendes et obligation de notifier les violations.
+06c5031e42	NIF de l'administration fiscale ; les opérateurs non immatriculés subissent un précompte de 15 %.
+a2862fee4a	Immatriculez une entreprise individuelle au guichet unique ANIE, objectif 72 heures.
+a9483d7a79	TVA de 18 % ; les exportations sont à 0 % ; seuil non confirmé.
+6bc26c2be1	Résidents imposés sur leur revenu mondial ; les petites entreprises paient l'IGL.
+870595b008	Loi 007/PR/2015 : déclarez vos traitements de données à l'ANSICE.
+62afa174e0	La loi sur le commerce électronique exige une information claire sur le vendeur ; aucun délai de remboursement trouvé.
+41f6cfeff3	Carte nationale d'identité délivrée par l'ANATS, avec votre numéro NNI.
+a0a0680715	Les opérateurs d'import ou d'export ne peuvent pas utiliser la TPU ; pour les services, ce n'est pas clair.
+ceef1b4ed6	NIF de l'OTR, gratuit en 3 à 5 jours ouvrables, semble-t-il.
+5435d0cf85	Immatriculez une entreprise individuelle au CFE, en ligne via entreprendre.gouv.tg, semble-t-il.
+d2f8160449	TVA seulement au-delà de 100 millions de FCFA de chiffre d'affaires depuis 2025.
+05e6c67b87	Impôt synthétique TPU : 8,5 % pour les services, jusqu'à 60 millions de FCFA (certains disent 30 millions).
+36773e5d9f	Régime synthétique TPU avec déclaration en ligne ; TVA seulement au-delà de 100 millions de FCFA.
+8171aa0623	Loi 2019-014 : traiter des données sensibles sans consentement expose à la prison.
+f8393ef041	Si le vendeur omet les informations obligatoires, les acheteurs peuvent annuler sous 14 jours.
+ddae30588a	Carte d'identité électronique gratuite avec un numéro d'identification unique (NIU).
+a9d87be28a	Retirez vers une banque thaïlandaise ; gratuit à partir de 5 000 THB.
+9908a9eb87	Versé sur votre compte bancaire en THB.
+6af3a7715f	Wise a suspendu l'attribution de nouvelles coordonnées bancaires pour la Thaïlande.
+3e1dda59e6	Les revenus étrangers perçus depuis 2024 sont imposés quand vous les faites entrer, quelle que soit l'année.
+9cb2c6bc7c	Les plateformes qui paient via PayPal Payouts peuvent ne pas atteindre les comptes thaïlandais.
+8865b4974a	Demandez un numéro d'identification fiscale dans les 60 jours suivant vos premiers revenus.
+d2e4880e3d	Une entreprise individuelle n'a pas besoin d'immatriculation officielle, mais il vous faut un numéro de contribuable.
+d72e49af74	TVA de 7 % au-delà de 1,8 million de THB ; les services utilisés à l'étranger peuvent être au taux zéro.
+80f37c7a22	Les revenus étrangers perçus depuis 2024 sont imposés quand ils sont rapatriés en Thaïlande.
+979af57770	Oui ; seules les recettes de 1 million d'USD ou plus doivent être rapatriées.
+6e7b25188c	Oui : comptes de dépôt en devises (FCD) dans les banques thaïlandaises.
+d2f94fb309	Les passerelles locales comme Omise et 2C2P n'ont pas encore été étudiées.
+de17047cca	Aucun avantage pour les freelances résidents trouvé pour l'instant.
+06557d7965	PDPA 2019, pleinement en vigueur depuis juin 2022.
+ad30e06266	Les acheteurs en ligne peuvent annuler par écrit sous 7 jours après réception des biens.
+a582ba48c3	Carte nationale d'identité thaïlandaise.
+a06b2ccc95	Versements de sites qui paient via PayPal Payouts (PayPal ne liste pas ce pays).
+72ad816382	Gagner régulièrement de l'argent sans vous enregistrer double vos taux d'imposition.
+a862df0402	TIN ; les entrepreneurs reçoivent un numéro d'identification unique à l'enregistrement.
+2106b95a65	Enregistrez-vous comme entrepreneur individuel auprès de l'administration fiscale ; les revenus non déclarés sont imposés deux fois plus.
+dbd32dcc54	TVA de 14 % au-delà de 1 million de TJS de revenus (13 % à partir de 2027).
+43e9401ad0	Revenu mondial imposé ; les entrepreneurs paient souvent 6 % du chiffre d'affaires.
+56555b6865	Probablement oui, mais la liquidité en dollars est limitée et peut retarder les opérations.
+14277829da	Non confirmé ; les comptes à l'étranger devraient être signalés à la Banque nationale.
+1b8f3439b2	Passeport ou carte d'identité.
+36f2fce17c	Enregistrez-vous comme entrepreneur individuel (ENIN) auprès du SERVE, gratuitement en 1 à 5 jours.
+5468c1fb4b	Pas encore de TVA ; une taxe de 5 % sur les services ne vise que l'hôtellerie et les télécoms.
+5641b983d1	Revenu mondial imposé : 0 % jusqu'à 6 000 $ par an, puis 10 %.
+ec9833b715	Oui ; le dollar américain est la monnaie officielle.
+63adba3161	Les comptes sont en dollars américains par défaut.
+d33a43fcb5	Bilhete de Identidade (carte d'identité).
+1f49bcd4dc	Numéro de contribuable (HSB) ; inscrivez-vous dans les 10 jours suivant une obligation fiscale.
+50c4ae3f64	Selon les sources, inscrivez-vous au centre des impôts comme entrepreneur individuel.
+afacfbdefa	Non confirmé ; TVA rapportée à 15 %.
+b1009c969a	Revenu mondial imposé ; taux de 2 % ou 10 % rapporté pour les entrepreneurs individuels.
+a09b8b3cfb	Restrictif : l'accès aux devises est très limité et les taux varient fortement.
+de52ebeedf	Passeport intérieur de citoyen.
+6896def2b2	Versé sur votre compte bancaire en TND.
+287b9a7c82	Envoi uniquement ici : vous pouvez payer, mais pas recevoir de revenus.
+8d93c3e579	Les soldes de portefeuilles étrangers ne sont pas un endroit légal pour garder vos revenus.
+0ba58b4e72	Traiter des données personnelles sans les déclarer à l'INPDP peut mener à la prison.
+dacf4b4bbc	Vérifiez que votre activité figure sur la liste des auto-entrepreneurs avant de vous inscrire.
+64082e5e00	Matricule fiscal, délivré par votre centre des impôts local avec votre CIN.
+f8101925cc	Auto-entrepreneur jusqu'à 75 000 TND par an, inscription en ligne, pour les activités listées.
+09e0d09575	TVA de 19 %, mais les services utilisés par des clients à l'étranger sont hors du champ de la TVA tunisienne.
+7ecb6b07cb	Les auto-entrepreneurs paient une petite contribution annuelle unique couvrant l'impôt sur le revenu, la TVA et la sécurité sociale.
+b0a4b3c05c	Oui, mais vous devez rapatrier en Tunisie toutes vos recettes de services étrangères.
+5d79a4bd87	Oui : un compte PPR conserve les honoraires de services en devises ou en dinars convertibles.
+430d6a6b5b	Konnect permet aux freelances d'encaisser des cartes internationales, avec versement sur une banque tunisienne.
+ae7643d0fa	Contribution unique d'auto-entrepreneur, rien à payer la première année, et le compte en devises PPR.
+547ea760f7	Déclarez d'abord à l'INPDP tout traitement de données personnelles.
+73b7f2b2bd	Les acheteurs peuvent se rétracter sous 10 jours ouvrables.
+57a7372520	Les prestataires de services à des non-résidents peuvent ouvrir un compte en devises PPR.
+24ba070dce	Les prestataires de services à des non-résidents peuvent ouvrir un compte en devises PPR. Le rapatriement des revenus étrangers est obligatoire (Code des changes, art. 20).
+36a42bfc7b	Taxe à la consommation de 15 % au-delà de 100 000 TOP par an ; exportations au taux zéro.
+ba942ef759	Non confirmé ; les sources divergent sur l'application de l'impôt sur le revenu des personnes.
+529a3e6ed5	Carte nationale d'identité facultative ; on utilise aussi le permis de conduire ou le passeport.
+39ea437847	Retirez vers une banque turque.
+4f969ded95	Versé sur votre compte bancaire en TRY.
+3e1c477b90	PayPal a cessé ses activités en Turquie en 2016.
+b9d853e459	Vendre sur votre propre site ou une plateforme étrangère exige d'abord une inscription à ETBİS.
+ffe5d319f4	Le régime à 15 % des créateurs exige que tous les revenus passent par un compte bancaire turc dédié.
+a8f662dadd	L'abattement de 80 % à l'export exige que le bénéfice soit rapatrié en Turquie avant l'échéance fiscale.
+8d61d75dc6	Votre numéro T.C. kimlik (identité nationale) à 11 chiffres est votre numéro fiscal.
+93868d1ebd	Inscrivez-vous à votre centre des impôts sous 10 jours, sauf si vous bénéficiez de l'exonération des créateurs.
+c57962e4c5	KDV (TVA) de 20 % ; les services pour des clients à l'étranger sont exonérés.
+37bc4cd3aa	Revenu mondial imposé de 15 à 40 % ; les créateurs et développeurs d'applis paient une retenue forfaitaire de 15 %.
+bac175a001	Oui ; vous pouvez garder ou vendre librement les devises gagnées auprès de clients étrangers.
+a98c63d9e5	Oui : vous pouvez garder vos revenus de services sur un compte bancaire en devises.
+9957cb41f5	Le paiement par lien d'iyzico n'exige pas de société ; son terminal de paiement virtuel exige une entreprise individuelle.
+4dad4154ba	Impôt libératoire de 15 % pour les créateurs, abattement de 80 % sur les services exportés, exonération jeunes entrepreneurs.
+d2fbb62d4e	KVKK (loi 6698) ; les responsables de traitement de moins de 50 salariés n'ont pas à s'inscrire au VERBIS.
+084de780f4	Les acheteurs ont 14 jours pour se rétracter, sauf pour les contenus numériques livrés immédiatement.
+b8d44b09a9	Carte nationale d'identité à puce (TCKK).
+8a6f3e1af8	Versé sur votre compte bancaire en TTD.
+3c9e5b1b9a	Numéro de dossier du BIR, enregistré en ligne via e-TAX avec le formulaire IA-001.
+e62257309a	Enregistrez un nom commercial auprès du Registrar General's Department ; étapes non confirmées.
+20653d0814	TVA de 12,5 % dès que les ventes atteignent 600 000 TTD sur 12 mois.
+fcd6576151	Résidents imposés sur leur revenu mondial ; 25 % en dessous de 1 million de TTD.
+8871ba0b16	Carte nationale d'identification délivrée par l'EBC.
+b01108ba16	Taxe à la consommation au-delà d'environ 100 000 $ de ventes, de 3 % selon les sources.
+034a7d8b96	Pas d'impôt sur le revenu, semble-t-il ; non confirmé.
+f2715257ef	Retirez vers une banque tanzanienne.
+5a97299856	Versé sur votre compte bancaire en TZS.
+dd74793c01	Nouvelle connexion M-Pesa annoncée en mai 2026 ; déploiement toujours en cours.
+ed9c940516	Détenir un compte bancaire à l'étranger exige l'accord du gouverneur de la banque centrale.
+bf52f922e6	Facturez les clients locaux en TZS ; les devises uniquement pour de vrais clients étrangers.
+b4d6cdd3ee	Ne pas s'enregistrer auprès de la commission des données peut coûter jusqu'à 5 millions de TZS d'amende.
+fbe35bfd12	TIN de la TRA, en ligne avec votre NIN, parfois en 24 heures.
+467aafa9c7	Obtenez un TIN dans les 15 jours suivant le démarrage, puis une licence commerciale.
+aff1cb6309	TVA de 18 % au-delà de 200 millions de TZS ; les professions réglementées s'enregistrent dans tous les cas ; exportations au taux zéro.
+afa5e94cc9	Revenu mondial imposé ; impôt présomptif de 4 % jusqu'à 200 millions de TZS, mais les professionnels sont exclus.
+ac04ac1ada	Oui, via une banque locale ; les clients étrangers peuvent payer en devises.
+1dc8d3a1e6	Oui : détenez des comptes en devises dans le pays ; les comptes à l'étranger exigent l'accord de la banque centrale.
+fcef9e722e	Selcom Pesa permet aux petites entreprises de recevoir instantanément des paiements locaux par QR.
+77b5aafd43	Exonération fiscale la première année pour les nouvelles entreprises, et impôt présomptif de 4 %.
+8cae9c9128	Enregistrez-vous auprès de la Commission de protection des données personnelles avant de traiter des données personnelles.
+4579cdad94	Les acheteurs peuvent annuler sous 7 jours s'ils n'en ont pas tiré d'avantage matériel.
+e804a2749d	Carte nationale d'identité (carte NIDA).
+7a8aed634a	Très utilisé par les freelances ukrainiens.
+f5968563cf	Transférez l'argent de Payoneer sur votre compte FOP dans le trimestre, sinon vous paierez 18 % plus le prélèvement.
+5a6e365daf	Les services absents de la liste du Code des impôts peuvent être soumis à 20 % de TVA.
+488e060003	PayPal peut modifier ses services en Ukraine à tout moment en raison de la guerre.
+da4b10ac58	Numéro de contribuable РНОКПП du Service fiscal d'État, affiché dans Diia.
+db0ac9f11a	Enregistrez-vous comme FOP (entrepreneur individuel), gratuitement et en ligne dans Diia en quelques minutes.
+1ead74407d	TVA de 20 % au-delà de 1 million d'UAH ; la plupart des services à des clients étrangers sont hors du champ de la TVA.
+f54acfc582	FOP groupe 3 : 5 % du chiffre d'affaires plus 1 % de contribution militaire, jusqu'à 10,09 millions d'UAH.
+e6dcbbb835	Oui ; pas de cession obligatoire de devises, et les exportations de services n'ont pas de délai de règlement.
+41d06e317b	Oui : les entrepreneurs individuels (FOPs) reçoivent les paiements sur un compte bancaire en devises.
+7f485f1dbc	LiqPay et WayForPay exigent le statut de FOP ou une société.
+7f4991041b	Impôt unique FOP (5 % plus 1 %) au lieu de 18 % plus une contribution de 5 %.
+e64ab51843	Loi 2297-VI ; déclarez au médiateur uniquement les données sensibles, comme les données de santé.
+9528eac916	Les acheteurs peuvent annuler sous 14 jours, mais pas après une livraison numérique qu'ils ont acceptée.
+5f743aad08	Carte d'identité-passeport ukrainienne, utilisable aussi en version numérique dans Diia.
+9c62dad991	Retirez en shillings vers une banque ougandaise.
+fbb5a110c3	Les sources se contredisent sur la possibilité de retirer.
+6cf3fdba91	Collecter des données clients sans enregistrement auprès du PDPO peut valoir une amende ou la prison.
+0fb00773dd	D'anciens guides indiquent 150 millions d'UGX ; le seuil de TVA est de 300 millions d'UGX depuis juillet 2026.
+15abb56303	Les plateformes qui paient via PayPal Payouts ne peuvent pas payer les comptes ougandais.
+15419c2ade	TIN de l'URA, instantanément en ligne avec votre NIN.
+ac7ae085be	Aucune immatriculation nécessaire si vous exercez sous votre propre nom de famille.
+319f4c29ce	TVA de 18 % au-delà de 300 millions d'UGX par an ; les exportations sont au taux zéro.
+7baabb0687	Revenu mondial imposé : rien jusqu'à 4,02 millions d'UGX, puis jusqu'à 30 %, plus 10 % au-delà de 120 millions d'UGX.
+5c596ced6c	Oui, librement ; aucun contrôle des changes sur les revenus de services des particuliers.
+28fc316c96	Oui : les banques proposent des comptes en USD, GBP et EUR, ouverts avec une carte d'identité nationale.
+ca15767fee	Pesapal accepte les entrepreneurs individuels avec un nom commercial enregistré et un TIN de l'URA.
+26dbbc0965	Nouvelles entreprises détenues par des citoyens : trois ans sans impôt sur le revenu.
+fd298b0a3e	Enregistrez-vous auprès du Personal Data Protection Office ; ne pas le faire est une infraction.
+7d1a554cb0	Les acheteurs peuvent annuler leurs achats en ligne sous 7 jours après réception.
+485663e0f5	Carte nationale d'identité avec votre NIN, délivrée par la NIRA.
+4b7f0b9a09	Versé sur votre compte bancaire américain.
+c72a526397	Conservez et recevez de l'argent (sauf si vous vivez au Nevada).
+3f10e6d95e	L'impôt des travailleurs indépendants (self-employment tax) ajoute 15,3 % à l'impôt sur le revenu.
+fc9695737c	Payez l'impôt estimé chaque trimestre (formulaire 1040-ES), pas seulement une fois par an.
+58cb05d381	Les résidents du Nevada ne peuvent pas détenir de solde Wise.
+73673b55c0	Votre SSN, ou un EIN de l'IRS pour votre activité.
+69cd3c7a16	Les entrepreneurs individuels n'ont pas d'immatriculation fédérale ; les licences des États varient.
+4f91f7ec04	Pas de TVA fédérale ; des taxes de vente d'État s'appliquent, souvent au-delà de 100 000 $ de ventes par État.
+488d997114	Revenu mondial imposé de 10 à 37 %, plus 15,3 % d'impôt des indépendants et les impôts des États.
+7ba95a8a70	Oui, librement ; mais déclarez les comptes à l'étranger de plus de 10 000 USD (FBAR).
+7f344a25ca	Rare : les grandes banques proposent peu de comptes personnels en devises ; les fintechs comblent le manque.
+a214ad9bf3	Déduisez jusqu'à 20 % du revenu d'activité (QBI, section 199A).
+6ba4128fb0	Pas de loi fédérale unique ; le CCPA californien ne couvre que les grandes entreprises ou celles qui traitent beaucoup de données.
+a0bae5c76c	Expédiez dans le délai annoncé ou sous 30 jours, sinon proposez un remboursement (FTC).
+6534336674	Permis de conduire, carte d'identité d'État ou passeport.
+9a686bdcbf	Versé sur votre compte bancaire en UYU.
+7ecab2cb2b	RUT, le numéro du registre unique des contribuables.
+44716f57be	Inscrivez-vous auprès de la DGI (RUT) et de la sécurité sociale BPS ; étapes non confirmées.
+5d22a54e46	TVA de 22 % ; seuil national et règles d'exportation non confirmés.
+160fc69792	Ce sont surtout les revenus de source uruguayenne qui sont imposés (IRPF).
+db6d64e32d	Oui : la BROU propose des comptes d'épargne en pesos, en dollars ou en euros.
+f4d4248473	Monotributo : un paiement unique pour les impôts et la sécurité sociale, pour les petites entreprises individuelles.
+74de34a6e3	Documento de identidad (cédula, pièce d'identité).
+5f335ae57c	Versé sur votre compte bancaire en UZS.
+32517e9e51	Les revenus d'exportation sont soumis à la taxe sur le chiffre d'affaires depuis janvier 2025.
+c6395b4249	PINFL pour les particuliers ; les entrepreneurs utilisent le numéro de contribuable STIR.
+2a4e3020b8	Enregistrez-vous comme entrepreneur individuel en ligne via my.gov.uz, en deux jours environ.
+d60703d194	TVA de 12 % ; les redevables de la taxe sur le chiffre d'affaires sont hors du champ de la TVA.
+e4132daf31	Impôt sur le revenu forfaitaire de 12 % ; taxe sur le chiffre d'affaires possible, et les exportations ne sont plus à 0 % depuis 2025.
+665c0b114d	Les exportateurs doivent rapatrier les recettes sous 120 à 180 jours ; les sources divergent.
+dc35128aff	Oui selon les sources ; les comptes à l'étranger demandent une simple déclaration.
+0661c03d4e	Les prestataires locaux comme Payme, Click et Uzum n'ont pas encore été étudiés.
+65cab9d8a9	L'IT Park accorde des exonérations fiscales ; l'éligibilité des particuliers n'est pas claire.
+a5bac92710	Loi ZRU-547 sur les données personnelles, en vigueur depuis 2019.
+64e5ba7dec	TIN, attribué lors de l'inscription à l'impôt sur le revenu ou à la TVA.
+ce6e61e5cb	Inscrivez-vous auprès du CIPO ; étapes pas encore confirmées.
+05426d0bd3	TVA (16 % selon les sources) dès que les ventes atteignent 120 000 XCD par an.
+39e934d4e1	Revenu mondial imposé : abattement de 25 000 XCD, puis 10 %, 20 % et 28 %.
+df18fc7bb8	Les sanctions américaines touchent de nombreux moyens de paiement ; nous ne présentons que les voies légales.
+c6e152cdd4	Numéro fiscal RIF ; la façon de l'obtenir n'est pas encore confirmée.
+6777685c27	TVA de 16 % ; toutes les entreprises imposables devraient s'inscrire.
+3f00dc2fb9	Versé sur votre compte bancaire en VND.
+843a93f076	Comptes personnels autorisés sans licence commerciale.
+6fd5303ab5	D'anciens articles indiquent 500 millions de VND ; le seuil est de 1 milliard de VND à partir de 2026.
+0e4427f789	La TVA à 0 % exige un contrat avec le client étranger et un paiement autre qu'en espèces.
+12f21ba261	Au-delà de 1 milliard de VND de recettes, vous devez émettre des factures électroniques.
+3c8e6483b3	Votre numéro d'identité personnel à 12 chiffres est votre code fiscal depuis juillet 2025.
+758eba9dfb	On enregistre généralement une entreprise familiale ; les prestataires à faibles revenus peuvent être exemptés selon la province.
+d02d2a73d5	Les services exportés vers des clients étrangers sont à 0 % de TVA avec un contrat et un paiement bancaire.
+e13247314f	Pas d'impôt sur le revenu ni de TVA sur les recettes d'activité jusqu'à 1 milliard de VND par an.
+02424e9411	Oui ; les particuliers peuvent recevoir de l'argent de l'étranger sur un compte bancaire en devises.
+91c4038a71	Oui : les banques agréées ouvrent des comptes en devises aux particuliers.
+549407564f	VNPAY, MoMo, OnePay et Ngân Lượng sont agréés ; l'inscription des particuliers n'est pas confirmée.
+926253be2e	Exonération jusqu'à 1 milliard de VND de recettes par an, l'un des seuils les plus élevés que nous ayons trouvés.
+3b70b93e19	Loi 91/2025 sur la protection des données personnelles, en vigueur depuis le 1er janvier 2026.
+db0b38a574	Loi sur le commerce électronique (à partir de juillet 2026) : les vendeurs doivent vérifier leur identité et afficher leur politique de retour.
+77f4860f3f	Carte Căn cước, avec votre numéro d'identité personnel à 12 chiffres.
+022b72d682	Les particuliers résidents peuvent détenir des comptes de paiement en devises pour recevoir des virements de l'étranger (circulaire 16/2014 de la SBV).
+73de6a03cd	Les particuliers résidents peuvent détenir des comptes de paiement en devises pour recevoir des virements de l'étranger (circulaire 16/2014 de la SBV). Payoneer propose des comptes personnels sans licence commerciale.
+976121c744	TIN délivré par Customs and Inland Revenue.
+a1fc666589	Inscrivez-vous auprès de la Vanuatu Financial Services Commission ; étapes pas encore confirmées.
+d41cda8da1	TVA de 15 % au-delà de 4 millions de VT sur 12 mois.
+c701cf1ee3	Pas d'impôt sur le revenu des personnes, semble-t-il.
+5d0d17e7e1	Carte nationale d'identité (depuis 2017).
+501debf67f	TIN, attribué à l'approbation de votre licence commerciale.
+015bc38f74	Inscrivez-vous auprès du ministère du Commerce et du ministère du Revenu ; étapes pas encore confirmées.
+c7584152bf	VAGST de 15 % dès que le chiffre d'affaires atteint 130 000 WST par an.
+1dc1c06312	Tranches rapportées : 0 %, 20 % et 27 %.
+6ca8aa5f8c	Pièce d'identité officielle délivrée par l'Office of Vital Statistics.
+85bbaf166d	Inutilisable ici pour recevoir des paiements.
+9f278c5615	Traiter avec des institutions contrôlées par les Houthis peut exposer aux sanctions.
+bcbf457abd	Taxe générale sur les ventes de 5 % ; inscription au-delà de 50 millions de YER de chiffre d'affaires.
+160a3513ea	Résidents imposés sur leur revenu mondial, de 0 à 20 % ; l'autorité compétente dépend de l'endroit où vous vivez.
+48791dd60d	Fragmenté : deux banques centrales aux règles concurrentes ; les banques étrangères rejettent souvent les virements.
+00d787cac6	Retirez via FNB vers une banque sud-africaine.
+ecf84edf5b	Versé sur votre compte bancaire en ZAR.
+ed4e442b05	Retirez vers une banque sud-africaine.
+c3bc0e8bbe	Le travail à distance effectué depuis l'Afrique du Sud ne bénéficie pas de l'exonération des revenus étrangers.
+17e479ebfa	Plus de 20 % de revenus en informatique ou en conseil exclut le Turnover Tax.
+f86b1440d2	Les retraits PayPal passent par le service de retrait de FNB et prennent de 4 à 6 jours ouvrables.
+56b8edcafb	Numéro de référence fiscal du SARS, via eFiling ou la SARS MobiApp.
+43173f9326	Pas besoin de société ; inscrivez-vous auprès du SARS dans les 21 jours ouvrables suivant le démarrage.
+1e353a06d4	TVA de 15 % au-delà de 2,3 millions de rands par an ; les services à des non-résidents sont au taux zéro.
+f45f3f8e5f	Revenu mondial imposé de 18 à 45 % ; le Turnover Tax exclut la plupart des services professionnels.
+032a127290	Oui, sous contrôle des changes ; gardez vos revenus sur un compte en devises dans une banque.
+c12e926ebf	Oui : les particuliers peuvent détenir un compte en devises auprès d'un Authorised Dealer.
+447b336f29	Paystack Starter accepte les vendeurs non immatriculés, avec une limite tant que vous n'avez pas immatriculé d'entreprise.
+74c796a6fc	Turnover Tax à 0 % jusqu'à 600 000 rands, si les services professionnels font moins de 20 %.
+69eb4aa89a	POPIA : enregistrez votre responsable de l'information auprès de l'Information Regulator.
+fc3552f72c	Les acheteurs en ligne peuvent annuler sous 7 jours sans motif ni pénalité.
+dd6c2eff35	Livret d'identité vert à code-barres ou carte Smart ID.
+8c154706fe	Le travail effectué en Zambie pour des clients étrangers reste soumis à 16 % de TVA une fois immatriculé.
+0593a3c947	D'anciens guides indiquent 800 000 kwachas et 4 % ; la taxe sur le chiffre d'affaires est désormais de 5 % jusqu'à 5 millions de kwachas.
+98a23699d0	TPIN de la Zambia Revenue Authority, avec votre NRC.
+0ecc3cb88f	Enregistrez un nom commercial auprès de la PACRA comme entrepreneur individuel.
+077f7f69cc	TVA de 16 % au-delà de 800 000 kwachas par an ; les services réalisés en Zambie ne sont pas au taux zéro.
+e343e53955	Revenus de source zambienne imposés ; taxe sur le chiffre d'affaires de 5 % jusqu'à 5 millions de kwachas.
+a582d981ce	Oui, librement ; les paiements de clients étrangers ne sont pas des opérations intérieures au sens des règles sur le kwacha.
+a5a2c930c0	Oui : détenez des comptes en monnaie locale ou en devises ; les retraits en espèces sont plafonnés.
+9d61a24383	Aucun avantage pour les freelances ; taxe sur le chiffre d'affaires de 5 % jusqu'à 5 millions de kwachas.
+ad9a2807c8	Enregistrez-vous auprès du Data Protection Commissioner ; ne pas le faire est une infraction.
+12467fbe30	Les acheteurs peuvent annuler leurs achats en ligne sous sept jours.
+d8a0a76476	National Registration Card (NRC, carte d'identité) ou passeport.
+52a5e3b06a	D'anciennes pages indiquent 15 % ; la TVA est de 15,5 % depuis janvier 2026.
+4c6df3248f	Il vous faut un délégué à la protection des données certifié et une licence POTRAZ.
+eca334b369	TIN du portail TaRMS de la ZIMRA, qui remplace l'ancien numéro BP.
+bf76f81941	Pas d'immatriculation de société ; inscrivez-vous à l'impôt auprès de la ZIMRA sur le portail TaRMS.
+655ccee33e	TVA de 15,5 % depuis 2026, au-delà de 25 000 US$ sur 12 mois.
+4b27989cbd	Le travail effectué au Zimbabwe y est probablement imposable, jusqu'à 40 %.
+ef7f4912c2	Confirmé en partie ; les recettes étrangères des particuliers sont historiquement des « free funds » sur des comptes Nostro.
+12cb082521	Oui : les comptes en devises (Nostro FCA) sont la norme.
+e0a71aff4a	Traiter les données de plus de 50 personnes exige une licence POTRAZ annuelle à partir de 50 US$.

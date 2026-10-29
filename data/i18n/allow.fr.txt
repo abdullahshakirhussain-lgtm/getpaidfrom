@@ -1,0 +1,2 @@
+# French: checker findings a reviewer accepted ("<id> <check>")
+ui.label_tax_id missing 'ID'

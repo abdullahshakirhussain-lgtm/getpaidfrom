@@ -1,10 +1,10 @@
 {% extends "base.html" %}
-{% block title %}Where does {{ p.name }} work? Country by country | Get Paid From{% endblock %}
-{% block description %}{{ p.name }} works in {{ p.counts.works }} of {{ p.rows|length }} countries we cover. Check yours, with the reason and source.{% endblock %}
+{% block title %}{{ t('platform_title', service=p.name) }} | Get Paid From{% endblock %}
+{% block description %}{{ t('platform_desc', service=p.name, n=p.counts.works, total=p.rows|length) }}{% endblock %}
 {% block main %}
-<p class="back"><a href="../">All countries</a></p>
-<h1 class="sentence with-logo">{{ p.logo }}Where {{ p.name }} works</h1>
-<p class="intro">Works in {{ p.counts.works }} of {{ p.rows|length }} countries{{ "" if p.rows|length == 193 else " written up so far" }}. Select a country for the reason and source.</p>
+<p class="back"><a href="../">{{ t('all_countries') }}</a></p>
+<h1 class="sentence with-logo">{{ p.logo }}{{ t('platform_h1', service=p.name) }}</h1>
+<p class="intro">{{ t('platform_intro', n=p.counts.works, total=p.rows|length) }}</p>
 {% for s, (label, tone), rows in p.groups if rows %}
 <section class="sec">
   <h2><span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span> <span class="count">{{ rows|length }}</span></h2>

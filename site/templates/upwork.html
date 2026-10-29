@@ -1,28 +1,29 @@
 {% extends "base.html" %}
-{% block title %}Getting paid from Upwork, country by country | Get Paid From{% endblock %}
-{% block description %}Upwork is open to freelancers in {{ u.open|length }} of {{ u.open|length + u.closed|length }} UN member states. See whether it's open in yours and how you can receive the money, with sources.{% endblock %}
+{% set total = u.open|length + u.closed|length %}
+{% block title %}{{ t('upwork_title') }} | Get Paid From{% endblock %}
+{% block description %}{{ t('upwork_desc', n=u.open|length, total=total) }}{% endblock %}
 {% block main %}
 {% macro mark(tone, label) %}<span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span>{% endmacro %}
-<p class="back"><a href="../">All countries</a></p>
-<h1 class="sentence with-logo">{{ u.logo }}Getting paid from Upwork</h1>
-<p class="intro">Upwork is open to freelancers in {{ u.open|length }} of {{ u.open|length + u.closed|length }} countries. Upwork doesn't publish which withdrawal methods each country gets: they show in your account. So next to each country we show which of the main receiving services work there.</p>
+<p class="back"><a href="../">{{ t('all_countries') }}</a></p>
+<h1 class="sentence with-logo">{{ u.logo }}{{ t('upwork_h1') }}</h1>
+<p class="intro">{{ t('upwork_intro', n=u.open|length, total=total) }}</p>
 
 <section class="sec">
-  <h2>{{ mark("bad", "Not available") }} <span class="count">{{ u.closed|length }}</span></h2>
+  <h2>{{ mark("bad", t('status_no')) }} <span class="count">{{ u.closed|length }}</span></h2>
   <ul class="plist">
     {% for r in u.closed %}<li><a href="../{{ r.slug }}/#ways"><span class="pc">{{ r.country }}</span><span class="pr">{{ r.up.reason }}</span></a></li>{% endfor %}
   </ul>
 </section>
 
 <section class="sec">
-  <h2>{{ mark("ok", "Open to freelancers") }} <span class="count">{{ u.open|length }}</span></h2>
+  <h2>{{ mark("ok", t('upwork_open')) }} <span class="count">{{ u.open|length }}</span></h2>
   <div>
     <table class="options uptable">
-      <caption class="vh">Countries where Upwork is open, with the receiving services that work there</caption>
-      <thead><tr><th scope="col">Country</th>{% for t in u.open[0].routes %}<th scope="col">{{ t.name }}</th>{% endfor %}</tr></thead>
+      <caption class="vh">{{ t('upwork_caption') }}</caption>
+      <thead><tr><th scope="col">{{ t('upwork_country') }}</th>{% for tl in u.open[0].routes %}<th scope="col">{{ tl.name }}</th>{% endfor %}</tr></thead>
       <tbody>
         {% for r in u.open %}
-        <tr><th scope="row"><a href="../{{ r.slug }}/#ways">{{ r.country }}</a></th>{% for t in r.routes %}<td data-label="{{ t.name }}">{{ mark(t.tone, t.label) }}</td>{% endfor %}</tr>
+        <tr><th scope="row"><a href="../{{ r.slug }}/#ways">{{ r.country }}</a></th>{% for tl in r.routes %}<td data-label="{{ tl.name }}">{{ mark(tl.tone, tl.label) }}</td>{% endfor %}</tr>
         {% endfor %}
       </tbody>
     </table>
@@ -31,8 +32,8 @@
 
 {% if u.source %}
 <section class="sec">
-  <h2>Source</h2>
-  <div class="prose"><p><a href="{{ u.source.url }}" rel="nofollow noopener" target="_blank">{{ u.source.publisher }}: {{ u.source.title }}</a> · official · {{ u.source.retrieved }}. Upwork also excludes Crimea, the so-called DPR and LPR, individual Cuban nationals, sanctioned persons and other places "restricted by law". Receiving-service statuses come from each country page.</p></div>
+  <h2>{{ t('source') }}</h2>
+  <div class="prose"><p><a href="{{ u.source.url }}" rel="nofollow noopener" target="_blank" lang="en" dir="ltr">{{ u.source.publisher }}: {{ u.source.title }}</a> · {{ t('official') }} · {{ u.source.retrieved }}. {{ t('upwork_source_note') }}</p></div>
 </section>
 {% endif %}
 {% endblock %}

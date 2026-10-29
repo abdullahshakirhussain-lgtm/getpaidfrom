@@ -1,17 +1,25 @@
 // Get Paid From: in-browser search over search.json, and opening the tile/line named in the URL hash.
 (function () {
   var root = document.currentScript.getAttribute('data-root') || '';
-  var STOP = /\b(can|i|we|get|paid|pay|from|in|into|use|using|does|do|work|works|working|with|receive|money|how|to|my|the|a|an|is|for|of|and|or|available|me|it)\b/g;
-  var data = null, loading = null;
+  var lang = document.documentElement.lang || 'en';
+  var STOP_EN = 'can i we get paid pay from in into use using does do work works working with receive money how to my the a an is for of and or available me it';
+  var data = null, loading = null, stop = null, topics = null;
 
   function load() {
     if (data) return Promise.resolve(data);
-    if (!loading) loading = fetch(root + 'search.json').then(function (r) { return r.json(); }).then(function (d) { data = d; return d; });
+    if (!loading) loading = fetch(root + 'search.json').then(function (r) { return r.json(); }).then(function (d) {
+      stop = {}; (STOP_EN + ' ' + d.stop.join(' ')).split(' ').forEach(function (w) { if (w) stop[norm(w)] = 1; });
+      // topic words may be several words long ("impuesto sobre la renta"); longest first so they win over their parts
+      topics = Object.keys(d.topics).map(function (w) { return [norm(w), d.topics[w]]; }).sort(function (a, b) { return b[0].length - a[0].length; });
+      data = d; return d;
+    });
     return loading;
   }
   function norm(s) {
-    return s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+    // Latin accents and Arabic vowel marks are dropped so "peru" finds "Perú"; other scripts keep their letters
+    return s.toLowerCase().normalize('NFKD').replace(/[̀-ًͯ-ٰٟ]/g, '').replace(/[^\p{L}\p{N}\p{M} ]+/gu, ' ').replace(/\s+/g, ' ').trim();
   }
+  function fill(tpl, kw) { return tpl.replace(/\{(\w+)\}/g, function (m, k) { return kw[k]; }); }
   function esc(s) { return s.replace(/[&<>"]/g, function (c) { return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]; }); }
 
   function parse(q, d) {
@@ -22,19 +30,29 @@
         if (!platform && text.indexOf(' ' + n + ' ') !== -1) { platform = slug; text = text.replace(' ' + n + ' ', ' '); }
       });
     });
-    Object.keys(d.topics).forEach(function (w) {
-      if (!topic && text.indexOf(' ' + w + ' ') !== -1) { topic = w; text = text.replace(' ' + w + ' ', ' '); }
+    topics.forEach(function (w) {
+      if (text.indexOf(' ' + w[0] + ' ') !== -1) {
+        // the first (longest) match names the topic; other topic words ("impuesto ... renta") are dropped too
+        if (!topic) topic = w;
+        text = text.replace(' ' + w[0] + ' ', ' ');
+      }
     });
-    var rest = text.replace(STOP, ' ').replace(/\s+/g, ' ').trim();
-    var countries = [];
-    if (rest) {
+    var rest = text.split(' ').filter(function (w) { return w && !stop[w]; }).join(' ');
+    function match(r) {
+      var found = [];
       d.countries.forEach(function (c) {
         var k = norm(c.k), n = norm(c.n), score = 0;
-        if (n === rest) score = 3; else if (n.indexOf(rest) === 0 || (' ' + k).indexOf(' ' + rest) !== -1) score = 2; else if (k.indexOf(rest) !== -1) score = 1;
-        if (score) countries.push([score, c]);
+        if (n === r) score = 3; else if (n.indexOf(r) === 0 || (' ' + k).indexOf(' ' + r) !== -1) score = 2; else if (k.indexOf(r) !== -1) score = 1;
+        if (score) found.push([score, c]);
       });
-      countries.sort(function (a, b) { return b[0] - a[0] || a[1].n.localeCompare(b[1].n); });
+      return found;
     }
+    var countries = rest ? match(rest) : [];
+    if (!countries.length && rest.indexOf(' ') !== -1) {
+      // a leftover word we don't know ("sobre peru"): try the words on their own, last first
+      rest.split(' ').reverse().some(function (w) { countries = w.length > 2 ? match(w) : []; return countries.length; });
+    }
+    countries.sort(function (a, b) { return b[0] - a[0] || a[1].n.localeCompare(b[1].n, lang); });
     return {platform: platform, topic: topic, countries: countries.map(function (x) { return x[1]; }), rest: rest};
   }
 
@@ -49,13 +67,13 @@
     if (p.platform && cs.length) {
       cs.forEach(function (c) {
         var t = c.t[p.platform];
-        out.push({href: root + c.s + '/#' + p.platform, html: '<b>' + esc(d.platforms[p.platform]) + ' in ' + esc(c.n) + '</b> ' + chip(d, t[0]) + '<span class="r">' + esc(t[1]) + '</span>'});
+        out.push({href: root + c.s + '/#' + p.platform, html: '<b>' + esc(fill(d.ui.s_in, {thing: d.platforms[p.platform], country: c.n})) + '</b> ' + chip(d, t[0]) + '<span class="r">' + esc(t[1]) + '</span>'});
       });
     } else if (p.topic && cs.length) {
       cs.forEach(function (c) {
-        var a = d.topics[p.topic], line = c.a[a];
-        var label = p.topic === 'upwork' ? 'Upwork' : a === 'ways' ? 'Legal ways to get paid' : p.topic.length <= 3 ? p.topic.toUpperCase() : p.topic;
-        out.push({href: root + c.s + '/#' + a, html: '<b>' + esc(label) + ' in ' + esc(c.n) + '</b><span class="r">' + esc(line || 'See the details on the country page.') + '</span>'});
+        var a = p.topic[1], line = c.a[a];
+        var label = p.topic[0] === 'upwork' ? 'Upwork' : d.labels[a];
+        out.push({href: root + c.s + '/#' + a, html: '<b>' + esc(fill(d.ui.s_in, {thing: label, country: c.n})) + '</b><span class="r">' + esc(line || d.ui.s_see_details) + '</span>'});
       });
     } else if (cs.length) {
       cs.forEach(function (c) {
@@ -63,13 +81,13 @@
         out.push({href: root + c.s + '/', html: '<b>' + esc(c.n) + '</b><span class="r">' + mini + '</span>'});
       });
     }
-    if (p.topic === 'upwork' && !p.rest) {
-      out.unshift({href: root + 'upwork/', html: '<b>Getting paid from Upwork</b><span class="r">Where it’s open, and how to receive the money</span>'});
+    if (p.topic && p.topic[0] === 'upwork' && !p.rest) {
+      out.unshift({href: root + 'upwork/', html: '<b>' + esc(d.ui.s_upwork) + '</b><span class="r">' + esc(d.ui.s_upwork_sub) + '</span>'});
     }
     if (p.platform && !p.rest) {
-      out.unshift({href: root + p.platform + '/', html: '<b>Where does ' + esc(d.platforms[p.platform]) + ' work?</b><span class="r">Every country, with reasons</span>'});
+      out.unshift({href: root + p.platform + '/', html: '<b>' + esc(fill(d.ui.s_where_work, {service: d.platforms[p.platform]})) + '</b><span class="r">' + esc(d.ui.s_every_country) + '</span>'});
     }
-    if (!out.length && norm(q)) out.push({href: null, html: '<span class="r">No match yet. Try a country name, like “Kenya”, or a platform, like “Wise”.</span>'});
+    if (!out.length && norm(q)) out.push({href: null, html: '<span class="r">' + esc(d.ui.s_no_match) + '</span>'});
     return out;
   }
 
@@ -116,13 +134,13 @@
         .then(function (r) { return r.json().catch(function () { return {ok: false}; }); })
         .then(function (d) {
           if (d.ok) {
-            msg.textContent = form.hasAttribute('data-unsub') ? 'Done. Your address and countries are deleted.' : 'Done. We’ll email you when this page changes.';
+            msg.textContent = form.getAttribute('data-ok');
             form.querySelector('input[type=email]').value = '';
           } else {
-            msg.textContent = d.error || 'That didn’t work. Check the address and try again.';
+            msg.textContent = form.getAttribute('data-err');
           }
         })
-        .catch(function () { msg.textContent = 'Couldn’t reach the server. Try again later.'; })
+        .catch(function () { msg.textContent = form.getAttribute('data-net'); })
         .then(function () { btn.disabled = false; });
     });
   });

@@ -14,6 +14,7 @@ INCLUDE = [
     ".github/workflows/pages.yml", ".gitignore", "README.md", "requirements.txt", "wrangler.toml",
     "data/countries", "data/countries.json", "data/research", "data/sources", "data/reference", "data/manual",
     "data/mapping_audit.json", "data/display", "docs/RESEARCH_PROTOCOL.md", "docs/BLUEPRINT.md", "docs/DESIGN.md",
+    "docs/TRANSLATION.md", "data/i18n",
     "scripts", "site/templates", "site/static", "site/logos", "site/indexnow-key.txt", "worker", "tests",
 ]
 SKIP = {"__pycache__", "dist"}
@@ -30,7 +31,7 @@ def main():
         src = ROOT / rel
         if src.is_dir():
             for f in src.rglob("*"):
-                if f.is_file() and not SKIP & set(f.relative_to(ROOT).parts):
+                if f.is_file() and not SKIP & set(f.relative_to(ROOT).parts) and not f.name.startswith("todo."):
                     dst = target / f.relative_to(ROOT)
                     dst.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(f, dst)

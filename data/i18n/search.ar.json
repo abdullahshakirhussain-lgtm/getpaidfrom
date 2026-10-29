@@ -1,0 +1,12 @@
+{
+  "stop": ["هل", "يمكن", "يمكنني", "أستطيع", "كيف", "استلام", "استلم", "الدفع", "دفع", "المدفوعات", "مدفوعات", "المال", "أموال", "من", "في", "إلى", "على", "عن", "مع", "و", "أو", "يعمل", "تعمل", "متاح", "لي", "ما"],
+  "topics": {
+    "ضريبة": "L3_income_tax_foreign", "الضريبة": "L3_income_tax_foreign", "الضرائب": "L3_income_tax_foreign", "دخل": "L3_income_tax_foreign",
+    "ضريبة القيمة المضافة": "L4_vat_gst", "القيمة المضافة": "L4_vat_gst", "تسجيل": "L1_registration", "التسجيل": "L1_registration",
+    "شركة": "L1_registration", "سجل تجاري": "L1_registration", "الرقم الضريبي": "L2_tax_id", "هوية": "D1_id_document",
+    "الهوية": "D1_id_document", "دولار": "P2_fcy_account", "حساب": "P2_fcy_account", "بنك": "P2_fcy_account",
+    "عملة": "P1_fx_receipts", "صرف": "P1_fx_receipts", "بوابة": "P3_local_gateways", "بوابات": "P3_local_gateways",
+    "خصوصية": "L5_data_protection", "بيانات": "L5_data_protection", "المستهلك": "L6_consumer_ecommerce", "استرداد": "L6_consumer_ecommerce",
+    "حوافز": "L7_incentives", "إعفاء": "L7_incentives", "بدائل": "W1_workarounds", "طرق": "W1_workarounds", "قانوني": "W1_workarounds", "قانونية": "W1_workarounds"
+  }
+}

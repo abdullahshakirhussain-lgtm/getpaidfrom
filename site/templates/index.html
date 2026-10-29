@@ -3,32 +3,32 @@
 {% block main %}
 <section class="ask">
   <h1 class="sentence">
-    <label for="home-q">Get paid from</label>
+    <label for="home-q">{{ t('home_label') }}</label>
     <span class="search home-search" data-search>
-      <input id="home-q" type="search" placeholder="your country" autocomplete="off" autofocus>
+      <input id="home-q" type="search" placeholder="{{ t('home_placeholder') }}" autocomplete="off" autofocus>
       <span class="results" role="listbox" hidden></span>
     </span>
   </h1>
-  <p class="intro">Which payment services work where you live, what catches people out, and the paperwork. Every line links to a public source.</p>
-  <p class="eg">Or ask: {% for q in ["paypal pakistan", "vat nigeria", "wise sri lanka"] %}<button type="button" class="linkish" data-try="{{ q }}">{{ q }}</button>{{ ", " if not loop.last }}{% endfor %}</p>
+  <p class="intro">{{ t('home_intro') }}</p>
+  <p class="eg">{{ t('home_or_ask') }} {% for q in t('home_examples').split('|') %}<button type="button" class="linkish" data-try="{{ q }}">{{ q }}</button>{{ ", " if not loop.last }}{% endfor %}</p>
 </section>
 
 <div class="split">
   <section>
-    <h2>Countries</h2>
-    <p class="note">{{ "All 193 UN member states." if n_countries == 193 else n_countries ~ " so far. More are being written." }}</p>
+    <h2>{{ t('countries') }}</h2>
+    <p class="note">{{ t('all_193') if n_countries == 193 else n_countries }}</p>
     {% for letter, cs in letters %}
     <div class="az"><span class="letter">{{ letter }}</span><ul>{% for c in cs %}<li><a href="{{ c.slug }}/">{{ c.name }}</a></li>{% endfor %}</ul></div>
     {% endfor %}
   </section>
   <section>
-    <h2>Services</h2>
-    <p class="note">How many of those countries each one works in.</p>
+    <h2>{{ t('services') }}</h2>
+    <p class="note">{{ t('services_note') }}</p>
     <ul class="svc">
       {% for slug, p in platforms.items() %}
-      <li><a href="{{ slug }}/">{{ p.logo }}<span class="svc-name">{{ p.name }}</span><span class="svc-n">{{ p.counts.works }} of {{ p.rows|length }}</span></a></li>
+      <li><a href="{{ slug }}/">{{ p.logo }}<span class="svc-name">{{ p.name }}</span><span class="svc-n">{{ t('n_of_total', n=p.counts.works, total=p.rows|length) }}</span></a></li>
       {% endfor %}
-      <li><a href="upwork/">{{ upwork.logo }}<span class="svc-name">Upwork (getting paid as a freelancer)</span><span class="svc-n">open in {{ upwork.open|length }}</span></a></li>
+      <li><a href="upwork/">{{ upwork.logo }}<span class="svc-name">{{ t('upwork_link') }}</span><span class="svc-n">{{ t('open_in_n', n=upwork.open|length) }}</span></a></li>
     </ul>
   </section>
 </div>

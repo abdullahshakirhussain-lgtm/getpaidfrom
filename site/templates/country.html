@@ -1,23 +1,23 @@
 {% extends "base.html" %}
-{% block title %}Get paid from {{ c.name }}: PayPal, Payoneer, Wise, Upwork and legal ways | Get Paid From{% endblock %}
-{% block description %}Can you get paid from {{ c.name }}? Clients abroad: {{ c.clients.headline }} Selling online: {{ c.selling.headline }} With sources.{% endblock %}
+{% block title %}{{ t('country_title', country=c.name) }} | Get Paid From{% endblock %}
+{% block description %}{{ t('country_desc', country=c.name, clients=c.clients.headline, selling=c.selling.headline) }}{% endblock %}
 {% block main %}
 {% macro srclist(srcs) %}
-<ul class="srcs">{% for s in srcs %}<li><a href="{{ s.url }}" rel="nofollow noopener" target="_blank">{{ s.publisher }}{% if s.title %}: {{ s.title }}{% endif %}</a>{% if s.official %} · official{% endif %}{% if s.retrieved %} · {{ s.retrieved }}{% endif %}</li>{% endfor %}</ul>
+<ul class="srcs" lang="en" dir="ltr">{% for s in srcs %}<li><a href="{{ s.url }}" rel="nofollow noopener" target="_blank">{{ s.publisher }}{% if s.title %}: {{ s.title }}{% endif %}</a>{% if s.official %} · <span lang="{{ lang }}">{{ t('official') }}</span>{% endif %}{% if s.retrieved %} · {{ s.retrieved }}{% endif %}</li>{% endfor %}</ul>
 {% endmacro %}
 {% macro mark(tone, label) %}<span class="st {{ tone }}"><i aria-hidden="true"></i>{{ label }}</span>{% endmacro %}
 {% macro services(title, items) %}
 <tbody>
   <tr class="grp"><th colspan="3" scope="colgroup">{{ title }}</th></tr>
-  {% for t in items %}
-  <tr id="{{ t.slug }}" class="row" tabindex="0" aria-expanded="false">
-    <th scope="row"><span class="svc-cell">{{ t.logo }}{{ t.name }}</span></th>
-    <td>{{ mark(t.tone, t.label) }}</td>
-    <td class="why">{{ t.reason }}</td>
+  {% for tl in items %}
+  <tr id="{{ tl.slug }}" class="row" tabindex="0" aria-expanded="false">
+    <th scope="row"><span class="svc-cell">{{ tl.logo }}{{ tl.name }}</span></th>
+    <td>{{ mark(tl.tone, tl.label) }}</td>
+    <td class="why">{{ tl.reason }}</td>
   </tr>
   <tr class="extra" hidden><td colspan="3">
-    {% if t.sources %}{{ srclist(t.sources) }}{% endif %}
-    <a href="../{{ t.slug }}/">{{ t.name }} in other countries</a>
+    {% if tl.sources %}{{ srclist(tl.sources) }}{% endif %}
+    <a href="../{{ tl.slug }}/">{{ t('in_other_countries', service=tl.name) }}</a>
   </td></tr>
   {% endfor %}
 </tbody>
@@ -28,12 +28,14 @@
   <div class="fact" id="{{ l.anchor }}">
     <dt>{{ l.label }}</dt>
     <dd>
-      <p class="short">{{ l.short or "Not researched yet." }}</p>
+      <p class="short">{{ l.short or t('not_researched') }}</p>
       <details>
-        <summary>Details and sources</summary>
+        <summary>{{ t('details_sources') if lang == 'en' else t('details_sources_en') }}</summary>
+        <div lang="en" dir="ltr">
         <p>{{ l.long }}</p>
         {% if l.notes %}<p>{{ l.notes }}</p>{% endif %}
-        {% if l.status == "unverified" %}<p class="caveat">Based on one source only.</p>{% elif l.status == "conflicting" %}<p class="caveat">Sources disagree.</p>{% endif %}
+        </div>
+        {% if l.status == "unverified" %}<p class="caveat">{{ t('one_source') }}</p>{% elif l.status == "conflicting" %}<p class="caveat">{{ t('sources_disagree') }}</p>{% endif %}
         {% if l.sources %}{{ srclist(l.sources) }}{% endif %}
       </details>
     </dd>
@@ -42,20 +44,21 @@
 </dl>
 {% endmacro %}
 
-<p class="back"><a href="../">All countries</a></p>
-<h1 class="sentence">Get paid from <mark>{{ c.name }}</mark></h1>
-<p class="intro">{% if c.official %}{{ c.official }}. {% endif %}Checked up to {{ c.checked }}. Every line links to its source. <a href="#alerts">Get an email when it changes</a>.</p>
+<p class="back"><a href="../">{{ t('all_countries') }}</a></p>
+{% set h1 = t('country_h1', country='@@') %}
+<h1 class="sentence">{{ h1.split('@@')[0] }}<mark>{{ c.name }}</mark>{{ h1.split('@@')[1] }}</h1>
+<p class="intro">{% if c.official %}{{ c.official }}. {% endif %}{{ t('checked_intro', date=c.checked) }} <a href="#alerts">{{ t('get_email_link') }}</a>.</p>
 
 <section class="sec">
-  <h2>The short answer</h2>
+  <h2>{{ t('short_answer') }}</h2>
   <div class="answers">
     <div class="answer">
-      <p class="q">Can clients abroad pay you?</p>
+      <p class="q">{{ t('q_clients') }}</p>
       <p class="a">{{ c.clients.headline }}</p>
       <p class="d">{{ c.clients.detail }}</p>
     </div>
     <div class="answer">
-      <p class="q">Can you sell products online?</p>
+      <p class="q">{{ t('q_selling') }}</p>
       <p class="a">{{ c.selling.headline }}</p>
       <p class="d">{{ c.selling.detail }}</p>
     </div>
@@ -64,64 +67,64 @@
 
 {% if c.watch %}
 <section class="sec">
-  <h2>Watch out for</h2>
+  <h2>{{ t('watch_out') }}</h2>
   <ol class="watch">{% for w in c.watch %}<li><a href="#{{ w.anchor }}">{{ w.text }}</a></li>{% endfor %}</ol>
 </section>
 {% endif %}
 
 {% if c.ways %}
 <section class="sec" id="ways">
-  <h2>Ways to get paid, legally</h2>
+  <h2>{{ t('ways') }}</h2>
   <div>
-    {% if c.ways.blocked %}<p class="blocked"><b>Blocked here:</b> {{ c.ways.blocked }}</p>{% endif %}
+    {% if c.ways.blocked %}<p class="blocked"><b>{{ t('blocked_here') }}</b> {{ c.ways.blocked }}</p>{% endif %}
     {% if c.ways.routes %}
     <ol class="routes">
       {% for r in c.ways.routes %}
-      <li>{% if r.detail %}<details><summary><b>{{ r.title }}</b>{% if r.line %}<span>{{ r.line }}</span>{% endif %}<em>more</em></summary><p>{{ r.detail }}</p></details>
+      <li>{% if r.detail %}<details><summary><b>{{ r.title }}</b>{% if r.line %}<span>{{ r.line }}</span>{% endif %}<em>{{ t('more') }}</em></summary><p>{{ r.detail }}</p></details>
         {% else %}<b>{{ r.title }}</b>{% if r.line %}<span>{{ r.line }}</span>{% endif %}{% endif %}</li>
       {% endfor %}
     </ol>
     {% endif %}
     {% if c.ways.closing %}<p class="closing">{{ c.ways.closing }}</p>{% endif %}
-    <p class="dont"><b>Don't</b> borrow someone else's account, use a foreign address or a VPN to look like you live elsewhere. It breaks the platforms' rules, money gets frozen, and it can break the law.</p>
-    <details class="src-block"><summary>Sources</summary>{{ srclist(c.ways.sources) }}<p class="note">Built from each platform's official country list on the dates shown. The "don't" advice is ours.</p></details>
+    <p class="dont">{{ t('dont') }}</p>
+    <details class="src-block"><summary>{{ t('sources') }}</summary>{{ srclist(c.ways.sources) }}<p class="note">{{ t('ways_note') }}</p></details>
   </div>
 </section>
 {% endif %}
 
 <section class="sec">
-  <h2>Every option</h2>
+  <h2>{{ t('every_option') }}</h2>
   <div>
     <table class="options">
-      <caption class="vh">Payment services in {{ c.name }}</caption>
-      {{ services("When a client pays you", c.client_tiles) }}
-      {{ services("When you sell products", c.sell_tiles) }}
+      <caption class="vh">{{ t('options_caption', country=c.name) }}</caption>
+      {{ services(t('when_client_pays'), c.client_tiles) }}
+      {{ services(t('when_you_sell'), c.sell_tiles) }}
     </table>
-    <p class="note">Select a row for its sources.</p>
+    <p class="note">{{ t('select_row') }}</p>
   </div>
 </section>
 
 <section class="sec">
-  <h2>Paperwork</h2>
+  <h2>{{ t('paperwork') }}</h2>
   {{ lines(c.before) }}
 </section>
 
 <section class="sec">
-  <h2>Also good to know</h2>
+  <h2>{{ t('also_good') }}</h2>
   {{ lines(c.more) }}
 </section>
 
 <section class="sec" id="alerts">
-  <h2>Get alerts</h2>
+  <h2>{{ t('get_alerts') }}</h2>
   <div>
-    <p class="intro">Get one email when anything on this page changes for {{ c.name }}: a service opens or closes, a tax rule moves, a new legal route appears.</p>
-    <form class="alert-form" method="post" action="{{ root }}api/subscribe" data-alerts>
+    <p class="intro">{{ t('alerts_intro', country=c.name) }}</p>
+    <form class="alert-form" method="post" action="{{ root }}api/subscribe" data-alerts data-ok="{{ t('alerts_ok') }}" data-err="{{ t('alerts_err') }}" data-net="{{ t('alerts_net') }}">
       <input type="hidden" name="country" value="{{ c.code }}">
-      <label class="vh" for="alert-email">Email address</label>
-      <input id="alert-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email">
-      <span class="hp" aria-hidden="true"><label>Leave empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></span>
-      <button type="submit">Email me changes</button>
-      <p class="note" data-alerts-msg>Only for {{ c.name }}. No spam, no sharing; unsubscribe any time. <a href="{{ root }}about/#privacy">Privacy</a>.</p>
+      <label class="vh" for="alert-email">{{ t('email_address') }}</label>
+      <input id="alert-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email" dir="ltr">
+      <span class="hp" aria-hidden="true"><label>{{ t('leave_empty') }} <input type="text" name="website" tabindex="-1" autocomplete="off"></label></span>
+      <button type="submit">{{ t('email_me') }}</button>
+      <p class="note" data-alerts-msg>{{ t('alerts_note', country=c.name) }} <a href="{{ base }}about/#privacy">{{ t('privacy') }}</a>.</p>
     </form>
   </div>
 </section>
