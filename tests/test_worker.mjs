@@ -67,4 +67,83 @@ r = await get('/api/subscribe', { method: 'POST', headers: { 'content-type': 'ap
 assert.equal(r.status, 303, 'no-JS form posts redirect back');
 assert.equal(r.headers.get('location'), 'https://example.test/kenya/?subscribed=1#alerts');
 
+// --- paid packs
+const packStore = new Map([['pack:PK', JSON.stringify({ product_id: 'prod-1', updated: '2026-10-31', html: '<h2>Secret steps</h2>' })]]);
+const puts = [];
+const PACKS = {
+  async get(k, type) { const v = packStore.get(k); return v && type === 'json' ? JSON.parse(v) : v ?? null; },
+  async put(k, v, opts) { packStore.set(k, v); puts.push([k, opts]); },
+};
+const sales = {
+  'GOOD-KEY-1': { uses: 1, purchase: { product_id: 'prod-1' } },
+  'REFUNDED-1': { uses: 1, purchase: { product_id: 'prod-1', refunded: true } },
+  'DISPUTED-1': { uses: 1, purchase: { product_id: 'prod-1', disputed: true } },
+  'WONDISPUTE': { uses: 1, purchase: { product_id: 'prod-1', disputed: true, dispute_won: true } },
+  'OTHERPROD1': { uses: 1, purchase: { product_id: 'prod-2' } },
+  'OVERUSED-1': { uses: 11, purchase: { product_id: 'prod-1' } },
+};
+const calls = [];
+let gumroadDown = false;
+globalThis.fetch = async (url, init) => {
+  assert.equal(url, 'https://api.gumroad.com/v2/licenses/verify');
+  const form = new URLSearchParams(init.body);
+  calls.push(Object.fromEntries(form));
+  if (gumroadDown) return new Response('oops', { status: 500 });
+  const sale = sales[form.get('license_key')];
+  if (!sale) return new Response(JSON.stringify({ success: false, message: 'That license does not exist.' }), { status: 404 });
+  return new Response(JSON.stringify({ success: true, ...sale }), { status: 200 });
+};
+const penv = { ASSETS, SIGNUPS, PACKS };
+const pack = async (body) => {
+  const res = await worker.fetch(new Request('https://example.test/api/pack', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) }), penv);
+  return [res.status, await res.json(), res];
+};
+
+let [st, d, res] = await pack({ country: 'PK', key: 'GOOD-KEY-1', fresh: true });
+assert.equal(st, 200);
+assert.match(d.html, /Secret steps/, 'a valid key opens the pack');
+assert.equal(res.headers.get('cache-control'), 'no-store', 'pack text is never cached');
+assert.match(res.headers.get('content-security-policy'), /default-src/);
+assert.equal(calls.at(-1).increment_uses_count, 'true', 'typing a key counts as an unlock');
+assert.equal(calls.at(-1).product_id, 'prod-1');
+assert.equal(puts.at(-1)[1].expirationTtl, 86400, 'the check is remembered for a day only');
+assert.ok(![...packStore.keys(), ...packStore.values()].some((v) => v.includes('GOOD-KEY-1')), 'the key itself is never stored');
+
+let before = calls.length;
+[st, d] = await pack({ country: 'pk', key: 'GOOD-KEY-1' });
+assert.equal(st, 200, 'quiet re-open works');
+assert.equal(calls.length, before, 'and uses the remembered check, not another Gumroad call');
+
+for (const [key, code] of [['NOSUCHKEY1', 'invalid'], ['REFUNDED-1', 'refunded'], ['DISPUTED-1', 'refunded'], ['OTHERPROD1', 'invalid'], ['OVERUSED-1', 'too_many']]) {
+  [st, d] = await pack({ country: 'PK', key, fresh: true });
+  assert.equal(st, 403, key);
+  assert.equal(d.code, code, key);
+  assert.equal(d.html, undefined, `${key} must not get the pack`);
+}
+[st] = await pack({ country: 'PK', key: 'WONDISPUTE', fresh: true });
+assert.equal(st, 200, 'a dispute the seller won keeps access');
+[st] = await pack({ country: 'PK', key: 'OVERUSED-1' });
+assert.equal(st, 200, 'the device limit only applies to typed keys');
+
+[st, d] = await pack({ country: 'PK', key: 'bad key!', fresh: true });
+assert.equal(st, 400, 'malformed key never reaches Gumroad');
+[st] = await pack({ country: 'NG', key: 'GOOD-KEY-1', fresh: true });
+assert.equal(st, 404, 'no pack for this country');
+[st] = await pack({ country: 'P', key: 'GOOD-KEY-1', fresh: true });
+assert.equal(st, 404);
+
+gumroadDown = true;
+[st, d] = await pack({ country: 'PK', key: 'FRESHKEY-9', fresh: true });
+assert.equal(st, 503, 'fails closed when Gumroad is down');
+assert.equal(d.code, 'unavailable');
+assert.equal(d.html, undefined);
+[st, d] = await pack({ country: 'PK', key: 'GOOD-KEY-1' });
+assert.equal(st, 200, 'a buyer already checked today still gets in during an outage');
+gumroadDown = false;
+
+r = await worker.fetch(new Request('https://example.test/api/pack'), penv);
+assert.equal(r.status, 405);
+r = await worker.fetch(new Request('https://example.test/api/pack', { method: 'POST', body: '{}' }), env);
+assert.equal(r.status, 404, 'no PACKS binding: nothing to sell');
+
 console.log('worker: OK');

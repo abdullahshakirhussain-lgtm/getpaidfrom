@@ -458,6 +458,15 @@ def answer_group(english_short):
     return "unclear"
 
 
+def live_packs():
+    """Packs on sale: those with a Gumroad product and link in data/packs.json. PACK_PREVIEW=1 shows all, for local checks."""
+    path = ROOT / "data" / "packs.json"
+    packs = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    if os.environ.get("PACK_PREVIEW"):
+        return packs
+    return {code: p for code, p in packs.items() if p.get("product_id") and p.get("url")}
+
+
 def compare_pages(views, lviews, tr, lang, st, total, checked):
     by_code = {v["code"]: v for v in views}
     srt = lambda rows: sorted(rows, key=lambda r: sort_key(r["country"], lang))  # noqa: E731
@@ -592,6 +601,7 @@ def main():
     latest = max(v["checked"] for v in views)
     sitemap = []
     st = site_stats(views)
+    packs = live_packs()
     suggest = {code: translators[code][0].t("suggest_lang") for code in built_langs}
     csv_kb, json_kb = export_data(views, OUT / "data", latest)
 
@@ -602,7 +612,7 @@ def main():
         common = {"site_url": SITE_URL, "built": built, "n_countries": len(lviews), "ver": ver, "t": tr.t, "lang": lang,
                   "dir": LANGS[lang][1], "langs": {k: LANGS[k][0] for k in built_langs}, "prefix": prefix,
                   "dirs": {k: LANGS[k][1] for k in built_langs}, "suggest": suggest, "og_locale": OG_LOCALE[lang],
-                  "is_404": False}
+                  "is_404": False, "en_only": False, "lang_path": "", "packs": packs}
 
         def write(outfile, template, depth, path, **ctx):
             (out / outfile).parent.mkdir(parents=True, exist_ok=True)
@@ -631,6 +641,14 @@ def main():
         write("index.html", "index.html", 0, "", letters=list(by_letter.items()), platforms=platform_pages, upwork=upwork_page,
               website_ld=website_ld)
         write("about/index.html", "about.html", 1, "about/")
+        # Paid packs: one English sales page per live pack. The pack text is never in the page (the Worker sends it after
+        # checking the key), so search engines and readers see the same thing and no paywall markup is needed.
+        if lang == "en":
+            for v in lviews:
+                if v["code"] in packs:
+                    write(f"{v['slug']}/pack/index.html", "pack.html", 2, f"{v['slug']}/pack/", c=v, pack=packs[v["code"]],
+                          en_only=True, lang_path=f"{v['slug']}/")
+                    sitemap.append((f"{v['slug']}/pack/", packs[v["code"]]["updated"]))
         # Not-found page: served for any unknown URL (the Worker picks the language), so every link is absolute.
         # English at /404.html (Cloudflare's not_found_handling); other languages at /<lang>/404/.
         write("404.html" if lang == "en" else "404/index.html", "404.html", 0, "", root=f"{SITE_URL}/",

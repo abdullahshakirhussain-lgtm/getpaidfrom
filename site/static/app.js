@@ -173,6 +173,42 @@
     }
   })();
 
+  // paid Country Pack: send the license key to our Worker, which checks it with Gumroad and returns the pack text.
+  // The browser remembers the key (no cookie), so the pack opens by itself next time.
+  (function () {
+    var form = document.querySelector('[data-pack]');
+    if (!form) return;
+    var body = document.querySelector('[data-pack-body]'), msg = form.querySelector('[data-pack-msg]');
+    var input = form.querySelector('input'), button = form.querySelector('button');
+    var name = 'gpf-pack-' + form.dataset.pack;
+    function saved() { try { return localStorage.getItem(name); } catch (e) { return null; } }
+    function keep(k) { try { if (k) localStorage.setItem(name, k); else localStorage.removeItem(name); } catch (e) { /* private window */ } }
+    function open(html) {
+      body.querySelector('[data-pack-text]').innerHTML = html;
+      body.hidden = false;
+      document.querySelectorAll('[data-pack-sales]').forEach(function (el) { el.hidden = true; });
+    }
+    function unlock(key, fresh) {
+      button.disabled = true;
+      return fetch(form.getAttribute('action'), {
+        method: 'POST', headers: {'content-type': 'application/json'},
+        body: JSON.stringify({country: form.dataset.pack, key: key, fresh: fresh})
+      }).then(function (r) { return r.json(); }).then(function (d) {
+        if (d.ok) { keep(key); open(d.html); return; }
+        if (d.code !== 'unavailable') keep(null);
+        msg.textContent = d.error;
+      }).catch(function () { msg.textContent = form.dataset.net; }).then(function () { button.disabled = false; });
+    }
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      msg.textContent = '';
+      unlock(input.value.trim(), true);
+    });
+    document.querySelector('[data-pack-forget]').addEventListener('click', function () { keep(null); location.reload(); });
+    var key = saved();
+    if (key) unlock(key, false);
+  })();
+
   // rows in the options table open to show their sources
   function toggleRow(row, open) {
     var extra = row.nextElementSibling;

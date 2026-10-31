@@ -13,7 +13,6 @@
   "updated": "Diperbarui {date}",
   "translated_note": "Diterjemahkan dari bahasa Inggris. Jika ada perbedaan, halaman bahasa Inggris yang menjadi acuan.",
   "english_version": "Versi bahasa Inggris",
-
   "home_label": "Terima pembayaran dari",
   "home_placeholder": "negara Anda",
   "home_intro": "Layanan pembayaran mana yang berfungsi di tempat Anda tinggal, jebakan yang sering terjadi, dan urusan administrasinya. Setiap baris menautkan ke sumber publik.",
@@ -26,7 +25,6 @@
   "n_of_total": "{n} dari {total}",
   "upwork_link": "Upwork (menerima bayaran sebagai freelancer)",
   "open_in_n": "terbuka di {n}",
-
   "country_title": "{country}: cara menerima pembayaran lewat PayPal, Payoneer, Wise, Upwork, dan cara yang sah",
   "country_desc": "Bisakah Anda menerima pembayaran dari negara ini ({country})? Klien di luar negeri: {clients} Berjualan online: {selling} Dengan sumber.",
   "country_h1": "{country}: cara menerima pembayaran",
@@ -70,7 +68,6 @@
   "ways_line_n": "{n} cara sah tercantum.",
   "ways_line_n_upwork": "{n} cara sah tercantum, termasuk Upwork.",
   "ways_line_none": "Tidak ada cara yang mudah: lihat apa yang diblokir dan alasannya.",
-
   "label_tax_id": "Nomor pajak",
   "label_registering": "Pendaftaran",
   "label_vat": "PPN / GST",
@@ -82,18 +79,15 @@
   "label_data": "Perlindungan data",
   "label_consumer": "Berjualan online ke konsumen",
   "label_id": "Identitas untuk pendaftaran",
-
   "status_works": "Berfungsi",
   "status_likely": "Kemungkinan",
   "status_limited": "Terbatas",
   "status_unconfirmed": "Belum dikonfirmasi",
   "status_no": "Tidak tersedia",
-
   "platform_title": "Di mana {service} berfungsi? Negara demi negara",
   "platform_desc": "{service} berfungsi di {n} dari {total} negara yang kami cakup. Periksa negara Anda, lengkap dengan alasan dan sumbernya.",
   "platform_h1": "Di mana {service} berfungsi",
   "platform_intro": "Berfungsi di {n} dari {total} negara. Pilih negara untuk melihat alasan dan sumbernya.",
-
   "upwork_title": "Menerima bayaran dari Upwork, negara demi negara",
   "upwork_desc": "Upwork terbuka bagi freelancer di {n} dari {total} negara anggota PBB. Lihat apakah terbuka di negara Anda dan cara menerima uangnya, dengan sumber.",
   "upwork_h1": "Menerima bayaran dari Upwork",
@@ -105,7 +99,6 @@
   "upwork_reason_closed": "Ada dalam daftar negara terbatas Upwork.",
   "source": "Sumber",
   "upwork_source_note": "Upwork juga mengecualikan Krimea, yang disebut Donetsk dan Luhansk (DPR dan LPR), warga negara Kuba secara perorangan, orang yang terkena sanksi, dan tempat lain yang \"dibatasi oleh hukum\". Status layanan penerimaan diambil dari halaman setiap negara.",
-
   "about_title": "Cara kami memeriksa",
   "about_intro": "Setiap baris menautkan ke asalnya. Jika kami tidak menemukan sumber yang tepercaya, kami mengatakannya, bukan menebak.",
   "about_labels": "Arti label",
@@ -131,12 +124,10 @@
   "about_translation": "Halaman dalam bahasa lain diterjemahkan dari halaman bahasa Inggris. Angka, tarif, tanggal, nama resmi, dan nama layanan diperiksa secara otomatis terhadap versi bahasa Inggris. Detail riset yang panjang dan sumbernya tetap dalam bahasa Inggris. Jika terjemahan dan halaman bahasa Inggris berbeda, halaman bahasa Inggris yang menjadi acuan.",
   "about_logos_h": "Logo dan fon",
   "about_logos": "Logo adalah milik perusahaannya masing-masing dan hanya ditampilkan untuk menunjukkan layanan yang dibahas dalam sebuah baris. Kami tidak berafiliasi dengan satu pun dari mereka, dan tidak ada yang membayar untuk dicantumkan. Berkas logo berasal dari Simple Icons dan situs Polar sendiri. Fonnya adalah Newsreader, Atkinson Hyperlegible Next, dan Noto, semuanya berlisensi SIL Open Font License dan disajikan dari situs ini.",
-
   "notfound_title": "Halaman tidak ditemukan",
   "notfound_h1": "Tidak ada apa-apa di sini",
   "notfound_text": "Cari negara atau layanan di atas, atau",
   "notfound_home": "mulai dari halaman utama",
-
   "s_where_work": "Di mana {service} berfungsi?",
   "s_every_country": "Semua negara, dengan alasannya",
   "s_upwork": "Menerima bayaran dari Upwork",
@@ -145,7 +136,6 @@
   "s_see_details": "Lihat detailnya di halaman negara.",
   "s_ways": "Cara sah untuk menerima pembayaran",
   "s_in": "{thing} di {country}",
-
   "skip": "Lompat ke konten",
   "close": "Tutup",
   "suggest_lang": "Baca halaman ini dalam bahasa Indonesia",
@@ -198,5 +188,10 @@
   "data_fields": "Isinya",
   "data_fields_text": "Untuk setiap dari {total} negara anggota PBB: status dan alasan untuk masing-masing dari sembilan layanan pembayaran, apakah Upwork terbuka, jawaban singkat untuk setiap topik administrasi dan pajak, seberapa kuat sumbernya, dan tautan sumbernya. Teksnya dalam bahasa Inggris.",
   "data_cite_h": "Cara mengutip",
-  "about_no_affiliate": "Kami tidak memakai tautan afiliasi atau rujukan, jadi kami tidak mendapat uang apa pun saat Anda mendaftar ke sebuah layanan."
+  "about_no_affiliate": "Kami tidak memakai tautan afiliasi atau rujukan, jadi kami tidak mendapat uang apa pun saat Anda mendaftar ke sebuah layanan.",
+  "pack_h": "Paket negara",
+  "pack_text": "Rencana langkah demi langkah untuk {country}: apa yang dilakukan dulu, dokumen yang perlu disiapkan, langkah pajak, dan teks faktur yang bisa dipakai ulang. Dalam bahasa Inggris, {price} sekali bayar. Halaman ini tetap gratis.",
+  "pack_btn": "Lihat isinya",
+  "about_privacy_pack_b": "Paket negara.",
+  "about_privacy_pack": "Gumroad mengurus pembayaran dan tanda terima, jadi kami tidak pernah melihat kartu Anda. Untuk membuka paket, Anda memasukkan kunci lisensi. Browser Anda mengingatnya, dan kami hanya menyimpan salinan acak (hash) selama sehari agar tidak perlu menanyakan ke Gumroad setiap kali. Kami tidak menyimpan nama atau email Anda dari pembelian. Anda bisa menghapus kunci dengan tombol di dalam paket."
 }

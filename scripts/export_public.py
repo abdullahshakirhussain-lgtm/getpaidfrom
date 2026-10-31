@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 INCLUDE = [
     ".github/workflows/pages.yml", ".github/workflows/recheck.yml", ".gitignore", "README.md", "requirements.txt", "wrangler.toml",
     "data/countries", "data/countries.json", "data/research", "data/sources", "data/reference", "data/manual",
-    "data/mapping_audit.json", "data/display", "docs/RESEARCH_PROTOCOL.md", "docs/BLUEPRINT.md", "docs/DESIGN.md",
+    "data/mapping_audit.json", "data/packs.json", "data/display", "docs/RESEARCH_PROTOCOL.md", "docs/BLUEPRINT.md", "docs/DESIGN.md",
     "docs/TRANSLATION.md", "data/i18n",
     "scripts", "site/templates", "site/static", "site/logos", "site/indexnow-key.txt", "worker", "tests",
 ]

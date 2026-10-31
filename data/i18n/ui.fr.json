@@ -188,5 +188,10 @@
   "data_fields": "Contenu",
   "data_fields_text": "Pour chacun des {total} États membres de l'ONU : le statut et la raison pour chacun des neuf services de paiement, l'ouverture ou non d'Upwork, la réponse courte pour chaque thème de démarches et d'impôts, le niveau de sourçage et les liens vers les sources. Le texte est en anglais.",
   "data_cite_h": "Comment citer",
-  "about_no_affiliate": "Nous n'utilisons pas de liens d'affiliation ni de parrainage : rien ici ne nous rapporte d'argent quand vous vous inscrivez à un service."
+  "about_no_affiliate": "Nous n'utilisons pas de liens d'affiliation ni de parrainage : rien ici ne nous rapporte d'argent quand vous vous inscrivez à un service.",
+  "pack_h": "Pack pays",
+  "pack_text": "Un plan étape par étape pour ce pays ({country}) : par quoi commencer, les documents à préparer, les démarches fiscales et des modèles de facture réutilisables. En anglais, {price} en un seul paiement. Cette page reste gratuite.",
+  "pack_btn": "Voir le contenu",
+  "about_privacy_pack_b": "Packs pays.",
+  "about_privacy_pack": "Gumroad gère le paiement et le reçu : nous ne voyons jamais votre carte. Pour ouvrir un pack, vous saisissez votre clé de licence. Votre navigateur la garde en mémoire, et nous ne conservons qu'une copie brouillée (un hachage) pendant un jour pour ne pas interroger Gumroad à chaque fois. Nous ne conservons ni votre nom ni votre e-mail d'achat. Vous pouvez effacer la clé avec le bouton du pack."
 }

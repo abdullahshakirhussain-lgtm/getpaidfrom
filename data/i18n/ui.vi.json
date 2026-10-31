@@ -188,5 +188,10 @@
   "data_fields": "Bên trong có gì",
   "data_fields_text": "Với mỗi quốc gia trong {total} quốc gia thành viên Liên Hợp Quốc: trạng thái và lý do của từng dịch vụ trong chín dịch vụ thanh toán, Upwork có mở hay không, câu trả lời ngắn cho từng chủ đề thủ tục và thuế, mức độ có nguồn, và các liên kết nguồn. Nội dung bằng tiếng Anh.",
   "data_cite_h": "Cách trích dẫn",
-  "about_no_affiliate": "Chúng tôi không dùng liên kết tiếp thị liên kết hay giới thiệu, vì vậy không có gì ở đây mang lại tiền cho chúng tôi khi bạn đăng ký một dịch vụ."
+  "about_no_affiliate": "Chúng tôi không dùng liên kết tiếp thị liên kết hay giới thiệu, vì vậy không có gì ở đây mang lại tiền cho chúng tôi khi bạn đăng ký một dịch vụ.",
+  "pack_h": "Gói theo quốc gia",
+  "pack_text": "Kế hoạch từng bước cho {country}: làm gì trước, giấy tờ cần chuẩn bị, các bước về thuế và mẫu nội dung hóa đơn dùng lại được. Bằng tiếng Anh, {price} trả một lần. Trang này vẫn miễn phí.",
+  "pack_btn": "Xem nội dung gói",
+  "about_privacy_pack_b": "Gói theo quốc gia.",
+  "about_privacy_pack": "Gumroad xử lý thanh toán và biên lai, nên chúng tôi không bao giờ thấy thẻ của bạn. Để mở gói, bạn nhập khóa bản quyền. Trình duyệt của bạn ghi nhớ khóa này, và chúng tôi chỉ giữ một bản đã xáo trộn (hash) trong một ngày để không phải hỏi Gumroad mỗi lần. Chúng tôi không lưu tên hay email của bạn từ giao dịch mua. Bạn có thể xóa khóa bằng nút trong gói."
 }

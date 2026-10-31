@@ -72,8 +72,8 @@ class Translator:
         else:
             template = self.ui_map[key]
         if LANGS.get(self.lang, ("", "ltr"))[1] == "rtl":
-            # keep dates and numbers like 2026-10-25 in one left-to-right run, or the bidi algorithm flips them
-            kw = {k: f"⁦{v}⁩" if re.fullmatch(r"[\d\-/.,: ]+", str(v)) else v for k, v in kw.items()}
+            # keep dates, numbers and prices like 2026-10-25 or $19 in one left-to-right run, or the bidi algorithm flips them
+            kw = {k: f"⁦{v}⁩" if re.fullmatch(r"[$€£\d\-/.,: ]+", str(v)) else v for k, v in kw.items()}
         return template.format(**kw) if kw else template
 
     def text(self, english):

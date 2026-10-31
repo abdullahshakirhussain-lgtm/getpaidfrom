@@ -113,6 +113,16 @@
   {{ lines(c.more) }}
 </section>
 
+{% if c.code in packs %}
+<section class="sec" id="pack">
+  <h2>{{ t('pack_h') }}</h2>
+  <div>
+    <p class="intro">{{ t('pack_text', country=c.name, price=packs[c.code].price) }}</p>
+    <p><a class="buy" href="{{ root }}{{ c.slug }}/pack/" hreflang="en">{{ t('pack_btn') }}</a></p>
+  </div>
+</section>
+{% endif %}
+
 <section class="sec" id="alerts">
   <h2>{{ t('get_alerts') }}</h2>
   <div>

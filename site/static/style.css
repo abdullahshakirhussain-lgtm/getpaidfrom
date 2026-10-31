@@ -208,10 +208,27 @@ main { padding-bottom: 56px; }
 
 /* alerts form */
 .alert-form { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-.alert-form input[type=email] { flex: 1 1 240px; font: inherit; padding: 9px 11px; border: 1px solid #c9ccd2; border-radius: 6px; background: var(--paper); color: var(--ink); }
-.alert-form input[type=email]:focus { outline: none; border-color: var(--ink); box-shadow: 0 0 0 3px var(--hl); }
+.alert-form input[type=email], .alert-form input[type=text] { flex: 1 1 240px; font: inherit; padding: 9px 11px; border: 1px solid #c9ccd2; border-radius: 6px; background: var(--paper); color: var(--ink); }
+.alert-form input[type=email]:focus, .alert-form input[type=text]:focus { outline: none; border-color: var(--ink); box-shadow: 0 0 0 3px var(--hl); }
 .alert-form button { font: 700 1rem var(--sans); padding: 9px 16px; border: 0; border-radius: 6px; background: var(--ink); color: var(--paper); cursor: pointer; }
 .alert-form button:disabled { opacity: .6; cursor: default; }
+.linklike { background: none; border: 0; padding: 0; font: inherit; color: var(--grey); text-decoration: underline; cursor: pointer; }
+.prose ul { margin: 0 0 12px; max-width: 38em; padding-inline-start: 1.2em; }
+.prose li { margin: 5px 0; }
+[data-pack-sales][hidden] { display: none; }
+[data-pack-text] { margin-top: 10px; }
+.buy { display: inline-block; font: 700 1rem var(--sans); padding: 10px 18px; border-radius: 6px; background: var(--ink); color: var(--paper); text-decoration: none; }
+.buy:hover { color: var(--hl); }
+.pack-text { max-width: 44rem; }
+.pack-text h2 { font: 600 1.45rem/1.25 var(--serif); margin: 34px 0 10px; }
+.pack-text h3 { font: 700 1.05rem/1.35 var(--sans); margin: 22px 0 6px; }
+.pack-text li { margin: 6px 0; }
+.pack-text .box { border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; margin: 14px 0; }
+.pack-text .warn { border-inline-start: 4px solid var(--ink); background: #fff7c7; padding: 10px 14px; margin: 14px 0; }
+.pack-text pre { white-space: pre-wrap; font: .92rem/1.5 var(--sans); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; }
+.pack-text table { border-collapse: collapse; width: 100%; font-size: .95rem; margin: 12px 0; display: block; overflow-x: auto; }
+.pack-text th, .pack-text td { border-top: 1px solid var(--rule); padding: 8px 10px 8px 0; text-align: start; vertical-align: top; }
+.pack-text cite { font-style: normal; font-size: .82rem; color: var(--grey); }
 .alert-form .note { flex-basis: 100%; }
 .hp { position: absolute; inset-inline-start: -9999px; width: 1px; height: 1px; overflow: hidden; }
 

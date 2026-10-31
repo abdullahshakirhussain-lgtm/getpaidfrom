@@ -7,8 +7,8 @@
 <meta name="description" content="{% block description %}{{ t('meta_desc_default') }}{% endblock %}">
 {% if not is_404 %}
 <link rel="canonical" href="{{ site_url }}/{{ prefix }}{{ path }}">
-{% for code in langs %}<link rel="alternate" hreflang="{{ code }}" href="{{ site_url }}/{{ '' if code == 'en' else code ~ '/' }}{{ path }}">
-{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site_url }}/{{ path }}">
+{% if not en_only %}{% for code in langs %}<link rel="alternate" hreflang="{{ code }}" href="{{ site_url }}/{{ '' if code == 'en' else code ~ '/' }}{{ path }}">
+{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ site_url }}/{{ path }}">{% endif %}
 {% endif %}
 {% block robots %}{% endblock %}
 <meta property="og:type" content="website">
@@ -48,7 +48,7 @@
   {% if langs|length > 1 %}
   <details class="lang-pick" data-close="{{ t('close') }}">
     <summary><span class="vh">{{ t('language') }}: </span>{{ langs[lang] }}</summary>
-    <ul>{% for code, name in langs.items() %}<li><a href="{{ root }}{{ '' if code == 'en' else code ~ '/' }}{{ path }}" hreflang="{{ code }}" lang="{{ code }}" dir="{{ dirs[code] }}" data-suggest="{{ suggest[code] }}"{% if code == lang %} aria-current="true"{% endif %}>{{ name }}</a></li>{% endfor %}</ul>
+    <ul>{% for code, name in langs.items() %}<li><a href="{{ root }}{{ '' if code == 'en' else code ~ '/' }}{{ lang_path or path }}" hreflang="{{ code }}" lang="{{ code }}" dir="{{ dirs[code] }}" data-suggest="{{ suggest[code] }}"{% if code == lang %} aria-current="true"{% endif %}>{{ name }}</a></li>{% endfor %}</ul>
   </details>
   {% endif %}
 </header>

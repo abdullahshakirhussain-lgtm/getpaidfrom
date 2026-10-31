@@ -188,5 +188,10 @@
   "data_fields": "Qué contiene",
   "data_fields_text": "Para cada uno de los {total} Estados miembros de la ONU: el estado y el motivo de cada uno de los nueve servicios de pago, si Upwork está abierto, la respuesta corta de cada tema de papeleo e impuestos, lo bien respaldada que está y los enlaces a las fuentes. El texto está en inglés.",
   "data_cite_h": "Cómo citar",
-  "about_no_affiliate": "No usamos enlaces de afiliado ni de referidos, así que no ganamos nada cuando te das de alta en un servicio."
+  "about_no_affiliate": "No usamos enlaces de afiliado ni de referidos, así que no ganamos nada cuando te das de alta en un servicio.",
+  "pack_h": "Paquete del país",
+  "pack_text": "Un plan paso a paso para {country}: qué hacer primero, qué documentos preparar, los pasos de impuestos y textos de factura que puedes reutilizar. En inglés, {price} en un solo pago. Esta página sigue siendo gratis.",
+  "pack_btn": "Ver qué incluye",
+  "about_privacy_pack_b": "Paquetes por país.",
+  "about_privacy_pack": "Gumroad gestiona el pago y el recibo, así que nunca vemos tu tarjeta. Para abrir un paquete introduces tu clave de licencia. Tu navegador la recuerda, y nosotros solo guardamos una copia cifrada (un hash) durante un día para no tener que consultar a Gumroad cada vez. No guardamos tu nombre ni tu correo de la compra. Puedes borrar la clave con el botón del paquete."
 }

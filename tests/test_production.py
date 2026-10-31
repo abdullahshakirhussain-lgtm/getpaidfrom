@@ -91,11 +91,15 @@ def main():
             if not canon or canon[0].get("href") != want:
                 say(f"canonical should be {want}")
             alts = {a.get("hreflang"): a.get("href") for a in p.find("link", rel="alternate")}
-            for code in built:
+            if rel.endswith("/pack/index.html"):
+                if alts:
+                    say("English-only pack page must not list language alternates")
+                alts = None
+            for code in built if alts is not None else ():
                 href = alts.get(code)
                 if not href or not (DIST / urlsplit(href).path.lstrip("/") / "index.html").exists() and not href.endswith("/" + rel.replace("index.html", "")) :
                     say(f"hreflang {code} missing or points to a missing page")
-            if "x-default" not in alts:
+            if alts is not None and "x-default" not in alts:
                 say("no x-default hreflang")
         og = {a.get("property"): a.get("content") for a in p.find("meta") if a.get("property", "").startswith("og:")}
         for key in ("og:title", "og:description", "og:url", "og:image", "og:locale"):
@@ -120,6 +124,14 @@ def main():
             say("link to localhost or plain http on our own host")
         if f.stat().st_size > MAX_KB * 1024:
             say(f"{f.stat().st_size // 1024} KB, over {MAX_KB} KB")
+
+    # paid pack text must never reach the static site (playbook/ only exists in the private repo)
+    built_text = None
+    for source in sorted((DIST.parent.parent / "playbook" / "packs").glob("*.html")):
+        built_text = built_text or "\n".join(f.read_text(encoding="utf-8") for f in DIST.rglob("*") if f.suffix in {".html", ".json", ".js", ".csv"})
+        for line in re.findall(r"<(?:pre|h3)>([^<]{20,})", source.read_text(encoding="utf-8")):
+            if line.strip() in built_text:
+                problems.append(f"pack text from {source.name} is in the public site: {line.strip()[:50]!r}")
 
     # sitemap and robots
     sm = (DIST / "sitemap.xml").read_text(encoding="utf-8")

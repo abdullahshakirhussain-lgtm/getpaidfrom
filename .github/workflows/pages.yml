@@ -52,7 +52,7 @@ jobs:
       - run: python tests/test_site_links.py
       - run: python tests/test_production.py
       - run: node tests/test_worker.mjs
-      - name: Find or create the sign-ups KV namespace
+      - name: Find or create the KV namespaces
         if: steps.target.outputs.cloudflare == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

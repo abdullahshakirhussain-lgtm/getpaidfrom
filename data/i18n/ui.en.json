@@ -188,5 +188,10 @@
   "data_fields": "What's inside",
   "data_fields_text": "For each of the {total} UN member states: the status and reason for each of the nine payment services, whether Upwork is open, the short answer for each paperwork and tax topic, how well it's sourced, and the source links. The text is in English.",
   "data_cite_h": "How to cite",
-  "about_no_affiliate": "We don't use affiliate or referral links, so nothing here earns us money when you sign up for a service."
+  "about_no_affiliate": "We don't use affiliate or referral links, so nothing here earns us money when you sign up for a service.",
+  "pack_h": "Country Pack",
+  "pack_text": "A step-by-step plan for {country}: what to do first, the documents to prepare, the tax steps and invoice wording you can reuse. In English, {price} one payment. This page stays free.",
+  "pack_btn": "See what's inside",
+  "about_privacy_pack_b": "Country Packs.",
+  "about_privacy_pack": "Gumroad handles the payment and receipt, so we never see your card. To open a pack you enter your license key. Your browser remembers it, and we keep only a scrambled copy (a hash) for a day so we don't have to ask Gumroad every time. We don't store your name or email from the purchase. You can remove the key with the button in the pack."
 }

@@ -38,6 +38,7 @@
   <div class="prose">
     <p><b>{{ t('about_privacy_views_b') }}</b> {{ t('about_privacy_views') }}</p>
     <p><b>{{ t('about_privacy_alerts_b') }}</b> {{ t('about_privacy_alerts') }}</p>
+    <p><b>{{ t('about_privacy_pack_b') }}</b> {{ t('about_privacy_pack') }}</p>
     <form class="alert-form" method="post" action="{{ root }}api/unsubscribe" data-alerts data-unsub data-ok="{{ t('alerts_unsub_ok') }}" data-err="{{ t('alerts_err') }}" data-net="{{ t('alerts_net') }}">
       <label class="vh" for="unsub-email">{{ t('email_address') }}</label>
       <input id="unsub-email" type="email" name="email" required maxlength="254" placeholder="you@example.com" autocomplete="email" dir="ltr">

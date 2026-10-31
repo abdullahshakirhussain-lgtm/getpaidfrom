@@ -1,5 +1,7 @@
 // Get Paid From: Cloudflare Worker in front of the static site (site/dist).
 // - /api/subscribe, /api/unsubscribe: email alerts per country, stored in KV (binding SIGNUPS).
+// - /api/pack: opens a paid Country Pack after checking the buyer's Gumroad license key. Pack text lives only in KV
+//   (binding PACKS), never in the static site or the public repo.
 // - Page views: counted per page and visitor country in Analytics Engine (binding VIEWS). No cookies, no IP addresses.
 // - Unknown pages under /<lang>/ get that language's not-found page (status 404).
 // - Security headers on everything the Worker returns.
@@ -68,6 +70,63 @@ async function handleApi(request, env, path) {
   return wantsJson ? json({ ok: true }) : backTo(request, 'subscribed=1');
 }
 
+const VERIFY_URL = 'https://api.gumroad.com/v2/licenses/verify'; // no access token needed for this call
+const LICENSE_KEY = /^[A-Za-z0-9-]{8,64}$/;
+const MAX_UNLOCKS = 10; // Gumroad counts uses; the owner can reset a buyer's count from the Sales dashboard
+const CHECK_CACHE_SECONDS = 86400; // a refund stops access within a day
+
+async function sha256(text) {
+  const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(bytes)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+// 'ok' | 'invalid' | 'refunded' | 'too_many' | 'unavailable'
+async function checkLicense(env, productId, key, fresh) {
+  const cacheKey = 'lic:' + await sha256(productId + ':' + key); // the key itself is never stored
+  if (!fresh && await env.PACKS.get(cacheKey)) return 'ok';
+  let res, data;
+  try {
+    res = await fetch(env.GUMROAD_VERIFY_URL || VERIFY_URL, {
+      method: 'POST',
+      headers: { 'content-type': 'application/x-www-form-urlencoded' },
+      // a key typed into the form counts as one unlock; the browser quietly re-opening a pack doesn't
+      body: new URLSearchParams({ product_id: productId, license_key: key, increment_uses_count: fresh ? 'true' : 'false' }),
+    });
+    if (res.status === 404) return 'invalid';
+    if (!res.ok) return 'unavailable';
+    data = await res.json();
+  } catch (e) {
+    return 'unavailable';
+  }
+  const purchase = data.purchase || {};
+  if (!data.success || purchase.product_id !== productId) return 'invalid';
+  if (purchase.refunded || purchase.chargebacked || (purchase.disputed && !purchase.dispute_won)) return 'refunded';
+  if (fresh && data.uses > MAX_UNLOCKS) return 'too_many';
+  await env.PACKS.put(cacheKey, '1', { expirationTtl: CHECK_CACHE_SECONDS });
+  return 'ok';
+}
+
+const PACK_ERRORS = {
+  invalid: [403, 'That key doesn’t match this pack. Copy it from your Gumroad receipt, with the dashes.'],
+  refunded: [403, 'This purchase was refunded or disputed, so the key no longer opens the pack.'],
+  too_many: [403, 'This key has been used too many times. Email the support address on your Gumroad receipt and we’ll reset it.'],
+  unavailable: [503, 'We couldn’t check your key just now. Please try again in a few minutes.'],
+};
+
+async function handlePack(request, env) {
+  if (request.method !== 'POST') return json({ ok: false, error: 'Use POST.' }, 405);
+  const body = await request.json().catch(() => ({}));
+  const country = String(body.country || '').toUpperCase();
+  const key = String(body.key || '').trim();
+  if (!COUNTRY.test(country) || !env.PACKS) return json({ ok: false, error: 'This pack isn’t available.' }, 404);
+  if (!LICENSE_KEY.test(key)) return json({ ok: false, code: 'invalid', error: PACK_ERRORS.invalid[1] }, 400);
+  const pack = await env.PACKS.get('pack:' + country, 'json');
+  if (!pack) return json({ ok: false, error: 'This pack isn’t available.' }, 404);
+  const result = await checkLicense(env, pack.product_id, key, body.fresh === true);
+  if (result !== 'ok') return json({ ok: false, code: result, error: PACK_ERRORS[result][1] }, PACK_ERRORS[result][0]);
+  return json({ ok: true, html: pack.html, updated: pack.updated });
+}
+
 function countView(request, env, url) {
   if (!env.VIEWS || request.method !== 'GET') return;
   const ref = request.headers.get('referer');
@@ -86,6 +145,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname.startsWith('/api/')) {
       if (url.pathname === '/api/subscribe' || url.pathname === '/api/unsubscribe') return secured(await handleApi(request, env, url.pathname));
+      if (url.pathname === '/api/pack') return secured(await handlePack(request, env));
       return secured(json({ ok: false, error: 'Not found.' }, 404));
     }
     let response = await env.ASSETS.fetch(request);

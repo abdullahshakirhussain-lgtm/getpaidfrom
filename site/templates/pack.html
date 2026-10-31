@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}{{ pack.title }} | Get Paid From{% endblock %}
+{% block description %}{{ pack.summary }}{% endblock %}
+{% block main %}
+<p class="back"><a href="../">{{ c.name }}</a></p>
+<h1 class="sentence">{{ pack.title }}</h1>
+<p class="intro" data-pack-sales>{{ pack.summary }}</p>
+
+<section class="sec" data-pack-sales>
+  <h2>What's inside</h2>
+  <div class="prose">
+    <ul>{% for item in pack.contents %}<li>{{ item }}</li>{% endfor %}</ul>
+    <p>The <a href="../">{{ c.name }} page</a> stays free and shows what's true. This pack is the order to do it in, with the forms, documents and wording. Every fact links to its source.</p>
+  </div>
+</section>
+
+<section class="sec" id="buy" data-pack-sales>
+  <h2>Get it</h2>
+  <div>
+    <p><a class="buy" href="{{ pack.url or '#' }}" rel="noopener">Buy for {{ pack.price }}</a></p>
+    <p class="note">One payment through Gumroad, which handles the card and sales tax. Your country's discount, if there is one, shows at checkout. <a href="#refunds">14-day refunds</a>.</p>
+  </div>
+</section>
+
+<section class="sec" id="refunds" data-pack-sales>
+  <h2>Refunds</h2>
+  <div class="prose">
+    <p>If the pack doesn't help you, you can get a full refund within 14 days of buying, and you don't need to give a reason. Email the support address on your Gumroad receipt with your order details. The money goes back to how you paid; card refunds usually take 5 to 10 business days to appear. Once refunded, your key stops opening the pack within a day. This doesn't affect any rights your local law gives you.</p>
+  </div>
+</section>
+
+<section class="sec" id="unlock" data-pack-sales>
+  <h2>Already bought it?</h2>
+  <div>
+    <p class="intro">Enter the license key from your Gumroad receipt. This browser will remember it.</p>
+    <form class="alert-form" action="{{ root }}api/pack" data-pack="{{ c.code }}" data-net="We couldn't reach the server. Please try again.">
+      <label class="vh" for="pack-key">License key</label>
+      <input id="pack-key" type="text" required maxlength="64" placeholder="XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX" autocomplete="off" spellcheck="false" dir="ltr">
+      <button type="submit">Open the pack</button>
+      <p class="note" data-pack-msg aria-live="polite"></p>
+    </form>
+    <noscript><p class="note">Opening the pack needs JavaScript switched on.</p></noscript>
+  </div>
+</section>
+
+<div data-pack-body hidden>
+  <div class="pack-text" data-pack-text></div>
+  <p class="note">Not legal, tax or financial advice. Rules change, so check the linked source before you act.</p>
+  <p><button type="button" class="linklike" data-pack-forget>Remove my key from this browser</button></p>
+</div>
+{% endblock %}
